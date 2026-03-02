@@ -3,6 +3,9 @@ import { ShieldCheck, Anchor, TrendingUp, CheckCircle2 } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
+import overview from "../../../assets/Government Registration/iec-registration/overview.jpg";
+import benefits from "../../../assets/Government Registration/iec-registration/benefits.jpg";
+import process from "../../../assets/Government Registration/iec-registration/process.jpeg";
 
 const IECOverview = () => {
     return (
@@ -31,7 +34,7 @@ const IECOverview = () => {
                     </div>
                     <div className="flex justify-center lg:justify-end">
                         <img
-                            src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&q=80"
+                            src={overview}
                             alt="IEC Registration Overview"
                             className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-sm"
                         />
@@ -59,7 +62,7 @@ const IECAdvantages = () => {
                     </p>
                     <div className="mt-10">
                         <img
-                            src="https://images.unsplash.com/photo-1586528116311-ad8ed7c80a30?auto=format&fit=crop&q=80"
+                            src={benefits}
                             alt="IEC Registration Benefits"
                             className="w-full rounded-2xl shadow-xl"
                         />
@@ -214,7 +217,7 @@ const IECProcessSection = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
                     <div className="lg:col-span-1">
                         <img
-                            src="https://images.unsplash.com/photo-1587293852726-70cd59c7ce00?auto=format&fit=crop&q=80"
+                            src={process}
                             alt="IEC Registration Process"
                             className="w-full rounded-lg shadow-sm sticky top-32"
                         />

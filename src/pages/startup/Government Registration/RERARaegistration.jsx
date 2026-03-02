@@ -3,6 +3,9 @@ import { Building2, ShieldCheck, CheckCircle2, Handshake } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
+import benefits from "../../../assets/Government Registration/rera-registration/benefits.jpg";
+import overview from "../../../assets/Government Registration/rera-registration/overview.jpeg";
+import process from "../../../assets/Government Registration/rera-registration/process.jpg";
 
 const RERAOverview = () => {
     return (
@@ -31,7 +34,7 @@ const RERAOverview = () => {
                     </div>
                     <div className="flex justify-center lg:justify-end">
                         <img
-                            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80"
+                            src={overview}
                             alt="RERA Registration Overview"
                             className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-sm"
                         />
@@ -59,7 +62,7 @@ const RERAAdvantages = () => {
                     </p>
                     <div className="mt-10">
                         <img
-                            src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80"
+                            src={benefits}
                             alt="RERA Registration Benefits"
                             className="w-full rounded-2xl shadow-xl"
                         />
@@ -207,7 +210,7 @@ const RERAProcessSection = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
                     <div className="lg:col-span-1">
                         <img
-                            src="https://images.unsplash.com/photo-1541888081600-0220fc5cda85?auto=format&fit=crop&q=80"
+                            src={process}
                             alt="RERA Registration Process"
                             className="w-full rounded-lg shadow-sm sticky top-32"
                         />

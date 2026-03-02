@@ -3,6 +3,9 @@ import { Building2, ShieldCheck, CheckCircle2, TrendingUp } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
+import benefits from "../../../assets/Government Registration/nsic-registration/benefits.jpg";
+import overview from "../../../assets/Government Registration/nsic-registration/overview.jpg";
+import process from "../../../assets/Government Registration/nsic-registration/process.jpg";
 
 const NSICOverview = () => {
     return (
@@ -31,7 +34,7 @@ const NSICOverview = () => {
                     </div>
                     <div className="flex justify-center lg:justify-end">
                         <img
-                            src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&q=80"
+                            src={overview}
                             alt="NSIC Registration Overview"
                             className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-sm"
                         />
@@ -59,7 +62,7 @@ const NSICAdvantages = () => {
                     </p>
                     <div className="mt-10">
                         <img
-                            src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80"
+                            src={benefits}
                             alt="NSIC Registration Benefits"
                             className="w-full rounded-2xl shadow-xl"
                         />
@@ -205,7 +208,7 @@ const NSICProcessSection = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
                     <div className="lg:col-span-1">
                         <img
-                            src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80"
+                            src={process}
                             alt="NSIC Registration Process"
                             className="w-full rounded-lg shadow-sm sticky top-32"
                         />

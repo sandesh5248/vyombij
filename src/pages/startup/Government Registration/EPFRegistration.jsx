@@ -3,6 +3,11 @@ import { Users, ShieldCheck, Briefcase, Calculator } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
+import benefits from "../../../assets/Government Registration/epf-registration/benefits.jpg";
+import benefits1 from "../../../assets/Government Registration/epf-registration/benefits1.webp";
+import epfregistration from "../../../assets/Government Registration/epf-registration/epf-registration.jpeg";
+import esiregistration from "../../../assets/Government Registration/epf-registration/esi-registration.png";
+import procedure from "../../../assets/Government Registration/epf-registration/procedure.jpeg";
 
 const EPFOverview = () => {
     return (
@@ -31,7 +36,7 @@ const EPFOverview = () => {
                     </div>
                     <div className="flex justify-center lg:justify-end">
                         <img
-                            src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80"
+                            src={epfregistration}
                             alt="EPF Registration Overview"
                             className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-sm"
                         />
@@ -59,7 +64,7 @@ const EPFAdvantages = () => {
                     </p>
                     <div className="mt-10">
                         <img
-                            src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&q=80"
+                            src={benefits}
                             alt="EPF Registration Benefits"
                             className="w-full rounded-2xl shadow-xl"
                         />
@@ -220,7 +225,7 @@ const EPFProcessSection = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
                     <div className="lg:col-span-1">
                         <img
-                            src="https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&q=80"
+                            src={procedure}
                             alt="EPF Registration Process"
                             className="w-full rounded-lg shadow-sm sticky top-32"
                         />
