@@ -3,6 +3,9 @@ import { Users, Briefcase, Building2 } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
+import polandBenefits from "../../../assets/Global Incorporation/ Company Registration in Poland/benefits.png";
+import polandOverview from "../../../assets/Global Incorporation/ Company Registration in Poland/overview.png";
+import polandProcess from "../../../assets/Global Incorporation/ Company Registration in Poland/process.png";
 
 /**
  * CompanyRegistrationPoland Page matching USAIncorporation layout
@@ -39,7 +42,7 @@ const CompanyRegistrationPolandOverview = () => {
                     </div>
                     <div className="flex justify-center lg:justify-end">
                         <img
-                            src="https://images.unsplash.com/photo-1519197924294-cc3a4f785c99?auto=format&fit=crop&q=80"
+                            src={polandOverview}
                             alt="Poland Company Registration Overview"
                             className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-sm"
                         />
@@ -67,7 +70,7 @@ const CompanyRegistrationPolandAdvantages = () => {
                     </p>
                     <div className="mt-10">
                         <img
-                            src="https://images.unsplash.com/photo-1519197924294-cc3a4f785c99?auto=format&fit=crop&q=80"
+                            src={polandBenefits}
                             alt="Poland Company Registration Advantages"
                             className="w-full rounded-2xl shadow-xl"
                         />
@@ -186,7 +189,7 @@ const PolandIncorporationProcessSection = () => {
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
                     <div className="lg:col-span-1">
-                        <img src="https://images.unsplash.com/photo-1519197924294-cc3a4f785c99?auto=format&fit=crop&q=80" alt="Poland Company Registration Process" className="w-full rounded-lg shadow-sm" />
+                        <img src={polandProcess} alt="Poland Company Registration Process" className="w-full rounded-lg shadow-sm" />
                     </div>
                     <div className="lg:col-span-2">
                         {steps.map((step, index) => (

@@ -2,6 +2,10 @@ import { Users, Briefcase, Building2 } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
+import benefits from "../../../assets/Global Incorporation/Company Registration in Mauritius/benefits.png";
+import overview from "../../../assets/Global Incorporation/Company Registration in Mauritius/overview.png";
+import process from "../../../assets/Global Incorporation/Company Registration in Mauritius/process.png";
+
 
 const CompanyRegistrationMauritiusOverview = () => {
     return (
@@ -33,7 +37,7 @@ const CompanyRegistrationMauritiusOverview = () => {
                     </div>
                     <div className="flex justify-center lg:justify-end">
                         <img
-                            src="https://images.unsplash.com/photo-1589828156895-3ca37c59528d?auto=format&fit=crop&q=80"
+                            src={overview}
                             alt="Mauritius Company Registration Overview"
                             className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-sm"
                         />
@@ -61,7 +65,7 @@ const CompanyRegistrationMauritiusAdvantages = () => {
                     </p>
                     <div className="mt-10">
                         <img
-                            src="https://images.unsplash.com/photo-1572025442646-866d16c84a54?auto=format&fit=crop&q=80"
+                            src={benefits}
                             alt="Mauritius Company Registration Advantages"
                             className="w-full rounded-2xl shadow-xl"
                         />
@@ -180,7 +184,7 @@ const MauritiusIncorporationProcessSection = () => {
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
                     <div className="lg:col-span-1">
-                        <img src="https://images.unsplash.com/photo-1589828156895-3ca37c59528d?auto=format&fit=crop&q=80" alt="Mauritius Company Registration Process" className="w-full rounded-lg shadow-sm" />
+                        <img src={process} alt="Mauritius Company Registration Process" className="w-full rounded-lg shadow-sm" />
                     </div>
                     <div className="lg:col-span-2">
                         {steps.map((step, index) => (

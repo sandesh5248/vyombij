@@ -3,6 +3,9 @@ import { Users, Briefcase, Building2 } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
+import benefits from "../../../assets/Global Incorporation/Company Registration in Canada/benefits.png";
+import overview from "../../../assets/Global Incorporation/Company Registration in Canada/overview.png";
+import process from "../../../assets/Global Incorporation/Company Registration in Canada/process.png";
 
 /**
  * CompanyRegistrationCanada Page matching USAIncorporation layout
@@ -39,7 +42,7 @@ const CompanyRegistrationCanadaOverview = () => {
                     </div>
                     <div className="flex justify-center lg:justify-end">
                         <img
-                            src="https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&q=80"
+                            src={overview}
                             alt="Canada Company Registration Overview"
                             className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-sm"
                         />
@@ -67,7 +70,7 @@ const CompanyRegistrationCanadaAdvantages = () => {
                     </p>
                     <div className="mt-10">
                         <img
-                            src="https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&q=80"
+                            src={benefits}
                             alt="Canada Company Registration Advantages"
                             className="w-full rounded-2xl shadow-xl"
                         />
@@ -186,7 +189,7 @@ const CanadaIncorporationProcessSection = () => {
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
                     <div className="lg:col-span-1">
-                        <img src="https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&q=80" alt="Canada Company Registration Process" className="w-full rounded-lg shadow-sm" />
+                        <img src={process} alt="Canada Company Registration Process" className="w-full rounded-lg shadow-sm" />
                     </div>
                     <div className="lg:col-span-2">
                         {steps.map((step, index) => (

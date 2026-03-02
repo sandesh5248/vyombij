@@ -3,6 +3,10 @@ import { Users, Briefcase, Building2 } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
+import benefits from "../../../assets/Global Incorporation/Company Registration in Japan/benefits.png";
+import overview from "../../../assets/Global Incorporation/Company Registration in Japan/overview.png";
+import process from "../../../assets/Global Incorporation/Company Registration in Japan/process.png";
+
 
 /**
  * CompanyRegistrationJapan Page matching USAIncorporation layout
@@ -39,7 +43,7 @@ const CompanyRegistrationJapanOverview = () => {
                     </div>
                     <div className="flex justify-center lg:justify-end">
                         <img
-                            src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&q=80"
+                            src={overview}
                             alt="Japan Company Registration Overview"
                             className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-sm"
                         />
@@ -67,7 +71,7 @@ const CompanyRegistrationJapanAdvantages = () => {
                     </p>
                     <div className="mt-10">
                         <img
-                            src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&q=80"
+                            src={benefits}
                             alt="Japan Company Registration Advantages"
                             className="w-full rounded-2xl shadow-xl"
                         />
@@ -187,7 +191,7 @@ const JapanIncorporationProcessSection = () => {
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
                     <div className="lg:col-span-1">
-                        <img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&q=80" alt="Japan Company Registration Process" className="w-full rounded-lg shadow-sm" />
+                        <img src={process} alt="Japan Company Registration Process" className="w-full rounded-lg shadow-sm" />
                     </div>
                     <div className="lg:col-span-2">
                         {steps.map((step, index) => (
