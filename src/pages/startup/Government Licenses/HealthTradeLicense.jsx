@@ -3,6 +3,9 @@ import { ShieldCheck, Crosshair, HeartPulse } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
+import benefits from "../../../assets/Government Licenses/health-trade-license/benefits.png";
+import health from "../../../assets/Government Licenses/health-trade-license/health.jpg";
+import municipal from "../../../assets/Government Licenses/health-trade-license/municipal.jpeg";
 
 const HealthOverview = () => {
     return (
@@ -31,7 +34,7 @@ const HealthOverview = () => {
                     </div>
                     <div className="flex justify-center lg:justify-end">
                         <img
-                            src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&q=80"
+                            src={health}
                             alt="Health Trade License Overview"
                             className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-sm"
                         />
@@ -59,7 +62,7 @@ const HealthAdvantages = () => {
                     </p>
                     <div className="mt-10">
                         <img
-                            src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80"
+                            src={benefits}
                             alt="Health License Features"
                             className="w-full rounded-2xl shadow-xl"
                         />
@@ -206,7 +209,7 @@ const HealthProcessSection = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
                     <div className="lg:col-span-1">
                         <img
-                            src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80"
+                            src={municipal}
                             alt="Health License Process"
                             className="w-full rounded-lg shadow-sm sticky top-32"
                         />

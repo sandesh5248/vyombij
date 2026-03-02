@@ -3,6 +3,9 @@ import { ShieldCheck, Anchor, Music } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
+import benefits from "../../../assets/Government Licenses/music-license/benefits.jpeg";
+import overview from "../../../assets/Government Licenses/music-license/overview.jpg";
+import process from "../../../assets/Government Licenses/music-license/process.jpg";
 
 const MusicOverview = () => {
     return (
@@ -31,7 +34,7 @@ const MusicOverview = () => {
                     </div>
                     <div className="flex justify-center lg:justify-end">
                         <img
-                            src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80"
+                            src={overview}
                             alt="Music License Overview"
                             className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-sm"
                         />
@@ -59,7 +62,7 @@ const MusicAdvantages = () => {
                     </p>
                     <div className="mt-10">
                         <img
-                            src="https://images.unsplash.com/photo-1516280440503-625d97f374ea?auto=format&fit=crop&q=80"
+                            src={benefits}
                             alt="Music License Benefits"
                             className="w-full rounded-2xl shadow-xl"
                         />
@@ -216,7 +219,7 @@ const MusicProcessSection = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
                     <div className="lg:col-span-1">
                         <img
-                            src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&q=80"
+                            src={process}
                             alt="Music License Process"
                             className="w-full rounded-lg shadow-sm sticky top-32"
                         />

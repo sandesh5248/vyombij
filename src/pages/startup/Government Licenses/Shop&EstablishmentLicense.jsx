@@ -2,6 +2,9 @@ import { Users, Briefcase, Building2 } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
+import benefits from "../../../assets/Government Licenses/shop-establishment-license/benefits.jpeg";
+import overview from "../../../assets/Government Licenses/shop-establishment-license/overview.png";
+import process from "../../../assets/Government Licenses/shop-establishment-license/process.png";
 
 /**
  * ShopAndEstablishmentLicense Page matching Vyombiz layout styles
@@ -43,7 +46,7 @@ const ShopActOverview = () => {
                     </div>
                     <div className="flex justify-center lg:justify-end">
                         <img
-                            src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80"
+                            src={overview}
                             alt="Shop and Establishment Overview"
                             className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-sm"
                         />
@@ -71,7 +74,7 @@ const ShopActAdvantages = () => {
                     </p>
                     <div className="mt-10">
                         <img
-                            src="https://images.unsplash.com/photo-1664575602276-acd073f1301c?auto=format&fit=crop&q=80"
+                            src={benefits}
                             alt="Shop Act Benefits"
                             className="w-full rounded-2xl shadow-xl"
                         />
@@ -288,7 +291,7 @@ const ShopActProcessSection = () => {
                     {/* Left Image */}
                     <div className="lg:col-span-1">
                         <img
-                            src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80"
+                            src={process}
                             alt="Shop Act Process"
                             className="w-full rounded-lg shadow-sm sticky top-32"
                         />

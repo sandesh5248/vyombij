@@ -3,6 +3,9 @@ import { ShieldCheck, Anchor, Fingerprint } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
+import benefits from "../../../assets/Government Licenses/psara-license/benefits.jpg";
+import overview from "../../../assets/Government Licenses/psara-license/overview.jpg";
+import process from "../../../assets/Government Licenses/psara-license/process.jpg";
 
 const PSARAOverview = () => {
     return (
@@ -31,7 +34,7 @@ const PSARAOverview = () => {
                     </div>
                     <div className="flex justify-center lg:justify-end">
                         <img
-                            src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&q=80"
+                            src={overview}
                             alt="PSARA License Overview"
                             className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-sm"
                         />
@@ -59,7 +62,7 @@ const PSARAAdvantages = () => {
                     </p>
                     <div className="mt-10">
                         <img
-                            src="https://images.unsplash.com/photo-1534120247760-c44c3e4a62f1?auto=format&fit=crop&q=80"
+                            src={benefits}
                             alt="PSARA Benefits"
                             className="w-full rounded-2xl shadow-xl"
                         />
@@ -222,7 +225,7 @@ const PSARAProcessSection = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
                     <div className="lg:col-span-1">
                         <img
-                            src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80"
+                            src={process}
                             alt="PSARA Process"
                             className="w-full rounded-lg shadow-sm sticky top-32"
                         />
