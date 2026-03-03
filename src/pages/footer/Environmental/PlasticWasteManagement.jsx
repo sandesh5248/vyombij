@@ -23,7 +23,7 @@ const PlasticWasteManagement = () => {
             desc: "After receiving the EPR Authorisation for plastic waste management, every producer, brand owner, importer, recycler, plastic trader, and plastic manufacturer must meet ongoing EPR post compliance obligations.",
             price: "499.00",
             icon: <ClipboardCheck className="w-8 h-8 text-[#005a9c]" />,
-            path: "/epr-post-compliancelastic-waste"
+            path: "/epr-post-compliance-plastic-waste"
         },
         {
             title: "Plastic Waste Recycling Plant & PWM",
