@@ -3,6 +3,9 @@ import { HardHat, ShieldCheck, CheckCircle2, Car } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
+import benefits from "../../../assets/ISO Certifications/iso-39001-certification/benefits.jpg";
+import overview from "../../../assets/ISO Certifications/iso-39001-certification/overview.jpg";
+import process from "../../../assets/ISO Certifications/iso-39001-certification/process.jpg";
 
 const ISO39001Overview = () => {
     return (
@@ -31,7 +34,7 @@ const ISO39001Overview = () => {
                     </div>
                     <div className="flex justify-center lg:justify-end">
                         <img
-                            src="https://images.unsplash.com/photo-1544620347-c4fd09b49e7a?auto=format&fit=crop&q=80"
+                            src={overview}
                             alt="ISO 39001 Overview"
                             className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-sm"
                         />
@@ -59,7 +62,7 @@ const ISO39001Advantages = () => {
                     </p>
                     <div className="mt-10">
                         <img
-                            src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&q=80"
+                            src={benefits}
                             alt="ISO 39001 Benefits"
                             className="w-full rounded-2xl shadow-xl"
                         />
@@ -206,7 +209,7 @@ const ISO39001ProcessSection = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
                     <div className="lg:col-span-1">
                         <img
-                            src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80"
+                            src={process}
                             alt="ISO 39001 Process"
                             className="w-full rounded-lg shadow-sm sticky top-32"
                         />

@@ -3,6 +3,9 @@ import { Award, ShieldCheck, CheckCircle2, Globe } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
+import cert from "../../../assets/ISO Certifications/iso-27001-isms/cert.png";
+import meaning from "../../../assets/ISO Certifications/iso-27001-isms/meaning.jpeg";
+import overview from "../../../assets/ISO Certifications/iso-27001-isms/overview.jpg";
 
 const ISO27001Overview = () => {
     return (
@@ -31,7 +34,7 @@ const ISO27001Overview = () => {
                     </div>
                     <div className="flex justify-center lg:justify-end">
                         <img
-                            src="https://images.unsplash.com/photo-1550592704-6c76defa99ce?auto=format&fit=crop&q=80"
+                            src={overview}
                             alt="ISO 27001 Overview"
                             className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-sm"
                         />
@@ -59,7 +62,7 @@ const ISO27001Meaning = () => {
                     </p>
                     <div className="mt-10">
                         <img
-                            src="https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&q=80"
+                            src={meaning}
                             alt="ISO 27001 ISMS Meaning"
                             className="w-full rounded-2xl shadow-xl"
                         />
@@ -269,7 +272,7 @@ const ISO27001ProcessSection = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
                     <div className="lg:col-span-1">
                         <img
-                            src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80"
+                            src={cert}
                             alt="ISO 27001 Certification Process"
                             className="w-full rounded-lg shadow-sm sticky top-32"
                         />

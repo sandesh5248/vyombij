@@ -3,6 +3,9 @@ import { Award, ShieldCheck, CheckCircle2, Globe } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
+import measures from "../../../assets/ISO Certifications/iso-37001-2016-certification/measures.jpg";
+import overview from "../../../assets/ISO Certifications/iso-37001-2016-certification/overview.png";
+import process from "../../../assets/ISO Certifications/iso-37001-2016-certification/process.jpg";
 
 const ISO37001Overview = () => {
     return (
@@ -31,7 +34,7 @@ const ISO37001Overview = () => {
                     </div>
                     <div className="flex justify-center lg:justify-end">
                         <img
-                            src="https://images.unsplash.com/photo-1550592704-6c76defa99ce?auto=format&fit=crop&q=80"
+                            src={overview}
                             alt="ISO 37001 Overview"
                             className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-sm"
                         />
@@ -59,7 +62,7 @@ const ISO37001Requirements = () => {
                     </p>
                     <div className="mt-10">
                         <img
-                            src="https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&q=80"
+                            src={measures}
                             alt="ISO 37001 Compliance Measures"
                             className="w-full rounded-2xl shadow-xl"
                         />
@@ -162,7 +165,7 @@ const ISO37001ProcessSection = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
                     <div className="lg:col-span-1">
                         <img
-                            src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80"
+                            src={process}
                             alt="ISO 37001 Certification Process"
                             className="w-full rounded-lg shadow-sm sticky top-32"
                         />

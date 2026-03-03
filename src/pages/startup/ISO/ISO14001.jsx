@@ -3,6 +3,9 @@ import { HardHat, ShieldCheck, CheckCircle2, Leaf, Recycle } from "lucide-react"
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
+import overview from "../../../assets/ISO Certifications/iso-14001-ems/overview.png";
+import benefits from "../../../assets/ISO Certifications/iso-14001-ems/benefits.png";
+import process from "../../../assets/ISO Certifications/iso-14001-ems/process.jpg";
 
 const ISO14001Overview = () => {
     return (
@@ -31,7 +34,7 @@ const ISO14001Overview = () => {
                     </div>
                     <div className="flex justify-center lg:justify-end">
                         <img
-                            src="https://images.unsplash.com/photo-1402804364005-ee22874100dc?auto=format&fit=crop&q=80"
+                            src={overview}
                             alt="ISO 14001 Overview"
                             className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-sm"
                         />
@@ -59,7 +62,7 @@ const ISO14001Advantages = () => {
                     </p>
                     <div className="mt-10">
                         <img
-                            src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80"
+                            src={benefits}
                             alt="ISO 14001 Benefits"
                             className="w-full rounded-2xl shadow-xl"
                         />
@@ -207,7 +210,7 @@ const ISO14001ProcessSection = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
                     <div className="lg:col-span-1">
                         <img
-                            src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80"
+                            src={process}
                             alt="ISO 14001 Process"
                             className="w-full rounded-lg shadow-sm sticky top-32"
                         />

@@ -3,6 +3,9 @@ import { HardHat, ShieldCheck, CheckCircle2, HeartPulse } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
+import benefits from "../../../assets/ISO Certifications/iso-45001-2018/benefits.png";
+import overview from "../../../assets/ISO Certifications/iso-45001-2018/overview.jpg";
+import process from "../../../assets/ISO Certifications/iso-45001-2018/process.png";
 
 const ISO45001Overview = () => {
     return (
@@ -31,7 +34,7 @@ const ISO45001Overview = () => {
                     </div>
                     <div className="flex justify-center lg:justify-end">
                         <img
-                            src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80"
+                            src={overview}
                             alt="ISO 45001 Overview"
                             className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-sm"
                         />
@@ -59,7 +62,7 @@ const ISO45001Advantages = () => {
                     </p>
                     <div className="mt-10">
                         <img
-                            src="https://images.unsplash.com/photo-1534073828943-f801091bb18a?auto=format&fit=crop&q=80"
+                            src={benefits}
                             alt="ISO 45001 Benefits"
                             className="w-full rounded-2xl shadow-xl"
                         />
@@ -201,7 +204,7 @@ const ISO45001ProcessSection = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
                     <div className="lg:col-span-1">
                         <img
-                            src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80"
+                            src={process}
                             alt="ISO 45001 Process"
                             className="w-full rounded-lg shadow-sm sticky top-32"
                         />

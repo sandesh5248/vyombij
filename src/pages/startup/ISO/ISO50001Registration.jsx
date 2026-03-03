@@ -3,6 +3,9 @@ import { Zap, ShieldCheck, CheckCircle2, Factory } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
+import benefits from "../../../assets/ISO Certifications/iso-50001-energy-management/benefits.png";
+import overview from "../../../assets/ISO Certifications/iso-50001-energy-management/overview.png";
+import plan from "../../../assets/ISO Certifications/iso-50001-energy-management/plan.jpg";
 
 const ISO50001Overview = () => {
     return (
@@ -31,7 +34,7 @@ const ISO50001Overview = () => {
                     </div>
                     <div className="flex justify-center lg:justify-end">
                         <img
-                            src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80"
+                            src={overview}
                             alt="ISO 50001 Overview"
                             className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-sm"
                         />
@@ -59,7 +62,7 @@ const ISO50001Advantages = () => {
                     </p>
                     <div className="mt-10">
                         <img
-                            src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&q=80"
+                            src={benefits}
                             alt="ISO 50001 Benefits"
                             className="w-full rounded-2xl shadow-xl"
                         />
@@ -166,7 +169,7 @@ const ISO50001ProcessSection = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
                     <div className="lg:col-span-1">
                         <img
-                            src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80"
+                            src={plan}
                             alt="ISO 50001 Process"
                             className="w-full rounded-lg shadow-sm sticky top-32"
                         />

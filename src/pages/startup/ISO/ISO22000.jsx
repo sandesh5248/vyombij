@@ -3,6 +3,9 @@ import { HardHat, ShieldCheck, CheckCircle2, Factory, Utensils } from "lucide-re
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
+import benefits from "../../../assets/ISO Certifications/iso 22000 fsms certification logo png/benefits.jpg";
+import overview from "../../../assets/ISO Certifications/iso 22000 fsms certification logo png/overview.jpg";
+import process from "../../../assets/ISO Certifications/iso 22000 fsms certification logo png/process.jpg"
 
 const ISO22000Overview = () => {
     return (
@@ -31,7 +34,7 @@ const ISO22000Overview = () => {
                     </div>
                     <div className="flex justify-center lg:justify-end">
                         <img
-                            src="https://images.unsplash.com/photo-1588611911598-a895b6c8ba02?auto=format&fit=crop&q=80"
+                            src={overview}
                             alt="ISO 22000 Overview"
                             className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-sm"
                         />
@@ -59,7 +62,7 @@ const ISO22000Advantages = () => {
                     </p>
                     <div className="mt-10">
                         <img
-                            src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80"
+                            src={benefits}
                             alt="ISO 22000 Benefits"
                             className="w-full rounded-2xl shadow-xl"
                         />
@@ -201,7 +204,7 @@ const ISO22000ProcessSection = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
                     <div className="lg:col-span-1">
                         <img
-                            src="https://images.unsplash.com/photo-1621644026330-97eb3363f8bb?auto=format&fit=crop&q=80"
+                            src={process}
                             alt="ISO 22000 Process"
                             className="w-full rounded-lg shadow-sm sticky top-32"
                         />
