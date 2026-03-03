@@ -30,7 +30,7 @@ const PlasticWasteManagement = () => {
             desc: "Looking for a plastic waste recycling plant setup in India? Contact VyomBiz to transform plastic waste into an eco-friendly business opportunity. Assisted in 100+ plant setups.",
             price: "499.00",
             icon: <Factory className="w-8 h-8 text-[#005a9c]" />,
-            path: "/plastic-waste-recycling-plant-wm"
+            path: "/plastic-waste-recycling-plant-pwm"
         },
         {
             title: "Plastic Waste Processors Authorisation",

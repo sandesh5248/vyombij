@@ -188,7 +188,7 @@ const EnvironmentalRoutes = [
     <Route key="epr-fulfilment-for-plastic-waste-management" path="/epr-fulfilment-for-plastic-waste-management" element={<EPRFulfilmentForPlasticWasteManagement />} />,
     <Route key="epr-post-compliance-plastic-waste" path="/epr-post-compliance-plastic-waste" element={<EPRPostCompliancePlasticWaste />} />,
     <Route key="plastic-waste-processors-authorisation" path="/plastic-waste-processors-authorisation" element={<PlasticWasteProcessorsAuthorisation />} />,
-    <Route key="plastic-waste-recycling-plant-wm" path="/plastic-waste-recycling-plant-wm" element={<PlasticWasteRecyclingPlantWM />} />,
+    <Route key="plastic-waste-recycling-plant-pwm" path="/plastic-waste-recycling-plant-pwm" element={<PlasticWasteRecyclingPlantWM />} />,
     <Route key="cgwa-water-boring" path="/cgwa-water-boring" element={<CGWAWaterBoring />} />,
     <Route key="consent-for-establishment-from-spcb" path="/consent-for-establishment-cfe-from-spcb" element={<ConsentForEstablishmentFromSPCB />} />,
     <Route key="delhi-pollution-control-committee" path="/delhi-pollution-control-committee" element={<DelhiPollutionControlCommittee />} />,
