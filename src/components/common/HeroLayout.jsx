@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Phone, Star, CheckCircle2, ChevronRight, Users, Scale, ThumbsUp, Briefcase } from 'lucide-react';
+import { stateCityData } from "../../data/stateCityData";
 
 /**
  * Universal Hero Layout for Registration Pages
@@ -23,8 +24,9 @@ const HeroLayout = ({
         name: "",
         email: "",
         phone: "",
+        state: "",
         city: "",
-        state: ""
+        cityOther: ""
     });
     const [errors, setErrors] = useState({});
     const [isSuccess, setIsSuccess] = useState(false);
@@ -52,12 +54,14 @@ const HeroLayout = ({
             newErrors.phone = "Exactly 10 digits required";
         }
 
-        if (!/^[a-zA-Z\s]+$/.test(formData.city)) {
-            newErrors.city = "Only letters allowed";
-        }
-
         if (!formData.state) {
             newErrors.state = "State is required";
+        }
+
+        if (formData.city === "") {
+            newErrors.city = "City is required";
+        } else if (formData.city === "Other" && (!/^[a-zA-Z\s]+$/.test(formData.cityOther) || formData.cityOther.trim() === '')) {
+            newErrors.cityOther = "Valid city name is required";
         }
 
         setErrors(newErrors);
@@ -69,6 +73,10 @@ const HeroLayout = ({
         if (name === 'phone') {
             const numericValue = value.replace(/\D/g, '').slice(0, 10);
             setFormData(prev => ({ ...prev, [name]: numericValue }));
+        } else if (name === 'state') {
+            setFormData(prev => ({ ...prev, state: value, city: "", cityOther: "" }));
+        } else if (name === 'city') {
+            setFormData(prev => ({ ...prev, city: value, cityOther: "" }));
         } else {
             setFormData(prev => ({ ...prev, [name]: value }));
         }
@@ -89,13 +97,13 @@ My Details:
 - Name: ${formData.name}
 - Email: ${formData.email}
 - Phone: ${formData.phone}
-- City: ${formData.city}
-- State: ${formData.state}`;
+- State: ${formData.state}
+- City: ${formData.city === "Other" ? formData.cityOther : formData.city}`;
         const whatsappLink = `https://wa.me/918448909389?text=${encodeURIComponent(text)}`;
         window.open(whatsappLink, "_blank");
 
         setIsSuccess(true);
-        setFormData({ name: "", email: "", phone: "", city: "", state: "" });
+        setFormData({ name: "", email: "", phone: "", state: "", city: "", cityOther: "" });
     };
 
     return (
@@ -230,59 +238,57 @@ My Details:
                                         />
                                         {errors.phone && <p className="text-red-500 text-[11px] font-bold mt-1 ml-1">{errors.phone}</p>}
                                     </div>
-                                    <div className="flex gap-4">
-                                        <div className="relative w-1/2">
-                                            <input
-                                                type="text"
-                                                name="city"
-                                                placeholder="City"
-                                                value={formData.city}
-                                                onChange={handleChange}
-                                                required
-                                                className={`w-full px-5 py-4 rounded-xl border ${errors.city ? 'border-red-400 bg-red-50/20' : 'border-slate-300 bg-slate-50'} focus:border-[#005a9c] focus:bg-white outline-none transition-all placeholder:text-slate-400 text-slate-700 font-medium`}
-                                            />
-                                            {errors.city && <p className="text-red-500 text-[11px] font-bold mt-1 ml-1">{errors.city}</p>}
+                                    <div className="flex flex-col gap-4">
+                                        <div className="flex gap-4">
+                                            <div className="relative w-1/2">
+                                                <select
+                                                    name="state"
+                                                    className={`w-full px-5 py-4 rounded-xl border ${errors.state ? 'border-red-400 bg-red-50/20' : 'border-slate-300 bg-slate-50'} focus:border-[#005a9c] focus:bg-white outline-none transition-all text-slate-700 font-medium appearance-none`}
+                                                    value={formData.state}
+                                                    onChange={handleChange}
+                                                    required
+                                                >
+                                                    <option value="" disabled hidden>Select State</option>
+                                                    {Object.keys(stateCityData).sort().map(state => (
+                                                        <option key={state} value={state}>{state}</option>
+                                                    ))}
+                                                </select>
+                                                {errors.state && <p className="text-red-500 text-[11px] font-bold mt-1 ml-1">{errors.state}</p>}
+                                            </div>
+
+                                            <div className="relative w-1/2">
+                                                <select
+                                                    name="city"
+                                                    className={`w-full px-5 py-4 rounded-xl border ${errors.city ? 'border-red-400 bg-red-50/20' : 'border-slate-300 bg-slate-50'} focus:border-[#005a9c] focus:bg-white outline-none transition-all text-slate-700 font-medium appearance-none ${!formData.state ? 'opacity-50 cursor-not-allowed' : ''}`}
+                                                    value={formData.city}
+                                                    onChange={handleChange}
+                                                    required
+                                                    disabled={!formData.state}
+                                                >
+                                                    <option value="" disabled hidden>Select City</option>
+                                                    {formData.state && stateCityData[formData.state]?.sort().map(city => (
+                                                        <option key={city} value={city}>{city}</option>
+                                                    ))}
+                                                    {formData.state && <option value="Other">Other (Please Specify)</option>}
+                                                </select>
+                                                {errors.city && <p className="text-red-500 text-[11px] font-bold mt-1 ml-1">{errors.city}</p>}
+                                            </div>
                                         </div>
-                                        <div className="relative w-1/2">
-                                            <select
-                                                name="state"
-                                                className={`w-full px-5 py-4 rounded-xl border ${errors.state ? 'border-red-400 bg-red-50/20' : 'border-slate-300 bg-slate-50'} focus:border-[#005a9c] focus:bg-white outline-none transition-all text-slate-700 font-medium appearance-none`}
-                                                value={formData.state}
-                                                onChange={handleChange}
-                                                required
-                                            >
-                                                <option value="" disabled hidden>Select State</option>
-                                                <option value="Andhra Pradesh">Andhra Pradesh</option>
-                                                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-                                                <option value="Assam">Assam</option>
-                                                <option value="Bihar">Bihar</option>
-                                                <option value="Chhattisgarh">Chhattisgarh</option>
-                                                <option value="Goa">Goa</option>
-                                                <option value="Gujarat">Gujarat</option>
-                                                <option value="Haryana">Haryana</option>
-                                                <option value="Himachal Pradesh">Himachal Pradesh</option>
-                                                <option value="Jharkhand">Jharkhand</option>
-                                                <option value="Karnataka">Karnataka</option>
-                                                <option value="Kerala">Kerala</option>
-                                                <option value="Madhya Pradesh">Madhya Pradesh</option>
-                                                <option value="Maharashtra">Maharashtra</option>
-                                                <option value="Manipur">Manipur</option>
-                                                <option value="Meghalaya">Meghalaya</option>
-                                                <option value="Mizoram">Mizoram</option>
-                                                <option value="Nagaland">Nagaland</option>
-                                                <option value="Odisha">Odisha</option>
-                                                <option value="Punjab">Punjab</option>
-                                                <option value="Rajasthan">Rajasthan</option>
-                                                <option value="Sikkim">Sikkim</option>
-                                                <option value="Tamil Nadu">Tamil Nadu</option>
-                                                <option value="Telangana">Telangana</option>
-                                                <option value="Tripura">Tripura</option>
-                                                <option value="Uttar Pradesh">Uttar Pradesh</option>
-                                                <option value="Uttarakhand">Uttarakhand</option>
-                                                <option value="West Bengal">West Bengal</option>
-                                            </select>
-                                            {errors.state && <p className="text-red-500 text-[11px] font-bold mt-1 ml-1">{errors.state}</p>}
-                                        </div>
+
+                                        {formData.city === "Other" && (
+                                            <div className="relative w-full animate-fadeIn">
+                                                <input
+                                                    type="text"
+                                                    name="cityOther"
+                                                    placeholder="Enter your city name"
+                                                    value={formData.cityOther}
+                                                    onChange={handleChange}
+                                                    required
+                                                    className={`w-full px-5 py-4 rounded-xl border ${errors.cityOther ? 'border-red-400 bg-red-50/20' : 'border-slate-300 bg-slate-50'} focus:border-[#005a9c] focus:bg-white outline-none transition-all placeholder:text-slate-400 text-slate-700 font-medium`}
+                                                />
+                                                {errors.cityOther && <p className="text-red-500 text-[11px] font-bold mt-1 ml-1">{errors.cityOther}</p>}
+                                            </div>
+                                        )}
                                     </div>
 
                                     <div className="text-[11px] text-center text-slate-400 font-bold uppercase tracking-wider">

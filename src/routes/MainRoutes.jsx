@@ -17,6 +17,7 @@ const Publications = lazy(() => import('../pages/resources/Publications'));
 
 const Regulatory = lazy(() => import('../pages/regulatory/Regulatory'));
 const Environmental = lazy(() => import('../pages/environmental/Environmental'));
+const Pricing = lazy(() => import('../pages/pricing/price'));
 const NotFound = lazy(() => import('../pages/error/NotFound'));
 
 const BusinessRegistration = lazy(() => import('../pages/footer/BusinessRegistration'));
@@ -91,6 +92,7 @@ const MainRoutes = [
     ...pendingPaths.map(path => <Route key={`pending-${path}`} path={path} element={<Pending />} />),
 
     <Route key="general-info" path="/general-info" element={<GeneralInfo />} />,
+    <Route key="pricing" path="/price" element={<Pricing />} />,
     <Route key="not-found" path="*" element={<NotFound />} />,
 ];
 
