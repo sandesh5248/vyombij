@@ -3,9 +3,9 @@ import { ShieldAlert, Gavel, Scale, FileText } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
-import benefits from "../../../assets/Trademarks India /Trademark Opposition Services/benefits.png";
-import overview from "../../../assets/Trademarks India /Trademark Opposition Services/overview.png";
-import process from "../../../assets/Trademarks India /Trademark Opposition Services/process.png";
+import benefits from "../../../assets/Trademarks India/Trademark Opposition Services/benefits.png";
+import overview from "../../../assets/Trademarks India/Trademark Opposition Services/overview.png";
+import process from "../../../assets/Trademarks India/Trademark Opposition Services/process.png";
 
 /**
  * TrademarkOpposition Page matching Vyombiz layout styles

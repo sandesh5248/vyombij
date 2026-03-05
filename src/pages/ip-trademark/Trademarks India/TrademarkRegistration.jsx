@@ -4,9 +4,9 @@ import { ShieldCheck, Award, Globe, Search, FileText, CheckCircle, Clock, Users 
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
-import benefits from "../../../assets/Trademarks India /Trademark Registration in India/benefits.png";
-import overview from "../../../assets/Trademarks India /Trademark Registration in India/overview.png";
-import process from "../../../assets/Trademarks India /Trademark Registration in India/process.png";
+import benefits from "../../../assets/Trademarks India/Trademark Registration in India/benefits.png";
+import overview from "../../../assets/Trademarks India/Trademark Registration in India/overview.png";
+import process from "../../../assets/Trademarks India/Trademark Registration in India/process.png";
 
 // Placeholder for the missing image
 const overviewImg = overview;

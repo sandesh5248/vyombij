@@ -3,9 +3,9 @@ import { Search, List, Globe, ShieldCheck } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
-import advantages from "../../../assets/Trademarks India /Trademark Class Finder Tool/advantages.png";
-import overview from "../../../assets/Trademarks India /Trademark Class Finder Tool/overview.jpg";
-import process from "../../../assets/Trademarks India /Trademark Class Finder Tool/process.png";
+import advantages from "../../../assets/Trademarks India/Trademark Class Finder Tool/advantages.png";
+import overview from "../../../assets/Trademarks India/Trademark Class Finder Tool/overview.jpg";
+import process from "../../../assets/Trademarks India/Trademark Class Finder Tool/process.png";
 
 /**
  * TrademarkClassesFinder Page matching Vyombiz layout styles

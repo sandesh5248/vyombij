@@ -3,9 +3,9 @@ import { UserCheck, FileText, Globe, Scale } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
-import benefits from "../../../assets/Trademarks India /Trademark Assignment/benefits.png";
-import overview from "../../../assets/Trademarks India /Trademark Assignment/overview.png";
-import process from "../../../assets/Trademarks India /Trademark Assignment/process.png";
+import benefits from "../../../assets/Trademarks India/Trademark Assignment/benefits.png";
+import overview from "../../../assets/Trademarks India/Trademark Assignment/overview.png";
+import process from "../../../assets/Trademarks India/Trademark Assignment/process.png";
 /**
  * TrademarkAssignment Page matching Vyombiz layout styles
  * Sections:

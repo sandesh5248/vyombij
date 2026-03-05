@@ -3,9 +3,9 @@ import { Users, Briefcase, Building2 } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
-import benefits from "../../../assets/Trademarks India /Intellectual Property Dispute /benefits.png";
-import overview from "../../../assets/Trademarks India /Intellectual Property Dispute /overview.jpg";
-import process from "../../../assets/Trademarks India /Intellectual Property Dispute /process.jpg";
+import benefits from "../../../assets/Trademarks India/Intellectual Property Dispute/benefits.png";
+import overview from "../../../assets/Trademarks India/Intellectual Property Dispute/overview.jpg";
+import process from "../../../assets/Trademarks India/Intellectual Property Dispute/process.jpg";
 
 /**
  * IntellectualPropertyDispute Page matching Vyombiz layout styles
