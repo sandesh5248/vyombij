@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { 
+import { Link } from 'react-router-dom';
+import {
     CheckCircle, ArrowRight, Star, Search, Quote, FileText, CreditCard, UserCheck, Mail, Shield, Building2, Droplets, Zap, Settings, PlayCircle, HardDrive, RefreshCcw, Leaf, FileCheck, Globe, Factory, ClipboardCheck
 } from 'lucide-react';
 
@@ -8,32 +9,36 @@ const BatteryWasteManagement = () => {
 
     const services = [
         {
-                "title": "New Lead Acid Battery Import License",
-                "desc": "New Lead Acid Battery Import License New Lead Acid Battery Import license is necessary to deal in import of lead acid batteries. The importers need to apply to the CPCB for obtaining..",
-                "price": "499.00",
-                icon: <FileCheck className='w-8 h-8 text-[#005a9c]' />
+            "title": "New Lead Acid Battery Import License",
+            "desc": "New Lead Acid Battery Import License New Lead Acid Battery Import license is necessary to deal in import of lead acid batteries. The importers need to apply to the CPCB for obtaining..",
+            "price": "499.00",
+            icon: <FileCheck className='w-8 h-8 text-[#005a9c]' />,
+            link: "/new-lead-acid-battery-import-license"
         },
         {
-                "title": "Lithium-Ion Battery Import License",
-                "desc": "Lithium-Ion Battery Import License Lithium-ion battery import license is necessary to deal in import of Lithium-ion batteries.",
-                "price": "499.00",
-                icon: <FileCheck className='w-8 h-8 text-[#005a9c]' />
+            "title": "Lithium-Ion Battery Import License",
+            "desc": "Lithium-Ion Battery Import License Lithium-ion battery import license is necessary to deal in import of Lithium-ion batteries.",
+            "price": "499.00",
+            icon: <FileCheck className='w-8 h-8 text-[#005a9c]' />,
+            link: "/lithium-ion-battery-import-license"
         },
         {
-                "title": "Registration for Lead Acid Battery Recycling",
-                "desc": "Registration for Lead Acid Battery Recycling Lead Acid Battery Recycling is necessary to avoid major environmental hazard.",
-                "price": "499.00",
-                icon: <RefreshCcw className='w-8 h-8 text-[#005a9c]' />
+            "title": "Registration for Lead Acid Battery Recycling",
+            "desc": "Registration for Lead Acid Battery Recycling Lead Acid Battery Recycling is necessary to avoid major environmental hazard.",
+            "price": "499.00",
+            icon: <RefreshCcw className='w-8 h-8 text-[#005a9c]' />,
+            link: "/registration-for-lead-acid-battery-recycling"
         },
         {
-                "title": "Registration for Scrap Battery Import",
-                "desc": "Registration for Scrap Battery Import Anyone who wants to deal in scrap battery import must secure registration for such import. Contact VyomBiz to know the registration process for i..",
-                "price": "499.00",
-                icon: <Zap className='w-8 h-8 text-[#005a9c]' />
+            "title": "Registration for Scrap Battery Import",
+            "desc": "Registration for Scrap Battery Import Anyone who wants to deal in scrap battery import must secure registration for such import. Contact VyomBiz to know the registration process for i..",
+            "price": "499.00",
+            icon: <Zap className='w-8 h-8 text-[#005a9c]' />,
+            link: "/registration-for-scrap-battery-import"
         }
-];
+    ];
 
-    const filteredServices = services.filter(service => 
+    const filteredServices = services.filter(service =>
         service.title.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
@@ -49,12 +54,12 @@ const BatteryWasteManagement = () => {
                         <p className="text-xl text-slate-600 mb-8 max-w-2xl leading-relaxed font-medium">
                             Looking for Battery Waste Management Solutions? VyomBiz is the best platform you can approach for tailored solutions
                         </p>
-                        
+
                         <div className="flex flex-col sm:flex-row items-center gap-4 mb-8">
                             <div className="relative w-full sm:w-[400px]">
-                                <input 
-                                    type="text" 
-                                    placeholder="Search Your Services" 
+                                <input
+                                    type="text"
+                                    placeholder="Search Your Services"
                                     className="w-full pl-12 pr-4 py-4 rounded-xl border-2 border-slate-200 focus:border-[#005a9c] focus:outline-none text-lg font-medium"
                                     value={searchTerm}
                                     onChange={(e) => setSearchTerm(e.target.value)}
@@ -66,7 +71,7 @@ const BatteryWasteManagement = () => {
                                 Search
                             </button>
                         </div>
-                        
+
                         <div className="flex items-center gap-2 text-slate-600 font-semibold bg-slate-50 inline-block px-4 py-2 rounded-lg border border-slate-100">
                             <div className="flex text-yellow-500">
                                 <Star fill="currentColor" size={20} />
@@ -108,7 +113,7 @@ const BatteryWasteManagement = () => {
                             (We make technical compliance certifications effortless and convenient.)
                         </p>
                     </div>
-                    
+
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {filteredServices.map((service, index) => (
                             <div key={index} className="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-2xl hover:border-[#FFE90A]/40 hover:-translate-y-2 transition-all duration-500 flex flex-col h-full group relative">
@@ -119,20 +124,20 @@ const BatteryWasteManagement = () => {
                                     </div>
                                     <h3 className="text-xl font-bold text-[#072b47] mb-4 group-hover:text-[#005a9c] transition-colors line-clamp-2">{service.title}</h3>
                                     <p className="text-slate-600 text-[15px] leading-relaxed mb-8 flex-grow font-medium line-clamp-3">{service.desc}</p>
-                                    
+
                                     <div className="mt-auto pt-6 border-t border-slate-100">
                                         <div className="flex items-end gap-2 mb-6">
                                             <span className="text-[12px] uppercase tracking-widest font-black text-slate-400 mb-1">Starting</span>
                                             <span className="text-[#dead01] text-2xl font-black drop-shadow-sm leading-none">₹{service.price}</span>
                                         </div>
                                         <div className="flex flex-wrap lg:flex-nowrap items-center justify-between gap-4">
-                                            <button className="w-full lg:w-auto flex-1 bg-[#005a9c] hover:bg-[#072b47] text-white px-5 py-3 rounded-xl text-sm font-bold transition-all shadow-md active:scale-[0.97] whitespace-nowrap">
+                                            <Link to={service.link} className="w-full lg:w-auto flex-1 bg-[#005a9c] hover:bg-[#072b47] text-white px-5 py-3 rounded-xl text-sm font-bold transition-all shadow-md active:scale-[0.97] whitespace-nowrap text-center">
                                                 Get Started Free
-                                            </button>
-                                            <button className="text-[#005a9c] font-bold text-sm flex items-center gap-1.5 group/read transition-all hover:text-[#072b47] whitespace-nowrap">
+                                            </Link>
+                                            <Link to={service.link} className="text-[#005a9c] font-bold text-sm flex items-center gap-1.5 group/read transition-all hover:text-[#072b47] whitespace-nowrap">
                                                 <span>Read more</span>
                                                 <ArrowRight className="w-4 h-4 group-hover/read:translate-x-1" />
-                                            </button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -147,14 +152,14 @@ const BatteryWasteManagement = () => {
                 </div>
             </section>
 
-                        {/* WORKING PROCESS */}
+            {/* WORKING PROCESS */}
             <section className="py-20 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl md:text-5xl font-black text-[#010101] mb-6">Our Working Process</h2>
                         <div className="w-24 h-1 bg-[#f1a129] mx-auto mb-12"></div>
                     </div>
-                    
+
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         {[
                             { icon: <FileText className="w-12 h-12 text-white mb-4" strokeWidth={1.5} />, title: "Fill Up Application Form", bg: "bg-[#0b5387]" },

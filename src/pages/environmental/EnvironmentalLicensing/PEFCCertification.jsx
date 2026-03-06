@@ -1,151 +1,173 @@
 import React from 'react';
-import { CheckCircle, ArrowRight, Rocket, Smile, MapPin, PieChart, Shield } from 'lucide-react';
-
-const services = [
-    { title: "P E F C Certification Consultation", desc: "Expert guidance and consultation for obtaining your P E F C Certification smoothly and efficiently.", price: "₹2,999" },
-    { title: "Application Preparation", desc: "Complete documentation preparation and application filing for Environmental Licensing compliance.", price: "₹4,999" },
-    { title: "Follow-up & Liaison", desc: "Regular follow-ups with relevant authorities to ensure faster processing of your application.", price: "₹3,499" },
-    { title: "Compliance Audit", desc: "Pre-application audit to ensure your premises/business meets all statutory requirements.", price: "₹5,999" },
-    { title: "Renewal Submissions", desc: "Timely submission of renewal applications to prevent lapses in your compliance status.", price: "₹1,999" },
-    { title: "Annual Returns Filing", desc: "Preparation and filing of statutory annual returns and compliance reports as mandated.", price: "₹2,499" },
-];
+import HeroLayout from '../../../components/common/HeroLayout';
+import DetailsLayout from '../../../components/common/DetailsLayout';
+import FAQLayout from '../../../components/common/FAQLayout';
+import ReviewsSection from '../../../components/common/ReviewsSection';
 
 const PEFCCertification = () => {
     return (
-        <div className="bg-white min-h-screen font-sans">
-            <section className="relative min-h-[90vh] bg-white flex items-center pt-24 pb-12 overflow-hidden">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col lg:flex-row items-center gap-12 mb-20">
-                    <div className="w-full lg:w-[60%]">
-                        <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#005a9c]/10 border border-[#005a9c]/20 rounded-full text-[#005a9c] text-sm font-bold uppercase tracking-wider mb-8">
-                            <Shield size={16} /><span>Environmental Licensing Services</span>
-                        </div>
-                        <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-[#072b47] leading-[1.1] mb-8">
-                            P <br className="hidden md:block" />
-                            <span className="text-[#dead01]">E F C Certification</span>
-                        </h1>
-                        <p className="text-xl text-slate-600 mb-12 max-w-2xl leading-relaxed font-medium">
-                            End-to-end support for P E F C Certification. We manage the entire lifecycle of compliance to ensure your business operations remain uninterrupted and legally sound.
-                        </p>
-                        <div className="flex flex-wrap gap-4 mb-8">
-                            {["Certification", "Compliance", "Advisory", "Renewals"].map((tag, i) => (
-                                <span key={i} className="px-4 py-2 bg-slate-100 text-[#072b47] rounded-full text-sm font-bold">{tag}</span>
-                            ))}
-                        </div>
-                        <button className="bg-[#005a9c] text-white px-12 py-5 rounded-2xl font-bold text-xl hover:bg-blue-700 shadow-2xl shadow-blue-900/20 active:scale-95 transition-all">Get Started Now</button>
-                    </div>
-                    <div className="w-full lg:w-[40%] relative">
-                        <div className="absolute inset-0 bg-[#005a9c]/10 blur-[120px] rounded-full scale-150 animate-pulse"></div>
-                        <img src="/environmental/placeholder/hero.avif" alt="P E F C Certification"
-                            className="relative z-10 w-full h-auto object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-700"
-                            onError={(e) => { e.target.src = "https://illustrations.popsy.co/amber/plant.svg" }} />
-                    </div>
-                </div>
-            </section>
+        <div className="bg-[#f8f9fa] min-h-screen relative font-sans">
+            <div className="relative z-10 space-y-2 lg:space-y-4">
+                <HeroLayout
+                    heroTitleMain="PEFC"
+                    heroTitleSuffix="Certification"
+                    heroDescription="Is your business involved in the supply chain of forest-based products? Let VyomBiz consultants guide you through the PEFC certification process for sustainable forest management."
+                    stats={[
+                        { count: "100K+", label: "Happy Customers" },
+                        { count: "3500+", label: "Expert Advisors" },
+                        { count: "50+", label: "Branch Offices" },
+                        { count: "4.9", label: "Global Rating" }
+                    ]}
+                    formTitle="Get Free Expert Consultation"
+                />
 
-            <section className="bg-[#FEF9C3] py-20">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                        {[
-                            { icon: <Rocket className="w-8 h-8 text-[#005a9c]" />, title: "Track Record", desc: "Successfully processed thousands of applications for clients across India." },
-                            { icon: <Smile className="w-8 h-8 text-[#005a9c]" />, title: "Domain Expertise", desc: "Deep knowledge of specific regulatory frameworks and compliance timelines." },
-                            { icon: <MapPin className="w-8 h-8 text-[#005a9c]" />, title: "Pan-India Reach", desc: "We provide comprehensive regulatory coverage spanning all states and territories." },
-                            { icon: <PieChart className="w-8 h-8 text-[#005a9c]" />, title: "Data Security", desc: "Your business secrets, process details, and critical data are held in strict confidence." },
-                        ].map((card, i) => (
-                            <div key={i} className="bg-white rounded-[2rem] p-10 flex flex-col shadow-2xl transform hover:-translate-y-1 transition-all duration-300">
-                                <div className="w-16 h-16 rounded-2xl bg-indigo-50 flex items-center justify-center mb-8">{card.icon}</div>
-                                <h3 className="text-xl font-bold text-[#072b47] mb-4">{card.title}</h3>
-                                <p className="text-slate-600 text-[15px] leading-relaxed font-medium">{card.desc}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+                <DetailsLayout
+                    overview={{
+                        title: "PEFC Certification in India —",
+                        highlightTitle: "An Overview",
+                        description: [
+                            "The Network for Certification and Conservation of Forests (NCCF) is the body that governs PEFC (Programme for Endorsement of Forest Certification) in India. PEFC crucially gives evidence of sustainable forest management, enabling forest owners and managers to demonstrate the practices they apply.",
+                            "PEFC certification also demonstrates compliance with legislative requirements, including the EU Timber Regulation (EUTR), the US Lacey Act, and the Australian Illegal Logging Prohibition Regulation.",
+                            "PEFC is a voluntary, market-based instrument implemented through two separate processes — Sustainable Forest Management (SFM) certification and Chain of Custody (CoC) certification — making it highly versatile for different supply chain participants."
+                        ]
+                    }}
 
-            <section className="py-20 bg-slate-50">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center mb-16">
-                        <h2 className="text-3xl md:text-4xl font-bold text-[#072b47] mb-4">Services Addressed</h2>
-                        <div className="w-24 h-1 bg-[#dead01] shadow-[0_0_8px_rgba(255,233,10,0.6)] mx-auto rounded mb-6"></div>
-                    </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {services.map((service, index) => (
-                            <div key={index} className="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-2xl hover:border-[#FFE90A]/40 hover:-translate-y-2 transition-all duration-500 flex flex-col h-full group relative">
-                                <div className="absolute top-0 left-0 w-full h-[3px] bg-[#FFE90A]"></div>
-                                <div className="p-8 flex flex-col h-full pt-10">
-                                    <h3 className="text-xl font-bold text-[#072b47] mb-4 group-hover:text-[#005a9c] transition-colors">{service.title}</h3>
-                                    <p className="text-slate-600 text-[15px] leading-relaxed mb-10 flex-grow font-medium">{service.desc}</p>
-                                    <div className="mt-auto pt-6">
-                                        <div className="flex flex-col mb-6">
-                                            <span className="text-[11px] uppercase tracking-widest font-black text-slate-400 mb-1">Starting at</span>
-                                            <span className="text-[#dead01] text-3xl font-black leading-none">{service.price}</span>
-                                        </div>
-                                        <div className="flex items-center justify-between gap-4">
-                                            <button className="flex-1 bg-[#005a9c] hover:bg-[#072b47] text-white px-5 py-3.5 rounded-xl text-sm font-bold transition-all">Get Started</button>
-                                            <button className="text-[#005a9c] font-bold text-sm flex items-center gap-1.5 group/read py-1">
-                                                <span>Read More</span><ArrowRight className="w-4 h-4 group-hover/read:translate-x-1.5 transition-transform duration-300" />
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+                    advantages={{
+                        title: "Types of PEFC Certification",
+                        subtitle: "Choose the right certification for your business",
+                        list: [
+                            {
+                                title: "PEFC Forest Management Certification (FMC)",
+                                desc: "A long-term process providing independent recognition of responsible forest management practices, covering biodiversity conservation, soil and water protection, and community respect."
+                            },
+                            {
+                                title: "PEFC Chain of Custody Certification (CoC)",
+                                desc: "Enables tracking of forest-based products throughout the supply chain — covering purchasing, manufacturing, sale, and record-keeping of certified materials."
+                            }
+                        ]
+                    }}
 
-            <section className="py-20 bg-[#FEF9C3]">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex flex-col lg:flex-row items-center gap-16">
-                        <div className="w-full lg:w-1/2">
-                            <h2 className="text-3xl md:text-4xl font-bold text-[#072b47] mb-6">About P E F C Certification</h2>
-                            <div className="w-16 h-1 bg-[#072b47] rounded mb-8"></div>
-                            <div className="space-y-6 text-[#072b47]/90 text-lg leading-relaxed font-medium">
-                                <p>Ensuring compliance with P E F C Certification is crucial for businesses operating in today's regulated environment under the broader framework of Environmental Licensing. Failure to comply can result in severe legal consequences, operational halts, and financial penalties.</p>
-                                <p>Our comprehensive assistance covers everything from initial evaluation and strategy formulation to execution and final approval. Whether you are establishing a new entity or operating an existing one, we provide clear roadmaps to maintain unblemished compliance records.</p>
-                            </div>
-                        </div>
-                        <div className="w-full lg:w-1/2">
-                            <div className="bg-white rounded-3xl p-8 shadow-xl border border-slate-100">
-                                <h3 className="text-xl font-black text-[#072b47] mb-6">Core Requirements</h3>
-                                <ul className="space-y-4">
-                                    {["Business Incorporation Details", "Authorized Person KYC", "Facility Setup Plans", "List of Machinery/Process Details", "Past Compliance Records (if any)", "Site Clearance Approvals", "Local Body NOCs"].map((doc, i) => (
-                                        <li key={i} className="flex items-start gap-3 text-slate-700 font-medium">
-                                            <CheckCircle className="w-5 h-5 text-[#005a9c] mt-0.5 shrink-0" />
-                                            <span>{doc}</span>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                    typesOfCompliance={{
+                        title: "PEFC vs FSC",
+                        subtitle: "Understanding the key differences",
+                        list: [
+                            {
+                                title: "Scale",
+                                desc: "PEFC covers around 260 million hectares of certified forests while FSC covers approximately 230 million hectares globally."
+                            },
+                            {
+                                title: "Approach",
+                                desc: "PEFC follows a bottom-up approach with national bodies setting standards, while FSC uses a top-down approach with globally developed standards."
+                            },
+                            {
+                                title: "Certification Type",
+                                desc: "PEFC issues Forest Management, Chain of Custody, and Project certificates; FSC issues Forest Management, Chain of Custody, and Controlled Goods certificates."
+                            },
+                            {
+                                title: "Certification Party",
+                                desc: "PEFC is a third-party certification, while FSC is considered a second-party certification scheme."
+                            }
+                        ]
+                    }}
 
-            <section className="py-24 bg-white border-t border-slate-100">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center mb-20">
-                        <h2 className="text-3xl md:text-5xl font-black text-[#072b47] mb-6">Why Choose <span className="text-[#dead01]">Us</span></h2>
-                        <div className="w-24 h-1.5 bg-[#dead01] mx-auto rounded-full"></div>
-                    </div>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        {[
-                            { title: "Specialized Experts", desc: "Dedicated professionals focused specifically on navigating complex environmental guidelines." },
-                            { title: "Assured Approvals", desc: "A robust vetting process of document filings severely limits the chance of application pushback." },
-                            { title: "Lifecycle Management", desc: "Beyond simple acquisition, we maintain a proactive posture toward your ongoing compliance schedule." },
-                        ].map((item, index) => (
-                            <div key={index} className="relative p-10 rounded-[2.5rem] border border-slate-200 bg-white shadow-sm hover:shadow-2xl hover:border-[#dead01]/30 hover:-translate-y-2 transition-all duration-500 group flex flex-col">
-                                <div className="mb-8">
-                                    <div className="w-16 h-16 rounded-2xl bg-slate-50 flex items-center justify-center border border-slate-100 group-hover:bg-[#dead01]/10 transition-all duration-500">
-                                        <CheckCircle className="w-8 h-8 text-[#dead01]" />
-                                    </div>
-                                </div>
-                                <h3 className="text-xl font-black text-[#072b47] mb-4 group-hover:text-[#005a9c] transition-colors">{item.title}</h3>
-                                <p className="text-slate-600 leading-relaxed font-medium text-[15px]">{item.desc}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+                    eligibility={{
+                        title: "Who Can Apply?",
+                        subtitle: "Eligible entities for PEFC certification",
+                        list: [
+                            { title: "Forest Owners & Managers", desc: "Those who manage forests and wish to demonstrate responsible forest management practices." },
+                            { title: "Manufacturers & Suppliers", desc: "Companies sourcing and using forest-based raw materials in their production processes." },
+                            { title: "Retailers & Traders", desc: "Businesses dealing in the sale and distribution of certified forest products." },
+                            { title: "Forest-Related Industries", desc: "Wood procurement organizations, distributors, and other forest-related supply chain participants." }
+                        ]
+                    }}
+
+                    process={{
+                        title: "How to Apply",
+                        subtitle: "Step-by-step PEFC registration process",
+                        steps: [
+                            {
+                                step: "01",
+                                title: "Comply with Requirements & Contact NCCF",
+                                desc: "Review PEFC certification standards and contact the NCCF (Network for Certification and Conservation of Forests) or an accredited international body for guidance."
+                            },
+                            {
+                                step: "02",
+                                title: "Submit Application & Pre-Assessment",
+                                desc: "Submit the completed application form and required documents to NCCF. The body will then conduct a pre-assessment of your forest management practices."
+                            },
+                            {
+                                step: "03",
+                                title: "Internal Audit, Certification Audit & Grant",
+                                desc: "Conduct an internal audit to close gaps. After the certification audit by NCCF, sign a logo usage contract and receive your PEFC certification to display on certified products."
+                            }
+                        ]
+                    }}
+
+                    features={{
+                        title: "Benefits of PEFC",
+                        subtitle: "Why pursue PEFC certification in India?",
+                        list: [
+                            {
+                                title: "Meet Customer Expectations",
+                                desc: "Provides tangible evidence to customers validating your sustainability claims and meeting growing eco-conscious demand."
+                            },
+                            {
+                                title: "Promotes Responsible Business",
+                                desc: "Ensures promotion of responsible forest practices contributing towards economic development within the region."
+                            },
+                            {
+                                title: "Global Forest Product Recognition",
+                                desc: "PEFC guarantees recognition of global forest products, letting buyers source confidently from independently verified sustainable sources."
+                            },
+                            {
+                                title: "Legal Compliance",
+                                desc: "Demonstrates compliance with EUTR, the US Lacey Act, and other international timber legislation, reducing regulatory risk."
+                            }
+                        ]
+                    }}
+                />
+
+                <FAQLayout
+                    title="Frequently Asked Questions"
+                    subtitle="PEFC Certification Queries"
+                    faqs={[
+                        {
+                            question: "What is PEFC certification?",
+                            answer: "PEFC is a voluntary, market-based instrument implemented through two separate processes — Sustainable Forest Management (SFM) certification and Chain of Custody (CoC) certification — to promote responsible forest management."
+                        },
+                        {
+                            question: "What does PEFC stand for?",
+                            answer: "PEFC stands for Programme for Endorsement of Forest Certification — a global alliance of national forest certification established in 1999 to promote sustainable forest management."
+                        },
+                        {
+                            question: "What is the validity of PEFC certification?",
+                            answer: "PEFC certification is valid for up to 5 years, subject to annual surveillance audits. Renewal requires a re-certification audit upon expiry."
+                        },
+                        {
+                            question: "What does 70% PEFC certified mean?",
+                            answer: "It means that at least 70% of the raw materials used in a product originate from PEFC-certified or controlled sources as per the chain of custody requirements."
+                        },
+                        {
+                            question: "What is the difference between FSC and PEFC?",
+                            answer: "FSC is a second-party certification with a top-down global approach focused on environmental aspects, while PEFC is a third-party certification with a bottom-up approach that endorses national certification schemes and covers a larger area of certified forest."
+                        },
+                        {
+                            question: "How much does PEFC certification cost in India?",
+                            answer: "The cost of PEFC certification in India typically ranges from ₹60,000 to ₹1,20,000, depending on the certification body, organization size, and complexity of the supply chain."
+                        },
+                        {
+                            question: "How long does it take to get PEFC certified?",
+                            answer: "On average, the PEFC certification process takes around 1 week for completion after successful submission of all documents, audit, and compliance checks."
+                        },
+                        {
+                            question: "Who governs PEFC certification in India?",
+                            answer: "The Network for Certification and Conservation of Forests (NCCF) is the accredited body governing PEFC certification in India."
+                        }
+                    ]}
+                />
+
+                <ReviewsSection />
+            </div>
         </div>
     );
 };

@@ -59,6 +59,7 @@ const LEEDZeroWaterCertification = lazy(() => import('../pages/environmental/Env
 const PEFCCertification = lazy(() => import('../pages/environmental/EnvironmentalLicensing/PEFCCertification'));
 const TSDFFacilityServices = lazy(() => import('../pages/environmental/EnvironmentalLicensing/TSDFFacilityServices'));
 const VrikshCertification = lazy(() => import('../pages/environmental/EnvironmentalLicensing/VrikshCertification'));
+const CPCBCertification = lazy(() => import('../pages/environmental/EnvironmentalLicensing/CPCBCertification'));
 const AuthorizationForExportOfEWaste = lazy(() => import('../pages/environmental/EWasteManagement/AuthorizationForExportOfEWaste'));
 const EPRAuthorizationForBatteryWaste = lazy(() => import('../pages/environmental/EWasteManagement/EPRAuthorizationForBatteryWaste'));
 const EPRAuthorizationForEWaste = lazy(() => import('../pages/environmental/EWasteManagement/EPRAuthorizationForEWaste'));
@@ -147,7 +148,7 @@ const EnvironmentalRoutes = [
     <Route key="esdd-in-solar-energy-industry" path="/esdd-in-solar-energy-industry" element={<ESDDInSolarEnergyIndustry />} />,
     <Route key="esdd-in-the-sugar-industry" path="/esdd-in-the-sugar-industry" element={<ESDDInTheSugarIndustry />} />,
     <Route key="esdd-in-tobacco-industry" path="/esdd-in-tobacco-industry" element={<ESDDInTobaccoIndustry />} />,
-    <Route key="authorized-vehicle-scrapping-facility-vsf" path="/authorized-vehicle-scrapping-facility-vsf" element={<AuthorizedVehicleScrappingFacilityVSF />} />,
+    <Route key="authorized-vehicle-scrapping-facility-avsf" path="/authorized-vehicle-scrapping-facility-avsf" element={<AuthorizedVehicleScrappingFacilityVSF />} />,
     <Route key="carbon-credit-accounting" path="/carbon-credit-accounting" element={<CarbonCreditAccounting />} />,
     <Route key="carbon-footprint-calculation-consulting" path="/carbon-footprint-calculation-consulting" element={<CarbonFootprintCalculationConsulting />} />,
     <Route key="fsc-certification" path="/fsc-certification" element={<FSCCertification />} />,
@@ -158,6 +159,7 @@ const EnvironmentalRoutes = [
     <Route key="pefc-certification" path="/pefc-certification" element={<PEFCCertification />} />,
     <Route key="tsdf-facility-services" path="/tsdf-facility-services" element={<TSDFFacilityServices />} />,
     <Route key="vriksh-certification" path="/vriksh-certification" element={<VrikshCertification />} />,
+    <Route key="cpcb-certification" path="/cpcb-certification" element={<CPCBCertification />} />,
     <Route key="authorization-for-export-of-e-waste" path="/authorization-for-export-of-e-waste" element={<AuthorizationForExportOfEWaste />} />,
     <Route key="epr-authorization-for-battery-waste" path="/epr-authorization-for-battery-waste" element={<EPRAuthorizationForBatteryWaste />} />,
     <Route key="epr-authorization-for-e-waste" path="/epr-authorization-for-e-waste" element={<EPRAuthorizationForEWaste />} />,

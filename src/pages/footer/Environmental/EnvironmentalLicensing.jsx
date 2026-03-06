@@ -1,87 +1,100 @@
 import React, { useState } from 'react';
-import { 
+import {
     CheckCircle, ArrowRight, Star, Search, Quote, FileText, CreditCard, UserCheck, Mail, Shield, Building2, Droplets, Zap, Settings, PlayCircle, HardDrive, RefreshCcw, Leaf, FileCheck, Globe, Factory, ClipboardCheck
 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const EnvironmentalLicensing = () => {
     const [searchTerm, setSearchTerm] = useState('');
 
     const services = [
         {
-                "title": "Authorized Vehicle Scrapping Facility (AVSF)",
-                "desc": "Authorized Vehicle Scrapping Facility (AVSF) Set up your Authorized Vehicle Scrapping Facility (AVSF) with VyomBiz. Expert assistance for hassle-free registration, compliance, and documenta..",
-                "price": "499.00",
-                icon: <Building2 className='w-8 h-8 text-[#005a9c]' />
+            "title": "Authorized Vehicle Scrapping Facility (AVSF)",
+            "desc": "Authorized Vehicle Scrapping Facility (AVSF) Set up your Authorized Vehicle Scrapping Facility (AVSF) with VyomBiz. Expert assistance for hassle-free registration, compliance, and documenta..",
+            "price": "499.00",
+            icon: <Building2 className='w-8 h-8 text-[#005a9c]' />,
+            link: '/authorized-vehicle-scrapping-facility-avsf'
         },
         {
-                "title": "TSDF Facility Services",
-                "desc": "TSDF Facility Services Learn how to start a Treatment, Storage, and Disposal Facility (TSDF) with VyomBiz. We provide expert guidance on compliance, licensing, and setup for safe waste mana..",
-                "price": "499.00",
-                icon: <Factory className='w-8 h-8 text-[#005a9c]' />
+            "title": "TSDF Facility Services",
+            "desc": "TSDF Facility Services Learn how to start a Treatment, Storage, and Disposal Facility (TSDF) with VyomBiz. We provide expert guidance on compliance, licensing, and setup for safe waste mana..",
+            "price": "499.00",
+            icon: <Factory className='w-8 h-8 text-[#005a9c]' />,
+            link: '/tsdf-facility-services'
         },
         {
-                "title": "iCAT Certification",
-                "desc": "iCAT Certification iCAT is facilitating quality services to the industry in all the sectors of automotive and non-automotive development like Noise Vibration, Powertrain, and Harshness,..",
-                "price": "499.00",
-                icon: <CheckCircle className='w-8 h-8 text-[#005a9c]' />
+            "title": "iCAT Certification",
+            "desc": "iCAT Certification iCAT is facilitating quality services to the industry in all the sectors of automotive and non-automotive development like Noise Vibration, Powertrain, and Harshness,..",
+            "price": "499.00",
+            icon: <CheckCircle className='w-8 h-8 text-[#005a9c]' />,
+            link: '/icat-certification'
         },
         {
-                "title": "Carbon Credit Accounting",
-                "desc": "Carbon Credit Accounting Are you looking to align your carbon credit accounting with global sustainability goals? Let our VyomBiz experts simplify the process for carbon credit accounting.",
-                "price": "499.00",
-                icon: <Leaf className='w-8 h-8 text-[#005a9c]' />
+            "title": "Carbon Credit Accounting",
+            "desc": "Carbon Credit Accounting Are you looking to align your carbon credit accounting with global sustainability goals? Let our VyomBiz experts simplify the process for carbon credit accounting.",
+            "price": "499.00",
+            icon: <Leaf className='w-8 h-8 text-[#005a9c]' />,
+            link: '/carbon-credit-accounting'
         },
         {
-                "title": "LEED Zero Carbon Certification",
-                "desc": "Get LEED Zero Carbon Certification for Your Projects Now Secure LEED Zero Carbon Certification and Achieve Net Zero Carbon Emissions with the help of our 400+ LEED Consultants",
-                "price": "499.00",
-                icon: <Star className='w-8 h-8 text-[#005a9c]' />
+            "title": "LEED Zero Carbon Certification",
+            "desc": "Get LEED Zero Carbon Certification for Your Projects Now Secure LEED Zero Carbon Certification and Achieve Net Zero Carbon Emissions with the help of our 400+ LEED Consultants",
+            "price": "499.00",
+            icon: <Star className='w-8 h-8 text-[#005a9c]' />,
+            link: '/leed-zero-carbon-certification'
         },
         {
-                "title": "LEED Zero Water Certification",
-                "desc": "Get LEED Zero Water Certification Obtain LEED Zero Water Certification for your projects around the world with the help of our 400+ LEED Consultants",
-                "price": "499.00",
-                icon: <Droplets className='w-8 h-8 text-[#005a9c]' />
+            "title": "LEED Zero Water Certification",
+            "desc": "Get LEED Zero Water Certification Obtain LEED Zero Water Certification for your projects around the world with the help of our 400+ LEED Consultants",
+            "price": "499.00",
+            icon: <Droplets className='w-8 h-8 text-[#005a9c]' />,
+            link: '/leed-zero-water-certification'
         },
         {
-                "title": "Green Building Certification",
-                "desc": "Green Building Certification Ready to make your building more sustainable and meet environmental standards? Get your Green Building Certification today with VyomBiz!",
-                "price": "499.00",
-                icon: <Building2 className='w-8 h-8 text-[#005a9c]' />
+            "title": "Green Building Certification",
+            "desc": "Green Building Certification Ready to make your building more sustainable and meet environmental standards? Get your Green Building Certification today with VyomBiz!",
+            "price": "499.00",
+            icon: <Building2 className='w-8 h-8 text-[#005a9c]' />,
+            link: '/green-building-certification'
         },
         {
-                "title": "PEFC Certification",
-                "desc": "PEFC Certification Is your business involved in the supply chain of forest-based products? If so, let VyomBiz consultants guide you through the PEFC certification process.",
-                "price": "499.00",
-                icon: <Leaf className='w-8 h-8 text-[#005a9c]' />
+            "title": "PEFC Certification",
+            "desc": "PEFC Certification Is your business involved in the supply chain of forest-based products? If so, let VyomBiz consultants guide you through the PEFC certification process.",
+            "price": "499.00",
+            icon: <Leaf className='w-8 h-8 text-[#005a9c]' />,
+            link: '/pefc-certification'
         },
         {
-                "title": "FSC Certification",
-                "desc": "FSC Certification Are you using forest-based raw materials in your business? Get FSC Certification with VyomBiz experts to demonstrate your commitment to sustainable forestry.",
-                "price": "499.00",
-                icon: <Leaf className='w-8 h-8 text-[#005a9c]' />
+            "title": "FSC Certification",
+            "desc": "FSC Certification Are you using forest-based raw materials in your business? Get FSC Certification with VyomBiz experts to demonstrate your commitment to sustainable forestry.",
+            "price": "499.00",
+            icon: <Leaf className='w-8 h-8 text-[#005a9c]' />,
+            link: '/fsc-certification'
         },
         {
-                "title": "Vriksh Certification",
-                "desc": "Vriksh Certification in India Need help with your Vriksh certification process? Let our experts at VyomBiz ensure everything is handled smoothly, from documentation to approval. The top..",
-                "price": "499.00",
-                icon: <CheckCircle className='w-8 h-8 text-[#005a9c]' />
+            "title": "Vriksh Certification",
+            "desc": "Vriksh Certification in India Need help with your Vriksh certification process? Let our experts at VyomBiz ensure everything is handled smoothly, from documentation to approval. The top..",
+            "price": "499.00",
+            icon: <CheckCircle className='w-8 h-8 text-[#005a9c]' />,
+            link: '/vriksh-certification'
         },
         {
-                "title": "Carbon Footprint Calculation Consulting",
-                "desc": "Carbon Footprint Calculation Consulting Are you seeking carbon footprint calculation consulting services? Contact VyomBiz and get the best quotes as per your business ESG requirements and..",
-                "price": "499.00",
-                icon: <Settings className='w-8 h-8 text-[#005a9c]' />
+            "title": "Carbon Footprint Calculation Consulting",
+            "desc": "Carbon Footprint Calculation Consulting Are you seeking carbon footprint calculation consulting services? Contact VyomBiz and get the best quotes as per your business ESG requirements and..",
+            "price": "499.00",
+            icon: <Settings className='w-8 h-8 text-[#005a9c]' />,
+            link: '/carbon-footprint-calculation-consulting'
         },
         {
-                "title": "CPCB Certification",
-                "desc": "CPCB Certification- File Application in 2 Min Looking to enhance your business credibility while ensuring environmental compliance in India? Connect with VyomBiz to simplify your CPCB cer..",
-                "price": "499.00",
-                icon: <Shield className='w-8 h-8 text-[#005a9c]' />
+            "title": "CPCB Certification",
+            "desc": "CPCB Certification- File Application in 2 Min Looking to enhance your business credibility while ensuring environmental compliance in India? Connect with VyomBiz to simplify your CPCB cer..",
+            "price": "499.00",
+            icon: <Shield className='w-8 h-8 text-[#005a9c]' />,
+            link: '/cpcb-certification'
         }
-];
+    ];
 
-    const filteredServices = services.filter(service => 
+    const filteredServices = services.filter(service =>
         service.title.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
@@ -97,12 +110,12 @@ const EnvironmentalLicensing = () => {
                         <p className="text-xl text-slate-600 mb-8 max-w-2xl leading-relaxed font-medium">
                             Does your business require Environmental Licensing support? Approaching experts of VyomBiz is the way to move forward!
                         </p>
-                        
+
                         <div className="flex flex-col sm:flex-row items-center gap-4 mb-8">
                             <div className="relative w-full sm:w-[400px]">
-                                <input 
-                                    type="text" 
-                                    placeholder="Search Your Services" 
+                                <input
+                                    type="text"
+                                    placeholder="Search Your Services"
                                     className="w-full pl-12 pr-4 py-4 rounded-xl border-2 border-slate-200 focus:border-[#005a9c] focus:outline-none text-lg font-medium"
                                     value={searchTerm}
                                     onChange={(e) => setSearchTerm(e.target.value)}
@@ -114,7 +127,7 @@ const EnvironmentalLicensing = () => {
                                 Search
                             </button>
                         </div>
-                        
+
                         <div className="flex items-center gap-2 text-slate-600 font-semibold bg-slate-50 inline-block px-4 py-2 rounded-lg border border-slate-100">
                             <div className="flex text-yellow-500">
                                 <Star fill="currentColor" size={20} />
@@ -156,7 +169,7 @@ const EnvironmentalLicensing = () => {
                             (We make technical compliance certifications effortless and convenient.)
                         </p>
                     </div>
-                    
+
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {filteredServices.map((service, index) => (
                             <div key={index} className="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-2xl hover:border-[#FFE90A]/40 hover:-translate-y-2 transition-all duration-500 flex flex-col h-full group relative">
@@ -167,20 +180,20 @@ const EnvironmentalLicensing = () => {
                                     </div>
                                     <h3 className="text-xl font-bold text-[#072b47] mb-4 group-hover:text-[#005a9c] transition-colors line-clamp-2">{service.title}</h3>
                                     <p className="text-slate-600 text-[15px] leading-relaxed mb-8 flex-grow font-medium line-clamp-3">{service.desc}</p>
-                                    
+
                                     <div className="mt-auto pt-6 border-t border-slate-100">
                                         <div className="flex items-end gap-2 mb-6">
                                             <span className="text-[12px] uppercase tracking-widest font-black text-slate-400 mb-1">Starting</span>
                                             <span className="text-[#dead01] text-2xl font-black drop-shadow-sm leading-none">₹{service.price}</span>
                                         </div>
                                         <div className="flex flex-wrap lg:flex-nowrap items-center justify-between gap-4">
-                                            <button className="w-full lg:w-auto flex-1 bg-[#005a9c] hover:bg-[#072b47] text-white px-5 py-3 rounded-xl text-sm font-bold transition-all shadow-md active:scale-[0.97] whitespace-nowrap">
+                                            <Link to={service.link} className="w-full lg:w-auto flex-1 bg-[#005a9c] hover:bg-[#072b47] text-white px-5 py-3 rounded-xl text-sm font-bold transition-all shadow-md active:scale-[0.97] whitespace-nowrap text-center">
                                                 Get Started Free
-                                            </button>
-                                            <button className="text-[#005a9c] font-bold text-sm flex items-center gap-1.5 group/read transition-all hover:text-[#072b47] whitespace-nowrap">
+                                            </Link>
+                                            <Link to={service.link} className="text-[#005a9c] font-bold text-sm flex items-center gap-1.5 group/read transition-all hover:text-[#072b47] whitespace-nowrap">
                                                 <span>Read more</span>
                                                 <ArrowRight className="w-4 h-4 group-hover/read:translate-x-1" />
-                                            </button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -195,14 +208,14 @@ const EnvironmentalLicensing = () => {
                 </div>
             </section>
 
-                        {/* WORKING PROCESS */}
+            {/* WORKING PROCESS */}
             <section className="py-20 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl md:text-5xl font-black text-[#010101] mb-6">Our Working Process</h2>
                         <div className="w-24 h-1 bg-[#f1a129] mx-auto mb-12"></div>
                     </div>
-                    
+
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         {[
                             { icon: <FileText className="w-12 h-12 text-white mb-4" strokeWidth={1.5} />, title: "Fill Up Application Form", bg: "bg-[#0b5387]" },
