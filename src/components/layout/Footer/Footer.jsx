@@ -128,7 +128,7 @@ const Footer = () => {
                     <div className="text-center max-w-4xl mx-auto space-y-6">
 
                         <p className="text-slate-500 text-[13px] leading-relaxed font-medium">
-                            <span className="text-slate-300 font-bold">Legal Disclaimer:</span> VyomBiz is a legal technology platform and is <span className="italic">not a law firm</span> nor an agent of any government authority. Our services are powered by both in-house experts and a network of independent certified professionals. In the USA, we operate as <span className="text-slate-300 font-bold">VyomBiz Inc.</span>, and in India through <span className="text-slate-300 font-bold">Enterfirst Private Limited</span>.
+                            <span className="text-slate-300 font-bold">Legal Disclaimer:</span> VyomBiz is a legal technology platform and is <span className="italic">not a law firm</span> nor an agent of any government authority. Our services are powered by both in-house experts and a network of independent certified professionals, and in India through <span className="text-slate-300 font-bold">Enterfirst Private Limited</span>.
                         </p>
 
                         <div className="flex flex-wrap justify-center items-center gap-x-10 gap-y-6 opacity-30 invert grayscale group hover:opacity-100 transition-opacity duration-500">

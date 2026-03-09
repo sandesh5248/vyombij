@@ -30,7 +30,7 @@ const Home = () => {
             {/* <TrustedBrands /> */}
             {/* <AppDownload /> */}
             <HeroCTA />
-            <Testimonials />
+            {/* <Testimonials /> */}
             {/* <SuccessStory /> */}
         </>
     );
