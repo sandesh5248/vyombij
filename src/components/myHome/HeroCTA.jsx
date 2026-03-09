@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { MapPin, Phone, Mail, ArrowRight, CheckCircle2, ShieldCheck, Loader2 } from "lucide-react";
+import emailjs from "@emailjs/browser";
 
 /**
  * HeroCTA Component
@@ -18,10 +19,16 @@ const HeroCTA = () => {
         service: "",
     });
 
+    
+
     const [errors, setErrors] = useState({});
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [isSuccess, setIsSuccess] = useState(false);
     const [isValid, setIsValid] = useState(false);
+
+    const SERVICE_ID = "YOUR_SERVICE_ID";
+    const TEMPLATE_ID = "YOUR_TEMPLATE_ID";
+    const PUBLIC_KEY = "YOUR_PUBLIC_KEY";
 
     // Scroll into view if URL contains #free-consultation
     useEffect(() => {
@@ -87,31 +94,47 @@ const HeroCTA = () => {
         if (isSuccess) setIsSuccess(false);
     };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        if (!isValid) return;
+    const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (!isValid) return;
 
-        setIsSubmitting(true);
-        setTimeout(() => {
-            setIsSubmitting(false);
-            setIsSuccess(true);
+    setIsSubmitting(true);
 
-            const text = `Hello, I'm interested in a Free Consultation.
-
-My Details:
-- Full Name: ${formData.fullName}
-- Work Email: ${formData.email}
-- Phone Number: ${formData.phone}
-- City: ${formData.city}
-- State: ${formData.state}
-- Service Type: ${formData.service}`;
-
-            const whatsappLink = `https://wa.me/918448909389?text=${encodeURIComponent(text)}`;
-            window.open(whatsappLink, "_blank");
-
-            setFormData({ fullName: "", email: "", phone: "", city: "", state: "", service: "" });
-        }, 1200);
+    const templateParams = {
+        full_name: formData.fullName,
+        email: formData.email,
+        phone: formData.phone,
+        city: formData.city,
+        state: formData.state,
+        service: formData.service
     };
+
+    try {
+
+        await emailjs.send(
+            "service_0lm7qh2",
+            "template_upy728n",
+            templateParams,
+            "yOp4zs_aH1Mi59tYZ"
+        );
+
+        setIsSuccess(true);
+
+        setFormData({
+            fullName: "",
+            email: "",
+            phone: "",
+            city: "",
+            state: "",
+            service: ""
+        });
+
+    } catch (error) {
+        console.log("EmailJS Error:", error);
+    }
+
+    setIsSubmitting(false);
+};
 
     return (
         <section id="free-consultation" className="relative w-full overflow-hidden bg-white py-4 md:py-6">
