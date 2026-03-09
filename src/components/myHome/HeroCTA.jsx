@@ -195,15 +195,15 @@ const HeroCTA = () => {
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                                 <div className="space-y-0.5">
                                     <span className="text-[9px] font-black uppercase tracking-widest text-[#FFE90A]/70 block">Global HQ</span>
-                                    <p className="text-[12px] font-bold text-white/80">Noida, India</p>
+                                    <p className="text-[12px] font-bold text-white/80">Gurgoan, India</p>
                                 </div>
                                 <div className="space-y-0.5">
                                     <span className="text-[9px] font-black uppercase tracking-widest text-[#FFE90A]/70 block">Connect</span>
-                                    <p className="text-[12px] font-bold text-white/80">+91 84489 09389</p>
+                                    <p className="text-[12px] font-bold text-white/80">011 6926 9633</p>
                                 </div>
                                 <div className="space-y-0.5 md:text-right">
                                     <span className="text-[9px] font-black uppercase tracking-widest text-[#FFE90A]/70 block">Email Support</span>
-                                    <p className="text-[12px] font-bold text-white/80">hello@vyombiz.com</p>
+                                    <p className="text-[12px] font-bold text-white/80">hello@vyombiz.in</p>
                                 </div>
                             </div>
                         </div>

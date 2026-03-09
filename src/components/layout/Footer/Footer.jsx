@@ -66,13 +66,13 @@ const Footer = () => {
                                 <div className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center group-hover:bg-[#FFE90A] transition-all duration-300">
                                     <Phone size={18} className="group-hover:text-[#072b47] transition-colors duration-300" />
                                 </div>
-                                <span className="font-bold">+91 98765 43210</span>
+                                <span className="font-bold">011 6926 9633</span>
                             </div>
                             <div className="flex items-center gap-4 text-slate-300 hover:text-[#FFE90A] transition-colors duration-300 cursor-default group">
                                 <div className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center group-hover:bg-[#FFE90A] transition-all duration-300">
                                     <Mail size={18} className="group-hover:text-[#072b47] transition-colors duration-300" />
                                 </div>
-                                <span className="font-bold">support@vyombiz.com</span>
+                                <span className="font-bold">support@vyombiz.in</span>
                             </div>
                         </div>
 
@@ -150,7 +150,7 @@ const Footer = () => {
                                 © 2026 VyomBiz. All Rights Reserved.
                             </p>
                             <div className="flex items-center gap-8">
-                                <p className="text-[12px] font-black text-slate-500 uppercase tracking-tighter">Powered by <span className="text-slate-300 tracking-normal">Enterfirst AI</span></p>
+                                <p className="text-[12px] font-black text-slate-500 uppercase tracking-tighter">Powered by <span className="text-slate-300 tracking-normal">CLINK CONSULTANCY SERVICES PVT. LTD.</span></p>
                                 <div className="h-4 w-[1px] bg-white/10" />
                                 <div className="flex items-center gap-2">
                                     <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse shadow-[0_0_8px_rgba(34,197,94,0.4)]" />

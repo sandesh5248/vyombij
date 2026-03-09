@@ -12,6 +12,16 @@ const Section8 = () => {
     const [errors, setErrors] = useState({});
     const [isSuccess, setIsSuccess] = useState(false);
 
+    const brands = [
+        { name: "Adkryoss", image: "/Brands/adkryoss-logo-white--png.png" },
+        { name: "Clink", image: "/Brands/clink-logo.png" },
+        { name: "Clink Consultancy", image: "/Brands/clinkconsultancyservice.jpg" },
+        { name: "Edulinker", image: "/Brands/edulinker.png" },
+        { name: "Kryoss", image: "/Brands/kryoss.jpg" },
+        { name: "Medikryoss", image: "/Brands/medikryoss.png" },
+        { name: "Zryoss", image: "/Brands/zryoss.png" }
+    ];
+
     const validateForm = () => {
         const newErrors = {};
 
@@ -82,6 +92,19 @@ My Details:
 
     return (
         <div className="min-h-[calc(100vh-80px)] bg-gradient-to-r from-[#f7f7f7] via-[#f3f3f3] to-[#f0f0f0] flex items-center justify-center px-6 py-10">
+            <style>{`
+                @keyframes scroll {
+                    0% {
+                        transform: translateX(0);
+                    }
+                    100% {
+                        transform: translateX(-50%);
+                    }
+                }
+                .animate-scroll {
+                    animation: scroll 25s linear infinite;
+                }
+            `}</style>
             <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
                 {/* LEFT SIDE */}
@@ -137,49 +160,25 @@ My Details:
 
                     {/* Moving Logos */}
                     <div className="mt-12 overflow-hidden relative">
-                        <div className="flex gap-16 whitespace-nowrap logo-scroll">
-                            <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/4/4a/FIA_logo.svg"
-                                alt="fia"
-                                className="h-10"
-                            />
-                            <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/5/5e/DHFL_Logo.svg"
-                                alt="dhfl"
-                                className="h-10"
-                            />
-                            <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/5/57/Bank_of_Baroda_logo.svg"
-                                alt="bank"
-                                className="h-10"
-                            />
-                            <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/9/95/Stripe_Logo%2C_revised_2016.svg"
-                                alt="stripe"
-                                className="h-10"
-                            />
+                        <div className="flex gap-16 items-center whitespace-nowrap logo-scroll animate-scroll">
+                            {brands.map((brand, idx) => (
+                                <img
+                                    key={idx}
+                                    src={brand.image}
+                                    alt={brand.name}
+                                    className="h-10 object-contain hover:grayscale-0 transition-all duration-300"
+                                />
+                            ))}
 
                             {/* Duplicate for smooth infinite scroll */}
-                            <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/4/4a/FIA_logo.svg"
-                                alt="fia"
-                                className="h-10"
-                            />
-                            <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/5/5e/DHFL_Logo.svg"
-                                alt="dhfl"
-                                className="h-10"
-                            />
-                            <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/5/57/Bank_of_Baroda_logo.svg"
-                                alt="bank"
-                                className="h-10"
-                            />
-                            <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/9/95/Stripe_Logo%2C_revised_2016.svg"
-                                alt="stripe"
-                                className="h-10"
-                            />
+                            {brands.map((brand, idx) => (
+                                <img
+                                    key={`dup-${idx}`}
+                                    src={brand.image}
+                                    alt={brand.name}
+                                    className="h-10 object-contain hover:grayscale-0 transition-all duration-300"
+                                />
+                            ))}
                         </div>
                     </div>
                 </div>

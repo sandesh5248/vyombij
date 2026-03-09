@@ -69,20 +69,20 @@ console.log("EmailJS response:", response);
     {
       icon: Phone,
       title: "Call Us",
-      detail: "+91 84489 09389",
+      detail: "011 6926 9633",
       subDetail: "Mon-Sat, 10am-7pm",
       bgColor: "bg-orange-50",
       iconColor: "text-orange-600",
-      link: "tel:+918448909389"
+      link: "tel:011 6926 9633"
     },
     {
       icon: Mail,
       title: "Email Us",
-      detail: "info@vyombiz.com",
+      detail: "info@vyombiz.in",
       subDetail: "24/7 Priority Support",
       bgColor: "bg-blue-50",
       iconColor: "text-blue-600",
-      link: "mailto:info@vyombiz.com"
+      link: "mailto:info@vyombiz.in"
     },
     {
       icon: MessageCircle,
@@ -91,16 +91,16 @@ console.log("EmailJS response:", response);
       subDetail: "Instant Support",
       bgColor: "bg-green-50",
       iconColor: "text-green-600",
-      link: "https://wa.me/918448909389"
+      link: "https://wa.me/8448909389"
     },
     {
       icon: MapPin,
       title: "Visit Us",
-      detail: "New Delhi, India",
+      detail: "Office No. 837-A, 8th Floor, JMD Megapolis, Sohna Road, Gurgaon, Haryana",
       subDetail: "Global Presence",
       bgColor: "bg-purple-50",
       iconColor: "text-purple-600",
-      link: "https://maps.google.com/?q=New+Delhi,+India"
+      link: "https://www.google.com/maps/search/?api=1&query=Office%20No.%20837-A%2C%208th%20Floor%2C%20JMD%20Megapolis%2C%20Sohna%20Road%2C%20Gurgaon%2C%20Haryana"
     }
   ];
 

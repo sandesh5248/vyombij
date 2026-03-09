@@ -14,7 +14,7 @@ const ContactPopup = ({ isOpen }) => {
                     </div>
                     <div>
                         <p className="text-xs font-bold text-slate-400 uppercase">Call Support</p>
-                        <p className="font-bold text-slate-700">+91-8448909389</p>
+                        <p className="font-bold text-slate-700">+011 6926 9633</p>
                     </div>
                 </div>
                 <div className="flex items-center gap-4 group cursor-pointer">
@@ -23,12 +23,12 @@ const ContactPopup = ({ isOpen }) => {
                     </div>
                     <div>
                         <p className="text-xs font-bold text-slate-400 uppercase">Email Us</p>
-                        <p className="font-bold text-slate-700">info@vyombiz.com</p>
+                        <p className="font-bold text-slate-700">info@vyombiz.in</p>
                     </div>
                 </div>
                 <div
                     className="flex items-center gap-4 group cursor-pointer"
-                    onClick={() => window.open('https://wa.me/918448909389', '_blank')}
+                    onClick={() => window.open('https://www.google.com/maps/search/?api=1&query=Office%20No.%20837-A%2C%208th%20Floor%2C%20JMD%20Megapolis%2C%20Sohna%20Road%2C%20Gurgaon%2C%20Haryana', '_blank')}
                 >
                     <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600 group-hover:bg-green-600 group-hover:text-white transition-all">
                         <MessageCircle size={20} />
