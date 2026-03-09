@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { Phone, Mail, MessageCircle, MapPin, Send, Globe, ChevronRight } from "lucide-react";
+import emailjs from "@emailjs/browser";
 import PageTemplate from "../../components/common/PageTemplate";
 import CTAButton from "../../components/common/CTAButton";
-
 const Contact = () => {
+  
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -12,15 +13,57 @@ const Contact = () => {
     message: ""
   });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Form submitted:", formData);
-    alert("Thank you for reaching out! Our experts will contact you shortly.");
+  const SERVICE_ID = "service_85mggi2";
+  const TEMPLATE_ID = "template_3g33ywr";
+  const PUBLIC_KEY = "yOp4zs_aH1Mi59tYZ";
+
+
+   const handleChange = (e) => {
+    const { name, value } = e.target;
+
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value
+    }));
   };
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  const templateParams = {
+    full_name: formData.name,
+    email: formData.email,
+    phone: formData.phone,
+    subject: formData.subject,
+    message: formData.message
   };
+
+  try {
+
+    const response = await emailjs.send(
+    SERVICE_ID,
+    TEMPLATE_ID,
+    templateParams,
+    PUBLIC_KEY
+);
+
+console.log("EmailJS response:", response);
+
+    alert("Thank you for reaching out! Our experts will contact you shortly.");
+
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      subject: "",
+      message: ""
+    });
+
+  } catch (error) {
+    console.error("EmailJS Error:", error);
+    alert("Something went wrong. Please try again.");
+  }
+};
 
   const contactInfo = [
     {
@@ -205,10 +248,12 @@ const Contact = () => {
                   </div>
 
                   <div className="pt-4">
-                    <CTAButton
-                      label="Send Inquiry"
-                      className="!w-full !py-5 !text-lg !rounded-2xl shadow-xl shadow-[#f1a134]/20"
-                    />
+                   <button
+  type="submit"
+  className="w-full py-5 text-lg rounded-2xl bg-[#f1a134] text-white font-bold"
+>
+  Send Inquiry
+</button>
                   </div>
 
                   <p className="text-center text-[11px] font-bold text-slate-400 uppercase tracking-widest">

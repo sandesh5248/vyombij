@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Phone, Star, CheckCircle2, ChevronRight, Users, Scale, ThumbsUp, Briefcase } from 'lucide-react';
+import emailjs from "@emailjs/browser";
 import { stateCityData } from "../../data/stateCityData";
 
 /**
@@ -30,6 +31,11 @@ const HeroLayout = ({
     });
     const [errors, setErrors] = useState({});
     const [isSuccess, setIsSuccess] = useState(false);
+
+
+    const SERVICE_ID = "service_bauy1ar";
+    const TEMPLATE_ID = "template_gkeoypr";
+    const PUBLIC_KEY = "ehQ4RR7pRX1PA074B";
 
     const validateForm = () => {
         const newErrors = {};
@@ -85,26 +91,47 @@ const HeroLayout = ({
         }
     };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
+    const serviceName = `${heroTitlePrefix} ${heroTitleMain} ${heroTitleSuffix}`.trim();
 
-        if (!validateForm()) return;
+   const handleSubmit = async (e) => {
+    e.preventDefault();
 
-        const pageName = `${heroTitlePrefix} ${heroTitleMain} ${heroTitleSuffix}`.trim();
-        const text = `Hello, I'm interested in ${pageName}.
+    if (!validateForm()) return;
 
-My Details:
-- Name: ${formData.name}
-- Email: ${formData.email}
-- Phone: ${formData.phone}
-- State: ${formData.state}
-- City: ${formData.city === "Other" ? formData.cityOther : formData.city}`;
-        const whatsappLink = `https://wa.me/918448909389?text=${encodeURIComponent(text)}`;
-        window.open(whatsappLink, "_blank");
+    const templateParams = {
+    full_name: formData.name,
+    email: formData.email,
+    phone: formData.phone,
+    state: formData.state,
+    city: formData.city === "Other" ? formData.cityOther : formData.city,
+    service: serviceName
+};
+    try {
 
+        await emailjs.send(
+            SERVICE_ID,
+            TEMPLATE_ID,
+            templateParams,
+            PUBLIC_KEY
+        );
+
+        setAlertMessage("Message sent successfully. Our experts will contact you shortly.");
         setIsSuccess(true);
-        setFormData({ name: "", email: "", phone: "", state: "", city: "", cityOther: "" });
-    };
+
+        setFormData({
+            name: "",
+            email: "",
+            phone: "",
+            state: "",
+            city: "",
+            cityOther: ""
+        });
+
+    } catch (error) {
+        console.error("EmailJS Error:", error);
+        setAlertMessage("Something went wrong. Please try again.");
+    }
+};
 
     return (
         <section className="relative pt-6 pb-16 lg:pt-8 lg:pb-20 overflow-hidden border-b border-slate-50 bg-white min-h-screen font-sans text-slate-900">
