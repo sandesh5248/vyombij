@@ -1,151 +1,237 @@
 import React from 'react';
-import { CheckCircle, ArrowRight, Rocket, Smile, MapPin, PieChart, Shield } from 'lucide-react';
-
-const services = [
-    { title: "E S D D In Furniture And Fixtures Industry Consultation", desc: "Expert guidance and consultation for obtaining your E S D D In Furniture And Fixtures Industry smoothly and efficiently.", price: "₹2,999" },
-    { title: "Application Preparation", desc: "Complete documentation preparation and application filing for Environmental Industry compliance.", price: "₹4,999" },
-    { title: "Follow-up & Liaison", desc: "Regular follow-ups with relevant authorities to ensure faster processing of your application.", price: "₹3,499" },
-    { title: "Compliance Audit", desc: "Pre-application audit to ensure your premises/business meets all statutory requirements.", price: "₹5,999" },
-    { title: "Renewal Submissions", desc: "Timely submission of renewal applications to prevent lapses in your compliance status.", price: "₹1,999" },
-    { title: "Annual Returns Filing", desc: "Preparation and filing of statutory annual returns and compliance reports as mandated.", price: "₹2,499" },
-];
+import HeroLayout from '../../../components/common/HeroLayout';
+import DetailsLayout from '../../../components/common/DetailsLayout';
+import FAQLayout from '../../../components/common/FAQLayout';
+import ReviewsSection from '../../../components/common/ReviewsSection';
 
 const ESDDInFurnitureAndFixturesIndustry = () => {
     return (
-        <div className="bg-white min-h-screen font-sans">
-            <section className="relative min-h-[90vh] bg-white flex items-center pt-24 pb-12 overflow-hidden">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col lg:flex-row items-center gap-12 mb-20">
-                    <div className="w-full lg:w-[60%]">
-                        <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#005a9c]/10 border border-[#005a9c]/20 rounded-full text-[#005a9c] text-sm font-bold uppercase tracking-wider mb-8">
-                            <Shield size={16} /><span>Environmental Industry Services</span>
-                        </div>
-                        <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-[#072b47] leading-[1.1] mb-8">
-                            E <br className="hidden md:block" />
-                            <span className="text-[#dead01]">S D D In Furniture And Fixtures Industry</span>
-                        </h1>
-                        <p className="text-xl text-slate-600 mb-12 max-w-2xl leading-relaxed font-medium">
-                            End-to-end support for E S D D In Furniture And Fixtures Industry. We manage the entire lifecycle of compliance to ensure your business operations remain uninterrupted and legally sound.
-                        </p>
-                        <div className="flex flex-wrap gap-4 mb-8">
-                            {["Certification", "Compliance", "Advisory", "Renewals"].map((tag, i) => (
-                                <span key={i} className="px-4 py-2 bg-slate-100 text-[#072b47] rounded-full text-sm font-bold">{tag}</span>
-                            ))}
-                        </div>
-                        <button className="bg-[#005a9c] text-white px-12 py-5 rounded-2xl font-bold text-xl hover:bg-blue-700 shadow-2xl shadow-blue-900/20 active:scale-95 transition-all">Get Started Now</button>
-                    </div>
-                    <div className="w-full lg:w-[40%] relative">
-                        <div className="absolute inset-0 bg-[#005a9c]/10 blur-[120px] rounded-full scale-150 animate-pulse"></div>
-                        <img src="/environmental/placeholder/hero.avif" alt="E S D D In Furniture And Fixtures Industry"
-                            className="relative z-10 w-full h-auto object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-700"
-                            onError={(e) => { e.target.src = "https://illustrations.popsy.co/amber/plant.svg" }} />
-                    </div>
-                </div>
-            </section>
+        <div className="bg-[#f8f9fa] min-h-screen relative font-sans">
+            <div className="relative z-10 space-y-2 lg:space-y-4">
+                <HeroLayout
+                    heroTitleMain="Environmental and Social Due Diligence"
+                    heroTitleSuffix="in Furniture & Fixtures Industry"
+                    heroDescription="Hire our team of experts at Corpbiz to conduct Environmental and Social Due Diligence in the Furniture and Fixtures Industry without any hassle."
+                    stats={[
+                        { count: "100K+", label: "Happy Customers" },
+                        { count: "3500+", label: "Expert Advisors" },
+                        { count: "50+", label: "Branch Offices" },
+                        { count: "4.9", label: "Global Rating" }
+                    ]}
+                    formTitle="Get Free Expert Consultation"
+                />
 
-            <section className="bg-[#FEF9C3] py-20">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                        {[
-                            { icon: <Rocket className="w-8 h-8 text-[#005a9c]" />, title: "Track Record", desc: "Successfully processed thousands of applications for clients across India." },
-                            { icon: <Smile className="w-8 h-8 text-[#005a9c]" />, title: "Domain Expertise", desc: "Deep knowledge of specific regulatory frameworks and compliance timelines." },
-                            { icon: <MapPin className="w-8 h-8 text-[#005a9c]" />, title: "Pan-India Reach", desc: "We provide comprehensive regulatory coverage spanning all states and territories." },
-                            { icon: <PieChart className="w-8 h-8 text-[#005a9c]" />, title: "Data Security", desc: "Your business secrets, process details, and critical data are held in strict confidence." },
-                        ].map((card, i) => (
-                            <div key={i} className="bg-white rounded-[2rem] p-10 flex flex-col shadow-2xl transform hover:-translate-y-1 transition-all duration-300">
-                                <div className="w-16 h-16 rounded-2xl bg-indigo-50 flex items-center justify-center mb-8">{card.icon}</div>
-                                <h3 className="text-xl font-bold text-[#072b47] mb-4">{card.title}</h3>
-                                <p className="text-slate-600 text-[15px] leading-relaxed font-medium">{card.desc}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+                <DetailsLayout
+                    overview={{
+                        title: "ESDD in Furniture & Fixtures —",
+                        highlightTitle: "Brief Overview",
+                        description: [
+                            "The furniture and fixtures manufacturing industry is a massive, highly fragmented sector encompassing everything from large localized industrial wood processing units to expansive metal and plastic furniture assembly lines. This sector heavily relies on raw material extraction, chemical processing, and substantial manual labor.",
+                            "Environmental and Social Due Diligence (ESDD) systematically assesses an entity's compliance with pollution control regulations. It focuses intensely on air emissions from paint booths, the management of highly toxic volatile organic compounds (VOCs) from adhesives, and the legal sourcing of timber to prevent deforestation.",
+                            "Furthermore, ESDD rigorously examines the social dimensions of this labor-intensive sector: evaluating occupational health and safety (OHS) risks like respiratory hazards from sawdust and chemicals, assessing fair labor practices across complex supply chains, and verifying compliance with the Factories Act."
+                        ],
+                        whyIdealTitle: "Why ESDD Matters",
+                        whyIdealList: [
+                            { title: "Toxic Air Emissions", desc: "The heavy use of varnishes, lacquers, glues, and paints releases massive amounts of Volatile Organic Compounds (VOCs). ESDD strictly monitors the efficiency of air pollution control scrubbers and ventilation systems." },
+                            { title: "Sustainable Sourcing", desc: "Tracking the origin of timber is critical. ESDD verifies if wood is sourced legally and sustainably, checking for certifications (like FSC or PEFC) to ensure the business isn't driving illegal deforestation." },
+                            { title: "Occupational Health Hazards", desc: "Factory workers face immense respiratory risks from fine sawdust and toxic fumes, alongside dangers from heavy cutting machinery. Social ESDD mandates rigorous checks on safety protocols and PPE enforcement." },
+                        ]
+                    }}
 
-            <section className="py-20 bg-slate-50">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center mb-16">
-                        <h2 className="text-3xl md:text-4xl font-bold text-[#072b47] mb-4">Services Addressed</h2>
-                        <div className="w-24 h-1 bg-[#dead01] shadow-[0_0_8px_rgba(255,233,10,0.6)] mx-auto rounded mb-6"></div>
-                    </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {services.map((service, index) => (
-                            <div key={index} className="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-2xl hover:border-[#FFE90A]/40 hover:-translate-y-2 transition-all duration-500 flex flex-col h-full group relative">
-                                <div className="absolute top-0 left-0 w-full h-[3px] bg-[#FFE90A]"></div>
-                                <div className="p-8 flex flex-col h-full pt-10">
-                                    <h3 className="text-xl font-bold text-[#072b47] mb-4 group-hover:text-[#005a9c] transition-colors">{service.title}</h3>
-                                    <p className="text-slate-600 text-[15px] leading-relaxed mb-10 flex-grow font-medium">{service.desc}</p>
-                                    <div className="mt-auto pt-6">
-                                        <div className="flex flex-col mb-6">
-                                            <span className="text-[11px] uppercase tracking-widest font-black text-slate-400 mb-1">Starting at</span>
-                                            <span className="text-[#dead01] text-3xl font-black leading-none">{service.price}</span>
-                                        </div>
-                                        <div className="flex items-center justify-between gap-4">
-                                            <button className="flex-1 bg-[#005a9c] hover:bg-[#072b47] text-white px-5 py-3.5 rounded-xl text-sm font-bold transition-all">Get Started</button>
-                                            <button className="text-[#005a9c] font-bold text-sm flex items-center gap-1.5 group/read py-1">
-                                                <span>Read More</span><ArrowRight className="w-4 h-4 group-hover/read:translate-x-1.5 transition-transform duration-300" />
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+                    advantages={{
+                        title: "Key Roadblocks in Implementation",
+                        subtitle: "Furniture Industry ESDD challenges",
+                        list: [
+                            {
+                                title: "Navigating Evolving Chemical Regulations",
+                                desc: "Regulations regarding permissible chemicals in adhesives, fire retardants, and paints change rapidly. Keeping industrial practices continuously aligned with these evolving toxicity standards is a major compliance bottleneck."
+                            },
+                            {
+                                title: "Tracking Highly Fragmented Supply Chains",
+                                desc: "Manufacturers often outsource components to hundreds of unorganized MSME workshops. Tracing fair labor practices, child labor laws, and environmental norms across this vast, informal vendor network is exceptionally difficult."
+                            },
+                            {
+                                title: "Managing Combustible Waste",
+                                desc: "Furniture factories generate massive amounts of combustible waste (sawdust, wood scraps, chemical rags). Ensuring strict compliance with fire safety NOCs and hazardous waste disposal rules is a constant operational challenge."
+                            }
+                        ]
+                    }}
 
-            <section className="py-20 bg-[#FEF9C3]">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex flex-col lg:flex-row items-center gap-16">
-                        <div className="w-full lg:w-1/2">
-                            <h2 className="text-3xl md:text-4xl font-bold text-[#072b47] mb-6">About E S D D In Furniture And Fixtures Industry</h2>
-                            <div className="w-16 h-1 bg-[#072b47] rounded mb-8"></div>
-                            <div className="space-y-6 text-[#072b47]/90 text-lg leading-relaxed font-medium">
-                                <p>Ensuring compliance with E S D D In Furniture And Fixtures Industry is crucial for businesses operating in today's regulated environment under the broader framework of Environmental Industry. Failure to comply can result in severe legal consequences, operational halts, and financial penalties.</p>
-                                <p>Our comprehensive assistance covers everything from initial evaluation and strategy formulation to execution and final approval. Whether you are establishing a new entity or operating an existing one, we provide clear roadmaps to maintain unblemished compliance records.</p>
-                            </div>
-                        </div>
-                        <div className="w-full lg:w-1/2">
-                            <div className="bg-white rounded-3xl p-8 shadow-xl border border-slate-100">
-                                <h3 className="text-xl font-black text-[#072b47] mb-6">Core Requirements</h3>
-                                <ul className="space-y-4">
-                                    {["Business Incorporation Details", "Authorized Person KYC", "Facility Setup Plans", "List of Machinery/Process Details", "Past Compliance Records (if any)", "Site Clearance Approvals", "Local Body NOCs"].map((doc, i) => (
-                                        <li key={i} className="flex items-start gap-3 text-slate-700 font-medium">
-                                            <CheckCircle className="w-5 h-5 text-[#005a9c] mt-0.5 shrink-0" />
-                                            <span>{doc}</span>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                    typesOfCompliance={{
+                        title: "Major Benefits Derived",
+                        subtitle: "Why ESDD is a strategic advantage",
+                        list: [
+                            {
+                                title: "Unlocking Lucrative Export Markets",
+                                desc: "Exporting to the EU or North America requires strict adherence to environmental and labor standards (like REACH regulations or timber legality). Independent ESDD reports are mandatory to enter these premium markets."
+                            },
+                            {
+                                title: "Attracting Institutional Retailers",
+                                desc: "Global retail giants (like IKEA or Walmart) mandate rigorous ESG audits before onboarding suppliers. Achieving a clean ESDD rating transforms you from a local vendor to a globally approved supplier."
+                            },
+                            {
+                                title: "Preventing Catastrophic Shutdowns",
+                                desc: "Pre-emptively fixing issues with missing Consent to Operate (CTO) renewals or failing fire safety mechanisms prevents sudden factory sealing by authorities, avoiding massive production losses."
+                            }
+                        ]
+                    }}
 
-            <section className="py-24 bg-white border-t border-slate-100">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center mb-20">
-                        <h2 className="text-3xl md:text-5xl font-black text-[#072b47] mb-6">Why Choose <span className="text-[#dead01]">Us</span></h2>
-                        <div className="w-24 h-1.5 bg-[#dead01] mx-auto rounded-full"></div>
-                    </div>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        {[
-                            { title: "Specialized Experts", desc: "Dedicated professionals focused specifically on navigating complex environmental guidelines." },
-                            { title: "Assured Approvals", desc: "A robust vetting process of document filings severely limits the chance of application pushback." },
-                            { title: "Lifecycle Management", desc: "Beyond simple acquisition, we maintain a proactive posture toward your ongoing compliance schedule." },
-                        ].map((item, index) => (
-                            <div key={index} className="relative p-10 rounded-[2.5rem] border border-slate-200 bg-white shadow-sm hover:shadow-2xl hover:border-[#dead01]/30 hover:-translate-y-2 transition-all duration-500 group flex flex-col">
-                                <div className="mb-8">
-                                    <div className="w-16 h-16 rounded-2xl bg-slate-50 flex items-center justify-center border border-slate-100 group-hover:bg-[#dead01]/10 transition-all duration-500">
-                                        <CheckCircle className="w-8 h-8 text-[#dead01]" />
-                                    </div>
-                                </div>
-                                <h3 className="text-xl font-black text-[#072b47] mb-4 group-hover:text-[#005a9c] transition-colors">{item.title}</h3>
-                                <p className="text-slate-600 leading-relaxed font-medium text-[15px]">{item.desc}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+                    process={{
+                        title: "Our Specialized Solutions",
+                        subtitle: "ESDD for Furniture Manufacturing",
+                        steps: [
+                            {
+                                step: "01",
+                                title: "Air Emission & VOC Audit",
+                                desc: "Our environmental engineers meticulously analyze your paint and adhesive stations, measuring ambient VOC levels and chimney stack emissions to ensure strict compliance with State Pollution Control Board limits."
+                            },
+                            {
+                                step: "02",
+                                title: "Supply Chain Traceability",
+                                desc: "Detailed auditing of raw material procurement streams. We verify the legal origin of timber assessing the validity of transit passes and international sustainability certifications (FSC/PEFC)."
+                            },
+                            {
+                                step: "03",
+                                title: "Occupational Safety & Fire Audit",
+                                desc: "Rigorous factory floor inspections evaluating machine guarding, sawdust extraction systems, ergonomic setups, and the crucial effectiveness and legal validity of fire suppression infrastructure."
+                            },
+                            {
+                                step: "04",
+                                title: "Regulatory Gap Remediation",
+                                desc: "Identifying compliance gaps across labor laws and pollution norms, drafting actionable Environmental & Social Action Plans (ESAP), and executing filings to secure any missing clearances."
+                            }
+                        ]
+                    }}
+
+                    features={{
+                        title: "Why Choose Corpbiz",
+                        subtitle: "Unmatched Expertise in Manufacturing",
+                        list: [
+                            { title: "Chemical & VOC Specialists", desc: "Our teams deeply understand the complex biochemistry of industrial paints, resins, and adhesives, ensuring accurate emission audits." },
+                            { title: "Pan-India Vendor Reach", desc: "With our extensive network, we can rapidly audit your sprawling, unorganized sub-contractor network across various industrial clusters." },
+                            { title: "Turnkey Fire & Safety Approvals", desc: "If you lack a valid Fire Department NOC or Factory License, our dedicated legal team drafts and expedites the applications immediately." },
+                            { title: "International Standards Alignment", desc: "We map your operations against global buyer requirements, ensuring compliance with EU timber regulations and rigorous international labor codes." },
+                            { title: "Wood Waste & Biomass Planning", desc: "Strategic advisory on converting massive sawdust waste into compliant biomass fuel or legally selling it to aggregate board manufacturers." },
+                            { title: "Iron-Clad M&A Due Diligence", desc: "Providing acquiring companies with absolute transparency regarding hidden environmental fines or labor disputes of target furniture asset acquisitions." }
+                        ]
+                    }}
+
+                    eligibility={{
+                        title: "Why VyomBiz for Furniture ESDD?",
+                        subtitle: "We make environmental compliance simple for complex manufacturing.",
+                        list: [
+                            { title: "10+ Years of Experience", desc: "Deep expertise navigating the intersection of the Factories Act, forestry regulations, and pollution laws." },
+                            { title: "400+ In-House Professionals", desc: "A combined force of industrial environmental scientists and corporate labor compliance lawyers." },
+                            { title: "99% SLA Delivery", desc: "Fast-tracked, reliable ESDD reports crucial for onboarding global retail clients or securing urgent capacity expansion clearances." },
+                            { title: "Complete Confidentiality", desc: "Strict protection of your proprietary manufacturing processes, designs, and global vendor supply chain data." }
+                        ]
+                    }}
+
+                    postCompliance={{
+                        title: "Key Frameworks to Consider",
+                        subtitle: "The pillars of modern Furniture ESDD",
+                        list: [
+                            { title: "Air (Prevention and Control of Pollution) Act", desc: "Strict monitoring of highly toxic VOC emissions from paint booths, varnishing stations, and massive DG sets." },
+                            { title: "The Indian Forest Act & Transit Rules", desc: "Absolute compliance regarding the legal sourcing, documented transportation, and processing of timber." },
+                            { title: "Factories Act & Fire Safety Rules", desc: "Mandatory compliance regarding worker health, respiratory protection, and robust fire mitigation in highly combustible environments." }
+                        ]
+                    }}
+                />
+
+                <FAQLayout
+                    title="Frequently Asked Questions"
+                    subtitle="Clear your doubts about ESDD in Furniture & Fixtures Industry"
+                    faqs={[
+                        {
+                            question: "Why does the Furniture manufacturing industry need Environmental Due Diligence?",
+                            answer: "Furniture manufacturing involves highly polluting processes. The extensive use of paints, varnishes, glues, and resins releases toxic Volatile Organic Compounds (VOCs) into the air. Additionally, it generates massive amounts of combustible wood and chemical waste. ESDD ensures these hazards are managed legally, preventing factory closures or massive pollution fines."
+                        },
+                        {
+                            question: "What specific environmental emissions does an ESDD audit monitor?",
+                            answer: "The audit heavily focuses on air quality. It monitors the release of VOCs and hazardous air pollutants from coating and adhesive applications. It also tracks Particulate Matter (PM) like fine sawdust, ensuring that industrial dust extraction systems and chimney stacks conform strictly to Pollution Control Board limits."
+                        },
+                        {
+                            question: "How does ESDD address the sourcing of raw materials like wood?",
+                            answer: "Sourcing is a critical ESDD component. The audit thoroughly traces the supply chain to ensure timber is harvested legally, verifying transit passes and checking against illegal deforestation. It increasingly looks for international sustainability certifications like FSC (Forest Stewardship Council) to satisfy global ESG demands."
+                        },
+                        {
+                            question: "What are the common social and safety risks evaluated on the factory floor?",
+                            answer: "Social due diligence evaluates extreme Occupational Health and Safety (OHS) risks: severe respiratory issues from inhaling sawdust/chemical fumes, hearing loss from noisy machinery, and amputation risks from saws. It rigorously checks the enforcement of protective equipment (PPE), machine guarding, and compliance with the Factories Act regarding fair wages and working hours."
+                        },
+                        {
+                            question: "Does the ESDD cover Fire Safety Compliance?",
+                            answer: "Absolutely. Furniture factories are highly combustible environments filled with dry wood, sawdust, and flammable chemical solvents. The ESDD meticulously audits the facility’s fire suppression infrastructure, emergency exits, and crucially verifies the validity of the mandatory Fire Department No Objection Certificate (NOC)."
+                        },
+                        {
+                            question: "Why do global retail brands require ESDD reports from furniture suppliers?",
+                            answer: "Global giants (like IKEA or large US/EU retailers) operate under strict international ESG mandates. They cannot risk their brand reputation by sourcing from factories utilizing child labor, illegal timber, or polluting the local environment. A clean, independent ESDD report is the mandatory prerequisite to becoming an authorized supplier."
+                        },
+                        {
+                            question: "How does ESDD handle hazardous waste in furniture manufacturing?",
+                            answer: "Factories generate hazardous waste like empty paint/resin containers, solvent-soaked rags, and chemical sludge. The audit completely traces their lifecycle—from segregated storage to their final, legal disposal through authorized TSDF (Treatment, Storage, and Disposal Facility) operators, ensuring compliance with Hazardous Waste Rules."
+                        },
+                        {
+                            question: "What happens if a facility fails the ESDD audit?",
+                            answer: "If critical non-compliances are discovered (like a missing CTO or failing ventilation systems), Corpbiz drafts an Environmental and Social Action Plan (ESAP). This is a strategic roadmap detailing the exact technological upgrades or administrative filings needed to restore compliance, actively protecting the manufacturer from regulatory shutdowns."
+                        }
+                    ]}
+                />
+
+                <ReviewsSection
+                    title="What Our Clients Say About Us"
+                    subtitle="Trusted by leading furniture manufacturers and export houses."
+                    reviews={[
+                        {
+                            name: "Rajesh Menon",
+                            role: "Plant Head",
+                            company: "Kalawood Furniture India",
+                            rating: 5,
+                            initials: "RM",
+                            text: "We were facing severe scrutiny from the Pollution Control Board regarding VOC emissions from our large painting booths. Corpbiz audited our entire air pollution control framework and helped us design a compliant wet scrubber system. Outstanding technical depth."
+                        },
+                        {
+                            name: "Anjali Verma",
+                            role: "Export Director",
+                            company: "Global Living Fixtures",
+                            rating: 5,
+                            initials: "AV",
+                            text: "To onboard a massive European retail client, we needed a rigorous ESG audit covering everything from our timber tracking to worker labor contracts. Corpbiz delivered a deeply detailed report mapping our operations against strict international standards effortlessly."
+                        },
+                        {
+                            name: "Suresh Gupta",
+                            role: "Director of M&A",
+                            company: "Apex Interiors Group",
+                            rating: 4.8,
+                            initials: "SG",
+                            text: "During our pursuit of a bankrupt metal fixture plant, Corpbiz's ESDD team uncovered millions in hidden liabilities regarding improperly dumped hazardous chemical waste and expired fire safety NOCs, safely guiding us in price negotiations."
+                        },
+                        {
+                            name: "Dr. Vikram Sethi",
+                            role: "Chief Sustainability Officer",
+                            company: "Bharat Furnishings",
+                            rating: 5,
+                            initials: "VS",
+                            text: "The sheer volume of compliance paperwork for our multiple scattered MSME component suppliers was overwhelming. Corpbiz deployed their vast field network to audit our entire tier-1 supply chain, bringing everyone up to compliance rapidly."
+                        },
+                        {
+                            name: "Pooja Das",
+                            role: "Legal & Compliance Head",
+                            company: "Woodcraft Export Corp",
+                            rating: 5,
+                            initials: "PD",
+                            text: "Their understanding of the complex fire safety and factory regulations is exceptional. They not only highlighted our missing permits during the desktop review, but their corporate legal team stepped in and secured the manufacturing licenses rapidly."
+                        },
+                        {
+                            name: "Manish Kumar",
+                            role: "EHS Manager",
+                            company: "Deccan Modular Systems",
+                            rating: 5,
+                            initials: "MK",
+                            text: "Their approach to social due diligence regarding occupational health hazards in a dust-heavy environment is exceptional. They helped us restructure our ergonomic, ventilation and safety protocols, drastically reducing our worker incident rates."
+                        }
+                    ]}
+                />
+            </div>
         </div>
     );
 };

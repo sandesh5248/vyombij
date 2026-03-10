@@ -1,5 +1,5 @@
 import React, { lazy } from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Navigate } from 'react-router-dom';
 
 // Lazy imports for Footer Environmental category pages
 const FooterBatteryWasteManagement = lazy(() => import('../pages/footer/Environmental/BatteryWasteManagement'));
@@ -140,7 +140,8 @@ const EnvironmentalRoutes = [
     <Route key="esdd-in-aerospace-industry" path="/esdd-in-aerospace-industry" element={<ESDDInAerospaceIndustry />} />,
     <Route key="esdd-in-agricultural-equipment-manufacturing-industry" path="/esdd-in-agricultural-equipment-manufacturing-industry" element={<ESDDInAgriculturalEquipmentManufacturingIndustry />} />,
     <Route key="esdd-in-dairy-industry" path="/esdd-in-dairy-industry" element={<ESDDInDairyIndustry />} />,
-    <Route key="esdd-in-financialanking-sector" path="/esdd-in-financialanking-sector" element={<ESDDInFinancialankingSector />} />,
+    <Route key="esdd-in-financial-banking-sector" path="/esdd-in-financial-banking-sector" element={<ESDDInFinancialankingSector />} />,
+    <Route key="esdd-in-financialanking-sector-redirect" path="/esdd-in-financialanking-sector" element={<Navigate to="/esdd-in-financial-banking-sector" replace />} />,
     <Route key="esdd-in-food-processing-industry" path="/esdd-in-food-processing-industry" element={<ESDDInFoodProcessingIndustry />} />,
     <Route key="esdd-in-furniture-and-fixtures-industry" path="/esdd-in-furniture-and-fixtures-industry" element={<ESDDInFurnitureAndFixturesIndustry />} />,
     <Route key="esdd-in-iron-and-steel-industry" path="/esdd-in-iron-and-steel-industry" element={<ESDDInIronAndSteelIndustry />} />,

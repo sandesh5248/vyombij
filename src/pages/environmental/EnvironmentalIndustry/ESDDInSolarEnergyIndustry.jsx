@@ -1,151 +1,237 @@
 import React from 'react';
-import { CheckCircle, ArrowRight, Rocket, Smile, MapPin, PieChart, Shield } from 'lucide-react';
-
-const services = [
-    { title: "E S D D In Solar Energy Industry Consultation", desc: "Expert guidance and consultation for obtaining your E S D D In Solar Energy Industry smoothly and efficiently.", price: "₹2,999" },
-    { title: "Application Preparation", desc: "Complete documentation preparation and application filing for Environmental Industry compliance.", price: "₹4,999" },
-    { title: "Follow-up & Liaison", desc: "Regular follow-ups with relevant authorities to ensure faster processing of your application.", price: "₹3,499" },
-    { title: "Compliance Audit", desc: "Pre-application audit to ensure your premises/business meets all statutory requirements.", price: "₹5,999" },
-    { title: "Renewal Submissions", desc: "Timely submission of renewal applications to prevent lapses in your compliance status.", price: "₹1,999" },
-    { title: "Annual Returns Filing", desc: "Preparation and filing of statutory annual returns and compliance reports as mandated.", price: "₹2,499" },
-];
+import HeroLayout from '../../../components/common/HeroLayout';
+import DetailsLayout from '../../../components/common/DetailsLayout';
+import FAQLayout from '../../../components/common/FAQLayout';
+import ReviewsSection from '../../../components/common/ReviewsSection';
 
 const ESDDInSolarEnergyIndustry = () => {
     return (
-        <div className="bg-white min-h-screen font-sans">
-            <section className="relative min-h-[90vh] bg-white flex items-center pt-24 pb-12 overflow-hidden">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col lg:flex-row items-center gap-12 mb-20">
-                    <div className="w-full lg:w-[60%]">
-                        <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#005a9c]/10 border border-[#005a9c]/20 rounded-full text-[#005a9c] text-sm font-bold uppercase tracking-wider mb-8">
-                            <Shield size={16} /><span>Environmental Industry Services</span>
-                        </div>
-                        <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-[#072b47] leading-[1.1] mb-8">
-                            E <br className="hidden md:block" />
-                            <span className="text-[#dead01]">S D D In Solar Energy Industry</span>
-                        </h1>
-                        <p className="text-xl text-slate-600 mb-12 max-w-2xl leading-relaxed font-medium">
-                            End-to-end support for E S D D In Solar Energy Industry. We manage the entire lifecycle of compliance to ensure your business operations remain uninterrupted and legally sound.
-                        </p>
-                        <div className="flex flex-wrap gap-4 mb-8">
-                            {["Certification", "Compliance", "Advisory", "Renewals"].map((tag, i) => (
-                                <span key={i} className="px-4 py-2 bg-slate-100 text-[#072b47] rounded-full text-sm font-bold">{tag}</span>
-                            ))}
-                        </div>
-                        <button className="bg-[#005a9c] text-white px-12 py-5 rounded-2xl font-bold text-xl hover:bg-blue-700 shadow-2xl shadow-blue-900/20 active:scale-95 transition-all">Get Started Now</button>
-                    </div>
-                    <div className="w-full lg:w-[40%] relative">
-                        <div className="absolute inset-0 bg-[#005a9c]/10 blur-[120px] rounded-full scale-150 animate-pulse"></div>
-                        <img src="/environmental/placeholder/hero.avif" alt="E S D D In Solar Energy Industry"
-                            className="relative z-10 w-full h-auto object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-700"
-                            onError={(e) => { e.target.src = "https://illustrations.popsy.co/amber/plant.svg" }} />
-                    </div>
-                </div>
-            </section>
+        <div className="bg-[#f8f9fa] min-h-screen relative font-sans">
+            <div className="relative z-10 space-y-2 lg:space-y-4">
+                <HeroLayout
+                    heroTitleMain="Environmental and Social Due Diligence"
+                    heroTitleSuffix="in Solar Energy Industry"
+                    heroDescription="Hire our team of experts at Corpbiz to conduct Environmental and Social Due Diligence in the Solar Energy Industry, ensuring sustainable deployment and risk mitigation."
+                    stats={[
+                        { count: "100K+", label: "Happy Customers" },
+                        { count: "3500+", label: "Expert Advisors" },
+                        { count: "50+", label: "Branch Offices" },
+                        { count: "4.9", label: "Global Rating" }
+                    ]}
+                    formTitle="Get Free Expert Consultation"
+                />
 
-            <section className="bg-[#FEF9C3] py-20">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                        {[
-                            { icon: <Rocket className="w-8 h-8 text-[#005a9c]" />, title: "Track Record", desc: "Successfully processed thousands of applications for clients across India." },
-                            { icon: <Smile className="w-8 h-8 text-[#005a9c]" />, title: "Domain Expertise", desc: "Deep knowledge of specific regulatory frameworks and compliance timelines." },
-                            { icon: <MapPin className="w-8 h-8 text-[#005a9c]" />, title: "Pan-India Reach", desc: "We provide comprehensive regulatory coverage spanning all states and territories." },
-                            { icon: <PieChart className="w-8 h-8 text-[#005a9c]" />, title: "Data Security", desc: "Your business secrets, process details, and critical data are held in strict confidence." },
-                        ].map((card, i) => (
-                            <div key={i} className="bg-white rounded-[2rem] p-10 flex flex-col shadow-2xl transform hover:-translate-y-1 transition-all duration-300">
-                                <div className="w-16 h-16 rounded-2xl bg-indigo-50 flex items-center justify-center mb-8">{card.icon}</div>
-                                <h3 className="text-xl font-bold text-[#072b47] mb-4">{card.title}</h3>
-                                <p className="text-slate-600 text-[15px] leading-relaxed font-medium">{card.desc}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+                <DetailsLayout
+                    overview={{
+                        title: "ESDD in Solar Energy —",
+                        highlightTitle: "Brief Overview",
+                        description: [
+                            "While solar energy is lauded as a zero-emission alternative to fossil fuels, the deployment of utility-scale solar parks involves vast land acquisition, massive water consumption in arid regions, and the management of hazardous end-of-life photovoltaic (PV) waste.",
+                            "Environmental and Social Due Diligence (ESDD) systematically assesses these hidden impacts. It ensures that 'green' projects do not inadvertently cause ecological degradation or social disruption, securing the project's long-term viability and maintaining its sustainable credentials.",
+                            "With India aggressively pushing toward a 280 GW solar capacity target by 2030, billions of dollars in foreign and multilateral investments are pouring in. ESDD serves as the mandatory, independent verification these investors demand to ensure compliance with strict global ESG frameworks like the IFC Performance Standards."
+                        ],
+                        whyIdealTitle: "Why ESDD Matters in Solar",
+                        whyIdealList: [
+                            { title: "Massive Land Footprint", desc: "Utility-scale solar requires huge tracts of contiguous land, often intersecting with agricultural zones or ecologically sensitive areas. ESDD thoroughly maps these land use conflicts." },
+                            { title: "Intense Water Consumption", desc: "Solar panels require frequent cleaning to maintain efficiency, leading to immense water extraction—often in naturally water-scarce (arid) regions, necessitating strict groundwater audits." },
+                            { title: "Hazardous E-Waste", desc: "End-of-life solar panels contain toxic heavy metals (lead, cadmium). ESDD evaluates the facility's adherence to emerging Extended Producer Responsibility (EPR) recycling mandates." },
+                        ]
+                    }}
 
-            <section className="py-20 bg-slate-50">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center mb-16">
-                        <h2 className="text-3xl md:text-4xl font-bold text-[#072b47] mb-4">Services Addressed</h2>
-                        <div className="w-24 h-1 bg-[#dead01] shadow-[0_0_8px_rgba(255,233,10,0.6)] mx-auto rounded mb-6"></div>
-                    </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {services.map((service, index) => (
-                            <div key={index} className="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-2xl hover:border-[#FFE90A]/40 hover:-translate-y-2 transition-all duration-500 flex flex-col h-full group relative">
-                                <div className="absolute top-0 left-0 w-full h-[3px] bg-[#FFE90A]"></div>
-                                <div className="p-8 flex flex-col h-full pt-10">
-                                    <h3 className="text-xl font-bold text-[#072b47] mb-4 group-hover:text-[#005a9c] transition-colors">{service.title}</h3>
-                                    <p className="text-slate-600 text-[15px] leading-relaxed mb-10 flex-grow font-medium">{service.desc}</p>
-                                    <div className="mt-auto pt-6">
-                                        <div className="flex flex-col mb-6">
-                                            <span className="text-[11px] uppercase tracking-widest font-black text-slate-400 mb-1">Starting at</span>
-                                            <span className="text-[#dead01] text-3xl font-black leading-none">{service.price}</span>
-                                        </div>
-                                        <div className="flex items-center justify-between gap-4">
-                                            <button className="flex-1 bg-[#005a9c] hover:bg-[#072b47] text-white px-5 py-3.5 rounded-xl text-sm font-bold transition-all">Get Started</button>
-                                            <button className="text-[#005a9c] font-bold text-sm flex items-center gap-1.5 group/read py-1">
-                                                <span>Read More</span><ArrowRight className="w-4 h-4 group-hover/read:translate-x-1.5 transition-transform duration-300" />
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+                    advantages={{
+                        title: "Key Roadblocks in Implementation",
+                        subtitle: "Solar Industry ESDD challenges",
+                        list: [
+                            {
+                                title: "Navigating Complex Land Rights",
+                                desc: "Securing thousands of acres often involves displacing local communities or navigating undocumented tribal land rights. Formulating fair compensation and resettlement plans (if needed) is highly sensitive and legally complex."
+                            },
+                            {
+                                title: "Biodiversity Disruption",
+                                desc: "Massive solar arrays can disrupt local flora, restrict traditional wildlife migratory corridors, or alter the natural topography leading to soil erosion and changed drainage patterns, requiring deep ecological studies."
+                            },
+                            {
+                                title: "Supply Chain Transparency",
+                                desc: "Ensuring that imported solar modules (often from diverse global regions) are free from forced labor and manufactured under acceptable environmental standards is a massive auditing challenge."
+                            }
+                        ]
+                    }}
 
-            <section className="py-20 bg-[#FEF9C3]">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex flex-col lg:flex-row items-center gap-16">
-                        <div className="w-full lg:w-1/2">
-                            <h2 className="text-3xl md:text-4xl font-bold text-[#072b47] mb-6">About E S D D In Solar Energy Industry</h2>
-                            <div className="w-16 h-1 bg-[#072b47] rounded mb-8"></div>
-                            <div className="space-y-6 text-[#072b47]/90 text-lg leading-relaxed font-medium">
-                                <p>Ensuring compliance with E S D D In Solar Energy Industry is crucial for businesses operating in today's regulated environment under the broader framework of Environmental Industry. Failure to comply can result in severe legal consequences, operational halts, and financial penalties.</p>
-                                <p>Our comprehensive assistance covers everything from initial evaluation and strategy formulation to execution and final approval. Whether you are establishing a new entity or operating an existing one, we provide clear roadmaps to maintain unblemished compliance records.</p>
-                            </div>
-                        </div>
-                        <div className="w-full lg:w-1/2">
-                            <div className="bg-white rounded-3xl p-8 shadow-xl border border-slate-100">
-                                <h3 className="text-xl font-black text-[#072b47] mb-6">Core Requirements</h3>
-                                <ul className="space-y-4">
-                                    {["Business Incorporation Details", "Authorized Person KYC", "Facility Setup Plans", "List of Machinery/Process Details", "Past Compliance Records (if any)", "Site Clearance Approvals", "Local Body NOCs"].map((doc, i) => (
-                                        <li key={i} className="flex items-start gap-3 text-slate-700 font-medium">
-                                            <CheckCircle className="w-5 h-5 text-[#005a9c] mt-0.5 shrink-0" />
-                                            <span>{doc}</span>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                    typesOfCompliance={{
+                        title: "Major Benefits Derived",
+                        subtitle: "Why ESDD is a strategic advantage",
+                        list: [
+                            {
+                                title: "Accessing Premium Global Finance",
+                                desc: "Projects backed by comprehensive ESDD reports aligned with Equator Principles qualify for Green Bonds, sovereign wealth investments, and low-interest climate transition loans."
+                            },
+                            {
+                                title: "Preventing Community Protests",
+                                desc: "By proactively identifying social grievances regarding land pricing, water usage, or local employment, ESDD helps establish robust stakeholder engagement, preventing project-halting protests."
+                            },
+                            {
+                                title: "Accelerated Project Clearances",
+                                desc: "A rigorous initial environmental and social assessment drastically speeds up the process of acquiring necessary state NOCs, Forest Clearances, and CGWA approvals."
+                            }
+                        ]
+                    }}
 
-            <section className="py-24 bg-white border-t border-slate-100">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center mb-20">
-                        <h2 className="text-3xl md:text-5xl font-black text-[#072b47] mb-6">Why Choose <span className="text-[#dead01]">Us</span></h2>
-                        <div className="w-24 h-1.5 bg-[#dead01] mx-auto rounded-full"></div>
-                    </div>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        {[
-                            { title: "Specialized Experts", desc: "Dedicated professionals focused specifically on navigating complex environmental guidelines." },
-                            { title: "Assured Approvals", desc: "A robust vetting process of document filings severely limits the chance of application pushback." },
-                            { title: "Lifecycle Management", desc: "Beyond simple acquisition, we maintain a proactive posture toward your ongoing compliance schedule." },
-                        ].map((item, index) => (
-                            <div key={index} className="relative p-10 rounded-[2.5rem] border border-slate-200 bg-white shadow-sm hover:shadow-2xl hover:border-[#dead01]/30 hover:-translate-y-2 transition-all duration-500 group flex flex-col">
-                                <div className="mb-8">
-                                    <div className="w-16 h-16 rounded-2xl bg-slate-50 flex items-center justify-center border border-slate-100 group-hover:bg-[#dead01]/10 transition-all duration-500">
-                                        <CheckCircle className="w-8 h-8 text-[#dead01]" />
-                                    </div>
-                                </div>
-                                <h3 className="text-xl font-black text-[#072b47] mb-4 group-hover:text-[#005a9c] transition-colors">{item.title}</h3>
-                                <p className="text-slate-600 leading-relaxed font-medium text-[15px]">{item.desc}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+                    process={{
+                        title: "Our Specialized Solutions",
+                        subtitle: "ESDD for Solar Projects",
+                        steps: [
+                            {
+                                step: "01",
+                                title: "Desktop Screening & GIS Mapping",
+                                desc: "Utilizing advanced satellite imagery to map proposed sites against protected forests, wildlife sanctuaries, CRZ areas, and existing water bodies to flag immediate 'no-go' zones."
+                            },
+                            {
+                                step: "02",
+                                title: "Extensive Field Surveys",
+                                desc: "Deploying environmental scientists and sociologists for on-ground audits: testing soil stability, assessing local biodiversity, and conducting structured interviews with neighboring villages."
+                            },
+                            {
+                                step: "03",
+                                title: "Resource & Waste Assessment",
+                                desc: "Analyzing projected water consumption for panel cleaning against local aquifer health, and auditing the decommissioning strategy for handling massive electronic waste."
+                            },
+                            {
+                                step: "04",
+                                title: "Gap Analysis & Remediation (ESAP)",
+                                desc: "Comparing findings against IFC Performance Standards/local laws, drafting a comprehensive Environmental & Social Action Plan (ESAP), and legally assisting in securing missing permits."
+                            }
+                        ]
+                    }}
+
+                    features={{
+                        title: "Why Choose Corpbiz",
+                        subtitle: "Unmatched Expertise in Renewables",
+                        list: [
+                            { title: "Dedicated Solar Consultants", desc: "Teams specializing specifically in the unique ecological footprint of utility-scale PV and concentrated solar power plants." },
+                            { title: "Pan-India Audit Capability", desc: "Extensive network allowing simultaneous physical audits of massive solar parks located in remote deserts or complex agricultural belts." },
+                            { title: "Social Impact Mastery", desc: "Deep expertise in navigating Indian land acquisition laws, tribal rights (FRA), and establishing compliant community grievance mechanisms." },
+                            { title: "IFC & Equator Principle Experts", desc: "Auditors highly trained in mapping local solar operations against the strict criteria demanded by international multilateral banks." },
+                            { title: "Supply Chain Traceability", desc: "Assisting developers in auditing their tier-1 module suppliers for ESG compliance, mitigating forced labor and high-carbon manufacturing risks." },
+                            { title: "Turnkey Regulatory Clearances", desc: "If your project hits a roadblock with the MoEFCC or local Panchayats, our corporate legal team takes over the liaison process." }
+                        ]
+                    }}
+
+                    eligibility={{
+                        title: "Why VyomBiz for Solar ESDD?",
+                        subtitle: "We make compliance effortless for mega-infrastructure.",
+                        list: [
+                            { title: "10+ Years of Experience", desc: "Deep expertise navigating the intersection of massive land acquisition, water rights, and environmental law." },
+                            { title: "400+ In-House Professionals", desc: "A combined force of environmental scientists, sociologists, and corporate infrastructure lawyers." },
+                            { title: "99% SLA Delivery", desc: "Fast-tracked, highly reliable ESDD reports crucial for achieving financial close or finalizing M&A deals." },
+                            { title: "Complete Confidentiality", desc: "Strict protection of your proprietary project designs, land acquisition strategies, and lender data." }
+                        ]
+                    }}
+
+                    postCompliance={{
+                        title: "Key Frameworks to Consider",
+                        subtitle: "The pillars of modern Solar ESDD",
+                        list: [
+                            { title: "IFC Performance Standards", desc: "Particularly PS5 (Land Acquisition and Involuntary Resettlement) and PS6 (Biodiversity Conservation)." },
+                            { title: "Water (Prevention and Control of Pollution) Act & CGWA", desc: "Strict mandates governing the extraction of groundwater for panel maintenance in arid zones." },
+                            { title: "E-Waste (Management) Rules", desc: "Evolving frameworks mandating the responsible recycling and Extended Producer Responsibility for dying PV cells." }
+                        ]
+                    }}
+                />
+
+                <FAQLayout
+                    title="Frequently Asked Questions"
+                    subtitle="Clear your doubts about ESDD in Solar Energy Industry"
+                    faqs={[
+                        {
+                            question: "Why does a 'clean' energy project like Solar require Environmental Due Diligence?",
+                            answer: "While solar generates clean energy, its deployment is resource-intensive. Utility-scale parks require massive land clearing (impacting local ecology/drainage), consume huge volumes of water for panel cleaning in arid regions, and eventually generate hazardous e-waste. ESDD ensures these localized negative impacts are identified and mitigated."
+                        },
+                        {
+                            question: "How does ESDD address the massive land requirements for Solar Parks?",
+                            answer: "Social due diligence heavily scrutinizes the land acquisition process. It checks if local farmers or tribal communities were fairly compensated, if any involuntary resettlement occurred without following legal protocols, and if the project disrupted traditional grazing lands. This prevents community protests that commonly halt mega-projects."
+                        },
+                        {
+                            question: "What specific water issues does a Solar ESDD investigate?",
+                            answer: "Solar panels require immense amounts of water for periodic washing to maintain efficiency. The ESDD assesses the source of this water. If groundwater is used, it verifies compliance with Central Ground Water Authority (CGWA) extraction limits, ensuring the project doesn't deplete the local water table at the expense of surrounding villages."
+                        },
+                        {
+                            question: "Are end-of-life solar panels considered hazardous waste?",
+                            answer: "Yes. Photovoltaic (PV) cells contain heavy metals like lead and cadmium. The ESDD audits the project's decommissioning plan, verifying if there are clear strategies and financial provisions to legally recycle the panels under Extended Producer Responsibility (EPR) mandates instead of illegally dumping them."
+                        },
+                        {
+                            question: "Why do international investors demand ESDD reports for Indian solar projects?",
+                            answer: "Foreign Direct Investment (FDI) and Multilateral Banks (like the World Bank/IFC) operate under strict internal ESG mandates (like the Equator Principles). An independent ESDD report is their required proof that the financed project will not result in environmental degradation or human rights violations."
+                        },
+                        {
+                            question: "What is an Environmental and Social Action Plan (ESAP)?",
+                            answer: "If the ESDD audit uncovers non-compliances (e.g., lack of a community grievance mechanism or missing water permits), Corpbiz drafts an ESAP. It is a legally binding, step-by-step roadmap outlining the corrective actions the developer must take, deadlines, and cost estimates to achieve full regulatory compliance."
+                        },
+                        {
+                            question: "Does ESDD review the supply chain of imported solar panels?",
+                            answer: "Yes, modern ESDD increasingly includes supply chain traceability. It assesses whether the tier-1 manufacturers of the solar modules adhere to acceptable environmental standards in their factories and ensures the supply chain is free from forced or unethical labor practices, mitigating reputational risk."
+                        },
+                        {
+                            question: "Is an ESDD necessary before buying an existing, operational Solar Park?",
+                            answer: "Absolutely. In Mergers & Acquisitions (M&A), the buyer inherits past liabilities. An ESDD uncovers hidden 'red flags'—like pending litigations from unpaid farmers, expired environmental No Objection Certificates (NOCs), or severe land degradation—allowing the buyer to restructure the deal or demand remediation before purchase."
+                        }
+                    ]}
+                />
+
+                <ReviewsSection
+                    title="What Our Clients Say About Us"
+                    subtitle="Trusted by leading utility-scale solar developers and investors."
+                    reviews={[
+                        {
+                            name: "Arun Prakash",
+                            role: "Director of Projects",
+                            company: "SunBeam Power India",
+                            rating: 5,
+                            initials: "AP",
+                            text: "We were seeking funding from an Asian multilateral bank for our 500MW solar park in Rajasthan. Corpbiz's exhaustive ESDD report mapping our operations exactly to IFC standards was exactly what the lenders demanded. They secured our funding approval seamlessly."
+                        },
+                        {
+                            name: "Pooja Desai",
+                            role: "Head of M&A",
+                            company: "GreenVest Capital",
+                            rating: 5,
+                            initials: "PD",
+                            text: "During our pursuit of an operational solar asset, Corpbiz uncovered a massive pending litigation regarding tribal land rights that was entirely missing from the seller's data room. Their rigorous social due diligence saved us millions in future legal battles."
+                        },
+                        {
+                            name: "Vikram Chauhan",
+                            role: "Operations Manager",
+                            company: "Desert Sun Renewables",
+                            rating: 4.8,
+                            initials: "VC",
+                            text: "Corpbiz helped us structure a highly compliant water-management system and a proper grievance redressal mechanism for the surrounding villages. Since implementation, community relations have vastly improved and water usage dropped."
+                        },
+                        {
+                            name: "Dr. Ananya Singh",
+                            role: "ESG Controller",
+                            company: "EcoGrid Solutions",
+                            rating: 5,
+                            initials: "AS",
+                            text: "The team’s understanding of end-of-life e-waste regulations for solar panels is unmatched. They drafted a comprehensive Environmental Management Plan (EMP) that future-proofed our disposal liabilities for the next 25 years."
+                        },
+                        {
+                            name: "Ravi Shankar",
+                            role: "Legal & Compliance Head",
+                            company: "Surya Infra Projects",
+                            rating: 5,
+                            initials: "RS",
+                            text: "Their understanding of the CGWA groundwater norms is exceptional. Not only did they highlight our missing extraction permits during the desktop review, but their corporate team stepped in and secured the NOCs rapidly."
+                        },
+                        {
+                            name: "Meenakshi V",
+                            role: "VP Sustainability",
+                            company: "Solaris Power Corp",
+                            rating: 5,
+                            initials: "MV",
+                            text: "A highly professional group. They managed to expedite the incredibly complex ecological baseline surveys and field work across a massive, remote site, ensuring we met our strict deal closure deadline."
+                        }
+                    ]}
+                />
+            </div>
         </div>
     );
 };

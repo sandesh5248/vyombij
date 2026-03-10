@@ -1,151 +1,237 @@
 import React from 'react';
-import { CheckCircle, ArrowRight, Rocket, Smile, MapPin, PieChart, Shield } from 'lucide-react';
-
-const services = [
-    { title: "E S D D In Iron And Steel Industry Consultation", desc: "Expert guidance and consultation for obtaining your E S D D In Iron And Steel Industry smoothly and efficiently.", price: "₹2,999" },
-    { title: "Application Preparation", desc: "Complete documentation preparation and application filing for Environmental Industry compliance.", price: "₹4,999" },
-    { title: "Follow-up & Liaison", desc: "Regular follow-ups with relevant authorities to ensure faster processing of your application.", price: "₹3,499" },
-    { title: "Compliance Audit", desc: "Pre-application audit to ensure your premises/business meets all statutory requirements.", price: "₹5,999" },
-    { title: "Renewal Submissions", desc: "Timely submission of renewal applications to prevent lapses in your compliance status.", price: "₹1,999" },
-    { title: "Annual Returns Filing", desc: "Preparation and filing of statutory annual returns and compliance reports as mandated.", price: "₹2,499" },
-];
+import HeroLayout from '../../../components/common/HeroLayout';
+import DetailsLayout from '../../../components/common/DetailsLayout';
+import FAQLayout from '../../../components/common/FAQLayout';
+import ReviewsSection from '../../../components/common/ReviewsSection';
 
 const ESDDInIronAndSteelIndustry = () => {
     return (
-        <div className="bg-white min-h-screen font-sans">
-            <section className="relative min-h-[90vh] bg-white flex items-center pt-24 pb-12 overflow-hidden">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col lg:flex-row items-center gap-12 mb-20">
-                    <div className="w-full lg:w-[60%]">
-                        <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#005a9c]/10 border border-[#005a9c]/20 rounded-full text-[#005a9c] text-sm font-bold uppercase tracking-wider mb-8">
-                            <Shield size={16} /><span>Environmental Industry Services</span>
-                        </div>
-                        <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-[#072b47] leading-[1.1] mb-8">
-                            E <br className="hidden md:block" />
-                            <span className="text-[#dead01]">S D D In Iron And Steel Industry</span>
-                        </h1>
-                        <p className="text-xl text-slate-600 mb-12 max-w-2xl leading-relaxed font-medium">
-                            End-to-end support for E S D D In Iron And Steel Industry. We manage the entire lifecycle of compliance to ensure your business operations remain uninterrupted and legally sound.
-                        </p>
-                        <div className="flex flex-wrap gap-4 mb-8">
-                            {["Certification", "Compliance", "Advisory", "Renewals"].map((tag, i) => (
-                                <span key={i} className="px-4 py-2 bg-slate-100 text-[#072b47] rounded-full text-sm font-bold">{tag}</span>
-                            ))}
-                        </div>
-                        <button className="bg-[#005a9c] text-white px-12 py-5 rounded-2xl font-bold text-xl hover:bg-blue-700 shadow-2xl shadow-blue-900/20 active:scale-95 transition-all">Get Started Now</button>
-                    </div>
-                    <div className="w-full lg:w-[40%] relative">
-                        <div className="absolute inset-0 bg-[#005a9c]/10 blur-[120px] rounded-full scale-150 animate-pulse"></div>
-                        <img src="/environmental/placeholder/hero.avif" alt="E S D D In Iron And Steel Industry"
-                            className="relative z-10 w-full h-auto object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-700"
-                            onError={(e) => { e.target.src = "https://illustrations.popsy.co/amber/plant.svg" }} />
-                    </div>
-                </div>
-            </section>
+        <div className="bg-[#f8f9fa] min-h-screen relative font-sans">
+            <div className="relative z-10 space-y-2 lg:space-y-4">
+                <HeroLayout
+                    heroTitleMain="Environmental and Social Due Diligence"
+                    heroTitleSuffix="in the Iron & Steel Industry"
+                    heroDescription="Hire our team of experts at Corpbiz to conduct Environmental and Social Due Diligence in the Iron & Steel sector, ensuring ESG compliance and risk mitigation."
+                    stats={[
+                        { count: "100K+", label: "Happy Customers" },
+                        { count: "3500+", label: "Expert Advisors" },
+                        { count: "50+", label: "Branch Offices" },
+                        { count: "4.9", label: "Global Rating" }
+                    ]}
+                    formTitle="Get Free Expert Consultation"
+                />
 
-            <section className="bg-[#FEF9C3] py-20">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                        {[
-                            { icon: <Rocket className="w-8 h-8 text-[#005a9c]" />, title: "Track Record", desc: "Successfully processed thousands of applications for clients across India." },
-                            { icon: <Smile className="w-8 h-8 text-[#005a9c]" />, title: "Domain Expertise", desc: "Deep knowledge of specific regulatory frameworks and compliance timelines." },
-                            { icon: <MapPin className="w-8 h-8 text-[#005a9c]" />, title: "Pan-India Reach", desc: "We provide comprehensive regulatory coverage spanning all states and territories." },
-                            { icon: <PieChart className="w-8 h-8 text-[#005a9c]" />, title: "Data Security", desc: "Your business secrets, process details, and critical data are held in strict confidence." },
-                        ].map((card, i) => (
-                            <div key={i} className="bg-white rounded-[2rem] p-10 flex flex-col shadow-2xl transform hover:-translate-y-1 transition-all duration-300">
-                                <div className="w-16 h-16 rounded-2xl bg-indigo-50 flex items-center justify-center mb-8">{card.icon}</div>
-                                <h3 className="text-xl font-bold text-[#072b47] mb-4">{card.title}</h3>
-                                <p className="text-slate-600 text-[15px] leading-relaxed font-medium">{card.desc}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+                <DetailsLayout
+                    overview={{
+                        title: "ESDD in Iron & Steel —",
+                        highlightTitle: "Brief Overview",
+                        description: [
+                            "The iron and steel industry is one of the foundational pillars of the Indian economy, driving infrastructure and manufacturing. However, it is also one of the most resource-intensive and highest-polluting sectors globally, consuming massive amounts of raw materials, water, and energy.",
+                            "Environmental and Social Due Diligence (ESDD) in the iron and steel sector is a rigorous assessment of how a facility manages its massive carbon footprint, toxic air emissions, colossal solid waste generation (slag), and the occupational health and safety of thousands of workers.",
+                            "With mounting pressure from global investors regarding decarbonization and strict mandates from the Ministry of Environment, Forest and Climate Change (MoEFCC), establishing robust ESDD protocols is critical. It determines a steel plant's operational viability and its ability to secure capital in an increasingly ESG-conscious financial landscape."
+                        ],
+                        whyIdealTitle: "Why ESDD Matters in Steel",
+                        whyIdealList: [
+                            { title: "Massive Carbon Emissions", desc: "Steel production via blast furnaces is highly carbon-intensive. ESDD tracks Scope 1, 2, and 3 emissions, assessing the facility's decarbonization roadmap against national net-zero targets." },
+                            { title: "Heavy Air and Water Pollution", desc: "Plants generate severe particulate matter, sulfur oxides, and toxic effluents (like phenols and cyanides from coke ovens). ESDD rigorously checks the efficiency of pollution control equipment." },
+                            { title: "Occupational Hazards", desc: "Working with molten metal and heavy machinery presents immense safety risks. Social due diligence scrutinizes occupational health standards, accident rates, and factory floor labor conditions." },
+                        ]
+                    }}
 
-            <section className="py-20 bg-slate-50">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center mb-16">
-                        <h2 className="text-3xl md:text-4xl font-bold text-[#072b47] mb-4">Services Addressed</h2>
-                        <div className="w-24 h-1 bg-[#dead01] shadow-[0_0_8px_rgba(255,233,10,0.6)] mx-auto rounded mb-6"></div>
-                    </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {services.map((service, index) => (
-                            <div key={index} className="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-2xl hover:border-[#FFE90A]/40 hover:-translate-y-2 transition-all duration-500 flex flex-col h-full group relative">
-                                <div className="absolute top-0 left-0 w-full h-[3px] bg-[#FFE90A]"></div>
-                                <div className="p-8 flex flex-col h-full pt-10">
-                                    <h3 className="text-xl font-bold text-[#072b47] mb-4 group-hover:text-[#005a9c] transition-colors">{service.title}</h3>
-                                    <p className="text-slate-600 text-[15px] leading-relaxed mb-10 flex-grow font-medium">{service.desc}</p>
-                                    <div className="mt-auto pt-6">
-                                        <div className="flex flex-col mb-6">
-                                            <span className="text-[11px] uppercase tracking-widest font-black text-slate-400 mb-1">Starting at</span>
-                                            <span className="text-[#dead01] text-3xl font-black leading-none">{service.price}</span>
-                                        </div>
-                                        <div className="flex items-center justify-between gap-4">
-                                            <button className="flex-1 bg-[#005a9c] hover:bg-[#072b47] text-white px-5 py-3.5 rounded-xl text-sm font-bold transition-all">Get Started</button>
-                                            <button className="text-[#005a9c] font-bold text-sm flex items-center gap-1.5 group/read py-1">
-                                                <span>Read More</span><ArrowRight className="w-4 h-4 group-hover/read:translate-x-1.5 transition-transform duration-300" />
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+                    advantages={{
+                        title: "Key Roadblocks in Implementation",
+                        subtitle: "Iron & Steel ESDD challenges",
+                        list: [
+                            {
+                                title: "Navigating Staggering Solid Waste",
+                                desc: "Steel plants generate mountains of solid waste (Blast Furnace Slag, BOF slag). Documenting the compliant disposal and circular recycling (e.g., selling slag to cement industries) is a massive auditing challenge."
+                            },
+                            {
+                                title: "Complex Decarbonization Audits",
+                                desc: "Evaluating a legacy steel plant's transition plan to low-carbon technologies (like DRI-EAF or green hydrogen) requires highly specialized metallurgical and environmental engineering expertise."
+                            },
+                            {
+                                title: "Community and Land Issues",
+                                desc: "Mega steel projects require vast land acquisition, often causing displacement. Assessing historical resettlement grievances and ongoing community relations is socially complex and legally sensitive."
+                            }
+                        ]
+                    }}
 
-            <section className="py-20 bg-[#FEF9C3]">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex flex-col lg:flex-row items-center gap-16">
-                        <div className="w-full lg:w-1/2">
-                            <h2 className="text-3xl md:text-4xl font-bold text-[#072b47] mb-6">About E S D D In Iron And Steel Industry</h2>
-                            <div className="w-16 h-1 bg-[#072b47] rounded mb-8"></div>
-                            <div className="space-y-6 text-[#072b47]/90 text-lg leading-relaxed font-medium">
-                                <p>Ensuring compliance with E S D D In Iron And Steel Industry is crucial for businesses operating in today's regulated environment under the broader framework of Environmental Industry. Failure to comply can result in severe legal consequences, operational halts, and financial penalties.</p>
-                                <p>Our comprehensive assistance covers everything from initial evaluation and strategy formulation to execution and final approval. Whether you are establishing a new entity or operating an existing one, we provide clear roadmaps to maintain unblemished compliance records.</p>
-                            </div>
-                        </div>
-                        <div className="w-full lg:w-1/2">
-                            <div className="bg-white rounded-3xl p-8 shadow-xl border border-slate-100">
-                                <h3 className="text-xl font-black text-[#072b47] mb-6">Core Requirements</h3>
-                                <ul className="space-y-4">
-                                    {["Business Incorporation Details", "Authorized Person KYC", "Facility Setup Plans", "List of Machinery/Process Details", "Past Compliance Records (if any)", "Site Clearance Approvals", "Local Body NOCs"].map((doc, i) => (
-                                        <li key={i} className="flex items-start gap-3 text-slate-700 font-medium">
-                                            <CheckCircle className="w-5 h-5 text-[#005a9c] mt-0.5 shrink-0" />
-                                            <span>{doc}</span>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                    typesOfCompliance={{
+                        title: "Major Benefits Derived",
+                        subtitle: "Why ESDD is a strategic advantage",
+                        list: [
+                            {
+                                title: "Access to Sustainable Finance",
+                                desc: "Steel plants with verified ESDD reports and clear decarbonization targets gain access to Transition Bonds, Green Loans, and investments from climate-focused institutional funds."
+                            },
+                            {
+                                title: "Averting Regulatory Shutdowns",
+                                desc: "Ensuring all primary emissions (stacks) and secondary fugitive emissions are within CPCB norms prevents sudden factory seals, multi-crore penalties, and loss of production."
+                            },
+                            {
+                                title: "Enhanced Operational Efficiency",
+                                desc: "Thorough environmental audits often uncover massive inefficiencies in water usage, raw material handling, and energy consumption, leading to significant cost-saving process optimizations."
+                            }
+                        ]
+                    }}
 
-            <section className="py-24 bg-white border-t border-slate-100">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center mb-20">
-                        <h2 className="text-3xl md:text-5xl font-black text-[#072b47] mb-6">Why Choose <span className="text-[#dead01]">Us</span></h2>
-                        <div className="w-24 h-1.5 bg-[#dead01] mx-auto rounded-full"></div>
-                    </div>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        {[
-                            { title: "Specialized Experts", desc: "Dedicated professionals focused specifically on navigating complex environmental guidelines." },
-                            { title: "Assured Approvals", desc: "A robust vetting process of document filings severely limits the chance of application pushback." },
-                            { title: "Lifecycle Management", desc: "Beyond simple acquisition, we maintain a proactive posture toward your ongoing compliance schedule." },
-                        ].map((item, index) => (
-                            <div key={index} className="relative p-10 rounded-[2.5rem] border border-slate-200 bg-white shadow-sm hover:shadow-2xl hover:border-[#dead01]/30 hover:-translate-y-2 transition-all duration-500 group flex flex-col">
-                                <div className="mb-8">
-                                    <div className="w-16 h-16 rounded-2xl bg-slate-50 flex items-center justify-center border border-slate-100 group-hover:bg-[#dead01]/10 transition-all duration-500">
-                                        <CheckCircle className="w-8 h-8 text-[#dead01]" />
-                                    </div>
-                                </div>
-                                <h3 className="text-xl font-black text-[#072b47] mb-4 group-hover:text-[#005a9c] transition-colors">{item.title}</h3>
-                                <p className="text-slate-600 leading-relaxed font-medium text-[15px]">{item.desc}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+                    process={{
+                        title: "Our Specialized Solutions",
+                        subtitle: "ESDD for Steel Projects",
+                        steps: [
+                            {
+                                step: "01",
+                                title: "Emission & ETP Verification",
+                                desc: "Meticulous physical checks of Air Pollution Control Devices (ESPs, bag filters) and Effluent Treatment Plants to ensure discharged toxins remain strictly beneath permissible statutory limits."
+                            },
+                            {
+                                step: "02",
+                                title: "Resource Efficiency Audit",
+                                desc: "Detailed analysis of the plant's specific energy consumption, freshwater footprint per ton of steel produced, and the percentage of water recycled (aiming for Zero Liquid Discharge)."
+                            },
+                            {
+                                step: "03",
+                                title: "Occupational Health & Safety (OHS)",
+                                desc: "Rigorous factory floor inspections evaluating safety protocols around blast furnaces, proper usage of PPE, accident history logs, and the effectiveness of the disaster management plan."
+                            },
+                            {
+                                step: "04",
+                                title: "Regulatory Compliance Check",
+                                desc: "Comprehensive review of all Environmental Clearances (EC), CTOs, CTEs, and hazardous waste disposal authorizations, identifying gaps and drafting immediate remediation plans."
+                            }
+                        ]
+                    }}
+
+                    features={{
+                        title: "Why Choose Corpbiz",
+                        subtitle: "Unmatched Expertise in Heavy Industry",
+                        list: [
+                            { title: "Metallurgical Environmental Experts", desc: "Our audit teams include engineers who specifically understand the complex chemistry of coke making, sintering, and smelting operations." },
+                            { title: "Advanced Emission Analytics", desc: "Utilizing deep data analytics to interpret Continuous Emission Monitoring Systems (CEMS) data to flag potential compliance breaches." },
+                            { title: "Turnkey Regulatory Assistance", desc: "If your plant's EC is stalled or CTO is expired, our legal advocates actively interface with the MoEFCC and SPCBs to resolve bottlenecks rapidly." },
+                            { title: "Decarbonization Roadmap Design", desc: "We don't just audit current emissions; we help formulate actionable Net-Zero transition strategies required by modern investors." },
+                            { title: "Social Impact Expertise", desc: "Specialized frameworks for establishing robust community grievance redressal mechanisms and evaluating historical land acquisition impact." },
+                            { title: "Iron-Clad M&A Due Diligence", desc: "Providing acquiring companies with absolute transparency regarding the hidden environmental liabilities of target steel assets." }
+                        ]
+                    }}
+
+                    eligibility={{
+                        title: "Why VyomBiz for Iron & Steel ESDD?",
+                        subtitle: "We make compliance seamless for the most complex industrial sector.",
+                        list: [
+                            { title: "10+ Years of Experience", desc: "Deep expertise navigating the intersection of heavy manufacturing and environmental law." },
+                            { title: "400+ In-House Professionals", desc: "A combined force of industrial environmental scientists and corporate lawyers." },
+                            { title: "99% SLA Delivery", desc: "Fast-tracked ESDD reports crucial for mega-acquisitions or securing urgent capacity expansion clearances." },
+                            { title: "Complete Confidentiality", desc: "Strict protection of your proprietary metallurgical processes and supply chain data." }
+                        ]
+                    }}
+
+                    postCompliance={{
+                        title: "Key Frameworks to Consider",
+                        subtitle: "The pillars of modern Steel ESDD",
+                        list: [
+                            { title: "MoEFCC Corporate Environment Responsibility (CER)", desc: "Mandatory allocation of funds and execution of social development projects based on the scale of capital investment." },
+                            { title: "Charter on Corporate Responsibility for Environmental Protection (CREP)", desc: "Specific task force guidelines forcing the steel sector to implement targeted pollution reduction technologies." },
+                            { title: "Hazardous & Other Wastes Rules", desc: "Strict monitoring of the handling, storage, and cross-border movement of toxic industrial by-products." }
+                        ]
+                    }}
+                />
+
+                <FAQLayout
+                    title="Frequently Asked Questions"
+                    subtitle="Clear your doubts about Iron & Steel Industry ESDD"
+                    faqs={[
+                        {
+                            question: "Why is the Iron & Steel industry subject to such intense Environmental Due Diligence?",
+                            answer: "The steel sector is one of the highest industrial contributors to national carbon emissions. It consumes massive volumes of raw materials (iron ore, coal) and water, while generating immense quantities of toxic air emissions, contaminated wastewater (containing cyanides and heavy metals), and solid slag. This immense ecological footprint requires constant, intense regulatory scrutiny."
+                        },
+                        {
+                            question: "What specific air emissions does an ESDD cover in a steel plant?",
+                            answer: "The audit rigorously evaluates both primary emissions from stacks (chimneys) and secondary 'fugitive' emissions from raw material handling. Key parameters include Particulate Matter (PM), Sulfur Dioxide (SO2), Nitrogen Oxides (NOx), Carbon Monoxide (CO), and highly toxic Polycyclic Aromatic Hydrocarbons (PAHs) originating primarily from coke oven batteries."
+                        },
+                        {
+                            question: "How does ESDD address the massive solid waste generated by steel production?",
+                            answer: "A major focus is ensuring the plant operates on circular economy principles. The audit verifies if Blast Furnace Slag and Basic Oxygen Furnace (BOF) slag are being properly managed, granulated, and sold to cement manufacturers rather than being illegally dumped. We also audit the disposal of hazardous wastes like ETP sludge and tar."
+                        },
+                        {
+                            question: "What are the key social risks evaluated during a Steel ESDD?",
+                            answer: "Social due diligence evaluates Occupational Health and Safety (OHS) given the extreme temperatures and hazardous nature of the work. It checks safety records, usage of PPE, and worker training. It also looks outward, assessing the plant's impact on neighboring communities (noise, dust, water depletion) and the execution of mandatory Corporate Social Responsibility (CSR) projects."
+                        },
+                        {
+                            question: "How does an ESDD audit handle water consumption in a steel plant?",
+                            answer: "Steel production is incredibly water-intensive (used for cooling and cleaning). ESDD audits the specific water consumption per ton of steel produced, verifies compliance with Central Ground Water Authority (CGWA) extraction limits, and assesses the facility's progress toward achieving Zero Liquid Discharge (ZLD) through robust wastewater recycling capabilities."
+                        },
+                        {
+                            question: "Is ESDD required before acquiring an existing steel plant (M&A)?",
+                            answer: "Absolutely. When acquiring a legacy steel plant, the buyer inherits all past sins. An ESDD uncovers hidden liabilities like contaminated groundwater plumes, unlined hazardous waste dumps, pending litigations from local villagers, or expired environmental clearances that could cost the acquirer millions in retroactive fines."
+                        },
+                        {
+                            question: "What happens if a steel plant fails the ESDD audit?",
+                            answer: "Corpbiz categorizes findings into risk tiers. High-risk non-compliances (like failing ETPs or lack of valid CTOs) are red-flagged. We immediately draft an Environmental and Social Action Plan (ESAP), working with plant management and our legal teams to swiftly implement technological upgrades or file necessary regulatory paperwork to restore compliance."
+                        },
+                        {
+                            question: "Can an ESDD report help a steel manufacturer secure green funding?",
+                            answer: "Yes. Global financial institutions are increasingly unwilling to fund heavily polluting 'brown' assets without proof of a transition plan. A verified ESDD report that outlines a clear, actionable decarbonization strategy (like transitioning from blast furnaces to Electric Arc Furnaces powered by renewables) is essential to unlock Transition Finance and Green Loans."
+                        }
+                    ]}
+                />
+
+                <ReviewsSection
+                    title="What Our Clients Say About Us"
+                    subtitle="Trusted by leading metallurgical manufacturers and integrated steel plants."
+                    reviews={[
+                        {
+                            name: "Ranjan Das",
+                            role: "Plant Head",
+                            company: "Eastern Integrated Steel",
+                            rating: 5,
+                            initials: "RD",
+                            text: "We were facing continuous notices from the Pollution Control Board regarding fugitive emissions from our raw material handling yard. Corpbiz audited our entire air pollution control framework and helped us design a compliant suppression system. Excellent technical knowledge."
+                        },
+                        {
+                            name: "Vikram Chatterjee",
+                            role: "Director of M&A",
+                            company: "Apex Metals Group",
+                            rating: 5,
+                            initials: "VC",
+                            text: "During our pursuit of a bankrupt sponge iron plant, Corpbiz's ESDD team uncovered millions in hidden liabilities regarding improperly dumped hazardous waste and pending groundwater contamination lawsuits. They saved us from a disastrous acquisition."
+                        },
+                        {
+                            name: "Sanjay Kumar",
+                            role: "Chief Sustainability Officer",
+                            company: "Bharath Forgings & Steel",
+                            rating: 4.8,
+                            initials: "SK",
+                            text: "Our international investors demanded a comprehensive ESG risk assessment covering everything from our coke ovens to worker safety. Corpbiz delivered a massive, deeply detailed report mapping our operations against IFC Performance Standards beautifully."
+                        },
+                        {
+                            name: "Pooja Singh",
+                            role: "EHS Manager",
+                            company: "Deccan Steelworks",
+                            rating: 5,
+                            initials: "PS",
+                            text: "The sheer volume of compliance paperwork—from ECs to CTOs to hazardous waste authorizations—was overwhelming us. Corpbiz not only audited our gaps but took over the entire regulatory liaison process with the MoEFCC. Highly recommended."
+                        },
+                        {
+                            name: "Dr. Anirban Roy",
+                            role: "Head of R&D",
+                            company: "NeoAlloys India",
+                            rating: 5,
+                            initials: "AR",
+                            text: "We needed expert guidance to create a decarbonization roadmap to secure a green transition loan. The metallurgical engineers at Corpbiz understood exactly how to structure our ESDD report to highlight our shift toward DRI technology, securing the funds."
+                        },
+                        {
+                            name: "Meera Menon",
+                            role: "VP Corporate Affairs",
+                            company: "Southern Iron & Power",
+                            rating: 5,
+                            initials: "MM",
+                            text: "Their approach to social due diligence regarding community impact is exceptional. They helped us restructure our fragmented CSR initiatives into a cohesive strategy that vastly improved our relationship with the surrounding villages."
+                        }
+                    ]}
+                />
+            </div>
         </div>
     );
 };
