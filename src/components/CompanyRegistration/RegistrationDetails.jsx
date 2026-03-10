@@ -16,9 +16,9 @@ const CompanyRegistrationOverview = () => {
                             Private Limited Company Registration – <span className="text-[#005a9c]">An Overview</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            A private limited company is a famous business structure in India due to its distinct characteristic features. It is a separate legal entity, allowing limited liability protection to its shareholders and protecting their personal assets from business debts. Governed by the Companies Act 2013, a private limited company can be registered with a minimum of two shareholders and a maximum number of 200 shareholders.                        </p>
+                            A Private Limited Company is one of the most preferred business structures in India because it provides legal recognition and limited liability protection to its owners. In this structure, the company is treated as a separate legal entity, which means the personal assets of shareholders remain protected from business liabilities. According to the Companies Act, 2013, a private limited company must have at least two shareholders and can have up to 200 shareholders.                        </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            This type is suited for businesses that aim to raise funds for operations in the long run. It allows shareholders to transfer their shares by the company's Articles of Association (AOA) rules. However, unlike public limited companies, private limited companies cannot offer shares to the general public or trade them on the stock exchange. These companies must comply with regulations, including audits, annual filings and corporate governance norms. This structure is ideal for small and medium enterprises as it offers management flexibility and a specific degree of financial privacy.                        </p>
+                            This structure is ideal for startups and growing businesses that plan to raise funds and expand operations over time. Shareholders can transfer their shares based on the rules mentioned in the Articles of Association (AoA). However, unlike public companies, private limited companies cannot issue shares to the public or list them on the stock exchange.                        </p>
                     </div>
                     <div className="flex justify-center lg:justify-end items-center">
                         <img
@@ -46,7 +46,7 @@ const CompanyRegistrationAdvantages = () => {
                         Advantages of Registering
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-5">
-                        Registering a private limited company offers various benefits to the shareholders, including a flexible management structure, legal identity and limited liability protection. Let us explore some of the most important benefits below:                    </p>
+                        Registering a Private Limited Company offers several advantages such as legal identity, limited liability protection, and improved business credibility. These benefits make it one of the most reliable structures for entrepreneurs and growing businesses. Below are some key advantages of company registration.                    </p>
                     <div className="mt-10 flex justify-center items-center">
                         <img
                             src="/Company Registration/advantages.png"
@@ -59,12 +59,12 @@ const CompanyRegistrationAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Limited Liability Protection", desc: "One of the most important benefits of a private limited company is that it offers limited liability protection. It safeguards the personal assets of the shareholders against business debt, limiting the financial risk of investing in shares. It shields individuals from business liability, creating substantial financial protection." },
-                        { title: "Greater Credibility", desc: "Registering a business boosts its credibility, making it more lucrative to customers, suppliers and investors. A registered company is considered legitimate and professional, promoting mutual trust and encouraging business relations." },
-                        { title: "Funding Access", desc: "Funding is important for business growth. A private limited company is entitled to raise funds for its operations by issuing shares or borrowing funds from different sources, such as banks or other financial institutions. Funding helps the business fulfil its operational needs and expand its operations." },
-                        { title: "Perpetual Succession", desc: "A private limited company offers perpetual succession. It is not impacted by changes in ownership or the death of its founders. Perpetual succession gives businesses the stability to continue operating over a period of time." },
-                        { title: "Separate Legal Entity", desc: "A registered private limited company is considered to be a separate and distinct legal entity. It can enter into contracts independently, sue and be sued. The individual legal status boosts its efficiency and grants it the legal clarity to function independently." },
-                        { title: "Tax Benefits", desc: "Private limited companies benefit from various tax incentives and deductions, which help reduce their tax burdens. Such taxation leverages help them save costs and gain from multiple other transactions, helping them manage their finances better. Adopting disciplined financial practices helps them improve their profits." }
+                        { title: "Limited Liability Protection", desc: "One of the major advantages of a Private Limited Company is limited liability protection. Shareholders are only responsible for the amount they invest in the company, which means their personal assets remain protected from business debts and liabilities." },
+                        { title: "Greater Credibility", desc: "A registered company builds strong credibility in the market. Customers, suppliers, and investors generally trust legally registered businesses more than unregistered entities." },
+                        { title: "Funding Access", desc: "Access to funding becomes easier for a Private Limited Company. Businesses can raise capital through investors, financial institutions, or by issuing shares to support expansion and operational growth." },
+                        { title: "Perpetual Succession", desc: "A Private Limited Company enjoys perpetual succession, meaning the company continues to exist even if directors or shareholders change. The business remains operational regardless of ownership transitions." },
+                        { title: "Separate Legal Entity", desc: "A Private Limited Company is treated as a separate legal entity from its owners. It can own assets, sign contracts, and take legal action independently in its own name." },
+                        { title: "Tax Benefits", desc: "Private Limited Companies may benefit from various tax deductions and government incentives depending on their business activities. These benefits help companies manage finances efficiently and support long-term growth." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -83,9 +83,9 @@ const CompanyRegistrationAdvantages = () => {
 
 const CompanyEligibility = () => {
     const list = [
-        { title: "2 Directors", desc: "Minimum 2 Directors required (at least one must be an Indian resident)." },
-        { title: "2 Shareholders", desc: "Minimum 2 Shareholders (individuals or body corporates)." },
-        { title: "Registered Address", desc: "A physical office address in India to be registered with the ROC." },
+        { title: "2 Directors", desc: "A minimum of two directors is required, and at least one director must be a resident of India." },
+        { title: "2 Shareholders", desc: "At least two shareholders are required to incorporate a Private Limited Company." },
+        { title: "Registered Address", desc: "A registered office address within India is mandatory for company registration." },
         { title: "Digital ID", desc: "Mandatory Digital Signature and Director Identification Numbers." },
         { title: "Capital Norms", desc: "No minimum capital requirement (₹1 Lakh recommended for credibility)." }
     ];
@@ -178,10 +178,10 @@ const CompanyDocumentsSection = () => {
 
 const CompanyProcessSection = () => {
     const steps = [
-        { title: "DSC & DIN", desc: "Obtaining digital signature and director ID numbers for all board members." },
-        { title: "Name Approval", desc: "Reserving your unique company name with the ROC (Registrar of Companies)." },
-        { title: "Documentation", desc: "Professional preparation of MoA, AoA and other mandatory legal forms." },
-        { title: "Incorporation", desc: "Final filing with the MCA (Ministry of Corporate Affairs) and receiving the COI." }
+        { title: "DSC & DIN", desc: "Apply for Digital Signature Certificates (DSC) and Director Identification Numbers (DIN) for all directors." },
+        { title: "Name Approval", desc: "Submit your preferred company name for approval with the Registrar of Companies (ROC)." },
+        { title: "Documentation", desc: "Prepare incorporation documents such as the Memorandum of Association (MoA) and Articles of Association (AoA)." },
+        { title: "Incorporation", desc: "Submit the incorporation application with the Ministry of Corporate Affairs to receive the Certificate of Incorporation." }
     ];
     return (
         <section className="w-full py-10 bg-[#f0f4f8]">
@@ -227,12 +227,12 @@ const CompanyProcessSection = () => {
 
 const CompanyFeaturesSection = () => {
     const features = [
-        { title: "Senior Consultation", desc: "Expert business consultation to define your capital structure." },
-        { title: "Name Availability", desc: "Advanced checks to ensure your brand name is legally protectable." },
+        { title: "Senior Consultation", desc: "Professional consultation to help you choose the right business structure and capital plan." },
+        { title: "Name Availability", desc: "Detailed name availability checks to ensure your company name is unique and compliant." },
         { title: "Compliance Support", desc: "Post-incorporation support for PAN, TAN, GST and bank accounts." },
         { title: "Startup Registration", desc: "Guidance on Startup India recognition and associated tax holidays." },
         { title: "Zero Hassle", desc: "We manage the entire online documentation and filing process." },
-        { title: "Direct Expert Access", desc: "Direct access to our senior CAs and CSs for every query." }
+        { title: "Direct Expert Access", desc: "Direct guidance from experienced Chartered Accountants and Company Secretaries." }
     ];
     return (
         <section className="w-full py-12 bg-white">

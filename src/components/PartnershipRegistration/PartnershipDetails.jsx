@@ -19,15 +19,15 @@ const PartnershipRegistrationOverview = () => {
                         </h2>
 
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The Indian Partnership Act of 1932 governs the principles of partnership firm registration online in India. It provides rules and regulations concerning partners’ responsibilities, profit sharing, liabilities, and dissolution of the firm. If you are looking for partnership firm registration online, you are at the right place.
+                            Partnership firms in India are governed by the Indian Partnership Act, 1932. The law defines the rights, duties, profit-sharing arrangements, and liabilities of partners involved in a business partnership. This business structure allows two or more individuals to operate a business together with shared responsibilities and profits.
                         </p>
 
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Our legal consultants at VyomBiz will draft a partnership deed, apply for registration with notarized documents, reserve your desired firm name, enroll for PAN/GST, file your taxes, and complete post-enrolment compliance mandates.
+                            At VyomBiz, our legal professionals assist you with drafting the partnership deed, completing documentation, applying for firm registration, and obtaining essential registrations such as PAN and GST. We also guide you through post-registration compliance requirements.
                         </p>
 
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                            Take VyomBiz’s assistance for partnership company registration in top cities, namely, Mumbai, Delhi, Hyderabad, Pune, Bengaluru, Chennai, and Nagpur.
+                            VyomBiz provides partnership firm registration services across major Indian cities including Mumbai, Delhi, Bengaluru, Pune, Hyderabad, Chennai, and other business hubs.
                         </p>
                     </div>
 
@@ -60,7 +60,7 @@ const PartnershipRegistrationAdvantages = () => {
                     </h2>
 
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Explore the benefits of partnership firm registration online in India as described below:
+                        Here are some key advantages of registering a partnership firm in India.
                     </p>
 
                     <div className="mt-10">
@@ -76,23 +76,23 @@ const PartnershipRegistrationAdvantages = () => {
                     {[
                         {
                             title: "Ease of Registration",
-                            desc: "The process of registration in India is easy and simple as compared to a private company (Pvt Ltd), which requires the drafting of documents, such as the MOA and AOA. You just need to draft and notarize a partnership deed with the respective state’s registrar of partnership firms."
+                            desc: "The process of forming a partnership firm is relatively simple compared to other business structures like private limited companies. It mainly involves drafting a partnership deed and completing basic registration procedures. Partners are required to prepare and notarize a partnership deed and may register it with the Registrar of Firms depending on state regulations."
                         },
                         {
                             title: "Flexible Compliance",
-                            desc: "As opposed to a legal entity, a partnership firm registration has less compliance. Members don’t need to obtain a digital signature certificate (DSC) or Designated partner identification number (DPIN) like an LLC or LLP. The partners can easily form and dissolve the firm whenever they want to."
+                            desc: "Partnership firms generally have fewer compliance requirements compared to corporate entities. Partners are not required to obtain digital signatures or director identification numbers. Partners can manage operations with greater flexibility and can dissolve the firm with mutual agreement when required."
                         },
                         {
                             title: "100% Control in Decision Making",
-                            desc: "Unlike a limited liability partnership (LLP) or private company, there’s no restriction or division of power between the partners. All partners have equal rights to make decisions."
+                            desc: "In a partnership firm, partners typically share equal authority in business decisions unless otherwise specified in the partnership deed. The decision-making structure can be defined mutually by partners within the deed."
                         },
                         {
                             title: "Equal Share in Profits",
-                            desc: "All partners share equal profits, unlike a limited partnership, where the general partner takes more profits on the basis of the liability burden."
+                            desc: "Partners share profits based on the ratio mentioned in the partnership deed, allowing flexibility in defining profit distribution."
                         },
                         {
                             title: "Not Liable for Corporate Tax",
-                            desc: "The firm is not liable to pay corporate tax. Instead, the partners pay taxes on their income after the partnership firm registration online in India."
+                            desc: "Partnership firms are taxed under partnership taxation rules, and partners pay taxes on their share of income according to applicable tax laws."
                         }
                     ].map((item, index) => (
                         <div
@@ -115,11 +115,11 @@ const PartnershipRegistrationAdvantages = () => {
 
 const PartnershipEligibility = () => {
     const list = [
-        { title: "Min 2 Partners", desc: "At least two legal persons required to form a partnership." },
-        { title: "Firm Name", desc: "Select a unique name that doesn't conflict with existing trademarks." },
-        { title: "Partnership Deed", desc: "Legal document containing all operational terms and conditions." },
-        { title: "Business Place", desc: "A dedicated physical address for business registration." },
-        { title: "Capital Contribution", desc: "Initial investment details from each partner in the deed." }
+        { title: "Minimum 2 Partners", desc: "A partnership firm must have at least two individuals to start the business." },
+        { title: "Business Name", desc: "Choose a unique firm name that does not conflict with existing business or trademark names." },
+        { title: "Partnership Deed", desc: "A legal agreement defining partner roles, profit sharing, and responsibilities." },
+        { title: "Registered Address", desc: "A valid office address is required for firm registration." },
+        { title: "Capital Contribution", desc: "The partnership deed should clearly specify the investment made by each partner." }
     ];
     return (
         <section className="w-full py-12 bg-white">
@@ -143,8 +143,8 @@ const PartnershipEligibility = () => {
                 </div>
                 <div className="mt-12 text-center">
                     <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Check Your Eligibility Now
-                            </Link>
+                        Check Your Eligibility Now
+                    </Link>
                 </div>
             </div>
         </section>
@@ -186,11 +186,11 @@ const PartnershipDocumentsSection = () => {
 
 const PartnershipProcessSection = () => {
     const steps = [
-        { title: "Partner Agreement", desc: "Align on business goals, capital, and profit-sharing ratios." },
-        { title: "Deed Drafting", desc: "Professional drafting of the Partnership Deed with all essential clauses." },
-        { title: "Execution", desc: "Signing the deed on non-judicial stamp paper of appropriate value." },
-        { title: "Registration", desc: "Applying for registration with the Registrar of Firms (optional but recommended)." },
-        { title: "Tax IDs", desc: "Obtaining PAN and TAN for the firm and opening a bank account." }
+        { title: "Partner Agreement", desc: "Partners mutually decide on business objectives, capital contribution, and profit-sharing structure." },
+        { title: "Deed Drafting", desc: "Preparation of a legally valid partnership deed covering all operational terms." },
+        { title: "Execution", desc: "Execution of the deed on stamp paper and signing by all partners." },
+        { title: "Registration", desc: "Submitting the registration application to the Registrar of Firms if partners choose to register the firm." },
+        { title: "Tax IDs", desc: "Applying for PAN and opening a current bank account for business transactions." }
     ];
     return (
         <section className="w-full py-14 bg-white">
@@ -232,12 +232,12 @@ const PartnershipProcessSection = () => {
 
 const PartnershipFeaturesSection = () => {
     const features = [
-        { title: "Perfect Deed Drafting", desc: "Customized deeds that cover every possible business scenario." },
-        { title: "Tax Optimization", desc: "Guidance on profit withdrawal and partner remuneration for tax efficiency." },
-        { title: "Fast Processing", desc: "Getting your firm registered and bank accounts ready in record time." },
-        { title: "Regulatory Knowledge", desc: "Expertise in the Indian Partnership Act and state-specific rules." },
-        { title: "Zero Paperwork Stress", desc: "We handle the entire notarization and stamp duty process for you." },
-        { title: "Post-Registration", desc: "Continuous support for GST, Trademark and specialized licenses." }
+        { title: "Perfect Deed Drafting", desc: "Professionally drafted partnership deeds tailored to your business requirements." },
+        { title: "Tax Optimization", desc: "Expert advice on profit distribution and partner remuneration planning." },
+        { title: "Fast Processing", desc: "Quick assistance to complete registration and start business operations faster." },
+        { title: "Regulatory Knowledge", desc: "Knowledge of partnership laws and state-level registration procedures." },
+        { title: "Zero Paperwork Stress", desc: "Support with documentation, notarization, and stamp duty procedures." },
+        { title: "Post-Registration", desc: "Post-registration assistance for GST registration, trademarks, and additional licenses." }
     ];
     return (
         <section className="w-full py-14 bg-white">

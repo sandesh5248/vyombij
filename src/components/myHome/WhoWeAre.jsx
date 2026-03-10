@@ -20,10 +20,10 @@ const WhoWeAre = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-[#072b47] mb-4 tracking-tight">
-            Who <span className="text-[#d99e00]">We Are</span>
+            Who We Are
           </h2>
           <p className="text-[#005a9c] text-lg font-bold mb-4 tracking-wide">
-            A business consulting company that constitutes faith.
+            A trusted business consulting platform built on transparency, expertise, and reliability.
           </p>
           <div className="w-16 h-1 bg-[#FFE90A] mx-auto rounded mt-4"></div>
         </div>

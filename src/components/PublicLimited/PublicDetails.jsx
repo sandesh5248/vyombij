@@ -19,15 +19,15 @@ const PublicLimitedOverview = () => {
                         </h2>
 
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Public Limited Company registration online is a process that helps entrepreneurs establish a business presence by acquiring funds through the stock exchange. Businesses can offer stocks privately through an Initial Public Offering (IPO) or publicly via the National Stock Exchange (NSE).
+                            Public Limited Company registration allows businesses to raise capital from the public by issuing shares. This business structure is commonly used by large organizations that plan to expand operations and attract investors. Companies can raise funds through an Initial Public Offering (IPO) and list their shares on recognized stock exchanges such as the NSE or BSE.
                         </p>
 
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            With SPICe+ filing, you can obtain PAN, TAN, DIN, EPFO, ESIC registration, name reservation, GST registration, and even open a bank account in a single integrated process.
+                            The SPICe+ incorporation process introduced by the Ministry of Corporate Affairs enables businesses to complete multiple registrations in a single application. This includes PAN, TAN, DIN, EPFO, ESIC, company name approval, GST registration, and opening a corporate bank account.
                         </p>
 
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                            Our seasoned consultants assist in reserving your company name, obtaining trade licenses, filing incorporation documents, opening a bank account, acquiring DSC & DIN, and ensuring complete compliance. Consult our experts for smooth and hassle-free Public Limited Company Registration in India.
+                            Our professionals assist you throughout the entire registration journey, including company name approval, digital signature application, document preparation, and incorporation filing with the Registrar of Companies. With expert guidance, the Public Limited Company registration process becomes simple and efficient.
                         </p>
                     </div>
 
@@ -61,7 +61,7 @@ const PublicLimitedAdvantages = () => {
                     </h2>
 
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Significant advantages of registering a Public Limited Company in India.
+                        Key advantages of forming a Public Limited Company in India.
                     </p>
 
                     <div className="mt-10">
@@ -78,31 +78,31 @@ const PublicLimitedAdvantages = () => {
                     {[
                         {
                             title: "Abundance of Funding",
-                            desc: "Raise capital by selling shares to the public. You can also obtain funds by issuing bonds and securing loans from financial institutions to strengthen your capital structure."
+                            desc: "A Public Limited Company can raise funds by offering shares to the public. Businesses can also obtain capital through bonds, financial institutions, and institutional investors to support business growth."
                         },
                         {
                             title: "Limited Liability",
-                            desc: "Protects personal assets against business liabilities. Members are liable only to the extent of the capital invested by them."
+                            desc: "Shareholders enjoy limited liability protection, which means they are responsible only for the amount invested in the company. Personal assets remain protected from business liabilities."
                         },
                         {
                             title: "Business Expansion",
-                            desc: "Leverage a larger capital pool with reduced market risks to expand operations and scale your business efficiently."
+                            desc: "Access to large public funding enables companies to expand operations, invest in new opportunities, and scale business activities effectively."
                         },
                         {
                             title: "No Minimum Capital Requirement",
-                            desc: "As per the Companies Act amendment, there is no mandatory minimum capital requirement. However, starting with at least INR 1 lakh is advisable."
+                            desc: "Under current company law, there is no mandatory minimum capital requirement. However, businesses often start with a reasonable capital base to build investor confidence."
                         },
                         {
                             title: "No Upper Limit on Members",
-                            desc: "A minimum of 7 members is required for formation, but there is no restriction on the maximum number of shareholders."
+                            desc: "A Public Limited Company requires a minimum of seven shareholders, and there is no upper limit on the number of members who can hold shares."
                         },
                         {
                             title: "Perpetual Existence",
-                            desc: "The company continues to exist even if members retire or change, ensuring long-term business continuity."
+                            desc: "The company continues to operate regardless of changes in directors or shareholders, ensuring long-term stability and continuity."
                         },
                         {
                             title: "Enhanced Credibility",
-                            desc: "Public companies are perceived as more reliable and trustworthy due to stock exchange regulation, making it easier to attract investors and raise funds."
+                            desc: "Public Limited Companies are generally considered more credible due to regulatory supervision and financial transparency, making it easier to attract investors and stakeholders."
                         }
                     ].map((item, index) => (
                         <div
@@ -125,11 +125,11 @@ const PublicLimitedAdvantages = () => {
 
 const PublicEligibility = () => {
     const list = [
-        { title: "7 Members", desc: "You need at least seven shareholders to form a public company." },
-        { title: "3 Directors", desc: "Requirement of at least three directors on the board." },
-        { title: "Digital Signature", desc: "DSC for all directors and subscribers is mandatory." },
-        { title: "Registered Office", desc: "A physical address in India for official correspondence." },
-        { title: "Corporate Shield", desc: "The company name must end with the word 'Limited'." }
+        { title: "Minimum 7 Members", desc: "At least seven shareholders are required to incorporate a Public Limited Company." },
+        { title: "Minimum 3 Directors", desc: "A Public Limited Company must have at least three directors on its board." },
+        { title: "Digital Signature", desc: "All directors must obtain Digital Signature Certificates for electronic filing." },
+        { title: "Registered Office", desc: "The company must have a registered office address in India." },
+        { title: "Company Name Requirement", desc: "The company name must end with the word “Limited”." }
     ];
     return (
         <section className="w-full py-12 bg-white">
@@ -153,8 +153,8 @@ const PublicEligibility = () => {
                 </div>
                 <div className="mt-12 text-center">
                     <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Check Your Eligibility Now
-                            </Link>
+                        Check Your Eligibility Now
+                    </Link>
                 </div>
             </div>
         </section>
@@ -196,11 +196,11 @@ const PublicDocumentsSection = () => {
 
 const PublicProcessSection = () => {
     const steps = [
-        { title: "DSC & DIN Allotment", desc: "Obtain Digital Signatures and Director Identification Numbers for all 3 directors." },
-        { title: "RUN Name Approval", desc: "Reserve your enterprise name via the MCA's RUN (Reserve Unique Name) service." },
-        { title: "SPICe+ Documentation", desc: "Drafting of MoA, AoA and filing the integrated SPICe+ form for incorporation." },
-        { title: "ROC Scrutiny", desc: "Verification of documents by the Registrar of Companies to ensure compliance." },
-        { title: "COI & PAN/TAN", desc: "Issuance of Certificate of Incorporation along with tax IDs and Commencement of Business." }
+        { title: "DSC & DIN Allotment", desc: "Apply for Digital Signature Certificates and Director Identification Numbers for all directors." },
+        { title: "RUN Name Approval", desc: "Submit your proposed company name for approval through the MCA name reservation process." },
+        { title: "SPICe+ Documentation", desc: "Prepare the Memorandum of Association (MoA) and Articles of Association (AoA) and file the SPICe+ incorporation application." },
+        { title: "ROC Scrutiny", desc: "The Registrar of Companies reviews the submitted documents and verifies regulatory compliance." },
+        { title: "COI & PAN/TAN", desc: "After approval, the Certificate of Incorporation is issued along with PAN and TAN for the company." }
     ];
     return (
         <section className="w-full py-14 bg-white">
@@ -242,12 +242,12 @@ const PublicProcessSection = () => {
 
 const PublicFeaturesSection = () => {
     const features = [
-        { title: "IPO Readiness", desc: "Our experts set up your company with a listing-ready capital structure." },
-        { title: "Complex Structuring", desc: "Specialists in shareholder agreements and complex MoA/AoA drafting." },
-        { title: "Strategic Consultation", desc: "Guidance on board composition and corporate governance standards." },
-        { title: "Fast-Track Approval", desc: "Prioritised 99% SLA delivery for large scale corporate setups." },
-        { title: "Global Compliance", desc: "Ensuring your public limited company meets international standards." },
-        { title: "Dedicated Relationship Manager", desc: "A senior expert assigned to handle every aspect of your public incorporation." }
+        { title: "IPO Readiness", desc: "Our professionals help structure your company in a way that supports future investment and expansion." },
+        { title: "Complex Structuring", desc: "Expert assistance in drafting shareholder agreements and company constitution documents." },
+        { title: "Strategic Consultation", desc: "Professional guidance on board structure and corporate governance practices." },
+        { title: "Fast-Track Approval", desc: "Efficient registration process with timely document preparation and filing." },
+        { title: "Global Compliance", desc: "Ensuring compliance with company law and regulatory standards." },
+        { title: "Dedicated Relationship Manager", desc: "A dedicated expert assigned to support you throughout the registration process." }
     ];
     return (
         <section className="w-full py-14 bg-white">

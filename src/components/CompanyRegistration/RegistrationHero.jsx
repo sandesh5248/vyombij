@@ -6,9 +6,15 @@ const RegistrationHero = () => {
         <div id="registration-hero">
             <HeroLayout
                 announcementText="We are India's leading brand for Private Limited Registration."
-                heroTitleMain="Pvt. Ltd. Registration"
+                heroTitleMain="Private Limited Company Registration"
                 heroSubtitle="Avail 50% Off – Professional Services"
-                heroDescription="Simplify your business journey with VyomBiz. Start your Private Limited company with expert legal assistance and 100% money-back guarantee."
+                heroDescription="Launch your business confidently with VyomBiz. Register your Private Limited company with professional legal guidance and a smooth online process."
+                stats={[
+                    { count: "5,00,000+", label: "Businesses Served" },
+                    { count: "1,00,000+", label: "Registrations Completed" },
+                    { count: "300+", label: "Legal & Compliance Experts" },
+                    { count: "50+", label: "Business & Legal Services" }
+                ]}
                 whatsIncludedList={[
                     "10+ Years of Experience",
                     "400 + In-House CAs, CS & Lawyers",

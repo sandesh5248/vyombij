@@ -25,16 +25,16 @@ const NidhiCompanyOverview = () => {
                             Nidhi Company Registration – <span className="text-[#005a9c]">An Overview</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            A Nidhi Company is a type of Non-Banking Financial Company (NBFC) that is formed to borrow and lend money among its members. It works on the principle of mutual benefit and helps cultivate the habit of savings and thrift.
+                            A Nidhi Company is a form of Non-Banking Financial Company (NBFC) created primarily to encourage savings and provide lending facilities among its members. It operates on the principle of mutual benefit and promotes financial discipline within its member community.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Regulated by the Ministry of Corporate Affairs (MCA) under the Nidhi Rules, 2014, these companies are popular for their ease of governance and the fact that they do not require an RBI license to operate.
+                            These companies are regulated by the Ministry of Corporate Affairs (MCA) under the Nidhi Rules, 2014. One of the major advantages is that Nidhi Companies do not require approval from the Reserve Bank of India for basic operations.
                         </p>
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
                             Key Objective:
                         </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The primary objective of a Nidhi Company is to encourage savings among its members and provide them with credit facilities at reasonable interest rates against security such as gold, property, or fixed deposits.
+                            The main objective of a Nidhi Company is to promote savings among its members while offering them financial assistance through loans at reasonable interest rates against approved securities such as gold or deposits.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -63,11 +63,11 @@ const NidhiCompanyAdvantages = () => {
                         Benefits of Nidhi Registration
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Enjoy the advantages of a financial institution with simplified regulatory compliance.
+                        Nidhi Companies provide several advantages while maintaining relatively simple compliance requirements.
                     </p>
                     <div className="mt-10">
                         <img
-src="/Nidhi Company Registration/benefits....png"
+                            src="/Nidhi Company Registration/benefits....png"
                             className="w-full rounded-2xl shadow-xl"
                         />
                     </div>
@@ -76,12 +76,12 @@ src="/Nidhi Company Registration/benefits....png"
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Separate Legal Entity", desc: "The company exists as a separate legal person from its members." },
-                        { title: "Easy Fund Mobilization", desc: "Allows members to deposit and earn interest on their savings." },
-                        { title: "Secure Lending", desc: "Lending is strictly against security, minimizing the risk of bad debts." },
-                        { title: "Perpetual Succession", desc: "The company continues its existence even if members change or pass away." },
-                        { title: "Easy Governance", desc: "Governed by simple Nidhi Rules rather than complex banking laws." },
-                        { title: "Cost-Effective", desc: "Low operational and incorporation costs compared to other financial entities." }
+                        { title: "Separate Legal Entity", desc: "A Nidhi Company operates as a separate legal entity distinct from its members and shareholders." },
+                        { title: "Easy Fund Mobilization", desc: "Members can contribute deposits and earn interest on their savings through the company." },
+                        { title: "Secure Lending", desc: "Loans are usually provided against approved securities, reducing the chances of financial risk." },
+                        { title: "Perpetual Succession", desc: "The company continues to exist despite changes in membership or management." },
+                        { title: "Easy Governance", desc: "Governed under specific Nidhi Rules, making regulatory compliance simpler compared to traditional financial institutions." },
+                        { title: "Cost-Effective", desc: "Registration and operational costs are relatively lower compared to other financial organizations." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -102,7 +102,7 @@ const NidhiCompanyRegistration = () => {
     const faqs = [
         {
             question: "Is RBI approval required for Nidhi Company registration?",
-            answer: "No, Nidhi Companies are exempted from the core provisions of the RBI Act. They are regulated by the Ministry of Corporate Affairs (MCA) under the Nidhi Rules, 2014."
+            answer: "No, approval from the Reserve Bank of India is not required. Nidhi Companies are regulated by the Ministry of Corporate Affairs under the Nidhi Rules, 2014."
         },
         {
             question: "What is the minimum number of members required for a Nidhi Company?",
@@ -127,10 +127,10 @@ const NidhiCompanyRegistration = () => {
 
             {/* ================= SECTION 1: HERO ================= */}
             <HeroLayout
-                heroTitleMain="Nidhi Company"
-                heroTitleSuffix="Registration"
+                heroTitleMain="Nidhi Company Registration"
+                heroTitleSuffix="in India"
                 heroSubtitle="Empowering Mutual Savings & Credit"
-                heroDescription="Incorporate a Nidhi Company to promote thrift and savings habits among members while providing easy access to loans. We offer end-to-end support for registration under MCA guidelines."
+                heroDescription="Start a Nidhi Company to encourage savings among members and provide secure lending facilities. VyomBiz offers complete assistance for Nidhi Company registration in compliance with MCA regulations."
                 whatsIncludedList={[
                     "Digital Signature Certificate (DSC)",
                     "Director Identification Number (DIN)",
@@ -140,9 +140,9 @@ const NidhiCompanyRegistration = () => {
                     "MOA & AOA Drafting"
                 ]}
                 stats={[
-                    { count: "42K+", label: "Clients", icon: <Users size={20} /> },
-                    { count: "3500+", label: "Experts", icon: <Briefcase size={20} /> },
-                    { count: "50+", label: "Offices", icon: <Building2 size={20} /> }
+                    { count: "40K+", label: "Clients Served", icon: <Users size={20} /> },
+                    { count: "3500+", label: "Legal & Financial Experts", icon: <Briefcase size={20} /> },
+                    { count: "50+", label: "Service Locations", icon: <Building2 size={20} /> }
                 ]}
             />
 
@@ -160,17 +160,17 @@ const NidhiCompanyRegistration = () => {
                     title: "Eligibility Criteria",
                     subtitle: "Requirements to form and maintain a Nidhi Company.",
                     list: [
-                        { title: "Minimum Members", desc: "Must have at least 7 members to initiate incorporation." },
-                        { title: "Minimum Directors", desc: "At least 3 directors are required at the time of registration." },
-                        { title: "Share Capital", desc: "Minimum paid-up equity share capital of ₹10 Lakhs is mandatory." },
-                        { title: "Name Requirement", desc: "The name must end with 'Nidhi Limited'." },
-                        { title: "Member Growth", desc: "Must reach 200 members within one year of incorporation." },
-                        { title: "Net Owned Funds", desc: "Must maintain a ratio of Net Owned Funds to Deposits of 1:20." }
+                        { title: "Minimum Members", desc: "A minimum of seven members is required to start the incorporation process." },
+                        { title: "Minimum Directors", desc: "At least three directors must be appointed during registration." },
+                        { title: "Share Capital", desc: "The company must have a minimum paid-up share capital of ₹10 lakh." },
+                        { title: "Name Requirement", desc: "The company name must include the words “Nidhi Limited”." },
+                        { title: "Member Growth", desc: "The company should acquire at least 200 members within one year of incorporation." },
+                        { title: "Net Owned Funds", desc: "The ratio between Net Owned Funds and deposits must be maintained according to regulatory limits." }
                     ]
                 }}
                 documents={{
                     title: "Required Documents",
-                    description: "Documentation needed for directors, members, and the registered office.",
+                    description: "Required documents from directors, members, and the registered office address.",
                     list: [
                         "PAN Card of all Directors and Shareholders",
                         "Aadhar Card / Voter ID / Driving License",
@@ -189,24 +189,24 @@ const NidhiCompanyRegistration = () => {
                     title: "Registration Process",
                     subtitle: "Our simplified step-by-step approach to Nidhi Company Incorporation.",
                     steps: [
-                        { step: "01", title: "DSC & DIN", desc: "Obtaining Digital Signatures and Director Identification Numbers for proposed directors." },
-                        { step: "02", title: "Name Approval", desc: "Reservation of the unique company name via the MCA's RUN service." },
-                        { step: "03", title: "Incorporation", desc: "Filing SPICe+ forms for incorporation, PAN, and TAN generation." },
-                        { step: "04", title: "Approval", desc: "Receiving the Certificate of Incorporation (COI) from the Registrar of Companies." }
+                        { step: "01", title: "DSC & DIN", desc: "Apply for Digital Signature Certificates and Director Identification Numbers for all proposed directors." },
+                        { step: "02", title: "Name Approval", desc: "Submit your preferred company name for approval through the MCA name reservation process." },
+                        { step: "03", title: "Incorporation", desc: "Submit the SPICe+ incorporation application along with PAN and TAN registration." },
+                        { step: "04", title: "Approval", desc: "After verification, the Registrar of Companies issues the Certificate of Incorporation." }
                     ]
                 }}
                 whyChooseUs={{
                     title: "Why Choose VyomBiz",
                     subtitle: "Your trusted partner for legal and financial registrations.",
                     list: [
-                        { title: "Expert Legal Advice", desc: "Our professionals ensure all Nidhi Rules are strictly followed." },
-                        { title: "Fast Processing", desc: "Timely delivery of Certificate of Incorporation and other documents." },
-                        { title: "End-to-End Support", desc: "From name approval to post-incorporation compliance, we handle it all." },
-                        { title: "Transparent Pricing", desc: "No hidden costs; competitive and clear service fees." },
-                        { title: "Dedicated Support", desc: "Get real-time updates and assistance from our expert team." },
-                        { title: "High Success Rate", desc: "Experience in registering hundreds of successful Nidhi companies." },
-                        { title: "Complimentary Advisory", desc: "Free initial consultation regarding business structure and growth." },
-                        { title: "Trusted Brand", desc: "A leading name in tech-enabled legal services in India." }
+                        { title: "Expert Legal Advice", desc: "Our experts ensure compliance with all applicable Nidhi rules and regulations." },
+                        { title: "Fast Processing", desc: "Efficient processing to obtain your Certificate of Incorporation quickly." },
+                        { title: "End-to-End Support", desc: "We assist with the complete process from name approval to post-registration support." },
+                        { title: "Transparent Pricing", desc: "Transparent pricing with no hidden charges." },
+                        { title: "Dedicated Support", desc: "Receive continuous updates and guidance from our support team." },
+                        { title: "High Success Rate", desc: "Extensive experience in registering and managing Nidhi companies." },
+                        { title: "Complimentary Advisory", desc: "Complimentary consultation to understand your business requirements." },
+                        { title: "Trusted Brand", desc: "A trusted platform for legal and compliance services across India." }
                     ]
                 }}
             />

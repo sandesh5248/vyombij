@@ -19,11 +19,11 @@ const SoleProprietorshipOverview = () => {
                         </h2>
 
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The simplest and most common form of business structure in India, owned, managed and operated by one person, is called Sole Proprietorship. Also known as solo entrepreneurship, proprietorship, or lone tradership, it is an ideal choice for small businesses and solo entrepreneurs. A sole proprietorship registration is a recommended type by entrepreneurs who want complete control over their business. While such businesses can employ others to work for them, a sole proprietorship is not recognized as a separate legal entity.
+                            A Sole Proprietorship is the simplest and most widely used business structure in India, owned and managed by a single individual. Also referred to as a sole trader or individual business, it is an ideal option for freelancers, small businesses, and independent entrepreneurs. This structure is commonly preferred by entrepreneurs who want complete control over their business operations. Although the business may hire employees, it is not considered a separate legal entity from its owner.
                         </p>
 
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            There is no legal difference between the business and its owner, making the owner wholly responsible for the profits, debts and business liabilities. Unlike other business forms, sole proprietorship does not mandate formal business registration with the Ministry of Corporate Affairs (MCA). However, obtaining a Shop and Establishment Act License, GST registration and other permits essential to the business for legal operations is critical.
+                            Since there is no legal separation between the owner and the business, the owner is fully responsible for profits, debts, and liabilities. Unlike companies or LLPs, sole proprietorships do not require formal incorporation with the Ministry of Corporate Affairs (MCA). However, obtaining licenses such as GST registration, Shop and Establishment License, or other required permits is necessary for legal operation.
                         </p>
                     </div>
 
@@ -52,7 +52,7 @@ const SoleProprietorshipAdvantages = () => {
                     </span>
 
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Advantages
+                        Key Advantages
                     </h2>
 
                     <div className="mt-10">
@@ -68,27 +68,27 @@ const SoleProprietorshipAdvantages = () => {
                     {[
                         {
                             title: "Simple Registration",
-                            desc: "The proprietorship company registration process is simple and does not involve heavy paperwork. There is no need to register the company formally with the Ministry of Corporate Affairs (MCA), so entrepreneurs can start their businesses without the hassle of legal complexities."
+                            desc: "The process of setting up a sole proprietorship is simple and involves minimal paperwork. It does not require formal incorporation with the Ministry of Corporate Affairs (MCA). This allows entrepreneurs to start their business quickly without complex legal procedures."
                         },
                         {
                             title: "Business Control",
-                            desc: "A sole proprietorship registration offers the owner complete control of the business. It facilitates decision-making, strategic planning, and taking profits home. This self-sufficiency allows the owner to act flexibly as the company needs to meet the challenges."
+                            desc: "A sole proprietorship gives the owner complete control over business decisions. The owner can independently make decisions, manage operations, and retain all profits. This flexibility helps the business respond quickly to market changes and opportunities."
                         },
                         {
                             title: "Cost Effective",
-                            desc: "A sole proprietorship is a simple business structure that does not include heavy legal expenses or registration costs. Since the overall sole proprietorship registration charges are pocket-friendly, it is a preferred business type for individuals venturing into business."
+                            desc: "A sole proprietorship is cost-effective and does not require expensive registration procedures. Because the setup cost is low, it is a popular choice for individuals starting a small business."
                         },
                         {
                             title: "Tax Benefits",
-                            desc: "A sole proprietorship has a simple taxation process. The business income is considered the owner’s personal income. The business does not incur any separate corporate tax, which allows the owner to leverage the benefits and deductions on individual tax."
+                            desc: "The taxation process for a sole proprietorship is simple. Business income is treated as the owner’s personal income. There is no separate corporate tax applicable to the business."
                         },
                         {
                             title: "Low Compliance Needs",
-                            desc: "Unlike other business structures, sole proprietorship does not require complex regulatory and legal compliance. Reduced regulatory costs make the sole proprietorship registration process simple and hassle-free, allowing the owner to focus on business operations."
+                            desc: "Compared to companies and LLPs, proprietorships have minimal compliance requirements. Fewer regulatory obligations make it easier for owners to focus on running and growing their business."
                         },
                         {
                             title: "Access to Profits",
-                            desc: "A sole proprietorship is not a separate legal entity. It does not distinguish between the owner and the business entity, so the owner has direct access to the profits the business earns. The single owner does not have to share the profits with anyone."
+                            desc: "A sole proprietorship does not have a separate legal identity. Since the owner and business are the same entity, the owner receives all profits directly. The owner retains full control over the income generated by the business."
                         }
                     ].map((item, index) => (
                         <div
@@ -111,11 +111,11 @@ const SoleProprietorshipAdvantages = () => {
 
 const SoleProprietorshipEligibility = () => {
     const list = [
-        { title: "Natural Person", desc: "Must be a living person (not a company or firm)." },
-        { title: "Indian Resident", desc: "Must be a resident citizen of India." },
-        { title: "Valid PAN", desc: "Business is linked directly to the owner's personal PAN." },
-        { title: "Registered Office", desc: "Must have a physical place of business (Residential is OK)." },
-        { title: "Trade License", desc: "Required based on the specific nature of business and location." }
+        { title: "Natural Person", desc: "Only an individual person can start a sole proprietorship business." },
+        { title: "Indian Resident", desc: "The owner should be a resident of India." },
+        { title: "Valid PAN", desc: "The business operates using the owner’s personal PAN number." },
+        { title: "Registered Office", desc: "A physical business address is required, which can also be residential." },
+        { title: "Trade License", desc: "Licenses may be required depending on the business activity and location." }
     ];
     return (
         <section className="w-full py-12 bg-white">
@@ -139,8 +139,8 @@ const SoleProprietorshipEligibility = () => {
                 </div>
                 <div className="mt-12 text-center">
                     <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Check Your Eligibility Now
-                            </Link>
+                        Check Your Eligibility Now
+                    </Link>
                 </div>
             </div>
         </section>
@@ -165,7 +165,7 @@ const SoleProprietorshipDocumentsSection = () => {
                     Documents Required for Sole Proprietorship Registration
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Digital copies required for a lightning-fast registration cycle.
+                    Digital copies of documents are required to complete the registration process.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {list.map((item, i) => (
@@ -182,11 +182,11 @@ const SoleProprietorshipDocumentsSection = () => {
 
 const SoleProprietorshipProcessSection = () => {
     const steps = [
-        { title: "Name Selection", desc: "Select a unique business name that reflects your brand philosophy." },
-        { title: "Document Check", desc: "Verify Aadhar and PAN details to ensure consistency for licenses." },
-        { title: "GST/Udyam Filing", desc: "Applying for the essential government certificates for your trade." },
-        { title: "Bank Verification", desc: "Opening a current account with your new registration certificates." },
-        { title: "Live Operations", desc: "Starting your business with legal compliance and expert backing." }
+        { title: "Name Selection", desc: "Choose a suitable business name for your proprietorship." },
+        { title: "Document Check", desc: "Verify PAN and Aadhaar details for registration and licensing." },
+        { title: "GST/Udyam Filing", desc: "Apply for required registrations such as GST or Udyam." },
+        { title: "Bank Verification", desc: "Open a current bank account using your business documents." },
+        { title: "Live Operations", desc: "Start business operations with the required legal registrations in place." }
     ];
     return (
         <section className="w-full py-14 bg-white">
@@ -228,12 +228,12 @@ const SoleProprietorshipProcessSection = () => {
 
 const SoleProprietorshipFeaturesSection = () => {
     const features = [
-        { title: "Expert Consultation", desc: "Advice on essential licenses mandatory for your specific trade." },
-        { title: "Time Efficiency", desc: "We handle end-to-end registration, saving you weeks of work." },
-        { title: "Paperwork Excellence", desc: "Perfect documentation to ensure zero rejection from authorities." },
-        { title: "Compliance Management", desc: " facilitation of seamless filing to reduce tax submission lead times." },
-        { title: "Customized Solutions", desc: "Solutions tailored to your scale, from micro-shops to large stores." },
-        { title: "Market Leadership", desc: "Decade of expertise with the highest success rate in India." }
+        { title: "Expert Consultation", desc: "Guidance on licenses required for your specific type of business." },
+        { title: "Time Efficiency", desc: "Our team manages the entire registration process on your behalf." },
+        { title: "Paperwork Excellence", desc: "Accurate documentation to reduce the chances of application rejection." },
+        { title: "Compliance Management", desc: "Support with smooth compliance and timely tax filings." },
+        { title: "Customized Solutions", desc: "Customized solutions suitable for small businesses and growing enterprises." },
+        { title: "Market Leadership", desc: "Years of experience helping entrepreneurs set up their businesses successfully." }
     ];
     return (
         <section className="w-full py-14 bg-white">

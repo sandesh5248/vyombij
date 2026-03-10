@@ -25,11 +25,10 @@ const StartCompliance = () => {
               <div className="w-4 h-4 rounded-full bg-[#FFE90A] mt-3 shrink-0 shadow-[0_0_10px_rgba(255,233,10,0.4)]"></div>
               <div className="flex-1">
                 <h2 className="text-3xl md:text-4xl font-bold text-[#072b47] leading-tight mb-3">
-                  Simplify Your Legal and <span className="text-[#d99e00]">Compliance Needs</span>
+                  Simplify Your Legal and Compliance Work
                 </h2>
                 <p className="text-base md:text-lg text-gray-600 leading-relaxed">
-                  Stay compliant and in control with automated tax filings, smart dashboards, and real-time alerts.
-                  Our streamlined process makes compliance effortless.
+                  Stay compliant and manage your business easily with automated filings, smart dashboards, and real-time updates. Our system simplifies complex compliance tasks.
                 </p>
               </div>
             </div>
@@ -40,7 +39,7 @@ const StartCompliance = () => {
             <div>
               <div className="mb-4">
                 <h3 className="text-2xl font-bold text-[#072b47] mb-1">Compliance Services</h3>
-                <p className="text-base text-gray-600">Manage your business compliance efficiently</p>
+                <p className="text-base text-gray-600">Manage your business compliance smoothly with expert assistance.</p>
               </div>
               <div className="space-y-2">
                 {complianceServices.map((service, index) => (

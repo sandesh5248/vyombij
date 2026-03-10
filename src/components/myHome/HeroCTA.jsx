@@ -19,7 +19,7 @@ const HeroCTA = () => {
         service: "",
     });
 
-    
+
 
     const [errors, setErrors] = useState({});
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -95,46 +95,46 @@ const HeroCTA = () => {
     };
 
     const handleSubmit = async (e) => {
-    e.preventDefault();
-    if (!isValid) return;
+        e.preventDefault();
+        if (!isValid) return;
 
-    setIsSubmitting(true);
+        setIsSubmitting(true);
 
-    const templateParams = {
-        full_name: formData.fullName,
-        email: formData.email,
-        phone: formData.phone,
-        city: formData.city,
-        state: formData.state,
-        service: formData.service
+        const templateParams = {
+            full_name: formData.fullName,
+            email: formData.email,
+            phone: formData.phone,
+            city: formData.city,
+            state: formData.state,
+            service: formData.service
+        };
+
+        try {
+
+            await emailjs.send(
+                "service_0lm7qh2",
+                "template_upy728n",
+                templateParams,
+                "yOp4zs_aH1Mi59tYZ"
+            );
+
+            setIsSuccess(true);
+
+            setFormData({
+                fullName: "",
+                email: "",
+                phone: "",
+                city: "",
+                state: "",
+                service: ""
+            });
+
+        } catch (error) {
+            console.log("EmailJS Error:", error);
+        }
+
+        setIsSubmitting(false);
     };
-
-    try {
-
-        await emailjs.send(
-            "service_0lm7qh2",
-            "template_upy728n",
-            templateParams,
-            "yOp4zs_aH1Mi59tYZ"
-        );
-
-        setIsSuccess(true);
-
-        setFormData({
-            fullName: "",
-            email: "",
-            phone: "",
-            city: "",
-            state: "",
-            service: ""
-        });
-
-    } catch (error) {
-        console.log("EmailJS Error:", error);
-    }
-
-    setIsSubmitting(false);
-};
 
     return (
         <section id="free-consultation" className="relative w-full overflow-hidden bg-white py-4 md:py-6">
@@ -157,7 +157,7 @@ const HeroCTA = () => {
                             {/* Headline (Scaled up to fill space) */}
                             <div className="space-y-3">
                                 <h2 className="text-3xl md:text-[2.75rem] lg:text-[3.25rem] font-black text-white leading-[1.1] tracking-tight">
-                                    Your success is our <br />priority. <span className="text-[#FFE90A] block mt-1">We handle the rest.</span>
+                                    Your Success Is <span className="text-[#FFE90A] block mt-1">Our Priority</span>
                                 </h2>
                                 <div className="w-20 h-1.5 bg-[#FFE90A] rounded-full" />
                             </div>
@@ -165,7 +165,7 @@ const HeroCTA = () => {
                             {/* Description (Concise & Scannable) */}
                             <div className="max-w-lg space-y-3 pt-2">
                                 <p className="text-[16px] md:text-[1.125rem] text-blue-50/90 leading-relaxed font-semibold">
-                                    Navigating legal compliance shouldn't be your burden. We simplify the complexity for you.
+                                    Let us handle the legal and compliance work so you can focus on growing your business.
                                 </p>
                                 <p className="text-[14px] md:text-[1rem] text-blue-50/60 leading-relaxed font-medium">
                                     Join <span className="text-white font-black">25,000+ businesses</span> who trust VyomBiz for their growth journey.
@@ -178,7 +178,7 @@ const HeroCTA = () => {
                                     "Expert Guidance",
                                     "24/7 Priority Support",
                                     "Fast Turnaround",
-                                    "Flat Pricing"
+                                    "Transparent Pricing"
                                 ].map((item, i) => (
                                     <div key={i} className="flex items-center gap-2.5 group translate-x-0 hover:translate-x-1 transition-transform">
                                         <div className="w-4 h-4 rounded-sm bg-[#FFE90A]/10 border border-[#FFE90A]/20 flex items-center justify-center">

@@ -63,7 +63,7 @@ const IndianSubsidiaryAdvantages = () => {
                         Benefits of Indian Subsidiary
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Strategic benefits of choosing the subsidiary model for Indian market entry.
+                        Key advantages of establishing a subsidiary company in India.
                     </p>
                     <div className="mt-10">
                         <img
@@ -77,12 +77,12 @@ const IndianSubsidiaryAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Brand Recognition", desc: "Operate under your global brand name while complying with local laws." },
-                        { title: "Ease of Operation", desc: "Can buy property, sign contracts, and hire employees directly in India." },
-                        { title: "Capital Infusion", desc: "Easier to bring in foreign capital and repatriate profits to the parent company." },
-                        { title: "Credit Worthiness", desc: "The subsidiary can raise funds from Indian banks and financial institutions." },
-                        { title: "Strategic Growth", desc: "Ideal for setting up manufacturing (Make in India) or R&D centers." },
-                        { title: "Lower Entry Barrier", desc: "Simplified registration process for foreign nationals and entities." }
+                        { title: "Brand Recognition", desc: "Allows businesses to operate under their international brand while following Indian regulations." },
+                        { title: "Ease of Operation", desc: "The subsidiary can own assets, enter into contracts, and recruit employees within India." },
+                        { title: "Capital Infusion", desc: "Facilitates foreign investment inflow and allows profit repatriation to the parent company." },
+                        { title: "Credit Worthiness", desc: "The company can obtain funding from Indian banks and financial institutions." },
+                        { title: "Strategic Growth", desc: "Suitable for establishing manufacturing units, research centers, or service operations." },
+                        { title: "Lower Entry Barrier", desc: "Relatively straightforward incorporation process for foreign investors and entities." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -103,7 +103,7 @@ const IndianSubsidiaryRegistration = () => {
     const faqs = [
         {
             question: "What is an Indian Subsidiary Company?",
-            answer: "An Indian Subsidiary is a company where more than 50% of its equity shares are held by a foreign parent company. It is treated as an Indian company for all practical and tax purposes."
+            answer: "An Indian Subsidiary Company is a business entity where a foreign parent company owns more than 50% of the shares. Despite foreign ownership, it operates as an Indian company under local laws and tax regulations."
         },
         {
             question: "Is 100% Foreign Direct Investment (FDI) allowed?",
@@ -128,10 +128,10 @@ const IndianSubsidiaryRegistration = () => {
 
             {/* ================= SECTION 1: HERO ================= */}
             <HeroLayout
-                heroTitleMain="Indian Subsidiary"
+                heroTitleMain="Indian Subsidiary Company"
                 heroTitleSuffix="Registration"
                 heroSubtitle="Launch Your Global Business in India"
-                heroDescription="Expand your international operations with a dedicated Indian Subsidiary. We provide end-to-end support for foreign companies looking to establish a presence in one of the world's fastest-growing economies."
+                heroDescription="Expand your global business by setting up an Indian Subsidiary. VyomBiz provides complete assistance for foreign companies planning to establish a presence in India’s rapidly growing market."
                 whatsIncludedList={[
                     "Foreign Parent Company Board Resolution Assistance",
                     "Digital Signature Certificate (DSC)",
@@ -141,9 +141,9 @@ const IndianSubsidiaryRegistration = () => {
                     "FDI Compliance Advisory (RBI)"
                 ]}
                 stats={[
-                    { count: "42K+", label: "Clients", icon: <Users size={20} /> },
-                    { count: "3500+", label: "Experts", icon: <Briefcase size={20} /> },
-                    { count: "50+", label: "Offices", icon: <Building2 size={20} /> }
+                    { count: "40K+", label: "Global Clients", icon: <Users size={20} /> },
+                    { count: "3500+", label: "Legal & Financial Experts", icon: <Briefcase size={20} /> },
+                    { count: "50+", label: "Service Locations", icon: <Building2 size={20} /> }
                 ]}
             />
 
@@ -160,17 +160,17 @@ const IndianSubsidiaryRegistration = () => {
                     title: "Indian Subsidiary Registration –",
                     highlightTitle: "Gateway for Foreign Entities",
                     description: [
-                        "An Indian Subsidiary Company is one of the most preferred ways for foreign companies to expand their business into the Indian market. It is registered under the Companies Act, 2013, as a separate legal entity, typically as a Private Limited Company.",
-                        "While the foreign parent company holds the majority or 100% of the shares, the Indian subsidiary is treated as a domestic entity for tax and legal purposes, allowing it to enjoy all the benefits available to Indian companies.",
+                        "An Indian Subsidiary Company is a common structure used by foreign businesses to establish operations in India. It is incorporated under the Companies Act, 2013 and functions as a separate legal entity, usually registered as a Private Limited Company.",
+                        "In this structure, the foreign parent company may hold a majority or even 100% of the shares. However, the subsidiary is treated as an Indian company for legal and taxation purposes, allowing it to access benefits available to domestic businesses.",
                         <strong>FDI Compliance:</strong>,
-                        "Setting up a subsidiary involves compliance with Foreign Direct Investment (FDI) policies and FEMA (Foreign Exchange Management Act) regulations. We ensure your entry route is optimized and all RBI reporting requirements are met seamlessly."
+                        "Establishing an Indian subsidiary requires compliance with Foreign Direct Investment (FDI) policies and the Foreign Exchange Management Act (FEMA). Our experts assist in selecting the appropriate investment route and ensure that all RBI reporting and regulatory requirements are completed properly."
                     ],
-                    whyIdealTitle: "Key Advantages",
+                    whyIdealTitle: "Major Advantages",
                     whyIdealList: [
-                        { title: "100% Ownership", desc: "Foreign companies can hold 100% equity in most sectors under the automatic route." },
-                        { title: "Separate Legal Status", desc: "The parent company's liability is limited to its shareholding in the subsidiary." },
-                        { title: "Tax Benefits", desc: "Eligible for various domestic tax incentives and double taxation avoidance treaties." },
-                        { title: "Market Access", desc: "Direct access to India's massive consumer base and professional talent pool." }
+                        { title: "100% Ownership", desc: "Foreign investors can own up to 100% equity in many sectors under the automatic FDI route." },
+                        { title: "Separate Legal Status", desc: "The liability of the foreign parent company is limited to the amount invested in the subsidiary." },
+                        { title: "Tax Benefits", desc: "Eligible to benefit from domestic tax provisions and applicable double taxation avoidance agreements." },
+                        { title: "Market Access", desc: "Provides direct access to India’s large consumer market and skilled workforce." }
                     ]
                 }}
                 advantages={<IndianSubsidiaryAdvantages />}
@@ -178,17 +178,17 @@ const IndianSubsidiaryRegistration = () => {
                     title: "Eligibility Checklist",
                     subtitle: "Basic requirements to incorporate an Indian Subsidiary.",
                     list: [
-                        { title: "Parent Company", desc: "A foreign body corporate looking to establish its business in India." },
-                        { title: "Minimum Directors", desc: "At least 2 directors are required for a private company." },
-                        { title: "Resident Director", desc: "One director must be a resident of India for at least 182 days." },
-                        { title: "Shareholders", desc: "Minimum of 2 shareholders (one can be the parent company)." },
-                        { title: "Minimum Capital", desc: "No minimum capital requirement for incorporation." },
-                        { title: "Registered Office", desc: "Must have a physical office address within India." }
+                        { title: "Parent Company", desc: "A foreign company intending to expand its business operations in India." },
+                        { title: "Minimum Directors", desc: "A minimum of two directors are required for company incorporation." },
+                        { title: "Resident Director", desc: "At least one director must qualify as a resident of India under company law." },
+                        { title: "Shareholders", desc: "At least two shareholders are required, and the foreign parent company can act as one of them." },
+                        { title: "Minimum Capital", desc: "There is no mandatory minimum capital requirement for incorporation." },
+                        { title: "Registered Office", desc: "A registered office address in India is required for company registration." }
                     ]
                 }}
                 documents={{
                     title: "Documents Required",
-                    description: "Documentation required from foreign parent and directors.",
+                    description: "Documents required from the foreign parent company and directors.",
                     list: [
                         "Copy of Board Resolution from Foreign Parent Company",
                         "Certificate of Incorporation of Parent Company (Apostilled)",
@@ -206,24 +206,24 @@ const IndianSubsidiaryRegistration = () => {
                     title: "Registration Roadmap",
                     subtitle: "Step-by-step guidance for global entities.",
                     steps: [
-                        { step: "01", title: "Documentation", desc: "Gathering and apostilling of foreign parent documents." },
-                        { step: "02", title: "DSC & Name", desc: "Obtaining Digital Signatures and reserving company name." },
-                        { step: "03", title: "SPICe+ Filing", desc: "Submitting incorporation forms to the MCA for approval." },
-                        { step: "04", title: "RBI Reporting", desc: "Reporting capital infusion to RBI via FC-GPR (FEMA compliance)." }
+                        { step: "01", title: "Documentation", desc: "Collection and legalization of documents from the foreign parent company." },
+                        { step: "02", title: "DSC & Name", desc: "Applying for Digital Signature Certificates and reserving the company name." },
+                        { step: "03", title: "SPICe+ Filing", desc: "Filing incorporation forms with the Ministry of Corporate Affairs for registration." },
+                        { step: "04", title: "RBI Reporting", desc: "Reporting foreign investment to RBI through required FEMA filings." }
                     ]
                 }}
                 whyChooseUs={{
                     title: "Why Choose VyomBiz",
                     subtitle: "Your global partner for Indian market entry.",
                     list: [
-                        { title: "FDI Experts", desc: "Deep knowledge of FEMA and RBI regulations for foreign investment." },
-                        { title: "Apostille Liaison", desc: "Guidance on document legalization in your home country." },
-                        { title: "Complete Solution", desc: "From incorporation to monthly GST, Tax, and FEMA compliance." },
-                        { title: "Fast Tracking", desc: "Experienced team ensures minimal delays in government approvals." },
-                        { title: "Transparent Pricing", desc: "No hidden local charges; clear international billing." },
-                        { title: "Data Security", desc: "High standards of confidentiality for global corporate data." },
-                        { title: "Multi-city Network", desc: "Offices across major Indian hubs for local representative support." },
-                        { title: "Language Support", desc: "Professionals who understand international business standards." }
+                        { title: "FDI Experts", desc: "Expert understanding of FEMA regulations and foreign investment policies." },
+                        { title: "Apostille Liaison", desc: "Support with document legalization and apostille procedures abroad." },
+                        { title: "Complete Solution", desc: "Assistance from company incorporation to ongoing tax and compliance services." },
+                        { title: "Fast Tracking", desc: "Our experienced team ensures faster document preparation and approval processes." },
+                        { title: "Transparent Pricing", desc: "Transparent pricing with clear and competitive service fees." },
+                        { title: "Data Security", desc: "Strong data protection practices for international corporate information." },
+                        { title: "Multi-city Network", desc: "Presence in major Indian cities to provide local support when required." },
+                        { title: "Language Support", desc: "Experts experienced in handling global business and compliance requirements." }
                     ]
                 }}
             />

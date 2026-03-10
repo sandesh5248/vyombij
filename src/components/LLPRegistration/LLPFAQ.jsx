@@ -5,7 +5,7 @@ const LLPFAQ = () => {
     const faqs = [
         {
             question: "What is the difference between an LLP and a Partnership Firm?",
-            answer: "In an LLP, partners have limited liability and the entity is a separate legal person distinct from its owners. In a traditional partnership, partners have unlimited liability."
+            answer: "In an LLP, partners have limited liability and the entity has a separate legal identity from its partners. In a traditional partnership firm, partners may have unlimited liability for business obligations."
         },
         {
             question: "Is audit mandatory for all LLPs?",

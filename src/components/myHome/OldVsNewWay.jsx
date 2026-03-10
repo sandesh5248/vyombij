@@ -11,11 +11,11 @@ const OldVsNewWay = () => {
                 {/* Header */}
                 <div className="mb-14">
                     <h2 className="text-4xl font-bold text-[#072b47] mb-4 tracking-tight">
-                        Everything Your Business Needs to <span className="text-[#d99e00]">Grow, Right Here</span>
+                        Everything Your Business Needs to Grow — In One Place
                     </h2>
                     <div className="w-16 h-1 bg-[#FFE90A] mx-auto rounded"></div>
                     <p className="text-gray-700 text-sm md:text-base lg:text-lg mt-6 max-w-3xl mx-auto font-normal tracking-wide">
-                        Stop juggling manual processes and start expanding with automated business solutions.
+                        Stop managing paperwork manually. Switch to smart, automated business solutions.
                     </p>
                 </div>
 
@@ -28,7 +28,7 @@ const OldVsNewWay = () => {
                                 The Old Way
                             </h3>
                             <p className="text-slate-500 text-sm font-medium leading-relaxed max-w-md mx-auto">
-                                Slow, manual filing, error-prone, and full of paperwork. Deadlines are easily missed, and expert help feels distant.
+                                Slow manual processes, heavy paperwork, and frequent errors. Deadlines get missed and getting expert help takes time.
                             </p>
                         </div>
                         <div className="relative w-full max-w-sm mx-auto flex-grow flex items-center justify-center grayscale opacity-70">
@@ -49,7 +49,7 @@ const OldVsNewWay = () => {
                                 The VyomBiz Way
                             </h3>
                             <p className="text-blue-100 text-sm font-medium leading-relaxed max-w-md mx-auto mb-10">
-                                Quick, AI-powered automation. Real-time tracking, secure storage, and instant expert support at your fingertips.
+                                Fast, AI-powered processes with real-time updates, secure document storage, and instant access to experts.
                             </p>
                             <div className="relative w-full max-w-sm mx-auto flex-grow flex items-center justify-center">
                                 <img
@@ -61,18 +61,20 @@ const OldVsNewWay = () => {
                             </div>
                             <div className="grid grid-cols-2 gap-4 mt-8">
                                 {[
-                                    { text: "AI Automation", sub: "Reduced Errors" },
-                                    { text: "Real-time", sub: "Status Updates" },
-                                    { text: "Expert Help", sub: "24/7 Support" },
-                                    { text: "Security", sub: "Bank-grade" }
+                                    { text: "AI Automation", sub: "Smart tools that simplify compliance work" },
+                                    { text: "Reduced Errors", sub: "Automation reduces mistakes in filings" },
+                                    { text: "Real-time Status Updates", sub: "Track your application progress anytime" },
+                                    { text: "Expert Help", sub: "Get guidance from professionals whenever needed" },
+                                    { text: "24/7 Support", sub: "Our team is available to help you anytime" },
+                                    { text: "Security", sub: "Your documents stay safe with bank-grade security" }
                                 ].map((item, idx) => (
-                                    <div key={idx} className="flex items-center gap-3 bg-white/5 backdrop-blur-md rounded-2xl p-3 border border-white/10 text-left">
+                                    <div key={idx} className="flex items-start gap-3 bg-white/5 backdrop-blur-md rounded-2xl p-3 border border-white/10 text-left">
                                         <div className="w-8 h-8 rounded-lg bg-[#FFE90A] flex items-center justify-center shrink-0">
                                             <CheckCircle className="w-5 h-5 text-[#072b47]" />
                                         </div>
                                         <div>
-                                            <p className="text-white text-xs font-bold leading-none mb-1">{item.text}</p>
-                                            <p className="text-white/60 text-[10px] uppercase font-bold tracking-wider leading-none">{item.sub}</p>
+                                            <p className="text-white text-[11px] font-bold leading-none mb-1.5">{item.text}</p>
+                                            <p className="text-white/70 text-[9px] font-medium leading-snug">{item.sub}</p>
                                         </div>
                                     </div>
                                 ))}

@@ -19,19 +19,19 @@ const OPCRegistrationOverview = () => {
                         </h2>
 
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Are you a solopreneur who wants to give wings to your entrepreneurial dreams? One Person Company registration is the best option for you. Enjoy benefits such as ease of incorporation, fewer compliance requirements, and sole ownership with stress-free OPC registration.
+                            Are you a solo entrepreneur looking to start your own business? One Person Company registration is an ideal option for individual founders. It offers benefits such as simple incorporation, reduced compliance requirements, and complete ownership for the founder.
                         </p>
 
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Introduced under the Companies Act, 2013, OPC safeguards the interests of solo entrepreneurs in India by providing them with legal status to operate independently as a corporate entity.
+                            Introduced under the Companies Act, 2013, the OPC structure allows a single entrepreneur to operate a business with a corporate legal identity.
                         </p>
 
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            As per Section 2 (62) of the Companies Act, 2013, a single entrepreneur can incorporate an OPC with just one director and one member, allowing full control while enjoying the benefit of limited liability.
+                            Under Section 2(62) of the Companies Act, 2013, a single individual can establish an OPC with one member and one director, ensuring complete control with limited liability protection.
                         </p>
 
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                            Facing challenges in registering your OPC in India? Connect with our business consultants for quick, smooth, and budget-friendly One Person Company registration solutions.
+                            Need assistance with OPC registration in India? Our experts provide quick, smooth, and cost-effective company registration support.
                         </p>
                     </div>
 
@@ -65,7 +65,7 @@ const OPCRegistrationAdvantages = () => {
                     </h2>
 
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Major advantages enjoyed by single entrepreneurs forming a One Person Company in India.
+                        Key advantages available to entrepreneurs forming a One Person Company in India.
                     </p>
 
                     <div className="mt-10">
@@ -82,27 +82,27 @@ const OPCRegistrationAdvantages = () => {
                     {[
                         {
                             title: "Simple Incorporation Process",
-                            desc: "OPC incorporation is simple and hassle-free, requiring just one member and one nominee who can also act as director. Though minimum authorised capital is ₹1 lakh, there is no minimum paid-up capital requirement, making financial setup flexible."
+                            desc: "The OPC incorporation process is simple and requires only one member along with a nominee. There is no minimum paid-up capital requirement, allowing flexibility in starting the business."
                         },
                         {
                             title: "Access to Easy Fund Raising",
-                            desc: "As a legally registered company, OPCs can raise funds from venture capitalists, angel investors, incubators, and financial institutions. Banks prefer lending to OPCs over sole proprietorships due to structured governance and lower risk perception."
+                            desc: "Being a registered company, OPCs may attract funding from investors, incubators, and financial institutions. Banks often find OPCs more reliable than sole proprietorships due to better governance structure."
                         },
                         {
                             title: "Fewer Compliances",
-                            desc: "Under the Companies Act, 2013, OPCs enjoy reduced compliance requirements and exemptions such as no mandatory cash flow statement and relaxed annual return formalities."
+                            desc: "OPCs benefit from reduced compliance requirements and certain exemptions under the Companies Act, 2013."
                         },
                         {
                             title: "Flexible Decision Making & Easy Management",
-                            desc: "Since there is only one member, decisions can be taken quickly without conflicts. Resolutions can be passed by simply recording them in the minute book, ensuring smooth and efficient management."
+                            desc: "With only one member, decisions can be taken quickly without internal conflicts. Decisions can be documented in the minute book, making management simple and efficient."
                         },
                         {
                             title: "Limited Liability",
-                            desc: "OPC is a separate legal entity. The liability of the shareholder is limited to the value of their shareholding, and personal assets remain protected from business losses."
+                            desc: "An OPC has a separate legal identity. The owner’s liability is limited to their shareholding, protecting personal assets from business risks."
                         },
                         {
                             title: "Exclusive Benefits",
-                            desc: "OPCs enjoy special privileges and exemptions that are not available to other private companies, making it a preferred structure for solopreneurs."
+                            desc: "OPCs receive certain privileges and regulatory relaxations, making them suitable for individual entrepreneurs."
                         }
                     ].map((item, index) => (
                         <div
@@ -125,11 +125,11 @@ const OPCRegistrationAdvantages = () => {
 
 const OPCEligibility = () => {
     const list = [
-        { title: "Natural Person", desc: "Only a natural person who is an Indian citizen and resident." },
-        { title: "Single OPC Only", desc: "A person can form only one OPC in India." },
-        { title: "Nominee Required", desc: "A nominee must be appointed during incorporation." },
-        { title: "No Minors", desc: "Minor cannot become a member or nominee of an OPC." },
-        { title: "Activity Limit", desc: "Cannot carry out Non-Banking Financial Investment activities." }
+        { title: "Natural Person", desc: "Only a natural person who is an Indian citizen and resident can incorporate an OPC." },
+        { title: "Single OPC Only", desc: "An individual is allowed to incorporate only one OPC at a time." },
+        { title: "Nominee Required", desc: "A nominee must be appointed during the incorporation process." },
+        { title: "No Minors", desc: "A minor is not permitted to become a member or nominee of an OPC." },
+        { title: "Activity Limit", desc: "OPCs are not permitted to carry out Non-Banking Financial Investment activities." }
     ];
     return (
         <section className="w-full py-12 bg-white">
@@ -153,8 +153,8 @@ const OPCEligibility = () => {
                 </div>
                 <div className="mt-12 text-center">
                     <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Check Your Eligibility Now
-                            </Link>
+                        Check Your Eligibility Now
+                    </Link>
                 </div>
             </div>
         </section>
@@ -179,7 +179,7 @@ const OPCDocumentsSection = () => {
                     Documents Required for OPC Registration
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Digital copies for both the founder and the registered office address.
+                    Digital copies of documents for the founder and the registered office address are required.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {list.map((item, i) => (
@@ -196,11 +196,11 @@ const OPCDocumentsSection = () => {
 
 const OPCProcessSection = () => {
     const steps = [
-        { title: "DSC & DIN", desc: "Obtain Digital Signature Certificate and Director Identification Number." },
-        { title: "Name Reservation", desc: "Reserve a unique name for your One Person Company via the MCA portal." },
-        { title: "Documentation", desc: "Draft and sign MoA, AoA, and the mandatory Nominee consent form." },
-        { title: "Integrated Filing", desc: "Submit incorporation forms (SPICe+) along with proof of office address." },
-        { title: "Final Certificate", desc: "Receive the Certificate of Incorporation, PAN, and TAN." }
+        { title: "DSC & DIN", desc: "Apply for a Digital Signature Certificate and Director Identification Number." },
+        { title: "Name Reservation", desc: "Reserve a suitable company name through the MCA portal." },
+        { title: "Documentation", desc: "Prepare and sign the MoA, AoA, and nominee consent documents." },
+        { title: "Integrated Filing", desc: "File the SPICe+ incorporation forms with the required office address proof." },
+        { title: "Final Certificate", desc: "Receive the Certificate of Incorporation along with PAN and TAN." }
     ];
     return (
         <section className="w-full py-14 bg-white">
@@ -242,12 +242,12 @@ const OPCProcessSection = () => {
 
 const OPCFeaturesSection = () => {
     const features = [
-        { title: "Expert Consultation", desc: "Guided selection of the perfect legal structure for your vision." },
-        { title: "Fast Delivery", desc: "Streamlined processes ensuring your incorporation is on track." },
-        { title: "Legal Documentation", desc: "Professional drafting of MoA, AoA and Nominee contracts." },
-        { title: "Post-Reg Support", desc: "Everything from GST to annual compliances handled." },
-        { title: "Transparent Pricing", desc: "No hidden fees, just professional excellence." },
-        { title: "Dedicated Support", desc: "24/7 access to business experts who understand your journey." }
+        { title: "Expert Consultation", desc: "Expert guidance to choose the right legal structure for your business." },
+        { title: "Fast Delivery", desc: "Efficient processes ensuring timely incorporation." },
+        { title: "Legal Documentation", desc: "Professional preparation of MoA, AoA, and nominee documentation." },
+        { title: "Post-Reg Support", desc: "Support with GST registration and ongoing company compliance." },
+        { title: "Transparent Pricing", desc: "Transparent pricing with no hidden charges." },
+        { title: "Dedicated Support", desc: "Dedicated assistance from experienced business consultants." }
     ];
     return (
         <section className="w-full py-14 bg-white">

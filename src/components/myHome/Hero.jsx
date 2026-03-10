@@ -29,21 +29,21 @@ const Hero = () => {
     {
       id: 1,
       title: "Start Your Business",
-      description: "Launch your business effortlessly with expert-guided incorporation, registrations, and licensing.",
+      description: "Launch your business smoothly with expert-guided incorporation, registrations, and licensing support.",
       sectionId: "premium-platform-section",
       illustration: "certificate",
     },
     {
       id: 2,
       title: "Manage Your Business",
-      description: "Stay compliant and in control with automated tax filings, smart dashboards, and real-time alerts.",
+      description: "Stay compliant and organized with automated tax filings, smart dashboards, and real-time updates.",
       sectionId: "start-compliance-section",
       illustration: "filing",
     },
     {
       id: 3,
       title: "Protect Your Business",
-      description: "Secure your brand with trademark registration, contracts, and legal support from trusted experts.",
+      description: "Secure your brand with trademark registration, legal documents, and expert legal support.",
       sectionId: "working-process-section",
       illustration: "brand",
     },
@@ -69,17 +69,17 @@ const Hero = () => {
         {/* Hero Content */}
         <div className="text-center mb-16 md:mb-20">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white leading-[1.15] mb-4 max-w-4xl mx-auto tracking-wide group">
-            Build Your Business with Passion. <br />
+            Build Your Business with Confidence. <br />
             Run It Smarter with <span className="text-[#FFE90A] relative inline-block">VyomBiz <div className="absolute -bottom-1 left-0 w-full h-[2px] bg-[#FFE90A] scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500"></div></span>.
           </h1>
           <div className="w-24 h-1 bg-[#FFE90A] mx-auto rounded-full mb-8"></div>
 
           <p className="text-base md:text-lg text-white/90 leading-relaxed max-w-3xl mx-auto mb-6">
-            Simplifying Legal, Tax, and Compliance, the{" "}
+            Simplifying Legal, Tax, and Compliance the{" "}
             <span className="bg-yellow-500/30 text-yellow-300 px-2 py-1 rounded-md font-semibold text-sm">
-              AI-Driven
+              AI-powered way
             </span>{" "}
-            Trusted by millions. Backed by real experts.
+            Trusted by growing businesses. Supported by experienced experts.
           </p>
 
           {/* Navigation Buttons Below Heading */}

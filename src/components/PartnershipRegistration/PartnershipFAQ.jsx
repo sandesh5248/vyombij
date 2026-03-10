@@ -5,7 +5,7 @@ const PartnershipFAQ = () => {
     const faqs = [
         {
             question: "Is registration of a Partnership Firm mandatory in India?",
-            answer: "No, under the Indian Partnership Act, 1932, registration is optional. However, unregistered firms cannot sue third parties or other partners for enforcing rights arising from a contract."
+            answer: "No, registration of a partnership firm is not mandatory under the Indian Partnership Act, 1932. However, an unregistered firm may face limitations when enforcing legal rights against third parties or partners."
         },
         {
             question: "What is a Partnership Deed?",

@@ -5,7 +5,7 @@ const FAQSection = () => {
     const faqs = [
         {
             question: "How long does it take to register a Private Limited Company?",
-            answer: "Typically, it takes 7 to 10 working days to get the Certificate of Incorporation, depending on the ROC processing time and name availability."
+            answer: "The registration process generally takes around 7–10 working days depending on document verification and ROC approval timelines."
         },
         {
             question: "Can one person start a Private Limited Company?",

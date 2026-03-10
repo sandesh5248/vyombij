@@ -25,19 +25,19 @@ const ProducerCompanyOverview = () => {
                             Agricultural Business
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Producer Company Registration – <span className="text-[#005a9c]">Growth for Producers</span>
+                            Producer Company Registration – <span className="text-[#005a9c]">Empowering Producers</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            A Producer Company is a hybrid between a private limited company and a cooperative society. It combines the efficiency of a company and the spirit of a cooperative. It is formed by primary producers (farmers, artisans, etc.) to improve their income and standard of living.
+                            A Producer Company combines the benefits of a private limited company and a cooperative society. It merges corporate management practices with the cooperative principles of member participation. It is formed by primary producers such as farmers, artisans, and agriculturists to enhance their income and business opportunities.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Regulated under the Companies Act, it allows producers to carry out activities like production, harvesting, procurement, grading, pooling, handling, marketing, selling, and export of primary produce.
+                            Governed by the Companies Act, it enables producers to undertake activities such as production, procurement, grading, processing, marketing, and export of primary produce.
                         </p>
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
                             Why go for a Producer Company?
                         </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            It provides a structured platform for farmers and small scales producers to aggregate their produce, gain better market access, and avail themselves of various government schemes and subsidies specifically designed for FPOs (Farmer Producer Organizations).
+                            It offers farmers and small producers a structured platform to combine their produce, improve market access, and benefit from government schemes and support programs designed for Farmer Producer Organizations (FPOs).
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -63,7 +63,7 @@ const ProducerCompanyAdvantages = () => {
                         Why It Is Vital
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of Registration
+                        Key Benefits of Registration
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
                         Professionalize your produce business with corporate status.
@@ -80,12 +80,12 @@ const ProducerCompanyAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Corporate Identity", desc: "Enjoy the status of a separate legal entity with perpetual succession." },
-                        { title: "Bargaining Power", desc: "Bulk procurement of inputs and collective sale of outputs leads to better margins." },
-                        { title: "Access to NABARD", desc: "Eligibility for various credit and grant schemes from NABARD and SFAC." },
-                        { title: "Professional Management", desc: "The company structure allows for the appointment of professionals to manage operations effectively." },
-                        { title: "Processing & Branding", desc: "Aids in setting up processing units and creating a brand for the produce." },
-                        { title: "Export Opportunities", desc: "Easier to comply with export regulations and tap into international markets." }
+                        { title: "Corporate Identity", desc: "Gain the status of a separate legal entity with perpetual succession and independent identity." },
+                        { title: "Bargaining Power", desc: "Collective purchase of inputs and group selling of produce help members achieve better pricing and profits." },
+                        { title: "Access to NABARD", desc: "Access to credit facilities, grants, and financial schemes offered by NABARD and SFAC." },
+                        { title: "Professional Management", desc: "The company framework allows professionals to manage operations efficiently and improve productivity." },
+                        { title: "Processing & Branding", desc: "Supports establishing processing facilities and building a recognizable brand for agricultural produce." },
+                        { title: "Export Opportunities", desc: "Simplifies compliance with export regulations and helps producers enter global markets." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -106,7 +106,7 @@ const ProducerCompanyRegistration = () => {
     const faqs = [
         {
             question: "What is a Producer Company?",
-            answer: "A Producer Company is a body corporate registered under the Companies Act, which consists of individuals engaged in any activity connected with or related to primary produce."
+            answer: "A Producer Company is a corporate entity registered under the Companies Act consisting of individuals involved in activities related to primary production."
         },
         {
             question: "Who can form a Producer Company?",
@@ -134,7 +134,7 @@ const ProducerCompanyRegistration = () => {
                 heroTitleMain="Producer Company"
                 heroTitleSuffix="Registration"
                 heroSubtitle="Empowering Farmers & Producers"
-                heroDescription="Incorporate a Producer Company to bridge the gap between agriculture and industry. Gain better bargaining power, access credit facilities, and professionalize your primary produce business with our expert guidance."
+                heroDescription="Register a Producer Company to connect agriculture with organized business practices. Improve bargaining power, access financial support, and grow your primary produce business with professional guidance."
                 whatsIncludedList={[
                     "Digital Signature Certificate (DSC)",
                     "Director Identification Number (DIN)",
@@ -144,9 +144,9 @@ const ProducerCompanyRegistration = () => {
                     "PAN & TAN for the Company"
                 ]}
                 stats={[
-                    { count: "42K+", label: "Clients", icon: <Users size={20} /> },
-                    { count: "3500+", label: "Experts", icon: <Briefcase size={20} /> },
-                    { count: "50+", label: "Offices", icon: <Building2 size={20} /> }
+                    { count: "40K+", label: "Happy Clients", icon: <Users size={20} /> },
+                    { count: "3500+", label: "Industry Experts", icon: <Briefcase size={20} /> },
+                    { count: "50+", label: "Service Locations", icon: <Building2 size={20} /> }
                 ]}
             />
 
@@ -164,17 +164,17 @@ const ProducerCompanyRegistration = () => {
                     title: "Eligibility Checklist",
                     subtitle: "Who can form a Producer Company?",
                     list: [
-                        { title: "Primary Producers", desc: "Only persons engaged in 'primary produce' (agriculture, animal husbandry, etc.) can be members." },
-                        { title: "Minimum Members", desc: "10 or more individuals, or 2 or more producer institutions." },
-                        { title: "Directors", desc: "Minimum 5 and maximum 15 directors are required." },
-                        { title: "Share Capital", desc: "Minimum paid-up capital of ₹5 Lakhs is generally required to start." },
-                        { title: "Objects", desc: "Activities must strictly fall within the objects specified in the Companies Act." },
-                        { title: "Name", desc: "The name must end with 'Producer Company Limited'." }
+                        { title: "Primary Producers", desc: "Only individuals involved in primary production activities such as agriculture, dairy, or horticulture can become members." },
+                        { title: "Minimum Members", desc: "At least 10 individual producers or 2 producer institutions are required to form a Producer Company." },
+                        { title: "Directors", desc: "The company must appoint a minimum of 5 directors and can have up to 15 directors." },
+                        { title: "Share Capital", desc: "A minimum paid-up capital of approximately ₹5 Lakhs is typically required for incorporation." },
+                        { title: "Objects", desc: "Business activities must align with the objectives defined under the Companies Act for Producer Companies." },
+                        { title: "Name", desc: "The company name must end with the words \"Producer Company Limited\"." }
                     ]
                 }}
                 documents={{
                     title: "Documents Required",
-                    description: "Essential paperwork for incorporation.",
+                    description: "Required documents for Producer Company incorporation.",
                     list: [
                         "PAN Card of all Directors and Members",
                         "Aadhar Card / Voter ID / Passport for identity proof",
@@ -192,24 +192,24 @@ const ProducerCompanyRegistration = () => {
                     title: "Our Simplified Process",
                     subtitle: "Get your Producer Company registered in 4 easy steps.",
                     steps: [
-                        { step: "01", title: "Consultation", desc: "Expert discussion to understand your produce and member structure." },
-                        { step: "02", title: "Documentation", desc: "Preparation of DSC, DIN, and drafting of constitutional documents." },
-                        { step: "03", title: "Filing", desc: "Submission of RUN for name approval followed by SPICe+ for incorporation." },
-                        { step: "04", title: "Certification", desc: "Receipt of COI, PAN, and TAN once the MCA approves the application." }
+                        { step: "01", title: "Consultation", desc: "Initial consultation to understand the type of produce and member structure." },
+                        { step: "02", title: "Documentation", desc: "Preparation of DSC, DIN, and drafting of required incorporation documents." },
+                        { step: "03", title: "Filing", desc: "Filing for name approval and submitting SPICe+ forms for company incorporation." },
+                        { step: "04", title: "Certification", desc: "Issuance of Certificate of Incorporation along with PAN and TAN after MCA approval." }
                     ]
                 }}
                 whyChooseUs={{
                     title: "Why Choose VyomBiz",
                     subtitle: "Empowering the backbone of the nation.",
                     list: [
-                        { title: "FPO Experts", desc: "Dedicated team specializing in Farmer Producer Organizations." },
-                        { title: "End-to-End Service", desc: "From member verification to post-incorporation statutory compliance." },
-                        { title: "Subsidies Guidance", desc: "Assistance in understanding and applying for SFAC/NABARD schemes." },
-                        { title: "Professional Drafting", desc: "Ensuring MOA/AOA strictly follow legal objects for primary produces." },
-                        { title: "Transparent Fees", desc: "Affordable startup packages specifically for rural entrepreneurship." },
-                        { title: "Ongoing Compliance", desc: "Support for annual filings, audits, and meeting requirements." },
-                        { title: "Digital Convenience", desc: "Completely online process, no need for members to travel to offices." },
-                        { title: "Verified Success", desc: "Trusted by thousands of producer groups across India." }
+                        { title: "FPO Experts", desc: "Experienced team specializing in Farmer Producer Organization registrations." },
+                        { title: "End-to-End Service", desc: "Complete support from member verification to post-incorporation compliance." },
+                        { title: "Subsidies Guidance", desc: "Guidance for applying to government schemes offered by SFAC and NABARD." },
+                        { title: "Professional Drafting", desc: "Drafting MOA and AOA in compliance with legal objectives for producer activities." },
+                        { title: "Transparent Fees", desc: "Cost-effective packages designed to support rural and agricultural entrepreneurs." },
+                        { title: "Ongoing Compliance", desc: "Ongoing assistance with annual filings, audits, and compliance requirements." },
+                        { title: "Digital Convenience", desc: "Fully digital process allowing members to complete registration remotely." },
+                        { title: "Verified Success", desc: "Trusted by numerous producer groups and agricultural entrepreneurs across India." }
                     ]
                 }}
             />

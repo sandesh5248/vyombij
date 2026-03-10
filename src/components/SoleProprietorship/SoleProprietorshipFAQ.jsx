@@ -5,7 +5,7 @@ const SoleProprietorshipFAQ = () => {
     const faqs = [
         {
             question: "What are some important features of a sole proprietorship?",
-            answer: "A sole proprietorship is owned and managed by one person. Key features include unlimited liability (no legal distinction between owner and business), total control over decisions, simplified tax filing under personal income tax, and minimal regulatory requirements."
+            answer: "A sole proprietorship is owned and managed by a single individual. Key features include unlimited liability, full decision-making control, taxation under personal income tax, and minimal compliance requirements."
         },
         {
             question: "What are the documents required to register a sole proprietorship in India?",

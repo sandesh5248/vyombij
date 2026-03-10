@@ -8,10 +8,10 @@ const options = [
     id: 1,
     name: "Business Registration",
     cards: [
-      { title: "Company Registration", desc: "Company Registration in India Save 50% Today on Professional Services Avail consultation from our seasoned consultants for expert suppor..", path: "/company-registration" },
-      { title: "LLP Registration", desc: "LLP Registration in India Avail 50% Off – Professional Services Facing a delay in the process of online LLP registration in India?..", path: "/llp-registration" },
-      { title: "One Person Company Registration", desc: "One Person Company Registration Facing challenges in making the desired choice for solopreneurs? Get expert assistance for easy-breezy On.", path: "/one-person-company-registration" },
-      { title: "Partnership Firm Registration", desc: "Partnership Firm Registration in India Grab 50% Off on Vyombiz® Expert Services Are you seeking partnership firm registration in Ind..", path: "/partnership-firm-registration" },
+      { title: "Company Registration", desc: "Company Registration in India Save up to 50% on professional services. Get expert consultation and support for quick and smooth company registration.", path: "/company-registration" },
+      { title: "LLP Registration", desc: "LLP Registration in India Avail up to 50% discount on professional services. Register your LLP easily with step-by-step expert guidance.", path: "/llp-registration" },
+      { title: "One Person Company Registration", desc: "One Person Company Registration Ideal for solo entrepreneurs. Get expert help to register your OPC smoothly and start your business legally.", path: "/one-person-company-registration" },
+      { title: "Partnership Firm Registration", desc: "Partnership Firm Registration in India Get expert assistance and up to 50% savings on partnership firm registration services.", path: "/partnership-firm-registration" },
     ],
   },
   {
@@ -89,11 +89,11 @@ const LegalServices = () => {
       {/* Heading */}
       <div className="text-center mb-12 px-4">
         <h2 className="text-4xl font-bold text-[#072b47] mb-4 tracking-tight">
-          Legal Help Across Wide Range of <span className="text-[#d99e00]">Services.</span>
+          Legal Support Across a Wide Range of <span className="text-[#d99e00]">Services.</span>
         </h2>
         <div className="w-16 h-1 bg-[#FFE90A] mx-auto rounded mb-6"></div>
         <p className="text-gray-700 text-sm md:text-base lg:text-lg max-w-4xl mx-auto font-normal tracking-wide mt-4">
-          Vyombiz focuses predominantly on assisting entrepreneurs or SMEs by providing services such as Business Registration, Government Registration, Regulatory Measures, Tax Filing, IPR, and much more.
+          VyomBiz mainly supports startups and SMEs with services such as business registration, government approvals, regulatory compliance, tax filing, IPR services, and more.
         </p>
       </div>
 
@@ -118,13 +118,13 @@ const LegalServices = () => {
                   {option.name}
                 </div>
                 <div className={`text-xs mt-0.5 ${selectedOption === option.id ? "text-slate-600" : "text-white/80"}`}>
-                  {option.id === 1 && "We help you register your business"}
-                  {option.id === 2 && "Get govt. registration certificates"}
-                  {option.id === 3 && "Getting govt. licenses with us is easy"}
-                  {option.id === 4 && "Streamline compliance with our experts"}
-                  {option.id === 5 && "We ensure eco-sustainable growth"}
-                  {option.id === 6 && "We simplify the process of tax filing"}
-                  {option.id === 7 && "We provide top-notch IPR Services"}
+                  {option.id === 1 && "Register your business easily with expert assistance."}
+                  {option.id === 2 && "Get required government certificates without hassle."}
+                  {option.id === 3 && "We help you obtain important government licenses quickly."}
+                  {option.id === 4 && "Simplify RBI and financial compliance with expert support."}
+                  {option.id === 5 && "Ensure your business follows environmental regulations."}
+                  {option.id === 6 && "File taxes easily with accurate and timely support."}
+                  {option.id === 7 && "Protect your brand, ideas, and innovations with our IP services."}
                 </div>
               </div>
             </button>

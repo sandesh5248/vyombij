@@ -5,7 +5,7 @@ const OPCFAQ = () => {
     const faqs = [
         {
             question: "Who is eligible to open a One Person Company?",
-            answer: "Only a natural person who is an Indian citizen and resident in India (stayed for at least 120 days in the previous year) is eligible to incorporate an OPC."
+            answer: "Only a natural person who is an Indian citizen and resident in India is eligible to incorporate a One Person Company."
         },
         {
             question: "Is there any tax benefit for an OPC over a Sole Proprietorship?",

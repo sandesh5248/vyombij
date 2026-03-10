@@ -62,18 +62,18 @@ const Footer = () => {
                         </p>
 
                         <div className="space-y-4 pt-4">
-                            <div className="flex items-center gap-4 text-slate-300 hover:text-[#FFE90A] transition-colors duration-300 cursor-default group">
+                            <a href="tel:01169269633" className="flex items-center gap-4 text-slate-300 hover:text-[#FFE90A] transition-colors duration-300 cursor-pointer group w-fit">
                                 <div className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center group-hover:bg-[#FFE90A] transition-all duration-300">
                                     <Phone size={18} className="group-hover:text-[#072b47] transition-colors duration-300" />
                                 </div>
                                 <span className="font-bold">011 6926 9633</span>
-                            </div>
-                            <div className="flex items-center gap-4 text-slate-300 hover:text-[#FFE90A] transition-colors duration-300 cursor-default group">
+                            </a>
+                            <a href="mailto:support@vyombiz.in" className="flex items-center gap-4 text-slate-300 hover:text-[#FFE90A] transition-colors duration-300 cursor-pointer group w-fit">
                                 <div className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center group-hover:bg-[#FFE90A] transition-all duration-300">
                                     <Mail size={18} className="group-hover:text-[#072b47] transition-colors duration-300" />
                                 </div>
                                 <span className="font-bold">support@vyombiz.in</span>
-                            </div>
+                            </a>
                         </div>
 
                         <div className="flex gap-3 pt-6">
@@ -128,7 +128,7 @@ const Footer = () => {
                     <div className="text-center max-w-4xl mx-auto space-y-6">
 
                         <p className="text-slate-500 text-[13px] leading-relaxed font-medium">
-                            <span className="text-slate-300 font-bold">Legal Disclaimer:</span> VyomBiz is a legal technology platform and is <span className="italic">not a law firm</span> nor an agent of any government authority. Our services are powered by both in-house experts and a network of independent certified professionals, and in India through <span className="text-slate-300 font-bold">Enterfirst Private Limited</span>.
+                            <span className="text-slate-300 font-bold">Legal Disclaimer:</span> VyomBiz is a legal technology platform and is <span className="italic">not a law firm</span> nor an agent of any government authority. Our services are powered by both in-house experts and a network of independent certified professionals.
                         </p>
 
                         <div className="flex flex-wrap justify-center items-center gap-x-10 gap-y-6 opacity-30 invert grayscale group hover:opacity-100 transition-opacity duration-500">

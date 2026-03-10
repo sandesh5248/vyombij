@@ -25,25 +25,25 @@ const LegalFeatures = () => {
   const cards = [
     {
       title: "Why VyomBiz?",
-      desc: "VyomBiz is a tech-enabled and AI-driven platform where professionals are dedicated to providing legal and financial services to clients.",
+      desc: "VyomBiz is a technology-enabled platform where experienced professionals provide trusted legal and financial services to businesses.",
     },
     {
       title: "India's Largest Legal Tech Company",
-      desc: "VyomBiz is a professional service provider that provides business registration, taxation and licensing services. We have a large network of experienced professionals working with us.",
+      desc: "VyomBiz offers business registration, taxation, and licensing services through a wide network of experienced professionals across India.",
       icon: BarChart3,
       color: "text-blue-600",
       bgColor: "bg-blue-50",
     },
     {
       title: "99.9% Client Satisfaction",
-      desc: "In order to ensure client satisfaction, we continuously strive to improve the quality of services offered by the industry experts as per the requirements.",
+      desc: "To ensure client satisfaction, we continuously improve our services based on business needs and expert industry standards.",
       icon: TrendingUp,
       color: "text-green-500",
       bgColor: "bg-green-50",
     },
     {
       title: "Excellent Advisory Services",
-      desc: "With the largest professional network, we are dedicated to offering the best advisory services so that you don't face any complications in your entrepreneurial journey.",
+      desc: "With a strong professional network, we provide reliable advisory services to support entrepreneurs throughout their business journey.",
       icon: Lightbulb,
       color: "text-[#005a9c]",
       bgColor: "bg-[#005a9c]/10",
@@ -53,23 +53,23 @@ const LegalFeatures = () => {
   const features = [
     {
       title: "Quick Response",
-      desc: "We make sure to answer every query on time. Moreover, none of our emails or calls go unanswered."
+      desc: "We ensure every query is answered promptly. Our team makes sure that no calls or emails remain unanswered."
     },
     {
       title: "Advanced Technology",
-      desc: "Our high-tech platform with customer empowerment tools enables customers to get the best. You can connect with our experts with just a single click."
+      desc: "Our smart platform with customer-friendly tools helps you access services easily. You can connect with our experts instantly with just one click."
     },
     {
-      title: "Hassle-free Registration",
-      desc: "VyomBiz has made the registration process easy. You can leave the hassle of registration to us and focus on other important works that might require your immediate attention."
+      title: "Hassle-Free Registration",
+      desc: "VyomBiz simplifies the registration process for businesses. Leave the paperwork to us while you focus on growing your business."
     },
     {
       title: "Expert Guidance",
-      desc: "Our experienced team of professionals provides insightful advice on your business execution related to compliance, rules, taxation, registration, etc., which will help you select the best approach based on thorough research and inspection."
+      desc: "Our experienced professionals provide clear advice on compliance, taxation, registration, and regulations to help you make the right business decisions."
     },
     {
       title: "Global Network",
-      desc: "With our extensive global network of experts with years of experience, we also assist you in obtaining global certifications and approvals without complications."
+      desc: "With a strong network of experts worldwide, we also assist businesses in obtaining global certifications and approvals smoothly."
     }
   ];
 
@@ -94,7 +94,7 @@ const LegalFeatures = () => {
         <div className="lg:w-[55%] pt-4">
           <h2 className="text-4xl font-black text-[#072b47] mb-6 leading-tight">Features of Our <span className="text-[#d99e00]">Legal Service</span></h2>
           <p className="text-slate-600 text-lg mb-8 leading-relaxed font-medium">
-            VyomBiz is a tech-driven platform committed to delivering professional services all over India. We deliver exceptional services to our clients, and our dedication and commitment can be seen in the following ways:
+            VyomBiz is a technology-driven platform dedicated to delivering professional legal services across India. We focus on providing reliable solutions to our clients, and our commitment to quality service is reflected in the following ways:
           </p>
 
           <div className="space-y-4">

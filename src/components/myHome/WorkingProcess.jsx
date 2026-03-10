@@ -24,11 +24,10 @@ const WorkingProcess = () => {
               <div className="w-4 h-4 rounded-full bg-[#FFE90A] mt-3 shrink-0 shadow-[0_0_10px_rgba(255,233,10,0.4)]"></div>
               <div className="flex-1">
                 <h2 className="text-3xl md:text-4xl font-bold text-[#072b47] leading-tight mb-3">
-                  Protect Your <span className="text-[#d99e00]">IP & Legal Rights</span>
+                  Protect Your Intellectual Property & Legal Rights
                 </h2>
                 <p className="text-base md:text-lg text-gray-600 leading-relaxed">
-                  Secure your brand with trademark registration, contracts, and legal support from trusted experts.
-                  Protect your intellectual property with our comprehensive IP services.
+                  Secure your brand with trademark registration, legal agreements, and expert legal support. Our IP services help protect your business identity and ideas.
                 </p>
               </div>
             </div>
@@ -39,7 +38,7 @@ const WorkingProcess = () => {
             <div>
               <div className="mb-4">
                 <h3 className="text-2xl font-bold text-[#072b47] mb-1">IP & Legal Services</h3>
-                <p className="text-base text-gray-600">Protect your intellectual property rights</p>
+                <p className="text-base text-gray-600">Protect your intellectual property with trusted legal solutions.</p>
               </div>
               <div className="space-y-2">
                 {ipServices.map((service, index) => (

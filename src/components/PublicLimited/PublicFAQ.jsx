@@ -5,7 +5,7 @@ const PublicFAQ = () => {
     const faqs = [
         {
             question: "How many directors are needed for a Public Limited Company?",
-            answer: "A minimum of three directors are required for a Public Limited Company. There is no maximum limit, although the Articles of Association (AoA) may specify one."
+            answer: "A Public Limited Company must have at least three directors. The Companies Act does not specify a strict upper limit, although the Articles of Association may define governance rules."
         },
         {
             question: "Is there a minimum paid-up capital requirement?",

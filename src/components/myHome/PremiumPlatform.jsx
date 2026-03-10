@@ -27,11 +27,10 @@ const PremiumPlatform = () => {
               <div className="w-4 h-4 rounded-full bg-[#FFE90A] mt-3 shrink-0 shadow-[0_0_10px_rgba(255,233,10,0.4)]"></div>
               <div className="flex-1">
                 <h2 className="text-3xl md:text-4xl font-bold text-[#072b47] leading-tight mb-3">
-                  Start and Register <span className="text-[#d99e00]">Your Business</span>
+                  Start and Register Your Business
                 </h2>
                 <p className="text-base md:text-lg text-gray-600 leading-relaxed">
-                  Launch your business journey with expert-guided incorporation, registrations, and licensing services.
-                  Choose from our comprehensive range of business registration options tailored for your needs.
+                  Begin your business journey with expert support for company incorporation, registrations, and licenses. Choose from a wide range of business registration services designed to match your needs.
                 </p>
               </div>
             </div>
