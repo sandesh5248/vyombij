@@ -26,16 +26,16 @@ const EightyTwelveOverview = () => {
                             Tax Exemption
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            80G & 12A Registration – <span className="text-[#005a9c]">An Overview</span>
+                            80G & 12A Registration – <span className="text-[#005a9c]">Overview</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            In India, 80G and 12A registrations are crucial for Non-Profit Organizations seeking healthy tax benefits. Indian NGOs strive to register for both to maximize the advantages for themselves and their donors. Without 12A, an NGO is treated like any other commercial entity and must pay tax on its income. 12A ensures that the income applied for charitable purposes is exempt from tax.
+                            In India, 12A and 80G registrations are important for Non-Profit Organizations to obtain tax benefits. Most NGOs apply for both registrations to maximize benefits for the organization and its donors. Without 12A registration, an NGO is treated like a normal taxable entity and must pay income tax. 12A registration allows income used for charitable purposes to be exempt from taxation.
                         </p>
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
                             Why are they Important?
                         </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            12A Registration exempts an NGO from paying income tax on its surplus income. This is essential for the financial sustainability of non-profits. 80G Registration allows donors to claim tax deductions on the donations they make to the NGO, encouraging more philanthropic support and fundraising opportunities.
+                            12A registration allows NGOs to claim exemption from income tax on their surplus funds. This helps NGOs sustain their operations and focus on charitable activities. 80G registration allows donors to claim tax deductions on their contributions. This encourages more donations and improves fundraising opportunities.
                         </p>
 
 
@@ -66,7 +66,7 @@ const EightyTwelveAdvantages = () => {
                         Benefits of 80G & 12A Registration
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Get recognized as a genuine charitable entity and unlock financial privileges.
+                        Establish your NGO as a credible charitable organization and access financial benefits.
                     </p>
                     <div className="mt-10">
                         <img
@@ -80,12 +80,12 @@ const EightyTwelveAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Income Tax Exemption", desc: "12A registration exempts the NGO from paying taxes on its surplus income." },
-                        { title: "Attract Donors", desc: "Donors prefer 80G registered NGOs to avail tax deductions on their contributions." },
-                        { title: "Government Grants", desc: "Makes the NGO eligible for various grants and funding schemes from the government." },
-                        { title: "FCRA Eligibility", desc: "Prerequisite for FCRA registration, enabling the NGO to receive foreign funds." },
-                        { title: "Credibility", desc: "Enhances the reputation and trustworthiness of the NGO in the eyes of the public." },
-                        { title: "Wealth Accrual", desc: "Allows accumulation of up to 15% of income for future charitable application." }
+                        { title: "Income Tax Exemption", desc: "12A registration allows NGOs to claim exemption from tax on their surplus income." },
+                        { title: "Attract Donors", desc: "Donors often prefer NGOs with 80G registration because they receive tax deductions." },
+                        { title: "Government Grants", desc: "Helps NGOs become eligible for government grants and funding schemes." },
+                        { title: "FCRA Eligibility", desc: "Often required before applying for FCRA registration to receive foreign donations." },
+                        { title: "Credibility", desc: "Improves the credibility and public trust in the organization." },
+                        { title: "Wealth Accrual", desc: "Allows NGOs to accumulate up to 15% of income for future charitable activities." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -112,8 +112,8 @@ const EightyTwelveEligibility = () => {
                 </h2>
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    To apply for 12A & 80G Registration, it's essential to understand the eligibility criteria first.
-                    Mandatory criteria for NGOs to apply for 12A & 80G are mentioned below-
+                    Before applying for 12A and 80G registration, it is important to understand the eligibility requirements.
+                    The main eligibility criteria for applying are listed below.
                 </p>
 
                 {/* Registered Entity */}
@@ -126,13 +126,13 @@ const EightyTwelveEligibility = () => {
                             <span className="font-semibold text-[#072b47]">
                                 Legal Structure –
                             </span>{" "}
-                            Must be a registered Trust, Society, or Section 8 Company.
+                            The NGO must be registered as a Trust, Society, or Section 8 Company.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">
                                 Charitable Object –
                             </span>{" "}
-                            Objectives must be charitable, religious, or for social welfare.
+                            The organization must operate for charitable, religious, or social welfare purposes.
                         </li>
                     </ul>
                 </div>
@@ -141,22 +141,22 @@ const EightyTwelveEligibility = () => {
                 <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
                     <p>
                         <span className="font-semibold text-[#072b47]">No Commercial Income – </span>
-                        Should not have income from commercial activities.
+                        The NGO should not generate income from purely commercial activities.
                     </p>
 
                     <p>
                         <span className="font-semibold text-[#072b47]">Proper Accounts – </span>
-                        Must maintain proper books of accounts and records.
+                        The organization must maintain proper financial records and accounts.
                     </p>
 
                     <p>
                         <span className="font-semibold text-[#072b47]">No Private Benefit – </span>
-                        Funds should not benefit specific private religious groups.
+                        Funds should not be used for the personal benefit of individuals or specific groups.
                     </p>
 
                     <p>
                         <span className="font-semibold text-[#072b47]">Regular Audit – </span>
-                        Accounts must be audited if income exceeds the basic exemption limit.
+                        Accounts must be audited when income exceeds the prescribed limit.
                     </p>
                 </div>
 
@@ -183,7 +183,7 @@ const EightyTwelveDocumentsSection = () => {
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
                     To apply for 12A & 80G Registration, you need to submit the following documents.
-                    Consolidated list of documents for 12A and 80G registration are mentioned below:
+                    The following documents are required to apply for 12A and 80G registration.
                 </p>
 
                 {/* Documents List */}
@@ -241,23 +241,23 @@ const EightyTwelveProcessSection = () => {
     const steps = [
         {
             title: "Application Filing",
-            desc: "File Form 10A/10AB online via the Income Tax Portal with all required details."
+            desc: "Submit Form 10A or 10AB online through the Income Tax portal with required details."
         },
         {
             title: "Verification",
-            desc: "Commissioner verifies details and objectives of the NGO."
+            desc: "The Commissioner reviews the application and verifies the NGO’s objectives."
         },
         {
             title: "Clarification",
-            desc: "Submit additional documents or clarifications if requested by the department."
+            desc: "Provide additional documents or clarification if requested by the authorities."
         },
         {
             title: "Approval Order",
-            desc: "Commissioner approves the application and issues the order."
+            desc: "After review, the Commissioner approves the application and issues an order."
         },
         {
             title: "Certificate Grant",
-            desc: "Receive the 12A/80G Registration Certificate upon approval."
+            desc: "Receive the 12A and 80G registration certificates once approved."
         }
     ];
 
@@ -368,8 +368,7 @@ const EightyTwelveFeaturesSection = () => {
                         Features of 12A & 80G Registration Services
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        12A & 80G registration provides tax exemptions for NGOs and tax deductions for donors,
-                        enhancing credibility and fundraising capabilities.
+                        12A and 80G registrations provide tax benefits to NGOs and tax deductions to donors, improving credibility and fundraising potential.
                     </p>
                 </div>
 
@@ -406,7 +405,7 @@ const EightyTwelve = () => {
     const faqs = [
         {
             question: "Are there any eligibility criteria for registration of 12A and 80G?",
-            answer: "Yes, the NGO must be a registered entity (Trust, Society, or Section 8 Company), should not have income from commercial activities, and must maintain proper books of accounts."
+            answer: "Yes, the NGO must be a registered Trust, Society, or Section 8 Company, should avoid commercial income, and must maintain proper financial records."
         },
         {
             question: "What is the main benefit of 12A Registration?",
@@ -434,7 +433,7 @@ const EightyTwelve = () => {
                 heroTitleMain="80G & 12A"
                 heroTitleSuffix="Registration"
                 heroSubtitle="Unlock Tax Benefits for NGO"
-                heroDescription="Unlock tax exemptions for your NGO and offer tax benefits to your donors. We assist Trusts, Societies, and Section 8 Companies in obtaining 12A and 80G certifications seamlessly."
+                heroDescription="Get tax exemptions for your NGO and provide tax benefits to your donors. Our experts assist Trusts, Societies, and Section 8 Companies in obtaining 12A and 80G registrations smoothly."
                 whatsIncludedList={[
                     "100% Tax Exemption for NGO (12A)",
                     "Tax Deductions for Donors (80G)",
@@ -442,9 +441,9 @@ const EightyTwelve = () => {
                     "Complete Filing Assistance"
                 ]}
                 stats={[
-                    { count: "42K+", label: "Clients", icon: <Users size={20} /> },
-                    { count: "3500+", label: "Experts", icon: <Briefcase size={20} /> },
-                    { count: "50+", label: "Offices", icon: <Building2 size={20} /> }
+                    { count: "40K+", label: "Happy Clients", icon: <Users size={20} /> },
+                    { count: "3500+", label: "Professional Experts", icon: <Briefcase size={20} /> },
+                    { count: "50+", label: "Service Offices", icon: <Building2 size={20} /> }
                 ]}
             />
 

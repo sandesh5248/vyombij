@@ -25,13 +25,13 @@ const StrikeOffOverview = () => {
                             Company Closure
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Strike Off Section 8 Company – <span className="text-[#005a9c]">An Overview</span>
+                            Strike Off Section 8 Company – <span className="text-[#005a9c]">Overview</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Section 8 companies are established for charitable purposes and have distinct rules for closure compared to standard private limited companies. Unlike other registered entities, a Section 8 company does not have a direct 'voluntary strike off' route available immediately. To close, it often needs to first convert into a normal company (e.g., Private Limited) by surrendering its Section 8 license.
+                            Section 8 companies are formed for charitable objectives and follow different closure rules compared to standard private limited companies. Unlike other companies, a Section 8 company usually cannot apply directly for voluntary strike off. In most cases, the company must first convert into a regular private limited company by surrendering its Section 8 license.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The government ensures that assets acquired for charitable purposes are utilized correctly. Hence, the company must prove it has transferred its 'special status' assets or converted before it can simply shut down. The process involves strict scrutiny by the Regional Director and Registrar of Companies to ensure no charitable funds are misappropriated.
+                            The government ensures that assets obtained for charitable purposes are used appropriately. Therefore, the company must confirm that its charitable assets are properly transferred or handled before closure. The process involves review by the Regional Director and Registrar of Companies to ensure that charitable funds are not misused.
                         </p>
 
 
@@ -62,7 +62,7 @@ const StrikeoffSection8CompaniesAdvantages = () => {
                         Benefits of Striking Off
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Closing a non-operational Section 8 company can save resources and legal liabilities.
+                        Closing an inactive Section 8 company helps reduce compliance risks and operational costs.
                     </p>
                     <div className="mt-10">
                         <img
@@ -76,12 +76,12 @@ const StrikeoffSection8CompaniesAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Avoid Compliance", desc: "Eliminates the need for annual filings, audits, and meeting mandatory regulatory requirements." },
-                        { title: "Avoid Fines", desc: "Prevents accumulation of heavy penalties for non-compliance, which can even disqualify directors." },
-                        { title: "Reduce Costs", desc: "Running a dormant non-profit incurs administrative costs. Striking it off stops this financial drain." },
-                        { title: "Clean Slate", desc: "Allows promoters to focus on other viable ventures without the baggage of a defunct entity." },
-                        { title: "Legal Safety", desc: "Formal closure ensures directors are not held liable for future defaults of a 'ghost' company." },
-                        { title: "Peace of Mind", desc: "Formal dissolution brings a legal end to the entity's lifecycle, resolving all pending matters." }
+                        { title: "Avoid Compliance", desc: "Removes the requirement for annual filings, statutory audits, and other compliance obligations." },
+                        { title: "Avoid Fines", desc: "Prevents penalties for non-compliance that may lead to financial liabilities or director disqualification." },
+                        { title: "Reduce Costs", desc: "Maintaining an inactive entity involves administrative expenses. Striking it off eliminates these costs." },
+                        { title: "Clean Slate", desc: "Allows promoters to focus on new ventures without maintaining an inactive organization." },
+                        { title: "Legal Safety", desc: "Formal closure protects directors from future liabilities related to an inactive company." },
+                        { title: "Peace of Mind", desc: "Legal dissolution officially ends the company’s existence and resolves outstanding obligations." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -108,8 +108,8 @@ const StrikeOffEligibility = () => {
                 </h2>
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    To strike off a Section 8 Company, it's essential to understand the prerequisites first.
-                    Conditions that must be met before initiating the strike-off process are mentioned below-
+                    Before striking off a Section 8 Company, certain prerequisites must be fulfilled.
+                    The key conditions required before starting the strike-off process are listed below.
                 </p>
 
                 {/* Operational Status */}
@@ -122,13 +122,13 @@ const StrikeOffEligibility = () => {
                             <span className="font-semibold text-[#072b47]">
                                 Non-operational –
                             </span>{" "}
-                            Company should be non-operational or failed to commence business.
+                            The company should be inactive or should not have started business operations.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">
                                 Asset Transfer –
                             </span>{" "}
-                            Charitable assets often need to be transferred to another Section 8 company.
+                            Charitable assets may need to be transferred to another eligible Section 8 company.
                         </li>
                     </ul>
                 </div>
@@ -137,22 +137,22 @@ const StrikeOffEligibility = () => {
                 <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
                     <p>
                         <span className="font-semibold text-[#072b47]">No Pending Litigation – </span>
-                        There should be no ongoing legal cases or inspections against the company.
+                        The company should not have any ongoing legal disputes or regulatory investigations.
                     </p>
 
                     <p>
                         <span className="font-semibold text-[#072b47]">No Liabilities – </span>
-                        All debts and liabilities must be settled, and NOCs obtained from creditors.
+                        All outstanding debts must be cleared and No Objection Certificates obtained from creditors.
                     </p>
 
                     <p>
                         <span className="font-semibold text-[#072b47]">Annual Filings – </span>
-                        Up-to-date annual returns and financial statements must be filed.
+                        All pending annual returns and financial statements must be filed before closure.
                     </p>
 
                     <p>
                         <span className="font-semibold text-[#072b47]">Special Resolution – </span>
-                        Shareholders/Members must pass a special resolution approving the closure.
+                        Members must pass a special resolution approving the company’s closure.
                     </p>
                 </div>
 
@@ -179,7 +179,7 @@ const StrikeOffDocumentsSection = () => {
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
                     To strike off a Section 8 Company, you need to submit the following documents.
-                    Documents required for Conversion and subsequent Strike Off are mentioned below:
+                    The following documents are required for conversion and the strike-off process.
                 </p>
 
                 {/* Documents List */}
@@ -233,23 +233,23 @@ const StrikeOffProcessSection = () => {
     const steps = [
         {
             title: "Conversion Application",
-            desc: "File application with Regional Director (RD) to convert Section 8 to Normal Pvt Ltd Company."
+            desc: "Submit an application to the Regional Director for converting the Section 8 company into a private limited company."
         },
         {
             title: "License Surrender",
-            desc: "Surrender the Section 8 license and obtain approval for conversion from RD."
+            desc: "Surrender the Section 8 license and receive approval for conversion from the Regional Director."
         },
         {
             title: "Registrar Approval",
-            desc: "ROC issues a fresh Certificate of Incorporation as a Private Limited Company."
+            desc: "The Registrar of Companies issues a new Certificate of Incorporation after conversion."
         },
         {
             title: "Strike Off Application",
-            desc: "File Form STK-2 for striking off the newly converted Private Limited company."
+            desc: "File Form STK-2 with the Registrar of Companies to initiate the strike-off process."
         },
         {
             title: "Final Dissolution",
-            desc: "ROC publishes the name in the Official Gazette and dissolves the company."
+            desc: "The ROC publishes the strike-off notice in the Official Gazette and dissolves the company."
         }
     ];
 
@@ -399,7 +399,7 @@ const StrikeoffSection8Companies = () => {
     const faqs = [
         {
             question: "Why is it difficult to close a Section 8 company in India?",
-            answer: "Unlike other companies, Section 8 companies cannot simply strike off. They must first convert into a normal private limited company and then apply for strike off, due to their charitable nature and asset restrictions."
+            answer: "Unlike other companies, Section 8 companies cannot be directly struck off. They usually must convert into a regular private limited company before applying for strike off because of their charitable status and asset regulations."
         },
         {
             question: "Is it mandatory to convene a board meeting before applying for strike off?",
@@ -427,7 +427,7 @@ const StrikeoffSection8Companies = () => {
                 heroTitleMain="Strike Off Section 8"
                 heroTitleSuffix="Company"
                 heroSubtitle="Simplify Closure & Compliance"
-                heroDescription="Navigate the complex process of closing a Section 8 Company with expert assistance. We handle conversion, compliance, and final dissolution smoothly."
+                heroDescription="Close your Section 8 Company smoothly with expert assistance. Our team manages the entire process including conversion, compliance checks, and final company dissolution."
                 whatsIncludedList={[
                     "Conversion to Normal Company",
                     "License Surrender Assistance",
@@ -435,9 +435,9 @@ const StrikeoffSection8Companies = () => {
                     "Final Strike Off Filing"
                 ]}
                 stats={[
-                    { count: "500+", label: "Companies Closed", icon: <Users size={20} /> },
-                    { count: "100%", label: "Compliance Rate", icon: <Briefcase size={20} /> },
-                    { count: "Legal", label: "Expert Support", icon: <Building2 size={20} /> }
+                    { count: "500+", label: "Companies Successfully Closed", icon: <Users size={20} /> },
+                    { count: "100%", label: "Compliance Success", icon: <Briefcase size={20} /> },
+                    { count: "Dedicated", label: "Legal Support", icon: <Building2 size={20} /> }
                 ]}
             />
             <TrustedBrands />

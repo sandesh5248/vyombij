@@ -25,16 +25,16 @@ const SocietyOverview = () => {
                             Philanthropic Goals
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Society Registration in India – <span className="text-[#005a9c]">An Overview</span>
+                            Society Registration in India – <span className="text-[#005a9c]">Overview</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            In India, the main purpose of a society is to accomplish philanthropic goals. As per the Societies Registration Act of 1860, the founding members of a society must adhere to certain requirements for the organization to be registered. Registering as a society gives it legal status, allowing it to operate legally and take advantage of certain government benefits.
+                            In India, societies are mainly formed to promote charitable, cultural, educational, or social objectives. According to the Societies Registration Act, 1860, certain eligibility conditions must be fulfilled by the founding members to register a society. Registration provides legal recognition and allows the society to operate lawfully and access various benefits.
                         </p>
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
                             What is a Society?
                         </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            A society is an organization where people who share interests get together to perform certain tasks as a group. Generally, societies are registered to further common endeavours in the fields of athletics, music, culture, religion, art, and education. While it is not required, registering these institutions under the Societies Registration Act of 1860 is recommended for increased growth, legal recognition, and transparency.
+                            A society is an association of individuals who come together to work collectively toward a common objective. Societies are commonly formed to promote activities related to education, culture, art, religion, sports, and social welfare. Although registration is not mandatory in all cases, registering under the Societies Registration Act, 1860 improves credibility, transparency, and growth opportunities.
                         </p>
 
 
@@ -65,7 +65,7 @@ const SocietyRegistrationAdvantages = () => {
                         Benefits of Society Registration
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Registering a society enables legal operations, financial benefits, and builds credibility.
+                        Registering a society ensures legal recognition, improves credibility, and provides access to financial opportunities.
                     </p>
                     <div className="mt-10">
                         <img
@@ -79,12 +79,12 @@ const SocietyRegistrationAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Legal Recognition", desc: "Registration acts as legal recognition, allowing the society to operate independently of its members." },
-                        { title: "Perpetual Succession", desc: "A registered society has perpetual succession; it continues to exist even if membership changes." },
-                        { title: "Limited Liability", desc: "Members enjoy limited liability, shielding personal assets from the legal obligations of the society." },
-                        { title: "Access to Funds", desc: "Easier access to grants, donations, and resources from public and private entities." },
-                        { title: "Tax Exemptions", desc: "Charitable societies are eligible for tax exemptions under sections like 12A and 80G." },
-                        { title: "Credibility", desc: "Increases trust among donors, stakeholders, and the public, enhancing the society's reputation." }
+                        { title: "Legal Recognition", desc: "Registration provides a legal identity and allows the society to function independently from its members." },
+                        { title: "Perpetual Succession", desc: "A registered society continues to exist regardless of changes in membership or management." },
+                        { title: "Limited Liability", desc: "Members generally have limited liability, protecting their personal assets from organizational obligations." },
+                        { title: "Access to Funds", desc: "Registered societies can access donations, grants, and funding from government and private organizations." },
+                        { title: "Tax Exemptions", desc: "Charitable societies can apply for tax exemptions under provisions such as Section 12A and 80G." },
+                        { title: "Credibility", desc: "Registration increases trust among donors, stakeholders, and the general public." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -111,8 +111,8 @@ const SocietyEligibility = () => {
                 </h2>
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    To register a Society in India, it's essential to understand the eligibility criteria first.
-                    Essential criteria for registering a Society in India are mentioned below-
+                    Before registering a society in India, it is important to understand the eligibility requirements.
+                    The key eligibility conditions for society registration are given below.
                 </p>
 
                 {/* Minimum Members */}
@@ -123,15 +123,15 @@ const SocietyEligibility = () => {
                     <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
                         <li>
                             <span className="font-semibold text-[#072b47]">
-                                Minimum 7 People –
+                                Minimum Members –
                             </span>{" "}
-                            A minimum of 7 persons are required to form a society.
+                            At least seven individuals are required to establish a society.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">
-                                Members Can Be –
+                                Eligible Members –
                             </span>{" "}
-                            Members can be individuals, companies, foreigners, or registered societies.
+                            Members may include individuals, companies, foreigners, or registered societies.
                         </li>
                     </ul>
                 </div>
@@ -143,12 +143,12 @@ const SocietyEligibility = () => {
                     </h3>
                     <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
                         <li>
-                            <span className="font-semibold text-[#072b47]">Societies Act Object – </span>
-                            Objectives must align with the Societies Registration Act, 1860.
+                            <span className="font-semibold text-[#072b47]">Legal Objectives – </span>
+                            The objectives must comply with the Societies Registration Act, 1860.
                         </li>
                         <li>
-                            <span className="font-semibold text-[#072b47]">Non-profit Nature – </span>
-                            Must function as a non-profit and independent organization.
+                            <span className="font-semibold text-[#072b47]">Non-profit Purpose – </span>
+                            The organization must operate on a non-profit basis.
                         </li>
                     </ul>
                 </div>
@@ -157,17 +157,17 @@ const SocietyEligibility = () => {
                 <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
                     <p>
                         <span className="font-semibold text-[#072b47]">Unique Name – </span>
-                        The society name must be distinct and different from existing ones.
+                        The society must have a name that is different from existing registered societies.
                     </p>
 
                     <p>
                         <span className="font-semibold text-[#072b47]">Registered Office – </span>
-                        Must have a verified registered office address in India.
+                        A valid registered office address in India is required.
                     </p>
 
                     <p>
                         <span className="font-semibold text-[#072b47]">Governing Body – </span>
-                        Formation of a governing body to manage affairs and operations.
+                        A governing body must be formed to manage the society’s activities and administration.
                     </p>
                 </div>
 
@@ -193,8 +193,8 @@ const SocietyDocumentsSection = () => {
                 </h2>
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    To register a Society in India, you need to submit the following documents.
-                    Complete list of documents required for Society Registration:
+                    The following documents are required for society registration in India.
+                    Key documents required for registration include:
                 </p>
 
                 {/* Documents List */}
@@ -244,23 +244,23 @@ const SocietyProcessSection = () => {
     const steps = [
         {
             title: "Documentation",
-            desc: "Gather PAN, KYC, and address proofs of all members required for registration."
+            desc: "Collect PAN, identity proofs, and address documents of all members."
         },
         {
             title: "Name Selection",
-            desc: "Choose a unique, compliant name for the society that reflects its objectives."
+            desc: "Select a unique name for the society that represents its purpose."
         },
         {
             title: "Drafting",
-            desc: "Draft MOA and Rules & Regulations of the Society outlining objectives and governance."
+            desc: "Prepare the Memorandum of Association and rules defining the society’s objectives and governance structure."
         },
         {
             title: "Application",
-            desc: "Submit application to the Registrar of Societies along with all required documents."
+            desc: "File the application with the Registrar of Societies along with necessary documents."
         },
         {
             title: "Certification",
-            desc: "Get Registration Certificate upon approval from the Registrar of Societies."
+            desc: "Receive the Registration Certificate once the application is approved."
         }
     ];
 
@@ -274,9 +274,8 @@ const SocietyProcessSection = () => {
                         How to Apply for Society Registration in India?
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        The procedure for Society registration in India involves structured documentation,
-                        regulatory approvals, and compliance with statutory requirements. The
-                        step-by-step process is outlined below:
+                        The society registration process includes documentation, regulatory approvals, and compliance with legal requirements.
+                        The basic steps involved are listed below.
                     </p>
                 </div>
 
@@ -372,8 +371,7 @@ const SocietyFeaturesSection = () => {
                         Features of Society Registration Services
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Society registration enables legal operations, financial benefits, and builds credibility
-                        for your philanthropic goals.
+                        Society registration provides legal recognition, credibility, and access to various benefits for social organizations.
                     </p>
                 </div>
 
@@ -410,7 +408,7 @@ const SocietyRegistration = () => {
     const faqs = [
         {
             question: "How can I register my society online in India?",
-            answer: "To register a society, you typically need to submit a cover letter requesting registration, a Memorandum of Association, a copy of the Society's rules and regulations, a list of all members, declarations from office holders, and residential proof for each participant."
+            answer: "To register a society in India, you need to submit documents such as a cover letter, Memorandum of Association, society rules and regulations, list of members, declarations from office bearers, and address proof of all members."
         },
         {
             question: "What is the minimum number of members required to form a society?",
@@ -438,7 +436,7 @@ const SocietyRegistration = () => {
                 heroTitleMain="Society Registration"
                 heroTitleSuffix="in India"
                 heroSubtitle="Simplify Community Progress"
-                heroDescription="Society Registration is pivotal for community progress. We simplify this procedure, guaranteeing a quick and easy registration process to accomplish your philanthropic goals."
+                heroDescription="Society registration plays an important role in supporting community development. Our experts simplify the process and ensure a smooth and efficient registration to help you achieve your social and philanthropic objectives."
                 whatsIncludedList={[
                     "More than 500 societies registered with our assistance",
                     "Trusted by 50,000+ customers for compliance & registration",
@@ -446,9 +444,9 @@ const SocietyRegistration = () => {
                     "Dedicated Relationship Manager"
                 ]}
                 stats={[
-                    { count: "42K+", label: "Clients", icon: <Users size={20} /> },
-                    { count: "3500+", label: "Experts", icon: <Briefcase size={20} /> },
-                    { count: "50+", label: "Offices", icon: <Building2 size={20} /> }
+                    { count: "40K+", label: "Happy Clients", icon: <Users size={20} /> },
+                    { count: "3500+", label: "Professional Experts", icon: <Briefcase size={20} /> },
+                    { count: "50+", label: "Service Locations", icon: <Building2 size={20} /> }
                 ]}
             />
 

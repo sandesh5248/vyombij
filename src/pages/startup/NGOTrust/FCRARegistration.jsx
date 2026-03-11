@@ -24,13 +24,13 @@ const FCRAOverview = () => {
                             Global Impact
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            FCRA Registration – <span className="text-[#005a9c]">An Overview</span>
+                            FCRA Registration – <span className="text-[#005a9c]">Overview</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            In India, any organization that wishes to accept foreign contributions must obtain Foreign Contribution Regulation Act (FCRA) Registration from the Central Government. It is essential for organizations engaged in specific cultural, economic, educational, religious, or social programs.
+                            In India, any organization intending to receive foreign contributions must obtain registration under the Foreign Contribution Regulation Act (FCRA) from the Central Government. This requirement applies to organizations involved in cultural, economic, educational, religious, or social activities.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            FCRA registration ensures accountability and transparency in using foreign funds, protecting the organization and its donors under Indian law. It stands for the Foreign Contribution Regulation Act, enacted to regulate foreign donations to individuals and organizations, ensuring they operate in alignment with national interests.
+                            FCRA registration ensures transparency and accountability in the use of foreign funds, protecting both the organization and its donors. The Foreign Contribution Regulation Act regulates foreign donations received by individuals and organizations to ensure they are used responsibly and in accordance with national interests.
                         </p>
 
 
@@ -61,7 +61,7 @@ const FCRARegistrationAdvantages = () => {
                         Benefits of FCRA Registration
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Unlock global funding opportunities for your NGO.
+                        Open the door to global funding opportunities for your NGO.
                     </p>
                     <div className="mt-10">
                         <img
@@ -75,12 +75,12 @@ const FCRARegistrationAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Global Credibility", desc: "Allows non-profit organizations to accept foreign donations legally, boosting international credibility." },
-                        { title: "Access to Foreign Funds", desc: "Organizations can receive foreign funds smoothly to support their social missions." },
-                        { title: "Investor Confidence", desc: "Reassures both domestic and foreign investors about the organization’s compliance and commitment." },
-                        { title: "Tax Benefits", desc: "Eligible organizations gain tax exemptions under the Income Tax Act when combined with 12A & 80G." },
-                        { title: "Enhanced Sustainability", desc: "Access to foreign funds increases the organization’s stability and ability to pursue long-term activities." },
-                        { title: "Legal Protection", desc: "Ensures the organization operates within the legal framework, avoiding penalties and legal issues." }
+                        { title: "Global Credibility", desc: "Enables NGOs to legally accept foreign donations, enhancing their credibility internationally." },
+                        { title: "Access to Foreign Funds", desc: "Allows organizations to receive foreign contributions to support their social initiatives." },
+                        { title: "Investor Confidence", desc: "Builds trust among both domestic and international donors regarding regulatory compliance." },
+                        { title: "Tax Benefits", desc: "Organizations may also benefit from tax exemptions under the Income Tax Act when combined with 12A and 80G registrations." },
+                        { title: "Enhanced Sustainability", desc: "Foreign funding improves financial stability and helps NGOs carry out long-term social projects." },
+                        { title: "Legal Protection", desc: "Ensures the organization operates within the legal framework and avoids regulatory penalties." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -107,8 +107,8 @@ const FCRAEligibility = () => {
                 </h2>
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    To apply for FCRA Registration in India, it's essential to understand the eligibility criteria first.
-                    Requirements to apply for FCRA Registration are mentioned below-
+                    Before applying for FCRA registration in India, organizations must meet certain eligibility conditions.
+                    The key eligibility requirements are listed below.
                 </p>
 
                 {/* Registered Entity */}
@@ -121,13 +121,13 @@ const FCRAEligibility = () => {
                             <span className="font-semibold text-[#072b47]">
                                 Legal Structure –
                             </span>{" "}
-                            Must be registered under Societies Registration Act, Indian Trusts Act, or Companies Act (Section 8).
+                            The organization must be registered under the Societies Registration Act, Indian Trusts Act, or as a Section 8 Company under the Companies Act.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">
                                 FCRA Bank Account –
                             </span>{" "}
-                            Must have an FCRA account opened with SBI, New Delhi Main Branch.
+                            The NGO must open a designated FCRA bank account with SBI New Delhi Main Branch.
                         </li>
                     </ul>
                 </div>
@@ -140,11 +140,11 @@ const FCRAEligibility = () => {
                     <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
                         <li>
                             <span className="font-semibold text-[#072b47]">Track Record – </span>
-                            Must have a minimum of 3 years of proven activities benefiting society.
+                            The organization must have at least three years of proven social or charitable activities.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Financial Criteria – </span>
-                            A minimum of Rs. 15 lakhs must have been spent on core activities over the past 3 years.
+                            At least ₹15 lakh should have been spent on core activities during the last three years.
                         </li>
                     </ul>
                 </div>
@@ -153,12 +153,12 @@ const FCRAEligibility = () => {
                 <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
                     <p>
                         <span className="font-semibold text-[#072b47]">12A Registration – </span>
-                        Shall hold a valid 12A registration certificate under the Income Tax Act.
+                        The organization should ideally hold a valid 12A registration under the Income Tax Act.
                     </p>
 
                     <p>
                         <span className="font-semibold text-[#072b47]">Clean Record – </span>
-                        Key functionaries must not have any record of prosecution or conviction.
+                        Key functionaries must not have any criminal record or prior legal violations.
                     </p>
                 </div>
 
@@ -185,7 +185,7 @@ const FCRADocumentsSection = () => {
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
                     To apply for FCRA Registration, you need to submit the following documents.
-                    Essential documents for FCRA Registration application are mentioned below:
+                    The following documents are generally required for the FCRA registration application.
                 </p>
 
                 {/* Documents List */}
@@ -201,11 +201,11 @@ const FCRADocumentsSection = () => {
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Activity Report – </span>
-                            Activity Report for the last 3 years describing charitable work.
+                            Activity report for the last three years detailing the organization’s charitable work.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Audited Statement of Accounts – </span>
-                            Audited Statement of Accounts for the last 3 years.
+                            Audited financial statements for the previous three years.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Affidavit – </span>
@@ -235,27 +235,27 @@ const FCRAProcessSection = () => {
     const steps = [
         {
             title: "Access Portal",
-            desc: "Visit the Ministry of Home Affairs FCRA Online Forms portal."
+            desc: "Access the FCRA online portal provided by the Ministry of Home Affairs."
         },
         {
             title: "Form Selection",
-            desc: "Choose Form FC-3A for fresh registration or FC-3B for prior permission."
+            desc: "Select Form FC-3A for fresh registration or FC-3B for prior permission."
         },
         {
             title: "Fill Application",
-            desc: "Complete the online application form with organization and executive details."
+            desc: "Fill in the online application form with organization and functionary details."
         },
         {
             title: "Upload Documents",
-            desc: "Upload all required documents and affidavit in the prescribed format."
+            desc: "Upload the required documents and affidavits in the specified format."
         },
         {
             title: "Fee Payment",
-            desc: "Pay the requisite government fee online through the portal."
+            desc: "Pay the applicable government fee through the online portal."
         },
         {
             title: "Submission",
-            desc: "Submit the application and track status for approval from MHA."
+            desc: "Submit the application and track the approval status from the Ministry of Home Affairs."
         }
     ];
 
@@ -333,19 +333,19 @@ const FCRAFeaturesSection = () => {
     const features = [
         {
             title: "Network of Professionals",
-            desc: "Blessed with a network of experienced CAs, Lawyers, and Consultants for expert guidance."
+            desc: "Supported by a network of experienced CAs, lawyers, and compliance professionals."
         },
         {
             title: "High Success Rate",
-            desc: "Completed over 5000 successful FCRA certifications with proven track record."
+            desc: "Assisted with over 5000 FCRA registrations with a strong success record."
         },
         {
             title: "Fundraising Support",
-            desc: "Helped secure foreign donations worth Rs 1200 Crore+ for NGOs."
+            desc: "Supported NGOs in facilitating foreign donations exceeding ₹1200 Crore."
         },
         {
             title: "Cost Effective",
-            desc: "Saved lakhs of rupees for socialpreneurs with our efficient processes."
+            desc: "Cost-effective processes designed to support social entrepreneurs and NGOs."
         },
         {
             title: "Dedicated Manager",
@@ -406,7 +406,7 @@ const FCRARegistration = () => {
     const faqs = [
         {
             question: "What is the full form of FCRA?",
-            answer: "FCRA stands for Foreign Contribution Regulation Act. It regulates the acceptance and utilization of foreign contributions by certain individuals or associations."
+            answer: "FCRA stands for the Foreign Contribution Regulation Act. It regulates how foreign contributions are received and used by individuals and organizations in India."
         },
         {
             question: "Who is eligible for FCRA Registration?",
@@ -434,7 +434,7 @@ const FCRARegistration = () => {
                 heroTitleMain="FCRA Registration Services"
                 heroTitleSuffix="for NGOs"
                 heroSubtitle="Legally Accept Foreign Funds with Expert Support"
-                heroDescription="Get FCRA registration with Vyombiz to legally accept foreign funds and ensure compliance with all government regulations for your NGO. We assist with eligibility, documentation, and the complete application process."
+                heroDescription="Apply for FCRA registration with Vyombiz to legally receive foreign donations and comply with government regulations for NGOs. Our experts assist with eligibility checks, documentation, and the complete application process."
                 whatsIncludedList={[
                     "End-to-End Assistance for FCRA Registration",
                     "Guidance on Prior Permission & Permanent Registration",
@@ -442,9 +442,9 @@ const FCRARegistration = () => {
                     "FCRA Renewal & Compliance Services"
                 ]}
                 stats={[
-                    { count: "5000+", label: "FCRA Certifications", icon: <FileText size={20} /> },
-                    { count: "1200Cr+", label: "Donations Secured", icon: <Globe size={20} /> },
-                    { count: "100%", label: "Compliance Rate", icon: <CheckCircle size={20} /> }
+                    { count: "5000+", label: "FCRA Registrations Assisted", icon: <FileText size={20} /> },
+                    { count: "₹1200Cr+", label: "Foreign Donations Facilitated", icon: <Globe size={20} /> },
+                    { count: "100%", label: "Compliance Support", icon: <CheckCircle size={20} /> }
                 ]}
             />
 

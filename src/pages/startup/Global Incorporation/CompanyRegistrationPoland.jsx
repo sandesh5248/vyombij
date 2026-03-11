@@ -19,26 +19,27 @@ const CompanyRegistrationPolandOverview = () => {
             <div className="max-w-7xl mx-auto px-6 lg:px-12">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16 lg:gap-24">
                     <div>
-                        <span className="inline-block px-4 py-1.5 text-sm font-semibold bg-[#e6f0fa] text-[#005a9c] rounded-full mb-4">
-                            EU Expansion
-                        </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Company Registration in Poland – <span className="text-[#005a9c]">An Overview</span>
+                            Why Start a Business in Poland?
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Poland, located in Central Europe, is a prime destination for investment due to its strategic location and strong economic fundamentals.
+                            Poland has become one of the most attractive business destinations in Europe due to its stable economy, strategic location, and business-friendly policies. Entrepreneurs and global companies choose Poland to access the European Union market while benefiting from competitive operational costs.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            As an EU member, it offers businesses access to a unified market of 447 million consumers. The country boasts a competitive labor force and a thriving startup ecosystem.
+                            Some of the key reasons businesses prefer Poland include:
                         </p>
-                        <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Why Poland?
-                        </h3>
+                        <ul className="space-y-4 mb-6 text-[17px] text-slate-600 leading-relaxed font-medium list-disc list-inside">
+                            <li>Access to the European Union single market</li>
+                            <li>A rapidly growing digital and technology sector</li>
+                            <li>Highly skilled and educated workforce</li>
+                            <li>Competitive corporate tax rates</li>
+                            <li>Strong infrastructure and logistics network</li>
+                        </ul>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Poland offers a business-friendly environment with attractive tax incentives, especially in Special Economic Zones (SEZs).
+                            Businesses across industries—from technology startups to manufacturing firms—are increasingly establishing operations in Poland to scale within Europe.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            With world-class infrastructure and a high ranking in English proficiency, Poland is an ideal location for foreign entrepreneurs to establish and grow their presence in Europe.
+                            Through Vyombiz managed by Clink Consultancy Services Private Limited, entrepreneurs and international investors can simplify the process of company incorporation while ensuring full compliance with Polish regulations.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -60,14 +61,11 @@ const CompanyRegistrationPolandAdvantages = () => {
             <div className="grid lg:grid-cols-2 gap-16 w-full">
                 {/* LEFT SIDE (STICKY) */}
                 <div className="lg:sticky lg:top-28 h-fit self-start">
-                    <span className="inline-block px-4 py-1.5 text-sm font-semibold bg-[#e6f0fa] text-[#005a9c] rounded-full mb-6">
-                        Why It Is Vital
-                    </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of Registration
+                        Benefits of Company Registration in Poland
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Why businesses choose Poland for expansion.
+                        Registering a company in Poland offers multiple advantages for businesses planning to expand internationally.
                     </p>
                     <div className="mt-10">
                         <img
@@ -76,17 +74,19 @@ const CompanyRegistrationPolandAdvantages = () => {
                             className="w-full rounded-2xl shadow-xl"
                         />
                     </div>
+                    <p className="text-[17px] text-slate-600 leading-relaxed font-medium mt-8">
+                        With professional assistance from Vyombiz managed by Clink Consultancy Services Private Limited, businesses can establish their presence in Poland quickly while focusing on growth and market expansion.
+                    </p>
                 </div>
 
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Tax Incentives", desc: "Attractive tax breaks for R&D and operations in Special Economic Zones." },
-                        { title: "Strategic Location", desc: "Central location providing easy access to both Western and Eastern European markets." },
-                        { title: "Skilled Workforce", desc: "Access to a highly educated, cost-effective, and multilingual labor force." },
-                        { title: "Startup Ecosystem", desc: "Thriving environment for tech, e-commerce, and innovation." },
-                        { title: "EU Funding", desc: "Access to various EU grants and subsidies to boost business growth." },
-                        { title: "Ease of Doing Business", desc: "Digitalized processes allow for fast and efficient online registration." }
+                        { title: "Access to the European Market", desc: "A Polish company allows businesses to operate across all EU member states, making it an ideal gateway to the European economy." },
+                        { title: "Competitive Tax Structure", desc: "Poland offers corporate tax benefits along with incentives for startups, innovation, and research-driven businesses." },
+                        { title: "Skilled Workforce", desc: "Poland has a strong talent pool in engineering, IT, manufacturing, and finance sectors, making it an attractive destination for global businesses." },
+                        { title: "Strategic Geographic Location", desc: "Located at the center of Europe, Poland provides strong connectivity to Western Europe, Eastern Europe, and Nordic markets." },
+                        { title: "Growing Startup Ecosystem", desc: "Poland has rapidly emerged as a startup hub with government support programs and funding opportunities." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -105,20 +105,19 @@ const CompanyRegistrationPolandAdvantages = () => {
 
 const PolandIncorporationEligibility = () => {
     const list = [
-        { title: "Share Capital", desc: "Minimum PLN 5,000 for LLC (Sp. z o.o.)." },
-        { title: "Directors", desc: "Minimum 1 director required. Can be a foreign national." },
-        { title: "Shareholders", desc: "Minimum 1 shareholder required (individual or corporate entity)." },
-        { title: "Registered Address", desc: "Must have a physical office address in Poland." },
-        { title: "Legal Capacity", desc: "Shareholders and directors must have full legal capacity." }
+        { title: "Limited Liability Company (Sp. z o.o.)", desc: "This is the most popular type of company structure in Poland. It offers limited liability protection to shareholders and is ideal for startups, SMEs, and foreign investors entering the Polish market." },
+        { title: "Joint Stock Company (S.A.)", desc: "This structure is typically used by larger businesses planning to raise capital through public or institutional investments. It requires higher share capital and more complex governance." },
+        { title: "Branch Office", desc: "Foreign companies can open a branch office in Poland to conduct the same activities as their parent company while operating under Polish law." },
+        { title: "Representative Office", desc: "A representative office is mainly used for marketing, promotion, and research activities rather than direct commercial operations." }
     ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    What are the Eligibility Criteria for Company Registration in Poland?
+                    Types of Companies You Can Register in Poland
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Key criteria for incorporating in Poland.
+                    Choosing the right business structure is essential before starting the registration process. Poland offers several company structures depending on the nature, scale, and ownership of the business.
                 </p>
                 <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
                     {list.map((item, i) => (
@@ -128,9 +127,12 @@ const PolandIncorporationEligibility = () => {
                         </p>
                     ))}
                 </div>
+                <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                    Experts at Vyombiz managed by Clink Consultancy Services Private Limited help businesses evaluate the best structure based on their expansion strategy and compliance requirements.
+                </p>
                 <div className="mt-12 text-center">
                     <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Check Your Eligibility Now
+                                Choose Your Company Structure
                             </Link>
                 </div>
             </div>
@@ -140,28 +142,30 @@ const PolandIncorporationEligibility = () => {
 
 const PolandIncorporationDocumentsSection = () => {
     const list = [
-        "Articles of Association & Memorandum (M&AOA)",
-        "Proof of Share Capital Deposit",
-        "Passport/ID Copies of Directors & Shareholders",
-        "Power of Attorney (if applicable)",
-        "KRS Consent & Declaration",
-        "Registered Office Address Proof",
-        "Bank Statement"
+        "Passport copies of directors and shareholders",
+        "Proof of residential address",
+        "Company name and business activity details",
+        "Shareholding structure information",
+        "Registered office address in Poland",
+        "Articles of Association"
     ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Documents Required for Poland Company Registration
+                    Documents Required for Company Registration in Poland
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Essential documents for Poland Company Incorporation.
+                    The documentation process is a critical part of company incorporation in Poland. Proper documentation ensures a smooth and legally compliant registration process. Typical documents required include:
                 </p>
-                <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
+                <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside">
                     {list.map((item, i) => (
                         <li key={i}>{item}</li>
                     ))}
                 </ul>
+                <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                    Depending on the chosen company structure and shareholder composition, additional documents may also be required. Professional support from Vyombiz managed by Clink Consultancy Services Private Limited ensures that documentation is accurately prepared and submitted to the relevant authorities.
+                </p>
             </div>
         </section>
     );
@@ -169,23 +173,22 @@ const PolandIncorporationDocumentsSection = () => {
 
 const PolandIncorporationProcessSection = () => {
     const steps = [
-        { title: "Choose Structure", desc: "Select the legal form (e.g., Sp. z o.o.) and check name availability." },
-        { title: "Prepare Docs", desc: "Draft and notarize Articles of Association and other documents." },
-        { title: "Appoint Board", desc: "Appoint the Management Board responsible for representation." },
-        { title: "PESEL/NIP", desc: "Obtain PESEL (ID number) or NIP (Tax ID) if required." },
-        { title: "KRS Registration", desc: "File application with the National Court Register (KRS)." },
-        { title: "Bank Account", desc: "Open a corporate bank account and deposit share capital." },
-        { title: "VAT & ZUS", desc: "Register for VAT and Social Security (ZUS) compliance." }
+        { title: "Business Structure Selection", desc: "Choose the most suitable company structure based on your business objectives and expansion plans." },
+        { title: "Company Name Reservation", desc: "Verify and reserve the company name to ensure it is unique and compliant with Polish naming regulations." },
+        { title: "Drafting Legal Documents", desc: "Prepare the Articles of Association and other incorporation documents required for registration." },
+        { title: "Share Capital Deposit", desc: "Deposit the minimum required share capital depending on the company structure." },
+        { title: "Registration with the National Court Register", desc: "Submit incorporation documents to the Polish National Court Register (KRS) for official company registration." },
+        { title: "Tax and VAT Registration", desc: "After registration, businesses must obtain tax identification numbers and complete VAT registration if applicable." }
     ];
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        How to Register a Company in Poland?
+                        Company Registration Process in Poland
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        Step-by-step guide to setting up your business.
+                        Registering a company in Poland involves several legal and administrative steps. A structured approach ensures faster approval and compliance with Polish business regulations.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
@@ -203,6 +206,9 @@ const PolandIncorporationProcessSection = () => {
                             </div>
                         ))}
                         <div className="border-t border-slate-200" />
+                        <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                            With end-to-end assistance from Vyombiz managed by Clink Consultancy Services Private Limited, businesses can complete the registration process smoothly while avoiding delays and compliance issues.
+                        </p>
                         <div className="mt-12 text-center">
                             <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
                                 Start Your Registration
@@ -216,37 +222,78 @@ const PolandIncorporationProcessSection = () => {
 };
 
 const PolandIncorporationFeaturesSection = () => {
-    const features = [
-        { title: "95% Success Rate", desc: "Proven track record in successful company formations." },
-        { title: "End-to-End Support", desc: "From name reservation to VAT registration and licensing." },
-        { title: "Local Presence", desc: "Virtual office services in Warsaw, Kraków, and Gdańsk." },
-        { title: "Expert Consultants", desc: "Dedicated advisors for tax, legal, and compliance matters." },
-        { title: "Fast Turnaround", desc: "Efficient handling to ensure registration in 1-3 days." },
-        { title: "24/7 Support", desc: "Round-the-clock assistance for all your business needs." }
+    const complianceItems = [
+        "Maintaining proper accounting records",
+        "Filing annual financial statements",
+        "Corporate tax compliance",
+        "VAT filings (if applicable)",
+        "Maintaining a registered office address"
     ];
+
+    const services = [
+        "Complete company incorporation support",
+        "Documentation and legal compliance assistance",
+        "International business advisory",
+        "Post-incorporation compliance services",
+        "Dedicated expert support throughout the process"
+    ];
+
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
-                <div className="text-center mb-8">
-                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose VyomBiz?
+                
+                <div className="mb-16">
+                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        Compliance Requirements After Company Registration
                     </h2>
-                    <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Your trusted partner for Polish business entry.
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                        Once a company is registered in Poland, businesses must comply with several ongoing legal and regulatory obligations. Key compliance requirements include:
+                    </p>
+                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside mb-6">
+                        {complianceItems.map((item, index) => (
+                            <li key={index}>{item}</li>
+                        ))}
+                    </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                        Ensuring compliance is essential to maintain the company’s legal standing and operational stability in Poland.
+                    </p>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                        Businesses partnering with Vyombiz managed by Clink Consultancy Services Private Limited receive continuous guidance to manage post-registration compliance efficiently.
                     </p>
                 </div>
-                <div>
-                    {features.map((feature, index) => (
-                        <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-300">
-                            <div className="text-[15px] font-semibold text-[#072b47]">{index + 1}.</div>
-                            <div>
-                                <h3 className="text-[16px] font-semibold text-[#072b47]">{feature.title}</h3>
-                                <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">{feature.desc}</p>
-                            </div>
-                        </div>
-                    ))}
-                    <div className="border-t border-slate-300" />
+
+                <div className="mb-16">
+                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        Why Choose Vyombiz for Company Registration in Poland?
+                    </h2>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                        Expanding your business internationally requires expert guidance, accurate documentation, and strong compliance support. Choosing the right partner can make the entire process faster and more reliable.
+                    </p>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                        Vyombiz managed by Clink Consultancy Services Private Limited provides comprehensive global incorporation services designed for startups, entrepreneurs, and established businesses. Our services include:
+                    </p>
+                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside mb-6">
+                        {services.map((item, index) => (
+                            <li key={index}>{item}</li>
+                        ))}
+                    </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed">
+                        Our goal is to help businesses establish their international presence smoothly while focusing on growth and opportunities in global markets.
+                    </p>
                 </div>
+
+                <div className="bg-[#e6f0fa] rounded-2xl p-8 lg:p-12 text-center">
+                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        Start Your Company Registration in Poland Today
+                    </h2>
+                    <p className="text-[17px] text-slate-700 leading-relaxed max-w-4xl mx-auto mb-6">
+                        Entering the European market begins with the right foundation. Establish your company in Poland with expert assistance and a seamless registration process.
+                    </p>
+                    <p className="text-[17px] text-slate-700 leading-relaxed max-w-4xl mx-auto mb-8">
+                        Connect with professionals at Vyombiz managed by Clink Consultancy Services Private Limited and take the first step toward building your global business presence.
+                    </p>
+                </div>
+
             </div>
         </section>
     );
@@ -282,21 +329,14 @@ const CompanyRegistrationPoland = () => {
 
             {/* ================= SECTION 1: HERO ================= */}
             <HeroLayout
-                heroTitleMain="Company Registration"
-                heroTitleSuffix="in Poland"
-                heroSubtitle="Start Your Business in the EU Today"
-                heroDescription="Expand your business to Poland, a strategic gateway to the European Union with access to over 447 million customers. We provide end-to-end support for quick and compliant registration."
+                heroTitleMain="Start Your Business in Poland with"
+                heroTitleSuffix="Confidence"
+                heroSubtitle="Build your European presence today."
+                heroDescription="Expand your business into one of Europe’s fastest-growing economies. Register your company in Poland with expert support, complete compliance guidance, and a seamless incorporation process."
                 whatsIncludedList={[
-                    "Drafting & Notarization of Deed",
-                    "KRS & ZUS Registration",
-                    "NIP & REGON Issuance",
-                    "Business Visa Support",
-                    "Accounting, Payroll & Tax Compliance"
-                ]}
-                stats={[
-                    { count: "1400+", label: "Companies Registered", icon: <Users size={20} /> },
-                    { count: "3500+", label: "Expert Advisors", icon: <Briefcase size={20} /> },
-                    { count: "50+", label: "Branch Offices", icon: <Building2 size={20} /> }
+                    "100% Compliant Registration",
+                    "Expert Documentation Support",
+                    "Fast & Transparent Process"
                 ]}
             />
 

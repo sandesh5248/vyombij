@@ -23,13 +23,13 @@ const ComplianceOverview = () => {
                             Regulatory Adherence
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Trust Annual Compliance – <span className="text-[#005a9c]">An Overview</span>
+                            Trust Annual Compliance – <span className="text-[#005a9c]">Overview</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            A Trust, governed by the Indian Trusts Act, 1882, is a legal entity where a trustee manages assets for beneficiaries. To maintain its legal status and tax exemptions, strict adherence to annual compliance is mandatory. Annual compliance involves filing income tax returns, submitting audit reports, and maintaining proper books of accounts.
+                            A Trust, governed by the Indian Trusts Act, 1882, is a legal arrangement where trustees manage assets for the benefit of beneficiaries. To maintain legal recognition and tax benefits, trusts must follow mandatory annual compliance requirements. Annual compliance generally includes maintaining proper books of accounts, submitting audit reports, and filing income tax returns.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Failure to comply can result in checking the validity of the trust and imposition of heavy penalties. Regular compliance ensures transparency in operations and builds credibility with donors and the government. It is essential for timely renewal of registrations like 12A and 80G.
+                            Failure to comply may lead to penalties, legal notices, or loss of certain benefits and registrations. Regular compliance promotes transparency and strengthens credibility with donors and government authorities. It also supports the continuation or renewal of tax registrations such as 12A and 80G.
                         </p>
 
 
@@ -60,7 +60,7 @@ const TrustAnnualComplianceAdvantages = () => {
                         Benefits of Annual Compliance
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Staying compliant brings long-term stability and benefits to the Trust.
+                        Maintaining compliance ensures long-term stability and operational benefits for the Trust.
                     </p>
                     <div className="mt-10">
                         <img
@@ -74,12 +74,12 @@ const TrustAnnualComplianceAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Legal Validity", desc: "Ensures the continuous legal existence and recognition of the Trust entity." },
-                        { title: "Tax Exemptions", desc: "Crucial for continuing to avail tax benefits under Section 11, 12A, and 80G." },
-                        { title: "Avoid Penalties", desc: "Prevents the levy of heavy fines and legal notices from the Income Tax Department." },
-                        { title: "Donor Trust", desc: "Enhances credibility, encouraging more donations and CSR funding." },
-                        { title: "Smooth Operations", desc: "Facilitates seamless banking operations and asset management without legal hurdles." },
-                        { title: "Transparency", desc: "Maintains clear financial records, ensuring accountability to trustees and beneficiaries." }
+                        { title: "Legal Validity", desc: "Ensures continuous legal recognition and validity of the Trust entity." },
+                        { title: "Tax Exemptions", desc: "Necessary for continuing tax exemptions under Section 11, 12A, and 80G." },
+                        { title: "Avoid Penalties", desc: "Helps avoid penalties, fines, and notices from the Income Tax Department." },
+                        { title: "Donor Trust", desc: "Improves credibility and encourages donations as well as CSR funding." },
+                        { title: "Smooth Operations", desc: "Supports smooth banking transactions and asset management without legal complications." },
+                        { title: "Transparency", desc: "Maintains transparent financial records and ensures accountability to trustees and beneficiaries." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -106,8 +106,8 @@ const ComplianceEligibility = () => {
                 </h2>
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    To maintain legal status and tax exemptions, it's essential to understand who needs compliance.
-                    Entities that are required to follow Trust Annual Compliance norms are mentioned below-
+                    Understanding which entities require annual compliance is essential to maintain legal status and tax benefits.
+                    The following entities generally need to follow Trust Annual Compliance requirements:
                 </p>
 
                 {/* Trust Types */}
@@ -120,13 +120,13 @@ const ComplianceEligibility = () => {
                             <span className="font-semibold text-[#072b47]">
                                 Private Trusts –
                             </span>{" "}
-                            Created for the benefit of specific individuals or families (e.g., family trusts).
+                            Established for the benefit of specific individuals or family members.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">
                                 Public Trusts –
                             </span>{" "}
-                            Created for the benefit of the general public (charitable/religious trusts).
+                            Formed for charitable or religious purposes benefiting the general public.
                         </li>
                     </ul>
                 </div>
@@ -135,22 +135,22 @@ const ComplianceEligibility = () => {
                 <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
                     <p>
                         <span className="font-semibold text-[#072b47]">AOPs/BOIs – </span>
-                        Associations of Persons or Bodies of Individuals functioning as trusts.
+                        Associations of Persons or Bodies of Individuals operating in a trust-like structure.
                     </p>
 
                     <p>
                         <span className="font-semibold text-[#072b47]">Tax Exempt Entities – </span>
-                        Trusts claiming exemptions under 12A/80G must strictly comply.
+                        Trusts claiming tax exemptions under 12A or 80G must follow strict compliance rules.
                     </p>
 
                     <p>
                         <span className="font-semibold text-[#072b47]">FCRA Registered – </span>
-                        Trusts receiving foreign aid have additional compliance under FCRA.
+                        Trusts receiving foreign contributions must also comply with FCRA regulations.
                     </p>
 
                     <p>
                         <span className="font-semibold text-[#072b47]">GST Registered – </span>
-                        Trusts with commercial receipts exceeding GST threshold limits.
+                        Trusts earning taxable income above the GST threshold must comply with GST requirements.
                     </p>
                 </div>
 
@@ -177,7 +177,7 @@ const ComplianceDocumentsSection = () => {
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
                     To file annual compliance for Trusts, you need to submit the following documents.
-                    Essential documents for filing Annual Compliance for Trusts are mentioned below:
+                    The following documents are typically required for Trust Annual Compliance filing:
                 </p>
 
                 {/* Documents List */}
@@ -189,19 +189,19 @@ const ComplianceDocumentsSection = () => {
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Trust Deed & Registration Certificate – </span>
-                            Copy of Trust Deed and Registration Certificate.
+                            Copy of the Trust Deed along with the Registration Certificate.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Audited Balance Sheet & P&L Account – </span>
-                            Audited financial statements for the financial year.
+                            Audited financial statements for the relevant financial year.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Bank Statements – </span>
-                            Bank Statements for the Financial Year.
+                            Bank statements covering the entire financial year.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Details of Trustees – </span>
-                            KYC, PAN, Aadhaar of all trustees.
+                            KYC details including PAN and Aadhaar of all trustees.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Record of Donations & Grants – </span>
@@ -227,23 +227,23 @@ const ComplianceProcessSection = () => {
     const steps = [
         {
             title: "Bookkeeping",
-            desc: "Maintain proper books of accounts and prepare financial statements for the financial year."
+            desc: "Maintain accurate books of accounts and prepare financial statements for the financial year."
         },
         {
             title: "Statutory Audit",
-            desc: "Get accounts audited by a CA if income exceeds the basic exemption limit."
+            desc: "Have accounts audited by a Chartered Accountant if income exceeds the exemption limit."
         },
         {
             title: "File Audit Report",
-            desc: "Submit Form 10B/10BB online one month before the due date of ITR."
+            desc: "Submit Form 10B or 10BB online before the due date of the Income Tax Return."
         },
         {
             title: "File ITR-7",
-            desc: "File the Income Tax Return (ITR-7) by the prescribed due date."
+            desc: "File the Income Tax Return (ITR-7) within the prescribed deadline."
         },
         {
             title: "Other Filings",
-            desc: "File TDS, GST, and FCRA returns as applicable to the specific trust."
+            desc: "File TDS, GST, and FCRA returns if applicable to the trust’s activities."
         }
     ];
 
@@ -258,7 +258,7 @@ const ComplianceProcessSection = () => {
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
                         The procedure for Trust Annual Compliance involves structured documentation,
-                        audit, and filing requirements. The step-by-step process is outlined below:
+                        audit, and filing requirements. Trust Annual Compliance involves organized documentation, auditing, and timely filing of statutory returns.
                     </p>
                 </div>
 
@@ -320,15 +320,15 @@ const ComplianceFeaturesSection = () => {
     const features = [
         {
             title: "Experienced Team",
-            desc: "Network of CAs and legal experts with 10+ years of experience in trust compliance."
+            desc: "Experienced team of CAs and legal professionals specializing in trust compliance."
         },
         {
             title: "Timely Alerts",
-            desc: "Proactive compliance calendar to ensure you never miss a due date."
+            desc: "Automated reminders and compliance calendar to ensure timely filings."
         },
         {
             title: "End-to-End Management",
-            desc: "From bookkeeping to filing returns, we handle everything for your trust."
+            desc: "Complete support from bookkeeping to final filing of statutory returns."
         },
         {
             title: "FCRA Expertise",
@@ -354,8 +354,7 @@ const ComplianceFeaturesSection = () => {
                         Features of Trust Annual Compliance Services
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Our compliance services ensure your Trust remains legally valid, penalty-free,
-                        and maintains all tax exemptions and registrations.
+                        Our compliance services help your Trust remain legally compliant, avoid penalties, and maintain important registrations and tax benefits.
                     </p>
                 </div>
 
@@ -393,7 +392,7 @@ const TrustAnnualCompliance = () => {
     const faqs = [
         {
             question: "When is the due date for filing ITR for Trusts?",
-            answer: "For Trusts where an audit is required, the due date is typically 31st October of the assessment year. For others, it is usually 31st July."
+            answer: "For trusts requiring an audit, the ITR filing deadline is generally 31st October of the assessment year, while others typically file by 31st July."
         },
         {
             question: "Is it mandatory to file an Audit Report in Form 10B?",
@@ -421,7 +420,7 @@ const TrustAnnualCompliance = () => {
                 heroTitleMain="Trust Annual"
                 heroTitleSuffix="Compliance"
                 heroSubtitle="Stay Compliant & Avoid Penalties"
-                heroDescription="Ensure your Trust remains legally valid and penalty-free. We handle all annual filings, audits, and statutory compliances for Private and Public Trusts."
+                heroDescription="Keep your Trust legally compliant and free from penalties. Our experts manage annual filings, audits, and statutory compliance for both Private and Public Trusts."
                 whatsIncludedList={[
                     "Financial Statement Preparation",
                     "Audit Report (Form 10B)",
@@ -429,9 +428,9 @@ const TrustAnnualCompliance = () => {
                     "Annual Compliance Maintenance"
                 ]}
                 stats={[
-                    { count: "1000+", label: "Trusts Managed", icon: <Users size={20} /> },
-                    { count: "100%", label: "Timely Filing", icon: <Briefcase size={20} /> },
-                    { count: "Expert", label: "CA Support", icon: <Building2 size={20} /> }
+                    { count: "1000+", label: "Trusts Supported", icon: <Users size={20} /> },
+                    { count: "100%", label: "On-Time Filings", icon: <Briefcase size={20} /> },
+                    { count: "Dedicated", label: "CA Assistance", icon: <Building2 size={20} /> }
                 ]}
             />
 

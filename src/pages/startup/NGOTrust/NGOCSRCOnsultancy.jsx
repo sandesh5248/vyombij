@@ -24,13 +24,13 @@ const CSROverview = () => {
                             Social Impact
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            NGO CSR Consultancy – <span className="text-[#005a9c]">Maximize Your Reach</span>
+                            NGO CSR Consultancy – <span className="text-[#005a9c]">Expand Your Impact</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Vyombiz provides specialized assistance in aligning the mission of non-governmental organizations with corporate social responsibility (CSR) goals of companies. We offer expert guidance to enhance the reach and impact of NGOs.
+                            Vyombiz offers specialized consultancy to help non-governmental organizations align their mission with the CSR objectives of companies. Our experts provide strategic guidance to increase the reach and effectiveness of NGO initiatives.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Section 135 of the Companies Act, 2013 mandates certain companies to contribute 2% of their average net profit towards CSR. This opens up significant funding opportunities for eligible NGOs to drive social change. Our consultancy helps you navigate legal and financial obligations, connecting you with professionals in the sector.
+                            Under Section 135 of the Companies Act, 2013, eligible companies are required to spend 2% of their average net profit on CSR activities. This requirement creates valuable funding opportunities for qualified NGOs working toward social development. Our consultancy helps NGOs manage legal and financial requirements while connecting them with CSR funding opportunities.
                         </p>
 
 
@@ -61,7 +61,7 @@ const NGOCSRConsultancyAdvantages = () => {
                         Benefits of CSR Consultancy
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        How our services empower your NGO.
+                        How our CSR consultancy services support NGO growth.
                     </p>
                     <div className="mt-10">
                         <img
@@ -75,12 +75,12 @@ const NGOCSRConsultancyAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Access to Funding", desc: "Connect with potential sources for financial support and guidance on fund utilization." },
-                        { title: "Platform for Advocacy", desc: "Gain a larger platform to advocate for your cause and increase connections." },
-                        { title: "Strategic Collaboration", desc: "Collaborate easily with social causes and amplify your impact on a larger scale." },
-                        { title: "Enhanced Credibility", desc: "Increase credibility with stakeholders, attracting future potential donors." },
-                        { title: "Networking Opportunities", desc: "Expand your network to establish new collaborations and funding avenues." },
-                        { title: "Long-term Sustainability", desc: "Build capacity, manage resources, and ensure the long-term viability of your NGO." }
+                        { title: "Access to Funding", desc: "Access potential CSR funding sources and receive guidance on proper fund utilization." },
+                        { title: "Platform for Advocacy", desc: "Expand your platform to promote social causes and build stronger partnerships." },
+                        { title: "Strategic Collaboration", desc: "Partner with organizations and companies to create larger social impact initiatives." },
+                        { title: "Enhanced Credibility", desc: "Strengthen credibility with stakeholders and attract more donors and partners." },
+                        { title: "Networking Opportunities", desc: "Build professional networks that open doors for collaboration and funding opportunities." },
+                        { title: "Long-term Sustainability", desc: "Improve resource management and strengthen the long-term sustainability of your organization." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -107,8 +107,8 @@ const CSRConsultancyEligibility = () => {
                 </h2>
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    To apply for CSR funding, it's essential to understand the prerequisites first.
-                    Prerequisites for CSR Funding are mentioned below-
+                    Before applying for CSR funding, it is important to understand the required registrations.
+                    The key prerequisites for CSR funding are listed below.
                 </p>
 
                 {/* 80G Registration */}
@@ -117,7 +117,7 @@ const CSRConsultancyEligibility = () => {
                         80G Registration
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed">
-                        Entitles donors to 50% tax exemption. Essential for attracting corporate funding.
+                        Provides tax benefits to donors and helps NGOs attract corporate contributions.
                     </p>
                 </div>
 
@@ -127,7 +127,7 @@ const CSRConsultancyEligibility = () => {
                         12A Registration
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed">
-                        Exempts the NGO's income from taxation. A one-time registration for Trusts/NGOs.
+                        Allows NGOs to receive income tax exemption on their charitable activities.
                     </p>
                 </div>
 
@@ -135,12 +135,12 @@ const CSRConsultancyEligibility = () => {
                 <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
                     <p>
                         <span className="font-semibold text-[#072b47]">NGO Registration – </span>
-                        Basic registration as a Trust, Society, or Section 8 Company.
+                        The organization must be registered as a Trust, Society, or Section 8 Company.
                     </p>
 
                     <p>
                         <span className="font-semibold text-[#072b47]">FCRA Registration – </span>
-                        Mandatory for accepting foreign contributions and CSR funding from foreign companies.
+                        Required for NGOs that wish to receive foreign donations or contributions.
                     </p>
                 </div>
 
@@ -166,8 +166,8 @@ const CSRConsultancyDocumentsSection = () => {
                 </h2>
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    To register for CSR funding, you need to submit the following documents.
-                    Essential documents for registering to receive CSR funds are mentioned below:
+                    The following documents are required to apply for CSR registration.
+                    Key documents required for CSR funding registration include:
                 </p>
 
                 {/* Documents List */}
@@ -221,27 +221,27 @@ const CSRConsultancyProcessSection = () => {
     const steps = [
         {
             title: "Legal & Financial",
-            desc: "Advisory on legal requirements, taxation, 12A, and 80G registration."
+            desc: "Expert advice on legal structure, taxation, and required registrations such as 12A and 80G."
         },
         {
             title: "Compliance Guidance",
-            desc: "Ensuring all compliance requirements are met as per authority standards."
+            desc: "Ensuring that all regulatory and compliance requirements are properly fulfilled."
         },
         {
             title: "Application Filing",
-            desc: "Timely submission of application forms and required documents."
+            desc: "Submitting applications and documents to the appropriate authorities on time."
         },
         {
             title: "Documentation",
-            desc: "Compiling and verifying documents to prevent delays and rejections."
+            desc: "Preparing and verifying documents carefully to avoid rejection or delays."
         },
         {
             title: "Procedural Support",
-            desc: "Guidance through 12A, 80G, FCRA, and other procedural formalities."
+            desc: "Support with procedures related to 12A, 80G, FCRA, and other legal requirements."
         },
         {
             title: "Monitoring",
-            desc: "Regular monitoring and evaluation to ensure ongoing compliance."
+            desc: "Continuous monitoring to maintain compliance with CSR regulations."
         }
     ];
 
@@ -318,27 +318,27 @@ const CSRConsultancyFeaturesSection = () => {
     const features = [
         {
             title: "Expert Team",
-            desc: "Access to a vast network of CAs, CS, and legal experts for comprehensive guidance."
+            desc: "Access to experienced CAs, CS professionals, and legal advisors for expert guidance."
         },
         {
             title: "Proven Track Record",
-            desc: "Experience in successfully providing CSR consulting to numerous NGOs."
+            desc: "Proven experience in assisting NGOs with CSR consultancy services."
         },
         {
             title: "Transparent Process",
-            desc: "Clear pricing and transparent processes with no hidden costs."
+            desc: "Transparent pricing structure with clear processes and no hidden charges."
         },
         {
             title: "Technology Driven",
-            desc: "Efficacy through technological approaches for smooth service delivery."
+            desc: "Technology-driven processes for efficient and smooth service delivery."
         },
         {
             title: "Client Satisfaction",
-            desc: "High client satisfaction rate with dedicated support throughout."
+            desc: "High client satisfaction with dedicated support at every stage."
         },
         {
             title: "Comprehensive Care",
-            desc: "End-to-end support from registration to funding and compliance."
+            desc: "Complete assistance from registration to CSR funding and compliance management."
         }
     ];
 
@@ -391,7 +391,7 @@ const NGOCSRCOnsultancy = () => {
     const faqs = [
         {
             question: "Which Nonprofit Can Apply for CSR?",
-            answer: "A public trust registered under Section 12A and 80G, or a Section 8 company engaged in equivalent operations for at least three years can apply for CSR funding."
+            answer: "NGOs registered as Trusts, Societies, or Section 8 Companies with valid 12A and 80G registrations are generally eligible to apply for CSR funding."
         },
         {
             question: "Can a newly founded NGO submit a CSR application?",
@@ -419,7 +419,7 @@ const NGOCSRCOnsultancy = () => {
                 heroTitleMain="NGO CSR Consultancy"
                 heroTitleSuffix="Services"
                 heroSubtitle="Unlock CSR Funding Opportunities for Your NGO"
-                heroDescription="Vyombiz offers expert CSR consultancy to help non-profit organizations align with corporate missions, ensure compliance, and secure funding for sustainable growth."
+                heroDescription="Vyombiz provides professional CSR consultancy to help NGOs align with corporate social responsibility goals, maintain compliance, and access funding opportunities for long-term growth."
                 whatsIncludedList={[
                     "Strategic CSR Planning & Advocacy",
                     "CSR-1 Registration & Compliance",
@@ -427,9 +427,9 @@ const NGOCSRCOnsultancy = () => {
                     "Impact Assessment & Reporting"
                 ]}
                 stats={[
-                    { count: "100+", label: "NGOs Assisted", icon: <Users size={20} /> },
-                    { count: "50Cr+", label: "CSR Funds Facilitated", icon: <TrendingUp size={20} /> },
-                    { count: "99%", label: "Compliance Success", icon: <CheckCircle size={20} /> }
+                    { count: "100+", label: "NGOs Supported", icon: <Users size={20} /> },
+                    { count: "₹50Cr+", label: "CSR Funds Enabled", icon: <TrendingUp size={20} /> },
+                    { count: "99%", label: "Compliance Accuracy", icon: <CheckCircle size={20} /> }
                 ]}
             />
             <TrustedBrands />

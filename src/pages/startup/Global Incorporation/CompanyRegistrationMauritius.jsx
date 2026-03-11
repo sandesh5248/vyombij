@@ -18,22 +18,13 @@ const CompanyRegistrationMauritiusOverview = () => {
                             Global Hub
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Company Registration in Mauritius – <span className="text-[#005a9c]">An Overview</span>
+                            Why Register a Company in <span className="text-[#005a9c]">Mauritius?</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Mauritius is strategically located in the Indian Ocean, connecting businesses with African, Asian, and European markets. It is known not only for its scenic locales but also for its stable political environment and robust economic policies.
+                            Mauritius has become a preferred jurisdiction for international businesses, startups, and investors looking for global expansion. Its regulatory transparency and tax efficiency make it a strong hub for international trade and investments.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            One of the most significant benefits of company registration in Mauritius is that it offers low corporate tax rates, zero capital gains tax, and double taxation avoidance agreements with different countries.
-                        </p>
-                        <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Why Register in Mauritius?
-                        </h3>
-                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Mauritius operates a well-regulated and structured financial services industry, supporting businesses operating within the banking, investment, and professional advisory services industry.
-                        </p>
-                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Business setup in Mauritius is a prompt, transparent, and simple process, facilitating entrepreneurs to start their ventures without unnecessary delays.
+                            Businesses working with Vyombiz managed by Clink Consultancy Services Private Limited receive expert assistance to navigate legal requirements and complete the incorporation process seamlessly.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -59,7 +50,7 @@ const CompanyRegistrationMauritiusAdvantages = () => {
                         Why It Is Vital
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of Business Setup
+                        Key Advantages
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
                         Mauritius offers a business-friendly environment with numerous advantages for global investors.
@@ -76,12 +67,12 @@ const CompanyRegistrationMauritiusAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Favourable Tax Regime", desc: "Low corporate tax rates, zero capital gains tax, and extensive DTAA network." },
-                        { title: "Political Stability", desc: "Stable political environment and robust economic policies ensuring business security." },
-                        { title: "Ease of Incorporation", desc: "Transparent and simple process facilitating quick launch of business operations." },
-                        { title: "International Access", desc: "Strategic location connecting African, Asian, and European markets." },
-                        { title: "Robust Financial Sector", desc: "Well-regulated financial services industry supporting banking and investment." },
-                        { title: "100% Foreign Ownership", desc: "Allows full foreign ownership in most business sectors." }
+                        { title: "Tax Efficiency", desc: "Business-friendly tax regime with competitive corporate tax rates." },
+                        { title: "Global Gateway", desc: "Strategic gateway to Africa and global markets." },
+                        { title: "Stable Environment", desc: "Stable political and economic environment." },
+                        { title: "Legal Framework", desc: "Strong legal framework based on international standards." },
+                        { title: "Foreign Ownership", desc: "100% foreign ownership allowed in many sectors." },
+                        { title: "Financial Infrastructure", desc: "Efficient banking and financial infrastructure." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -100,21 +91,18 @@ const CompanyRegistrationMauritiusAdvantages = () => {
 
 const MauritiusIncorporationEligibility = () => {
     const list = [
-        { title: "Shareholders", desc: "Minimum one shareholder required (individual or corporate)." },
-        { title: "Directors", desc: "Minimum one director required. GBCs require two local directors." },
-        { title: "Registered Office", desc: "Must have a physical registered office address in Mauritius." },
-        { title: "Business Plan", desc: "A detailed business plan describing activities and operations." },
-        { title: "Due Diligence", desc: "KYC documents for all directors and shareholders." },
-        { title: "Company Name", desc: "Unique name reservation approval from the Registrar." }
+        { title: "Global Business Company (GBC)", desc: "Commonly used for international operations such as investment holding, financial services, and global trading. It benefits from Mauritius’ international tax treaties and regulatory advantages." },
+        { title: "Authorized Company (AC)", desc: "Suitable for businesses conducting activities mainly outside Mauritius. It offers simplified compliance requirements and operational flexibility for global entrepreneurs." },
+        { title: "Domestic Company", desc: "Domestic companies operate within Mauritius and are ideal for local trading, services, and small business activities." }
     ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    What are the Eligibility Criteria for Company Registration in Mauritius?
+                    Types of Companies in Mauritius
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Key checklist for setting up your company in Mauritius.
+                    When planning company registration in Mauritius, businesses can choose from several structures depending on their objectives.
                 </p>
                 <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
                     {list.map((item, i) => (
@@ -124,11 +112,9 @@ const MauritiusIncorporationEligibility = () => {
                         </p>
                     ))}
                 </div>
-                <div className="mt-12 text-center">
-                    <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Check Your Eligibility Now
-                            </Link>
-                </div>
+                <p className="text-[17px] text-slate-600 leading-relaxed mt-10">
+                    Selecting the right business structure ensures regulatory compliance and tax efficiency, and Vyombiz managed by Clink Consultancy Services Private Limited assists businesses in choosing the most suitable option.
+                </p>
             </div>
         </section>
     );
@@ -136,29 +122,30 @@ const MauritiusIncorporationEligibility = () => {
 
 const MauritiusIncorporationDocumentsSection = () => {
     const list = [
-        "Certified Passport Copies (All directors & shareholders)",
-        "Proof of Residential Address (Utility bills/bank statements)",
-        "Consent Forms (Signed by directors shareholders)",
-        "Detailed Business Plan",
-        "Bank Reference Letter",
-        "Proof of Registered Office Address",
-        "Constitution (Memorandum & Articles of Association)",
-        "Due Diligence Documents for corporate shareholders"
+        "Passport copies of directors and shareholders",
+        "Proof of residential address",
+        "Proposed company name",
+        "Details of business activities",
+        "Shareholding structure",
+        "Bank reference (in some cases)"
     ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Documents Required for Mauritius Company Registration
+                    Documents Required for Company Registration
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Essential documents required for company formation in Mauritius.
+                    To complete the company incorporation process in Mauritius, certain documents and details are required:
                 </p>
-                <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
+                <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc pl-5">
                     {list.map((item, i) => (
                         <li key={i}>{item}</li>
                     ))}
                 </ul>
+                <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                    Preparing the documentation accurately ensures faster approval and smooth company formation.
+                </p>
             </div>
         </section>
     );
@@ -166,21 +153,20 @@ const MauritiusIncorporationDocumentsSection = () => {
 
 const MauritiusIncorporationProcessSection = () => {
     const steps = [
-        { title: "Structure & Name", desc: "Choose suitable structure and reserve unique company name." },
-        { title: "Document Prep", desc: "Collect KYC, proofs, and draft Memorandum & Articles of Association." },
-        { title: "Submit Application", desc: "File incorporation forms and documents with Registrar of Companies." },
-        { title: "Incorporation", desc: "Receive Certificate of Incorporation and open corporate bank account." },
-        { title: "Compliance", desc: "Register for Tax (TAN), VAT if applicable, and ensure ongoing compliance." }
+        { title: "Name Approval", desc: "The proposed company name is submitted to the authorities for availability verification and approval." },
+        { title: "Documentation & Application", desc: "Required documents are prepared and submitted along with incorporation forms." },
+        { title: "Company Incorporation", desc: "Once verified, the Registrar issues the Certificate of Incorporation confirming the legal existence of the company." },
+        { title: "Business Registration & Compliance", desc: "Additional registrations such as tax registration and compliance filings may be required depending on business activity." }
     ];
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        How to Register a Company in Mauritius?
+                        Step-by-Step Process for Company Registration in Mauritius
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        Streamlined journey to your Mauritius Company Incorporation.
+                        The company incorporation process generally involves several key stages:
                     </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
@@ -198,10 +184,10 @@ const MauritiusIncorporationProcessSection = () => {
                             </div>
                         ))}
                         <div className="border-t border-slate-200" />
-                        <div className="mt-12 text-center">
-                            <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Start Your Registration
-                            </Link>
+                        <div className="bg-[#e6f0fa] border border-[#005a9c] rounded-2xl p-6 mt-10">
+                            <p className="text-[16px] text-[#072b47] leading-relaxed font-medium text-center">
+                                Businesses supported by Vyombiz managed by Clink Consultancy Services Private Limited receive end-to-end assistance throughout the entire process.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -211,38 +197,74 @@ const MauritiusIncorporationProcessSection = () => {
 };
 
 const MauritiusIncorporationFeaturesSection = () => {
-    const features = [
-        { title: "Expert Guidance", desc: "Comprehensive advice on the best business structure for your needs." },
-        { title: "Quick Turnaround", desc: "Efficient processing to get your business running in ~1 week." },
-        { title: "End-to-End Support", desc: "From name reservation to bank account opening and tax registration." },
-        { title: "Compliance Assurance", desc: "Ensuring all legal and regulatory requirements are met." },
-        { title: "Global Expertise", desc: "Deep understanding of international business laws and treaties." },
-        { title: "Dedicated Manager", desc: "One point of contact for personalized service." },
-        { title: "Document Handling", desc: "Complete assistance with documentation and verification." },
-        { title: "Post-Setup Services", desc: "Ongoing support for annual filings and secretarial services." }
+    const complianceList = [
+        "Maintaining statutory records and company registers",
+        "Filing annual returns with authorities",
+        "Financial reporting and accounting compliance",
+        "Tax filings and regulatory updates"
     ];
+
+    const assistanceList = [
+        "Complete company incorporation support",
+        "Documentation preparation and filing",
+        "Legal and regulatory guidance",
+        "Global business setup consultation",
+        "Ongoing compliance and advisory services"
+    ];
+
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
-                <div className="text-center mb-8">
-                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose VyomBiz?
+                
+                <div className="mb-12">
+                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        Key Compliance Requirements
                     </h2>
-                    <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Your trusted partner for seamless global business expansion.
+                    <p className="text-[17px] text-slate-600 max-w-4xl leading-relaxed mb-6">
+                        After company registration in Mauritius, certain regulatory requirements must be maintained:
+                    </p>
+                    <ul className="grid md:grid-cols-2 gap-3 text-slate-700 font-medium list-disc pl-5">
+                        {complianceList.map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mt-6 mb-12">
+                        Proper compliance ensures that the company continues operating without regulatory risks.
                     </p>
                 </div>
-                <div>
-                    {features.map((feature, index) => (
-                        <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-300">
-                            <div className="text-[15px] font-semibold text-[#072b47]">{index + 1}.</div>
-                            <div>
-                                <h3 className="text-[16px] font-semibold text-[#072b47]">{feature.title}</h3>
-                                <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">{feature.desc}</p>
+
+                <div className="mb-12 p-8 bg-slate-50 border border-slate-100 rounded-3xl">
+                    <h2 className="text-3xl font-semibold text-[#072b47] mb-6">
+                        How Vyombiz Can Help
+                    </h2>
+                    <p className="text-[17px] text-slate-600 max-w-4xl leading-relaxed mb-6">
+                        Starting a business internationally can involve complex legal procedures. With professional assistance, the process becomes much simpler and faster.
+                    </p>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                        Vyombiz managed by Clink Consultancy Services Private Limited helps entrepreneurs and businesses with:
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-4">
+                        {assistanceList.map((feature, index) => (
+                            <div key={index} className="flex items-center gap-3">
+                                <div className="w-2 h-2 rounded-full bg-[#f59e0b]"></div>
+                                <span className="text-[16px] text-slate-700 font-medium">{feature}</span>
                             </div>
-                        </div>
-                    ))}
-                    <div className="border-t border-slate-300" />
+                        ))}
+                    </div>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                        With a structured and professional approach, businesses can confidently establish their presence in Mauritius and focus on growth.
+                    </p>
+                </div>
+
+                <div className="mt-16 bg-[#072b47] rounded-3xl p-10 text-center text-white">
+                    <h2 className="text-3xl font-semibold mb-4">Start Your Mauritius Company Registration Today</h2>
+                    <p className="text-lg text-slate-300 max-w-3xl mx-auto mb-4">
+                        Expanding internationally opens new opportunities for growth, partnerships, and global market access. Mauritius offers a reliable and efficient environment for business incorporation.
+                    </p>
+                    <p className="text-lg text-slate-300 max-w-3xl mx-auto mb-8">
+                        Partner with Vyombiz managed by Clink Consultancy Services Private Limited to simplify your company registration journey and establish your business presence in Mauritius with confidence.
+                    </p>
+                    <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="inline-block bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-4 rounded-xl shadow-lg transition">
+                        Start Your Registration Now
+                    </Link>
                 </div>
             </div>
         </section>
@@ -281,8 +303,8 @@ const CompanyRegistrationMauritius = () => {
             <HeroLayout
                 heroTitleMain="Company Registration in"
                 heroTitleSuffix="Mauritius"
-                heroSubtitle="Start Your Global Business Today"
-                heroDescription="Are you an entrepreneur looking to register your business in Mauritius? Get Vyombiz™ expert assistance for company registration in Mauritius and benefit from 100% foreign ownership."
+                heroSubtitle="Start Your Global Business in Mauritius with Ease"
+                heroDescription="Mauritius is one of the most attractive destinations for global entrepreneurs due to its investor-friendly regulations, tax advantages, and strategic location between Africa and Asia. Setting up a company here allows businesses to access international markets while benefiting from a stable legal and financial system. With expert guidance and a structured registration process, launching your company in Mauritius can be smooth and efficient."
                 whatsIncludedList={[
                     "All-in-one Registration Package",
                     "Document Verification in 1 Day",
