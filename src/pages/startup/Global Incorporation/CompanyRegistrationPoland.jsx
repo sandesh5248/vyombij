@@ -4,9 +4,9 @@ import { Users, Briefcase, Building2 } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
-import polandBenefits from "../../../assets/Global Incorporation/ Company Registration in Poland/benefits.png";
-import polandOverview from "../../../assets/Global Incorporation/ Company Registration in Poland/overview.png";
-import polandProcess from "../../../assets/Global Incorporation/ Company Registration in Poland/process.png";
+import polandBenefits from "../../../assets/Global Incorporation/Company Registration in Poland/benefits.png";
+import polandOverview from "../../../assets/Global Incorporation/Company Registration in Poland/overview.png";
+import polandProcess from "../../../assets/Global Incorporation/Company Registration in Poland/process.png";
 
 /**
  * CompanyRegistrationPoland Page matching USAIncorporation layout

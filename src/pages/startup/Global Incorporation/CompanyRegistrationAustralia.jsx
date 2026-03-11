@@ -18,26 +18,20 @@ const CompanyRegistrationAustraliaOverview = () => {
             <div className="max-w-7xl mx-auto px-6 lg:px-12">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16 lg:gap-24">
                     <div>
-                        <span className="inline-block px-4 py-1.5 text-sm font-semibold bg-[#e6f0fa] text-[#005a9c] rounded-full mb-4">
-                            Global Expansion
-                        </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Company Registration in Australia – <span className="text-[#005a9c]">An Overview</span>
+                            Why Start a Business in Australia?
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Australia offers a long-standing stable economy and a transparent regulatory framework, making it an ideal destination for business expansion.
+                            Australia is considered one of the most attractive destinations for global entrepreneurs and investors. Its transparent legal system, strong financial infrastructure, and access to international markets make it an excellent location for business expansion.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Foreign entrepreneurs can expand by registering a new company or establishing a branch office, provided they meet specific conditions like appointing a resident director.
-                        </p>
-                        <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Why Australia?
-                        </h3>
-                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            It serves as a strategic gateway to the Asia-Pacific region with access to a highly skilled workforce and strong government support.
+                            Australia consistently ranks high for ease of doing business and provides strong protection for investors and intellectual property. The country offers a stable economy, skilled workforce, and access to the Asia-Pacific region, making it ideal for startups, SMEs, and global companies.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The Australian Securities and Investments Commission (ASIC) oversees company registration, ensuring a smooth and efficient process.
+                            With proper guidance and regulatory compliance, entrepreneurs can quickly establish their presence and begin operating in the Australian market.
+                        </p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
+                            Vyombiz managed by Clink Consultancy Services Private Limited helps businesses navigate the Australian incorporation framework smoothly, ensuring all legal and regulatory requirements are handled efficiently.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -59,14 +53,11 @@ const CompanyRegistrationAustraliaAdvantages = () => {
             <div className="grid lg:grid-cols-2 gap-16 w-full">
                 {/* LEFT SIDE (STICKY) */}
                 <div className="lg:sticky lg:top-28 h-fit self-start">
-                    <span className="inline-block px-4 py-1.5 text-sm font-semibold bg-[#e6f0fa] text-[#005a9c] rounded-full mb-6">
-                        Why It Is Vital
-                    </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of Company Formation
+                        Benefits of Registering a Company in Australia
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Why Australia is a top choice for global business.
+                        Setting up a company in Australia offers numerous strategic advantages for entrepreneurs and global investors.
                     </p>
                     <div className="mt-10">
                         <img
@@ -80,12 +71,11 @@ const CompanyRegistrationAustraliaAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Stable Economy", desc: "Consistent economic growth and a robust banking sector provide a strong foundation." },
-                        { title: "Strategic Location", desc: "Gateway to Asia-Pacific markets with lower tariffs through Free Trade Agreements." },
-                        { title: "Ease of Doing Business", desc: "Consistently ranks high globally for its straightforward regulatory framework." },
-                        { title: "Government Support", desc: "Incentives like R&D tax offsets and grants for innovation and growth." },
-                        { title: "Skilled Talent", desc: "Access to a highly educated workforce and specialized talent from overseas." },
-                        { title: "Quality of Life", desc: "High standard of living and work-life balance attract top talent and businesses." }
+                        { title: "Access to a Stable Economy", desc: "Australia has a resilient economy with strong growth across industries such as technology, mining, finance, and services." },
+                        { title: "Global Market Access", desc: "Businesses can leverage Australia’s trade agreements and geographical proximity to Asia-Pacific markets." },
+                        { title: "Strong Legal Framework", desc: "The country provides transparent corporate laws and strong investor protection." },
+                        { title: "Reputation and Credibility", desc: "An Australian registered company often enhances business credibility in international markets." },
+                        { title: "Support for Startups and Innovation", desc: "Australia actively encourages innovation through various government initiatives and funding programs." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -96,6 +86,9 @@ const CompanyRegistrationAustraliaAdvantages = () => {
                             </p>
                         </div>
                     ))}
+                    <p className="text-[17px] text-slate-600 leading-relaxed font-medium mt-6">
+                        Vyombiz managed by Clink Consultancy Services Private Limited assists businesses in leveraging these benefits by ensuring a smooth and compliant registration process.
+                    </p>
                 </div>
             </div>
         </div>
@@ -104,20 +97,18 @@ const CompanyRegistrationAustraliaAdvantages = () => {
 
 const AustraliaIncorporationEligibility = () => {
     const list = [
-        { title: "Shareholder", desc: "Minimum of one shareholder required (can be foreign)." },
-        { title: "Resident Director", desc: "Must appoint at least one director who resides in Australia." },
-        { title: "Local Address", desc: "Must have a registered physical office address in Australia." },
-        { title: "Local Secretary", desc: "Public companies must appoint a company secretary residing in Australia." },
-        { title: "Unique Name", desc: "Business name must be unique and not resemble existing registered names." }
+        { title: "Private Company (Pty Ltd)", desc: "A Private Limited Company is the most common business structure in Australia. It offers limited liability protection and is suitable for startups and growing businesses. Key features include: requires at least one director residing in Australia, shareholders’ liability is limited to their share capital, and cannot raise funds from the public." },
+        { title: "Public Company (Ltd)", desc: "Public companies are designed for larger businesses planning to raise capital from the public through shares. Key features include: minimum three directors required, higher regulatory compliance, and suitable for large-scale enterprises and publicly traded companies." },
+        { title: "Branch Office of Foreign Company", desc: "Foreign companies that wish to operate in Australia without incorporating a separate legal entity can register as a branch office. This structure allows international companies to directly conduct business activities in Australia while remaining legally connected to the parent company." }
     ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    What are the Eligibility Criteria for Australia Company Registration?
+                    Types of Companies in Australia
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Key criteria for incorporating in Australia.
+                    Choosing the right company structure is crucial when registering a business in Australia. The structure determines your compliance obligations, tax responsibilities, and operational flexibility.
                 </p>
                 <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
                     {list.map((item, i) => (
@@ -129,7 +120,7 @@ const AustraliaIncorporationEligibility = () => {
                 </div>
                 <div className="mt-12 text-center">
                     <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Check Your Eligibility Now
+                                Choose Your Company Type
                             </Link>
                 </div>
             </div>
@@ -139,28 +130,30 @@ const AustraliaIncorporationEligibility = () => {
 
 const AustraliaIncorporationDocumentsSection = () => {
     const list = [
-        "Completed Application Form",
-        "Passport Copies (Directors & Shareholders)",
-        "Proof of Registered Address",
-        "Shareholder Details",
-        "Director Identification Number (DIN)",
-        "Consent to Act as Director/Shareholder",
-        "Constitution (if applicable)"
+        "Proposed company name",
+        "Details of directors and shareholders",
+        "Registered office address in Australia",
+        "Identification documents of directors and shareholders",
+        "Share capital structure",
+        "Business activity description"
     ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Documents Required for Australia Company Registration
+                    Documents Required for Company Registration in Australia
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Essential documents for Australian Company Registration.
+                    To incorporate a company in Australia, certain documents and information are required for regulatory submission. Typical documentation includes:
                 </p>
-                <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
+                <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside mb-8">
                     {list.map((item, i) => (
                         <li key={i}>{item}</li>
                     ))}
                 </ul>
+                <p className="text-[17px] text-slate-600 leading-relaxed">
+                    Our experts ensure that all documents are properly prepared and submitted to avoid delays or compliance issues.
+                </p>
             </div>
         </section>
     );
@@ -168,23 +161,21 @@ const AustraliaIncorporationDocumentsSection = () => {
 
 const AustraliaIncorporationProcessSection = () => {
     const steps = [
-        { title: "Pre-Registration", desc: "Prepare a business plan and appoint a resident director." },
-        { title: "Secure Name", desc: "Check availability and reserve your unique business name with ASIC." },
-        { title: "Obtain Identifiers", desc: "Apply for Australian Company Number (ACN) and Australian Business Number (ABN)." },
-        { title: "Tax Registration", desc: "Register for GST (if turnover >$75k), PAYG, and TFN." },
-        { title: "Submit Application", desc: "File Form 201 with ASIC including all required documents and fees." },
-        { title: "Incorporation", desc: "Receive Certificate of Incorporation and ACN via email." },
-        { title: "Post-Compliance", desc: "Maintain records, file annual reviews, and meet financial reporting obligations." }
+        { title: "Choose a Company Name", desc: "Select a unique company name that complies with ASIC naming rules." },
+        { title: "Prepare Company Details", desc: "Provide details of directors, shareholders, company address, and share structure." },
+        { title: "Document Preparation", desc: "Draft and prepare incorporation documents including consent forms and company constitution if required." },
+        { title: "ASIC Registration", desc: "Submit the application to ASIC for company registration and approval." },
+        { title: "Receive ACN", desc: "Once approved, the company receives its Australian Company Number (ACN) and becomes legally registered." }
     ];
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        How to Register a Company in Australia?
+                        Step-by-Step Process for Company Registration in Australia
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        Step-by-step guide to setting up your business.
+                        The company incorporation process in Australia involves registration with the Australian Securities and Investments Commission (ASIC) along with fulfilling regulatory requirements.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
@@ -202,6 +193,9 @@ const AustraliaIncorporationProcessSection = () => {
                             </div>
                         ))}
                         <div className="border-t border-slate-200" />
+                        <p className="text-[17px] text-slate-600 leading-relaxed mt-6">
+                            Vyombiz managed by Clink Consultancy Services Private Limited manages the entire incorporation process to ensure accuracy and timely approval.
+                        </p>
                         <div className="mt-12 text-center">
                             <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
                                 Start Your Registration
@@ -215,36 +209,51 @@ const AustraliaIncorporationProcessSection = () => {
 };
 
 const AustraliaIncorporationFeaturesSection = () => {
-    const features = [
-        { title: "10+ Years Experience", desc: "Decade of expertise in assisting foreign and local entrepreneurs." },
-        { title: "Expert Consulting", desc: "Seamless guidance on structure, compliance, and legal requirements." },
-        { title: "Documentation Support", desc: "Reliable assistance in preparing and filing all necessary documents." },
-        { title: "Post-Reg Compliance", desc: "Ongoing support for tax filing, annual reviews, and corporate obligations." },
-        { title: "Expedited Process", desc: "Timely completion of applications for fast and seamless registration." },
-        { title: "Regulatory Ties", desc: "Close coordination with ASIC for a streamlined experience." }
-    ];
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
-                <div className="text-center mb-8">
-                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose VyomBiz?
+                <div className="mb-14">
+                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        Compliance Requirements After Company Registration
                     </h2>
-                    <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Your trusted partner for Australian market entry.
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                        After incorporation, businesses must follow certain ongoing compliance requirements in Australia. These include:
+                    </p>
+                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside mb-6">
+                        <li>Maintaining company records and registers</li>
+                        <li>Filing annual statements with ASIC</li>
+                        <li>Maintaining a registered office address</li>
+                        <li>Updating ASIC about any changes in company structure</li>
+                        <li>Meeting taxation and financial reporting requirements</li>
+                    </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed">
+                        Proper compliance ensures the company remains legally operational and avoids penalties.
                     </p>
                 </div>
-                <div>
-                    {features.map((feature, index) => (
-                        <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-300">
-                            <div className="text-[15px] font-semibold text-[#072b47]">{index + 1}.</div>
-                            <div>
-                                <h3 className="text-[16px] font-semibold text-[#072b47]">{feature.title}</h3>
-                                <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">{feature.desc}</p>
-                            </div>
-                        </div>
-                    ))}
-                    <div className="border-t border-slate-300" />
+
+                <div className="mb-8">
+                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        How Vyombiz Helps with Company Registration in Australia
+                    </h2>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                        Registering a company in another country can be complex due to legal and documentation requirements. With expert assistance, the process becomes faster and more reliable.
+                    </p>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                        Vyombiz managed by Clink Consultancy Services Private Limited provides comprehensive support for global company incorporation. Our specialists assist businesses through every stage of the registration process, from documentation to compliance management.
+                    </p>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                        Our services include:
+                    </p>
+                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside mb-6">
+                        <li>Company name availability check</li>
+                        <li>Preparation of incorporation documents</li>
+                        <li>Filing with Australian authorities</li>
+                        <li>Regulatory compliance guidance</li>
+                        <li>Post-registration support</li>
+                    </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed">
+                        With a structured approach and expert knowledge of international incorporation frameworks, we help businesses establish their presence in Australia with confidence.
+                    </p>
                 </div>
             </div>
         </section>
@@ -255,24 +264,24 @@ const CompanyRegistrationAustralia = () => {
 
     const faqs = [
         {
-            question: "Do I need a resident director for an Australian company?",
-            answer: "Yes, you must appoint at least one director who currently resides in Australia."
+            question: "How long does it take to register a company in Australia?",
+            answer: "Company registration in Australia typically takes 1–3 business days once all documents are submitted correctly."
         },
         {
-            question: "What are the key requirements for registration?",
-            answer: "Key requirements include at least one shareholder, one resident director, a local registered office address, and a unique business name."
+            question: "Can a foreigner start a company in Australia?",
+            answer: "Yes, foreign entrepreneurs can register a company in Australia. However, at least one director must be an Australian resident."
         },
         {
-            question: "What taxes do I need to register for?",
-            answer: "You typically need to register for Goods and Services Tax (GST) if your turnover exceeds AUD 75,000, along with obtaining a Tax File Number (TFN) and registering for Pay As You Go (PAYG) withholding if you have employees."
+            question: "What is the minimum capital required?",
+            answer: "Australia does not impose a strict minimum capital requirement for company registration, making it easier for startups to begin operations."
         },
         {
-            question: "Can a foreign company operate in Australia without a full subsidiary?",
-            answer: "Yes, a foreign company can establish an Australian Branch Office. It is not a separate legal entity, and the parent company remains liable for its debts."
+            question: "Do I need a local address in Australia?",
+            answer: "Yes, every company must have a registered office address located in Australia for official correspondence."
         },
         {
-            question: "How long does the registration process take?",
-            answer: "Once all documents are prepared and the application is submitted to ASIC, the certificate of incorporation is often issued quickly, sometimes within minutes to a few days."
+            question: "Is company registration in Australia suitable for startups?",
+            answer: "Yes. Australia offers a strong startup ecosystem, innovation support, and global market opportunities, making it attractive for new businesses."
         }
     ];
 
@@ -281,21 +290,14 @@ const CompanyRegistrationAustralia = () => {
 
             {/* ================= SECTION 1: HERO ================= */}
             <HeroLayout
-                heroTitleMain="Company Registration"
-                heroTitleSuffix="in Australia"
-                heroSubtitle="Fast Approval with VyomBiz®"
-                heroDescription="Start your business in Australia's stable and growing economy. We handle ABN registration, compliance, and setup so you can focus on growth."
+                heroTitleMain="Start Your Australian Business"
+                heroTitleSuffix="the Smart Way"
+                heroSubtitle="Company Registration in Australia"
+                heroDescription="Expand globally by registering your company in Australia — one of the world’s most stable and business-friendly economies. From company incorporation to compliance support, we simplify the entire process so you can focus on growing your business."
                 whatsIncludedList={[
-                    "ABN Registration Support",
-                    "Virtual Office Address (3 Months)",
-                    "GST Registration Assistance",
-                    "Director Identification Number (DIN)",
-                    "Nominee Director Services"
-                ]}
-                stats={[
-                    { count: "500+", label: "Registered", icon: <Users size={20} /> },
-                    { count: "10+", label: "Years Experience", icon: <Briefcase size={20} /> },
-                    { count: "99%", label: "Success Rate", icon: <Building2 size={20} /> }
+                    "Fast & compliant company registration",
+                    "Expert assistance with ASIC regulations",
+                    "End-to-end support from documentation to incorporation"
                 ]}
             />
 
