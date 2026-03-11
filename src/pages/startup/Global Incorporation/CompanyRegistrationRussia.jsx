@@ -4,9 +4,9 @@ import { Users, Briefcase, Building2 } from "lucide-react";
 import HeroLayout from "../../../components/common/HeroLayout.jsx";
 import DetailsLayout from "../../../components/common/DetailsLayout.jsx";
 import FAQLayout from "../../../components/common/FAQLayout.jsx";
-import benefits from '../../../assets/Global Incorporation/ Company Registration in Russia/benefits.png'
-import overview from '../../../assets/Global Incorporation/ Company Registration in Russia/overview.png'
-import process from '../../../assets/Global Incorporation/ Company Registration in Russia/process.png'
+import benefits from '../../../assets/Global Incorporation/Company Registration in Russia/benefits.png'
+import overview from '../../../assets/Global Incorporation/Company Registration in Russia/overview.png'
+import process from '../../../assets/Global Incorporation/Company Registration in Russia/process.png'
 
 
 /**
