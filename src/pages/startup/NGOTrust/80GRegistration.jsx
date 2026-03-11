@@ -23,16 +23,16 @@ const Registration80GOverview = () => {
                             Tax Exemption
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            80G Registration – <span className="text-[#005a9c]">An Overview</span>
+                            80G Registration – <span className="text-[#005a9c]">Overview</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            An 80G registration is a certificate issued by the Income Tax Department that aims at encouraging donors to claim tax deductions on contributions made to eligible NGOs and charitable institutions. It provides a pathway allowing donors to receive financial relief by claiming a deduction for the amount donated from their taxable income, thereby incentivizing philanthropy.
+                            80G registration is a certification issued by the Income Tax Department that allows donors to claim tax deductions on donations made to eligible NGOs and charitable institutions. This provision allows donors to reduce their taxable income by claiming deductions on donated amounts, encouraging charitable contributions.
                         </p>
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
                             What is Section 80G?
                         </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Section 80G of the Income Tax Act, 1961, enables individuals and organizations to claim tax deductions on donations made to eligible charitable organizations. This registration is vital for any NGO looking to raise funds from the public or corporate sector, as it offers a direct financial benefit to the donor.
+                            Section 80G of the Income Tax Act, 1961 allows individuals and organizations to claim tax deductions on donations made to approved charitable institutions. This registration is important for NGOs seeking donations from individuals or corporates because it provides a financial incentive to donors.
                         </p>
 
 
@@ -63,7 +63,7 @@ const Registration80GAdvantages = () => {
                         Benefits of 80G Registration
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Securing 80G registration offers multiple advantages for both the NGO and its supporters.
+                        Obtaining 80G registration provides several benefits for NGOs as well as their donors.
                     </p>
                     <div className="mt-10">
                         <img
@@ -77,12 +77,12 @@ const Registration80GAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Tax Deduction for Donors", desc: "Donors can claim a tax deduction of 50% or 100% of the donated amount, incentivizing larger donations." },
-                        { title: "Enhanced Credibility", desc: "Possessing an 80G certificate serves as a badge of trust and transparency for potential donors." },
-                        { title: "Wider Donor Reach", desc: "Helps non-profit entities reach a wider pool of corporate and individual donors seeking tax benefits." },
-                        { title: "Government Grants", desc: "Essential for applying to various government schemes, grants, and CSR funding opportunities." },
-                        { title: "Legal Compliance", desc: "Ensures the NGO is legally recognized and operating in compliance with Indian tax laws." },
-                        { title: "Financial Stability", desc: "Increases the ability to expand operations due to better inflow of funds and long-term financial stability." }
+                        { title: "Tax Deduction for Donors", desc: "Donors can claim tax deductions of 50% or 100% of the donated amount, encouraging greater contributions." },
+                        { title: "Enhanced Credibility", desc: "An 80G certificate increases credibility and builds trust among donors and funding organizations." },
+                        { title: "Wider Donor Reach", desc: "Helps NGOs attract more individual and corporate donors looking for tax-saving opportunities." },
+                        { title: "Government Grants", desc: "Important for accessing government grants, CSR funds, and institutional funding programs." },
+                        { title: "Legal Compliance", desc: "Confirms that the NGO operates in compliance with applicable tax regulations in India." },
+                        { title: "Financial Stability", desc: "Improves fundraising potential and helps maintain long-term financial sustainability." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -109,8 +109,8 @@ const Registration80GEligibility = () => {
                 </h2>
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    To apply for 80G Registration in India, it's essential to understand the eligibility criteria first.
-                    Checklist to determine if your NGO is eligible for Section 80G Certificate:
+                    Before applying for 80G registration, it is important to understand the eligibility requirements.
+                    The following checklist helps determine whether an NGO qualifies for 80G registration.
                 </p>
 
                 {/* Registered NGO */}
@@ -123,13 +123,13 @@ const Registration80GEligibility = () => {
                             <span className="font-semibold text-[#072b47]">
                                 Legal Structure –
                             </span>{" "}
-                            Must be a Trust, Society, or Section 8 Company registered under relevant acts.
+                            The organization must be registered as a Trust, Society, or Section 8 Company.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">
                                 Valid Registration –
                             </span>{" "}
-                            Must have a valid registration certificate from the appropriate authority.
+                            A valid registration certificate from the relevant authority is required.
                         </li>
                     </ul>
                 </div>
@@ -142,11 +142,11 @@ const Registration80GEligibility = () => {
                     <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
                         <li>
                             <span className="font-semibold text-[#072b47]">Purpose – </span>
-                            Assets and income must be utilized strictly for charitable or religious purposes.
+                            Income and assets must be used strictly for charitable activities.
                         </li>
                         <li>
-                            <span className="font-semibold text-[#072b47]">No Business Income – </span>
-                            Should not have significant business income; any business must be incidental to objectives.
+                            <span className="font-semibold text-[#072b47]">Business Activity – </span>
+                            Any business activity should only be incidental to the NGO’s main objectives.
                         </li>
                     </ul>
                 </div>
@@ -155,17 +155,17 @@ const Registration80GEligibility = () => {
                 <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
                     <p>
                         <span className="font-semibold text-[#072b47]">NGO Darpan – </span>
-                        Registration on the Niti Aayog's NGO Darpan portal is often required.
+                        Registration on the NITI Aayog NGO Darpan portal may be required.
                     </p>
 
                     <p>
                         <span className="font-semibold text-[#072b47]">Proper Accounts – </span>
-                        Must maintain impeccable accounting records and have annual audits conducted.
+                        The NGO must maintain accurate financial records and conduct regular audits.
                     </p>
 
                     <p>
-                        <span className="font-semibold text-[#072b47]">No Religious Bias – </span>
-                        Should not be formed for the benefit of any specific religious community or caste.
+                        <span className="font-semibold text-[#072b47]">Non-Discriminatory – </span>
+                        The organization should not operate solely for the benefit of a specific religious community or caste.
                     </p>
                 </div>
 
@@ -192,7 +192,7 @@ const Registration80GDocumentsSection = () => {
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
                     To apply for 80G Registration, you need to submit the following documents along with Form 10A/10AB.
-                    Essential documents for the 80G Registration application are mentioned below:
+                    The following documents are generally required for the 80G registration application.
                 </p>
 
                 {/* Documents List */}
@@ -242,23 +242,23 @@ const Registration80GProcessSection = () => {
     const steps = [
         {
             title: "Documentation",
-            desc: "Gather all necessary legal and financial documents of the NGO including registration certificate, PAN, financial statements, and activity reports."
+            desc: "Collect all required legal and financial documents such as registration certificate, PAN, financial statements, and activity details."
         },
         {
             title: "Form 10A/10AB",
-            desc: "File the application online via Form 10A (Provisional) or 10AB (Regular) through the income tax e-filing portal."
+            desc: "Submit the application online using Form 10A or Form 10AB through the Income Tax e-filing portal."
         },
         {
             title: "Verification",
-            desc: "The Income Tax Commissioner verifies the application and documents submitted."
+            desc: "The Income Tax Department reviews the submitted application and supporting documents."
         },
         {
             title: "Clarifications",
-            desc: "Respond to any queries or additional information sought by the department."
+            desc: "Provide clarifications or additional documents if requested by the department."
         },
         {
             title: "Approval",
-            desc: "Upon satisfaction, the 80G Registration Order is issued by the Income Tax Department."
+            desc: "After successful verification, the Income Tax Department issues the 80G registration approval."
         }
     ];
 
@@ -409,7 +409,7 @@ const Registration80G = () => {
     const faqs = [
         {
             question: "What are the benefits of an 80G certificate?",
-            answer: "An 80G certificate allows donors to claim tax deductions (50% or 100%) on their donations. it also enhances the credibility of the NGO, attracts more donors, and opens doors to government grants and CSR funding."
+            answer: "An 80G certificate allows donors to claim tax deductions of 50% or 100% on eligible donations. It also improves the NGO’s credibility, encourages more donations, and supports access to grants and CSR funding opportunities."
         },
         {
             question: "Who is eligible for 80G Registration?",
@@ -437,7 +437,7 @@ const Registration80G = () => {
                 heroTitleMain="80G Registration"
                 heroTitleSuffix="for NGOs"
                 heroSubtitle="Unlock Tax Benefits & Donor Trust"
-                heroDescription="Get hassle-free 80G registration for your NGO. Enable your donors to claim tax deductions and boost your fundraising credibility with expert guidance."
+                heroDescription="Apply for 80G registration for your NGO with expert support. Allow donors to claim tax deductions and strengthen your fundraising credibility with a smooth registration process."
                 whatsIncludedList={[
                     "Tax Exemption Benefits for Donors",
                     "Enhanced NGO Credibility",
@@ -445,9 +445,9 @@ const Registration80G = () => {
                     "End-to-End Application Support"
                 ]}
                 stats={[
-                    { count: "10,000+", label: "80G Certificates", icon: <Users size={20} /> },
-                    { count: "5000+", label: "NGOs Assisted", icon: <Briefcase size={20} /> },
-                    { count: "99%", label: "Approval Rate", icon: <Building2 size={20} /> }
+                    { count: "10,000+", label: "80G Registrations Processed", icon: <Users size={20} /> },
+                    { count: "5000+", label: "NGOs Supported", icon: <Briefcase size={20} /> },
+                    { count: "99%", label: "Successful Approvals", icon: <Building2 size={20} /> }
                 ]}
             />
 

@@ -13,26 +13,24 @@ const CompanyRegistrationHongKongOverview = () => {
             <div className="max-w-7xl mx-auto px-6 lg:px-12">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16 lg:gap-24">
                     <div>
-                        <span className="inline-block px-4 py-1.5 text-sm font-semibold bg-[#e6f0fa] text-[#005a9c] rounded-full mb-4">
-                            Financial Hub
-                        </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Company Registration in Hong Kong – <span className="text-[#005a9c]">An Overview</span>
+                            Why Start a Company in Hong Kong?
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Hong Kong is one of the world's leading financial centers and a major commercial hub. Its strategic location, low taxation, and free-market economy make it an ideal choice for international businesses.
+                            Hong Kong has long been considered one of the most strategic destinations for international business expansion. Its strong financial ecosystem, transparent regulations, and tax advantages make it an attractive choice for startups, SMEs, and multinational companies.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The city serves as a perfect gateway to Mainland China, boosted by the Closer Economic Partnership Agreement (CEPA), which provides easy access to China’s vast market.
+                            Some key reasons why entrepreneurs prefer Hong Kong company incorporation include:
                         </p>
-                        <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Why Hong Kong?
-                        </h3>
+                        <ul className="space-y-4 mb-6 text-[17px] text-slate-600 leading-relaxed font-medium">
+                            <li><strong className="text-[#072b47]">Low and Simple Tax Structure:</strong> Hong Kong follows a territorial tax system, meaning only profits generated within Hong Kong are taxable.</li>
+                            <li><strong className="text-[#072b47]">100% Foreign Ownership Allowed:</strong> Foreign entrepreneurs can fully own and operate a Hong Kong company without needing a local partner.</li>
+                            <li><strong className="text-[#072b47]">Strategic Global Location:</strong> Hong Kong acts as a gateway to Asian markets, particularly Mainland China.</li>
+                            <li><strong className="text-[#072b47]">Strong Banking & Financial Infrastructure:</strong> The city is home to some of the world’s largest banks and financial institutions.</li>
+                            <li><strong className="text-[#072b47]">Quick Company Formation:</strong> Businesses can typically be incorporated within a few days with proper documentation.</li>
+                        </ul>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Hong Kong offers a simple and transparent tax system with no Value Added Tax (VAT), no Goods and Services Tax (GST), and no tax on dividends or capital gains.
-                        </p>
-                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            A Private Limited Company is the most popular business structure for foreign investors due to its separate legal entity status and limited liability protection.
+                            Through Vyombiz managed by Clink Consultancy Services Private Limited, businesses receive structured guidance to complete incorporation smoothly while ensuring compliance with Hong Kong regulations.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -54,14 +52,11 @@ const CompanyRegistrationHongKongAdvantages = () => {
             <div className="grid lg:grid-cols-2 gap-16 w-full">
                 {/* LEFT SIDE (STICKY) */}
                 <div className="lg:sticky lg:top-28 h-fit self-start">
-                    <span className="inline-block px-4 py-1.5 text-sm font-semibold bg-[#e6f0fa] text-[#005a9c] rounded-full mb-6">
-                        Why It Is Vital
-                    </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of Incorporation
+                        Benefits of Hong Kong Company Registration for Global Businesses
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Hong Kong offers a competitive edge with its pro-business environment.
+                        Hong Kong offers significant strategic advantages for businesses planning international expansion.
                     </p>
                     <div className="mt-10">
                         <img
@@ -70,17 +65,19 @@ const CompanyRegistrationHongKongAdvantages = () => {
                             className="w-full rounded-2xl shadow-xl"
                         />
                     </div>
+                    <p className="text-[17px] text-slate-600 leading-relaxed font-medium mt-8">
+                        With expert guidance from Vyombiz managed by Clink Consultancy Services Private Limited, entrepreneurs can fully leverage these advantages.
+                    </p>
                 </div>
 
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Low Tax Regime", desc: "8.25% tax on first HK$2M profits, 16.5% on remainder. No VAT or capital gains tax." },
-                        { title: "Gateway to China", desc: "CEPA agreement offers preferential access to the Mainland Chinese market." },
-                        { title: "100% Foreign Ownership", desc: "Full ownership allowed for foreigners without the need for a local partner." },
-                        { title: "Ease of Doing Business", desc: "Consistently ranked among the top places globally for ease of business setup." },
-                        { title: "Global Financial Hub", desc: "Access to world-class banking, financial services, and investment capital." },
-                        { title: "Strong Legal System", desc: "Based on English Common Law, providing strong protection for intellectual property." }
+                        { title: "International Business Reputation", desc: "Companies registered in Hong Kong enjoy strong global credibility." },
+                        { title: "Access to Asian Markets", desc: "Businesses gain direct entry into one of the fastest-growing economic regions." },
+                        { title: "Business-Friendly Regulations", desc: "Hong Kong has a transparent legal framework that supports entrepreneurs." },
+                        { title: "Efficient Corporate Environment", desc: "Minimal bureaucracy makes it easy to operate and scale businesses." },
+                        { title: "Attractive Tax Policies", desc: "Low corporate tax rates help maximize profitability." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -98,35 +95,68 @@ const CompanyRegistrationHongKongAdvantages = () => {
 };
 
 const HongKongIncorporationEligibility = () => {
-    const list = [
-        { title: "Company Name", desc: "Must be unique and not infringe on existing trademarks." },
-        { title: "Directors", desc: "Minimum one director (individual) of any nationality, resident or non-resident." },
-        { title: "Shareholders", desc: "Minimum one shareholder (person or corporate) of any nationality." },
-        { title: "Company Secretary", desc: "Must be a local individual or a body corporate with a registered office in HK." },
-        { title: "Registered Office", desc: "Must handle a physical address in Hong Kong (PO Box not allowed)." },
-        { title: "Share Capital", desc: "Minimum issued share capital is usually HK$1." }
+    const types = [
+        { title: "Private Limited Company", desc: "This is the most common and recommended business structure for entrepreneurs. A private limited company offers limited liability protection and is widely recognized by banks and investors." },
+        { title: "Sole Proprietorship", desc: "A simple business structure owned and operated by a single individual. While easy to set up, it does not offer liability protection." },
+        { title: "Partnership Firm", desc: "Two or more individuals can jointly operate a business through a partnership. Profits and responsibilities are shared based on partnership agreements." },
+        { title: "Branch Office", desc: "Foreign companies can establish a branch office in Hong Kong to expand their international operations while maintaining the parent company structure." },
+        { title: "Representative Office", desc: "This structure allows businesses to explore the Hong Kong market but does not permit commercial trading activities." }
     ];
+
+    const requirements = [
+        { title: "At Least One Director", desc: "The director can be of any nationality and does not need to be a Hong Kong resident." },
+        { title: "One Shareholder", desc: "A minimum of one shareholder is required. Directors and shareholders can be the same person." },
+        { title: "Company Secretary", desc: "Every Hong Kong company must appoint a company secretary who is a Hong Kong resident or a corporate service provider." },
+        { title: "Registered Office Address", desc: "A local Hong Kong registered office address is mandatory." },
+        { title: "Share Capital", desc: "There is no strict minimum capital requirement, though a standard practice is issuing at least one share." }
+    ];
+
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
-                <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    What are the Eligibility Criteria for Hong Kong Company Registration?
-                </h2>
-                <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Essential criteria to register a company in Hong Kong.
-                </p>
-                <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
-                    {list.map((item, i) => (
-                        <p key={i}>
-                            <span className="font-semibold text-[#072b47]">{item.title} – </span>
-                            {item.desc}
-                        </p>
-                    ))}
+                <div className="mb-16">
+                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        Types of Companies You Can Register in Hong Kong
+                    </h2>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
+                        Hong Kong allows multiple business structures depending on your business goals and operational requirements.
+                    </p>
+                    <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
+                        {types.map((item, i) => (
+                            <p key={i}>
+                                <span className="font-semibold text-[#072b47]">{item.title} – </span>
+                                {item.desc}
+                            </p>
+                        ))}
+                    </div>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                        Choosing the right structure is important, and Vyombiz managed by Clink Consultancy Services Private Limited helps businesses determine the most suitable entity based on their expansion goals.
+                    </p>
                 </div>
-                <div className="mt-12 text-center">
-                    <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Check Your Eligibility Now
-                            </Link>
+                
+                <div>
+                   <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        Key Requirements for Hong Kong Company Registration
+                    </h2>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
+                        To incorporate a company in Hong Kong, certain legal requirements must be fulfilled.
+                    </p>
+                    <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
+                        {requirements.map((item, i) => (
+                            <p key={i}>
+                                <span className="font-semibold text-[#072b47]">{item.title} – </span>
+                                {item.desc}
+                            </p>
+                        ))}
+                    </div>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                        With the assistance of Vyombiz managed by Clink Consultancy Services Private Limited, businesses can meet these requirements efficiently while ensuring proper legal documentation.
+                    </p> 
+                    <div className="mt-12 text-center">
+                        <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
+                                    Check Your Eligibility Now
+                        </Link>
+                    </div>
                 </div>
             </div>
         </section>
@@ -135,28 +165,30 @@ const HongKongIncorporationEligibility = () => {
 
 const HongKongIncorporationDocumentsSection = () => {
     const list = [
-        "Incorporation Form (NNC1)",
-        "Copy of Articles of Association (AOA)",
-        "Notice to Business Registration Office (IRBR1)",
-        "Passport Copies of Directors & Shareholders",
-        "Address Proof of Directors & Shareholders",
-        "Company Secretary Details",
-        "Registered Office Address Proof"
+        "Passport copy of directors and shareholders",
+        "Proof of residential address",
+        "Proposed company name",
+        "Details of business activities",
+        "Shareholding structure information",
+        "Memorandum and Articles of Association (if applicable)"
     ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Documents Required for Hong Kong Company Registration
+                    Documents Required for Hong Kong Company Incorporation
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Documents required for a smooth registration process.
+                    To register a company in Hong Kong, the following documents are generally required:
                 </p>
-                <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
+                <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside">
                     {list.map((item, i) => (
                         <li key={i}>{item}</li>
                     ))}
                 </ul>
+                <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                    Submitting accurate documentation ensures faster approval from Hong Kong authorities.
+                </p>
             </div>
         </section>
     );
@@ -164,22 +196,20 @@ const HongKongIncorporationDocumentsSection = () => {
 
 const HongKongIncorporationProcessSection = () => {
     const steps = [
-        { title: "Name Search", desc: "Check availability of proposed company name in Companies Registry." },
-        { title: "Prepare Documents", desc: "Draft AOA and gather KYC documents for directors/shareholders." },
-        { title: "Submit Application", desc: "File NNC1 and other forms with the Companies Registry." },
-        { title: "Certificate Issuance", desc: "Receive Certificate of Incorporation and Business Registration Certificate." },
-        { title: "Post-Incorp Setup", desc: "Open corporate bank account and apply for any specific business licenses." }
+        { title: "Company Name Approval", desc: "The first step involves checking the availability of the proposed company name with the Hong Kong Companies Registry." },
+        { title: "Document Preparation", desc: "All required documents such as director details, shareholder information, and incorporation forms are prepared." },
+        { title: "Submission to Companies Registry", desc: "The application is submitted to the Hong Kong Companies Registry for approval." },
+        { title: "Certificate of Incorporation Issued", desc: "Once approved, the company receives its official Certificate of Incorporation." },
+        { title: "Business Registration Certificate", desc: "After incorporation, the Business Registration Certificate is obtained from the Inland Revenue Department." },
+        { title: "Corporate Bank Account Setup", desc: "A corporate bank account is opened to conduct business transactions smoothly." }
     ];
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        How to Register a Company in Hong Kong?
+                        Step-by-Step Process for Hong Kong Company Registration
                     </h2>
-                    <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        Fast and efficient path to owning a Hong Kong company.
-                    </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
                     <div className="lg:col-span-1">
@@ -196,6 +226,9 @@ const HongKongIncorporationProcessSection = () => {
                             </div>
                         ))}
                         <div className="border-t border-slate-200" />
+                        <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                            Businesses working with Vyombiz managed by Clink Consultancy Services Private Limited receive professional support throughout each stage of the incorporation process.
+                        </p>
                         <div className="mt-12 text-center">
                             <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
                                 Start Your Registration
@@ -209,39 +242,75 @@ const HongKongIncorporationProcessSection = () => {
 };
 
 const HongKongIncorporationFeaturesSection = () => {
-    const features = [
-        { title: "One-Stop Solution", desc: "We handle everything from incorporation to company secretarial duties." },
-        { title: "Fast Incorporation", desc: "Leverage our digital capabilities for rapid 1-day registration." },
-        { title: "Bank Account Support", desc: "Assistance with opening neobank or traditional bank accounts." },
-        { title: "Tax Compliance", desc: "Guidance on profit tax returns and annual audits." },
-        { title: "Registered Address", desc: "We can provide a prestigious registered office address." },
-        { title: "Company Secretary", desc: "Professional corporate secretarial services included." },
-        { title: "Global Reach", desc: "Part of a network enabling cross-border business growth." },
-        { title: "Transparent Pricing", desc: "Clear fee structure with no hidden charges." }
+    const compliance = [
+        "Annual returns filing",
+        "Maintaining statutory records",
+        "Accounting and auditing requirements",
+        "Business registration renewal",
+        "Corporate tax filing"
     ];
+
+    const whyChooseUs = [
+        "End-to-end Hong Kong company incorporation",
+        "Documentation and legal compliance support",
+        "Business structure consultation",
+        "Post-registration compliance assistance",
+        "Global business expansion guidance"
+    ];
+
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
-                <div className="text-center mb-8">
-                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose VyomBiz?
+                
+                <div className="mb-16">
+                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        Post-Incorporation Compliance in Hong Kong
                     </h2>
-                    <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Expert support for your Hong Kong business expansion.
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                        After incorporation, companies must maintain ongoing compliance to operate legally. Some important compliance requirements include:
+                    </p>
+                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside mb-6">
+                        {compliance.map((item, index) => (
+                            <li key={index}>{item}</li>
+                        ))}
+                    </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed">
+                        Handling these responsibilities properly ensures smooth business operations in Hong Kong.
                     </p>
                 </div>
-                <div>
-                    {features.map((feature, index) => (
-                        <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-300">
-                            <div className="text-[15px] font-semibold text-[#072b47]">{index + 1}.</div>
-                            <div>
-                                <h3 className="text-[16px] font-semibold text-[#072b47]">{feature.title}</h3>
-                                <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">{feature.desc}</p>
-                            </div>
-                        </div>
-                    ))}
-                    <div className="border-t border-slate-300" />
+
+                <div className="mb-16">
+                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        Why Choose Vyombiz for Hong Kong Company Registration?
+                    </h2>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                        Starting a company overseas requires proper planning, documentation, and regulatory compliance. Professional support can make the process faster and more reliable. Vyombiz managed by Clink Consultancy Services Private Limited assists businesses with:
+                    </p>
+                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside mb-6">
+                        {whyChooseUs.map((item, index) => (
+                            <li key={index}>{item}</li>
+                        ))}
+                    </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed">
+                        With a structured process and professional expertise, businesses can establish their Hong Kong presence without unnecessary delays.
+                    </p>
                 </div>
+
+                <div className="bg-[#e6f0fa] rounded-2xl p-8 lg:p-12 text-center">
+                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        Start Your Hong Kong Business Today
+                    </h2>
+                    <p className="text-[17px] text-slate-700 leading-relaxed max-w-4xl mx-auto mb-6">
+                        Expanding into Hong Kong opens doors to global markets, advanced financial infrastructure, and international business credibility.
+                    </p>
+                    <p className="text-[17px] text-slate-700 leading-relaxed max-w-4xl mx-auto mb-8">
+                        With the right incorporation strategy and expert assistance from Vyombiz managed by Clink Consultancy Services Private Limited, your company can successfully establish its presence in one of the world’s leading financial hubs.
+                    </p>
+                    <p className="text-[19px] font-semibold text-[#005a9c]">
+                        Take the first step toward global expansion today.
+                    </p>
+                </div>
+
             </div>
         </section>
     );
@@ -279,8 +348,8 @@ const CompanyRegistrationHongKong = () => {
             <HeroLayout
                 heroTitleMain="Company Registration in"
                 heroTitleSuffix="Hong Kong"
-                heroSubtitle="Premier Global Business Hub"
-                heroDescription="Are you seeking company registration in Hong Kong? Business setup in Hong Kong offers a strategic gateway to Mainland China and Asian markets with a low-tax regime."
+                heroSubtitle="Expand Your Business Globally with Hong Kong Company Registration"
+                heroDescription="Hong Kong is one of the world’s most business-friendly jurisdictions, known for its low taxation, simple regulatory framework, and global market access. Setting up a company here allows entrepreneurs and businesses to operate internationally with credibility and efficiency. With expert guidance from Vyombiz managed by Clink Consultancy Services Private Limited, you can complete your Hong Kong company registration quickly, compliantly, and without unnecessary complications. Start your global business journey with confidence."
                 whatsIncludedList={[
                     "Registered Address for 1 Year",
                     "Business Registration Certificate",

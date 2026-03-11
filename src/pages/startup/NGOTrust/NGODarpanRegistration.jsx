@@ -30,13 +30,13 @@ const DarpanOverview = () => {
                             Government Grants
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            NGO Darpan Registration – <span className="text-[#005a9c]">An Overview</span>
+                            NGO Darpan Registration – <span className="text-[#005a9c]">Overview</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The NGO Darpan Portal is a platform maintained by NITI Aayog (Govt. of India) that interfaces between Voluntary Organizations (VOs) / NGOs and key government ministries and departments. Registration generates a unique ID for your NGO, which is a mandatory requirement to apply for government grants and schemes.
+                            The NGO Darpan Portal is managed by NITI Aayog and acts as a bridge between NGOs/Voluntary Organizations and various government ministries and departments. Registration on the portal generates a unique Darpan ID, which is required for NGOs to apply for government grants and schemes.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            It ensures transparency, efficiency, and accountability in the sector. Without the Darpan ID, you cannot apply for these funds. Your NGO gets listed in a national database, increasing your credibility with other donors, CSR agencies, and the public.
+                            The portal improves transparency, accountability, and coordination between NGOs and government bodies. Without this ID, NGOs are generally not eligible to apply for many government funding programs. Once registered, the NGO is listed in a national database, improving credibility among donors, CSR partners, and the public.
                         </p>
 
 
@@ -67,7 +67,7 @@ const DarpanRegistrationAdvantages = () => {
                         Benefits of Darpan ID
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Get recognized by the Government of India and unlock opportunities for growth.
+                        Gain official recognition and access new funding and collaboration opportunities.
                     </p>
                     <div className="mt-10">
                         <img
@@ -81,12 +81,12 @@ const DarpanRegistrationAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Govt. Grant Access", desc: "Apply for grants from various ministries directly through the portal." },
-                        { title: "Credibility Boost", desc: "Increases trust among stakeholders, partners, and private donors." },
-                        { title: "Information Flow", desc: "Receive timely updates about new government schemes and initiatives." },
-                        { title: "Transparency", desc: "Maintains a transparent record of funds and projects, aiding in compliance." },
-                        { title: "FCRA Assistance", desc: "Helpful for obtaining FCRA registration for foreign contributions." },
-                        { title: "Networking", desc: "Part of a massive network of voluntary organizations across India." }
+                        { title: "Govt. Grant Access", desc: "Apply for grants and schemes offered by different government ministries through the portal." },
+                        { title: "Credibility Boost", desc: "Enhances trust and credibility among donors, partners, and stakeholders." },
+                        { title: "Information Flow", desc: "Receive updates about newly launched government schemes and initiatives." },
+                        { title: "Transparency", desc: "Helps maintain transparency in project activities and funding records." },
+                        { title: "FCRA Assistance", desc: "Supports NGOs in the process of obtaining FCRA registration for foreign funding." },
+                        { title: "Networking", desc: "Connect with a large network of voluntary organizations across India." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -113,8 +113,8 @@ const DarpanEligibility = () => {
                 </h2>
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    To register on the NGO Darpan portal, it's essential to understand the eligibility criteria first.
-                    Entities eligible for NGO Darpan Registration are mentioned below-
+                    Before registering on the NGO Darpan portal, it is important to understand the eligibility requirements.
+                    The following entities are eligible for NGO Darpan registration.
                 </p>
 
                 {/* Registered Entities */}
@@ -127,19 +127,19 @@ const DarpanEligibility = () => {
                             <span className="font-semibold text-[#072b47]">
                                 Registered Society –
                             </span>{" "}
-                            Societies registered under the Societies Registration Act, 1860.
+                            Societies registered under the Societies Registration Act, 1860 are eligible.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">
                                 Charitable Trust –
                             </span>{" "}
-                            Trusts registered under the Indian Trusts Act, 1882.
+                            Charitable trusts registered under the Indian Trusts Act, 1882 can apply.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">
                                 Section 8 Company –
                             </span>{" "}
-                            Non-profit companies under Section 8 of the Companies Act, 2013.
+                            Non-profit companies incorporated under Section 8 of the Companies Act, 2013 are eligible.
                         </li>
                     </ul>
                 </div>
@@ -148,17 +148,17 @@ const DarpanEligibility = () => {
                 <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
                     <p>
                         <span className="font-semibold text-[#072b47]">Valid Registration – </span>
-                        Must possess a valid Registration Certificate.
+                        The organization must have a valid registration certificate.
                     </p>
 
                     <p>
                         <span className="font-semibold text-[#072b47]">PAN Card – </span>
-                        PAN Card in the name of the NGO/Entity.
+                        A PAN card issued in the name of the NGO or organization.
                     </p>
 
                     <p>
                         <span className="font-semibold text-[#072b47]">Governing Body – </span>
-                        A functioning governing body or executive committee.
+                        A functioning governing body or executive committee must be present.
                     </p>
                 </div>
 
@@ -185,7 +185,7 @@ const DarpanDocumentsSection = () => {
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
                     To register on the NGO Darpan portal, you need to submit the following documents and details.
-                    Essential documents and details for registration are mentioned below:
+                    The following documents and details are required for registration.
                 </p>
 
                 {/* Documents List */}
@@ -243,23 +243,23 @@ const DarpanProcessSection = () => {
     const steps = [
         {
             title: "Sign Up",
-            desc: "Create an account on the NGO Darpan Portal with basic details."
+            desc: "Create an account on the NGO Darpan portal by providing basic details."
         },
         {
             title: "Profile",
-            desc: "Fill basic details including PAN, Registration Number, and organization information."
+            desc: "Enter organization details including PAN, registration number, and contact information."
         },
         {
             title: "Members",
-            desc: "Add details of 3 executive members with their PAN and Aadhaar."
+            desc: "Provide details of at least three executive members along with PAN and Aadhaar."
         },
         {
             title: "Upload",
-            desc: "Upload Registration Certificate & Trust Deed/MoA documents."
+            desc: "Upload registration certificate along with Trust Deed or MoA documents."
         },
         {
             title: "Get ID",
-            desc: "Unique ID is generated upon approval from NITI Aayog."
+            desc: "After verification, a unique Darpan ID is issued by NITI Aayog."
         }
     ];
 
@@ -336,23 +336,23 @@ const DarpanFeaturesSection = () => {
     const features = [
         {
             title: "Seamless Registration",
-            desc: "Hassle-free process handling by experts ensuring smooth registration."
+            desc: "Expert support ensures a smooth and hassle-free registration process."
         },
         {
             title: "Document Verification",
-            desc: "Thorough check to avoid rejection and ensure accurate submission."
+            desc: "Complete document verification to reduce errors and avoid application rejection."
         },
         {
             title: "Profile Management",
-            desc: "Assistance in creating an accurate profile with all required details."
+            desc: "Guidance in creating a complete and accurate NGO profile."
         },
         {
             title: "Grant Updates",
-            desc: "Information on relevant government grants and funding opportunities."
+            desc: "Regular updates about relevant government grants and funding programs."
         },
         {
             title: "Compliance Support",
-            desc: "Guidance on maintaining compliance with NITI Aayog requirements."
+            desc: "Support for maintaining compliance with NITI Aayog requirements."
         },
         {
             title: "Expert Consultants",
@@ -370,8 +370,7 @@ const DarpanFeaturesSection = () => {
                         Features of NGO Darpan Registration Services
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        NGO Darpan registration provides access to government grants, enhances credibility,
-                        and connects NGOs with various ministries and departments.
+                        NGO Darpan registration helps NGOs access government schemes, improves credibility, and connects them with ministries and departments.
                     </p>
                 </div>
 
@@ -408,7 +407,7 @@ const DarpanRegistration = () => {
     const faqs = [
         {
             question: "What is NGO Darpan?",
-            answer: "NGO Darpan is a platform maintained by NITI Aayog that acts as an interface between NGOs/VOs and key government ministries/departments. It provides a unique ID to registered entities."
+            answer: "NGO Darpan is an online platform managed by NITI Aayog that connects NGOs and voluntary organizations with government ministries and departments. It provides a unique identification number (Darpan ID) to registered organizations."
         },
         {
             question: "Is Darpan registration mandatory?",
@@ -436,7 +435,7 @@ const DarpanRegistration = () => {
                 heroTitleMain="NGO Darpan"
                 heroTitleSuffix="Registration"
                 heroSubtitle="Unlock Government Grants"
-                heroDescription="A centralized platform by NITI Aayog bridging NGOs and the Government. Get your Unique ID to unlock government grants, schemes, and funding opportunities."
+                heroDescription="A centralized portal by NITI Aayog connecting NGOs with government ministries. Obtain your Unique Darpan ID to access government schemes, grants, and funding opportunities."
                 whatsIncludedList={[
                     "Mandatory for Govt. Grants & Schemes",
                     "Enhances Trust & Credibility",
@@ -444,9 +443,9 @@ const DarpanRegistration = () => {
                     "Lifetime Validity"
                 ]}
                 stats={[
-                    { count: "42K+", label: "Clients", icon: <Users size={20} /> },
-                    { count: "3500+", label: "Experts", icon: <Briefcase size={20} /> },
-                    { count: "50+", label: "Offices", icon: <Building2 size={20} /> }
+                    { count: "40K+", label: "Trusted Clients", icon: <Users size={20} /> },
+                    { count: "3500+", label: "Professional Experts", icon: <Briefcase size={20} /> },
+                    { count: "50+", label: "Service Locations", icon: <Building2 size={20} /> }
                 ]}
             />
 

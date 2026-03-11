@@ -17,22 +17,24 @@ const CompanyRegistrationDubaiOverview = () => {
                             Global Hub
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Company Registration in Dubai – <span className="text-[#005a9c]">An Overview</span>
+                            Why Start a Company in <span className="text-[#005a9c]">Dubai?</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Dubai, with its strategic location at the crossroads of Asia, Africa, and Europe, is your gateway to the international market. It offers a vibrant ecosystem for businesses to thrive, backed by world-class infrastructure and pro-business government policies.
-                        </p>
-                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Foreign investors can now enjoy 100% ownership of their businesses in Dubai, making it one of the most attractive investment destinations globally.
+                            Dubai has rapidly positioned itself as a global business hub connecting Asia, Europe, and Africa. Entrepreneurs choose Dubai not just for tax benefits but also for its stable economy, advanced infrastructure, and investor-friendly regulations.
                         </p>
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Why Setup in Dubai?
+                            Businesses in Dubai benefit from:
                         </h3>
-                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Apart from its strategic advantage, Dubai offers preferential tax rates, 100% repatriation of capital and profits, and a high standard of living.
-                        </p>
-                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Whether you choose a Mainland, Free Zone, or Offshore structure, Dubai provides a secure and stable environment for business growth.
+                        <ul className="list-disc pl-5 mt-4 space-y-2 text-[17px] text-slate-600 font-medium">
+                            <li>0% personal income tax</li>
+                            <li>Access to global markets</li>
+                            <li>Strategic geographic location</li>
+                            <li>Business-friendly government policies</li>
+                            <li>100% foreign ownership in many sectors</li>
+                            <li>Strong banking and financial ecosystem</li>
+                        </ul>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mt-6">
+                            With these advantages, Dubai offers one of the fastest and most profitable environments for launching international businesses.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -58,10 +60,10 @@ const CompanyRegistrationDubaiAdvantages = () => {
                         Why It Is Vital
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of Dubai Registration
+                        Benefits of Company Registration in Dubai
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Unlock unparalleled opportunities with a business setup in Dubai.
+                        Dubai continues to attract entrepreneurs worldwide due to its unmatched business advantages.
                     </p>
                     <div className="mt-10">
                         <img
@@ -75,12 +77,11 @@ const CompanyRegistrationDubaiAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "100% Foreign Ownership", desc: "Complete control over your business on both Mainland and Free Zones." },
-                        { title: "Strategic Location", desc: "Perfect gateway connecting East and West markets." },
-                        { title: "Tax Benefits", desc: "Competitive corporate tax regime and extensive Double Tax Avoidance Agreements." },
-                        { title: "Profit Repatriation", desc: "Freedom to repatriate 100% of capital and profits." },
-                        { title: "World-Class Infrastructure", desc: "Access to state-of-the-art logistics, ports, and transport facilities." },
-                        { title: "Duty-Free Imports", desc: "Benefits from free trade agreements and zones." }
+                        { title: "100% Foreign Ownership", desc: "Recent reforms allow foreign investors to fully own companies in many sectors without requiring a local sponsor." },
+                        { title: "Tax Efficiency", desc: "Businesses benefit from low corporate tax rates and zero personal income tax, making Dubai highly profitable for entrepreneurs." },
+                        { title: "Global Market Access", desc: "Dubai’s strategic location connects businesses to markets across the Middle East, Europe, Asia, and Africa." },
+                        { title: "World-Class Infrastructure", desc: "Dubai offers advanced logistics, banking systems, ports, airports, and digital infrastructure that support rapid business growth." },
+                        { title: "Investor-Friendly Policies", desc: "Government initiatives continuously simplify business regulations to attract international investors." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -99,21 +100,18 @@ const CompanyRegistrationDubaiAdvantages = () => {
 
 const DubaiIncorporationEligibility = () => {
     const list = [
-        { title: "Trade Name", desc: "Must be unique and approved by the Department of Economy and Tourism (DET)." },
-        { title: "Business Activity", desc: "Select the correct activity code matching your business nature." },
-        { title: "Structure Selection", desc: "Choose between Mainland, Free Zone, or Offshore." },
-        { title: "Office Space", desc: "Physical or virtual office address (Ejari) is mandatory." },
-        { title: "Initial Approval", desc: "Obtain initial approval to start the incorporation process." },
-        { title: "External Approvals", desc: "Some activities may require approvals from other government bodies." }
+        { title: "Mainland Company", desc: "A mainland company allows businesses to operate anywhere in the UAE and internationally. It provides the flexibility to work with government entities and local markets." },
+        { title: "Free Zone Company", desc: "Free zones are special economic areas that offer tax exemptions and full foreign ownership. These are ideal for startups, global traders, tech companies, and consulting businesses." },
+        { title: "Offshore Company", desc: "Offshore companies are primarily used for international trading, asset protection, and global investments. They offer privacy and simplified compliance requirements." }
     ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    What are the Eligibility Criteria for Dubai Company Registration?
+                    Types of Company Registration in Dubai
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Key checklist for registering your company in Dubai.
+                    Dubai offers multiple company structures designed to support different business models and industries. Choosing the right structure is essential for compliance and long-term growth.
                 </p>
                 <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
                     {list.map((item, i) => (
@@ -123,11 +121,9 @@ const DubaiIncorporationEligibility = () => {
                         </p>
                     ))}
                 </div>
-                <div className="mt-12 text-center">
-                    <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Check Your Eligibility Now
-                            </Link>
-                </div>
+                <p className="text-[17px] text-slate-600 leading-relaxed mt-10">
+                    Vyombiz managed by Clink Consultancy Services Private Limited helps businesses identify the most suitable company structure based on their goals, industry, and expansion plans.
+                </p>
             </div>
         </section>
     );
@@ -135,14 +131,13 @@ const DubaiIncorporationEligibility = () => {
 
 const DubaiIncorporationDocumentsSection = () => {
     const list = [
-        "Passport Copies (All partners & manaagers)",
-        "Visa/Entry Stamp Pages",
-        "Passport Size Photographs",
-        "Emirates ID (if resident)",
-        "No Objection Certificate (NOC) if employed",
-        "Memorandum of Association (MOA)",
-        "Ejari (Tenancy Contract)",
-        "Business Plan (for certain Free Zones)"
+        "Passport copy of shareholders and directors",
+        "Passport-size photographs",
+        "Business activity details",
+        "Proposed company name options",
+        "Proof of residential address",
+        "Memorandum of Association (MOA) or Articles of Association (AOA)",
+        "Visa copies (if applicable)"
     ];
     return (
         <section className="w-full py-12 bg-white">
@@ -150,14 +145,20 @@ const DubaiIncorporationDocumentsSection = () => {
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
                     Documents Required for Dubai Company Registration
                 </h2>
-                <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Essential documents required for company formation.
+                <p className="text-[17px] text-slate-600 leading-relaxed mb-4">
+                    To incorporate a company in Dubai, businesses must submit certain essential documents. The exact requirements may vary depending on the company structure and business activity.
                 </p>
-                <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
+                <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
+                    Commonly required documents include:
+                </p>
+                <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc pl-5">
                     {list.map((item, i) => (
                         <li key={i}>{item}</li>
                     ))}
                 </ul>
+                <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                    Vyombiz managed by Clink Consultancy Services Private Limited ensures all documentation is prepared accurately to avoid delays in approvals.
+                </p>
             </div>
         </section>
     );
@@ -165,22 +166,22 @@ const DubaiIncorporationDocumentsSection = () => {
 
 const DubaiIncorporationProcessSection = () => {
     const steps = [
-        { title: "Select Activity & Name", desc: "Choose business activity and reserve a trade name." },
-        { title: "Initial Approval", desc: "Apply for initial approval from DET or Free Zone Authority." },
-        { title: "Draft MOA/LSA", desc: "Draft and sign Memorandum of Association or Local Service Agent agreement." },
-        { title: "Office Location", desc: "Rent an office and obtain Ejari (Tenancy Contract)." },
-        { title: "Get Approvals", desc: "Submit documents and get additional approvals if needed." },
-        { title: "License Issuance", desc: "Pay fees and receive your Trade License to commence business." }
+        { title: "Choose Business Activity", desc: "The first step is selecting the business activity that defines the nature of your operations." },
+        { title: "Select Company Structure", desc: "Based on your goals, you must choose between mainland, free zone, or offshore company formation." },
+        { title: "Reserve Company Name", desc: "A unique business name must be approved by the relevant UAE authority." },
+        { title: "Submit Incorporation Documents", desc: "All legal documents and shareholder details must be submitted for verification." },
+        { title: "Obtain Business License", desc: "Once approved, the company receives its official license to operate." },
+        { title: "Open Corporate Bank Account", desc: "The final step involves opening a corporate bank account to start business transactions." }
     ];
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        How to Register a Company in Dubai?
+                        Step-by-Step Process for Company Registration in Dubai
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        Simplified journey to your Dubai Company Incorporation.
+                        Setting up a company in Dubai involves multiple regulatory steps. With expert assistance, the process becomes smooth and efficient.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
@@ -198,10 +199,10 @@ const DubaiIncorporationProcessSection = () => {
                             </div>
                         ))}
                         <div className="border-t border-slate-200" />
-                        <div className="mt-12 text-center">
-                            <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Start Your Registration
-                            </Link>
+                        <div className="bg-[#e6f0fa] border border-[#005a9c] rounded-2xl p-6 mt-10">
+                            <p className="text-[16px] text-[#072b47] leading-relaxed font-medium text-center">
+                                With expert guidance from Vyombiz managed by Clink Consultancy Services Private Limited, the entire process becomes faster and fully compliant with UAE regulations.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -212,37 +213,69 @@ const DubaiIncorporationProcessSection = () => {
 
 const DubaiIncorporationFeaturesSection = () => {
     const features = [
-        { title: "Market Expertise", desc: "Deep knowledge of UAE laws, Free Zones, and Mainland regulations." },
-        { title: "End-to-End Support", desc: "From licensing to visa processing and bank account opening." },
-        { title: "Pro Services", desc: "Efficient handling of government liaisons and document clearances." },
-        { title: "Cost-Effective", desc: "Transparent pricing with no hidden costs." },
-        { title: "Strategic Advice", desc: "Guidance on the best jurisdiction and structure for your business." },
-        { title: "100% Digital", desc: "Streamlined processes with digital documentation support." },
-        { title: "Post-Setup Care", desc: "Assistance with VAT, Corporate Tax, and annual renewals." },
-        { title: "Network Access", desc: "Connect with our network of banking and legal partners." }
+        { title: "Business structure consultation" },
+        { title: "Company name approval and reservation" },
+        { title: "Preparation of legal documentation" },
+        { title: "Government filing and compliance support" },
+        { title: "Business license assistance" },
+        { title: "Corporate bank account support" },
+        { title: "Ongoing compliance and advisory services" }
     ];
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
-                <div className="text-center mb-8">
-                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose VyomBiz?
+                <div className="mb-12">
+                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        How Vyombiz Helps You Register a Company in Dubai
                     </h2>
-                    <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Your trusted partner for hassle-free business setup in Dubai.
+                    <p className="text-[17px] text-slate-600 max-w-4xl leading-relaxed mb-6">
+                        Setting up a company overseas can be complex without the right support. Vyombiz managed by Clink Consultancy Services Private Limited offers end-to-end assistance to simplify the entire process.
+                    </p>
+                    <p className="text-[17px] font-semibold text-slate-700 leading-relaxed mb-6">
+                        Our services include:
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-4">
+                        {features.map((feature, index) => (
+                            <div key={index} className="flex items-center gap-3">
+                                <div className="w-2 h-2 rounded-full bg-[#f59e0b]"></div>
+                                <span className="text-[16px] text-slate-700 font-medium">{feature.title}</span>
+                            </div>
+                        ))}
+                    </div>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                        Our experts ensure that your Dubai company registration is completed efficiently while meeting all regulatory requirements.
                     </p>
                 </div>
-                <div>
-                    {features.map((feature, index) => (
-                        <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-300">
-                            <div className="text-[15px] font-semibold text-[#072b47]">{index + 1}.</div>
-                            <div>
-                                <h3 className="text-[16px] font-semibold text-[#072b47]">{feature.title}</h3>
-                                <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">{feature.desc}</p>
-                            </div>
-                        </div>
-                    ))}
-                    <div className="border-t border-slate-300" />
+                
+                <div className="mb-12 p-8 bg-slate-50 border border-slate-100 rounded-3xl">
+                    <h3 className="text-2xl font-bold text-[#072b47] mb-4">Who Should Register a Company in Dubai?</h3>
+                    <p className="text-[16px] text-slate-600 leading-relaxed mb-6">
+                        Dubai is ideal for entrepreneurs and businesses looking to expand internationally. It is especially suitable for:
+                    </p>
+                    <ul className="grid md:grid-cols-2 gap-3 text-slate-700 font-medium">
+                        <li>• Startups entering global markets</li>
+                        <li>• E-commerce businesses</li>
+                        <li>• IT and technology companies</li>
+                        <li>• International traders and exporters</li>
+                        <li>• Consultants and service providers</li>
+                        <li>• Investors seeking tax-efficient structures</li>
+                    </ul>
+                    <p className="text-[16px] text-slate-600 leading-relaxed mt-6">
+                        With the right incorporation strategy, Dubai can become a powerful base for scaling your global business operations.
+                    </p>
+                </div>
+                
+                <div className="mt-16 bg-[#072b47] rounded-3xl p-10 text-center text-white">
+                    <h2 className="text-3xl font-semibold mb-4">Start Your Dubai Business Today</h2>
+                    <p className="text-lg text-slate-300 max-w-3xl mx-auto mb-4">
+                        Dubai offers unmatched opportunities for entrepreneurs ready to build international businesses. With its strong economy, investor-friendly policies, and global connectivity, registering a company in Dubai is a strategic move for long-term success.
+                    </p>
+                    <p className="text-lg text-slate-300 max-w-3xl mx-auto mb-8">
+                        Vyombiz managed by Clink Consultancy Services Private Limited provides professional guidance and complete support throughout the company registration process, ensuring your business starts on the right foundation.
+                    </p>
+                    <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="inline-block bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-4 rounded-xl shadow-lg transition">
+                        Take the first step toward global expansion and register your Dubai company today
+                    </Link>
                 </div>
             </div>
         </section>
@@ -281,8 +314,8 @@ const CompanyRegistrationDubai = () => {
             <HeroLayout
                 heroTitleMain="Company Registration in"
                 heroTitleSuffix="Dubai"
-                heroSubtitle="Gateway to Global Business"
-                heroDescription="Are you seeking company registration in Dubai? Join the club of thousands of foreign entrepreneurs who’ve successfully built a strong business presence in Dubai with our expert guidance."
+                heroSubtitle="Start Your Dubai Company — The Gateway to Global Business"
+                heroDescription="Dubai has become one of the world’s most attractive destinations for entrepreneurs and investors. With tax advantages, global connectivity, and a business-friendly ecosystem, setting up a company in Dubai opens doors to international markets. Launch your Dubai company with confidence. Vyombiz managed by Clink Consultancy Services Private Limited simplifies the entire incorporation process — from documentation to final approvals — so you can focus on growing your business."
                 whatsIncludedList={[
                     "100% Foreign Ownership",
                     "Trade License for 1 Year",

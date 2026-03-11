@@ -24,22 +24,16 @@ const CompanyRegistrationUSAOverview = () => {
                             Global Expansion
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Company Registration in USA – <span className="text-[#005a9c]">An Overview</span>
+                            Expand Globally With a <span className="text-[#005a9c]">US Company</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The USA is the world's largest economy, offering a robust infrastructure, diverse consumer base, and a business-friendly environment for startups and established enterprises.
+                            The United States is one of the most attractive destinations for entrepreneurs and startups looking to operate globally. Setting up a company in the US offers credibility, access to international markets, global payment systems, and strong legal protection.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Registering a company in the USA provides credibility, access to global capital markets, and the ability to conduct business in USD. Non-residents can easily form an LLC or C-Corporation.
-                        </p>
-                        <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Why USA?
-                        </h3>
-                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The US offers strong intellectual property protection, limited liability for owners, and a flexible legal framework. It serves as a gateway to international trade and innovation.
+                            Many founders, freelancers, SaaS businesses, and e-commerce entrepreneurs choose US incorporation because it provides a strong brand presence and opens doors to global investors and customers.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            With 100% foreign ownership allowed, entrepreneurs can establish their presence without needing a local partner.
+                            Vyombiz managed by Clink Consultancy Services Private Limited helps entrepreneurs worldwide register their US companies with a simplified process. Our experts handle documentation, filing, and compliance so you can focus on building your business.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -65,10 +59,10 @@ const CompanyRegistrationUSAAdvantages = () => {
                         Why It Is Vital
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of USA Company Registration
+                        Why Register a Company in the USA?
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Unlock global opportunities and secure your business future with a US incorporation.
+                        Registering a company in the US offers several advantages for global entrepreneurs and businesses looking to expand internationally.
                     </p>
                     <div className="mt-10">
                         <img
@@ -82,12 +76,11 @@ const CompanyRegistrationUSAAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "100% Foreign Ownership", desc: "Non-US residents can own 100% of the company." },
-                        { title: "Limited Liability", desc: "Personal assets are protected from business debts and lawsuits." },
-                        { title: "Global Credibility", desc: "A US-registered company commands respect and trust internationally." },
-                        { title: "Access to Capital", desc: "Easier access to venture capital, angel investors, and public markets." },
-                        { title: "Tax Benefits", desc: "Favorable tax treaties and potential deductions for business expenses." },
-                        { title: "Intellectual Property", desc: "Strong legal framework for protecting trademarks, patents, and copyrights." }
+                        { title: "Global Business Credibility", desc: "A US-registered company builds trust with international clients, investors, and business partners." },
+                        { title: "Access to Global Payment Gateways", desc: "Open accounts with international platforms and payment processors that support global transactions." },
+                        { title: "Investor-Friendly Structure", desc: "The US startup ecosystem attracts venture capital, angel investors, and global funding opportunities." },
+                        { title: "Flexible Business Structures", desc: "Choose from popular structures like LLCs or Corporations depending on your business goals." },
+                        { title: "Strong Legal Framework", desc: "US corporate laws provide transparency, protection, and well-defined governance for businesses." },
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -98,6 +91,11 @@ const CompanyRegistrationUSAAdvantages = () => {
                             </p>
                         </div>
                     ))}
+                    <div className="bg-[#e6f0fa] border border-[#005a9c] rounded-2xl p-8 shadow-sm">
+                        <p className="text-[17px] text-[#072b47] leading-relaxed font-medium">
+                            With expert guidance from Vyombiz managed by Clink Consultancy Services Private Limited, entrepreneurs can complete US company registration without navigating complex legal procedures alone.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -106,21 +104,19 @@ const CompanyRegistrationUSAAdvantages = () => {
 
 const USAIncorporationEligibility = () => {
     const list = [
-        { title: "Unique Name", desc: "The company name must be distinguishable from existing entities." },
-        { title: "Registered Agent", desc: "Must have a registered agent with a physical address in the state of incorporation." },
-        { title: "Directors/Members", desc: "Minimum one director or member required. Can be a non-resident." },
-        { title: "EIN Number", desc: "Must obtain an Employer Identification Number from the IRS for tax purposes." },
-        { title: "Filing Articles", desc: "Must file Articles of Incorporation (Corp) or Organization (LLC)." },
-        { title: "Annual Compliance", desc: "Must adhere to annual report filings and franchise tax requirements." }
+        { title: "Limited Liability Company (LLC)", desc: "An LLC is one of the most popular choices for startups and international entrepreneurs. It offers liability protection and flexible taxation." },
+        { title: "C-Corporation", desc: "C-Corporations are preferred by startups planning to raise venture capital or attract global investors." },
+        { title: "S-Corporation", desc: "This structure allows pass-through taxation but has eligibility requirements and is typically used by US residents." },
+        { title: "Partnership", desc: "A partnership structure works well for businesses owned by two or more partners." }
     ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    What are the Eligibility Criteria for USA Company Registration?
+                    Types of Business Entities in the USA
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Key criteria for incorporating a company in the USA.
+                    Choosing the right business structure is crucial for taxation, ownership, and compliance.
                 </p>
                 <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
                     {list.map((item, i) => (
@@ -130,11 +126,9 @@ const USAIncorporationEligibility = () => {
                         </p>
                     ))}
                 </div>
-                <div className="mt-12 text-center">
-                    <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Check Your Eligibility Now
-                            </Link>
-                </div>
+                <p className="text-[17px] text-slate-600 leading-relaxed mt-10">
+                    Our experts help you select the best entity type based on your business model and long-term growth plans.
+                </p>
             </div>
         </section>
     );
@@ -142,29 +136,29 @@ const USAIncorporationEligibility = () => {
 
 const USAIncorporationDocumentsSection = () => {
     const list = [
-        "Passport Copy (Directors & Shareholders)",
-        "Proof of Address (Utility Bill/Bank Statement)",
-        "Email & Contact Number",
-        "Proposed Company Names (3 preferences)",
-        "Director Identification Number (if applicable)",
-        "Social Security Number (if US Resident)",
-        "Articles of Incorporation/Organization",
-        "Operating Agreement or Bylaws"
+        "Passport copy of the directors or owners",
+        "Address proof of the shareholders",
+        "Business name preference",
+        "Description of business activities",
+        "Email ID and contact details"
     ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Documents Required for USA Company Registration
+                    Documents Required for US Company Registration
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Essential documents required for USA Company Incorporation.
+                    To register a company in the United States, the following documents are generally required:
                 </p>
-                <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
+                <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc pl-5">
                     {list.map((item, i) => (
                         <li key={i}>{item}</li>
                     ))}
                 </ul>
+                <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                    Our team ensures all documents are verified and submitted correctly to avoid delays or rejections.
+                </p>
             </div>
         </section>
     );
@@ -172,23 +166,21 @@ const USAIncorporationDocumentsSection = () => {
 
 const USAIncorporationProcessSection = () => {
     const steps = [
-        { title: "Business Planning", desc: "Choose business structure and state of incorporation." },
-        { title: "Name Availability", desc: "Search and reserve your unique business name." },
-        { title: "Appoint Registered Agent", desc: "Designate a legal representative in the state." },
-        { title: "File Documents", desc: "Submit Articles of Organization/Incorporation to the State." },
-        { title: "Get EIN", desc: "Apply for Employer Identification Number from IRS." },
-        { title: "Operating Agreement", desc: "Draft internal operating rules and bylaws." },
-        { title: "Bank Account", desc: "Open a US business bank account." }
+        { title: "Business Consultation", desc: "Understand your business model and recommend the most suitable company structure." },
+        { title: "Company Name Registration", desc: "Check availability and reserve your company name." },
+        { title: "Documentation & Filing", desc: "Prepare incorporation documents and file them with the relevant US state authority." },
+        { title: "EIN Application", desc: "Apply for the Employer Identification Number (EIN) required for tax purposes." },
+        { title: "Compliance Setup", desc: "Ensure your company meets initial compliance and regulatory requirements." }
     ];
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        How to Register a Company in USA?
+                        Step-by-Step Process for US Company Registration
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        Step-by-step guide to incorporating your US business.
+                        Registering a company in the US becomes easy when the process is managed by experienced professionals.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
@@ -206,10 +198,10 @@ const USAIncorporationProcessSection = () => {
                             </div>
                         ))}
                         <div className="border-t border-slate-200" />
-                        <div className="mt-12 text-center">
-                            <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Start Your Registration
-                            </Link>
+                        <div className="bg-[#e6f0fa] border border-[#005a9c] rounded-2xl p-6 mt-10">
+                            <p className="text-[16px] text-[#072b47] leading-relaxed font-medium text-center">
+                                With the support of Vyombiz managed by Clink Consultancy Services Private Limited, the entire process becomes seamless and efficient.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -220,37 +212,48 @@ const USAIncorporationProcessSection = () => {
 
 const USAIncorporationFeaturesSection = () => {
     const features = [
-        { title: "Expert Guidance", desc: "Comprehensive advice on structure and compliance." },
-        { title: "End-to-End Support", desc: "From name reservation to post-incorporation compliance." },
-        { title: "Cost-Effective", desc: "Competitive pricing with no hidden charges." },
-        { title: "Quick Turnaround", desc: "Expedited filing services to get you started fast." },
-        { title: "Bank Support", desc: "Assistance with opening US corporate bank accounts." },
-        { title: "Tax Advisory", desc: "Guidance on US tax laws and filing requirements." },
-        { title: "Dedicated Support", desc: "Relationship manager for personalized assistance." },
-        { title: "Global Reach", desc: "Experience in handling incorporations across multiple jurisdictions." }
+        { title: "Expert Assistance", desc: "Work with professionals experienced in international company registration." },
+        { title: "Hassle-Free Process", desc: "We handle paperwork, filings, and compliance requirements." },
+        { title: "Transparent Pricing", desc: "Clear pricing with no hidden costs." },
+        { title: "End-to-End Support", desc: "From incorporation to compliance, we provide continuous assistance." }
     ];
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose VyomBiz?
+                        Why Choose Vyombiz for US Company Registration?
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Your trusted partner for global business expansion.
+                        Starting a company abroad requires expert legal and compliance support. Choosing the right partner ensures a smooth incorporation journey.
+                    </p>
+                    <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed mt-4">
+                        Vyombiz managed by Clink Consultancy Services Private Limited offers professional guidance, simplified documentation, and reliable incorporation services tailored for global entrepreneurs.
                     </p>
                 </div>
-                <div>
+                <div className="grid md:grid-cols-2 gap-6 mt-10">
                     {features.map((feature, index) => (
-                        <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-300">
-                            <div className="text-[15px] font-semibold text-[#072b47]">{index + 1}.</div>
+                        <div key={index} className="bg-slate-50 rounded-2xl p-6 border border-slate-100 flex gap-4">
+                            <div className="text-[#005a9c] font-bold text-xl">{index + 1}.</div>
                             <div>
-                                <h3 className="text-[16px] font-semibold text-[#072b47]">{feature.title}</h3>
-                                <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">{feature.desc}</p>
+                                <h3 className="text-[18px] font-semibold text-[#072b47]">{feature.title}</h3>
+                                <p className="text-[15px] text-slate-600 mt-2 leading-relaxed">{feature.desc}</p>
                             </div>
                         </div>
                     ))}
-                    <div className="border-t border-slate-300" />
+                </div>
+                
+                <div className="mt-16 bg-[#072b47] rounded-3xl p-10 text-center text-white">
+                    <h2 className="text-3xl font-semibold mb-4">Start Your US Business Journey Today</h2>
+                    <p className="text-lg text-slate-300 max-w-3xl mx-auto mb-4">
+                        Setting up a company in the United States can transform the way your business operates globally. With the right structure and professional support, entrepreneurs can access international markets, investors, and growth opportunities.
+                    </p>
+                    <p className="text-lg text-slate-300 max-w-3xl mx-auto mb-8">
+                        Let Vyombiz managed by Clink Consultancy Services Private Limited help you register your US company quickly and efficiently.
+                    </p>
+                    <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="inline-block bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-4 rounded-xl shadow-lg transition">
+                        Get Started With US Company Registration Today
+                    </Link>
                 </div>
             </div>
         </section>
@@ -288,14 +291,13 @@ const USAIncorporation = () => {
             {/* ================= SECTION 1: HERO ================= */}
             <HeroLayout
                 heroTitleMain="Company Registration"
-                heroTitleSuffix="in USA"
-                heroSubtitle="Expand Your Business Globally"
-                heroDescription="Incorporate your company in the USA with 100% foreign ownership and remote processing. We provide expert assistance for LLCs, C-Corps, and more."
+                heroTitleSuffix="USA"
+                heroSubtitle="Start Your US Company From Anywhere in the World"
+                heroDescription="Register your company in the United States and unlock global business opportunities. From LLC formation to compliance support, get everything handled by experts."
                 whatsIncludedList={[
-                    "100% Remote Process",
-                    "Assistance with Bank Account Opening",
-                    "Registered Agent Services",
-                    "EIN & Tax Filing Support"
+                    "Fast & hassle-free incorporation",
+                    "Ideal for startups, SaaS founders & global entrepreneurs",
+                    "Complete documentation and compliance support"
                 ]}
                 stats={[
                     { count: "4000+", label: "Businesses Assisted", icon: <Users size={20} /> },
