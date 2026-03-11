@@ -24,16 +24,16 @@ const Section8Overview = () => {
                             Social Entrepreneurship
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Section 8 Company Registration – <span className="text-[#005a9c]">Overview</span>
+                            Section 8 Company Registration – <span className="text-[#005a9c]">An Overview</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Section 8 Company registration is designed for organizations working toward non-profit objectives. Donations made to Section 8 Companies may qualify for tax benefits under the Income Tax Act. These companies are established to promote social development, charity, and community welfare in India.
+                            Section 8 Company Registration is essential to encourage non-profitable goals. Donations made to Section 8 Companies are eligible for deductions under the rules of the Income Tax Act, and these companies enjoy tax exemptions. The sole purpose of the establishment is to promote social entrepreneurship and charity in India to help the ones in need.
                         </p>
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
                             What is a Section 8 Company?
                         </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            A Section 8 Company is a non-profit organization formed to promote activities such as education, research, social welfare, charity, environment protection, and other social causes. Unlike profit-driven companies, its income is used only to support its stated objectives instead of being distributed among members.
+                            A Section 8 Company is a Non-Profit Organization (NPO) created to advance commerce, art, science, sports, education, research, social welfare, religion, charity, protection of the environment, or any other comparable goal. In contrast to other businesses, it uses the money it makes to achieve its declared goals rather than dividing it up among its members.
                         </p>
 
 
@@ -64,7 +64,7 @@ const Section8CompanyAdvantages = () => {
                         Benefits of Section 8 Incorporation
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Section 8 Companies receive several legal and financial advantages as registered non-profit entities.
+                        Section 8 Companies enjoy distinct legal advantages and tax exemptions.
                     </p>
                     <div className="mt-10">
                         <img
@@ -78,12 +78,12 @@ const Section8CompanyAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Legal Recognition", desc: "Provides legal recognition and allows the organization to receive donations from various sources." },
-                        { title: "Tax Exemptions", desc: "Eligible to apply for 12A and 80G registrations, allowing donors to claim tax deductions." },
-                        { title: "Limited Liability", desc: "Directors and members have limited liability, protecting their personal assets." },
-                        { title: "Perpetual Existence", desc: "The organization continues to exist regardless of changes in members or directors." },
-                        { title: "Zero Stamp Duty", desc: "Exempted from paying stamp duty on the Memorandum and Articles of Association in many cases." },
-                        { title: "Credibility", desc: "Offers higher credibility for fundraising and grant approvals compared to many other NGO structures." }
+                        { title: "Legal Recognition", desc: "Gets legal recognition and can accept donations from outside sources." },
+                        { title: "Tax Exemptions", desc: "Eligible for 12A & 80G registration; donors get tax deductions." },
+                        { title: "Limited Liability", desc: "Members/Directors have limited liability, protecting personal assets." },
+                        { title: "Perpetual Existence", desc: "Continues to exist indefinitely until dissolved, regardless of member changes." },
+                        { title: "Zero Stamp Duty", desc: "Exempted from paying stamp duty on Memorandum and Articles of Association." },
+                        { title: "Credibility", desc: "Higher credibility compared to Societies and Trusts, easing grant approvals." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -110,8 +110,8 @@ const Section8Eligibility = () => {
                 </h2>
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Before incorporating a Section 8 Company in India, it is important to understand the eligibility requirements.
-                    The key eligibility requirements for registration are listed below.
+                    To incorporate a Section 8 Company in India, it's essential to understand the eligibility criteria first.
+                    Mandatory requirements to incorporate a Section 8 Company are mentioned below-
                 </p>
 
                 {/* Directors */}
@@ -124,13 +124,13 @@ const Section8Eligibility = () => {
                             <span className="font-semibold text-[#072b47]">
                                 Minimum 2 Directors –
                             </span>{" "}
-                            At least two directors are required for incorporation.
+                            Minimum two shareholders/directors are required.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">
                                 Resident Director –
                             </span>{" "}
-                            At least one director must be an Indian resident.
+                            At least one director must be a resident of India.
                         </li>
                     </ul>
                 </div>
@@ -143,15 +143,15 @@ const Section8Eligibility = () => {
                     <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
                         <li>
                             <span className="font-semibold text-[#072b47]">Non-profit Object – </span>
-                            The company must promote objectives such as education, charity, social welfare, research, or similar causes.
+                            Must promote arts, science, charity, education, research, social welfare, religion, etc.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">No Dividends – </span>
-                            Profits cannot be distributed among members as dividends.
+                            Profits cannot be distributed as dividends to members.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Reinvestment – </span>
-                            All income must be reinvested into the organization’s objectives and activities.
+                            Profits must be reinvested into the company outcomes and objectives.
                         </li>
                     </ul>
                 </div>
@@ -160,7 +160,7 @@ const Section8Eligibility = () => {
                 <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
                     <p>
                         <span className="font-semibold text-[#072b47]">Action Plan – </span>
-                        A clear action plan describing the organization’s objectives and proposed activities is generally required.
+                        A detailed 3-year action plan is often required outlining the company's objectives and activities.
                     </p>
                 </div>
 
@@ -186,8 +186,8 @@ const Section8DocumentsSection = () => {
                 </h2>
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    The following documents are generally required to incorporate a Section 8 Company in India.
-                    KYC and registered office documents required for incorporation:
+                    To incorporate a Section 8 Company in India, you need to submit the following documents.
+                    List of KYC and office documents required for incorporation:
                 </p>
 
                 {/* Documents List */}
@@ -237,23 +237,23 @@ const Section8ProcessSection = () => {
     const steps = [
         {
             title: "Name Approval",
-            desc: "Apply for name approval through the MCA portal with suitable words like Foundation, Association, or Forum."
+            desc: "Apply for name reservation with words like Association, Foundation, etc. through the MCA portal."
         },
         {
             title: "DSC & DIN",
-            desc: "Obtain Digital Signature Certificates and Director Identification Numbers for directors."
+            desc: "Obtain Digital Signatures and Director Identification Numbers for all directors."
         },
         {
             title: "Drafting",
-            desc: "Prepare the Memorandum and Articles of Association with required non-profit clauses."
+            desc: "Draft Memorandum (MoA) & Articles of Association (AoA) with non-profit clauses."
         },
         {
             title: "License (INC-12)",
-            desc: "Apply for a Section 8 license through the appropriate MCA application process."
+            desc: "Apply for Section 8 License from the Central Government through INC-12 form."
         },
         {
             title: "Incorporation",
-            desc: "Submit the SPICe+ form to obtain the Certificate of Incorporation from MCA."
+            desc: "File SPICe+ (INC-32) form for final Certificate of Incorporation from MCA."
         }
     ];
 
@@ -331,19 +331,19 @@ const Section8FeaturesSection = () => {
     const features = [
         {
             title: "Expert Licensing",
-            desc: "Expert assistance for Section 8 licensing and compliance under the Companies Act, 2013."
+            desc: "Specialized support for Section 8 licensing and compliance with Companies Act, 2013."
         },
         {
             title: "MoA Drafting",
-            desc: "Professional drafting of MoA and AoA with necessary non-profit provisions."
+            desc: "Legal drafting of MoA & AoA with non-profit clauses ensuring compliance."
         },
         {
             title: "Compliance Management",
-            desc: "Complete compliance support after incorporation, including annual filings."
+            desc: "End-to-end compliance management post-incorporation including annual filings."
         },
         {
             title: "Tax Guidance",
-            desc: "Guidance for obtaining 12A and 80G registrations for tax benefits."
+            desc: "Assistance with 12A & 80G registrations for tax exemptions."
         },
         {
             title: "Fast Track Processing",
@@ -365,7 +365,8 @@ const Section8FeaturesSection = () => {
                         Features of Section 8 Company Registration Services
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Section 8 Company registration offers legal recognition, tax advantages, and credibility for non-profit initiatives.
+                        Section 8 Company registration provides legal recognition, tax exemptions, and credibility
+                        for your non-profit objectives.
                     </p>
                 </div>
 
@@ -402,7 +403,7 @@ const Section8Company = () => {
     const faqs = [
         {
             question: "What is a Section 8 Company?",
-            answer: "A Section 8 Company is a non-profit organization registered under the Companies Act, 2013 to promote social, charitable, educational, or environmental objectives."
+            answer: "A Section 8 Company is a Non-Profit Organization (NPO) registered under the Companies Act, 2013, established to promote commerce, art, science, sports, education, research, social welfare, religion, charity, or protection of the environment."
         },
         {
             question: "Can a Section 8 Company distribute profits?",
@@ -430,7 +431,7 @@ const Section8Company = () => {
                 heroTitleMain="Section 8 Company"
                 heroTitleSuffix="Registration"
                 heroSubtitle="Simplified Non-Profit Incorporation"
-                heroDescription="Start your non-profit organization with complete legal recognition. Our experts simplify the Section 8 company registration process while ensuring compliance with all legal requirements."
+                heroDescription="Start your Non-Profit Organization with full legal recognition. We simplify the Section 8 incorporation process, ensuring compliance and helping you achieve your philanthropic goals effortlessly."
                 whatsIncludedList={[
                     "Greater Credibility among Donors",
                     "Eligible for Tax Exemptions (80G & 12A)",
@@ -438,9 +439,9 @@ const Section8Company = () => {
                     "Complete Documentation Support"
                 ]}
                 stats={[
-                    { count: "40K+", label: "Happy Clients", icon: <Users size={20} /> },
-                    { count: "3500+", label: "Industry Experts", icon: <Briefcase size={20} /> },
-                    { count: "50+", label: "Service Locations", icon: <Building2 size={20} /> }
+                    { count: "42K+", label: "Clients", icon: <Users size={20} /> },
+                    { count: "3500+", label: "Experts", icon: <Briefcase size={20} /> },
+                    { count: "50+", label: "Offices", icon: <Building2 size={20} /> }
                 ]}
             />
 

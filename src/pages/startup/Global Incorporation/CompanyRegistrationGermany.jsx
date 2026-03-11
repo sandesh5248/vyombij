@@ -19,23 +19,26 @@ const CompanyRegistrationGermanyOverview = () => {
             <div className="max-w-7xl mx-auto px-6 lg:px-12">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16 lg:gap-24">
                     <div>
+                        <span className="inline-block px-4 py-1.5 text-sm font-semibold bg-[#e6f0fa] text-[#005a9c] rounded-full mb-4">
+                            European Hub
+                        </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Why Start a Business in Germany?
+                            Company Registration in Germany – <span className="text-[#005a9c]">An Overview</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Germany has Europe’s largest economy and is a major hub for international trade, manufacturing, and technology. A business presence in Germany provides access to top-tier infrastructure, a highly skilled workforce, and the expansive European Union market.
+                            Germany is a global powerhouse of technology and innovation, offering access to 454 million customers in the EU.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Key reasons entrepreneurs choose Germany for expansion:
+                            As the world's 2nd largest exporter, it provides a stable economy, robust infrastructure, and a highly skilled workforce.
                         </p>
-                        <ul className="space-y-4 mb-6 text-[17px] text-slate-600 leading-relaxed font-medium list-disc list-inside">
-                            <li>Strong and stable economic environment</li>
-                            <li>Direct access to the European single market</li>
-                            <li>High demand for innovation, engineering, and digital services</li>
-                            <li>Strong legal protections and transparent regulations</li>
-                        </ul>
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-4">
+                            Why Germany?
+                        </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Registering a company in Germany involves specific legal, administrative, and financial steps. Vyombiz managed by Clink Consultancy Services Private Limited provides expert support to ensure that the incorporation process is handled efficiently and exactly according to German law.
+                            Germany offers a strategic location in the heart of Europe with a business-friendly environment supported by government incentives.
+                        </p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
+                            With over 90 double taxation treaties, it is an attractive destination for international investors seeking to expand their global footprint.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -57,11 +60,14 @@ const CompanyRegistrationGermanyAdvantages = () => {
             <div className="grid lg:grid-cols-2 gap-16 w-full">
                 {/* LEFT SIDE (STICKY) */}
                 <div className="lg:sticky lg:top-28 h-fit self-start">
+                    <span className="inline-block px-4 py-1.5 text-sm font-semibold bg-[#e6f0fa] text-[#005a9c] rounded-full mb-6">
+                        Why It Is Vital
+                    </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of Company Registration in Germany
+                        Benefits of Registration
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Setting up a company in Germany provides significant strategic advantages for businesses aiming for long-term international success.
+                        Why businesses choose Germany for expansion.
                     </p>
                     <div className="mt-10">
                         <img
@@ -70,19 +76,17 @@ const CompanyRegistrationGermanyAdvantages = () => {
                             className="w-full rounded-2xl shadow-xl"
                         />
                     </div>
-                    <p className="text-[17px] text-slate-600 leading-relaxed font-medium mt-8">
-                        Partnering with Vyombiz managed by Clink Consultancy Services Private Limited allows businesses to leverage these advantages by ensuring a compliant and structured market entry.
-                    </p>
                 </div>
 
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Gateway to Europe", desc: "Located in the center of Europe, Germany offers excellent connectivity to neighboring countries and global markets." },
-                        { title: "Economic Stability", desc: "As the largest economy in Europe, Germany offers a highly secure and predictable environment for business growth." },
-                        { title: "Global Credibility", desc: "A German-registered company is highly respected worldwide, boosting trust with clients, investors, and suppliers." },
-                        { title: "Support for Innovation", desc: "The government provides numerous grants, incentives, and funding programs for research, development, and tech-driven startups." },
-                        { title: "Highly Developed Infrastructure", desc: "World-class logistics, transportation networks, and digital infrastructure make business operations highly efficient." }
+                        { title: "Strong Economy", desc: "Access to one of the most stable and largest economies in Europe." },
+                        { title: "Strategic Location", desc: "Central location providing easy access to all European markets." },
+                        { title: "Skilled Workforce", desc: "Access to a highly educated and technically skilled labor pool." },
+                        { title: "Infrastructure", desc: "World-class logistics, transportation, and communication networks." },
+                        { title: "Tax Advantages", desc: "Benefit from extensive double taxation treaties to minimize tax liabilities." },
+                        { title: "Legal Protection", desc: "Strong legal framework protecting intellectual property and innovation." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -101,19 +105,20 @@ const CompanyRegistrationGermanyAdvantages = () => {
 
 const GermanyIncorporationEligibility = () => {
     const list = [
-        { title: "GmbH (Gesellschaft mit beschränkter Haftung)", desc: "The most common company type, known as a Limited Liability Company. It requires a minimum share capital of €25,000 and is favored for its strong credibility and limited liability protection." },
-        { title: "UG (Unternehmergesellschaft)", desc: "Also known as a 'Mini-GmbH', this structure is designed for startups and entrepreneurs with a lower initial capital requirement (starting from €1). The company must save part of its profits until it reaches the €25,000 threshold to become a full GmbH." },
-        { title: "AG (Aktiengesellschaft)", desc: "A Joint Stock Company suitable for large enterprises planning to issue shares to the public. The minimum share capital is €50,000." },
-        { title: "Branch Office", desc: "Foreign companies can register a branch office in Germany to conduct business activities under the parent company’s legal entity." }
+        { title: "Share Capital", desc: "€25,000 for GmbH, €50,000 for AG. Lower for UG." },
+        { title: "Shareholders", desc: "Minimum 1 shareholder (individual or corporate entity)." },
+        { title: "Directors", desc: "At least 1 director required. Can be of any nationality." },
+        { title: "Registered Address", desc: "Must have a local registered office address in Germany." },
+        { title: "Bank Account", desc: "Must open a corporate bank account to deposit share capital." }
     ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Types of Companies You Can Register in Germany
+                    What are the Eligibility Criteria for Germany Company Registration?
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Choosing the correct business structure is a critical first step. Germany offers several business entities, but the most common for international expansion are:
+                    Key criteria for incorporating in Germany.
                 </p>
                 <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
                     {list.map((item, i) => (
@@ -123,12 +128,9 @@ const GermanyIncorporationEligibility = () => {
                         </p>
                     ))}
                 </div>
-                <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
-                    Vyombiz managed by Clink Consultancy Services Private Limited helps businesses evaluate their goals and select the most appropriate structure for operations in Germany.
-                </p>
                 <div className="mt-12 text-center">
                     <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Choose Your Company Structure
+                                Check Your Eligibility Now
                             </Link>
                 </div>
             </div>
@@ -138,30 +140,28 @@ const GermanyIncorporationEligibility = () => {
 
 const GermanyIncorporationDocumentsSection = () => {
     const list = [
-        "Passport copies of directors and shareholders",
-        "Utility bill or proof of residential address",
-        "Proposed company name",
-        "Business plan outlining operations and objectives",
-        "Notarized Articles of Association",
-        "Proof of share capital deposit"
+        "Memorandum & Articles of Association (MOA & AOA)",
+        "Passports/IDs of Directors & Shareholders",
+        "Proof of Registered Address",
+        "Bank Certificate of Capital Deposit",
+        "Management Board Structure Details",
+        "Specimen Signatures",
+        "Power of Attorney (if applicable)"
     ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Documents Required for Company Registration in Germany
+                    Documents Required for Germany Company Registration
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    German company registration has strict documentation and notarization requirements. The essential documents include:
+                    Essential documents for Germany Company Incorporation.
                 </p>
-                <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside">
+                <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
                     {list.map((item, i) => (
                         <li key={i}>{item}</li>
                     ))}
                 </ul>
-                <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
-                    Vyombiz managed by Clink Consultancy Services Private Limited ensures that all legal paperwork is processed correctly, notarized efficiently, and filed according to German requirements.
-                </p>
             </div>
         </section>
     );
@@ -169,22 +169,23 @@ const GermanyIncorporationDocumentsSection = () => {
 
 const GermanyIncorporationProcessSection = () => {
     const steps = [
-        { title: "Select Company Structure & Name", desc: "Choose the appropriate structure (e.g., GmbH or UG) and select a suitable company name." },
-        { title: "Drafting the Articles of Association", desc: "Prepare and finalize the legal documents required for incorporation." },
-        { title: "Notarization of Documents", desc: "The founding documents must be signed and notarized by a German notary public." },
-        { title: "Opening a Corporate Bank Account", desc: "A German corporate bank account must be opened, and the required share capital must be deposited." },
-        { title: "Commercial Register Filing", desc: "Once capital is deposited, the notary submits the application to the German Commercial Register (Handelsregister)." },
-        { title: "Trade Office and Tax Registration", desc: "The company must be registered with the local trade office (Gewerbeamt) and obtain a tax number (Steuernummer) and VAT ID." }
+        { title: "Choose Structure", desc: "Select the legal form (e.g., GmbH, UG) suitable for your business." },
+        { title: "Name Reservation", desc: "Check availability and reserve your business name." },
+        { title: "Business Plan", desc: "Draft a comprehensive business plan including financial projections." },
+        { title: "Notarization", desc: "Notarize the Articles of Association and other documents." },
+        { title: "Bank Account", desc: "Open a bank account and deposit the required share capital." },
+        { title: "Registration", desc: "Apply to the Commercial Register (Handelsregister)." },
+        { title: "Tax & VAT", desc: "Register for taxes and VAT with local authorities." }
     ];
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        Step-by-Step Process for Company Registration in Germany
+                        How to Register a Company in Germany?
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        Incorporate your business in Germany efficiently.
+                        Step-by-step guide to setting up your business.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
@@ -202,9 +203,6 @@ const GermanyIncorporationProcessSection = () => {
                             </div>
                         ))}
                         <div className="border-t border-slate-200" />
-                        <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
-                            Vyombiz managed by Clink Consultancy Services Private Limited manages this process from end-to-end, ensuring legal accuracy, overcoming language barriers, and accelerating approvals.
-                        </p>
                         <div className="mt-12 text-center">
                             <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
                                 Start Your Registration
@@ -218,49 +216,37 @@ const GermanyIncorporationProcessSection = () => {
 };
 
 const GermanyIncorporationFeaturesSection = () => {
-    const whyChooseUs = [
-        "End-to-end guidance from business structure selection to final registration",
-        "Assistance with document notarization and bank account setup",
-        "Post-incorporation support for taxes, VAT, and compliance operations",
-        "Dedicated advisory services for international entrepreneurs"
+    const features = [
+        { title: "99% Success Rate", desc: "Proven track record with over 15,000 companies registered." },
+        { title: "End-to-End Support", desc: "From name check to tax registration and compliance." },
+        { title: "Virtual Offices", desc: "Addresses in Berlin, Frankfurt, Hamburg, and Munich." },
+        { title: "Expert Team", desc: "12+ years of experience in cross-border compliance." },
+        { title: "Customized Packages", desc: "Tailored solutions to meet your specific business needs." },
+        { title: "24/7 Support", desc: "Round-the-clock assistance for all your queries." }
     ];
-
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
-                
-                <div className="mb-16">
-                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                        Why Choose Vyombiz for Germany Company Registration?
+                <div className="text-center mb-8">
+                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
+                        Why Choose VyomBiz?
                     </h2>
-                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
-                        Registering a business in Germany requires strict adherence to legal compliances and administrative accuracy.
-                    </p>
-                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
-                        Vyombiz managed by Clink Consultancy Services Private Limited provides a seamless incorporation experience by handling:
-                    </p>
-                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside mb-6">
-                        {whyChooseUs.map((item, index) => (
-                            <li key={index}>{item}</li>
-                        ))}
-                    </ul>
-                    <p className="text-[17px] text-slate-600 leading-relaxed">
-                        With professional expertise, businesses can enter the German market confidently and start operations without delays.
+                    <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
+                        Your trusted partner for German market entry.
                     </p>
                 </div>
-
-                <div className="bg-[#e6f0fa] rounded-2xl p-8 lg:p-12 text-center">
-                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                        Start Your Company in Germany Today
-                    </h2>
-                    <p className="text-[17px] text-slate-700 leading-relaxed max-w-4xl mx-auto mb-6">
-                        Expand your reach into Europe’s strongest economy with expert incorporation services. Establish a company that provides unparalleled credibility, global reach, and stability.
-                    </p>
-                    <p className="text-[17px] text-slate-700 leading-relaxed max-w-4xl mx-auto mb-8">
-                        Connect with Vyombiz managed by Clink Consultancy Services Private Limited to launch your business in Germany with ease and compliance.
-                    </p>
+                <div>
+                    {features.map((feature, index) => (
+                        <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-300">
+                            <div className="text-[15px] font-semibold text-[#072b47]">{index + 1}.</div>
+                            <div>
+                                <h3 className="text-[16px] font-semibold text-[#072b47]">{feature.title}</h3>
+                                <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">{feature.desc}</p>
+                            </div>
+                        </div>
+                    ))}
+                    <div className="border-t border-slate-300" />
                 </div>
-
             </div>
         </section>
     );
@@ -270,24 +256,24 @@ const CompanyRegistrationGermany = () => {
 
     const faqs = [
         {
-            question: "Can an international entrepreneur register a company in Germany?",
-            answer: "Yes, non-residents and foreign nationals can fully own and register a company in Germany."
+            question: "What is the minimum share capital for a GmbH in Germany?",
+            answer: "The minimum share capital required for a Limited Liability Company (GmbH) in Germany is €25,000."
         },
         {
-            question: "Do I need to visit Germany for registration?",
-            answer: "It is often necessary to visit Germany for bank account opening and notary procedures, but parts of the process can be managed through power of attorney."
+            question: "Can a foreigner be a director of a German company?",
+            answer: "Yes, there are no restrictions on the nationality of directors. A foreigner can be appointed as a director."
         },
         {
-            question: "What is the capital requirement for a UG company?",
-            answer: "A UG (Mini-GmbH) can be started with as little as €1, making it a popular option for startups."
+            question: "What is a UG (Unternehmergesellschaft) company?",
+            answer: "A UG, often called a 'Mini-GmbH', is an entrepreneurial company suitable for startups with lower capital requirements (starting from €1)."
         },
         {
-            question: "Is it mandatory to have a local director?",
-            answer: "No, the managing director of a German company does not need to be a German resident, but they must be able to travel to Germany if required."
+            question: "Is a supervisory board mandatory?",
+            answer: "A supervisory board is generally mandatory for Joint Stock Companies (AG) and larger GmbHs with over 500 employees."
         },
         {
-            question: "How long does company registration take?",
-            answer: "The process usually takes 3 to 6 weeks, depending on document processing and the commercial registry’s schedule."
+            question: "How long does it take to register a company in Germany?",
+            answer: "The process typically takes a few weeks, depending on the complexity and speed of the Commercial Register (Handelsregister)."
         }
     ];
 
@@ -296,14 +282,21 @@ const CompanyRegistrationGermany = () => {
 
             {/* ================= SECTION 1: HERO ================= */}
             <HeroLayout
-                heroTitleMain="Expand to Europe’s Largest"
-                heroTitleSuffix="Market"
-                heroSubtitle="A Business Presence in Germany."
-                heroDescription="Register your company in Germany, the economic powerhouse of Europe. Secure a robust, dynamic, and highly credible environment for your international expansion with the assistance of global incorporation experts."
+                heroTitleMain="Company Registration"
+                heroTitleSuffix="in Germany"
+                heroSubtitle="Fast Business Setup in Europe's Powerhouse"
+                heroDescription="Establish your presence in Germany, the largest economy in Europe. We provide expert guidance for a compliant and hassle-free registration process."
                 whatsIncludedList={[
-                    "A dynamic and robust business climate",
-                    "Strong credibility in global markets",
-                    "A trusted and efficient incorporation process"
+                    "Drafting of MOA & AOA",
+                    "Virtual Registered Address",
+                    "Share Capital Assistance",
+                    "Tax Advisory Services",
+                    "1:1 Expert Consultation"
+                ]}
+                stats={[
+                    { count: "15,000+", label: "Companies Registered", icon: <Users size={20} /> },
+                    { count: "12+", label: "Years Experience", icon: <Briefcase size={20} /> },
+                    { count: "99%", label: "Success Rate", icon: <Building2 size={20} /> }
                 ]}
             />
 

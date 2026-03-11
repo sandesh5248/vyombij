@@ -5,23 +5,25 @@ import {
     Settings, PlayCircle, HardDrive, RefreshCcw, Leaf, FileCheck, Globe,
     Factory, ClipboardCheck
 } from 'lucide-react';
+import { Link, useNavigate } from 'react-router-dom';
 
 const EIA = () => {
     const [searchTerm, setSearchTerm] = useState('');
+    const navigate = useNavigate();
 
     const services = [
-        { title: "State Pollution Control Board (SPCB) - NOC", desc: "State Pollution Control Board (SPCB) - NOC Industries are required to obtain the NOC from the Pollution control department before starting their business. Contact VyomBiz and get assista..", price: "499.00", icon: <Shield className="w-8 h-8 text-[#005a9c]" /> },
-        { title: "Environmental Auditing", desc: "Environmental Auditing Big Savings Alert: 50% off on Professional Services Today Embrace sustainability to reduce carbon footprints with hassle-free & seamless environmental aud..", price: "499.00", icon: <FileCheck className="w-8 h-8 text-[#005a9c]" /> },
-        { title: "Environmental Clearance", desc: "Environmental Clearance Certificate Slash Costs with Up to 50% off on Professional Services Today Still didn’t receive the environmental clearance certificate? Our expert con..", price: "499.00", icon: <FileCheck className="w-8 h-8 text-[#005a9c]" /> },
-        { title: "Environmental Impact Assessment (EIA)", desc: "Environmental Impact Assessment Is your project ready for a sustainable future? Start your Environmental Impact Assessment today and ensure your impact on the environment is positive!", price: "499.00", icon: <Globe className="w-8 h-8 text-[#005a9c]" /> },
-        { title: "Hydrogeological survey report", desc: "Hydrogeological Survey Report Need a comprehensive Hydrogeological Survey Report for your project? Get accurate groundwater analysis and VyomBiz expert guidance to ensure compliance.", price: "499.00", icon: <FileText className="w-8 h-8 text-[#005a9c]" /> },
-        { title: "Half-Yearly Environmental Compliance", desc: "Half-Yearly Environmental Compliance To comply with environmental legislation and approvals and to maintain business accreditation, get your environmental compliance report with the assi..", price: "499.00", icon: <Settings className="w-8 h-8 text-[#005a9c]" /> },
-        { title: "Social Impact Assessment", desc: "Social Impact Assessment Special Offer: 50% off on Professional Services Today Facing budget constraints for a detailed social impact assessment? At VyomBiz, we ensure a cost-ef..", price: "499.00", icon: <Star className="w-8 h-8 text-[#005a9c]" /> },
-        { title: "Wildlife Conservation Plan", desc: "Wildlife Conservation Plan Choose VyomBiz for transparent Wildlife Conservation Planning and streamline your Environment Clearance and other approval processes for your project.", price: "499.00", icon: <Leaf className="w-8 h-8 text-[#005a9c]" /> },
-        { title: "Environmental Management Plan Report", desc: "Environmental Management Plan Report- Get First Draft in 24 Hours Ready to enhance your project's sustainability? Contact VyomBiz to prepare an environmental management..", price: "499.00", icon: <FileText className="w-8 h-8 text-[#005a9c]" /> },
-        { title: "Consent for Operation (CFO)", desc: "Consent for Operation (CFO) For Consent for Operation for your company, get your Pollution NOC with the assistance of VyomBiz.", price: "499.00", icon: <Shield className="w-8 h-8 text-[#005a9c]" /> },
-        { title: "Soil Testing", desc: "Soil Testing- Get up to 20% OFF on Professional Fees Worried about soil fertility and productivity? Talk to our seasoned environmental consultants for soil testing servi..", price: "499.00", icon: <CheckCircle className="w-8 h-8 text-[#005a9c]" /> },
-        { title: "CDP Reporting", desc: "CDP Reporting Looking to enhance your sustainability credentials? Connect with VyomBiz to simplify your CDP reporting, which helps businesses align with global sustainability standards, m..", price: "499.00", icon: <FileText className="w-8 h-8 text-[#005a9c]" /> }
+        { title: "State Pollution Control Board (SPCB) - NOC", desc: "State Pollution Control Board (SPCB) - NOC Industries are required to obtain the NOC from the Pollution control department before starting their business. Contact VyomBiz and get assista..", price: "499.00", icon: <Shield className="w-8 h-8 text-[#005a9c]" />, path: "/state-pollution-control-board-pcboc" },
+        { title: "Environmental Auditing", desc: "Environmental Auditing Big Savings Alert: 50% off on Professional Services Today Embrace sustainability to reduce carbon footprints with hassle-free & seamless environmental aud..", price: "499.00", icon: <FileCheck className="w-8 h-8 text-[#005a9c]" />, path: "/environmental-auditing" },
+        { title: "Environmental Clearance", desc: "Environmental Clearance Certificate Slash Costs with Up to 50% off on Professional Services Today Still didn’t receive the environmental clearance certificate? Our expert con..", price: "499.00", icon: <FileCheck className="w-8 h-8 text-[#005a9c]" />, path: "/environmental-clearance" },
+        { title: "Environmental Impact Assessment (EIA)", desc: "Environmental Impact Assessment Is your project ready for a sustainable future? Start your Environmental Impact Assessment today and ensure your impact on the environment is positive!", price: "499.00", icon: <Globe className="w-8 h-8 text-[#005a9c]" />, path: "/environmental-impact-assessment" },
+        { title: "Hydrogeological survey report", desc: "Hydrogeological Survey Report Need a comprehensive Hydrogeological Survey Report for your project? Get accurate groundwater analysis and VyomBiz expert guidance to ensure compliance.", price: "499.00", icon: <FileText className="w-8 h-8 text-[#005a9c]" />, path: "/hydrogeological-survey-report" },
+        { title: "Half-Yearly Environmental Compliance", desc: "Half-Yearly Environmental Compliance To comply with environmental legislation and approvals and to maintain business accreditation, get your environmental compliance report with the assi..", price: "499.00", icon: <Settings className="w-8 h-8 text-[#005a9c]" />, path: "/half-yearly-environmental-compliance" },
+        { title: "Social Impact Assessment", desc: "Social Impact Assessment Special Offer: 50% off on Professional Services Today Facing budget constraints for a detailed social impact assessment? At VyomBiz, we ensure a cost-ef..", price: "499.00", icon: <Star className="w-8 h-8 text-[#005a9c]" />, path: "/social-impact-assessment" },
+        { title: "Wildlife Conservation Plan", desc: "Wildlife Conservation Plan Choose VyomBiz for transparent Wildlife Conservation Planning and streamline your Environment Clearance and other approval processes for your project.", price: "499.00", icon: <Leaf className="w-8 h-8 text-[#005a9c]" />, path: "/wildlife-conservation-plan" },
+        { title: "Environmental Management Plan Report", desc: "Environmental Management Plan Report- Get First Draft in 24 Hours Ready to enhance your project's sustainability? Contact VyomBiz to prepare an environmental management..", price: "499.00", icon: <FileText className="w-8 h-8 text-[#005a9c]" />, path: "/environmental-management-plan-report" },
+        { title: "Consent for Operation (CFO)", desc: "Consent for Operation (CFO) For Consent for Operation for your company, get your Pollution NOC with the assistance of VyomBiz.", price: "499.00", icon: <Shield className="w-8 h-8 text-[#005a9c]" />, path: "/consent-for-operation-fo" },
+        { title: "Soil Testing", desc: "Soil Testing- Get up to 20% OFF on Professional Fees Worried about soil fertility and productivity? Talk to our seasoned environmental consultants for soil testing servi..", price: "499.00", icon: <CheckCircle className="w-8 h-8 text-[#005a9c]" />, path: "/soil-testing" },
+        { title: "CDP Reporting", desc: "CDP Reporting Looking to enhance your sustainability credentials? Connect with VyomBiz to simplify your CDP reporting, which helps businesses align with global sustainability standards, m..", price: "499.00", icon: <FileText className="w-8 h-8 text-[#005a9c]" />, path: "/cdp-reporting" }
     ];
 
     const filteredServices = services.filter(service => 
@@ -141,13 +143,13 @@ const EIA = () => {
                                             <span className="text-[#dead01] text-2xl font-black drop-shadow-sm leading-none">₹{service.price}</span>
                                         </div>
                                         <div className="flex flex-wrap lg:flex-nowrap items-center justify-between gap-4">
-                                            <button className="w-full lg:w-auto flex-1 bg-[#005a9c] hover:bg-[#072b47] text-white px-5 py-3 rounded-xl text-sm font-bold transition-all shadow-md active:scale-[0.97] whitespace-nowrap">
+                                            <button onClick={() => navigate(service.path)} className="w-full lg:w-auto flex-1 bg-[#005a9c] hover:bg-[#072b47] text-white px-5 py-3 rounded-xl text-sm font-bold transition-all shadow-md active:scale-[0.97] whitespace-nowrap">
                                                 Get Started Free
                                             </button>
-                                            <button className="text-[#005a9c] font-bold text-sm flex items-center gap-1.5 group/read transition-all hover:text-[#072b47] whitespace-nowrap">
+                                            <Link to={service.path} className="text-[#005a9c] font-bold text-sm flex items-center gap-1.5 group/read transition-all hover:text-[#072b47] whitespace-nowrap">
                                                 <span>Read more</span>
                                                 <ArrowRight className="w-4 h-4 group-hover/read:translate-x-1" />
-                                            </button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>

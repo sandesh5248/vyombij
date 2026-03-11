@@ -1,151 +1,112 @@
 import React from 'react';
-import { CheckCircle, ArrowRight, Rocket, Smile, MapPin, PieChart, Shield } from 'lucide-react';
-
-const services = [
-    { title: "Social Impact Assessment Consultation", desc: "Expert guidance and consultation for obtaining your Social Impact Assessment smoothly and efficiently.", price: "₹2,999" },
-    { title: "Application Preparation", desc: "Complete documentation preparation and application filing for E I A compliance.", price: "₹4,999" },
-    { title: "Follow-up & Liaison", desc: "Regular follow-ups with relevant authorities to ensure faster processing of your application.", price: "₹3,499" },
-    { title: "Compliance Audit", desc: "Pre-application audit to ensure your premises/business meets all statutory requirements.", price: "₹5,999" },
-    { title: "Renewal Submissions", desc: "Timely submission of renewal applications to prevent lapses in your compliance status.", price: "₹1,999" },
-    { title: "Annual Returns Filing", desc: "Preparation and filing of statutory annual returns and compliance reports as mandated.", price: "₹2,499" },
-];
+import HeroLayout from '../../../components/common/HeroLayout';
+import DetailsLayout from '../../../components/common/DetailsLayout';
+import FAQLayout from '../../../components/common/FAQLayout';
+import ReviewsSection from '../../../components/common/ReviewsSection';
 
 const SocialImpactAssessment = () => {
     return (
-        <div className="bg-white min-h-screen font-sans">
-            <section className="relative min-h-[90vh] bg-white flex items-center pt-24 pb-12 overflow-hidden">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col lg:flex-row items-center gap-12 mb-20">
-                    <div className="w-full lg:w-[60%]">
-                        <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#005a9c]/10 border border-[#005a9c]/20 rounded-full text-[#005a9c] text-sm font-bold uppercase tracking-wider mb-8">
-                            <Shield size={16} /><span>E I A Services</span>
-                        </div>
-                        <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-[#072b47] leading-[1.1] mb-8">
-                            Social <br className="hidden md:block" />
-                            <span className="text-[#dead01]">Impact Assessment</span>
-                        </h1>
-                        <p className="text-xl text-slate-600 mb-12 max-w-2xl leading-relaxed font-medium">
-                            End-to-end support for Social Impact Assessment. We manage the entire lifecycle of compliance to ensure your business operations remain uninterrupted and legally sound.
-                        </p>
-                        <div className="flex flex-wrap gap-4 mb-8">
-                            {["Certification", "Compliance", "Advisory", "Renewals"].map((tag, i) => (
-                                <span key={i} className="px-4 py-2 bg-slate-100 text-[#072b47] rounded-full text-sm font-bold">{tag}</span>
-                            ))}
-                        </div>
-                        <button className="bg-[#005a9c] text-white px-12 py-5 rounded-2xl font-bold text-xl hover:bg-blue-700 shadow-2xl shadow-blue-900/20 active:scale-95 transition-all">Get Started Now</button>
-                    </div>
-                    <div className="w-full lg:w-[40%] relative">
-                        <div className="absolute inset-0 bg-[#005a9c]/10 blur-[120px] rounded-full scale-150 animate-pulse"></div>
-                        <img src="/environmental/placeholder/hero.avif" alt="Social Impact Assessment"
-                            className="relative z-10 w-full h-auto object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-700"
-                            onError={(e) => { e.target.src = "https://illustrations.popsy.co/amber/plant.svg" }} />
-                    </div>
-                </div>
-            </section>
+        <div className="bg-[#f8f9fa] min-h-screen relative font-sans">
+            <div className="relative z-10 space-y-2 lg:space-y-4">
+                <HeroLayout
+                    heroTitleMain="Social Impact"
+                    heroTitleSuffix="Assessment"
+                    heroDescription="Special Offer: 50% off on Professional Services Today. Facing budget constraints for a detailed social impact assessment? At Corpbiz, we ensure a cost-effective social impact assessment within the desired time frame. Successfully conducted 5,000+ Social Impact Assessments since 2018."
+                    stats={[
+                        { count: "43K+", label: "Happy Clients" },
+                        { count: "3500+", label: "Expert Advisors" },
+                        { count: "50+", label: "Branch Offices" },
+                        { count: "4.9", label: "Global Rating" }
+                    ]}
+                    formTitle="Get Free Expert Consultation"
+                />
 
-            <section className="bg-[#FEF9C3] py-20">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                        {[
-                            { icon: <Rocket className="w-8 h-8 text-[#005a9c]" />, title: "Track Record", desc: "Successfully processed thousands of applications for clients across India." },
-                            { icon: <Smile className="w-8 h-8 text-[#005a9c]" />, title: "Domain Expertise", desc: "Deep knowledge of specific regulatory frameworks and compliance timelines." },
-                            { icon: <MapPin className="w-8 h-8 text-[#005a9c]" />, title: "Pan-India Reach", desc: "We provide comprehensive regulatory coverage spanning all states and territories." },
-                            { icon: <PieChart className="w-8 h-8 text-[#005a9c]" />, title: "Data Security", desc: "Your business secrets, process details, and critical data are held in strict confidence." },
-                        ].map((card, i) => (
-                            <div key={i} className="bg-white rounded-[2rem] p-10 flex flex-col shadow-2xl transform hover:-translate-y-1 transition-all duration-300">
-                                <div className="w-16 h-16 rounded-2xl bg-indigo-50 flex items-center justify-center mb-8">{card.icon}</div>
-                                <h3 className="text-xl font-bold text-[#072b47] mb-4">{card.title}</h3>
-                                <p className="text-slate-600 text-[15px] leading-relaxed font-medium">{card.desc}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+                <DetailsLayout
+                    overview={{
+                        title: "An Overview of",
+                        highlightTitle: "Social Impact Assessment",
+                        description: [
+                            "Social impact assessment (i.e., SIA) is the systematic process of analyzing, monitoring, and controlling the intended and unexpected social repercussions, both good and bad, of planned interventions and any social change processes induced by such interventions.",
+                            "SIA is increasingly an essential component of project planning, particularly for developing Resettlement Action Plans (RAPs). In this process, SIA is carried out as a socioeconomic survey, identifying the social and economic repercussions on persons and communities affected by project-induced displacement.",
+                            "Furthermore, the data provided is utilised to build mitigation strategies and monitor mitigation implementation."
+                        ]
+                    }}
+                    advantages={{
+                        title: "Benefits of SIA in India",
+                        subtitle: "Key benefits of social impact assessment (SIA)",
+                        list: [
+                            { title: "Informed Decision Making", desc: "Enables better decision-making through valuable insights into selecting and implementing treatments or interventions." },
+                            { title: "Mitigating Measures", desc: "Facilitates the establishment of mitigation measures aimed at minimizing potential harm and maximizing benefits associated with a planned intervention." },
+                            { title: "Professional Value System", desc: "Upholds a professional value system committing to sustainability, scientific integrity, accountability, and defense of human rights." },
+                            { title: "Beyond Impact Prediction", desc: "Extends beyond impact prediction and focuses on empowering local communities and improving the position of marginalized individuals." },
+                            { title: "Risk Management", desc: "Identifies potential risks and assists businesses in developing strategies to mitigate them effectively." }
+                        ]
+                    }}
+                    eligibility={{
+                        title: "Requirements for Conducting SIA",
+                        subtitle: "Checklist for conducting social impact assessment",
+                        list: [
+                            { title: "Gain Insights into Impacted Parties", desc: "Crucial for gaining an in-depth understanding of the individuals or groups affected by a project." },
+                            { title: "Understand Affected Communities", desc: "Comprehend the characteristics and dynamics of the communities directly or indirectly affected." },
+                            { title: "Identify & Evaluate Social Impacts", desc: "Identify and examine the potential social consequences (both positive and negative effects) arising from the project." },
+                            { title: "Formulate Mitigation Measures", desc: "Ensure formulation of management measures to mitigate adverse impact and maximize the benefits." },
+                            { title: "Support Monitoring & Reporting", desc: "Supports the monitoring framework for tracking and reporting social impact throughout the lifecycle." }
+                        ]
+                    }}
+                    documents={{
+                        title: "Documents Required",
+                        subtitle: "For Environmental Social Impact Assessment",
+                        list: [
+                            { title: "Project Description", desc: "Project proposal, site plan, or project layout." },
+                            { title: "Establishment Proof", desc: "Equipment installation proof and evidence of mitigation measures." },
+                            { title: "Test & Connection Reports", desc: "Identification proof of signatory, quality test reports, electricity and water connection evidence." },
+                            { title: "Administrative Records", desc: "Government census data, land records (including transaction records), and relevant NGO documents." }
+                        ]
+                    }}
+                    process={{
+                        title: "Process of SEIA",
+                        subtitle: "Socio-economic Impact Assessment Process",
+                        steps: [
+                            { step: "1", title: "Scoping and Screening", desc: "Entails visiting the project site, consulting with all parties, and separating those with no substantial effects from those with significant impacts." },
+                            { step: "2", title: "Baseline Analysis", desc: "Outlining the potential impact of the project on the social environment, income-generating possibilities, and available resources." },
+                            { step: "3", title: "Impact Assessment", desc: "Establishes the impact area requiring the SIA team to field visit the region for qualitative and quantitative analysis of geographic boundaries." },
+                            { step: "4", title: "Mitigation and Enhancement", desc: "Suggests measures for planning, managing, and mitigating any negative impacts or improving any good outcomes of the project." },
+                            { step: "5", title: "Monitoring and Evaluation", desc: "Assess, monitor, and evaluate the relevance, actual impact, and outcome of the project. Enables tracking progress and performance intervention." }
+                        ]
+                    }}
+                    postCompliance={{
+                        title: "Role & Principles of SIA",
+                        subtitle: "Crucial considerations for SIA",
+                        list: [
+                            { title: "Lifecycle Focused", desc: "One of the most common principles of social impact studies is ensuring the consideration of the complete lifecycle of the project." },
+                            { title: "Participatory Approach", desc: "Built on local knowledge and participatory processes, required to be inclusive, respectful, and tailored." },
+                            { title: "Effective Management", desc: "Includes effective social management measures to enhance potential benefits and mitigate potential negative impacts." },
+                            { title: "Adaptive & Rigorous", desc: "SIA rigorously sticks to its objective and adopts principles for monitoring, reviewing, and adjusting management measures." }
+                        ]
+                    }}
+                />
 
-            <section className="py-20 bg-slate-50">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center mb-16">
-                        <h2 className="text-3xl md:text-4xl font-bold text-[#072b47] mb-4">Services Addressed</h2>
-                        <div className="w-24 h-1 bg-[#dead01] shadow-[0_0_8px_rgba(255,233,10,0.6)] mx-auto rounded mb-6"></div>
-                    </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {services.map((service, index) => (
-                            <div key={index} className="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-2xl hover:border-[#FFE90A]/40 hover:-translate-y-2 transition-all duration-500 flex flex-col h-full group relative">
-                                <div className="absolute top-0 left-0 w-full h-[3px] bg-[#FFE90A]"></div>
-                                <div className="p-8 flex flex-col h-full pt-10">
-                                    <h3 className="text-xl font-bold text-[#072b47] mb-4 group-hover:text-[#005a9c] transition-colors">{service.title}</h3>
-                                    <p className="text-slate-600 text-[15px] leading-relaxed mb-10 flex-grow font-medium">{service.desc}</p>
-                                    <div className="mt-auto pt-6">
-                                        <div className="flex flex-col mb-6">
-                                            <span className="text-[11px] uppercase tracking-widest font-black text-slate-400 mb-1">Starting at</span>
-                                            <span className="text-[#dead01] text-3xl font-black leading-none">{service.price}</span>
-                                        </div>
-                                        <div className="flex items-center justify-between gap-4">
-                                            <button className="flex-1 bg-[#005a9c] hover:bg-[#072b47] text-white px-5 py-3.5 rounded-xl text-sm font-bold transition-all">Get Started</button>
-                                            <button className="text-[#005a9c] font-bold text-sm flex items-center gap-1.5 group/read py-1">
-                                                <span>Read More</span><ArrowRight className="w-4 h-4 group-hover/read:translate-x-1.5 transition-transform duration-300" />
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+                <FAQLayout
+                    title="Frequently Asked Questions"
+                    subtitle="Common queries about Social Impact Assessment"
+                    faqs={[
+                        {
+                            question: "What is the Social Impact Assessment process in India?",
+                            answer: "The process of detecting and controlling the social implications of industrial undertakings is known as social impact assessment (SIA). It is simply the procedure for identifying and evaluating the possible good and adverse effects of a project, grant, or investment on a community or group of persons."
+                        },
+                        {
+                            question: "Why is Social Impact Assessment necessary?",
+                            answer: "It creates a socially and economically sustainable environment, fosters community development, helps develop mitigation measures, and supplements economic and technical models backing project development."
+                        },
+                        {
+                            question: "What are the common tools or methods used for measuring social impact?",
+                            answer: "Commonly used tools include Randomized Control Trials (RCT), Propensity Score Matching (PSM), and Synthetic Control Methods (SCM), along with surveys, interviews, and community observation methods."
+                        }
+                    ]}
+                />
 
-            <section className="py-20 bg-[#FEF9C3]">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex flex-col lg:flex-row items-center gap-16">
-                        <div className="w-full lg:w-1/2">
-                            <h2 className="text-3xl md:text-4xl font-bold text-[#072b47] mb-6">About Social Impact Assessment</h2>
-                            <div className="w-16 h-1 bg-[#072b47] rounded mb-8"></div>
-                            <div className="space-y-6 text-[#072b47]/90 text-lg leading-relaxed font-medium">
-                                <p>Ensuring compliance with Social Impact Assessment is crucial for businesses operating in today's regulated environment under the broader framework of E I A. Failure to comply can result in severe legal consequences, operational halts, and financial penalties.</p>
-                                <p>Our comprehensive assistance covers everything from initial evaluation and strategy formulation to execution and final approval. Whether you are establishing a new entity or operating an existing one, we provide clear roadmaps to maintain unblemished compliance records.</p>
-                            </div>
-                        </div>
-                        <div className="w-full lg:w-1/2">
-                            <div className="bg-white rounded-3xl p-8 shadow-xl border border-slate-100">
-                                <h3 className="text-xl font-black text-[#072b47] mb-6">Core Requirements</h3>
-                                <ul className="space-y-4">
-                                    {["Business Incorporation Details", "Authorized Person KYC", "Facility Setup Plans", "List of Machinery/Process Details", "Past Compliance Records (if any)", "Site Clearance Approvals", "Local Body NOCs"].map((doc, i) => (
-                                        <li key={i} className="flex items-start gap-3 text-slate-700 font-medium">
-                                            <CheckCircle className="w-5 h-5 text-[#005a9c] mt-0.5 shrink-0" />
-                                            <span>{doc}</span>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section className="py-24 bg-white border-t border-slate-100">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center mb-20">
-                        <h2 className="text-3xl md:text-5xl font-black text-[#072b47] mb-6">Why Choose <span className="text-[#dead01]">Us</span></h2>
-                        <div className="w-24 h-1.5 bg-[#dead01] mx-auto rounded-full"></div>
-                    </div>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        {[
-                            { title: "Specialized Experts", desc: "Dedicated professionals focused specifically on navigating complex environmental guidelines." },
-                            { title: "Assured Approvals", desc: "A robust vetting process of document filings severely limits the chance of application pushback." },
-                            { title: "Lifecycle Management", desc: "Beyond simple acquisition, we maintain a proactive posture toward your ongoing compliance schedule." },
-                        ].map((item, index) => (
-                            <div key={index} className="relative p-10 rounded-[2.5rem] border border-slate-200 bg-white shadow-sm hover:shadow-2xl hover:border-[#dead01]/30 hover:-translate-y-2 transition-all duration-500 group flex flex-col">
-                                <div className="mb-8">
-                                    <div className="w-16 h-16 rounded-2xl bg-slate-50 flex items-center justify-center border border-slate-100 group-hover:bg-[#dead01]/10 transition-all duration-500">
-                                        <CheckCircle className="w-8 h-8 text-[#dead01]" />
-                                    </div>
-                                </div>
-                                <h3 className="text-xl font-black text-[#072b47] mb-4 group-hover:text-[#005a9c] transition-colors">{item.title}</h3>
-                                <p className="text-slate-600 leading-relaxed font-medium text-[15px]">{item.desc}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+                <ReviewsSection />
+            </div>
         </div>
     );
 };

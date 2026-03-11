@@ -22,7 +22,7 @@ const CDPReporting = lazy(() => import('../pages/environmental/EIA/CDPReporting'
 const ConsentForOperationFO = lazy(() => import('../pages/environmental/EIA/ConsentForOperationFO'));
 const EnvironmentalAuditing = lazy(() => import('../pages/environmental/EIA/EnvironmentalAuditing'));
 const EnvironmentalClearance = lazy(() => import('../pages/environmental/EIA/EnvironmentalClearance'));
-const EnvironmentalImpactAssessmentIA = lazy(() => import('../pages/environmental/EIA/EnvironmentalImpactAssessmentIA'));
+const EnvironmentalImpactAssessment = lazy(() => import('../pages/environmental/EIA/EnvironmentalImpactAssessment'));
 const EnvironmentalManagementPlanReport = lazy(() => import('../pages/environmental/EIA/EnvironmentalManagementPlanReport'));
 const ExtendedProducerResponsibility = lazy(() => import('../pages/environmental/EIA/ExtendedProducerResponsibility'));
 const HalfYearlyEnvironmentalCompliance = lazy(() => import('../pages/environmental/EIA/HalfYearlyEnvironmentalCompliance'));
@@ -122,7 +122,7 @@ const EnvironmentalRoutes = [
     <Route key="consent-for-operation-fo" path="/consent-for-operation-fo" element={<ConsentForOperationFO />} />,
     <Route key="environmental-auditing" path="/environmental-auditing" element={<EnvironmentalAuditing />} />,
     <Route key="environmental-clearance" path="/environmental-clearance" element={<EnvironmentalClearance />} />,
-    <Route key="environmental-impact-assessment-ia" path="/environmental-impact-assessment-ia" element={<EnvironmentalImpactAssessmentIA />} />,
+    <Route key="environmental-impact-assessment" path="/environmental-impact-assessment" element={<EnvironmentalImpactAssessment />} />,
     <Route key="environmental-management-plan-report" path="/environmental-management-plan-report" element={<EnvironmentalManagementPlanReport />} />,
     <Route key="extended-producer-responsibility" path="/extended-producer-responsibility" element={<ExtendedProducerResponsibility />} />,
     <Route key="half-yearly-environmental-compliance" path="/half-yearly-environmental-compliance" element={<HalfYearlyEnvironmentalCompliance />} />,

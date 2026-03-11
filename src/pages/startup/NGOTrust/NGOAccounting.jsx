@@ -27,13 +27,13 @@ const AccountingOverview = () => {
                             Financial Integrity
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            NGO Accounting – <span className="text-[#005a9c]">Focus on Financial Accountability</span>
+                            NGO Accounting – <span className="text-[#005a9c]">Accountability First</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            NGO Accounting is a specialized system used to record and manage financial transactions for non-profit organizations. Unlike commercial businesses, NGOs operate primarily for social welfare rather than profit generation. It focuses on tracking donations, grants, and contributions to ensure funds are utilized for their intended purposes.
+                            NGO Accounting is a unique system designed to record and report business transactions for non-profit entities. Unlike for-profit organizations, the primary motive here is social welfare, not profit generation. It involves tracking contributions, grants, and donations to ensure they are used for their specific designated purposes.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            NGOs do not have shareholders or owners. Instead of equity, their financial position is reflected through net assets. They must clearly track restricted and unrestricted funds to ensure donor conditions are properly followed. Vyombiz ensures your accounting system follows regulatory requirements while meeting donor reporting expectations.
+                            NGOs do not have owners or shareholders. Instead of 'Equity', they have 'Net Assets'. They must track 'Restricted' vs. 'Unrestricted' funds to demonstrate that donor restrictions have been honored. Vyombiz ensures your accounting practices meet all legal requirements and donor expectations.
                         </p>
 
 
@@ -64,7 +64,7 @@ const NGOAccountingAdvantages = () => {
                         Advantages of Professional Accounting
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Why proper accounting is essential for NGOs.
+                        Why systematic accounting matters for NGOs.
                     </p>
                     <div className="mt-10">
                         <img
@@ -78,12 +78,12 @@ const NGOAccountingAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Transparency", desc: "Enhances credibility and builds trust among donors, government authorities, and the public." },
-                        { title: "Program Analysis", desc: "Allows organizations to evaluate the financial performance and impact of individual programs." },
-                        { title: "Regulatory Compliance", desc: "Ensures compliance with FCRA regulations, Income Tax laws, and other statutory requirements." },
-                        { title: "Fraud Prevention", desc: "Minimizes financial mismanagement and fraud through proper monitoring and controls." },
-                        { title: "Grant Eligibility", desc: "Well-maintained financial records improve eligibility for government and international grants." },
-                        { title: "Better Decision Making", desc: "Provides reliable financial data to support planning and effective resource allocation." }
+                        { title: "Transparency", desc: "Builds trust with donors, government authorities, and the general public." },
+                        { title: "Program Analysis", desc: "Enables detailed analysis of each program's financial performance and impact." },
+                        { title: "Regulatory Compliance", desc: "Ensures adherence to FCRA, Income Tax Act, and other statutory regulations." },
+                        { title: "Fraud Prevention", desc: "Reduces the risk of mismanagement and fraud through strict financial controls." },
+                        { title: "Grant Eligibility", desc: "Proper financial records are often a prerequisite for receiving government and international grants." },
+                        { title: "Better Decision Making", desc: "Provides accurate financial data for strategic planning and resource allocation." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -110,7 +110,8 @@ const AccountingEligibility = () => {
                 </h2>
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Proper NGO accounting requires maintaining key financial statements and records. The main financial documents include the following.
+                    For proper NGO accounting, it's essential to maintain key financial documents.
+                    Essential Financial Documents are mentioned below-
                 </p>
 
                 {/* Financial Statements */}
@@ -123,13 +124,13 @@ const AccountingEligibility = () => {
                             <span className="font-semibold text-[#072b47]">
                                 Statement of Financial Position –
                             </span>{" "}
-                            Similar to a balance sheet, it presents assets, liabilities, and net assets of the organization.
+                            Equivalent to the Balance Sheet, showing Assets, Liabilities, and Net Assets.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">
                                 Statement of Activities –
                             </span>{" "}
-                            Comparable to an income statement, it records revenue, expenses, and changes in net assets.
+                            Equivalent to the Income Statement, showing Revenue, Expenses, and Changes in Net Assets.
                         </li>
                     </ul>
                 </div>
@@ -138,12 +139,12 @@ const AccountingEligibility = () => {
                 <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
                     <p>
                         <span className="font-semibold text-[#072b47]">Statement of Functional Expenses – </span>
-                        Provides a detailed breakdown of expenses based on programs, administration, and fundraising activities.
+                        Detailed breakdown of expenses by function (Program, Admin, Fundraising) and nature.
                     </p>
 
                     <p>
                         <span className="font-semibold text-[#072b47]">Statement of Cash Flow – </span>
-                        Displays the inflow and outflow of cash from operating, investing, and financing activities.
+                        Shows the inflow and outflow of cash from operating, investing, and financing activities.
                     </p>
                 </div>
 
@@ -169,7 +170,8 @@ const AccountingDocumentsSection = () => {
                 </h2>
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    To maintain accurate accounts, NGOs must keep the following essential financial records.
+                    For proper NGO accounting, you need to maintain the following essential records.
+                    We help you maintain the following essential records:
                 </p>
 
                 {/* Documents List */}
@@ -177,19 +179,19 @@ const AccountingDocumentsSection = () => {
                     <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
                         <li>
                             <span className="font-semibold text-[#072b47]">Cash & Bank Vouchers/Books – </span>
-                            Detailed records of all cash and bank transactions.
+                            Records of all cash and bank transactions.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Journal Vouchers & General Ledger – </span>
-                            Complete accounting entries maintained through journals and ledgers.
+                            Complete accounting records and ledger entries.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Fixed Assets Register – </span>
-                            Record of all fixed assets owned and maintained by the NGO.
+                            Register of all fixed assets owned by the NGO.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Donation Receipt Books – </span>
-                            Records and receipts issued for every donation received.
+                            Receipts issued for all donations received.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Grant & Project Budgets – </span>
@@ -223,27 +225,27 @@ const AccountingProcessSection = () => {
     const steps = [
         {
             title: "Setup",
-            desc: "Creating a chart of accounts aligned with the NGO’s programs and operational activities."
+            desc: "Establishing the Chart of Accounts tailored to your NGO's specific programs and activities."
         },
         {
             title: "Recording",
-            desc: "Recording donations, grants, and expenses systematically using standard accounting methods."
+            desc: "Systematic recording of all donations, grants, and expenses on an accrual basis."
         },
         {
             title: "Allocation",
-            desc: "Allocating expenses correctly to projects and specific funding sources."
+            desc: "Proper allocation of costs to respective projects and funding sources."
         },
         {
             title: "Reconciliation",
-            desc: "Periodic reconciliation of bank statements and donor fund balances."
+            desc: "Regular reconciliation of bank accounts and donor balances."
         },
         {
             title: "Reporting",
-            desc: "Preparation of monthly or quarterly financial reports for internal review."
+            desc: "Generation of monthly/quarterly financial reports for management review."
         },
         {
             title: "Compliance",
-            desc: "Ensuring accurate preparation of statutory filings and tax returns."
+            desc: "Ensuring all tax filings and statutory returns are prepared accurately."
         }
     ];
 
@@ -320,19 +322,19 @@ const AccountingFeaturesSection = () => {
     const features = [
         {
             title: "Sector Expertise",
-            desc: "Extensive experience with accounting requirements specific to non-profit organizations."
+            desc: "Deep understanding of the unique accounting challenges faced by the non-profit sector."
         },
         {
             title: "Compliance Focused",
-            desc: "Strict adherence to accounting standards and statutory compliance requirements."
+            desc: "Rigorous adherence to GAAP and local statutory requirements for NGOs."
         },
         {
             title: "Technology Driven",
-            desc: "Use of modern accounting tools to improve efficiency and accuracy."
+            desc: "Utilization of modern accounting software for efficiency and accuracy."
         },
         {
             title: "Donor Ready",
-            desc: "Financial reports prepared according to the requirements of donors and funding agencies."
+            desc: "Financials prepared to meet the stringent reporting standards of international donors."
         },
         {
             title: "Dedicated Support",
@@ -354,7 +356,8 @@ const AccountingFeaturesSection = () => {
                         Features of NGO Accounting Services
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Our accounting services help NGOs maintain financial discipline while ensuring transparency and regulatory compliance.
+                        Our accounting services empower NGOs with financial discipline, ensuring transparency
+                        and compliance with regulatory requirements.
                     </p>
                 </div>
 
@@ -392,7 +395,7 @@ const NGOAccounting = () => {
     const faqs = [
         {
             question: "What is the primary purpose of NGO Accounting?",
-            answer: "NGO accounting focuses on financial accountability instead of profit generation. It ensures that funds and donations are used strictly for the intended social welfare objectives."
+            answer: "NGO Accounting focuses on accountability rather than profitability. It ensures that funds are spent appropriately for the intended social welfare purposes."
         },
         {
             question: "What are the tax benefits for NGOs?",
@@ -420,7 +423,7 @@ const NGOAccounting = () => {
                 heroTitleMain="NGO Accounting Services"
                 heroTitleSuffix="Compliance & Reporting"
                 heroSubtitle="Transparent Financial Management for Social Impact"
-                heroDescription="Vyombiz offers specialized NGO accounting services to maintain accurate financial records, ensure regulatory compliance, and promote transparent fund management. Our experts handle the financial processes so you can focus on your social mission."
+                heroDescription="Vyombiz provides specialized NGO accounting services to ensure accurate financial reporting, regulatory compliance, and transparent fund management. We help you focus on your mission while we handle the numbers."
                 whatsIncludedList={[
                     "Fund-Based Accounting & Reporting",
                     "Preparation of Financial Statements",
@@ -428,9 +431,9 @@ const NGOAccounting = () => {
                     "Compliance with FCRA & Income Tax"
                 ]}
                 stats={[
-                    { count: "1000+", label: "NGOs Supported", icon: <Users size={20} /> },
-                    { count: "100%", label: "Audit Compliance", icon: <CheckCircle size={20} /> },
-                    { count: "10+", label: "Years of Experience", icon: <Briefcase size={20} /> }
+                    { count: "1000+", label: "NGOs Served", icon: <Users size={20} /> },
+                    { count: "100%", label: "Audit Success", icon: <CheckCircle size={20} /> },
+                    { count: "10+", label: "Years Experience", icon: <Briefcase size={20} /> }
                 ]}
             />
             <TrustedBrands />

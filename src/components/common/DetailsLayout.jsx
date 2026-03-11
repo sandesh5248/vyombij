@@ -257,12 +257,15 @@ const DetailsLayout = ({
                                 </div>
                                 <div className="lg:w-1/2 order-1 lg:order-2">
                                     <h2 className="text-3xl md:text-5xl font-black text-[#072b47] mb-8 tracking-tight">{documents.title}</h2>
-                                    <p className="text-slate-500 font-bold text-lg mb-10 leading-relaxed italic pr-12">{documents.description}</p>
+                                    <p className="text-slate-500 font-bold text-lg mb-10 leading-relaxed italic pr-12">{documents.description || documents.subtitle}</p>
                                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-12">
                                         {documents.list.map((doc, i) => (
-                                            <div key={i} className="flex items-center gap-4 group">
-                                                <div className="w-2 h-2 rounded-full bg-[#f1a134] group-hover:scale-150 transition-all" />
-                                                <span className="text-[15px] font-black text-slate-700 group-hover:text-[#1e40af] transition-colors">{doc}</span>
+                                            <div key={i} className="flex items-start gap-4 group">
+                                                <div className="w-2 h-2 mt-2 rounded-full bg-[#f1a134] group-hover:scale-150 transition-all shrink-0" />
+                                                <div className="flex flex-col">
+                                                    <span className="text-[15px] font-black text-slate-700 group-hover:text-[#1e40af] transition-colors">{typeof doc === 'string' ? doc : doc.title}</span>
+                                                    {typeof doc === 'object' && doc.desc && <span className="text-xs text-slate-500 font-bold mt-1 line-clamp-3">{doc.desc}</span>}
+                                                </div>
                                             </div>
                                         ))}
                                     </div>

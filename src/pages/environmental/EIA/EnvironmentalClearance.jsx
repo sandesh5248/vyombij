@@ -1,151 +1,106 @@
 import React from 'react';
-import { CheckCircle, ArrowRight, Rocket, Smile, MapPin, PieChart, Shield } from 'lucide-react';
-
-const services = [
-    { title: "Environmental Clearance Consultation", desc: "Expert guidance and consultation for obtaining your Environmental Clearance smoothly and efficiently.", price: "₹2,999" },
-    { title: "Application Preparation", desc: "Complete documentation preparation and application filing for E I A compliance.", price: "₹4,999" },
-    { title: "Follow-up & Liaison", desc: "Regular follow-ups with relevant authorities to ensure faster processing of your application.", price: "₹3,499" },
-    { title: "Compliance Audit", desc: "Pre-application audit to ensure your premises/business meets all statutory requirements.", price: "₹5,999" },
-    { title: "Renewal Submissions", desc: "Timely submission of renewal applications to prevent lapses in your compliance status.", price: "₹1,999" },
-    { title: "Annual Returns Filing", desc: "Preparation and filing of statutory annual returns and compliance reports as mandated.", price: "₹2,499" },
-];
+import HeroLayout from '../../../components/common/HeroLayout';
+import DetailsLayout from '../../../components/common/DetailsLayout';
+import FAQLayout from '../../../components/common/FAQLayout';
+import ReviewsSection from '../../../components/common/ReviewsSection';
 
 const EnvironmentalClearance = () => {
     return (
-        <div className="bg-white min-h-screen font-sans">
-            <section className="relative min-h-[90vh] bg-white flex items-center pt-24 pb-12 overflow-hidden">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col lg:flex-row items-center gap-12 mb-20">
-                    <div className="w-full lg:w-[60%]">
-                        <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#005a9c]/10 border border-[#005a9c]/20 rounded-full text-[#005a9c] text-sm font-bold uppercase tracking-wider mb-8">
-                            <Shield size={16} /><span>E I A Services</span>
-                        </div>
-                        <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-[#072b47] leading-[1.1] mb-8">
-                            Environmental <br className="hidden md:block" />
-                            <span className="text-[#dead01]">Clearance</span>
-                        </h1>
-                        <p className="text-xl text-slate-600 mb-12 max-w-2xl leading-relaxed font-medium">
-                            End-to-end support for Environmental Clearance. We manage the entire lifecycle of compliance to ensure your business operations remain uninterrupted and legally sound.
-                        </p>
-                        <div className="flex flex-wrap gap-4 mb-8">
-                            {["Certification", "Compliance", "Advisory", "Renewals"].map((tag, i) => (
-                                <span key={i} className="px-4 py-2 bg-slate-100 text-[#072b47] rounded-full text-sm font-bold">{tag}</span>
-                            ))}
-                        </div>
-                        <button className="bg-[#005a9c] text-white px-12 py-5 rounded-2xl font-bold text-xl hover:bg-blue-700 shadow-2xl shadow-blue-900/20 active:scale-95 transition-all">Get Started Now</button>
-                    </div>
-                    <div className="w-full lg:w-[40%] relative">
-                        <div className="absolute inset-0 bg-[#005a9c]/10 blur-[120px] rounded-full scale-150 animate-pulse"></div>
-                        <img src="/environmental/placeholder/hero.avif" alt="Environmental Clearance"
-                            className="relative z-10 w-full h-auto object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-700"
-                            onError={(e) => { e.target.src = "https://illustrations.popsy.co/amber/plant.svg" }} />
-                    </div>
-                </div>
-            </section>
+        <div className="bg-[#f8f9fa] min-h-screen relative font-sans">
+            <div className="relative z-10 space-y-2 lg:space-y-4">
+                <HeroLayout
+                    heroTitleMain="Environmental Clearance"
+                    heroTitleSuffix="Certificate"
+                    heroDescription="Still didn't receive the environmental clearance certificate? Our expert consultants at Corpbiz ensure fast and hassle-free approvals for your projects! Secured environmental clearance for 800+ Projects."
+                    stats={[
+                        { count: "43K+", label: "Happy Clients" },
+                        { count: "3500+", label: "Expert Advisors" },
+                        { count: "50+", label: "Branch Offices" },
+                        { count: "4.9", label: "Global Rating" }
+                    ]}
+                    formTitle="Get Free Expert Consultation"
+                />
 
-            <section className="bg-[#FEF9C3] py-20">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                        {[
-                            { icon: <Rocket className="w-8 h-8 text-[#005a9c]" />, title: "Track Record", desc: "Successfully processed thousands of applications for clients across India." },
-                            { icon: <Smile className="w-8 h-8 text-[#005a9c]" />, title: "Domain Expertise", desc: "Deep knowledge of specific regulatory frameworks and compliance timelines." },
-                            { icon: <MapPin className="w-8 h-8 text-[#005a9c]" />, title: "Pan-India Reach", desc: "We provide comprehensive regulatory coverage spanning all states and territories." },
-                            { icon: <PieChart className="w-8 h-8 text-[#005a9c]" />, title: "Data Security", desc: "Your business secrets, process details, and critical data are held in strict confidence." },
-                        ].map((card, i) => (
-                            <div key={i} className="bg-white rounded-[2rem] p-10 flex flex-col shadow-2xl transform hover:-translate-y-1 transition-all duration-300">
-                                <div className="w-16 h-16 rounded-2xl bg-indigo-50 flex items-center justify-center mb-8">{card.icon}</div>
-                                <h3 className="text-xl font-bold text-[#072b47] mb-4">{card.title}</h3>
-                                <p className="text-slate-600 text-[15px] leading-relaxed font-medium">{card.desc}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+                <DetailsLayout
+                    overview={{
+                        title: "Environmental Clearance (EC) —",
+                        highlightTitle: "An Overview",
+                        description: [
+                            "Environmental clearance (EC) refers to the process of acquiring government approval for the installation and notification of specified projects.",
+                            "The Ministry of Environment, Forest and Climate Change is the authority that grants Environmental Clearance to Category A projects, whereas the State Environmental Impact Assessment Authority provides EC for Category B.",
+                            "Every project proponent is required to get an Environmental Clearance Certificate before preparing any land for site work. A decision must be made within 105 days after submitting the final EIA and EMP reports."
+                        ]
+                    }}
+                    advantages={{
+                        title: "Benefits of EC",
+                        subtitle: "Why Environmental Clearance is beneficial",
+                        list: [
+                            { title: "Maintains Equilibrium", desc: "EC ensures maintaining an equilibrium between economic development and environmental protection before a project's initiation." },
+                            { title: "Improve Environmental Performance", desc: "Ensures improved environmental performance and sustainable development through balanced economic, social, and environmental considerations." },
+                            { title: "Enhance Compliance", desc: "Ensures compliance with environmental laws, preventing violations and minimizing the risk of legal disputes." },
+                            { title: "Strengthens Public Participation", desc: "Strengthens active public participation through transparent and accountable decision-making based on public hearings." },
+                            { title: "Economic Benefits", desc: "Provides economic benefits, including promoting sustainable development and ensuring long-term project viability." }
+                        ]
+                    }}
+                    eligibility={{
+                        title: "Projects Requiring Prior EC",
+                        subtitle: "Applicability",
+                        list: [
+                            { title: "Mining & Resource Extraction", desc: "Extraction of natural resources such as oil and mining of minerals." },
+                            { title: "Power Projects", desc: "River Valley Projects (>50MW), Thermal and Nuclear Power Projects." },
+                            { title: "Manufacturing & Infrastructure", desc: "Crude Oil Refining, Primary Processing, Metallurgical industry, Chemical fertilizers, Highways, Airports, etc." },
+                            { title: "Construction", desc: "Building, construction, township, and area development projects of specific scales." }
+                        ]
+                    }}
+                    documents={{
+                        title: "Documents Required",
+                        subtitle: "For Environmental Clearance",
+                        list: [
+                            { title: "Assessment Reports", desc: "Environmental Impact Assessment (EIA) Report and Environmental Management Plan (EMP)." },
+                            { title: "Project Details", desc: "Project Proposal/Feasibility Report and complete details of the project proponent." },
+                            { title: "Site Plan and Maps", desc: "Details of land acquired for the project, layout plans, and map." },
+                            { title: "Public Hearing & ToR", desc: "Public Hearing Report, Consent from Local Authorities, and Terms of Reference (ToR)." },
+                            { title: "Post-Approval Needs", desc: "NOCs (Forest, Wildlife, CGWA, Fire), CTE, CTO, and certified half-yearly EC compliance report." }
+                        ]
+                    }}
+                    process={{
+                        title: "Step-by-Step Process",
+                        subtitle: "For obtaining Environmental Clearance in India",
+                        steps: [
+                            { step: "1", title: "Filing Application", desc: "Submitting Form 1 and Supplementary Form 1A immediately after identifying the prospective site(s)." },
+                            { step: "2", title: "Screening", desc: "Scrutiny of the application by the State Level Expert Appraisal Committee (SEAC) to determine if further environmental studies are needed." },
+                            { step: "3", title: "Scoping", desc: "Determining and submitting scoping documents (Terms of Reference - ToR) outlining relevant environmental issues and impacts." },
+                            { step: "4", title: "Public Consultation", desc: "Conducting a public hearing and stakeholder meeting to obtain feedback and opinions from the local community." },
+                            { step: "5", title: "Appraisal", desc: "Detailed scrutiny by the Expert Appraisal Committee within 60 days of the final Environmental Assessment Report submission." }
+                        ]
+                    }}
+                />
 
-            <section className="py-20 bg-slate-50">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center mb-16">
-                        <h2 className="text-3xl md:text-4xl font-bold text-[#072b47] mb-4">Services Addressed</h2>
-                        <div className="w-24 h-1 bg-[#dead01] shadow-[0_0_8px_rgba(255,233,10,0.6)] mx-auto rounded mb-6"></div>
-                    </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {services.map((service, index) => (
-                            <div key={index} className="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-2xl hover:border-[#FFE90A]/40 hover:-translate-y-2 transition-all duration-500 flex flex-col h-full group relative">
-                                <div className="absolute top-0 left-0 w-full h-[3px] bg-[#FFE90A]"></div>
-                                <div className="p-8 flex flex-col h-full pt-10">
-                                    <h3 className="text-xl font-bold text-[#072b47] mb-4 group-hover:text-[#005a9c] transition-colors">{service.title}</h3>
-                                    <p className="text-slate-600 text-[15px] leading-relaxed mb-10 flex-grow font-medium">{service.desc}</p>
-                                    <div className="mt-auto pt-6">
-                                        <div className="flex flex-col mb-6">
-                                            <span className="text-[11px] uppercase tracking-widest font-black text-slate-400 mb-1">Starting at</span>
-                                            <span className="text-[#dead01] text-3xl font-black leading-none">{service.price}</span>
-                                        </div>
-                                        <div className="flex items-center justify-between gap-4">
-                                            <button className="flex-1 bg-[#005a9c] hover:bg-[#072b47] text-white px-5 py-3.5 rounded-xl text-sm font-bold transition-all">Get Started</button>
-                                            <button className="text-[#005a9c] font-bold text-sm flex items-center gap-1.5 group/read py-1">
-                                                <span>Read More</span><ArrowRight className="w-4 h-4 group-hover/read:translate-x-1.5 transition-transform duration-300" />
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+                <FAQLayout
+                    title="Frequently Asked Questions"
+                    subtitle="Common queries regarding Environmental Clearance"
+                    faqs={[
+                        {
+                            question: "What is the validity of environmental clearance?",
+                            answer: "The prior environmental clearance is valid for 10 years for River Valley projects, 30 years for mining projects, and 5 years for all other projects and activities."
+                        },
+                        {
+                            question: "What is the primary goal of environmental clearance?",
+                            answer: "The primary goal is to ensure that development projects do not cause adverse environmental degradation and to promote sustainable industrial growth."
+                        },
+                        {
+                            question: "What are the laws regulating environmental clearance?",
+                            answer: "Key laws include the Environmental (Protection) Act 1986, EIA Notification 2006, Forest (Conservation) Act 1980, and the Wildlife (Protection) Act 1972."
+                        },
+                        {
+                            question: "What is category A and B in environmental clearance?",
+                            answer: "Category A projects are handled by the MoEFCC at the central level due to their large scale, while Category B projects are handled by SEIAA at the state level."
+                        }
+                    ]}
+                />
 
-            <section className="py-20 bg-[#FEF9C3]">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex flex-col lg:flex-row items-center gap-16">
-                        <div className="w-full lg:w-1/2">
-                            <h2 className="text-3xl md:text-4xl font-bold text-[#072b47] mb-6">About Environmental Clearance</h2>
-                            <div className="w-16 h-1 bg-[#072b47] rounded mb-8"></div>
-                            <div className="space-y-6 text-[#072b47]/90 text-lg leading-relaxed font-medium">
-                                <p>Ensuring compliance with Environmental Clearance is crucial for businesses operating in today's regulated environment under the broader framework of E I A. Failure to comply can result in severe legal consequences, operational halts, and financial penalties.</p>
-                                <p>Our comprehensive assistance covers everything from initial evaluation and strategy formulation to execution and final approval. Whether you are establishing a new entity or operating an existing one, we provide clear roadmaps to maintain unblemished compliance records.</p>
-                            </div>
-                        </div>
-                        <div className="w-full lg:w-1/2">
-                            <div className="bg-white rounded-3xl p-8 shadow-xl border border-slate-100">
-                                <h3 className="text-xl font-black text-[#072b47] mb-6">Core Requirements</h3>
-                                <ul className="space-y-4">
-                                    {["Business Incorporation Details", "Authorized Person KYC", "Facility Setup Plans", "List of Machinery/Process Details", "Past Compliance Records (if any)", "Site Clearance Approvals", "Local Body NOCs"].map((doc, i) => (
-                                        <li key={i} className="flex items-start gap-3 text-slate-700 font-medium">
-                                            <CheckCircle className="w-5 h-5 text-[#005a9c] mt-0.5 shrink-0" />
-                                            <span>{doc}</span>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section className="py-24 bg-white border-t border-slate-100">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center mb-20">
-                        <h2 className="text-3xl md:text-5xl font-black text-[#072b47] mb-6">Why Choose <span className="text-[#dead01]">Us</span></h2>
-                        <div className="w-24 h-1.5 bg-[#dead01] mx-auto rounded-full"></div>
-                    </div>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        {[
-                            { title: "Specialized Experts", desc: "Dedicated professionals focused specifically on navigating complex environmental guidelines." },
-                            { title: "Assured Approvals", desc: "A robust vetting process of document filings severely limits the chance of application pushback." },
-                            { title: "Lifecycle Management", desc: "Beyond simple acquisition, we maintain a proactive posture toward your ongoing compliance schedule." },
-                        ].map((item, index) => (
-                            <div key={index} className="relative p-10 rounded-[2.5rem] border border-slate-200 bg-white shadow-sm hover:shadow-2xl hover:border-[#dead01]/30 hover:-translate-y-2 transition-all duration-500 group flex flex-col">
-                                <div className="mb-8">
-                                    <div className="w-16 h-16 rounded-2xl bg-slate-50 flex items-center justify-center border border-slate-100 group-hover:bg-[#dead01]/10 transition-all duration-500">
-                                        <CheckCircle className="w-8 h-8 text-[#dead01]" />
-                                    </div>
-                                </div>
-                                <h3 className="text-xl font-black text-[#072b47] mb-4 group-hover:text-[#005a9c] transition-colors">{item.title}</h3>
-                                <p className="text-slate-600 leading-relaxed font-medium text-[15px]">{item.desc}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+                <ReviewsSection />
+            </div>
         </div>
     );
 };
