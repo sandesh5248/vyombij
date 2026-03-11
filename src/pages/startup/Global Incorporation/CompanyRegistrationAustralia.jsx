@@ -120,8 +120,8 @@ const AustraliaIncorporationEligibility = () => {
                 </div>
                 <div className="mt-12 text-center">
                     <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Choose Your Company Type
-                            </Link>
+                        Choose Your Company Type
+                    </Link>
                 </div>
             </div>
         </section>
@@ -278,10 +278,6 @@ const CompanyRegistrationAustralia = () => {
         {
             question: "Do I need a local address in Australia?",
             answer: "Yes, every company must have a registered office address located in Australia for official correspondence."
-        },
-        {
-            question: "Is company registration in Australia suitable for startups?",
-            answer: "Yes. Australia offers a strong startup ecosystem, innovation support, and global market opportunities, making it attractive for new businesses."
         }
     ];
 
