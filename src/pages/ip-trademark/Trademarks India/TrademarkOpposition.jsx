@@ -27,7 +27,7 @@ const TrademarkOppositionEligibility = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Who Can Oppose?
+                    Who Can File a Trademark Opposition?
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
                     Eligibility criteria for filing a trademark opposition.
@@ -35,42 +35,42 @@ const TrademarkOppositionEligibility = () => {
                 
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Any Person
+                        Any Individual
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        The law allows 'any person' to tile an opposition, not just registered owners.
+                        Trademark law allows any person to file an opposition against a published trademark.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Prior Users
+                        Prior Trademark Users
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Owners of unregistered marks who have been using the mark prior to the applicant.
+                        Individuals or businesses that have been using a similar mark before the applicant.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Registered Owners
+                        Registered Trademark Owners
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Proprietors of existing registered trademarks.
+                        Owners of already registered trademarks who want to protect their brand rights.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Customers/Public
+                        Public Interest Groups
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Members of the public who believe the mark is deceptive.
+                        Members of the public who believe the mark may mislead consumers.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Competitors
+                        Business Competitors
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Business rivals wishing to prevent unfair monopoly over common terms.
+                        Companies seeking to prevent unfair advantage or monopoly over certain terms.
                     </p>
                 </div>
             </div>
@@ -83,7 +83,7 @@ const TrademarkOppositionDocumentsSection = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Form TM-5 & Requirements
+                    Notice of Opposition (Form TM-O) – Requirements
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
                     Details required to file a Notice of Opposition (Form TM-O/TM-5).
@@ -92,35 +92,35 @@ const TrademarkOppositionDocumentsSection = () => {
                     
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Details of the Opponent (Name, Address)</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Opponent Information:</span> Name and address of the person or entity filing the opposition.</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Details of the Applicant & Application Number</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Applicant Information:</span> Trademark application number and details of the applicant.</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Grounds of Opposition (Detailed Statement)</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Statement of Grounds:</span> Detailed explanation of why the trademark registration should be opposed.</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Verification by the Opponent</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Opponent Verification:</span> Confirmation and declaration signed by the opponent.</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Power of Attorney (if filed by agent)</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Authorization Document:</span> Power of attorney if the opposition is filed through a legal representative.</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Evidence of Prior Use (if applicable)</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Supporting Evidence:</span> Documents proving earlier use or ownership of the mark.</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Details of Conflicting Mark</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Conflicting Trademark Details:</span> Information about the trademark causing the conflict.</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Fees Receipt</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Filing Fee Receipt:</span> Proof of payment for the opposition filing.</p>
                     </div>
                 </div>
             </div>
@@ -134,7 +134,7 @@ const TrademarkOppositionProcessSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        Opposition Procedure
+                        Trademark Opposition Process
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
                         Step-by-step legal process for trademark opposition.
@@ -156,10 +156,10 @@ const TrademarkOppositionProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Notice of Opposition
+                                    Filing Notice of Opposition
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    File Form TM-O within 4 months of journal advertisement.
+                                    Submit Form TM-O within four months from the publication date.
                                 </p>
                             </div>
                         </div>
@@ -169,10 +169,10 @@ const TrademarkOppositionProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Counter-Statement
+                                    Counter Statement by Applicant
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Applicant must file a counter-statement (Form TM-O) within 2 months of receiving the notice.
+                                    The applicant must respond to the opposition within two months.
                                 </p>
                             </div>
                         </div>
@@ -182,10 +182,10 @@ const TrademarkOppositionProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Evidence by Opponent
+                                    Evidence Submission by Opponent
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Opponent files evidence in support of opposition (Rule 45) within 2 months.
+                                    Opponent submits supporting documents and evidence within the specified timeline.
                                 </p>
                             </div>
                         </div>
@@ -195,10 +195,10 @@ const TrademarkOppositionProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Evidence by Applicant
+                                    Evidence Submission by Applicant
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Applicant files evidence in support of application (Rule 46) within 2 months.
+                                    Applicant provides evidence supporting their trademark application.
                                 </p>
                             </div>
                         </div>
@@ -208,10 +208,10 @@ const TrademarkOppositionProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Hearing
+                                    Registrar Hearing
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Registrar conducts a hearing where both parties present their arguments.
+                                    Both parties present their arguments before the Registrar.
                                 </p>
                             </div>
                         </div>
@@ -221,10 +221,10 @@ const TrademarkOppositionProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Final Decision
+                                    Registrar’s Final Order
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Registrar passes an order either allowing the opposition or registering the trademark.
+                                    The Registrar decides whether the opposition is accepted or the trademark proceeds to registration.
                                 </p>
                             </div>
                         </div>
@@ -242,7 +242,7 @@ const TrademarkOppositionFeaturesSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose Vyombiz?
+                        Why Choose Vyombiz for Trademark Opposition
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
                         Expert legal representation for your trademark disputes.
@@ -256,10 +256,10 @@ const TrademarkOppositionFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Strategic Defense
+                                    Strategic Legal Approach
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Customized legal strategies to strengthen your opposition case.
+                                    Carefully planned legal strategies to strengthen your opposition case.
                                 </p>
                             </div>
                         </div>
@@ -269,10 +269,10 @@ const TrademarkOppositionFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Experienced Attorneys
+                                    Experienced IP Lawyers
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Team of specialized IP lawyers with years of litigation experience.
+                                    Dedicated team specializing in intellectual property disputes.
                                 </p>
                             </div>
                         </div>
@@ -282,10 +282,10 @@ const TrademarkOppositionFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Document Drafting
+                                    Professional Documentation
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Precise drafting of notices, counter-statements, and evidence affidavits.
+                                    Accurate drafting of opposition notices, statements, and evidence.
                                 </p>
                             </div>
                         </div>
@@ -295,10 +295,10 @@ const TrademarkOppositionFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Timely Filing
+                                    Deadline Compliance
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Ensuring all documents are filed within statutory deadlines to avoid abandonment.
+                                    Ensuring all filings are completed within statutory time limits.
                                 </p>
                             </div>
                         </div>
@@ -308,10 +308,10 @@ const TrademarkOppositionFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Hearing Representation
+                                    Representation in Hearings
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Strong representation before the Trademark Registrar and IPAB.
+                                    Professional representation before the trademark authorities.
                                 </p>
                             </div>
                         </div>
@@ -321,10 +321,10 @@ const TrademarkOppositionFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Cost-Effective
+                                    Transparent Pricing
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Transparent pricing models tailored to your business needs.
+                                    Affordable services with clear and transparent pricing structures.
                                 </p>
                             </div>
                         </div>
@@ -334,10 +334,10 @@ const TrademarkOppositionFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Regular Updates
+                                    Case Status Updates
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Keep you informed at every stage of the legal proceedings.
+                                    Continuous updates regarding the progress of your case.
                                 </p>
                             </div>
                         </div>
@@ -347,10 +347,10 @@ const TrademarkOppositionFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Comprehensive Support
+                                    End-to-End Legal Support
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Assistance from filing the notice to the final order.
+                                    Complete assistance from filing opposition to the final decision.
                                 </p>
                             </div>
                         </div>
@@ -365,8 +365,8 @@ const TrademarkOpposition = () => {
 
     const faqs = [
         {
-            question: "What exactly is Trademark Opposition?",
-            answer: "A trademark opposition is a legal proceeding where a third party objects to the registration of a trademark that has been accepted and published in the Trademark Journal, usually to protect their own brand reputation."
+            question: "What is a trademark opposition?",
+            answer: "Trademark opposition is a legal process where a third party challenges the registration of a trademark after it is published in the Trademark Journal. It is commonly used to protect existing trademark rights and prevent confusion in the marketplace."
         },
         {
             question: "What is the time limit to file a trademark opposition?",
@@ -393,16 +393,16 @@ const TrademarkOpposition = () => {
                     {/* Left Content */}
                     <div>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Trademark Opposition – An Overview
+                            Overview of Trademark Opposition
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            A trademark opposition is a formal objection filed by a third party against the registration of a trademark that has been accepted by the Registrar and published in the Trademark Journal.
+                            Trademark opposition is a legal procedure where a third party challenges the registration of a trademark that has been accepted and published in the Trademark Journal by the Registrar.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            It allows brand owners and the public to prevent the registration of marks that are identical, similar, or likely to cause confusion with existing marks.
+                            This process enables brand owners or members of the public to oppose trademarks that are identical, similar, or capable of causing confusion with existing trademarks.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                            The opposition must be filed within a strict timeline of 4 months from the date of advertisement in the journal.
+                            An opposition must be filed within four months from the date the trademark is advertised in the official journal.
                         </p>
                     </div>
 
@@ -428,7 +428,7 @@ const TrademarkOpposition = () => {
                         Brand Defense
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Grounds for Opposition
+                        Common Grounds for Trademark Opposition
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
                         Valid reasons to oppose a trademark application in India.
@@ -445,12 +445,12 @@ const TrademarkOpposition = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Similarity", desc: "The mark is identical or deceptively similar to an existing registered trademark." },
-                        { title: "Descriptiveness", desc: "The mark lacks distinctiveness or is purely descriptive of the goods/services." },
-                        { title: "Bad Faith", desc: "The application was made in bad faith or with dishonest intentions." },
-                        { title: "Public Confusion", desc: "The mark is likely to deceive the public or cause confusion." },
-                        { title: "Prohibited Marks", desc: "The mark contains matter that is illegal, offensive, or prohibited under the Emblems and Names Act." },
-                        { title: "Customary Language", desc: "The mark consists of terms common in current language or established trade practices." }
+                        { title: "Similar or Identical Mark", desc: "The proposed trademark is identical or deceptively similar to an existing registered or prior-used mark." },
+                        { title: "Lack of Distinctiveness", desc: "The trademark is generic, descriptive, or does not have unique identifying characteristics." },
+                        { title: "Application Filed in Bad Faith", desc: "The applicant filed the trademark with dishonest intentions or to misuse another brand’s reputation." },
+                        { title: "Likelihood of Public Confusion", desc: "The mark may mislead consumers or create confusion in the market." },
+                        { title: "Use of Prohibited Content", desc: "The mark includes elements that are illegal or restricted under applicable laws." },
+                        { title: "Common or Generic Terms", desc: "The trademark contains words that are commonly used in trade or everyday language." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">{item.title}</h3>
@@ -468,9 +468,9 @@ const TrademarkOpposition = () => {
             {/* ================= SECTION 1: HERO ================= */}
             <HeroLayout
                 heroTitleMain="Trademark Opposition"
-                heroTitleSuffix="Services"
+                heroTitleSuffix="Services in India"
                 heroSubtitle="Protect Your Brand from Infringement"
-                heroDescription="Trademark opposition is a vital tool to stop conflicting marks from being registered. If you believe a published trademark infringes on your rights, Vyombiz helps you file a strong opposition to safeguard your brand's integrity."
+                heroDescription="Trademark opposition allows businesses to prevent the registration of conflicting trademarks. If a published trademark affects your brand rights, Vyombiz helps you file a strong opposition to protect your brand identity and market reputation."
                 whatsIncludedList={[
                     "Drafting Notice of Opposition",
                     "Filing Counter-Statements",
@@ -478,9 +478,9 @@ const TrademarkOpposition = () => {
                     "Expert Legal Strategy"
                 ]}
                 stats={[
-                    { count: "4 Months", label: "Filing Window", icon: <Scale size={20} /> },
-                    { count: "1000+", label: "Oppositions Filed", icon: <Gavel size={20} /> },
-                    { count: "Expert", label: "Legal Team", icon: <ShieldAlert size={20} /> }
+                    { count: "4 Months", label: "Opposition Filing Period", icon: <Scale size={20} /> },
+                    { count: "1000+", label: "Trademark Oppositions Handled", icon: <Gavel size={20} /> },
+                    { count: "Dedicated", label: "IP Legal Team", icon: <ShieldAlert size={20} /> }
                 ]}
             />
 

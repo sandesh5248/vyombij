@@ -20,27 +20,15 @@ const TrademarkOverview = () => {
                     {/* Left Content */}
                     <div>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Trademark Registration – An Overview
+                            Overview of Trademark Registration
                         </h2>
 
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Trademark registration in India is a process that safeguards your brand legally.
-                            The process protects brand names, logos, symbols, or slogans, facilitating
-                            exclusive rights to the businesses to use their mark. Trademark prevents the
-                            unauthorized use of your brand's originality in the market. However, to register
-                            a trademark, you must follow a series of steps, including filing an application
-                            with the Indian Trademark Office, undergoing verification, and responding if
-                            any objections are raised. A registered trademark is valid for 10 years and can
-                            be renewed.
+                            Trademark registration in India protects your brand legally by securing names, logos, symbols, or slogans. It grants businesses exclusive rights to use their mark and prevents others from copying or misusing the brand identity in the marketplace. To register a trademark, an application must be filed with the Trademark Registry, followed by examination and possible responses to objections if raised. Once approved, the trademark remains valid for 10 years and can be renewed periodically.
                         </p>
 
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                            Trademark registration is essential for boosting your business's credibility,
-                            offering protection against infringements, creating a valuable asset, and
-                            facilitating global trademark protection. A trademark registered in India helps
-                            you expand your business globally by safeguarding your interests internationally.
-                            If you are looking to register trademark, you must connect with our seasoned IPR
-                            experts today.
+                            Registering a trademark strengthens business credibility, protects against infringement, and creates a valuable intellectual property asset. A registered trademark also helps businesses expand globally by protecting their brand identity in international markets. If you plan to register your trademark, expert assistance can help simplify the process and ensure compliance with legal requirements.
                         </p>
                     </div>
 
@@ -66,7 +54,7 @@ const TrademarkRegistrationEligibility = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Who Should Register?
+                    Who Should Apply for Trademark Registration
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
                     Entities and individuals who benefit from Trademark Registration.
@@ -77,7 +65,7 @@ const TrademarkRegistrationEligibility = () => {
                         Business Owners
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        To protect their names, logos, and products from being copied.
+                        To protect brand names, product labels, and company logos.
                     </p>
                 </div>
                 <div className="mb-10">
@@ -85,15 +73,15 @@ const TrademarkRegistrationEligibility = () => {
                         Startups
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        To ensure a unique brand identity and to attract investors.
+                        To build a unique brand identity and attract potential investors.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Service Providers
+                        Service Businesses
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        To protect their goodwill in the competitive market landscape.
+                        To secure reputation and goodwill in competitive markets.
                     </p>
                 </div>
                 <div className="mb-10">
@@ -101,23 +89,23 @@ const TrademarkRegistrationEligibility = () => {
                         Entrepreneurs
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        To build their brand reputation and legal ownership.
+                        To establish legal ownership of brand identity.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        NGOs
+                        Non-Profit Organizations
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        To protect their logos or slogans that reflect their mission and cause.
+                        To protect logos or slogans representing their mission.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Artists/Designers
+                        Creators and Designers
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        To safeguard intellectual property rights for their distinctive designs.
+                        To protect original designs and intellectual property.
                     </p>
                 </div>
             </div>
@@ -130,7 +118,7 @@ const TrademarkRegistrationDocumentsSection = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Required Documents
+                    Documents Required for Trademark Registration
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
                     Documents needed to initiate the Trademark Registration process.
@@ -139,35 +127,35 @@ const TrademarkRegistrationDocumentsSection = () => {
 
                     <div className="flex items-start gap-3">
                         <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Identity Proof (PAN / Aadhaar) of Applicant</p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Applicant Identity Proof:</span> PAN card or Aadhaar card of the applicant.</p>
                     </div>
                     <div className="flex items-start gap-3">
                         <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Address Proof (Utility Bill / Passport)</p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Address Proof:</span> Utility bill, passport, or other valid address proof.</p>
                     </div>
                     <div className="flex items-start gap-3">
                         <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Incorporation Certificate / Partnership Deed (if applicable)</p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Business Registration Documents:</span> Company incorporation certificate or partnership deed if applicable.</p>
                     </div>
                     <div className="flex items-start gap-3">
                         <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Trademark Details (Logo, Slogan, Brand Name)</p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Trademark Details:</span> Brand name, logo design, or slogan to be registered.</p>
                     </div>
                     <div className="flex items-start gap-3">
                         <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Form TM-48 (Power of Attorney)</p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Authorization Form:</span> Power of attorney authorizing the representative to file the application.</p>
                     </div>
                     <div className="flex items-start gap-3">
                         <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium">MSME / Udyog Aadhaar Certificate (for fee concession)</p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">MSME Certificate:</span> Certificate for small business fee concessions if applicable.</p>
                     </div>
                     <div className="flex items-start gap-3">
                         <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium">User Affidavit (if claiming prior use)</p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Prior Use Affidavit:</span> Required when claiming prior usage of the trademark.</p>
                     </div>
                     <div className="flex items-start gap-3">
                         <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Business Objectives & Description of Goods/Services</p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Description of Goods or Services:</span> Details of products or services associated with the trademark.</p>
                     </div>
                 </div>
             </div>
@@ -181,7 +169,7 @@ const TrademarkRegistrationProcessSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        Registration Process
+                        Trademark Registration Process
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
                         Step-by-step guide to protect your brand identity.
@@ -203,10 +191,10 @@ const TrademarkRegistrationProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Trademark Search
-                                </h3>
+                                    Trademark Availability Search
+                               </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Conducting an in-depth search to ensure the trademark is unique.
+                                    Checking whether the trademark is unique and available.
                                 </p>
                             </div>
                         </div>
@@ -216,10 +204,10 @@ const TrademarkRegistrationProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Application Filing
+                                    Application Submission
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Submitting the application with applicant details and trademark graphic.
+                                    Filing the trademark application with applicant details and mark representation.
                                 </p>
                             </div>
                         </div>
@@ -229,10 +217,10 @@ const TrademarkRegistrationProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Office Review
+                                    Examination by Trademark Office
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Examination by the Trademark Office for distinctiveness and objections.
+                                    The registry examines the application for distinctiveness and compliance.
                                 </p>
                             </div>
                         </div>
@@ -242,10 +230,10 @@ const TrademarkRegistrationProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Objection Response
+                                    Responding to Objections
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Clarifying any objections raised by the office within the stipulated time.
+                                    Submitting replies if the Trademark Office raises objections.
                                 </p>
                             </div>
                         </div>
@@ -255,10 +243,10 @@ const TrademarkRegistrationProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Journal Publication
+                                    Trademark Journal Publication
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Publication in the Trademark Journal for third-party opposition.
+                                    The trademark is published for third-party opposition.
                                 </p>
                             </div>
                         </div>
@@ -268,10 +256,10 @@ const TrademarkRegistrationProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Registration
+                                    Certificate Issuance
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Issuance of Registration Certificate if no opposition is filed.
+                                    If no opposition is received, the trademark registration certificate is granted.
                                 </p>
                             </div>
                         </div>
@@ -289,7 +277,7 @@ const TrademarkRegistrationFeaturesSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose VyomBiz?
+                        Why Choose VyomBiz for Trademark Registration
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
                         Your trusted partner for Intellectual Property Rights.
@@ -303,10 +291,10 @@ const TrademarkRegistrationFeaturesSection = () => {
                         </div>
                         <div>
                             <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                Expert Consultation
+                                Professional Consultation
                             </h3>
                             <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                Guiding you through eligibility to safeguard brand identity.
+                                Expert guidance on trademark eligibility and protection.
                             </p>
                         </div>
                     </div>
@@ -316,10 +304,10 @@ const TrademarkRegistrationFeaturesSection = () => {
                         </div>
                         <div>
                             <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                Comprehensive Search
+                                Detailed Trademark Search
                             </h3>
                             <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                Conducting detailed searches to ensure unique and available trademarks.
+                                Ensuring the mark is unique before filing.
                             </p>
                         </div>
                     </div>
@@ -329,10 +317,10 @@ const TrademarkRegistrationFeaturesSection = () => {
                         </div>
                         <div>
                             <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                Document Preparation
+                                Documentation Support
                             </h3>
                             <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                Assisting in collecting documents to reduce errors and delays.
+                                Assistance in preparing and verifying all documents.
                             </p>
                         </div>
                     </div>
@@ -342,10 +330,10 @@ const TrademarkRegistrationFeaturesSection = () => {
                         </div>
                         <div>
                             <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                Application Filing
+                                Complete Filing Assistance
                             </h3>
                             <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                Managing the entire filing process ensuring legal compliance.
+                                Handling the entire trademark application process.
                             </p>
                         </div>
                     </div>
@@ -355,10 +343,10 @@ const TrademarkRegistrationFeaturesSection = () => {
                         </div>
                         <div>
                             <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                Real-Time Updates
+                                Application Status Updates
                             </h3>
                             <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                Regular updates on application status throughout the process.
+                                Keeping you informed about progress.
                             </p>
                         </div>
                     </div>
@@ -368,10 +356,10 @@ const TrademarkRegistrationFeaturesSection = () => {
                         </div>
                         <div>
                             <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                Objection Handling
+                                Objection Response Support
                             </h3>
                             <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                Drafting strong replies to trademark objections.
+                                Drafting professional responses to office objections.
                             </p>
                         </div>
                     </div>
@@ -381,10 +369,10 @@ const TrademarkRegistrationFeaturesSection = () => {
                         </div>
                         <div>
                             <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                Cost Transparency
+                                Transparent Pricing
                             </h3>
                             <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                Clear cost breakdowns with no hidden charges.
+                                Clear pricing structure without hidden charges.
                             </p>
                         </div>
                     </div>
@@ -394,10 +382,10 @@ const TrademarkRegistrationFeaturesSection = () => {
                         </div>
                         <div>
                             <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                Post-Reg Support
+                                Post-Registration Assistance
                             </h3>
                             <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                Continued support for renewals and enforcement.
+                                Support for renewal and trademark protection.
                             </p>
                         </div>
                     </div>
@@ -413,7 +401,7 @@ const TrademarkRegistration = () => {
     const faqs = [
         {
             question: "What is the difference between a trademark and a registered trademark?",
-            answer: "A trademark includes a symbol, word, or logo representing a brand that has not been registered officially. A registered trademark is a trademark that has been registered legally, giving the owner exclusive rights to use the ® symbol and offering stronger legal protection."
+            answer: "A trademark is a word, logo, symbol, or design that represents a brand but may not yet be officially registered. A registered trademark is legally approved and allows the owner to use the ® symbol while providing stronger legal protection against unauthorized use."
         },
         {
             question: "How can I register a trademark?",
@@ -444,7 +432,7 @@ const TrademarkRegistration = () => {
                     </span>
 
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of Trademark Registration
+                        Advantages of Trademark Registration
                     </h2>
 
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
@@ -464,28 +452,28 @@ const TrademarkRegistration = () => {
                 <div className="space-y-6">
                     {[
                         {
-                            title: "Brand Protection",
-                            desc: "Grants exclusive rights, preventing unauthorized use of your brand name or logo."
+                            title: "Exclusive Brand Protection",
+                            desc: "Provides exclusive rights and prevents others from using your brand name or logo."
                         },
                         {
-                            title: "Legal Rights",
-                            desc: "Offers legal ownership and facilitates actions against infringers for compensation."
+                            title: "Legal Ownership",
+                            desc: "Grants the legal authority to take action against unauthorized use or infringement."
                         },
                         {
-                            title: "Business Credibility",
-                            desc: "Boosts brand credibility, demonstrating professionalism and promoting trust with customers and investors."
+                            title: "Improved Business Credibility",
+                            desc: "Enhances brand image and builds trust among customers and investors."
                         },
                         {
-                            title: "Market Differentiation",
-                            desc: "Distinguishes your products from competitors and strengthens brand recognition in the marketplace."
+                            title: "Strong Market Identity",
+                            desc: "Helps distinguish your products or services from competitors."
                         },
                         {
-                            title: "Asset Creation",
-                            desc: "Becomes an intangible business asset that can be licensed or franchised for long-term financial benefits."
+                            title: "Valuable Business Asset",
+                            desc: "A registered trademark becomes an intellectual property asset that can be licensed or franchised."
                         },
                         {
-                            title: "Global Protection",
-                            desc: "Helps secure international trademark protection and safeguards your brand across different markets worldwide."
+                            title: "International Brand Protection",
+                            desc: "Supports expansion into international markets with stronger brand security."
                         }
                     ].map((item, index) => (
                         <div
@@ -514,7 +502,7 @@ const TrademarkRegistration = () => {
                 heroTitleMain="Trademark Registration"
                 heroTitleSuffix="in India"
                 heroSubtitle="Protect Your Brand Identity"
-                heroDescription="Trademark registration in India is a process that safeguards your brand legally. It protects brand names, logos, symbols, or slogans, facilitating exclusive rights to businesses to use their mark and preventing unauthorized use."
+                heroDescription="Trademark registration in India legally protects your brand identity. It secures names, logos, symbols, and slogans by granting exclusive rights to the owner and preventing unauthorized use by others."
                 whatsIncludedList={[
                     "Comprehensive Trademark Search",
                     "Expert Legal Consultation",
@@ -522,9 +510,9 @@ const TrademarkRegistration = () => {
                     "Objection Handling Support"
                 ]}
                 stats={[
-                    { count: "5000+", label: "Trademarks Filed", icon: <FileText size={20} /> },
-                    { count: "98%", label: "Success Rate", icon: <Award size={20} /> },
-                    { count: "10+", label: "Years Experience", icon: <Clock size={20} /> }
+                    { count: "5000+", label: "Trademark Applications", icon: <FileText size={20} /> },
+                    { count: "High", label: "Approval Rate", icon: <Award size={20} /> },
+                    { count: "Experienced", label: "IPR Professionals", icon: <Clock size={20} /> }
                 ]}
             />
 

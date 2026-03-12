@@ -26,7 +26,7 @@ const TrademarkAssignmentEligibility = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Restrictions & Requirements
+                    Key Requirements for Trademark Assignment
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
                     Key considerations before initiating a trademark assignment.
@@ -34,50 +34,50 @@ const TrademarkAssignmentEligibility = () => {
                 
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Multiple Rights Creation
+                        Avoiding Multiple Exclusive Rights
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Restriction on assignments that result in the creation of multiple exclusive rights in different people for the same goods/services.
+                        Assignments should not create multiple exclusive rights for identical goods or services.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Geographical Split
+                        Territorial Restrictions
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Restriction on splitting rights based on different parts of India for the same goods/services.
+                        Trademark rights cannot be divided across different regions for the same products or services.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        TM Agreement
+                        Written Assignment Agreement
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        A written agreement is mandatory to authorize the assignment.
+                        A formal written agreement is required to legally complete the assignment.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Registrar Direction
+                        Registrar Approval
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Mandatory for assignments with goodwill to seek Registrar's direction within specified timelines.
+                        In some cases, the Registrar’s directions must be followed for assignment registration.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Public Notice
+                        Public Advertisement
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Advertisement in the defined manner is required for certain types of assignments.
+                        Certain assignments require public notice as directed by the Trademark Registrar.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Time Limit
+                        Filing Time Limit
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Application to register the assignment must be filed within 3 months (extendable) of the transfer.
+                        The application must be filed within three months from the assignment date (extendable).
                     </p>
                 </div>
             </div>
@@ -90,7 +90,7 @@ const TrademarkAssignmentDocumentsSection = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Required Documents
+                    Documents Required for Trademark Assignment
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
                     Documents needed to process the Trademark Assignment.
@@ -99,35 +99,35 @@ const TrademarkAssignmentDocumentsSection = () => {
                     
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Duly Stamped Assignment Deed</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Assignment Deed:</span> Properly stamped agreement transferring trademark ownership.</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Affidavit of No Legal Proceedings</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Affidavit Declaration:</span> Declaration confirming no pending legal disputes.</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">NOC from the Original Owner (Assignor)</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">No Objection Certificate:</span> Consent from the assignor approving the transfer.</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Identity & Address Proof of Assignor & Assignee</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Identity and Address Proof:</span> PAN, Aadhaar, or other valid identity proof of both parties.</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Trademark Registration Certificate</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Trademark Certificate:</span> Proof of trademark registration if already registered.</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Form TM-P (Application Form)</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Application Form TM-P:</span> Official form required to register the assignment with the registry.</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Power of Attorney</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Authorization Letter:</span> Permission allowing representatives to handle the filing.</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Goodwill Assessment (if applicable)</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Goodwill Documentation:</span> Supporting documents if the assignment includes business goodwill.</p>
                     </div>
                 </div>
             </div>
@@ -141,7 +141,7 @@ const TrademarkAssignmentProcessSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        Assignment Procedure
+                        Trademark Assignment Process
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
                         Steps to legally transfer trademark ownership.
@@ -163,10 +163,10 @@ const TrademarkAssignmentProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Application Filing
+                                    Filing Application
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    File Form TM-P with the Registrar of Trademarks.
+                                    Submit Form TM-P with the Trademark Registrar.
                                 </p>
                             </div>
                         </div>
@@ -176,10 +176,10 @@ const TrademarkAssignmentProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Registrar Review
+                                    Registrar Examination
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Registrar reviews the application and may ask for clarifications.
+                                    The Registrar reviews the assignment application and supporting documents.
                                 </p>
                             </div>
                         </div>
@@ -189,10 +189,10 @@ const TrademarkAssignmentProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Advertisement
+                                    Public Advertisement
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    For assignments with goodwill, advertisement as per Registrar's direction.
+                                    Certain assignments may require publication as directed by the Registrar.
                                 </p>
                             </div>
                         </div>
@@ -202,10 +202,10 @@ const TrademarkAssignmentProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Approval
+                                    Approval by Registrar
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    On satisfaction, the Registrar approves the assignment.
+                                    Once verified, the Registrar approves the trademark assignment.
                                 </p>
                             </div>
                         </div>
@@ -215,10 +215,10 @@ const TrademarkAssignmentProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    ownership Update
+                                    Register Update
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    The register is updated with the name of the new owner (Assignee).
+                                    The trademark register is updated with the name of the new owner.
                                 </p>
                             </div>
                         </div>
@@ -236,7 +236,7 @@ const TrademarkAssignmentFeaturesSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose Vyombiz?
+                        Why Choose Vyombiz for Trademark Assignment
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
                         Expert assistance for a hassle-free trademark assignment experience.
@@ -250,10 +250,10 @@ const TrademarkAssignmentFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    4.9/5 Rating
+                                    Trusted Service Rating
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Trusted by thousands of customers globally.
+                                    Highly rated services by satisfied clients.
                                 </p>
                             </div>
                         </div>
@@ -263,10 +263,10 @@ const TrademarkAssignmentFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Expert Legal Team
+                                    Experienced Legal Experts
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    10+ years of experience in IP and trademark laws.
+                                    Professionals with extensive experience in intellectual property laws.
                                 </p>
                             </div>
                         </div>
@@ -276,10 +276,10 @@ const TrademarkAssignmentFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Seamless Process
+                                    End-to-End Support
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    We handle drafting, filing, and follow-ups end-to-end.
+                                    Handling drafting, filing, and follow-ups for the assignment process.
                                 </p>
                             </div>
                         </div>
@@ -289,10 +289,10 @@ const TrademarkAssignmentFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Fast Turnaround
+                                    Timely Service Delivery
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Committed to delivering services within agreed timelines.
+                                    Focused on completing services within agreed timelines.
                                 </p>
                             </div>
                         </div>
@@ -302,10 +302,10 @@ const TrademarkAssignmentFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Cost-Effective
+                                    Transparent Pricing
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Transparent pricing with no hidden charges.
+                                    Clear pricing structure without hidden costs.
                                 </p>
                             </div>
                         </div>
@@ -315,10 +315,10 @@ const TrademarkAssignmentFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Global Reach
+                                    International Assistance
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Ability to assist with international trademark assignments.
+                                    Support for both domestic and international trademark assignments.
                                 </p>
                             </div>
                         </div>
@@ -328,10 +328,10 @@ const TrademarkAssignmentFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Dedicated Support
+                                    Dedicated Assistance
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Relationship manager assigned for personalized assistance.
+                                    Personal support for handling client queries and updates.
                                 </p>
                             </div>
                         </div>
@@ -341,10 +341,10 @@ const TrademarkAssignmentFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Tech-Driven
+                                    Digital Tracking
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Online tracking and updates for your application.
+                                    Online tracking for application progress and updates.
                                 </p>
                             </div>
                         </div>
@@ -359,8 +359,8 @@ const TrademarkAssignment = () => {
 
     const faqs = [
         {
-            question: "What are the Basic Elements of the Trademark Assignment Agreement?",
-            answer: "The agreement must include the Effective Date, Trademark details, Assignor and Assignee details, Consideration amount, Warranties, Signatures, and optional Notarization."
+            question: "What are the essential elements of a trademark assignment agreement?",
+            answer: "A trademark assignment agreement generally includes the effective date, trademark details, assignor and assignee information, consideration value, warranties, signatures of both parties, and optional notarization."
         },
         {
             question: "Can an unregistered trademark be assigned?",
@@ -387,16 +387,16 @@ const TrademarkAssignment = () => {
                     {/* Left Content */}
                     <div>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Trademark Assignment – An Overview
+                            Overview of Trademark Assignment
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Trademark Assignment is a process where the ownership of a trademark is transferred from one person/entity (Assignor) to another (Assignee). This can legally transfer all rights, title, and interest in the mark.
+                            Trademark assignment is the legal process through which ownership of a trademark is transferred from one party (Assignor) to another (Assignee). It transfers all rights, title, and interest related to the trademark.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Assignments can be made for both registered and unregistered trademarks, with or without the goodwill of the business.
+                            Assignments may apply to both registered and unregistered trademarks and can be executed with or without transferring the business goodwill.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                            Types of Assignments include Complete Assignment (all rights transferred), Partial Assignment (specific products/services), Assignment with Goodwill (brand value transferred), and Assignment without Goodwill (brand used for different purpose).
+                            Common types of trademark assignments include complete assignment (all rights transferred), partial assignment (limited to certain goods or services), assignment with goodwill, and assignment without goodwill.
                         </p>
                     </div>
 
@@ -422,7 +422,7 @@ const TrademarkAssignment = () => {
                         Brand Transfer
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of Assignment
+                        Advantages of Trademark Assignment
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
                         Why assigning a trademark can be beneficial for your business.
@@ -439,12 +439,12 @@ const TrademarkAssignment = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Brand Monetization", desc: "Unlocking the financial value of the trademark for the owner." },
-                        { title: "Resources Saving", desc: "The assignee saves time, money, and effort required to build a brand from scratch." },
-                        { title: "Valid Legal Proof", desc: "The assignment deed serves as concrete evidence of ownership transfer." },
-                        { title: "Business Expansion", desc: "Facilitates entering new markets or industries with an established name." },
-                        { title: "IP Maintenance", desc: "Ensures the trademark remains active and protected under new ownership." },
-                        { title: "Goodwill Transfer", desc: "Allows the new owner to capitalize on the existing reputation of the brand." }
+                        { title: "Trademark Monetization", desc: "Allows owners to unlock financial value by transferring trademark ownership." },
+                        { title: "Saves Time and Resources", desc: "The assignee benefits from an established brand instead of building one from the beginning." },
+                        { title: "Legal Ownership Evidence", desc: "The assignment deed acts as official proof of ownership transfer." },
+                        { title: "Supports Business Expansion", desc: "Allows businesses to expand into new sectors using an existing brand identity." },
+                        { title: "Continued IP Protection", desc: "Ensures the trademark remains valid and protected under the new owner." },
+                        { title: "Transfer of Brand Reputation", desc: "The assignee can benefit from the brand’s established reputation and market recognition." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">{item.title}</h3>
@@ -462,9 +462,9 @@ const TrademarkAssignment = () => {
             {/* ================= SECTION 1: HERO ================= */}
             <HeroLayout
                 heroTitleMain="Trademark Assignment"
-                heroTitleSuffix="Services"
+                heroTitleSuffix="Ownership Transfer Services"
                 heroSubtitle="Smooth Transfer of Trademark Ownership"
-                heroDescription="Ensure a seamless transfer of trademark ownership with Vyombiz. Whether it's a complete assignment or with goodwill, we guide you through the legal process to protect your brand's value during the transition."
+                heroDescription="Transfer trademark ownership smoothly with Vyombiz. Whether the assignment is complete or with goodwill, our experts guide you through the legal process to ensure a secure and compliant brand transfer."
                 whatsIncludedList={[
                     "Drafting Assignment Deed",
                     "Filing Form TM-P",
@@ -472,9 +472,9 @@ const TrademarkAssignment = () => {
                     "Complete Legal Support"
                 ]}
                 stats={[
-                    { count: "99%", label: "SLA Delivery", icon: <UserCheck size={20} /> },
-                    { count: "10,000+", label: "Happy Customers", icon: <FileText size={20} /> },
-                    { count: "50+", label: "Branch Offices", icon: <Globe size={20} /> }
+                    { count: "99%", label: "On-Time Service Delivery", icon: <UserCheck size={20} /> },
+                    { count: "10,000+", label: "Satisfied Clients", icon: <FileText size={20} /> },
+                    { count: "50+", label: "Service Locations", icon: <Globe size={20} /> }
                 ]}
             />
 

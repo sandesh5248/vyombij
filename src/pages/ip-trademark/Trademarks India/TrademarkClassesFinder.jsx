@@ -27,7 +27,7 @@ const TrademarkClassesFinderEligibility = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Class Lists & Considerations
+                    Trademark Class Categories & Considerations
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
                     Detailed lists and factors to consider for classification.
@@ -35,50 +35,50 @@ const TrademarkClassesFinderEligibility = () => {
                 
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Goods (Classes 1-34)
+                        Goods Classes (1-34)
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Includes chemicals (Cl 1), paints (Cl 2), cosmetics (Cl 3), industrial oils (Cl 4), pharmaceuticals (Cl 5), metals (Cl 6), etc.
+                        Covers physical products such as chemicals (Class 1), paints (Class 2), cosmetics (Class 3), lubricants (Class 4), pharmaceuticals (Class 5), metals (Class 6), and more.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Services (Classes 35-45)
+                        Service Classes (35-45)
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Includes advertising (Cl 35), insurance (Cl 36), construction (Cl 37), telecom (Cl 38), transport (Cl 39), etc.
+                        Includes services like advertising (Class 35), finance (Class 36), construction (Class 37), telecommunications (Class 38), logistics (Class 39), and others.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Distinctiveness
+                        Trademark Distinctiveness
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        The trademark must be original and distinctive, not just descriptive.
+                        The mark must be unique and not purely descriptive of the goods or services.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Comprehensive Search
+                        Trademark Availability Search
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Conduct a thorough search across databases to avoid conflicts.
+                        Conduct a thorough database search to avoid conflicts with existing trademarks.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Complete Info
+                        Accurate Product Details
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Provide accurate details of goods/services to avoid delays.
+                        Provide clear descriptions of goods or services to avoid application delays.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Use Tools
+                        Use Classification Tools
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Utilize online tools like NICE Classification Tool and TMclass Tool.
+                        Online tools such as NICE classification databases can assist in identifying the right class.
                     </p>
                 </div>
             </div>
@@ -91,7 +91,7 @@ const TrademarkClassesFinderDocumentsSection = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Required Documents
+                    Documents Required for Trademark Class Identification
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
                     Documents needed to determine the right class for your trademark.
@@ -100,31 +100,31 @@ const TrademarkClassesFinderDocumentsSection = () => {
                     
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Business Registration Documents</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Business Registration Proof:</span> Documents such as incorporation certificate or partnership registration.</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Product Description/Brochure</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Product Details:</span> Brochures or descriptions explaining the products offered.</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Service Description Details</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Service Information:</span> Clear explanation of the services provided by the business.</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Marketing Materials</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Promotional Materials:</span> Advertisements, brochures, or branding materials related to the trademark.</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Director's ID & Address Proof</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Identity and Address Proof:</span> ID proof of the business owner or authorized signatory.</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Trademark Soft Copy</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Trademark Logo or Wordmark:</span> Digital copy of the proposed trademark.</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Power of Attorney (if required)</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium"><span className="font-semibold text-[#072b47]">Authorization Document:</span> Power of Attorney if the filing is handled by a legal professional.</p>
                     </div>
                 </div>
             </div>
@@ -138,7 +138,7 @@ const TrademarkClassesFinderProcessSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        Determination Process
+                        Trademark Class Identification Process
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
                         Steps to identify the correct trademark class.
@@ -160,10 +160,10 @@ const TrademarkClassesFinderProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Identify Offering
+                                    Identify Business Offering
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Determine the exact type of products or services your brand offers.
+                                    Determine the exact products or services associated with your brand.
                                 </p>
                             </div>
                         </div>
@@ -173,10 +173,10 @@ const TrademarkClassesFinderProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Consult NICE List
+                                    Review NICE Classification
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Refer to the NICE classification list (45 classes) to find the match.
+                                    Refer to the official list of 45 trademark classes to find the closest match.
                                 </p>
                             </div>
                         </div>
@@ -186,10 +186,10 @@ const TrademarkClassesFinderProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Conduct Search
+                                    Trademark Search
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Perform a trademark class search to ensure the mark isn't already taken in that class.
+                                    Check whether similar trademarks already exist in the selected class.
                                 </p>
                             </div>
                         </div>
@@ -199,10 +199,10 @@ const TrademarkClassesFinderProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Expert Advice
+                                    Consult Trademark Experts
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Consult with IPR experts to confirm the classification and strategy.
+                                    Seek professional guidance to confirm the correct class and filing strategy.
                                 </p>
                             </div>
                         </div>
@@ -212,10 +212,10 @@ const TrademarkClassesFinderProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    File Application
+                                    File Trademark Application
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Proceed with filing the trademark application under the identified class.
+                                    Submit the trademark application under the identified class.
                                 </p>
                             </div>
                         </div>
@@ -233,7 +233,7 @@ const TrademarkClassesFinderFeaturesSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose Vyombiz?
+                        Why Choose Vyombiz for Trademark Classification
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
                         Your trusted partner for accurate trademark classification and registration.
@@ -247,10 +247,10 @@ const TrademarkClassesFinderFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Efficient Protection
+                                    Reliable Brand Protection
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Ensuring protection of your brand identity, logo, and slogans.
+                                    Ensures your trademark receives the right level of legal protection.
                                 </p>
                             </div>
                         </div>
@@ -260,10 +260,10 @@ const TrademarkClassesFinderFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    End-to-End Service
+                                    Complete Trademark Support
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Smooth and hassle-free trademark services from search to registration.
+                                    From classification to registration, we assist at every stage.
                                 </p>
                             </div>
                         </div>
@@ -273,10 +273,10 @@ const TrademarkClassesFinderFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    One-Stop Solution
+                                    Comprehensive Trademark Services
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    All trademark-related needs covered under one roof.
+                                    All trademark-related services available in one place.
                                 </p>
                             </div>
                         </div>
@@ -286,10 +286,10 @@ const TrademarkClassesFinderFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Expert Guidance
+                                    Professional IP Guidance
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Comprehensive support from experienced IP professionals.
+                                    Support from experienced intellectual property professionals.
                                 </p>
                             </div>
                         </div>
@@ -299,10 +299,10 @@ const TrademarkClassesFinderFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Cost-Effective
+                                    Affordable Services
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Affordable solutions with no hidden charges.
+                                    Transparent pricing without hidden costs.
                                 </p>
                             </div>
                         </div>
@@ -312,10 +312,10 @@ const TrademarkClassesFinderFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    24/7 Support
+                                    Dedicated Customer Support
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Dedicated customer support to address all your queries.
+                                    Prompt assistance for queries related to trademark classification.
                                 </p>
                             </div>
                         </div>
@@ -325,10 +325,10 @@ const TrademarkClassesFinderFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    User-Friendly Tools
+                                    Easy-to-Use Tools
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Making the classification process simple and streamlined.
+                                    Simplified tools to help businesses identify the right trademark class.
                                 </p>
                             </div>
                         </div>
@@ -338,10 +338,10 @@ const TrademarkClassesFinderFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Timely Alerts
+                                    Regular Updates
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Get updates and reports to protect your intellectual property.
+                                    Receive updates and reports to safeguard your intellectual property.
                                 </p>
                             </div>
                         </div>
@@ -356,8 +356,8 @@ const TrademarkClassesFinder = () => {
 
     const faqs = [
         {
-            question: "What is a trademark class?",
-            answer: "A Trademark Class is an International Standard to classify goods and services under the World Intellectual Property Organization (WIPO) Nice Classification. It organizes trademarks into 45 distinct classes (34 for goods, 11 for services)."
+            question: "What is a trademark class in trademark registration?",
+            answer: "A trademark class is a category used to classify goods and services for trademark registration. Under the NICE Classification system managed by the World Intellectual Property Organization, trademarks are divided into 45 classes — 34 for goods and 11 for services."
         },
         {
             question: "Why is it important to know the Trademark Class?",
@@ -384,16 +384,16 @@ const TrademarkClassesFinder = () => {
                     {/* Left Content */}
                     <div>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Trademark Class Finder – An Overview
+                            Overview of Trademark Class Finder
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            A trademark class finder is an essential tool for protecting business identification. It helps matches your goods or services with the correct classification category under the 45 distinct classes of the International NICE Classification system.
+                            A trademark class finder is a helpful tool for identifying the correct category for your goods or services. It matches your business offerings with one of the 45 classes defined under the international NICE Classification system.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Choosing the right category and classification for your trade name accurately reflects the goods or services it represents, ensuring proper legal protection and avoiding infringement issues.
+                            Selecting the appropriate trademark class ensures that your brand name clearly represents your products or services while reducing the risk of legal conflicts or infringement.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                            Trademark classes act as an identifier for the sector to which your product or service belongs.
+                            Trademark classes help categorize businesses based on the type of goods or services they provide.
                         </p>
                     </div>
 
@@ -419,7 +419,7 @@ const TrademarkClassesFinder = () => {
                         Classification Tool
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of Classification
+                        Benefits of Trademark Classification
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
                         Why performing trademark classification is crucial for your brand.
@@ -436,12 +436,12 @@ const TrademarkClassesFinder = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Reduces Conflicts", desc: "Minimizes the risk of trademark infringement issues with existing registrations." },
-                        { title: "Brand Protection", desc: "Protects brand identity or mark in the specific appropriate class." },
-                        { title: "Market Expansion", desc: "Allows expansion into new product or service categories under the same mark." },
-                        { title: "Smoother Registration", desc: "Categorizing correctly facilitates a seamless trademark registration process." },
-                        { title: "Legal Security", desc: "Ensures proper legal protection within the relevant goods or services sector." },
-                        { title: "Global Compatibility", desc: "Aligns with international standards for easier global registration." }
+                        { title: "Reduces Legal Conflicts", desc: "Helps minimize the chances of trademark disputes with similar registered marks." },
+                        { title: "Brand Identity Protection", desc: "Ensures your trademark is protected within the relevant goods or services category." },
+                        { title: "Supports Business Expansion", desc: "Allows businesses to extend their brand into additional product or service categories." },
+                        { title: "Simplified Registration", desc: "Correct classification helps make the trademark application process smoother." },
+                        { title: "Stronger Legal Protection", desc: "Ensures your trademark receives proper legal protection within the chosen class." },
+                        { title: "International Compatibility", desc: "Aligns your trademark classification with global standards for easier international protection." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">{item.title}</h3>
@@ -458,10 +458,10 @@ const TrademarkClassesFinder = () => {
 
             {/* ================= SECTION 1: HERO ================= */}
             <HeroLayout
-                heroTitleMain="Trademark Class Finder"
-                heroTitleSuffix="Tool"
+                heroTitleMain="Trademark Class"
+                heroTitleSuffix="Finder Tool"
                 heroSubtitle="Identify the Right Class Easily"
-                heroDescription="Struggling to find the right trademark class for your business? Secure your brand effortlessly by opting for the right class with our Trademark Class Finder. We help you categorize your goods and services accurately under the NICE classification."
+                heroDescription="Not sure which trademark class applies to your business? Use our Trademark Class Finder to identify the correct category for your goods or services. We help you classify your brand accurately under the internationally recognized World Intellectual Property Organization NICE classification system."
                 whatsIncludedList={[
                     "Accurate Class Identification",
                     "NICE Classification Guidance",
@@ -470,8 +470,8 @@ const TrademarkClassesFinder = () => {
                 ]}
                 stats={[
                     { count: "45", label: "Trademark Classes", icon: <List size={20} /> },
-                    { count: "100%", label: "Classification Accuracy", icon: <Search size={20} /> },
-                    { count: "1 Lakh+", label: "Global Brands Truced", icon: <Globe size={20} /> }
+                    { count: "High", label: "Classification Accuracy", icon: <Search size={20} /> },
+                    { count: "1 Lakh+", label: "Brands Supported", icon: <Globe size={20} /> }
                 ]}
             />
 
