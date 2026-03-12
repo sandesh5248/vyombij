@@ -21,19 +21,16 @@ const EPFOverview = () => {
                             Employee Welfare
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            EPF Registration – <span className="text-[#005a9c]">An Overview</span>
+                            What is EPF Registration?
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            For those who are working as an employee in an organization, the Employee Provident Fund (EPF) is a specialist fund that offers retirement and related benefits. Under The Employees' Provident Funds and Miscellaneous Provisions Act, 1952, organizations that meet certain requirements must register for EPF.
+                            Employees’ Provident Fund (EPF) is a government-backed social security scheme managed by the Employees’ Provident Fund Organisation (EPFO). It helps employees build long-term savings for retirement while offering financial protection through pension and insurance benefits.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Every employee receives an EPF number and a Universal Account Number (UAN), which are unaffected by changes in employment. EPF registration in India is formally mandatory for employers with 20+ employees to avoid significant fines.
+                            Under the Employees’ Provident Funds and Miscellaneous Provisions Act, 1952, businesses employing 20 or more employees must register for EPF and contribute towards their employees’ provident fund accounts.
                         </p>
-                        <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            What is an EPF?
-                        </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The Indian government founded the EPF in 1951, which later transformed into the current Act of 1952. Maintaining a strong relationship between employer and employee is the fund's primary goal. EPF provides EPS, risk coverage, and a uniform account to meet emergency needs and long-term goals. Both the company and the employee contribute to this retirement savings plan.
+                            EPF registration ensures that both employers and employees contribute a portion of the salary every month, creating a secure retirement corpus. Through expert guidance from Vyombiz managed by Clink Consultancy Services Private Limited, businesses can complete EPF registration smoothly and avoid regulatory penalties.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -62,7 +59,7 @@ const EPFAdvantages = () => {
                         Benefits of EPF Registration
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        The Employee Provident Fund scheme brings structured savings security, financial support, and a higher job retention rate among active organizational workforces.
+                        With the support of Vyombiz managed by Clink Consultancy Services Private Limited, companies can implement EPF compliance efficiently without administrative complications.
                     </p>
                     <div className="mt-10">
                         <img
@@ -76,12 +73,11 @@ const EPFAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Risk Reduction", desc: "The provident fund acts as an emergency fund that the employees can utilize during dire needs by accessing their portal online." },
-                        { title: "Single UAN Account", desc: "There is one provident fund account for the employee throughout their lifetime which remains the same even if they switch jobs." },
-                        { title: "Employee Retention", desc: "Providing provident funds strictly satisfies workers, strengthening their chance of retention. It works as a solid recruitment benefit." },
-                        { title: "Savings for Retirement", desc: "These funds act purely as retirement savings. Full withdrawal is restricted under normal conditions securing long term goals safely." },
-                        { title: "Pension Benefits", desc: "As per EPF provisions, an equivalent portion (8.33% from the employer side) is directly transferred to their structural pension accounts." },
-                        { title: "EDLI Insurance", desc: "All the employees are systematically eligible to receive insurance benefits while actively working via the Employee Deposit Linked Insurance Scheme." }
+                        { title: "Financial Security for Employees", desc: "EPF helps employees build a retirement savings fund through monthly contributions from both employer and employee." },
+                        { title: "Pension Benefits", desc: "Under the Employee Pension Scheme (EPS), employees receive pension benefits after retirement." },
+                        { title: "Employee Insurance Coverage", desc: "The Employees’ Deposit Linked Insurance Scheme (EDLI) offers life insurance benefits to employees registered under EPF." },
+                        { title: "Tax Benefits", desc: "EPF contributions qualify for tax deductions under the Income Tax Act, making it beneficial for both employers and employees." },
+                        { title: "Improved Employer Credibility", desc: "Businesses that offer statutory employee benefits are viewed as more trustworthy and professional." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -103,44 +99,31 @@ const EPFEligibility = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Applicability & Eligibility for EPF Registration
+                    Who Needs EPF Registration?
                 </h2>
-                <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Certain rules made by the government determine the exact scope of required compliance for employers and employees:
+                <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                    EPF registration is mandatory for certain organizations and beneficial for many others. Businesses that typically require EPF registration include:
                 </p>
 
                 <div className="mb-10">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Employer Applicability
-                    </h3>
-                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside">
-                        <li><span className="font-semibold text-[#072b47]">Mandatory Requirement:</span> To obtain EPF Registration, an employer must have a minimum of 20 employees.</li>
-                        <li><span className="font-semibold text-[#072b47]">Voluntary Apply:</span> It is not strictly necessary for an entity with less than 20 employees, however, they can voluntarily apply.</li>
-                        <li><span className="font-semibold text-[#072b47]">Cooperative Societies:</span> A society founded under the Cooperative Society Act must have at least 50 workers to fall under rules.</li>
+                    <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-[17px] text-slate-600 leading-relaxed list-disc list-inside">
+                        <li>Companies employing 20 or more employees</li>
+                        <li>Factories and manufacturing units</li>
+                        <li>Private limited companies and LLPs</li>
+                        <li>Partnership firms</li>
+                        <li>Startups expanding their workforce</li>
+                        <li>Establishments notified by the government</li>
                     </ul>
                 </div>
 
-                <div className="mb-10">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Definition of Employee
-                    </h3>
-                    <p className="text-[17px] text-slate-600 leading-relaxed mb-3">
-                        As per section 2(f), the following individuals form the base count qualifying an entity:
-                    </p>
-                    <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-[17px] text-slate-600 leading-relaxed list-disc list-inside">
-                        <li>Full-Time Employees</li>
-                        <li>Part-Time Employees</li>
-                        <li>Work From Home Employees</li>
-                        <li>Contractors</li>
-                        <li>Temporary Consultants</li>
-                        <li>Freelancers (under new Social Security Code)</li>
-                    </ul>
-                </div>
+                <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
+                    Even organizations with fewer than 20 employees can voluntarily register for EPF to offer employee benefits and enhance workplace credibility.
+                </p>
 
                 <div className="mt-12 text-center">
                     <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Assess Organization Compliance
-                            </Link>
+                        Assess Organization Compliance
+                    </Link>
                 </div>
             </div>
         </section>
@@ -155,29 +138,51 @@ const EPFDocumentsSection = () => {
                     Documents Required for EPF Registration
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    The most important part before the application for EPF Registration is completing the documentation procedure. Ensure all organizational KYC artifacts are systematically arranged:
+                    To complete EPF registration, businesses must provide certain documents for verification. Providing accurate documentation helps ensure a smooth and faster EPF registration process.
                 </p>
 
-                <div className="mb-8">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-3">Mandatory Documents</h3>
-                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside bg-[#f8fafc] p-6 rounded-xl border border-slate-100">
-                        <li>PAN Card of Proprietors/Partners/Directors</li>
-                        <li>Aadhaar Card of Proprietors/Partners/Directors</li>
-                        <li>Business Address Proof (Utility Bills, Rent Agreement)</li>
-                        <li>Business Incorporation Certificate</li>
-                        <li>Entity's Bank Account Statement or Cancelled Cheque</li>
-                        <li>Director's Digital Signature (For Online Approval)</li>
-                    </ul>
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div>
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Business Documents</h3>
+                        <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside">
+                            <li>Certificate of Incorporation / Partnership Deed</li>
+                            <li>PAN card of the business entity</li>
+                            <li>GST registration certificate (if applicable)</li>
+                            <li>Address proof of the business establishment</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Director / Partner Details</h3>
+                        <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside">
+                            <li>PAN and Aadhaar of directors or partners</li>
+                            <li>Address proof</li>
+                            <li>Contact details</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Employee Information</h3>
+                        <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside">
+                            <li>Employee details and salary structure</li>
+                            <li>Date of joining</li>
+                            <li>Identification details of employees</li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div className="mb-8">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-3">Optional Entity Specific Documents</h3>
-                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside">
-                        <li>Trust Deed (for Trusts)</li>
-                        <li>MoA and AoA (For Companies)</li>
-                        <li>Partnership Deed (For Partnerships/LLPs)</li>
-                        <li>Shop and Establishment Registration Certificate or GST setup</li>
+                <div className="mt-12 bg-[#f8fafc] p-8 rounded-2xl border border-slate-200">
+                    <h3 className="text-2xl font-semibold text-[#072b47] mb-4">EPF Contribution Structure</h3>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-4">
+                        EPF contributions are shared between the employer and employee. Typically, the contribution structure includes:
+                    </p>
+                    <ul className="space-y-2 mb-4 ml-4 list-disc text-[17px] text-slate-600 leading-relaxed">
+                        <li>12% of employee basic salary contributed by the employee</li>
+                        <li>12% contributed by the employer</li>
                     </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed">
+                        Out of the employer’s contribution, a portion is allocated to the Employee Pension Scheme (EPS) and the remaining amount to the provident fund. Proper management of these contributions is crucial for compliance, and businesses often rely on expert support from Vyombiz managed by Clink Consultancy Services Private Limited to manage the process effectively.
+                    </p>
                 </div>
             </div>
         </section>
@@ -186,30 +191,11 @@ const EPFDocumentsSection = () => {
 
 const EPFProcessSection = () => {
     const steps = [
-        {
-            title: "Visit the EPFO Website",
-            desc: "Firstly, visit the official EPFO website and hit the establishment registration button present on the main home page."
-        },
-        {
-            title: "Register on USSP",
-            desc: "The Unified Shram Suvidha Portal (USSP) sign-up page will appear. Complete standard instructions to establish a central employer credential."
-        },
-        {
-            title: "Log in & Select Application",
-            desc: "Once the account is created on USSP, log in and opt for the registration targeting the 'Employees Provident Fund and Miscellaneous Provision Act, 1952'."
-        },
-        {
-            title: "Fill out the Registration Form",
-            desc: "The primary registration form for EPFO will open. Fill in all sections accurately outlining employee counts, business activities, and payroll details."
-        },
-        {
-            title: "Attach DSC",
-            desc: "Following manual data entry, securely attach the Class 3 Digital Signature Certificate physically acknowledging structural forms."
-        },
-        {
-            title: "Registration Confirmation",
-            desc: "After uploading the DSC, you get an explicit confirmation message visually followed by an official acknowledgement email delivering registration packets."
-        }
+        { title: "Employer Registration on the EPFO Portal", desc: "The business must first create an employer account on the EPFO Unified Portal." },
+        { title: "Application Submission", desc: "The employer submits the EPF registration application along with business and employee details." },
+        { title: "Document Verification", desc: "Authorities verify the submitted documents and business information." },
+        { title: "Generation of Establishment Code", desc: "Once verified, the EPFO issues an Establishment Identification Number, allowing the employer to start EPF contributions." },
+        { title: "Activation of Employee Accounts", desc: "Employees are enrolled under the EPF system and assigned their Universal Account Numbers (UAN)." }
     ];
 
     return (
@@ -217,10 +203,10 @@ const EPFProcessSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        Employee PF Registration Process for Employers
+                        Step-by-Step EPF Registration Process
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        There is a strict online protocol ensuring total transparency between business entities and the Shram Suvidha governance bodies. Here is the operational workflow:
+                        The EPF registration process involves several important steps to ensure proper compliance with EPFO regulations.
                     </p>
                 </div>
 
@@ -237,7 +223,7 @@ const EPFProcessSection = () => {
                         {steps.map((step, index) => (
                             <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-200">
                                 <div className="text-[16px] font-semibold text-[#072b47]">
-                                    {index + 1}.
+                                    Step {index + 1}
                                 </div>
                                 <div>
                                     <h3 className="text-[18px] font-semibold text-[#072b47]">
@@ -250,8 +236,10 @@ const EPFProcessSection = () => {
                             </div>
                         ))}
                         <div className="border-t border-slate-200"></div>
-
-                        <div className="mt-12 text-center">
+                        <p className="text-[17px] text-slate-600 leading-relaxed mt-6">
+                            Experts from Vyombiz managed by Clink Consultancy Services Private Limited ensure that each step is handled correctly, reducing delays and compliance risks.
+                        </p>
+                        <div className="mt-8 text-center">
                             <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
                                 Start Employer PF Registration
                             </Link>
@@ -265,41 +253,38 @@ const EPFProcessSection = () => {
 
 const EPFFeaturesSection = () => {
     const features = [
-        {
-            title: "5000+ Successful Registrations",
-            desc: "Providing a proven track record handling dense EPF registrations rapidly managing mid-to-large business volumes across 10+ industries."
-        },
-        {
-            title: "Seamless Payroll Integration",
-            desc: "Bridging the generated EPFO codes safely onto external structural systems securing hassle-free automatic deductions continuously."
-        },
-        {
-            title: "Quick Turnaround Time",
-            desc: "Expertly handling the document flow reducing procedural waste generating official UAN numbers 5x better/faster than competitor benchmarks."
-        },
-        {
-            title: "UAN Account Management",
-            desc: "Assisting enterprises deeply updating KYC artifacts generating secure Universal Account Numbers maintaining accurate individual records safely."
-        },
-        {
-            title: "Compliance Avoidance Penalty",
-            desc: "Ensuring applications strictly target the mandated 30-day window evading crippling standard structural penal charges dynamically scaling 5-25%."
-        },
-        {
-            title: "Guidance and Training",
-            desc: "Empowering HR boards via dedicated instruction manually training internal teams capturing standard updates properly retaining compliance natively."
-        }
+        { title: "Expert compliance professionals", desc: "Navigating EPF regulations precisely to ensure total compliance." },
+        { title: "End-to-end registration assistance", desc: "Support from documenting details to final portal approval." },
+        { title: "Fast and hassle-free documentation", desc: "Streamlining all required paperwork for quicker setup." },
+        { title: "Transparent service process", desc: "Clear communication with no hidden challenges." },
+        { title: "Ongoing compliance support", desc: "Continuous help maintaining contribution requirements safely." }
     ];
 
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
+                <div className="mb-16 bg-[#f8fafc] p-8 rounded-2xl border border-slate-200">
+                    <h2 className="text-2xl lg:text-3xl font-semibold text-[#072b47] mb-6">
+                        Common Compliance Requirements After EPF Registration
+                    </h2>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-4">
+                        After completing registration, businesses must maintain regular compliance with EPFO regulations. Proper compliance helps businesses avoid penalties and maintain a smooth employer-employee relationship. These include:
+                    </p>
+                    <ul className="grid md:grid-cols-2 gap-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside">
+                        <li>Monthly EPF contributions</li>
+                        <li>Filing of EPF returns</li>
+                        <li>Employee UAN management</li>
+                        <li>Salary and contribution record maintenance</li>
+                        <li>Timely compliance updates as per government regulations</li>
+                    </ul>
+                </div>
+
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose Us For EPF Registration
+                        Why Choose Vyombiz for EPF Registration?
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Emerging as the most reliable compliance partner simplifying provident fund registrations effectively.
+                        Handling EPF registration and compliance internally can be complex, especially for growing businesses. Professional support ensures accuracy and regulatory compliance. With the right guidance, your company can complete EPF registration quickly while ensuring your employees receive the benefits they deserve.
                     </p>
                 </div>
 
@@ -307,7 +292,7 @@ const EPFFeaturesSection = () => {
                     {features.map((feature, index) => (
                         <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-300">
                             <div className="text-[15px] font-semibold text-[#072b47]">
-                                {index + 1}.
+                                <ShieldCheck size={20} className="text-[#005a9c]" />
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
@@ -356,13 +341,12 @@ const EPFRegistration = () => {
             <HeroLayout
                 heroTitleMain="EPF Registration"
                 heroTitleSuffix="in India"
-                heroSubtitle="Ensure Ultimate Workforce Security"
-                heroDescription="Apply for Employees Provident Fund Registration (EPF) with expert support. Streamline EPFO setup, ensure zero regulatory penalties, and seamlessly manage your corporate workforce UANs directly."
+                heroSubtitle="Secure Your Employees’ Future. Stay Legally Compliant."
+                heroDescription="EPF Registration is mandatory for businesses that employ 20 or more employees in India. It enables organizations to provide retirement security, pension benefits, and insurance coverage to their workforce while ensuring compliance with government regulations. With expert assistance from Vyombiz managed by Clink Consultancy Services Private Limited, your EPF registration process becomes simple, quick, and fully compliant—so you can focus on growing your business."
                 whatsIncludedList={[
-                    "End-to-End EPFO Application",
-                    "Seamless Pay-Roll Integrations",
-                    "UAN Setup & Document Guide",
-                    "Immediate Dedicated Expert Support"
+                    "Quick Documentation",
+                    "End-to-End Compliance Support",
+                    "Dedicated Expert Assistance"
                 ]}
                 stats={[
                     { count: "5000+", label: "Successful PFs", icon: <ShieldCheck size={20} /> },

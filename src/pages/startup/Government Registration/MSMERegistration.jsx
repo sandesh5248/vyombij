@@ -20,19 +20,19 @@ const MSMEOverview = () => {
                             Business Foundation
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            MSME Registration – <span className="text-[#005a9c]">An Overview</span>
+                            What is MSME Registration?
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            MSME stands for Micro, Small, and Medium Enterprises, which are considered one of the backbones of the Indian economy. These industries are often referred to as Small Scale Industries (SSIs). It is highly recommended that every MSME-based business obtain MSME registration from the Government of India and enjoy subsidies, rebates, and other financial benefits to empower their business venture.
+                            MSME (Micro, Small and Medium Enterprises) Registration, also known as Udyam Registration, is a government recognition provided to businesses under the Ministry of Micro, Small and Medium Enterprises.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Recently, the MSME Udyam registration process replaced the old micro, small, and medium enterprise registration process, making it easier and faster to register MSME online. Businesses that meet the MSME criteria can apply for registration on the official Udyam portal, where they will receive a permanent registration number online.
+                            This registration helps businesses access financial support, government schemes, easier credit, tax benefits, and protection against delayed payments.
                         </p>
-                        <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            What is MSME Udyam Registration?
-                        </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            MSME Udyam registration is essentially an MSME registration that every Micro, Small, and Medium Enterprise in India should obtain from the Government of India. While it is not mandatory, having it provides access to various government benefits, including tax incentives, establishment support, credit facilities, and loans. The Ministry of MSME launched the Udyam portal to digitize and streamline the registration process.
+                            Businesses registered under MSME receive a Udyam Registration Certificate, which officially recognizes them as a Micro, Small, or Medium enterprise.
+                        </p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
+                            Through professional assistance from Vyombiz managed by Clink Consultancy Services Private Limited, businesses can complete the registration process accurately while ensuring compliance with government requirements.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -58,10 +58,10 @@ const MSMEAdvantages = () => {
                         Growth & Incentives
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of MSME Online Registration
+                        Benefits of MSME Registration
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        MSME registration allows businesses to access various benefits and support schemes from the Government of India, helping them grow effectively.
+                        Registering your business as an MSME provides several financial and operational advantages.
                     </p>
                     <div className="mt-10">
                         <img
@@ -75,12 +75,11 @@ const MSMEAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Access to Cheaper Loans", desc: "MSME registration holders can access loans with interest rates as low as 1 to 1.5% comparatively much lower than the regular loan." },
-                        { title: "Exemption on Direct Taxes", desc: "Registered MSMEs can benefit from exemptions on direct taxes through various tax-saving schemes, allowing them to carry forward MAT credits for up to 15 years." },
-                        { title: "Priority Sector Lending", desc: "Entities with MSME company registration are eligible for priority sector lending from banks, facilitating easier access to capital funds." },
-                        { title: "Concessions on Various Registrations", desc: "MSME Udyam holders are eligible for concessions on patent registration costs, barcode registration subsidies, and ISO certification fees." },
-                        { title: "Access to Government e-Marketplace", desc: "Registered MSMEs can utilize the Udyam Registration Portal to access the Government e-marketplace and participate in e-tenders with security deposit waivers." },
-                        { title: "Electricity Bills & Trade Fairs", desc: "Enjoy concessions on electricity bills reducing operational costs, along with exposure to domestic and global trade fairs for networking." }
+                        { title: "Easier Access to Business Loans", desc: "Banks and financial institutions offer collateral-free loans and lower interest rates to MSMEs under government schemes." },
+                        { title: "Protection Against Delayed Payments", desc: "MSME registered businesses receive legal protection against delayed payments from buyers, ensuring improved cash flow." },
+                        { title: "Government Subsidies & Schemes", desc: "MSMEs become eligible for multiple government schemes including subsidies, incentives, and financial assistance programs." },
+                        { title: "Priority in Government Tenders", desc: "Registered MSMEs receive preference in government tenders and procurement processes, improving business opportunities." },
+                        { title: "Tax & Financial Benefits", desc: "MSME registration allows businesses to access various tax rebates, subsidies, and credit support programs." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -91,6 +90,9 @@ const MSMEAdvantages = () => {
                             </p>
                         </div>
                     ))}
+                    <p className="text-[17px] text-slate-600 leading-relaxed font-medium mt-6">
+                        With the right guidance from Vyombiz managed by Clink Consultancy Services Private Limited, businesses can unlock these benefits efficiently.
+                    </p>
                 </div>
             </div>
         </div>
@@ -98,64 +100,62 @@ const MSMEAdvantages = () => {
 };
 
 const MSMEEligibility = () => {
+    const list = [
+        "Startups",
+        "Small businesses",
+        "Manufacturers",
+        "Traders",
+        "Service providers",
+        "Freelancers and consultants",
+        "E-commerce sellers"
+    ];
+
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
+                
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Eligibility and Classification for MSME Registration
+                    Classification of MSMEs in India
                 </h2>
-                <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Various business entities are eligible to register as an MSME online. The classification of MSMEs is based on investment in plant/machinery and annual turnover.
+                <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                    Businesses are classified based on investment in plant & machinery and annual turnover.
                 </p>
-
-                {/* MSME Classification */}
                 <div className="mb-10">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        MSME Classification Criteria
-                    </h3>
                     <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
                         <li>
-                            <span className="font-semibold text-[#072b47]">
-                                Micro Enterprise:
-                            </span>{" "}
-                            Defined as having an investment of up to ₹1 crore in plant and equipment or machinery and an annual turnover of up to ₹5 crore.
+                            <span className="font-semibold text-[#072b47]">Micro Enterprise:</span> Investment up to ₹1 crore, Turnover up to ₹5 crore
                         </li>
                         <li>
-                            <span className="font-semibold text-[#072b47]">
-                                Small Enterprise:
-                            </span>{" "}
-                            Defined as having an investment of up to ₹10 crore in plant and equipment or machinery and an annual turnover of up to ₹50 crore.
+                            <span className="font-semibold text-[#072b47]">Small Enterprise:</span> Investment up to ₹10 crore, Turnover up to ₹50 crore
                         </li>
                         <li>
-                            <span className="font-semibold text-[#072b47]">
-                                Medium Enterprise:
-                            </span>{" "}
-                            Defined as having an investment of up to ₹50 crore in plant and equipment or machinery and an annual turnover of up to ₹200 crore.
+                            <span className="font-semibold text-[#072b47]">Medium Enterprise:</span> Investment up to ₹50 crore, Turnover up to ₹250 crore
                         </li>
                     </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mt-4">
+                        This classification ensures that businesses receive benefits appropriate to their scale and growth stage.
+                    </p>
                 </div>
 
-                {/* Eligible Entities */}
-                <div className="mb-10">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Entities Eligible to Register
-                    </h3>
-                    <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-[17px] text-slate-600 leading-relaxed list-disc list-inside">
-                        <li>Sole Proprietorship</li>
-                        <li>Partnership Firm</li>
-                        <li>Limited Liability Partnership (LLP)</li>
-                        <li>One-person Companies (OPC)</li>
-                        <li>Private and Public Limited Companies</li>
-                        <li>Hindu Undivided Family (HUF)</li>
-                        <li>Cooperative Societies</li>
-                        <li>Association of Persons</li>
-                    </ul>
-                </div>
+                <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                    Who Should Apply for MSME Registration?
+                </h2>
+                <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                    MSME registration is suitable for a wide range of businesses, including:
+                </p>
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside mb-8">
+                    {list.map((item, i) => (
+                        <li key={i}>{item}</li>
+                    ))}
+                </ul>
+                <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
+                    Any business looking to grow with government support and financial advantages should consider MSME registration.
+                </p>
 
-                <div className="mt-12 text-center">
+                <div className="mt-8 text-center">
                     <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Verify Your Eligibility Status
-                            </Link>
+                        Start Your Registration
+                    </Link>
                 </div>
             </div>
         </section>
@@ -163,26 +163,33 @@ const MSMEEligibility = () => {
 };
 
 const MSMEDocumentsSection = () => {
+    const list = [
+        "Aadhaar Card of the business owner",
+        "PAN Card of the business or proprietor",
+        "Business address details",
+        "Bank account details",
+        "Business activity information",
+        "Investment and turnover details"
+    ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Documents Required to Register MSME in India
+                    Documents Required for MSME Registration
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    To successfully file the Udyam registration application, ensure you have the following essential business details and documents compiled:
+                    The registration process requires minimal documentation.
                 </p>
-
                 <div className="space-y-4 mb-8">
-                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed bg-[#f8fafc] p-6 rounded-xl border border-slate-100">
-                        <li><span className="font-semibold text-[#072b47]">Identity Details: </span>Aadhar Number of the applicant and PAN Card details matching government databases.</li>
-                        <li><span className="font-semibold text-[#072b47]">Business Entity Proof: </span>GSTIN (In case of Company or LLP, Cooperative Society or Society or Trust).</li>
-                        <li><span className="font-semibold text-[#072b47]">Contact Information: </span>Registered office address and exact Address of the Business location.</li>
-                        <li><span className="font-semibold text-[#072b47]">Financial Data: </span>Bank Account Number along with Details of Investment and Turnover to determine MSME classification.</li>
-                        <li><span className="font-semibold text-[#072b47]">Operational Specifics: </span>Description of Business Activity along with the relevant NIC 2-Digit Code mapping your trade.</li>
-                        <li><span className="font-semibold text-[#072b47]">Supporting Files: </span>Partnership Deed (if applicable), Sales and Purchase Bill Copies, and Copies of Licenses and Bills of Purchased Machinery.</li>
+                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc ml-6">
+                        {list.map((item, i) => (
+                            <li key={i}>{item}</li>
+                        ))}
                     </ul>
                 </div>
+                <p className="text-[17px] text-slate-600 leading-relaxed mt-4">
+                    Since the process is primarily Aadhaar-based, documentation requirements are simple and streamlined.
+                </p>
             </div>
         </section>
     );
@@ -190,30 +197,10 @@ const MSMEDocumentsSection = () => {
 
 const MSMEProcessSection = () => {
     const steps = [
-        {
-            title: "Access to the Udyam Registration Portal",
-            desc: "Visit the official website of MSME Udyam registration to start with the application for MSME registration."
-        },
-        {
-            title: "Aadhar Card Details",
-            desc: "Enter the Aadhar Card details and the name of the applicant entrepreneur on the portal interface."
-        },
-        {
-            title: "Details of PAN Card & Type of Organisation",
-            desc: "Enter the type of organisation and details of the PAN card. The portal automatically validates the PAN card details from government databases."
-        },
-        {
-            title: "Filling of Personal Details",
-            desc: "Once the PAN card is validated, the Udyam registration form will pop up, and the applicant must fill in all necessary contact and background information."
-        },
-        {
-            title: "Investment & Turnover Details",
-            desc: "In the later stage, manually furnish the numerical details regarding the investment and annual turnover of the enterprise seeking MSME online registration."
-        },
-        {
-            title: "Issuing of MSME Registration Certificate",
-            desc: "After careful completion of the registration formalities and evaluation by the concerned authority, the Udyam registration certificate will be sent directly to the applicant's email."
-        }
+        { title: "Business Information Collection", desc: "Basic details such as business activity, investment, and turnover are collected." },
+        { title: "Aadhaar Verification", desc: "The Aadhaar number of the business owner or authorized signatory is verified." },
+        { title: "Application Filing", desc: "The MSME application is submitted on the official government portal." },
+        { title: "Certificate Generation", desc: "Once the application is approved, the Udyam Registration Certificate is issued." }
     ];
 
     return (
@@ -221,43 +208,37 @@ const MSMEProcessSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        Step-by-Step MSME Online Registration Process
+                        MSME Registration Process
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        The Government of India has completely digitized the registration via the Udyam portal making it paperless. Here is the step-by-step workflow:
+                        The MSME registration process is completely online and can be completed in a few steps.
                     </p>
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
                     <div className="lg:col-span-1">
-                        <img
-                            src={process}
-                            alt="MSME Registration Process"
-                            className="w-full rounded-lg shadow-sm"
-                        />
+                        <img src={process} alt="MSME Registration Process" className="w-full rounded-lg shadow-sm" />
                     </div>
 
                     <div className="lg:col-span-2">
                         {steps.map((step, index) => (
                             <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-200">
-                                <div className="text-[16px] font-semibold text-[#072b47]">
-                                    {index + 1}.
-                                </div>
+                                <div className="text-[16px] font-semibold text-[#072b47]">Step {index + 1}</div>
                                 <div>
-                                    <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                        {step.title}
-                                    </h3>
-                                    <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                        {step.desc}
-                                    </p>
+                                    <h3 className="text-[18px] font-semibold text-[#072b47]">{step.title}</h3>
+                                    <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">{step.desc}</p>
                                 </div>
                             </div>
                         ))}
                         <div className="border-t border-slate-200"></div>
 
-                        <div className="mt-12 text-center">
+                        <p className="text-[17px] text-slate-600 leading-relaxed mt-6">
+                            Experts at Vyombiz managed by Clink Consultancy Services Private Limited ensure the entire process is handled smoothly with minimal effort from the business owner.
+                        </p>
+
+                        <div className="mt-8 text-center">
                             <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Start Free Udyam Registration
+                                Start Your MSME Registration Today
                             </Link>
                         </div>
                     </div>
@@ -269,30 +250,10 @@ const MSMEProcessSection = () => {
 
 const MSMEFeaturesSection = () => {
     const features = [
-        {
-            title: "10,000+ Successful Registrations",
-            desc: "We have assisted in the successful completion of over 10,000 MSME online registrations across India rapidly."
-        },
-        {
-            title: "85% Faster Process",
-            desc: "Through streamlined legal workflows we ensure micro, small, and medium enterprises registration 85% faster than industry averages."
-        },
-        {
-            title: "Up to 25% in Tax Savings",
-            desc: "Discover new tax benefits; businesses registered with us efficiently utilize exemptions enjoying major capital savings against income taxes."
-        },
-        {
-            title: "Hassle-Free Process",
-            desc: "Expertly simplifying the Udyam documentation—mitigating heavy applicant burden while effectively managing all validation formalities instantly."
-        },
-        {
-            title: "Compliance Experts",
-            desc: "Consultants well-versed with deep state and national compliance updates securing rapid approvals without rejections."
-        },
-        {
-            title: "End-to-End Assistance",
-            desc: "Robust 360-degree support from compiling raw NIC codes mapping to handing over the fully stamped digital certificates."
-        }
+        { title: "Expert Compliance Support", desc: "Our professionals understand government registration procedures and ensure your application is correctly filed." },
+        { title: "Quick Turnaround Time", desc: "We streamline the documentation and submission process to help you get registered faster." },
+        { title: "End-to-End Assistance", desc: "From documentation to certificate delivery, every step is handled with expert guidance." },
+        { title: "Transparent Process", desc: "Clear communication and professional support ensure a seamless experience." }
     ];
 
     return (
@@ -300,10 +261,10 @@ const MSMEFeaturesSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose Us For MSME Udyam Registration
+                        Why Choose Vyombiz for MSME Registration?
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Register your business faster flawlessly leveraging expert enterprise compliance mechanics.
+                        Choosing the right partner ensures a smooth and error-free registration process. With Vyombiz managed by Clink Consultancy Services Private Limited, businesses receive reliable support to complete MSME registration efficiently.
                     </p>
                 </div>
 
@@ -311,7 +272,7 @@ const MSMEFeaturesSection = () => {
                     {features.map((feature, index) => (
                         <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-300">
                             <div className="text-[15px] font-semibold text-[#072b47]">
-                                {index + 1}.
+                                <CheckCircle2 size={20} className="text-[#005a9c]" />
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
@@ -360,8 +321,8 @@ const MSMERegistration = () => {
             <HeroLayout
                 heroTitleMain="MSME Udyam Registration"
                 heroTitleSuffix="Online"
-                heroSubtitle="Get Your Udyam Certificate Easily"
-                heroDescription="Get MSME Registration and Udyam Registration online with expert support. Enjoy fast filing, accurate documentation, and smooth processing for your business while unlocking government subsidies and low-interest loans."
+                heroSubtitle="Start Your MSME Registration Today"
+                heroDescription="Registering as an MSME can unlock multiple growth opportunities, financial benefits, and government support for your business. With the professional assistance of Vyombiz managed by Clink Consultancy Services Private Limited, the registration process becomes quick, compliant, and stress-free. Get started today and give your business the recognition and advantages it deserves."
                 whatsIncludedList={[
                     "Hassle-Free End-to-End Application",
                     "Assistance in NIC Code Selection",

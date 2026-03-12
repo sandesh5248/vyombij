@@ -19,19 +19,19 @@ const NSICOverview = () => {
                             MSME Growth
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            NSIC Registration – <span className="text-[#005a9c]">An Overview</span>
+                            What is NSIC Registration?
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Are you a business owner in the MSME ecosystem but not fortunate enough to get the merits of government tenders and financial grants? If so, NSIC registration is mandatory to enjoy the advantages of financial assistance, lower rates for raw materials, technological support, and government tenders.
+                            NSIC Registration is a certification provided by the National Small Industries Corporation (NSIC) that enables Micro and Small Enterprises (MSEs) to participate in government procurement programs with special benefits.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The National Small Industries Corporation (NSIC) system was established by the government to support Micro, Small, and Medium-Sized Enterprises (MSMEs). As a Mini Ratna Public Sector undertaking founded in 1955, and ISO 9001-2015 certified, the NSIC guarantees high levels of operational quality.
+                            The registration is issued under the Single Point Registration Scheme (SPRS) which allows MSMEs to supply goods and services to government departments and public sector undertakings without going through complex tender procedures.
                         </p>
-                        <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            What is NSIC?
-                        </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Overseen by the Ministry of MSME, NSIC plays a crucial role in promoting the growth of MSMEs. Registering allows businesses to make use of programs like Marketing Assistance, Credit Rating, and the Single Point Registration Scheme (SPRS) which promote development and easy loan facilitation.
+                            With NSIC registration, businesses gain greater credibility, easier access to government tenders, and financial advantages that support business expansion.
+                        </p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
+                            Vyombiz managed by Clink Consultancy Services Private Limited assists MSMEs in obtaining NSIC certification efficiently while ensuring compliance with all regulatory requirements.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -57,10 +57,10 @@ const NSICAdvantages = () => {
                         Single Point Registration
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of MSME NSIC Registration
+                        Benefits of NSIC Registration
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        There are incredible scaling benefits for the MSME sector after actively obtaining the NSIC Registration securing major central advantages natively.
+                        NSIC registration offers multiple advantages that help MSMEs compete effectively in the government procurement ecosystem.
                     </p>
                     <div className="mt-10">
                         <img
@@ -74,12 +74,12 @@ const NSICAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Exclusive Government Tenders", desc: "A total of 358 items are firmly reserved for purchase exclusively from small-scale businesses boosting their active market presence." },
-                        { title: "No Tender Allotment Fees", desc: "Eligible MSMEs having NSIC certificates need not pay any fees for tender allotment nor deposit earnest money." },
-                        { title: "Assured Annual Orders", desc: "Central Ministries, PSUs, and affiliated departments must officially purchase at least 25% of their annual requirements directly through these MSEs." },
-                        { title: "Technological Advancement", desc: "Many dedicated technology exhibitions are strategically actively organized for these MSEs increasing functional skill sets and operations." },
-                        { title: "Easy Loans & Credit", desc: "These registered entities heavily get the advantage of priority cheap loans and advances through major banks at lower rates natively." },
-                        { title: "Tax & ISO Concessions", desc: "Massive tangible advantages such as reduced direct tax rates, relaxation in explicit fees for ISO Certification, and concessions in electricity bills." }
+                        { title: "Access to Government Tenders", desc: "Registered MSMEs can participate in government tenders without paying tender document fees in many cases." },
+                        { title: "Earnest Money Deposit (EMD) Exemption", desc: "NSIC registered businesses often receive exemption from EMD requirements during tender participation." },
+                        { title: "Preference in Government Procurement", desc: "Many government tenders prioritize MSMEs with NSIC certification." },
+                        { title: "Marketing and Business Support", desc: "NSIC provides marketing assistance, exhibitions, and vendor development programs for registered businesses." },
+                        { title: "Financial Assistance", desc: "Businesses may gain access to credit facilitation and financial support programs." },
+                        { title: "Improved Business Credibility", desc: "NSIC certification strengthens the reputation of MSMEs when dealing with government agencies and large organizations." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -101,34 +101,40 @@ const NSICEligibility = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Eligibility Criteria for NSIC Registration Online
+                    Eligibility for NSIC Registration
                 </h2>
-                <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Before opting for registration, entities must firmly track explicit baseline investments defining eligibility scopes:
+                <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                    To apply for NSIC registration, a business must meet certain criteria:
                 </p>
 
                 <div className="mb-10">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Investment Checklists
-                    </h3>
                     <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside">
-                        <li><span className="font-semibold text-[#072b47]">Micro Industries:</span> Invested up to Rs 25 Lakhs in plants & machinery and up to Rs 10 Lakhs in the core service sector.</li>
-                        <li><span className="font-semibold text-[#072b47]">Small Industries:</span> Invested up to Rs 5 Crore in plants & machinery and up to Rs 2 Crore in the core service sector.</li>
-                        <li><span className="font-semibold text-[#072b47]">Udyam Validated:</span> All applying micro/small industries must actively hold confirmed Udyam Registration beforehand.</li>
-                        <li><span className="font-semibold text-[#072b47]">1 Year Vintage:</span> Ideally, entities should have completed 1 year of business operations successfully mapping accounts.</li>
+                        <li>The enterprise must be classified as a Micro or Small Enterprise under MSME</li>
+                        <li>The business must have valid Udyam Registration</li>
+                        <li>The company must be actively involved in manufacturing or service activities</li>
+                        <li>The enterprise should have proper infrastructure and production capability</li>
+                        <li>The business must maintain proper financial records and operational history</li>
                     </ul>
                 </div>
 
-                <div className="p-6 bg-[#fffdeb] border-l-4 border-[#f59e0b] rounded-lg">
-                    <p className="text-[17px] font-medium text-[#78350f]">
-                        <strong>Provisional Alert:</strong> Entities that have not strictly completed one year of business operations can still radically benefit from the NSIC Single Point Registration Scheme receiving a provisional operating certificate.
+                <div className="bg-[#f8fafc] p-8 rounded-2xl border border-slate-200 mt-10">
+                    <h3 className="text-2xl font-semibold text-[#072b47] mb-4">Who Should Apply for NSIC Registration?</h3>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-4">
+                        NSIC registration is beneficial for various types of MSMEs including:
                     </p>
+                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside">
+                        <li>Manufacturing units supplying products to government departments</li>
+                        <li>Service providers working with government organizations</li>
+                        <li>Small businesses seeking access to public sector procurement</li>
+                        <li>MSMEs looking to expand through government contracts</li>
+                        <li>Startups entering government vendor ecosystems</li>
+                    </ul>
                 </div>
 
                 <div className="mt-12 text-center">
                     <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Verify MSME Udyam Eligibility
-                            </Link>
+                        Verify Your Eligibility
+                    </Link>
                 </div>
             </div>
         </section>
@@ -143,25 +149,26 @@ const NSICDocumentsSection = () => {
                     Documents Required for NSIC Registration
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Before applying for the NSIC Registration certificate, ensure all rigorous documentation formats are structurally mapped covering the specific entity layout (PVT LTD, Partnership, LLPs, etc):
+                    The following documents are generally required during the NSIC registration process:
                 </p>
 
                 <div className="mb-8">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-3">Foundational Business Identity</h3>
-                    <p className="text-[17px] text-slate-600 leading-relaxed">PAN Card explicitly issued, confirmed UAM/Udyam Registration numbers, valid premises ownership records/rentals, and latest entity electricity bills defining operational scopes.</p>
+                    <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-[17px] text-slate-600 leading-relaxed list-disc list-inside bg-[#f8fafc] p-6 rounded-xl border border-slate-100">
+                        <li>Udyam Registration Certificate</li>
+                        <li>PAN Card of the business entity</li>
+                        <li>GST Registration Certificate</li>
+                        <li>Business Address Proof</li>
+                        <li>Bank Account Details and Cancelled Cheque</li>
+                        <li>Financial Statements or Balance Sheets</li>
+                        <li>List of Machinery or Equipment</li>
+                        <li>Details of Products or Services offered</li>
+                        <li>Quality Certification (if applicable)</li>
+                    </ul>
                 </div>
-                <div className="mb-8">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-3">Operational Hardware Proof</h3>
-                    <p className="text-[17px] text-slate-600 leading-relaxed">Detailed layout of Plant and Machinery installations mapping serials, alongside explicit lists outlining Quality Control Equipment and Testing Facilities natively available in the factory.</p>
-                </div>
-                <div className="mb-8">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-3">Financial Stability Records</h3>
-                    <p className="text-[17px] text-slate-600 leading-relaxed">Audited Balance Sheets stretching the last 3 Years, Profit and Loss Accounts mapped to exactly 3 Years, Schedule of Fixed Assets & Revenue, including a CA-signed statement showcasing operational capacity natively secured.</p>
-                </div>
-                <div className="mb-10">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-3">Entity Formative Acts</h3>
-                    <p className="text-[17px] text-slate-600 leading-relaxed">Applicable MOA/AOA, formal Partnership Deeds, LLP Incorporation strings, Trust Deeds, or Karta Authorization depending strictly on the foundational registration profile.</p>
-                </div>
+                
+                <p className="text-[17px] text-slate-600 leading-relaxed">
+                    Proper documentation ensures faster verification and approval. Vyombiz managed by Clink Consultancy Services Private Limited helps businesses organize and verify all documents before submission to avoid delays.
+                </p>
             </div>
         </section>
     );
@@ -169,30 +176,11 @@ const NSICDocumentsSection = () => {
 
 const NSICProcessSection = () => {
     const steps = [
-        {
-            title: "Portal Login & Sign-up",
-            desc: "The applicant manually engages the concerned central NSIC registration portal directly applying the official government access routes."
-        },
-        {
-            title: "Online Application Entry",
-            desc: "Following secure sign-in, rigorously fill out the core registration form attaching accurate Udyam IDs unlocking Single Point details explicitly mapped."
-        },
-        {
-            title: "Vital Documentation Upload",
-            desc: "The online structural process requires massive arrays of operational financials and mechanical plant data documents cleanly uploaded safely preserving quality."
-        },
-        {
-            title: "Application Fee Transfer",
-            desc: "Finalize accurate government fee transactions determined strictly by the annual business turnover slabs natively applied to executing portals."
-        },
-        {
-            title: "Deep Scrutiny & Verification",
-            desc: "Internal state authorities critically scan the technical applications inspecting operational capacities dynamically matching plant data rigorously offline/online."
-        },
-        {
-            title: "Grant of NSIC Registration",
-            desc: "Upon confirming functional viability, the explicit NSIC certificate mapped directly for 2 full years is immediately dispatched activating SPRS schemas successfully."
-        }
+        { title: "Application Preparation", desc: "Business details and documents are collected and verified before submission." },
+        { title: "Online Application Submission", desc: "The application is submitted through the official NSIC portal." },
+        { title: "Document Verification", desc: "NSIC authorities review the documents and eligibility criteria." },
+        { title: "Technical Inspection", desc: "In some cases, NSIC may conduct an inspection of the business premises to verify operational capability." },
+        { title: "Certification Issuance", desc: "After successful verification, the NSIC Registration Certificate is issued." }
     ];
 
     return (
@@ -200,10 +188,10 @@ const NSICProcessSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        How to Apply for NSIC Registration Online?
+                        NSIC Registration Process
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        There is a meticulous workflow securing accurate registration capabilities maximizing technical output efficiently. Here are the procedural execution limits:
+                        The NSIC registration process involves several verification and approval stages. With professional assistance, the process becomes smooth and efficient.
                     </p>
                 </div>
 
@@ -220,7 +208,7 @@ const NSICProcessSection = () => {
                         {steps.map((step, index) => (
                             <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-200">
                                 <div className="text-[16px] font-semibold text-[#072b47]">
-                                    {index + 1}.
+                                    Step {index + 1}
                                 </div>
                                 <div>
                                     <h3 className="text-[18px] font-semibold text-[#072b47]">
@@ -234,9 +222,13 @@ const NSICProcessSection = () => {
                         ))}
                         <div className="border-t border-slate-200"></div>
 
-                        <div className="mt-12 text-center">
+                        <p className="text-[17px] text-slate-600 leading-relaxed mt-6">
+                            Experts from Vyombiz managed by Clink Consultancy Services Private Limited guide businesses throughout every step of the registration journey.
+                        </p>
+
+                        <div className="mt-8 text-center">
                             <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Expedite Filing Processes Now
+                                Start Your Registration Today
                             </Link>
                         </div>
                     </div>
@@ -248,30 +240,11 @@ const NSICProcessSection = () => {
 
 const NSICFeaturesSection = () => {
     const features = [
-        {
-            title: "Secured Certificates for 5000+ Entrepreneurs",
-            desc: "Demonstrating profound capability actively driving heavy registration limits ensuring minimum operational hassle executing dense financial documents safely."
-        },
-        {
-            title: "ISO Certification Aid",
-            desc: "Helping micro businesses bypass rigorous structural testing actively subsidizing ISO applications rapidly natively scaling the entities correctly."
-        },
-        {
-            title: "Saved 30,00,000+ Business Hours",
-            desc: "Preventing common applicant faults dramatically bridging portal operations keeping turnaround times down systematically tracking all applications optimally."
-        },
-        {
-            title: "Expertise Spanning 10+ Years",
-            desc: "Reflecting profound capabilities dynamically adapting historical MSME law shifts explicitly preserving accurate execution records consistently."
-        },
-        {
-            title: "Access to Tender Schemes",
-            desc: "Advising heavily on leveraging SPRS policies ensuring applications powerfully target massive government PSUs avoiding earnest money safely dropping operational limits."
-        },
-        {
-            title: "Client-Centered Scrutiny",
-            desc: "Proactively deploying network arrays containing 500+ subject matter experts directly vetting CA-signed financial statements optimally bypassing hard rejections instantly."
-        }
+        { title: "Expert Legal Guidance", desc: "Professional experts ensure your application meets all regulatory requirements." },
+        { title: "Fast and Hassle-Free Process", desc: "Streamlined workflows help reduce delays in approval." },
+        { title: "Complete Documentation Support", desc: "All paperwork is reviewed and prepared accurately." },
+        { title: "Transparent Pricing", desc: "Clear service structure with no hidden costs." },
+        { title: "End-to-End Assistance", desc: "From application preparation to certification approval, every stage is managed efficiently." }
     ];
 
     return (
@@ -279,10 +252,10 @@ const NSICFeaturesSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why opt for Us for the NSIC Certificate
+                        Why Choose Vyombiz for NSIC Registration?
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Emerging securely as a highly competent compliance architecture executing high-stakes MSME government interfaces efficiently.
+                        Registering with NSIC requires careful documentation, compliance checks, and coordination with authorities. Professional support ensures faster approvals and avoids common mistakes. Vyombiz managed by Clink Consultancy Services Private Limited provides structured assistance for businesses looking to obtain NSIC certification.
                     </p>
                 </div>
 
@@ -290,7 +263,7 @@ const NSICFeaturesSection = () => {
                     {features.map((feature, index) => (
                         <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-300">
                             <div className="text-[15px] font-semibold text-[#072b47]">
-                                {index + 1}.
+                                <ShieldCheck size={20} className="text-[#005a9c]" />
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
@@ -303,6 +276,35 @@ const NSICFeaturesSection = () => {
                         </div>
                     ))}
                     <div className="border-t border-slate-300"></div>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-8 mt-16">
+                    <div className="bg-[#f8fafc] p-8 rounded-2xl border border-slate-200">
+                        <h3 className="text-2xl font-semibold text-[#072b47] mb-4">NSIC vs MSME Registration</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-4">
+                            Many businesses confuse MSME registration with NSIC registration, but they serve different purposes:
+                        </p>
+                        <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside mb-4">
+                            <li><strong>MSME (Udyam) Registration</strong> identifies a business as a micro, small, or medium enterprise.</li>
+                            <li><strong>NSIC Registration</strong> allows these businesses to participate in government procurement programs with special benefits.</li>
+                        </ul>
+                        <p className="text-[17px] text-slate-600 leading-relaxed">
+                            Both registrations together provide a strong foundation for MSMEs to grow in the public sector market.
+                        </p>
+                    </div>
+
+                    <div className="bg-[#f8fafc] p-8 rounded-2xl border border-slate-200">
+                        <h3 className="text-2xl font-semibold text-[#072b47] mb-4">How Long Does NSIC Registration Take?</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-4">
+                            The time required for NSIC registration depends on the completeness of documents and verification procedures.
+                        </p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-4">
+                            Typically, the process may take <strong>15 to 30 working days</strong>, including application review and inspection if required.
+                        </p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed">
+                            Working with professionals ensures faster documentation preparation and smoother approvals.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -338,18 +340,18 @@ const NSICRegistration = () => {
             {/* ================= SECTION 1: HERO ================= */}
             <HeroLayout
                 heroTitleMain="NSIC Registration"
-                heroTitleSuffix="Online"
-                heroSubtitle="Unlock Government Tenders & Schemes"
-                heroDescription="Ensure ultimate growth securely obtaining MSME NSIC Certification actively avoiding earnest money deposits, accessing PSUs purchases effectively, and maximizing scale across Indian markets powerfully backed with single point registration."
+                heroTitleSuffix=""
+                heroSubtitle="Unlock Government Opportunities for Your MSME"
+                heroDescription="Register with NSIC and gain access to government tenders, financial support, and business growth opportunities designed exclusively for MSMEs. Get your NSIC Registration quickly and compliantly with expert assistance from Vyombiz managed by Clink Consultancy Services Private Limited."
                 whatsIncludedList={[
-                    "Complete SPRS Application",
-                    "Udyam Compliance Link",
-                    "CA Signed Finance Guide",
-                    "Plant Capacity Review"
+                    "Access Government Tenders",
+                    "Earnest Money (EMD) Exemption",
+                    "Complete Documentation Support",
+                    "End-to-End Assistance"
                 ]}
                 stats={[
+                    { count: "10+", label: "Years Exp", icon: <TrendingUp size={20} /> },
                     { count: "5000+", label: "Clients", icon: <CheckCircle2 size={20} /> },
-                    { count: "10+ Yrs", label: "Expertise", icon: <TrendingUp size={20} /> },
                     { count: "358+", label: "Reserved Tenders", icon: <Building2 size={20} /> }
                 ]}
             />

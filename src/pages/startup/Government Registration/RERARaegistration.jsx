@@ -19,19 +19,19 @@ const RERAOverview = () => {
                             Real Estate Regulation
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            RERA Registration – <span className="text-[#005a9c]">An Overview</span>
+                            What is RERA Registration?
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Are you a real estate agent, a developer, a builder, or a local promoter working on real estate projects? If yes, you must secure RERA registration. RERA stands for Real Estate Regulatory Authority, governed under the Real Estate (Regulation and Development) Act, 2016.
+                            The Real Estate (Regulation and Development) Act, 2016 (RERA) was introduced by the Government of India to regulate the real estate sector and protect the interests of homebuyers. It ensures transparency, accountability, and efficiency in real estate transactions.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The RERA Act implemented at the state level is responsible for the registration of commercial properties/ residential flats (i.e., RERA project registration) and the regulation of sale and purchase transactions of real estate through RERA agent registration.
+                            Under this law, real estate developers and agents must register their projects with the respective state RERA authority before advertising or selling properties.
                         </p>
-                        <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Objective of RERA Registration
-                        </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            RERA registration ensures regulating the real estate properties at the State level. It intends to maintain transparency and greater accountability by reducing the occurrence of fraud and delays during real estate contracts. Ensuring registration boosts market investments by protecting home purchasers' and investors' interests.
+                            RERA registration ensures that property buyers receive accurate project information, timely possession, and legal protection against fraudulent practices.
+                        </p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
+                            Businesses seeking expert support for compliance can rely on Vyombiz managed by Clink Consultancy Services Private Limited to simplify the entire registration process and ensure adherence to regulatory requirements.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -57,10 +57,10 @@ const RERAAdvantages = () => {
                         Trust & Transparency
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of Obtaining RERA Registration Certificate
+                        Why RERA Registration is Important
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        The Real Estate (Regulation and Development) Act ensures multiple consumer protections while providing builders with official credibility.
+                        Registering under RERA offers multiple advantages for both developers and buyers.
                     </p>
                     <div className="mt-10">
                         <img
@@ -74,12 +74,11 @@ const RERAAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Timely Possession", desc: "RERA Registration ensures timely possession of property on the estimated project completion date. Heavy penalties apply upon failure." },
-                        { title: "Reduced Fraud", desc: "The certificate ensures the adherence of promoters and agents to strict compliances, extensively reducing fraud or misappropriation." },
-                        { title: "Enhanced Trustworthiness", desc: "A valid RERA registration drastically promotes the institutional trustworthiness of promoters and agents amongst public buyers." },
-                        { title: "Consumer Protection", desc: "Enables consumers to be protected from fraudulent activities actively promoting transparency and financial accountability in transactions." },
-                        { title: "Legal Authorization", desc: "Grants explicit legal mandate to construct, advertise, market, book, and offer plots/apartments strictly covered under the RERA Act." },
-                        { title: "Dispute Redressal", desc: "The RERA Act officially sets up an Appellate Tribunal assisting rapid resolutions for appeals directly dealing with property conflicts." }
+                        { title: "Legal Compliance", desc: "Developers must register projects under RERA before marketing or selling property units." },
+                        { title: "Buyer Confidence", desc: "RERA registration increases transparency, improving buyer trust and credibility." },
+                        { title: "Transparency in Project Details", desc: "Developers must disclose project timelines, approvals, land details, and financial information." },
+                        { title: "Reduced Disputes", desc: "RERA creates a clear regulatory framework for dispute resolution between buyers and developers." },
+                        { title: "Better Market Reputation", desc: "Registered developers gain stronger credibility in the real estate market." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -101,40 +100,49 @@ const RERAEligibility = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Eligibility Criteria for RERA Registration
+                    Who Needs RERA Registration?
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Separate standards apply depending on whether registration involves Project Promoters or standalone Real Estate Agents.
+                    RERA registration is mandatory for several entities involved in real estate activities.
                 </p>
 
-                <div className="mb-10">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Checklist for Project Promoters
-                    </h3>
-                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside">
-                        <li>All private business ventures specifically surpassing 500 square meters or exceeding 8 units/apartments.</li>
-                        <li>An individual or entity modifying existing structures/apartments for immediate commercial sale.</li>
-                        <li>Any person constructing an independent building intending to sell off allocated compartments.</li>
-                        <li>State-level cooperative housing finance societies or primitive cooperative societies handling member buildings.</li>
-                        <li>Persons holding power of attorney securing legal possession of land geared towards flat constructions.</li>
-                    </ul>
+                <div className="grid md:grid-cols-3 gap-6 mb-12">
+                    <div className="bg-[#f8fafc] p-6 rounded-xl border border-slate-100">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Real Estate Developers</h3>
+                        <p className="text-[16px] text-slate-600">Builders launching residential or commercial projects exceeding the specified land or unit limits.</p>
+                    </div>
+                    <div className="bg-[#f8fafc] p-6 rounded-xl border border-slate-100">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Real Estate Agents</h3>
+                        <p className="text-[16px] text-slate-600">Individuals or businesses facilitating property transactions between buyers and sellers.</p>
+                    </div>
+                    <div className="bg-[#f8fafc] p-6 rounded-xl border border-slate-100">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Promoters</h3>
+                        <p className="text-[16px] text-slate-600">Entities responsible for project planning, marketing, and construction.</p>
+                    </div>
                 </div>
 
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Checklist for Real Estate Agents
+                        Projects That Require RERA Registration
                     </h3>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-4">
+                        Real estate projects must be registered if they meet the following criteria:
+                    </p>
                     <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside">
-                        <li>Individuals above 18 or 19 years of age, dynamically varying based on specific State configurations.</li>
-                        <li>Candidates must have cleared the standard Real Estate License Examination assigned by the concerned State.</li>
-                        <li>Must have completed mandatory pre-licensing education mapped to local educational benchmarks.</li>
+                        <li>The project area exceeds 500 square meters</li>
+                        <li>The project involves more than 8 residential units</li>
+                        <li>The project is under construction and has not received completion certification</li>
+                        <li>Any new residential or commercial real estate development</li>
                     </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mt-4 italic">
+                        Projects that do not fall under these categories may be exempt depending on state regulations.
+                    </p>
                 </div>
 
                 <div className="mt-12 text-center">
                     <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Check Your Project Eligibility
-                            </Link>
+                        Start Your Registration Process
+                    </Link>
                 </div>
             </div>
         </section>
@@ -146,28 +154,50 @@ const RERADocumentsSection = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Documents Required for Getting RERA Certificate
+                    Documents Required for RERA Registration
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Compile the exhaustive list of verification documents required under the Real Estate Act, 2016 for project scrutiny:
+                    To successfully register a project under RERA, developers must submit various legal and project-related documents.
                 </p>
 
-                <div className="mb-8">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-3">Enterprise & Entity Data</h3>
-                    <p className="text-[17px] text-slate-600 leading-relaxed">Certificate of Incorporation, Corporate Identification Number (CIN), TAN, Memorandum of Association (MOA), Promoters identification details, and Agent firm bylaws if applicable.</p>
+                <div className="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Promoter Details</h3>
+                        <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside bg-[#f8fafc] p-6 rounded-xl border border-slate-100 h-full">
+                            <li>PAN card and address proof</li>
+                            <li>Company registration details</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Project Details</h3>
+                        <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside bg-[#f8fafc] p-6 rounded-xl border border-slate-100 h-full">
+                            <li>Approved building plans</li>
+                            <li>Layout plans and project specifications</li>
+                            <li>Land ownership documents</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Financial Details</h3>
+                        <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside bg-[#f8fafc] p-6 rounded-xl border border-slate-100 h-full">
+                            <li>Estimated project cost</li>
+                            <li>Funding sources</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Legal Documents</h3>
+                        <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside bg-[#f8fafc] p-6 rounded-xl border border-slate-100 h-full">
+                            <li>Encumbrance certificate</li>
+                            <li>Development agreements (if applicable)</li>
+                        </ul>
+                    </div>
                 </div>
-                <div className="mb-8">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-3">Project Specifics</h3>
-                    <p className="text-[17px] text-slate-600 leading-relaxed">Brief details indicating project execution plans, Commencement certificates securely obtained from competent authorities, detailed sanctioned/layout plans, and phase development timelines.</p>
-                </div>
-                <div className="mb-8">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-3">Legal Artifacts</h3>
-                    <p className="text-[17px] text-slate-600 leading-relaxed">Proforma of the allotment letter, explicitly defined agreement for sale, structurally approved conveyance deed formats, and signed declarations/affidavits by promoters.</p>
-                </div>
-                <div className="mb-10">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-3">Technical Measurements Data</h3>
-                    <p className="text-[17px] text-slate-600 leading-relaxed">Accurate calculations defining the dedicated carpet area of apartments, explicit measurements of integrated garages, alongside official details of primary contractors, architects, and structural engineers linked to the site.</p>
-                </div>
+                
+                <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                    Submitting accurate documentation helps ensure faster approval from the RERA authority.
+                </p>
             </div>
         </section>
     );
@@ -175,26 +205,11 @@ const RERADocumentsSection = () => {
 
 const RERAProcessSection = () => {
     const steps = [
-        {
-            title: "Filing of Registration Form",
-            desc: "Every promoter/agent must initiate filing application Form A explicitly to the Real Estate Regulatory Authority governing their state's jurisdiction through online unified portals."
-        },
-        {
-            title: "Submission of Crucial Documents",
-            desc: "The applicants are strictly required to upload/submit necessary operational declarations and architectural records alongside the registration application."
-        },
-        {
-            title: "Comply with Verification Conditions",
-            desc: "Agents specifically must commit to avoiding unfair trade practices, promising not to engage in unauthorized land allocations or misleading advertisements concerning the proposed layouts."
-        },
-        {
-            title: "Payment of Registration Fees",
-            desc: "The applicants are required to subsequently make accurate calculated payments addressing standardized registration fees explicitly guided by state regulation guidelines."
-        },
-        {
-            title: "Grant of Registration Certificate",
-            desc: "Upon thorough scrutiny and validation of the application filed, the localized Real Estate Regulatory Authority physically/digitally grants the registration certificate and exclusive tracking number within 30 days."
-        }
+        { title: "Document Preparation", desc: "Collect all project approvals, legal documents, and promoter details." },
+        { title: "Online Application", desc: "Submit the RERA registration application through the respective state RERA portal." },
+        { title: "Document Verification", desc: "The authority reviews project details, land documents, and financial disclosures." },
+        { title: "Payment of Registration Fee", desc: "Applicable registration fees must be paid as per project type and size." },
+        { title: "RERA Certificate Issuance", desc: "Once approved, the authority issues a RERA Registration Number, allowing the project to be marketed and sold legally." }
     ];
 
     return (
@@ -202,10 +217,10 @@ const RERAProcessSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        Procedure to Obtain RERA Registration
+                        Step-by-Step RERA Registration Process
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        There is a meticulous legal flow protecting asset validity prior to exposing public sales. Here is the operational step-by-step processing journey:
+                        The RERA registration process involves several important steps. Businesses can simplify this process with the professional assistance of Vyombiz managed by Clink Consultancy Services Private Limited, ensuring proper documentation and timely submission.
                     </p>
                 </div>
 
@@ -222,7 +237,7 @@ const RERAProcessSection = () => {
                         {steps.map((step, index) => (
                             <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-200">
                                 <div className="text-[16px] font-semibold text-[#072b47]">
-                                    {index + 1}.
+                                    Step {index + 1}
                                 </div>
                                 <div>
                                     <h3 className="text-[18px] font-semibold text-[#072b47]">
@@ -238,7 +253,7 @@ const RERAProcessSection = () => {
 
                         <div className="mt-12 text-center">
                             <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Start Registration Journey
+                                Start Your Registration Today
                             </Link>
                         </div>
                     </div>
@@ -250,30 +265,10 @@ const RERAProcessSection = () => {
 
 const RERAFeaturesSection = () => {
     const features = [
-        {
-            title: "99% Success Rate",
-            desc: "Having maintained an elite success rate safely completing RERA registrations online proving industry reliability."
-        },
-        {
-            title: "200+ Experienced Professionals",
-            desc: "Integrating a vast network of attorneys and real estate legal experts securing optimal completion across diverse state mandates."
-        },
-        {
-            title: "Flawless Documentation Support",
-            desc: "Expertly assisting massive scale architectural documentation compiling mapping intricate multi-state regulatory frameworks without rejection gaps."
-        },
-        {
-            title: "Admissibility Compliance",
-            desc: "Safely ensuring compliance with tricky pre-screening admissibility criteria securing zero technical delays before deep scrutiny phases."
-        },
-        {
-            title: "Strong RERA Connections",
-            desc: "Holding healthy regulatory engagement smoothing out slow processing channels rapidly targeting instant certification execution."
-        },
-        {
-            title: "Dispute & Renewal Operations",
-            desc: "Offering continuous grievance support dealing powerfully with operational disputes and handling time-sensitive licensing renewals."
-        }
+        { title: "Expert Legal Guidance", desc: "Industry professionals help ensure all regulatory requirements are met." },
+        { title: "End-to-End Support", desc: "From document preparation to application filing and follow-ups." },
+        { title: "Accurate Documentation", desc: "Properly structured filings reduce rejection risks." },
+        { title: "Faster Approval Process", desc: "Efficient handling of paperwork ensures quicker registration." }
     ];
 
     return (
@@ -281,10 +276,10 @@ const RERAFeaturesSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Trust Us For RERA Compliance
+                        Why Choose Vyombiz for RERA Registration?
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Execute property setups avoiding litigation loops by securely utilizing dedicated legal professionals driving massive developmental projects.
+                        Choosing the right compliance partner can make the registration process faster and smoother. Businesses across India rely on Vyombiz managed by Clink Consultancy Services Private Limited for professional support in navigating regulatory registrations with ease.
                     </p>
                 </div>
 
@@ -292,7 +287,7 @@ const RERAFeaturesSection = () => {
                     {features.map((feature, index) => (
                         <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-300">
                             <div className="text-[15px] font-semibold text-[#072b47]">
-                                {index + 1}.
+                                <ShieldCheck size={20} className="text-[#005a9c]" />
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
@@ -306,6 +301,33 @@ const RERAFeaturesSection = () => {
                     ))}
                     <div className="border-t border-slate-300"></div>
                 </div>
+
+                <div className="grid md:grid-cols-2 gap-8 mt-16">
+                    <div className="bg-[#f8fafc] p-8 rounded-2xl border border-slate-200">
+                        <h3 className="text-2xl font-semibold text-[#072b47] mb-4">RERA Registration Fees</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-4">
+                            The registration fees depend on the type of project and the total project area. Since fee structures vary by state, consulting experts ensures accurate filing and cost estimation.
+                        </p>
+                        <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside mb-4">
+                            <li><span className="font-semibold text-[#072b47]">Residential Projects:</span> Fees are calculated per square meter of project area.</li>
+                            <li><span className="font-semibold text-[#072b47]">Commercial Projects:</span> Usually charged at a higher rate than residential projects.</li>
+                            <li><span className="font-semibold text-[#072b47]">Mixed-Use Projects:</span> Charges may vary based on residential and commercial components.</li>
+                        </ul>
+                    </div>
+
+                    <div className="bg-[#f8fafc] p-8 rounded-2xl border border-slate-200">
+                        <h3 className="text-2xl font-semibold text-[#072b47] mb-4">Penalties for Non-Compliance</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-4">
+                            Failure to comply with RERA regulations can result in significant penalties. Ensuring proper compliance helps developers avoid regulatory issues and financial risks.
+                        </p>
+                        <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside mb-4">
+                            <li>Financial penalties up to 10% of project cost</li>
+                            <li>Possible imprisonment for repeated violations</li>
+                            <li>Restrictions on project marketing and sales</li>
+                            <li>Legal disputes with buyers</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
     );
@@ -314,24 +336,20 @@ const RERAFeaturesSection = () => {
 const RERARaegistration = () => {
     const faqs = [
         {
-            question: "Is RERA registration mandatory for all builders?",
-            answer: "Yes, RERA fundamentally requires all builders/promoters executing developments surpassing 500 square meters or crossing 8 apartments to obtain structural registration explicitly before promoting sales."
+            question: "Is RERA registration mandatory for all real estate projects?",
+            answer: "No. Projects below certain size limits or those already completed may not require registration. However, most new real estate developments must comply with RERA regulations."
         },
         {
-            question: "How long does the RERA authority take to grant approval?",
-            answer: "Upon filing the correct sets of documents accurately satisfying engineering checks, the Real Estate Regulatory Authority physically/digitally grants certification within exactly 30 processing days."
+            question: "How long does RERA registration take?",
+            answer: "The approval timeline depends on the state authority and document verification process but typically ranges between 15 to 30 days."
         },
         {
-            question: "Can agents sell property without a RERA number?",
-            answer: "No, under severe penalty frameworks real estate agents are strictly barred from facilitating sale mechanics associated with RERA-defined plots without explicitly holding valid agent registration IDs."
+            question: "Can real estate agents operate without RERA registration?",
+            answer: "No. Real estate agents must obtain RERA registration to legally facilitate property transactions."
         },
         {
-            question: "What happens if a project developer defaults on timelines?",
-            answer: "Heavy monetary penalties are levied securing investor trust. Recurrent breaches might ultimately result in immediate permit revocation ceasing all construction activities permanently."
-        },
-        {
-            question: "Does RERA apply equivalently across different states?",
-            answer: "While the Central RERA Act of 2016 maps out baseline frameworks, distinct state-level authorities deploy specific granular variances accommodating localized development mechanisms dynamically."
+            question: "What happens if a project is not registered under RERA?",
+            answer: "Unregistered projects cannot be legally marketed or sold and may face penalties under the act."
         }
     ];
 
@@ -339,20 +357,19 @@ const RERARaegistration = () => {
         <div className="w-full bg-white font-sans text-[#1a1a1a]">
             {/* ================= SECTION 1: HERO ================= */}
             <HeroLayout
-                heroTitleMain="RERA Registration"
-                heroTitleSuffix="Services"
-                heroSubtitle="Smooth & Hassle-Free Approval Process"
-                heroDescription="Ensure your real estate projects explicitly meet regulatory standards securing buyer trust. Provide fast track RERA registration setups across all major Indian states executing flawless legal frameworks."
+                heroTitleMain="RERA Registration Made Simple"
+                heroTitleSuffix="for Real Estate Projects"
+                heroSubtitle="Stay compliant, build buyer trust, and launch your real estate project legally with seamless RERA Registration support."
+                heroDescription="Get expert assistance with documentation, filing, and approval so you can focus on building and selling your property."
                 whatsIncludedList={[
-                    "Complete Project Registration",
-                    "Real Estate Agent Setup",
-                    "Architectural Filing Strategy",
-                    "Strict Dispute Management"
+                    "End-to-end RERA compliance",
+                    "Expert documentation support",
+                    "Fast & reliable filing process"
                 ]}
                 stats={[
-                    { count: "99%", label: "Success Rate", icon: <CheckCircle2 size={20} /> },
-                    { count: "200+", label: "Legal Experts", icon: <Building2 size={20} /> },
-                    { count: "30L+", label: "Hours Saved", icon: <Handshake size={20} /> }
+                    { count: "Compliance", label: "A-Z", icon: <CheckCircle2 size={20} /> },
+                    { count: "Expert", label: "Support", icon: <Building2 size={20} /> },
+                    { count: "Fast", label: "Filing", icon: <Handshake size={20} /> }
                 ]}
             />
 
@@ -368,8 +385,8 @@ const RERARaegistration = () => {
 
             {/* ================= FAQ SECTION ================= */}
             <FAQLayout
-                title="Frequently Asked Questions"
-                subtitle="Resolve common queries concerning property scaling limits."
+                title="Frequently Asked Questions (FAQs)"
+                subtitle="Clear your doubts regarding RERA registration and compliance."
                 faqs={faqs}
             />
         </div>

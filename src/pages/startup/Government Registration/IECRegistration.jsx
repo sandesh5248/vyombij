@@ -19,19 +19,24 @@ const IECOverview = () => {
                             Global Trade
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            IEC Code Registration – <span className="text-[#005a9c]">An Overview</span>
+                            What is IEC Registration?
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            If you are an entrepreneur or a business looking to expand your venture beyond Indian territory, an IEC number is mandatory. An Import Export Code (IEC) is a unique 10-digit number assigned by the Directorate General of Foreign Trade (DGFT) under India's Ministry of Commerce and Industry. It is required to engage legally in the import and export business.
+                            Import Export Code (IEC) is a mandatory 10-digit identification number issued by the Directorate General of Foreign Trade (DGFT) for businesses involved in importing or exporting goods and services from India.
+                        </p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-3">
+                            Without an IEC, a business cannot legally carry out international trade activities such as:
+                        </p>
+                        <ul className="space-y-2 mb-6 ml-4 list-disc text-[17px] text-slate-600 leading-relaxed font-medium">
+                            <li>Importing products from foreign suppliers</li>
+                            <li>Exporting goods to international markets</li>
+                            <li>Receiving foreign currency payments for exported services</li>
+                        </ul>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
+                            Once issued, the IEC remains valid for a lifetime and does not require renewal. However, businesses must update details annually on the DGFT portal.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The gateway to exploring business beyond borders was made available after India brought economic reforms and adopted the liberalization policy in 1991. Since then, Indian citizens and companies have made profitable investments outside the country. The DGFT manages this code to simplify import-export procedures.
-                        </p>
-                        <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Why is the IEC Important?
-                        </h3>
-                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            An IEC code is pivotal in tracking and maintaining import and export records. It is also important in maintaining compliance and facilitating hassle-free customs clearance. The IEC code facilitates smooth bank transactions for international trade and leverages benefits to promote exports. Once issued, the IEC code is valid for a lifetime.
+                            Businesses choosing professional assistance from Vyombiz managed by Clink Consultancy Services Private Limited benefit from a smooth application process, accurate documentation, and faster approvals.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -57,10 +62,10 @@ const IECAdvantages = () => {
                         Trade Expansion
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of IEC Registration
+                        Why IEC Registration is Important
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Businesses that have obtained import-export code registration can access global markets and engage in export-import activities hassle-free.
+                        IEC registration is the first step for entering global markets. It enables businesses to expand beyond domestic boundaries and tap into international trade opportunities.
                     </p>
                     <div className="mt-10">
                         <img
@@ -74,12 +79,12 @@ const IECAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Lifetime Validity", desc: "One of the most important benefits. The IEC code is valid for the company's lifetime and requires no renewal." },
-                        { title: "Global Market Access", desc: "Facilitates Indian businesses in expanding their operations across borders and penetrating international markets with ease." },
-                        { title: "Zero Annual Maintenance", desc: "A simple process that does not demand adherence to complex regulations. No return filings required specifically for the IEC Code." },
-                        { title: "Reduces Risk of Illegal Trade", desc: "Furnishing updated information limits the trading of illegal goods and paves the way for legal international trade." },
-                        { title: "Tax Refunds", desc: "Eligible to claim refunds on taxes paid during the export procedure, helping to bring down operational expenses and improve cash flow." },
-                        { title: "Simplified Bank Transactions", desc: "Allows businesses to engage in foreign exchange transactions easily for international payments according to bank requirements." }
+                        { title: "Lifetime Validity", desc: "IEC registration is issued once and remains valid for the lifetime of the entity." },
+                        { title: "No Compliance Burden", desc: "Unlike many registrations, IEC has minimal compliance requirements." },
+                        { title: "Access Global Markets", desc: "Sell products and services internationally without regulatory hurdles." },
+                        { title: "Export Incentives", desc: "Businesses can avail benefits under various export promotion schemes." },
+                        { title: "Easy International Payments", desc: "Required for receiving payments in foreign currency through banks." },
+                        { title: "Build Global Brand Presence", desc: "Establish credibility with overseas buyers and international marketplaces." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -101,43 +106,36 @@ const IECEligibility = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Checklist for Businesses for IEC Code Registration
+                    Who Needs an Import Export Code?
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Various business entities are eligible to apply for an Import Export License in India. Ensure you strictly meet the following criteria:
+                    IEC registration is required by any individual or business planning to engage in cross-border trade.
                 </p>
 
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Entity Types Allowed
+                        Entities Eligible for IEC Registration
                     </h3>
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-[17px] text-slate-600 leading-relaxed list-disc list-inside">
-                        <li>Sole Proprietorships</li>
+                        <li>Proprietorship Businesses</li>
                         <li>Partnership Firms</li>
-                        <li>Limited Liability Partnerships (LLPs)</li>
-                        <li>Private & Public Limited Companies</li>
-                        <li>Hindu Undivided Family (HUF)</li>
-                        <li>Trusts and Societies</li>
-                        <li>Government Entities</li>
-                        <li>Non-Governmental Organizations (NGOs)</li>
+                        <li>Limited Liability Partnerships (LLP)</li>
+                        <li>Private Limited Companies</li>
+                        <li>One Person Companies (OPC)</li>
+                        <li>Exporters and Importers</li>
+                        <li>E-commerce sellers selling globally</li>
+                        <li>Service exporters receiving foreign payments</li>
                     </ul>
                 </div>
 
-                <div className="mb-10">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Basic Pre-Requisites
-                    </h3>
-                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside">
-                        <li><span className="font-semibold text-[#072b47]">Active PAN Card:</span> Business must have a valid PAN card registered under its name (or individual's name for sole proprietors).</li>
-                        <li><span className="font-semibold text-[#072b47]">Current Bank Account:</span> Business must have opened an active current bank account in its exact name.</li>
-                        <li><span className="font-semibold text-[#072b47]">Registered Address Proof:</span> An entity must provide proof of its valid registered business location.</li>
-                    </ul>
-                </div>
+                <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                    Even freelancers or consultants exporting services internationally may require IEC to receive foreign remittances.
+                </p>
 
                 <div className="mt-12 text-center">
                     <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Verify Your Target Market Today
-                            </Link>
+                        Start Your Import Export Journey Today
+                    </Link>
                 </div>
             </div>
         </section>
@@ -149,32 +147,39 @@ const IECDocumentsSection = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Documents Needed for IEC Registration
+                    Documents Required for IEC Registration
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Anyone filing an application for import export code registration is required to submit various distinct documents targeting identity and location specifics:
+                    The documentation required for IEC registration is minimal and depends on the type of business entity.
                 </p>
 
-                <div className="mb-8">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-3">Identity Proof</h3>
-                    <p className="text-[17px] text-slate-600 leading-relaxed">A valid PAN card (Proprietorship or Entity), Voter ID, Aadhaar card, Driving license or Passport. Digital photographs (3x3 cm) of the applicants are required.</p>
+                <div className="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">For Individuals / Proprietorship</h3>
+                        <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside bg-[#f8fafc] p-6 rounded-xl border border-slate-100 h-full">
+                            <li>PAN Card of the applicant</li>
+                            <li>Aadhaar Card or identity proof</li>
+                            <li>Address proof</li>
+                            <li>Bank account details</li>
+                            <li>Cancelled cheque</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">For Companies / LLP / Partnerships</h3>
+                        <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside bg-[#f8fafc] p-6 rounded-xl border border-slate-100 h-full">
+                            <li>PAN Card of the business entity</li>
+                            <li>Certificate of Incorporation / Partnership Deed</li>
+                            <li>Address proof of business</li>
+                            <li>Bank account proof</li>
+                            <li>Digital Signature (if applicable)</li>
+                        </ul>
+                    </div>
                 </div>
-                <div className="mb-8">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-3">Bank Details</h3>
-                    <p className="text-[17px] text-slate-600 leading-relaxed">A cancelled cheque of a valid current bank account matching the exact applicant or business name.</p>
-                </div>
-                <div className="mb-8">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-3">Address Proof</h3>
-                    <p className="text-[17px] text-slate-600 leading-relaxed">Proof of address for the business like sale deed, rent agreement, lease deed, or latest utility bills.</p>
-                </div>
-                <div className="mb-8">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-3">Proof of Establishment</h3>
-                    <p className="text-[17px] text-slate-600 leading-relaxed">Proof of entity incorporation, MSME certificate, or business statutory registration indicating firm existence.</p>
-                </div>
-                <div className="mb-10">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-3">Technical Verification</h3>
-                    <p className="text-[17px] text-slate-600 leading-relaxed">A valid Digital Signature Certificate (DSC) mapped against the authorized signatory handling the application process.</p>
-                </div>
+
+                <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                    Our experts at Vyombiz managed by Clink Consultancy Services Private Limited ensure that all documentation is correctly prepared to avoid delays or rejection.
+                </p>
             </div>
         </section>
     );
@@ -182,26 +187,10 @@ const IECDocumentsSection = () => {
 
 const IECProcessSection = () => {
     const steps = [
-        {
-            title: "Complete Necessary Paperwork",
-            desc: "The first step requires you to ensure that your paperwork is physically collected including your PAN card, identity proof, address proof and bank certificates."
-        },
-        {
-            title: "DGFT Portal Sign Up",
-            desc: "Visit the official website of the Directorate General of Foreign Trade (DGFT) and create an active user account associating a valid mobile number and email ID."
-        },
-        {
-            title: "Complete the Application Form",
-            desc: "Log in to carefully complete the IEC application form (ANF-2A) mapping out your intended banking relationships and registered trade headquarters accurately."
-        },
-        {
-            title: "Upload Documents and Pay Fees",
-            desc: "Upload the verified scanned documents in the exact DGFT specified format. Next, pay the official processing fee online through the integrated portal gateway."
-        },
-        {
-            title: "Submit and Track Application",
-            desc: "Post payment, sign and submit your application digitally. Once physically evaluated and approved by external regulators, you receive an email confirmation containing your certificate."
-        }
+        { title: "Document Collection", desc: "Provide basic business details and required documents for verification." },
+        { title: "Application Preparation", desc: "Experts prepare and review the IEC application." },
+        { title: "Application Filing with DGFT", desc: "The application is submitted on the DGFT portal for approval." },
+        { title: "IEC Certificate Issued", desc: "Once approved, the IEC certificate is generated and shared with the applicant." }
     ];
 
     return (
@@ -209,10 +198,10 @@ const IECProcessSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        How to Apply for an Import Export License?
+                        IEC Registration Process
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        The DGFT has standardized the complete journey targeting remote access making global setups remarkably fast. Here is the operational workflow:
+                        The IEC registration process is fully online through the DGFT portal and typically completed within a few working days when documentation is accurate.
                     </p>
                 </div>
 
@@ -229,7 +218,7 @@ const IECProcessSection = () => {
                         {steps.map((step, index) => (
                             <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-200">
                                 <div className="text-[16px] font-semibold text-[#072b47]">
-                                    {index + 1}.
+                                    Step {index + 1}
                                 </div>
                                 <div>
                                     <h3 className="text-[18px] font-semibold text-[#072b47]">
@@ -245,7 +234,7 @@ const IECProcessSection = () => {
 
                         <div className="mt-12 text-center">
                             <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Let Experts Process Your Filing
+                                Apply for IEC Registration Now
                             </Link>
                         </div>
                     </div>
@@ -257,30 +246,11 @@ const IECProcessSection = () => {
 
 const IECFeaturesSection = () => {
     const features = [
-        {
-            title: "10+ Years of Experience",
-            desc: "Expertly handling DGFT interfaces scaling 10+ years driving secure, worry-free structural compliance globally."
-        },
-        {
-            title: "100% Error-Free Documentation",
-            desc: "Advanced multi-stage dossier review preventing common input faults minimizing processing rejection drastically."
-        },
-        {
-            title: "Application Tracking",
-            desc: "End-to-end follow-up actively monitoring DGFT dashboards capturing issues rapidly leading to smooth clearance."
-        },
-        {
-            title: "Timely Certificate Delivery",
-            desc: "Guaranteed instantaneous delivery of issued digital documents enabling businesses prompt custom execution instantly."
-        },
-        {
-            title: "Compliance Support",
-            desc: "Addressing profound post-allocation questions detailing annual updates assisting safe adherence preventing legal frictions natively."
-        },
-        {
-            title: "Quick Response",
-            desc: "Trained advisors actively guiding founders keeping teams informed effectively throughout complex procedural intervals easily."
-        }
+        { title: "Expert Consultation", desc: "Expert consultation from compliance specialists." },
+        { title: "End-to-End Support", desc: "End-to-end documentation support throughout the registration journey." },
+        { title: "Fast Processing", desc: "Fast application processing and submission." },
+        { title: "Transparent Pricing", desc: "Transparent service process with no hidden fees." },
+        { title: "Dedicated Support", desc: "Dedicated client support handling all your queries." }
     ];
 
     return (
@@ -288,10 +258,10 @@ const IECFeaturesSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose Us For IEC Registration
+                        Why Choose Vyombiz for IEC Registration?
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Scale across borders seamlessly backed by heavily proficient consultants navigating dynamic regulatory constraints globally.
+                        Getting IEC registration through experts ensures faster approvals and error-free filing. Businesses that choose Vyombiz managed by Clink Consultancy Services Private Limited benefit from professional guidance throughout the registration journey.
                     </p>
                 </div>
 
@@ -299,7 +269,7 @@ const IECFeaturesSection = () => {
                     {features.map((feature, index) => (
                         <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-300">
                             <div className="text-[15px] font-semibold text-[#072b47]">
-                                {index + 1}.
+                                <ShieldCheck size={20} className="text-[#005a9c]" />
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
@@ -312,6 +282,33 @@ const IECFeaturesSection = () => {
                         </div>
                     ))}
                     <div className="border-t border-slate-300"></div>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-8 mt-16">
+                    <div className="bg-[#f8fafc] p-8 rounded-2xl border border-slate-200">
+                        <h3 className="text-2xl font-semibold text-[#072b47] mb-4">IEC Registration Fees in India</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-4">
+                            IEC registration involves a government fee and professional service fee depending on the service provider. The total cost may vary based on documentation requirements and additional compliance assistance.
+                        </p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed">
+                            Businesses working with Vyombiz managed by Clink Consultancy Services Private Limited receive transparent pricing and end-to-end support during the registration process.
+                        </p>
+                    </div>
+
+                    <div className="bg-[#f8fafc] p-8 rounded-2xl border border-slate-200">
+                        <h3 className="text-2xl font-semibold text-[#072b47] mb-4">IEC Registration Compliance</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-4">
+                            Although IEC has lifetime validity, businesses must comply with certain requirements:
+                        </p>
+                        <ul className="space-y-2 text-[17px] text-slate-600 leading-relaxed list-disc list-inside mb-4">
+                            <li>Annual IEC update on the DGFT portal</li>
+                            <li>Updating changes in business details</li>
+                            <li>Maintaining proper export/import records</li>
+                        </ul>
+                        <p className="text-[17px] text-slate-600 leading-relaxed">
+                            Failure to update IEC details annually may lead to deactivation of the code.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -348,18 +345,18 @@ const IECRegistration = () => {
             <HeroLayout
                 heroTitleMain="Import Export Code"
                 heroTitleSuffix="(IEC) Registration"
-                heroSubtitle="Free Expert Consultation for Licenses"
-                heroDescription="Get IEC registration online with expert support. Enable fast and hassle-free import-export code registration safely scaling your business beyond borders accessing massive global markets securely."
+                heroSubtitle="Import Export Code (IEC) Registration Made Simple"
+                heroDescription="Start your global trade journey with a hassle-free IEC Registration. Get your Import Export Code from DGFT quickly with expert assistance."
                 whatsIncludedList={[
-                    "DGFT Portal Representation",
-                    "Customs Documentation Guide",
-                    "Lifetime Validity Issuance",
-                    "Zero Annual Ad-hoc Filings"
+                    "100% Online Process",
+                    "Expert Documentation Support",
+                    "Quick IEC Certificate Delivery",
+                    "Dedicated Consultation"
                 ]}
                 stats={[
-                    { count: "10+ Yrs", label: "Trade Exp", icon: <TrendingUp size={20} /> },
-                    { count: "100%", label: "Digital", icon: <Anchor size={20} /> },
-                    { count: "DGFT", label: "Approved", icon: <ShieldCheck size={20} /> }
+                    { count: "100%", label: "Online", icon: <Anchor size={20} /> },
+                    { count: "DGFT", label: "Approved", icon: <ShieldCheck size={20} /> },
+                    { count: "10+ Yrs", label: "Expertise", icon: <TrendingUp size={20} /> }
                 ]}
             />
 
@@ -375,8 +372,8 @@ const IECRegistration = () => {
 
             {/* ================= FAQ SECTION ================= */}
             <FAQLayout
-                title="Frequently Asked Questions"
-                subtitle="Delineate complex boundary regulations covering global trade mechanisms."
+                title="Frequently Asked Questions (FAQs)"
+                subtitle="Clear up common doubts regarding the Import Export Code."
                 faqs={faqs}
             />
         </div>
