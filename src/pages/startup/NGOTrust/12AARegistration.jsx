@@ -23,16 +23,16 @@ const Registration12AAOverview = () => {
                             Tax Exemption
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            12AA Registration – <span className="text-[#005a9c]">An Overview</span>
+                            12AA Registration – <span className="text-[#005a9c]">Overview</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Section 12AA of the Income Tax Act, 1961 details the procedure for registering a trust, society, or non-profit organization. 12AA Registration is mandatory for such organizations to be eligible for tax exemptions on surplus income. Non-profit organizations play a pivotal role in societal development, and 12AA registration ensures their operations are regulated and transparent.
+                            Section 12AA of the Income Tax Act, 1961 explains the procedure for granting tax exemption registration to trusts, societies, and non-profit organizations. Obtaining 12AA registration allows eligible organizations to claim tax exemptions on their income. Non-profit organizations contribute significantly to social development, and this registration helps maintain transparency and regulatory compliance.
                         </p>
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
                             Why 12AA is important?
                         </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Without 12AA registration, an NGO's income is treated as normal business income and is fully taxable. Registration under this section ensures that the income applied for charitable or religious purposes is exempt from tax.
+                            Without 12AA registration, the income of an NGO may be treated as taxable income under normal tax provisions. Registration ensures that income used for charitable or religious activities can qualify for tax exemption.
                         </p>
 
 
@@ -63,7 +63,7 @@ const Registration12AAAdvantages = () => {
                         Benefits of Section 12AA Registration
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Empowering NGOs with financial and operational benefits.
+                        Providing NGOs with financial and operational advantages.
                     </p>
                     <div className="mt-10">
                         <img
@@ -77,12 +77,12 @@ const Registration12AAAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Tax Exemptions", desc: "Exemption on income generated from charitable and religious activities, saving substantial funds." },
-                        { title: "Encouraging Donations", desc: "Donors are more likely to contribute to registered NGOs as it often pairs with 80G tax benefits for them." },
-                        { title: "Foreign Funds Eligibility", desc: "Prerequisite for FCRA registration to receive foreign contributions legally." },
-                        { title: "Transparency & Credibility", desc: "Enhances credibility as the organization undergoes rigorous verification by the Income Tax Department." },
-                        { title: "Qualified Staff", desc: "Tax savings allow NGOs to offer better salaries and hire qualified professionals." },
-                        { title: "Government Grants", desc: "Registered NGOs are preferred for government funding, grants, and schemes." }
+                        { title: "Tax Exemptions", desc: "Income used for charitable or religious activities can qualify for tax exemption under applicable laws." },
+                        { title: "Encouraging Donations", desc: "Registered NGOs attract more donors, especially when combined with 80G tax benefits." },
+                        { title: "Foreign Funds Eligibility", desc: "Often required before applying for FCRA registration to receive foreign contributions legally." },
+                        { title: "Transparency & Credibility", desc: "Improves credibility as the organization is verified by the Income Tax Department." },
+                        { title: "Qualified Staff", desc: "Tax benefits help NGOs allocate more funds for hiring skilled professionals." },
+                        { title: "Government Grants", desc: "Registered NGOs are often preferred for government grants and development schemes." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -109,8 +109,8 @@ const Registration12AAEligibility = () => {
                 </h2>
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    To apply for 12AA Registration in India, it's essential to understand the eligibility criteria first.
-                    The eligibility criteria for 12AA registration are mentioned below-
+                    Before applying for 12AA registration in India, it is important to understand the eligibility requirements.
+                    The key eligibility criteria for 12AA registration are listed below.
                 </p>
 
                 {/* Charitable Nature */}
@@ -123,13 +123,13 @@ const Registration12AAEligibility = () => {
                             <span className="font-semibold text-[#072b47]">
                                 Purpose –
                             </span>{" "}
-                            The organization must function for a charitable or religious purpose without profit motive.
+                            The organization must operate for charitable or religious objectives without profit motive.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">
                                 Activities –
                             </span>{" "}
-                            Activities must align with charitable objectives like education, healthcare, poverty alleviation, etc.
+                            Operations should focus on charitable areas such as education, healthcare, or social welfare.
                         </li>
                     </ul>
                 </div>
@@ -142,15 +142,15 @@ const Registration12AAEligibility = () => {
                     <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
                         <li>
                             <span className="font-semibold text-[#072b47]">Trust – </span>
-                            Must be registered as a Trust under the Indian Trusts Act, 1882.
+                            Must be legally registered under the Indian Trusts Act, 1882.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Society – </span>
-                            Must be registered as a Society under the Societies Registration Act, 1860.
+                            Must be registered under the Societies Registration Act, 1860.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Section 8 Company – </span>
-                            Must be registered as a Section 8 Company under the Companies Act, 2013.
+                            Must be incorporated under Section 8 of the Companies Act, 2013.
                         </li>
                     </ul>
                 </div>
@@ -159,17 +159,17 @@ const Registration12AAEligibility = () => {
                 <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
                     <p>
                         <span className="font-semibold text-[#072b47]">Proper Documentation – </span>
-                        Must maintain proper books of accounts and audit reports.
+                        The organization must maintain proper financial records and accounts.
                     </p>
 
                     <p>
                         <span className="font-semibold text-[#072b47]">Spending Requirement – </span>
-                        Income must be applied for charitable purposes in India (at least 85%).
+                        At least 85% of income should be utilized for charitable activities in India.
                     </p>
 
                     <p>
                         <span className="font-semibold text-[#072b47]">No Private Benefit – </span>
-                        Funds or assets should not benefit the trustees or members personally.
+                        Funds or assets should not be used for personal benefit of members or trustees.
                     </p>
                 </div>
 
@@ -195,7 +195,7 @@ const Registration12AADocumentsSection = () => {
                 </h2>
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    To apply for 12AA Registration, you need to submit the following documents along with Form 10A.
+                    The following documents are required when applying for 12AA registration along with Form 10A.
                     The complete checklist for 12AA Registration Application is mentioned below:
                 </p>
 
@@ -246,27 +246,27 @@ const Registration12AAProcessSection = () => {
     const steps = [
         {
             title: "Document Prep",
-            desc: "Prepare Trust Deed, PAN, financial statements, and other KYC documents required for the application."
+            desc: "Prepare the trust deed, PAN, financial statements, and other required documents."
         },
         {
             title: "Form 10A Filing",
-            desc: "Submit Form 10A online to the Commissioner of Income Tax through the income tax e-filing portal."
+            desc: "Submit Form 10A online through the Income Tax e-filing portal."
         },
         {
             title: "Verification",
-            desc: "IT officers scrutinize the application and may ask for clarifications or additional documents."
+            desc: "Income Tax authorities review the application and may request additional documents if required."
         },
         {
             title: "Field Inspection",
-            desc: "Officer may visit the NGO premises to verify existence and activities mentioned in the application."
+            desc: "Officials may verify the organization’s activities and operational details if necessary."
         },
         {
             title: "Approval",
-            desc: "Commissioner approves and issues the 12AA Registration Certificate upon satisfaction."
+            desc: "Once approved, the authority issues the 12AA registration certificate."
         },
         {
             title: "Compliance",
-            desc: "Maintain accounts and file annual returns to retain the tax-exempt status."
+            desc: "Maintain proper accounts and file required returns to retain tax exemption status."
         }
     ];
 
@@ -417,7 +417,7 @@ const Registration12AA = () => {
     const faqs = [
         {
             question: "How do I get a 12AA certificate?",
-            answer: "To get a 12AA certificate, you need to prepare documents like Trust Deed and PAN card, submit Form 10A online, undergo verification and potential field inspection by the Income Tax officer, and upon approval, receive the registration certificate."
+            answer: "To obtain a 12AA certificate, the organization must prepare required documents, submit Form 10A online, undergo verification by the Income Tax Department, and receive the registration certificate after approval."
         },
         {
             question: "What are the records needed during Section 12AA registration?",
@@ -445,7 +445,7 @@ const Registration12AA = () => {
                 heroTitleMain="12AA Registration"
                 heroTitleSuffix="Online in India"
                 heroSubtitle="Secure Tax Exemptions for Your NGO"
-                heroDescription="Get 12AA Registration online to secure tax exemptions and enhance your NGO’s credibility with Vyombiz expert support. We assist with documentation, application filing, and compliance for quick approval."
+                heroDescription="Apply for 12AA Registration online to obtain tax exemptions and strengthen your NGO’s credibility. Vyombiz experts assist with documentation, application filing, and compliance to ensure a smooth approval process."
                 whatsIncludedList={[
                     "Expert Assistance for Form 10A Filing",
                     "Guidance on Documentation & Compliance",
@@ -453,9 +453,9 @@ const Registration12AA = () => {
                     "Post-Registration Compliance Advisory"
                 ]}
                 stats={[
-                    { count: "10,000+", label: "NGOs Assisted", icon: <Users size={20} /> },
-                    { count: "15+", label: "Years Experience", icon: <Briefcase size={20} /> },
-                    { count: "Rs 50Cr+", label: "Tax Saved", icon: <TrendingUp size={20} /> }
+                    { count: "10,000+", label: "NGOs Supported", icon: <Users size={20} /> },
+                    { count: "15+", label: "Years of Experience", icon: <Briefcase size={20} /> },
+                    { count: "₹50Cr+", label: "Tax Benefits Enabled", icon: <TrendingUp size={20} /> }
                 ]}
             />
 

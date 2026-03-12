@@ -27,13 +27,13 @@ const IncomeTaxOverview = () => {
                             Tax Compliance
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            NGO Income Tax Advisory – <span className="text-[#005a9c]">Navigate with Experts</span>
+                            NGO Income Tax Advisory – <span className="text-[#005a9c]">Expert Guidance</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Managing tax compliance is critical for the sustainability of any NGO. Vyombiz offers expert advisory services to help non-governmental organizations navigate the intricate terrain of Income Tax laws in India. Our bespoke solutions focus on your NGO's unique needs, ensuring you obtain necessary registrations like 12A and 80G efficiently.
+                            Proper tax compliance is essential for the long-term sustainability of any NGO. Vyombiz provides expert advisory services to help NGOs understand and comply with the Income Tax regulations in India. Our customized solutions help NGOs obtain key registrations such as 12A and 80G while ensuring proper compliance.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Proper tax planning not only safeguards the NGO's tax-exempt status but also builds credibility with donors and stakeholders, ensuring transparency in financial reporting. We assist in enhancing tax compliance, preventing penalties, and optimizing available exemptions.
+                            Effective tax planning protects your NGO’s tax-exempt status and strengthens trust among donors and stakeholders through transparent financial practices. Our experts help improve compliance, reduce the risk of penalties, and maximize available tax exemptions.
                         </p>
 
 
@@ -64,7 +64,7 @@ const NGOIncomeTaxAdvisoryAdvantages = () => {
                         Benefits of Our Advisory
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        How we add value to your NGO operations.
+                        How our advisory services support your NGO operations.
                     </p>
                     <div className="mt-10">
                         <img
@@ -78,12 +78,12 @@ const NGOIncomeTaxAdvisoryAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Tax Efficiency", desc: "Maximize exemptions and reduce tax liabilities through strategic planning." },
-                        { title: "Full Compliance", desc: "Ensure adherence to all latest provisions to avoid fines and loss of status." },
-                        { title: "Admin Relief", desc: "Reduce the administrative burden of tax filings and documentation." },
-                        { title: "Time Saving", desc: "Free up valuable time to focus on your core social mission." },
-                        { title: "Risk Mitigation", desc: "Proactively identify and address potential compliance risks." },
-                        { title: "Expert Support", desc: "Access to a dedicated team of CAs and tax professionals." }
+                        { title: "Tax Efficiency", desc: "Maximize available exemptions and reduce tax liabilities through effective planning." },
+                        { title: "Full Compliance", desc: "Ensure compliance with the latest tax provisions to avoid penalties or loss of exemption status." },
+                        { title: "Admin Relief", desc: "Minimize the administrative effort required for tax filings and documentation." },
+                        { title: "Time Saving", desc: "Save valuable time so your NGO can focus on its social mission." },
+                        { title: "Risk Mitigation", desc: "Identify and manage potential compliance risks before they become issues." },
+                        { title: "Expert Support", desc: "Access to a dedicated team of chartered accountants and tax experts." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -110,8 +110,8 @@ const IncomeTaxAdvisoryEligibility = () => {
                 </h2>
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    To optimize tax liabilities for NGOs, it's essential to understand the key registrations.
-                    Essential registrations for Tax Exemptions are mentioned below-
+                    To optimize tax benefits, NGOs must obtain certain important registrations.
+                    The key registrations required for tax exemption are listed below.
                 </p>
 
                 {/* Key Registrations */}
@@ -124,13 +124,13 @@ const IncomeTaxAdvisoryEligibility = () => {
                             <span className="font-semibold text-[#072b47]">
                                 12A Registration –
                             </span>{" "}
-                            Exempts the NGO's surplus income from income tax. Fundamental for any NGO.
+                            Allows NGOs to claim exemption from income tax on surplus income.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">
                                 80G Registration –
                             </span>{" "}
-                            Allows donors to claim tax deductions, encouraging philanthropic contributions.
+                            Enables donors to claim tax deductions on donations made to the NGO.
                         </li>
                     </ul>
                 </div>
@@ -138,13 +138,13 @@ const IncomeTaxAdvisoryEligibility = () => {
                 {/* Other Conditions */}
                 <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
                     <p>
-                        <span className="font-semibold text-[#072b47]">Form 10A/10AB – </span>
-                        Required for registration and renewal of the above exemptions.
+                        <span className="font-semibold text-[#072b47]">Form 10A / 10AB – </span>
+                        Required for applying and renewing tax exemption registrations.
                     </p>
 
                     <p>
                         <span className="font-semibold text-[#072b47]">Tax Audit (Form 10B) – </span>
-                        Mandatory if total income exceeds the exemption limit.
+                        Required when the NGO’s income exceeds the prescribed limit.
                     </p>
                 </div>
 
@@ -170,8 +170,8 @@ const IncomeTaxAdvisoryDocumentsSection = () => {
                 </h2>
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Our comprehensive tax advisory services cover all aspects of NGO tax compliance.
-                    Our comprehensive advisory covers:
+                    Our advisory services cover all major aspects of NGO tax compliance.
+                    Our services include:
                 </p>
 
                 {/* Documents List */}
@@ -179,35 +179,35 @@ const IncomeTaxAdvisoryDocumentsSection = () => {
                     <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
                         <li>
                             <span className="font-semibold text-[#072b47]">Eligibility Assessment – </span>
-                            Eligibility Assessment for Exemptions under various sections.
+                            Evaluating eligibility for tax exemptions under relevant sections.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Preparation & Filing of ITR-7 – </span>
-                            Complete assistance with Income Tax Return filing.
+                            Full assistance with NGO income tax return filing.
                         </li>
                         <li>
-                            <span className="font-semibold text-[#072b47]">Form 10A/10BD Filing – </span>
-                            Assistance with Form 10A/10BD Filing for registrations.
+                            <span className="font-semibold text-[#072b47]">Form Filing – </span>
+                            Assistance with Form 10A and 10BD for exemption registrations.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Representation – </span>
-                            Representation before Tax Authorities for queries and notices.
+                            Assistance in responding to queries or notices from tax authorities.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">FCRA Guidance – </span>
-                            Guidance on Foreign Contributions (FCRA) tax implications.
+                            Guidance on tax implications related to foreign contributions under FCRA.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Books of Accounts – </span>
-                            Maintenance of Books of Accounts as per tax requirements.
+                            Maintaining books of accounts in accordance with tax regulations.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Compliance Reviews – </span>
-                            Periodic Compliance Reviews to ensure ongoing compliance.
+                            Periodic reviews to ensure continuous compliance with tax regulations.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Recent Amendments – </span>
-                            Advisory on Recent Amendments (e.g., Finance Act 2020).
+                            Guidance on recent amendments in income tax laws affecting NGOs.
                         </li>
                     </ul>
                 </div>
@@ -221,27 +221,27 @@ const IncomeTaxAdvisoryProcessSection = () => {
     const steps = [
         {
             title: "Assessment",
-            desc: "Analyze your NGO's current status and compliance gaps."
+            desc: "Evaluate your NGO’s current tax status and compliance gaps."
         },
         {
             title: "Strategy",
-            desc: "Develop a tailored tax planning and compliance strategy."
+            desc: "Create a customized tax planning and compliance strategy."
         },
         {
             title: "Execution",
-            desc: "Assist with registrations, filings, and documentation."
+            desc: "Support registrations, filings, and necessary documentation."
         },
         {
             title: "Monitoring",
-            desc: "Continuous monitoring of changes in tax laws affecting NGOs."
+            desc: "Monitor changes in tax regulations relevant to NGOs."
         },
         {
             title: "Reporting",
-            desc: "Ensure timely submission of audit reports and returns."
+            desc: "Ensure timely filing of audit reports and tax returns."
         },
         {
             title: "Support",
-            desc: "Ongoing support for notices or queries from the tax department."
+            desc: "Provide support for notices or queries from tax authorities."
         }
     ];
 
@@ -391,7 +391,7 @@ const NGOIncomeTaxAdvisory = () => {
     const faqs = [
         {
             question: "What is the NGO's income tax regulation?",
-            answer: "NGOs registered under Section 12A are eligible for a complete exemption from income tax. Without this registration, they are liable to pay tax at normal rates."
+            answer: "NGOs registered under Section 12A can claim exemption from income tax on eligible income. Without this registration, NGOs are required to pay income tax at standard rates."
         },
         {
             question: "How can an NGO file its income tax return?",
@@ -419,7 +419,7 @@ const NGOIncomeTaxAdvisory = () => {
                 heroTitleMain="NGO Income Tax Advisory"
                 heroTitleSuffix="Services"
                 heroSubtitle="Optimize Tax Liabilities & Ensure Compliance for NGOs"
-                heroDescription="Maximize your NGO's benefits with Vyombiz's expert income tax advisory. We help you navigate complex tax structures, secure exemptions, and maintain compliance with Government of India regulations."
+                heroDescription="Optimize your NGO’s tax benefits with Vyombiz expert income tax advisory. Our team helps you understand tax regulations, obtain exemptions, and maintain full compliance with Government of India requirements."
                 whatsIncludedList={[
                     "Strategic Tax Planning & Advisory",
                     "Assistance with 12A & 80G Registrations",
@@ -427,9 +427,9 @@ const NGOIncomeTaxAdvisory = () => {
                     "Compliance Monitoring & Audit Support"
                 ]}
                 stats={[
-                    { count: "10+", label: "Years Experience", icon: <Briefcase size={20} /> },
-                    { count: "400+", label: "Tax Experts", icon: <Users size={20} /> },
-                    { count: "99%", label: "SLA Delivery", icon: <CheckCircle size={20} /> }
+                    { count: "10+", label: "Years of Experience", icon: <Briefcase size={20} /> },
+                    { count: "400+", label: "Tax Professionals", icon: <Users size={20} /> },
+                    { count: "99%", label: "Timely Service Delivery", icon: <CheckCircle size={20} /> }
                 ]}
             />
             <TrustedBrands />

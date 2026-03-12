@@ -23,16 +23,16 @@ const Registration12ABOverview = () => {
                             New Provision
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            12AB Registration – <span className="text-[#005a9c]">An Overview</span>
+                            12AB Registration – <span className="text-[#005a9c]">Overview</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The Finance Act, 2020 introduced Section 12AB, replacing the earlier Section 12AA process. It mandates a new registration regime for all charitable and religious trusts to ensure better monitoring and compliance. Under this new scheme, all existing trusts registered under Section 12A or 12AA must re-register under Section 12AB.
+                            The Finance Act, 2020 introduced Section 12AB, replacing the previous Section 12AA registration system. This provision establishes a new registration framework for charitable and religious institutions to improve monitoring and compliance. Under this framework, all trusts previously registered under Section 12A or 12AA must apply again under Section 12AB.
                         </p>
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
                             Key Change
                         </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Unlike the perpetual validity of the old 12AA registration, the 12AB registration is valid for a fixed period of 5 years and must be renewed subsequently. This ensures that the tax-exempt status is reviewed periodically.
+                            Unlike the earlier 12AA registration that had lifetime validity, 12AB registration is granted for a fixed period of five years and must be renewed periodically. This allows the tax authorities to review and verify the organization’s activities regularly.
                         </p>
 
 
@@ -63,7 +63,7 @@ const Registration12ABAdvantages = () => {
                         Benefits of 12AB Registration
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Why compliance with 12AB is crucial for your NGO.
+                        Key reasons why 12AB compliance is important for NGOs.
                     </p>
                     <div className="mt-10">
                         <img
@@ -77,12 +77,12 @@ const Registration12ABAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Electronic Database", desc: "Creates a centralized digital record of all NGOs, removing issues of lost files or missing records." },
-                        { title: "Tax Exemption Continuity", desc: "Ensures the NGO continues to enjoy tax exemptions on its surplus income." },
-                        { title: "80G Approval", desc: "Mandatory for obtaining or renewing 80G approval, which encourages donor contributions." },
-                        { title: "Legal Compliance", desc: "Adherence to the latest Finance Act amendments prevents penalties and loss of status." },
-                        { title: "Transparency", desc: "Enhances trust with donors and government authorities through a transparent digital process." },
-                        { title: "Systematic Verification", desc: "Streamlines the verification process for genuine charitable activities." }
+                        { title: "Electronic Database", desc: "Creates a centralized electronic database of NGOs, reducing issues related to lost records or documentation." },
+                        { title: "Tax Exemption Continuity", desc: "Allows the NGO to continue claiming tax exemption on income used for charitable purposes." },
+                        { title: "80G Approval", desc: "Required for obtaining or renewing 80G approval, which helps NGOs receive tax-deductible donations." },
+                        { title: "Legal Compliance", desc: "Compliance with updated tax regulations helps avoid penalties and cancellation of tax benefits." },
+                        { title: "Transparency", desc: "Improves transparency and builds trust among donors, regulators, and stakeholders." },
+                        { title: "Systematic Verification", desc: "Ensures systematic verification of genuine charitable operations." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -109,8 +109,8 @@ const Registration12ABEligibility = () => {
                 </h2>
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    To apply for 12AB Registration in India, it's essential to understand the eligibility criteria first.
-                    Who must apply under Section 12AB is mentioned below-
+                    Before applying for 12AB registration, it is important to understand who is eligible.
+                    The following entities are required to apply under Section 12AB.
                 </p>
 
                 {/* Existing Trusts */}
@@ -121,15 +121,15 @@ const Registration12ABEligibility = () => {
                     <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
                         <li>
                             <span className="font-semibold text-[#072b47]">
-                                Migration Required –
+                                Migration Requirement –
                             </span>{" "}
-                            Trusts/Societies already registered under Section 12A or 12AA must re-register under 12AB.
+                            Trusts and societies previously registered under Section 12A or 12AA must apply again under Section 12AB.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">
                                 Validity Period –
                             </span>{" "}
-                            Existing trusts re-registering get 5 years validity period.
+                            Registration granted under 12AB is valid for five years.
                         </li>
                     </ul>
                 </div>
@@ -141,16 +141,16 @@ const Registration12ABEligibility = () => {
                     </h3>
                     <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
                         <li>
-                            <span className="font-semibold text-[#072b47]">Newly Formed NGOs – </span>
-                            Newly formed NGOs seeking tax exemption for the first time must apply under 12AB.
+                            <span className="font-semibold text-[#072b47]">New NGOs – </span>
+                            Newly established organizations seeking tax exemption must apply under Section 12AB.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Provisional Registration – </span>
-                            New applicants get provisional registration valid for 3 years, then convert to permanent.
+                            New NGOs receive provisional registration for three years before applying for permanent registration.
                         </li>
                         <li>
                             <span className="font-semibold text-[#072b47]">Section 8 Companies – </span>
-                            Non-profit companies registered under the Companies Act seeking tax benefits.
+                            Non-profit companies registered under the Companies Act applying for tax exemption benefits.
                         </li>
                     </ul>
                 </div>
@@ -158,8 +158,8 @@ const Registration12ABEligibility = () => {
                 {/* Other Conditions */}
                 <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
                     <p>
-                        <span className="font-semibold text-[#072b47]">80G Holders – </span>
-                        Institutions holding 80G certificates must also align with 12AB provisions.
+                        <span className="font-semibold text-[#072b47]">80G Registered Entities – </span>
+                        Institutions with 80G approval must also comply with 12AB registration requirements.
                     </p>
                 </div>
 
@@ -185,8 +185,7 @@ const Registration12ABDocumentsSection = () => {
                 </h2>
 
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    To apply for 12AB Registration, you need to submit the following documents along with Form 10A.
-                    The complete checklist for 12AB Registration is mentioned below:
+                    To apply for 12AB registration, the following documents must be submitted along with Form 10A.
                 </p>
 
                 {/* Documents List */}
@@ -240,27 +239,27 @@ const Registration12ABProcessSection = () => {
     const steps = [
         {
             title: "Login",
-            desc: "Access the income tax e-filing portal with NGO credentials."
+            desc: "Log in to the Income Tax e-filing portal using the NGO’s credentials."
         },
         {
             title: "Form Selection",
-            desc: "Select Form 10A for registration under Section 12AB."
+            desc: "Choose Form 10A to apply for registration under Section 12AB."
         },
         {
             title: "Fill Details",
-            desc: "Enter details of the trust, trustees, and past registration information."
+            desc: "Provide details of the trust, trustees, and previous registration information."
         },
         {
             title: "Upload Docs",
-            desc: "Upload self-attested copies of required documents."
+            desc: "Upload scanned copies of all required supporting documents."
         },
         {
             title: "Verification",
-            desc: "Verify using Digital Signature Certificate (DSC) or EVC."
+            desc: "Complete verification using DSC or Electronic Verification Code (EVC)."
         },
         {
             title: "Approval",
-            desc: "Receive the 12AB Order/Certificate after processing by the Income Tax Department."
+            desc: "Receive the 12AB registration certificate after approval from the Income Tax Department."
         }
     ];
 
@@ -274,8 +273,7 @@ const Registration12ABProcessSection = () => {
                         How to Apply for 12AB Registration in India?
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        The procedure for 12AB registration in India involves structured documentation,
-                        regulatory approvals, and compliance with statutory requirements. The
+                        The 12AB registration process involves proper documentation, online filing, and approval from the Income Tax Department. The
                         step-by-step process is outlined below:
                     </p>
                 </div>
@@ -372,8 +370,7 @@ const Registration12ABFeaturesSection = () => {
                         Features of 12AB Registration Services
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        12AB registration provides tax exemptions, regulatory compliance framework,
-                        and eligibility for various statutory benefits in India.
+                        12AB registration helps NGOs maintain tax exemptions, regulatory compliance, and eligibility for various benefits.
                     </p>
                 </div>
 
@@ -411,7 +408,7 @@ const Registration12AB = () => {
     const faqs = [
         {
             question: "What is 12AB Registration?",
-            answer: "Section 12AB is the new provision under the Income Tax Act, 1961, replacing Section 12AA. It mandates that all existing charitable trusts and institutions registered under 12A/12AA must re-register under 12AB to continue availing tax exemptions."
+            answer: "Section 12AB is a provision under the Income Tax Act, 1961 that replaced the earlier Section 12AA registration system. It requires charitable trusts and institutions previously registered under 12A or 12AA to apply again under Section 12AB to continue claiming tax exemptions."
         },
         {
             question: "Who needs to apply for 12AB Registration?",
@@ -439,7 +436,7 @@ const Registration12AB = () => {
                 heroTitleMain="12AB Registration"
                 heroTitleSuffix="for NGOs"
                 heroSubtitle="Ensure Tax Exemption Compliance with New Provisions"
-                heroDescription="Secure your NGO's future by re-registering under Section 12AB. Vyombiz provides expert assistance to help existing and new trusts navigate the new registration process smoothly and maintain tax-exempt status."
+                heroDescription="Secure your NGO’s tax benefits by registering under Section 12AB. Vyombiz offers expert assistance to help both existing and newly formed trusts complete the new registration process smoothly and continue their tax-exempt status."
                 whatsIncludedList={[
                     "Migration from 12A/12AA to 12AB",
                     "New Provisional Registration Support",
@@ -447,9 +444,9 @@ const Registration12AB = () => {
                     "Compliance Advisory for NGOs"
                 ]}
                 stats={[
-                    { count: "5000+", label: "Trusts Migrated", icon: <Users size={20} /> },
-                    { count: "100%", label: "Success Rate", icon: <CheckCircle size={20} /> },
-                    { count: "Expert", label: "Consultation", icon: <Briefcase size={20} /> }
+                    { count: "5000+", label: "Trusts Successfully Migrated", icon: <Users size={20} /> },
+                    { count: "High", label: "Success Rate", icon: <CheckCircle size={20} /> },
+                    { count: "Professional", label: "Consultation", icon: <Briefcase size={20} /> }
                 ]}
             />
 
