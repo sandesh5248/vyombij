@@ -23,22 +23,22 @@ const CompanyRegistrationNewZealandOverview = () => {
                             Global Expansion
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Company Registration in New Zealand – <span className="text-[#005a9c]">An Overview</span>
+                            Company Registration in New Zealand – <span className="text-[#005a9c]">Overview</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            New Zealand offers a stable, transparent, and investor-friendly environment. It is consistently ranked highly in the World Bank’s Ease of Doing Business Index.
+                            Expand your business into one of the world’s most business-friendly economies. New Zealand offers a transparent regulatory system, quick company formation, and global credibility for entrepreneurs and investors.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Entrepreneurs benefit from a corruption-free governance system and a strategic location in the Pacific capable of connecting with global markets.
+                            With Vyombiz managed by Clink Consultancy Services Private Limited, you get expert guidance to register your company in New Zealand smoothly—without navigating complex legal processes alone.
                         </p>
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Why New Zealand?
+                            Why Start a Company in New Zealand?
                         </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            It provides excellent infrastructure, supportive government policies, and access to 13 active free trade agreements.
+                            New Zealand consistently ranks among the top countries globally for ease of doing business. Its stable economy, supportive government policies, and digital-friendly registration process make it an attractive destination for international entrepreneurs.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The economy is resilient and growing, offering a supportive ecosystem for business registration and expansion.
+                            Key advantages include fast company registration, strong global reputation for transparency, access to international markets through strategic trade agreements, and 100% foreign ownership allowed in most sectors. For startups, SMEs, and global businesses, New Zealand offers a reliable and growth-focused environment.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -64,10 +64,10 @@ const CompanyRegistrationNewZealandAdvantages = () => {
                         Why It Is Vital
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of Incorporation
+                        Benefits of Registration
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Why businesses choose New Zealand for expansion.
+                        Registering your company in New Zealand offers several strategic advantages for international businesses.
                     </p>
                     <div className="mt-10">
                         <img
@@ -81,12 +81,10 @@ const CompanyRegistrationNewZealandAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Free Trade Agreements", desc: "Access to 13 active free trade agreements with nations worldwide." },
-                        { title: "Corruption-Free Economy", desc: "Ranked as one of the least corrupt and most transparent economies globally." },
-                        { title: "Strategic Location", desc: "Connects business ties with the world, increasing trade links and opportunities." },
-                        { title: "Business Credibility", desc: "Registration enhances brand credibility with customers, investors, and partners." },
-                        { title: "Economic Stability", desc: "Backed by a resilient economy offering a supportive ecosystem for growth." },
-                        { title: "Skilled Workforce", desc: "Access to a well-educated, English-speaking, and skilled labor pool." }
+                        { title: "Strong Business Environment", desc: "New Zealand has a transparent legal system and a stable political environment that supports business growth." },
+                        { title: "Simplified Compliance", desc: "The country has streamlined regulatory procedures, allowing companies to focus more on business development than administrative complexities." },
+                        { title: "Global Trade Opportunities", desc: "New Zealand’s extensive trade relationships provide access to key markets across Asia-Pacific and beyond." },
+                        { title: "Innovation-Driven Economy", desc: "The country supports innovation, technology, and startups through various initiatives and business-friendly policies." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -104,35 +102,51 @@ const CompanyRegistrationNewZealandAdvantages = () => {
 };
 
 const NewZealandIncorporationEligibility = () => {
-    const list = [
-        { title: "Resident Director", desc: "Must appoint at least 1 resident director (lives in NZ or Australia)." },
-        { title: "Shareholder", desc: "Must have a minimum of 1 shareholder." },
-        { title: "Unique Business Name", desc: "Must register a name that is not identical or offensive." },
-        { title: "Registered Address", desc: "Must have a physical registered office address in New Zealand." },
-        { title: "Constitution", desc: "Prepare and register the company's constitution (if applicable)." },
-        { title: "IRD Number", desc: "Obtain an Inland Revenue Department (IRD) number for tax purposes." }
-    ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    What are the Eligibility Criteria for Company Registration in New Zealand?
+                    Types of Business Entities in New Zealand
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Key criteria for registering a company in New Zealand.
+                    Choosing the right structure is crucial for legal protection, taxation, and operational flexibility.
                 </p>
-                <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
-                    {list.map((item, i) => (
-                        <p key={i}>
-                            <span className="font-semibold text-[#072b47]">{item.title} – </span>
-                            {item.desc}
-                        </p>
-                    ))}
-                </div>
-                <div className="mt-12 text-center">
-                    <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Check Your Eligibility Now
-                            </Link>
+                <div className="space-y-6">
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">1. Limited Liability Company (LLC)</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-2">The most common structure used by businesses in New Zealand.</p>
+                        <p className="text-[17px] text-slate-600 font-medium">Features include:</p>
+                        <ul className="list-disc pl-5 text-[17px] text-slate-600 leading-relaxed">
+                            <li>Separate legal identity from shareholders</li>
+                            <li>Limited liability protection</li>
+                            <li>Flexible management structure</li>
+                            <li>Suitable for startups and international investors</li>
+                        </ul>
+                    </div>
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">2. Branch Office</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-2">Foreign companies may establish a branch of their existing business in New Zealand.</p>
+                        <p className="text-[17px] text-slate-600 font-medium">Key characteristics:</p>
+                        <ul className="list-disc pl-5 text-[17px] text-slate-600 leading-relaxed">
+                            <li>Parent company retains full control</li>
+                            <li>No separate legal entity</li>
+                            <li>Must comply with New Zealand reporting obligations</li>
+                        </ul>
+                    </div>
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">3. Subsidiary Company</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-2">A foreign business can register a New Zealand subsidiary as a separate legal entity.</p>
+                        <p className="text-[17px] text-slate-600 font-medium">Benefits include:</p>
+                        <ul className="list-disc pl-5 text-[17px] text-slate-600 leading-relaxed">
+                            <li>Independent legal structure</li>
+                            <li>Limited liability protection</li>
+                            <li>Greater credibility in the local market</li>
+                        </ul>
+                    </div>
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">4. Partnership</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed">Suitable for businesses owned by two or more partners sharing profits and responsibilities. However, partners may have unlimited liability, depending on the partnership type.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -140,30 +154,56 @@ const NewZealandIncorporationEligibility = () => {
 };
 
 const NewZealandIncorporationDocumentsSection = () => {
+    const eligibilityList = [
+        "At least one shareholder",
+        "Minimum one director (in some cases a resident director may be required)",
+        "A registered office address in New Zealand",
+        "Unique company name approval",
+        "Compliance with local regulatory guidelines"
+    ];
     const list = [
-        "Passport/Visa Copies (Directors & Investors)",
-        "Certified Copy of Utility Bill (Address Proof)",
-        "Business Plan",
-        "Company Constitution (MOA & AOA)",
-        "Director Consent Forms",
-        "Shareholder Details (Individual/Corporate)",
-        "Audited Financial Statements (if existing business)",
-        "Details of Registered Address"
+        "Passport copy of directors and shareholders",
+        "Proof of residential address",
+        "Proposed company name",
+        "Details of shareholders and shareholding structure",
+        "Business activity description",
+        "Registered office address in New Zealand"
     ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                    Eligibility for Company Registration
+                </h2>
+                <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed mb-10">
+                    {eligibilityList.map((item, i) => (
+                        <li key={i} className="flex items-start">
+                             <div className="mr-3 mt-1 text-[#005a9c]"><Users size={18} /></div>
+                             <span>{item}</span>
+                        </li>
+                    ))}
+                </ul>
+                <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
+                    These requirements may vary depending on the company structure and business activity.
+                </p>
+
+                <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
                     Documents Required for New Zealand Company Registration
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Essential documents for NZ Company Incorporation.
+                    Proper documentation is essential for a smooth incorporation process. Commonly required documents include:
                 </p>
                 <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
                     {list.map((item, i) => (
-                        <li key={i}>{item}</li>
+                        <li key={i} className="flex items-start">
+                             <div className="mr-3 mt-1 text-[#005a9c]"><Users size={18} /></div>
+                             <span>{item}</span>
+                        </li>
                     ))}
                 </ul>
+                <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                    Additional documents may be required based on regulatory checks.
+                </p>
             </div>
         </section>
     );
@@ -171,23 +211,21 @@ const NewZealandIncorporationDocumentsSection = () => {
 
 const NewZealandIncorporationProcessSection = () => {
     const steps = [
-        { title: "Name Reservation", desc: "Reserve your business name with the NZ Companies Office (valid for 20 days)." },
-        { title: "Choose Structure", desc: "Select the appropriate business structure (e.g., LLC, Branch)." },
-        { title: "Prepare Documents", desc: "Prepare Constitution, director consents, and identification docs." },
-        { title: "Apply Online", desc: "Submit the registration application via the NZ Companies Office portal." },
-        { title: "Verification", desc: "Application is assessed, including shareholder and director consents." },
-        { title: "Incorporation", desc: "Receive the Certificate of Incorporation upon approval." },
-        { title: "Post-Compliance", desc: "Get NZBN, IRD number, GST registration, and open bank account." }
+        { title: "Company Name Reservation", desc: "A unique company name must be selected and approved by the New Zealand Companies Office." },
+        { title: "Preparation of Incorporation Documents", desc: "All required legal and compliance documents are prepared and verified." },
+        { title: "Director and Shareholder Registration", desc: "Details of directors and shareholders are submitted to the authorities." },
+        { title: "Filing with the Companies Office", desc: "The company incorporation application is submitted digitally to the regulatory authority." },
+        { title: "Company Incorporation Certificate", desc: "Once approved, the business receives its Certificate of Incorporation, confirming legal registration." }
     ];
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        How to Register a Company in New Zealand?
+                        Step-by-Step Process for Company Registration in New Zealand
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        Step-by-step guide to setting up your business.
+                        Understanding the incorporation process helps businesses plan efficiently.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
@@ -205,6 +243,20 @@ const NewZealandIncorporationProcessSection = () => {
                             </div>
                         ))}
                         <div className="border-t border-slate-200" />
+                        
+                        <div className="mt-12 bg-[#e6f0fa] rounded-2xl p-8">
+                            <h3 className="text-xl font-semibold text-[#072b47] mb-4">Post-Registration Compliance Requirements</h3>
+                            <p className="text-[17px] text-slate-600 leading-relaxed mb-4">After incorporation, companies must comply with certain ongoing obligations. These may include:</p>
+                            <ul className="list-disc pl-5 space-y-2 text-[17px] text-slate-600 leading-relaxed mb-4">
+                                <li>Maintaining company records</li>
+                                <li>Filing annual returns</li>
+                                <li>Keeping financial statements updated</li>
+                                <li>Complying with taxation regulations</li>
+                                <li>Updating any changes in company structure</li>
+                            </ul>
+                            <p className="text-[17px] text-slate-600 leading-relaxed">Ensuring compliance helps maintain the company’s good standing with authorities.</p>
+                        </div>
+                        
                         <div className="mt-12 text-center">
                             <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
                                 Start Your Registration
@@ -219,24 +271,21 @@ const NewZealandIncorporationProcessSection = () => {
 
 const NewZealandIncorporationFeaturesSection = () => {
     const features = [
-        { title: "Pre-Registration Consult", desc: "Expert guidance to understand the process and requirements." },
-        { title: "Name Reservation", desc: "Assistance in checking availability and reserving your preferred name." },
-        { title: "End-to-End Filing", desc: "Handling the entire online incorporation process with NZCO." },
-        { title: "Drafting Constitution", desc: "Drafting or reviewing company constitution and governance rules." },
-        { title: "Compliance Support", desc: "Guiding director/shareholder compliance and residency rules." },
-        { title: "Registered Address", desc: "Assistance in securing a registered office address in New Zealand." },
-        { title: "Bank Account", desc: "Streamlining financial operations by setting up a business bank account." },
-        { title: "Annual Filing", desc: "Timely filing of annual returns to keep your company in good standing." }
+        { title: "Expert consultation", desc: "Expert consultation on the best business structure." },
+        { title: "Assistance with documentation", desc: "Assistance with documentation and filings." },
+        { title: "End-to-end support", desc: "End-to-end support for international company registration." },
+        { title: "Transparent process", desc: "Transparent process and professional guidance." },
+        { title: "Post-registration support", desc: "Support for post-registration compliance." }
     ];
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Trust VyomBiz?
+                        Why Choose Vyombiz for New Zealand Company Registration?
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Complete assistance for your New Zealand business setup.
+                        Setting up a company overseas involves legal, regulatory, and compliance challenges. Professional support ensures the process remains smooth and efficient. Vyombiz managed by Clink Consultancy Services Private Limited provides structured support for global business incorporation.
                     </p>
                 </div>
                 <div>
@@ -250,6 +299,21 @@ const NewZealandIncorporationFeaturesSection = () => {
                         </div>
                     ))}
                     <div className="border-t border-slate-300" />
+                </div>
+                
+                <div className="mt-14 bg-white border border-slate-100 rounded-2xl p-8 shadow-sm text-center">
+                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        Start Your New Zealand Business Journey Today
+                    </h2>
+                    <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
+                        New Zealand offers a modern, transparent, and globally respected business environment. Whether you’re launching a startup or expanding internationally, incorporating a company here can open new opportunities.
+                    </p>
+                    <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
+                        With the right guidance and structured approach, your business can establish a strong presence in New Zealand.
+                    </p>
+                    <p className="text-[17px] text-slate-600 leading-relaxed font-semibold">
+                        Get started with Vyombiz managed by Clink Consultancy Services Private Limited and take the first step toward global business expansion.
+                    </p>
                 </div>
             </div>
         </section>
@@ -288,14 +352,13 @@ const CompanyRegistrationNewZeland = () => {
             <HeroLayout
                 heroTitleMain="Company Registration"
                 heroTitleSuffix="in New Zealand"
-                heroSubtitle="Fast & Easy Company Registration"
-                heroDescription="Start your business in New Zealand's investor-friendly economy. We provide end-to-end support for registration, tax filing, and compliance."
+                heroSubtitle="Start Your New Zealand Business with Confidence"
+                heroDescription="Expand your business into one of the world’s most business-friendly economies. New Zealand offers a transparent regulatory system, quick company formation, and global credibility for entrepreneurs and investors."
                 whatsIncludedList={[
-                    "NZBN Application Support",
-                    "Assistance with IRD and GST Number",
-                    "Bank Account Opening Support",
-                    "Annual Return Filing",
-                    "Post-Incorporation Accounting Setup"
+                    "Fast company registration",
+                    "Business-friendly regulations",
+                    "Strong global reputation",
+                    "Access to international markets"
                 ]}
                 stats={[
                     { count: "500+", label: "Founders Trusted", icon: <Users size={20} /> },

@@ -24,22 +24,16 @@ const CompanyRegistrationRussiaOverview = () => {
                             Strategic Expansion
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Company Registration in Russia – <span className="text-[#005a9c]">An Overview</span>
+                            Russia Company Registration – <span className="text-[#005a9c]">Overview</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Russia, the 11th largest economy, offers a strategic location bridging Asia and Europe, making it a key logistical hub.
+                            Russia is one of the largest economies in Eurasia and a strategic gateway between Europe and Asia, making it an attractive destination for foreign entrepreneurs, investors, and multinational businesses. With its vast natural resources, industrial strength, and growing domestic market, the country offers strong opportunities across sectors such as technology, manufacturing, energy, and logistics.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Foreign investors can access a large domestic market and skilled workforce. The government supports growth through tax incentives, especially in Special Economic Zones.
-                        </p>
-                        <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Why Russia?
-                        </h3>
-                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Membership in the Eurasian Economic Union (EAEU) grants access to a market of over 183 million consumers.
+                            Setting up a company in Russia allows businesses to establish a legal presence, access the Russian market, and collaborate with regional partners. However, the registration process requires compliance with Russian corporate laws, tax regulations, and documentation requirements.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            With a favorable tax system and diverse business structures like OOO and AO, Russia provides a robust environment for international business.
+                            Vyombiz managed by Clink Consultancy Services Private Limited simplifies the entire company formation process in Russia by assisting businesses with documentation, regulatory filings, and incorporation procedures to ensure a smooth and compliant setup.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -65,10 +59,10 @@ const CompanyRegistrationRussiaAdvantages = () => {
                         Why It Is Vital
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of Formation
+                        Why Start a Business in Russia?
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Why investors choose Russia for business expansion.
+                        Russia continues to attract international investors due to its strategic location and expanding economic sectors. Some of the key advantages include:
                     </p>
                     <div className="mt-10">
                         <img
@@ -82,12 +76,11 @@ const CompanyRegistrationRussiaAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Appealing Tax System", desc: "Favorable tax environment with concessions in Special Economic Zones." },
-                        { title: "Skilled Workforce", desc: "Access to experts in technology, engineering, and science." },
-                        { title: "Large Domestic Market", desc: "Substantial consumer base with increasing purchasing power." },
-                        { title: "Strategic Location", desc: "Critical transit hub between Europe and Asia." },
-                        { title: "Government Incentives", desc: "Subsidies and tax breaks targeted at foreign investors." },
-                        { title: "EAEU Access", desc: "Integrated market access to Eurasian Economic Union member countries." }
+                        { title: "Large Consumer Market", desc: "Russia has a population of over 140 million people, offering businesses access to a vast domestic market." },
+                        { title: "Strategic Trade Location", desc: "The country connects European and Asian markets, making it an important hub for international trade and logistics." },
+                        { title: "Strong Industrial Economy", desc: "Russia has well-developed industries in energy, manufacturing, engineering, and natural resources." },
+                        { title: "Skilled Workforce", desc: "The country offers a large pool of highly educated professionals, especially in engineering, technology, and science." },
+                        { title: "Growing Technology Sector", desc: "Russia’s IT and technology sectors are expanding rapidly, creating opportunities for startups and tech companies." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -105,34 +98,45 @@ const CompanyRegistrationRussiaAdvantages = () => {
 };
 
 const RussiaIncorporationEligibility = () => {
-    const list = [
-        { title: "Shareholders", desc: "Minimum 1 and maximum 50 shareholders allowed." },
-        { title: "Share Capital", desc: "Minimum 10,000 RUB, with 50% paid up at incorporation." },
-        { title: "Local Address", desc: "Must secure a locally registered office address." },
-        { title: "Directors", desc: "Minimum 1 director required. No strict requirement for a local nominee." },
-        { title: "Legal Representative", desc: "Mandatory appointment of a legal representative." }
-    ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    What are the Eligibility Criteria for Company Registration in Russia?
+                    Types of Business Entities in Russia
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Key criteria for starting a business in Russia.
+                    Foreign investors can establish different types of legal entities in Russia depending on their business goals and operational structure.
                 </p>
-                <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
-                    {list.map((item, i) => (
-                        <p key={i}>
-                            <span className="font-semibold text-[#072b47]">{item.title} – </span>
-                            {item.desc}
-                        </p>
-                    ))}
-                </div>
-                <div className="mt-12 text-center">
-                    <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Check Your Eligibility Now
-                            </Link>
+                <div className="space-y-6">
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Limited Liability Company (LLC)</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-2">The Limited Liability Company (OOO) is the most common business structure for foreign investors.</p>
+                        <p className="text-[17px] text-slate-600 font-medium">Key features include:</p>
+                        <ul className="list-disc pl-5 text-[17px] text-slate-600 leading-relaxed">
+                            <li>Separate legal entity</li>
+                            <li>Limited liability for shareholders</li>
+                            <li>Flexible management structure</li>
+                            <li>Suitable for small and medium businesses</li>
+                        </ul>
+                    </div>
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Joint Stock Company (JSC)</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-2">A Joint Stock Company allows businesses to issue shares and raise capital from investors.</p>
+                        <p className="text-[17px] text-slate-600 font-medium">There are two types:</p>
+                        <ul className="list-disc pl-5 text-[17px] text-slate-600 leading-relaxed">
+                            <li>Public Joint Stock Company (PJSC)</li>
+                            <li>Non-Public Joint Stock Company</li>
+                        </ul>
+                        <p className="text-[17px] text-slate-600 mt-2">This structure is typically used by larger companies.</p>
+                    </div>
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Representative Office</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed">Foreign companies can establish a representative office in Russia to conduct market research and promote business activities without engaging in commercial operations.</p>
+                    </div>
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Branch Office</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed">A branch office allows foreign companies to conduct business operations in Russia but remains legally dependent on the parent company.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -141,28 +145,34 @@ const RussiaIncorporationEligibility = () => {
 
 const RussiaIncorporationDocumentsSection = () => {
     const list = [
-        "Proposed Company Name (English & Russian)",
-        "Notarized Foundation Documents",
-        "Memorandum of Association (MOA)",
-        "Articles of Association (AOA)",
-        "Passport Copies of Directors & Shareholders",
-        "Lease/Rental Documents for Registered Address",
-        "Bank Statement (Share Capital Deposit)"
+        "Passport copies of shareholders and directors",
+        "Proof of residential address",
+        "Company name approval",
+        "Memorandum and Articles of Association",
+        "Registered office address in Russia",
+        "Share capital details",
+        "Power of attorney (if applicable)"
     ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Documents Required for Russia Company Registration
+                    Documents Required for Company Registration in Russia
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Essential documents for Russia Business Registration.
+                    To incorporate a company in Russia, the following documents are typically required:
                 </p>
-                <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
+                <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed mb-8">
                     {list.map((item, i) => (
-                        <li key={i}>{item}</li>
+                        <li key={i} className="flex items-start">
+                             <div className="mr-3 mt-1 text-[#005a9c]"><Users size={18} /></div>
+                             <span>{item}</span>
+                        </li>
                     ))}
                 </ul>
+                <p className="text-[17px] text-slate-600 leading-relaxed">
+                    Vyombiz managed by Clink Consultancy Services Private Limited assists businesses in preparing and verifying all required documentation to ensure compliance with Russian corporate laws.
+                </p>
             </div>
         </section>
     );
@@ -170,23 +180,23 @@ const RussiaIncorporationDocumentsSection = () => {
 
 const RussiaIncorporationProcessSection = () => {
     const steps = [
-        { title: "Choose Structure", desc: "Select the appropriate legal entity (e.g., OOO, AO)." },
-        { title: "Reserve Name", desc: "Check availability and reserve name with Federal Tax Service (FTS)." },
-        { title: "Submit Documents", desc: "File application, notarized docs, and passports with FTS." },
-        { title: "Incorporation", desc: "Receive Certificate of Incorporation from FTS." },
-        { title: "Tax ID (INN)", desc: "Apply for Tax Identification Number (INN) post-registration." },
-        { title: "Bank Account", desc: "Open a corporate bank account for financial transactions." },
-        { title: "Licenses", desc: "Apply for mandatory industry-specific licenses and permits." }
+        { title: "Choose the Business Structure", desc: "Select the most suitable business entity such as LLC, Joint Stock Company, or branch office." },
+        { title: "Reserve the Company Name", desc: "Submit the proposed company name to the Russian registration authority for approval." },
+        { title: "Prepare Legal Documents", desc: "Draft the required incorporation documents including company charter and shareholder details." },
+        { title: "Register with the Federal Tax Service", desc: "Submit the incorporation application with the Russian Federal Tax Service (FTS) for official registration." },
+        { title: "Obtain Tax Identification Number", desc: "After registration, the company receives a Tax Identification Number (TIN) required for business operations." },
+        { title: "Open Corporate Bank Account", desc: "A corporate bank account must be opened to manage company finances and share capital deposits." },
+        { title: "Register for Taxes and Compliance", desc: "Complete additional tax registrations and compliance requirements depending on the business activities." }
     ];
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        How to Register a Company in Russia?
+                        Step-by-Step Process for Company Registration in Russia
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        Step-by-step guide to incorporating in Russia.
+                        The company registration process in Russia generally follows these steps:
                     </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
@@ -218,22 +228,23 @@ const RussiaIncorporationProcessSection = () => {
 
 const RussiaIncorporationFeaturesSection = () => {
     const features = [
-        { title: "1000+ Businesses Assisted", desc: "Proven track record with international clients." },
-        { title: "End-to-End Support", desc: "From name reservation to licensing and tax compliance." },
-        { title: "Reliable Professionals", desc: "Access to 200+ legal and business consultants." },
-        { title: "Client-Centric", desc: "Personalized solutions for every business need." },
-        { title: "99.9% Success Rate", desc: "Ensuring successful registration across jurisdictions." },
-        { title: "Dedicated Support", desc: "24/7 customer support and robust data security." }
+        { title: "Cost-Effective Solutions", desc: "The cost of incorporating a company depends on multiple factors such as business structure, registration fees, and document preparation. Vyombiz provides transparent pricing for a cost-effective setup." },
+        { title: "Business structure consultation", desc: "Expert support to choose the right entity type." },
+        { title: "Company name registration", desc: "Assistance with reserving and approving the proposed name." },
+        { title: "Preparation of incorporation documents", desc: "Help with drafting company charter and shareholder details." },
+        { title: "Government filing and approvals", desc: "We manage submissions to the Federal Tax Service (FTS)." },
+        { title: "Assistance with tax registrations", desc: "Obtaining TIN and registering for necessary taxes." },
+        { title: "Post-registration compliance support", desc: "Assistance with opening a corporate bank account and operating compliantly." }
     ];
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose VyomBiz?
+                        How Vyombiz Helps You Register a Company in Russia
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Your trusted partner for Russian market entry.
+                        Expanding a business internationally involves legal, regulatory, and administrative complexities. Vyombiz managed by Clink Consultancy Services Private Limited provides complete support for global business incorporation, including Russia company formation services.
                     </p>
                 </div>
                 <div>
@@ -248,6 +259,33 @@ const RussiaIncorporationFeaturesSection = () => {
                     ))}
                     <div className="border-t border-slate-300" />
                 </div>
+                
+                <div className="mt-14 items-center">
+                    <h2 className="text-3xl text-center lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        Why Choose Vyombiz for Global Company Registration?
+                    </h2>
+                    <p className="text-[17px] text-center text-slate-600 leading-relaxed font-medium mb-8">
+                        Businesses choose Vyombiz managed by Clink Consultancy Services Private Limited for international incorporation because of its reliable and efficient services.
+                    </p>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                            <h3 className="text-xl font-semibold text-[#072b47] mb-3">Expert Legal Guidance</h3>
+                            <p className="text-[17px] text-slate-600">Our specialists ensure that every step of the incorporation process complies with local regulations.</p>
+                        </div>
+                        <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                            <h3 className="text-xl font-semibold text-[#072b47] mb-3">End-to-End Assistance</h3>
+                            <p className="text-[17px] text-slate-600">From documentation to post-registration compliance, we manage the entire process.</p>
+                        </div>
+                        <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                            <h3 className="text-xl font-semibold text-[#072b47] mb-3">Transparent Process</h3>
+                            <p className="text-[17px] text-slate-600">Clear communication and transparent pricing keep clients informed at every stage.</p>
+                        </div>
+                        <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                            <h3 className="text-xl font-semibold text-[#072b47] mb-3">Global Expansion Support</h3>
+                            <p className="text-[17px] text-slate-600">We help businesses expand internationally with simplified incorporation solutions.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     );
@@ -257,24 +295,24 @@ const CompanyRegistrationRussia = () => {
 
     const faqs = [
         {
-            question: "How much does it cost to register a company in Russia?",
-            answer: "The approximate costs include a Minimum Share Capital of 10,000 RUB (~105 Euros), State Registration Fees of 4,000 RUB (~42 Euros), Company Seal costs between 30-40 Euros, and Notary Services around 300 Euros."
+            question: "How long does it take to register a company in Russia?",
+            answer: "Company registration in Russia typically takes 7–15 business days, depending on document verification and approvals."
         },
         {
-            question: "What is the minimum share capital required?",
-            answer: "The minimum share capital required is 10,000 RUB, out of which at least 50% must be paid up at the time of incorporation."
+            question: "Can foreigners open a company in Russia?",
+            answer: "Yes, foreign individuals and companies can establish businesses in Russia, subject to compliance with local laws and regulations."
         },
         {
-            question: "Do I need a local director or partner?",
-            answer: "There is no strict regulatory requirement for a local nominee director, but you must appoint at least one director (who can be foreign) and a legal representative."
+            question: "What is the minimum capital requirement for an LLC in Russia?",
+            answer: "The minimum share capital requirement for a Limited Liability Company (OOO) is usually 10,000 Russian Rubles."
         },
         {
-            question: "What are the common business structures?",
-            answer: "The most common structures are Limited Liability Company (OOO), Joint Stock Company (AO), Individual Entrepreneur (IP), and Branch/Representative Office."
+            question: "Do I need a local director in Russia?",
+            answer: "While not always mandatory, having a local representative can simplify compliance and operational processes."
         },
         {
-            question: "How long does the registration process take?",
-            answer: "The process involves several steps like name reservation, document submission, and obtaining the certificate, which typically takes a few weeks depending on document readiness."
+            question: "Is Russia a good place to start a business?",
+            answer: "Russia offers a large market, industrial strength, and strong trade connectivity, making it attractive for many sectors including manufacturing, energy, and technology."
         }
     ];
 
@@ -285,14 +323,13 @@ const CompanyRegistrationRussia = () => {
             <HeroLayout
                 heroTitleMain="Company Registration"
                 heroTitleSuffix="in Russia"
-                heroSubtitle="Start Business Easily with VyomBiz"
-                heroDescription="Establish your business in Russia, a strategic bridge between Europe and Asia. We simplify legal compliance, documentation, and setup for a smooth entry."
+                heroSubtitle="Expand Your Business to Russia with Confidence"
+                heroDescription="Russia offers one of the largest consumer markets in Eurasia and a strong industrial ecosystem for global businesses. Start your company in Russia with expert guidance and complete compliance support."
                 whatsIncludedList={[
-                    "Drafting & Notarization of Charter",
-                    "Business Registration Assistance",
-                    "Taxpayer Identification Number (INN)",
-                    "Business Visa & Work Permit Services",
-                    "Accounting & Payroll Compliance"
+                    "Fast incorporation process",
+                    "Legal documentation handled by experts",
+                    "End-to-end registration support",
+                    "Global expansion made simple"
                 ]}
                 stats={[
                     { count: "1000+", label: "Founders Assisted", icon: <Users size={20} /> },
