@@ -155,5 +155,52 @@ export const lawyerSpecializationData = {
                 text: "Thorough and aggressive representation. Got my compensation within the expected timeframe."
             }
         ]
+    },
+    "criminal-lawyers": {
+        title: "Criminal Lawyers",
+        description: "Our Criminal Lawyers offer expert legal representation for individuals and businesses facing criminal charges. From anticipatory bail and regular bail to full-scale trial defense, we handle cases involving white-collar crimes, cyber crimes, and IPC offenses. We are committed to protecting your rights and ensuring a fair legal process.",
+        lawyers: [
+            {
+                name: "Adv. Sanjay Verma",
+                experience: "25 years of Experience",
+                location: "Delhi NCR",
+                skills: "Criminal Defense + 12 more",
+                phone: "+91 6236****14",
+                image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400&h=400"
+            },
+            {
+                name: "Adv. Meera Reddy",
+                experience: "12 years of Experience",
+                location: "Mumbai",
+                skills: "Bail & Trial + 8 more",
+                phone: "+91 88********",
+                image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400&h=400"
+            },
+            {
+                name: "Adv. Rahul Kapoor",
+                experience: "18 years of Experience",
+                location: "Bangalore",
+                skills: "White Collar Crime + 15 more",
+                phone: "+91 77********",
+                image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400&h=400"
+            }
+        ],
+        cities: [
+            "Delhi", "Mumbai", "Bangalore", "Hyderabad", "Chennai", "Kolkata", "Pune", "Ahmedabad"
+        ],
+        testimonials: [
+            {
+                name: "Amit Khurana",
+                text: "The legal team was exceptional in handling our case. Their attention to detail and knowledge of criminal law saved us from a very difficult situation."
+            },
+            {
+                name: "Sandeep Jha",
+                text: "Professional, reliable, and highly effective. They helped me secure bail when other lawyers said it was impossible."
+            },
+            {
+                name: "Vikram Batra",
+                text: "Excellent defense strategy. They explained every step of the process clearly and kept me informed throughout the trial."
+            }
+        ]
     }
 };

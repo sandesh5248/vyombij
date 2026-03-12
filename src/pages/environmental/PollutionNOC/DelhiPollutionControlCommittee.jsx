@@ -1,135 +1,164 @@
-import React from "react";
-import DPCCHero from "../../../components/environmental/DPCC/DPCCHero";
-import DPCCPricing from "../../../components/environmental/DPCC/DPCCPricing";
-import DPCCDetails from "../../../components/environmental/DPCC/DPCCDetails";
-import DPCCFAQ from "../../../components/environmental/DPCC/DPCCFAQ";
-import { ArrowRight, Star, Quote } from "lucide-react";
+import React from 'react';
+import HeroLayout from '../../../components/common/HeroLayout';
+import DetailsLayout from '../../../components/common/DetailsLayout';
+import FAQLayout from '../../../components/common/FAQLayout';
+import ReviewsSection from '../../../components/common/ReviewsSection';
 
-/**
- * Delhi Pollution Control Committee Page
- * Modular structure following the VyomBiz pattern.
- */
 const DelhiPollutionControlCommittee = () => {
-    // Similar Services Data
-    const similarServices = [
-        "E-waste License for Dismantling",
-        "CGWA-Water Boring",
-        "License for charging station in UP",
-        "Uttar Pradesh Pollution Control Board",
-        "Phase II Soil and Groundwater Investigations",
-        "NOC Pollution Control Board",
-        "Consent for Establishment (CFE)",
-        "Fire Department NOC"
-    ];
-
     return (
         <div className="bg-[#f8f9fa] min-h-screen relative font-sans">
             <div className="relative z-10 space-y-2 lg:space-y-4">
-                {/* 1. Hero Section */}
-                <DPCCHero />
+                <HeroLayout
+                    heroTitleMain="Delhi Pollution Control"
+                    heroTitleSuffix="Committee (DPCC) Authorization"
+                    heroDescription="Get Delhi Pollution Control Committee Authorization for your business with VyomBiz experts. Ensure 100% compliance with environmental and DPCC standards for all industry categories in the Delhi region."
+                    stats={[
+                        { count: "100K+", label: "Happy Customers" },
+                        { count: "3500+", label: "Expert Advisors" },
+                        { count: "50+", label: "Branch Offices" },
+                        { count: "99%", label: "SLA Delivery" }
+                    ]}
+                    formTitle="Get Free Expert Consultation"
+                />
 
-                {/* Temporary Placeholder Images */}
-                <div className="max-w-7xl mx-auto px-6 py-10 w-full overflow-hidden">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800" alt="Environmental 1" className="w-full h-64 object-cover rounded-[2rem] shadow-xl" />
-                        <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&q=80&w=800" alt="Environmental 2" className="w-full h-64 object-cover rounded-[2rem] shadow-xl" />
-                        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800" alt="Environmental 3" className="w-full h-64 object-cover rounded-[2rem] shadow-xl" />
-                    </div>
-                </div>
+                <DetailsLayout
+                    overview={{
+                        title: "DPCC Authorization —",
+                        highlightTitle: "Compliance Overview",
+                        description: [
+                            "The Delhi Pollution Control Committee (DPCC) is an autonomous regulatory body responsible for issuing the DPCC License. Governed by the Ministry of Environment, Forest & Climate Change, it ensures that businesses in Delhi operate without harming the environment.",
+                            "It acts as a No Objection Certificate (NOC) necessary for new setups, capacity expansions, or production process changes. Entrepreneurs in Delhi must acquire this authorization to stay legally compliant and avoid environmental litigation.",
+                            "Not sure how to secure your DPCC Authorization? Talk to VyomBiz expert consultants today and get your paperwork handled with zero stress."
+                        ],
+                        whyIdealTitle: "Who Needs It?",
+                        whyIdealList: [
+                            { title: "Manufacturing Units", desc: "All trading and manufacturing entities operating within Delhi's jurisdiction." },
+                            { title: "Waste Handlers", desc: "Solid, Hazardous, E-Waste, and Battery Waste management entities." },
+                            { title: "Healthcare Labs", desc: "Hospitals, Clinics, and Bio-Medical waste generating establishments." },
+                            { title: "Food Industry", desc: "Restaurants and food processing units requiring MCD and DPCC clearance." }
+                        ]
+                    }}
 
+                    advantages={{
+                        title: "Benefits of Authorization",
+                        subtitle: "Sustainable Growth & Legal Security",
+                        list: [
+                            { title: "Sustainable Development", desc: "Ensures financial growth happens alongside ecological protection and social equity." },
+                            { title: "Waste Management", desc: "Enforces proficient waste management measures so that business waste is reused and reduced." },
+                            { title: "Resource Protection", desc: "Helps in preventing depletion of natural resources and maintaining Delhi's air and water quality." },
+                            { title: "Legal Immunity", desc: "Protects your business from heavy penalties and shutdown orders from environmental authorities." },
+                            { title: "Brand Reputation", desc: "Demonstrates environmental commitment, making your business more attractive to conscious consumers." },
+                            { title: "Resource Efficiency", desc: "Promotes the use of pollution control devices that often lead to better resource utilization." }
+                        ]
+                    }}
 
-                {/* 2. Pricing Section */}
-                <DPCCPricing />
+                    eligibility={{
+                        title: "Industry Classification",
+                        subtitle: "How DPCC categorizes pollution levels",
+                        list: [
+                            { title: "White Category", desc: "Least polluting (Score 0-20). No formal consent required; only an undertaking is needed." },
+                            { title: "Green Category", desc: "Moderately polluting (Score 21-40). Requires both Consent to Establish (CTE) and Operate (CTO)." },
+                            { title: "Orange Category", desc: "Polluting industries (Score 41-59). Mandatory CTE/CTO before commencement of any setup." },
+                            { title: "Red Category", desc: "Excessively polluting (Score > 60). Not permitted to function within the Delhi jurisdiction." }
+                        ]
+                    }}
 
-                {/* 3. Main Details Section (Includes Floating Navbar) */}
-                <DPCCDetails />
+                    documents={{
+                        title: "Documents Required",
+                        subtitle: "Paperwork for DPCC filing",
+                        list: [
+                            { title: "Personal ID", desc: "PAN Card and Aadhaar of the applicant/authorized person." },
+                            { title: "Utility Bill", desc: "Latest Electricity Bill or Water Connection Certificate of the site." },
+                            { title: "Site Plan", desc: "Detailed location and site layout plan highlighting discharge points." },
+                            { title: "Property Proof", desc: "Land Ownership document or valid Rent/Lease Deed." },
+                            { title: "Business Docs", desc: "Partnership Deed, MOA/AOA, or Proprietorship declaration." },
+                            { title: "Investment Proof", desc: "CA Certificate indicating total Capital Investment in project." }
+                        ]
+                    }}
 
-                {/* 4. Testimonials Section */}
-                <section className="w-full py-20 lg:py-32 bg-white overflow-hidden border-y border-slate-50">
-                    <div className="max-w-7xl mx-auto px-6">
-                        <div className="text-center mb-20 lg:mb-24 px-4">
-                            <h2 className="text-3xl lg:text-5xl font-black text-[#072b47] mb-6 leading-tight">Client Experiences</h2>
-                            <p className="text-[#005a9c] font-black uppercase tracking-[0.2em] text-xs lg:text-sm">Trusted by 10,000+ businesses across Delhi.</p>
-                        </div>
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-12">
-                            {[1, 2, 3].map(i => (
-                                <div key={i} className="p-10 rounded-[3rem] bg-slate-50 border border-slate-100 shadow-sm relative group hover:bg-white hover:shadow-2xl transition-all duration-500">
-                                    <div className="absolute top-8 right-10 text-[#005a9c]/10 group-hover:text-[#005a9c]/20 transition-colors">
-                                        <Quote size={60} fill="currentColor" />
-                                    </div>
-                                    <div className="flex text-yellow-400 mb-8 gap-1">
-                                        {[...Array(5)].map((_, star) => <Star key={star} size={18} fill="currentColor" />)}
-                                    </div>
-                                    <p className="text-slate-600 font-bold text-base lg:text-lg italic mb-10 leading-relaxed relative z-10">
-                                        "Getting DPCC authorization for our manufacturing unit was daunting until we consulted VyomBiz. Their team handled the categorization and CTE filing flawlessly."
-                                    </p>
-                                    <div className="flex items-center gap-5 pt-6 border-t border-slate-200">
-                                        <div className="w-12 h-12 lg:w-14 lg:h-14 rounded-full bg-slate-200 flex items-center justify-center font-black text-[#072b47] text-lg lg:text-xl shadow-inner uppercase">
-                                            {i === 1 ? "SK" : i === 2 ? "AM" : "VP"}
-                                        </div>
-                                        <div>
-                                            <span className="block font-black text-base text-[#072b47] leading-none mb-1">
-                                                {i === 1 ? "Sanjay Kumar" : i === 2 ? "Amit Mehra" : "Vikas Puri"}
-                                            </span>
-                                            <span className="text-[10px] lg:text-[11px] font-black text-slate-400 uppercase tracking-widest leading-none">
-                                                {i === 1 ? "Operations Head" : i === 2 ? "Factory Owner" : "Compliance Director"}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </section>
+                    process={{
+                        title: "Registration Process",
+                        subtitle: "Your journey to DPCC clearance",
+                        steps: [
+                            { step: "01", title: "Category Check", desc: "Verify business activity and classify it under White, Green, Orange, or Red categories." },
+                            { step: "02", title: "Online Submission", desc: "Submit essential documents and detailed project reports on the DPCC official portal." },
+                            { step: "03", title: "CTE Generation", desc: "Obtain Consent to Establish (CTE) before beginning any construction or machinery setup." },
+                            { step: "04", title: "Device Installation", desc: "Install required pollution control devices like ETP/STP as directed during the CTE phase." },
+                            { step: "05", title: "CTO Issuance", desc: "Conduct final verification of installed devices and receive the Consent to Operate (CTO)." }
+                        ]
+                    }}
 
-                {/* 5. FAQ Section */}
-                <DPCCFAQ />
+                    features={{
+                        title: "Why Choose VyomBiz?",
+                        subtitle: "10+ Years of Success in DPCC Liaison",
+                        list: [
+                            { title: "400+ Experts", desc: "In-house CAs, CS, and environmental lawyers for a seamless and integrated process." },
+                            { title: "10K+ Pincodes", desc: "Wide network across India for local liaison and grounded regulatory support." },
+                            { title: "99.2% Success", desc: "Industry-leading success rate in acquiring DPCC authorizations for diverse entities." },
+                            { title: "24/7 Support", desc: "Round-the-clock assistance to resolve any compliance and documentation queries." },
+                            { title: "Fast Tracking", desc: "Minimized turnaround time through expert handling of the OCMMS portal." },
+                            { title: "Post-Consent Support", desc: "Guidance on maintaining pollution logs and timely CTO renewal filing." }
+                        ]
+                    }}
+                />
 
-                {/* 6. Author & Similar Services Section */}
-                <section className="w-full py-20 lg:py-32 bg-slate-50">
-                    <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-stretch">
+                <FAQLayout
+                    title="Frequently Asked Questions"
+                    faqs={[
+                        {
+                            question: "What is DPCC Authorization?",
+                            answer: "It is a legal permit (CTE/CTO) issued by the Delhi Pollution Control Committee ensuring trade activities don't harm Delhi's environment."
+                        },
+                        {
+                            question: "How are industries classified in Delhi?",
+                            answer: "They are classified into White, Green, Orange, and Red categories based on their pollution potential index score."
+                        },
+                        {
+                            question: "Does the White Category require a certificate?",
+                            answer: "No, White category industries only need to submit an undertaking to DPCC instead of a formal consent certificate."
+                        },
+                        {
+                            question: "What is the validity of CTO in Delhi?",
+                            answer: "Generally, CTO is granted for 10 years to Green category industries and 5 years to Orange category industries."
+                        },
+                        {
+                            question: "How long does the DPCC process take?",
+                            answer: "Typically, it takes 30-60 days for a decision on consent applications, depending on document completeness."
+                        }
+                    ]}
+                />
 
-                        {/* Author Card */}
-                        <div className="lg:col-span-7 bg-white p-10 lg:p-14 rounded-[3rem] border border-slate-100 shadow-xl flex flex-col md:flex-row items-center md:items-start gap-10">
-                            <div className="w-28 lg:w-36 h-28 lg:h-36 rounded-[2.5rem] bg-[#005a9c]/5 flex items-center justify-center text-[#005a9c] text-4xl lg:text-5xl font-black shrink-0 shadow-inner border border-[#005a9c]/10">
-                                ND
-                            </div>
-                            <div className="text-center md:text-left">
-                                <h3 className="text-2xl lg:text-4xl font-black text-[#072b47] mb-2 leading-none">Neha Dawra</h3>
-                                <p className="text-[#005a9c] font-black uppercase tracking-[0.2em] text-[10px] lg:text-xs mb-6 inline-block bg-blue-50 px-3 py-1 rounded-full">Legal Researcher</p>
-                                <p className="text-slate-500 font-bold text-sm lg:text-base leading-relaxed mb-8 text-justify md:text-left">
-                                    Neha Dawra has 4+ years of experience in legal research and environmental advisory. Her expertise lies in analyzing DPCC guidelines, drafting structured compliance reports, and simplifying complex environmental registration procedures.
-                                </p>
-                                <div className="pt-6 border-t border-slate-100 flex flex-col sm:flex-row sm:items-center gap-4 text-[11px] lg:text-[12px] font-black text-slate-400 uppercase tracking-widest italic">
-                                    <span>Last updated: Feb 20 2026</span>
-                                    <span className="hidden sm:block opacity-30">•</span>
-                                    <span>Verified by VyomBiz Environmental Team</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Similar Services Card */}
-                        <div className="lg:col-span-5 bg-white p-10 lg:p-14 rounded-[3rem] border border-slate-100 shadow-xl flex flex-col">
-                            <h3 className="text-2xl lg:text-3xl font-black text-[#072b47] mb-10 flex items-center gap-4">
-                                <div className="w-2 h-10 bg-[#005a9c] rounded-full" />
-                                Similar Services
-                            </h3>
-                            <div className="grid grid-cols-1 gap-4 flex-1">
-                                {similarServices.map((service, i) => (
-                                    <div key={i} className="flex items-center justify-between p-5 bg-slate-50 rounded-2xl hover:bg-white hover:shadow-xl transition-all duration-300 group cursor-pointer border border-transparent hover:border-[#005a9c]/10">
-                                        <span className="text-[13px] lg:text-[15px] font-black text-slate-600 group-hover:text-[#005a9c] transition-colors line-clamp-1">{service}</span>
-                                        <ArrowRight size={18} className="text-slate-300 group-hover:text-[#005a9c] group-hover:translate-x-1 transition-all" />
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-
+                <ReviewsSection
+                    title="Client Success in Delhi"
+                    subtitle="Helping businesses thrive sustainably in the capital."
+                    reviews={[
+                        {
+                            name: "Vikram Kohli",
+                            role: "Hotel Manager",
+                            company: "Crest Hotels",
+                            rating: 5,
+                            initials: "VK",
+                            text: "Securing DPCC clearance for our hotel's DG sets and wastewater management was handled perfectly by VyomBiz. Highly professional team."
+                        },
+                        {
+                            name: "Sanjana Roy",
+                            role: "Production Head",
+                            company: "Roy Plastic Works",
+                            rating: 5,
+                            initials: "SR",
+                            text: "They helped us navigate the Orange category complexities and set up our ETP as per DPCC standards. Everything was on time."
+                        },
+                        {
+                            name: "Aman Gupta",
+                            role: "Traders Asson",
+                            company: "Delhi Traders",
+                            rating: 4.9,
+                            initials: "AG",
+                            text: "Excellent service for White category undertakings. They made the process digital and easy for all our association members."
+                        }
+                    ]}
+                />
             </div>
-            {/* Gradient fade to footer */}
-            <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#f8f9fa] to-transparent pointer-events-none z-10" />
         </div>
     );
 };

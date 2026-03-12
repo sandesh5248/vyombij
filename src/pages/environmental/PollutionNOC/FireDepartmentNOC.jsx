@@ -1,135 +1,173 @@
-import React from "react";
-import FireDepartmentHero from "../../../components/environmental/FireDepartmentNOC/FireDepartmentHero";
-import FireDepartmentPricing from "../../../components/environmental/FireDepartmentNOC/FireDepartmentPricing";
-import FireDepartmentDetails from "../../../components/environmental/FireDepartmentNOC/FireDepartmentDetails";
-import FireDepartmentFAQ from "../../../components/environmental/FireDepartmentNOC/FireDepartmentFAQ";
-import { ArrowRight, Star, Quote } from "lucide-react";
+import React from 'react';
+import HeroLayout from '../../../components/common/HeroLayout';
+import DetailsLayout from '../../../components/common/DetailsLayout';
+import FAQLayout from '../../../components/common/FAQLayout';
+import ReviewsSection from '../../../components/common/ReviewsSection';
 
-/**
- * Fire Department NOC Page
- * Modular structure following the Company Registration pattern with floating navbar support.
- */
 const FireDepartmentNOC = () => {
-    // Similar Services Data
-    const similarServices = [
-        "License for charging station in UP",
-        "Phase II Soil and Groundwater Investigations",
-        "Delhi Pollution Control Committee",
-        "NOC Pollution Control Board",
-        "Uttar Pradesh Pollution Control Board",
-        "Consent for Establishment (CFE)",
-        "CGWA-Water Boring",
-        "E-waste License for Dismantling"
-    ];
-
     return (
         <div className="bg-[#f8f9fa] min-h-screen relative font-sans">
             <div className="relative z-10 space-y-2 lg:space-y-4">
-                {/* 1. Hero Section */}
-                <FireDepartmentHero />
+                <HeroLayout
+                    heroTitleMain="Fire Department"
+                    heroTitleSuffix="NOC Certification"
+                    heroDescription="Do you wish to get a fire department NOC for your residential, educational, or high-risk building? Our experts ensure 100% compliance with fire safety standards. Join 1275+ businesses who secured their NOC with our expert-led advisory services."
+                    stats={[
+                        { count: "100K+", label: "Happy Customers" },
+                        { count: "3500+", label: "Expert Advisors" },
+                        { count: "50+", label: "Branch Offices" },
+                        { count: "500+", label: "Compliance Experts" }
+                    ]}
+                    formTitle="Get Free Expert Consultation"
+                />
 
-                {/* Temporary Placeholder Images */}
-                <div className="max-w-7xl mx-auto px-6 py-10 w-full overflow-hidden">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800" alt="Environmental 1" className="w-full h-64 object-cover rounded-[2rem] shadow-xl" />
-                        <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&q=80&w=800" alt="Environmental 2" className="w-full h-64 object-cover rounded-[2rem] shadow-xl" />
-                        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800" alt="Environmental 3" className="w-full h-64 object-cover rounded-[2rem] shadow-xl" />
-                    </div>
-                </div>
+                <DetailsLayout
+                    overview={{
+                        title: "Fire Department NOC —",
+                        highlightTitle: "Safety Overview",
+                        description: [
+                            "The Fire Department NOC is a critical certificate issued to protect premises against fire damage. It validates that a building meets the fire safety standards prescribed by the Bureau of Indian Standards and state-specific fire service departments.",
+                            "Inspection ensures that fire prevention and safety measures are functionally integrated into the building's architecture. For multi-plex or high-rise buildings (above 15 meters), obtaining this NOC is a compulsory legal mandate.",
+                            "Worried about the complexities of fire safety certification? Talk to VyomBiz experts today for a seamless and integrated experience."
+                        ],
+                        whyIdealTitle: "Who Needs It?",
+                        whyIdealList: [
+                            { title: "Educational Units", desc: "Schools, Colleges, and Universities with student residential facilities." },
+                            { title: "Business Buildings", desc: "Corporate offices and commercial complexes with high occupant density." },
+                            { title: "High-Rise Residential", desc: "Apartment blocks and residential towers above 15 meters in height." },
+                            { title: "Industrial Units", desc: "Manufacturing facilities and warehouses handling hazardous materials." }
+                        ]
+                    }}
 
+                    advantages={{
+                        title: "Benefits of Fire NOC",
+                        subtitle: "Secure Your Business & Life Safety",
+                        list: [
+                            { title: "Trade License Ease", desc: "Compulsory attachment for applying for or renewing trade licenses with local civil bodies." },
+                            { title: "Business Continuity", desc: "Ensures legal orchestration of business activities without the risk of sealing or shutdowns." },
+                            { title: "Life Safety", desc: "Guarantees that essential fire-fighting equipment is in place to protect occupants from emergencies." },
+                            { title: "Insurance Compliance", desc: "Most building insurance claims require a valid Fire NOC for processing in case of accidents." },
+                            { title: "Property Value", desc: "Verified safety standards increase the market value and trust for commercial leasing." },
+                            { title: "Legal Protection", desc: "Protects directors and owners from criminal liability in case of fire incidents on premises." }
+                        ]
+                    }}
 
-                {/* 2. Pricing Section */}
-                <FireDepartmentPricing />
+                    eligibility={{
+                        title: "Checklist for Success",
+                        subtitle: "Pre and post-application requirements",
+                        list: [
+                            { title: "Building Plans", desc: "Detailed layout depicting fire exits, hydrants, and extinguisher placements." },
+                            { title: "Safety Recommendations", desc: "Strict adherence to suggestions issued by the fire department during initial review." },
+                            { title: "Site Inspection", desc: "Successful physical verification of firefighting equipment by regional fire officers." },
+                            { title: "Stability Certificate", desc: "Structural stability proof ensuring the building can handle firefighting water loads." }
+                        ]
+                    }}
 
-                {/* 3. Main Details Section (Includes Floating Navbar) */}
-                <FireDepartmentDetails />
+                    documents={{
+                        title: "Documents Required",
+                        subtitle: "Essential paperwork for Fire NOC",
+                        list: [
+                            { title: "Identity Proof", desc: "ID and address proof of the applicant/authorized signatory." },
+                            { title: "Premise Photos", desc: "High-quality photographs of the premises and installed safety gear." },
+                            { title: "Wiring Certificate", desc: "Electrical wiring certificate from a licensed electrical contractor." },
+                            { title: "Architectural Certs", desc: "Stability certificate and architect's certification of the layout." },
+                            { title: "Proprietor Details", desc: "Proof of ownership or valid lease agreement for the property." },
+                            { title: "Technical Plans", desc: "Multiple sets of building plans including floor-wise layout and site map." }
+                        ]
+                    }}
 
-                {/* 4. Testimonials Section */}
-                <section className="w-full py-20 lg:py-32 bg-white overflow-hidden border-y border-slate-50">
-                    <div className="max-w-7xl mx-auto px-6">
-                        <div className="text-center mb-20 lg:mb-24 px-4">
-                            <h2 className="text-3xl lg:text-5xl font-black text-[#072b47] mb-6 leading-tight">What Our Clients Say</h2>
-                            <p className="text-[#005a9c] font-black uppercase tracking-[0.2em] text-xs lg:text-sm">Real stories from businesses we've secured.</p>
-                        </div>
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-12">
-                            {[1, 2, 3].map(i => (
-                                <div key={i} className="p-10 rounded-[3rem] bg-slate-50 border border-slate-100 shadow-sm relative group hover:bg-white hover:shadow-2xl transition-all duration-500">
-                                    <div className="absolute top-8 right-10 text-[#005a9c]/10 group-hover:text-[#005a9c]/20 transition-colors">
-                                        <Quote size={60} fill="currentColor" />
-                                    </div>
-                                    <div className="flex text-yellow-400 mb-8 gap-1">
-                                        {[...Array(5)].map((_, star) => <Star key={star} size={18} fill="currentColor" />)}
-                                    </div>
-                                    <p className="text-slate-600 font-bold text-base lg:text-lg italic mb-10 leading-relaxed relative z-10">
-                                        "VyomBiz made the complex process of getting our Fire NOC for our 20m building completely stress-free. From documentation to inspection coordination, they handled everything with absolute professionalism."
-                                    </p>
-                                    <div className="flex items-center gap-5 pt-6 border-t border-slate-200">
-                                        <div className="w-12 h-12 lg:w-14 lg:h-14 rounded-full bg-slate-200 flex items-center justify-center font-black text-[#072b47] text-lg lg:text-xl shadow-inner uppercase tracking-wider">
-                                            {i === 1 ? "RJ" : i === 2 ? "MK" : "AS"}
-                                        </div>
-                                        <div>
-                                            <span className="block font-black text-base text-[#072b47] leading-none mb-1">
-                                                {i === 1 ? "Rajesh Khanna" : i === 2 ? "Meera Kapoor" : "Anuj Sharma"}
-                                            </span>
-                                            <span className="text-[10px] lg:text-[11px] font-black text-slate-400 uppercase tracking-widest leading-none">
-                                                {i === 1 ? "Hotel Manager" : i === 2 ? "Industrialist" : "Institutional Head"}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </section>
+                    process={{
+                        title: "Step-by-Step Procedure",
+                        subtitle: "Your journey to fire safety clearance",
+                        steps: [
+                            { step: "01", title: "Application Filing", desc: "Apply online or offline to the State Fire Service Department with detailed building specs." },
+                            { step: "02", title: "Technical Review", desc: "Chief Fire Officer (CFO) reviews plans against the National Building Code (NBC) standards." },
+                            { step: "03", title: "Field Inspector", desc: "Region-specific inspector is assigned to conduct a thorough on-site verification." },
+                            { step: "04", title: "Mock Drills", desc: "Functional testing of hydrants, alarms, and sprinklers during the inspection phase." },
+                            { step: "05", title: "NOC Issuance", desc: "Official Fire Clearance Certificate is issued after successful final verification of all systems." }
+                        ]
+                    }}
 
-                {/* 5. FAQ Section */}
-                <FireDepartmentFAQ />
+                    postCompliance={{
+                        title: "Validity & Renewal",
+                        subtitle: "Critical safety windows",
+                        list: [
+                            { title: "Commercial Validity", desc: "NOC is valid for 3 years for business/commercial buildings; requires timely renewal." },
+                            { title: "Residential Validity", desc: "Valid for 5 years for multi-story residential apartments with regular maintenance audits." },
+                            { title: "Renewal Penalties", desc: "Fines apply after 7 days of delay, increasing from ₹5 to ₹15 per day beyond 15 days." },
+                            { title: "Maintenance Audit", desc: "Certified declaration needed during renewal regarding functional electrical installations." }
+                        ]
+                    }}
 
-                {/* 6. Author & Similar Services Section */}
-                <section className="w-full py-20 lg:py-32 bg-slate-50">
-                    <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-stretch">
+                    features={{
+                        title: "Why Choose VyomBiz?",
+                        subtitle: "10+ Years of Excellence in Fire Licensing",
+                        list: [
+                            { title: "Liaison Mastery", desc: "Decade-long experience in complex fire safety licensing and coordination with CFO office." },
+                            { title: "Inspection Ready", desc: "We pre-audit your premises to ensure 100% success during the official fire department visit." },
+                            { title: "Risk Assessment", desc: "Detailed fire load calculations and equipment placement advice for high-risk industries." },
+                            { title: "Auto-Renewal Tracking", desc: "Digital systems to track and notify you 90 days before NOC expiration." }
+                        ]
+                    }}
+                />
 
-                        {/* Author Card */}
-                        <div className="lg:col-span-7 bg-white p-10 lg:p-14 rounded-[3rem] border border-slate-100 shadow-xl flex flex-col md:flex-row items-center md:items-start gap-10">
-                            <div className="w-28 lg:w-36 h-28 lg:h-36 rounded-[2.5rem] bg-[#005a9c]/5 flex items-center justify-center text-[#005a9c] text-4xl lg:text-5xl font-black shrink-0 shadow-inner border border-[#005a9c]/10">
-                                ND
-                            </div>
-                            <div className="text-center md:text-left">
-                                <h3 className="text-2xl lg:text-4xl font-black text-[#072b47] mb-2 leading-none">Neha Dawra</h3>
-                                <p className="text-[#005a9c] font-black uppercase tracking-[0.2em] text-[10px] lg:text-xs mb-6 inline-block bg-blue-50 px-3 py-1 rounded-full">Legal Researcher</p>
-                                <p className="text-slate-500 font-bold text-sm lg:text-base leading-relaxed mb-8 text-justify md:text-left">
-                                    Neha Dawra has 4+ years of experience in legal research and intellectual property advisory. Her expertise lies in analyzing IP laws, drafting structured legal content, and simplifying complex registration procedures into clear, actionable insights for businesses.
-                                </p>
-                                <div className="pt-6 border-t border-slate-100 flex flex-col sm:flex-row sm:items-center gap-4 text-[11px] lg:text-[12px] font-black text-slate-400 uppercase tracking-widest italic">
-                                    <span>Last updated: Feb 20 2026</span>
-                                    <span className="hidden sm:block opacity-30">•</span>
-                                    <span>Verified by VyomBiz Legal Team</span>
-                                </div>
-                            </div>
-                        </div>
+                <FAQLayout
+                    title="Frequently Asked Questions"
+                    faqs={[
+                        {
+                            question: "Is Fire Department NOC mandatory?",
+                            answer: "Yes, for high-rise buildings (above 15m), commercial units, and educational institutions, it is mandatory under state laws."
+                        },
+                        {
+                            question: "What is the validity of Fire NOC?",
+                            answer: "Generally, it is valid for 3 years for commercial buildings and 5 years for residential buildings."
+                        },
+                        {
+                            question: "Difference between Provisional and Final NOC?",
+                            answer: "Provisional is issued during plan approval; Final is issued after building completion and safety gear verification."
+                        },
+                        {
+                            question: "What happens if I don't get the NOC?",
+                            answer: "Non-compliance can lead to sealing of premises, heavy legal fines, and cancellation of trade licenses."
+                        },
+                        {
+                            question: "Does VyomBiz help with on-site inspections?",
+                            answer: "Yes, our experts coordinate the visit and ensuring all equipment is functionally compliant before the inspector arrives."
+                        }
+                    ]}
+                />
 
-                        {/* Similar Services Card */}
-                        <div className="lg:col-span-5 bg-white p-10 lg:p-14 rounded-[3rem] border border-slate-100 shadow-xl flex flex-col">
-                            <h3 className="text-2xl lg:text-3xl font-black text-[#072b47] mb-10 flex items-center gap-4">
-                                <div className="w-2 h-10 bg-[#005a9c] rounded-full" />
-                                Similar Services
-                            </h3>
-                            <div className="grid grid-cols-1 gap-4 flex-1">
-                                {similarServices.map((service, i) => (
-                                    <div key={i} className="flex items-center justify-between p-5 bg-slate-50 rounded-2xl hover:bg-white hover:shadow-xl transition-all duration-300 group cursor-pointer border border-transparent hover:border-[#005a9c]/10">
-                                        <span className="text-[13px] lg:text-[15px] font-black text-slate-600 group-hover:text-[#005a9c] transition-colors line-clamp-1">{service}</span>
-                                        <ArrowRight size={18} className="text-slate-300 group-hover:text-[#005a9c] group-hover:translate-x-1 transition-all" />
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-
+                <ReviewsSection
+                    title="Safety Success Stories"
+                    subtitle="Trusted by businesses for life-saving compliance."
+                    reviews={[
+                        {
+                            name: "Sanjay Sharma",
+                            role: "Admin Head",
+                            company: "Heritage School",
+                            rating: 5,
+                            initials: "SS",
+                            text: "VyomBiz managed our school's complex Fire NOC renewal flawlessly. Their pre-audit revealed gaps that we fixed before the inspection."
+                        },
+                        {
+                            name: "Rishi Kapoor",
+                            role: "Owner",
+                            company: "RK Cinemas",
+                            rating: 5,
+                            initials: "RK",
+                            text: "Crucial for our cinema's trade license. The team was very knowledgeable about the National Building Code requirements."
+                        },
+                        {
+                            name: "Meenakshi V.",
+                            role: "Secretary",
+                            company: "Palm Meadows",
+                            rating: 4.8,
+                            initials: "MV",
+                            text: "They simplified the process for our residential society. Professional handling of the electrical and structural certificates."
+                        }
+                    ]}
+                />
             </div>
-            {/* Gradient fade to footer */}
-            <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#f8f9fa] to-transparent pointer-events-none z-10" />
         </div>
     );
 };

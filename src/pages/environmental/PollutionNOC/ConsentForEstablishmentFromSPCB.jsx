@@ -1,132 +1,151 @@
-import React from "react";
-import ConsentToEstablishHero from "../../../components/environmental/ConsentToEstablish/ConsentToEstablishHero";
-import ConsentToEstablishPricing from "../../../components/environmental/ConsentToEstablish/ConsentToEstablishPricing";
-import ConsentToEstablishDetails from "../../../components/environmental/ConsentToEstablish/ConsentToEstablishDetails";
-import ConsentToEstablishFAQ from "../../../components/environmental/ConsentToEstablish/ConsentToEstablishFAQ";
-import { ArrowRight, Star, Quote } from "lucide-react";
+import React from 'react';
+import HeroLayout from '../../../components/common/HeroLayout';
+import DetailsLayout from '../../../components/common/DetailsLayout';
+import FAQLayout from '../../../components/common/FAQLayout';
+import ReviewsSection from '../../../components/common/ReviewsSection';
 
 const ConsentForEstablishmentFromSPCB = () => {
-    const similarServices = [
-        "Phase II Soil and Groundwater Investigations",
-        "E-waste License for Dismantling",
-        "License for charging station in UP",
-        "Fire Department NOC",
-        "CGWA-Water Boring",
-        "Uttar Pradesh Pollution Control Board",
-        "NOC Pollution Control Board",
-        "Delhi Pollution Control Committee"
-    ];
-
     return (
         <div className="bg-[#f8f9fa] min-h-screen relative font-sans">
             <div className="relative z-10 space-y-2 lg:space-y-4">
-                {/* 1. Hero Section */}
-                <ConsentToEstablishHero />
+                <HeroLayout
+                    heroTitleMain="Consent to Establish (CTE)"
+                    heroTitleSuffix="from Pollution Control Board"
+                    heroDescription="Are you working on new industrial and development projects? Secure your Consent to Establish from the Pollution Control Board with VyomBiz. We've successfully maintained a 98% first-time approval ratio and secured CTE for 500+ projects across PAN India."
+                    stats={[
+                        { count: "100K+", label: "Happy Customers" },
+                        { count: "3500+", label: "Expert Advisors" },
+                        { count: "50+", label: "Branch Offices" },
+                        { count: "98%", label: "Approval Ratio" }
+                    ]}
+                    formTitle="Get Free Expert Consultation"
+                />
 
-                {/* Temporary Placeholder Images */}
-                <div className="max-w-7xl mx-auto px-6 py-10 w-full overflow-hidden">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800" alt="Environmental 1" className="w-full h-64 object-cover rounded-[2rem] shadow-xl" />
-                        <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&q=80&w=800" alt="Environmental 2" className="w-full h-64 object-cover rounded-[2rem] shadow-xl" />
-                        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800" alt="Environmental 3" className="w-full h-64 object-cover rounded-[2rem] shadow-xl" />
-                    </div>
-                </div>
+                <DetailsLayout
+                    overview={{
+                        title: "Consent to Establish (CTE) —",
+                        highlightTitle: "SPCB Overview",
+                        description: [
+                            "Consent to Establish (CTE), also known as Consent for Establishment from SPCB, is a mandatory pollution NOC required for regulating industrial discharges, including air emissions, wastewater, and noise under the Water and Air Acts.",
+                            "Industries are categorized into Red (high), Orange (moderate), and Green (low) based on their pollution levels. Some states also recognize a White Category for exempt industries. Entrepreneurs must apply for CTE before setting up their unit to ensure environmental compliance.",
+                            "Secure your CTE Certificate smoothly with VyomBiz consultants and avoid shutdowns or heavy fines ranging from Rs 1 Lakh to Rs 50 Lakh."
+                        ],
+                        whyIdealTitle: "Pollution Categories",
+                        whyIdealList: [
+                            { title: "Red Category", desc: "High pollution potential; requires rigorous scrutiny and environmental impact assessment." },
+                            { title: "Orange Category", desc: "Moderate pollution potential; requires standard compliance and regular monitoring." },
+                            { title: "Green Category", desc: "Low pollution potential; faster clearance and simplified documentation." },
+                            { title: "White Category", desc: "Exempt from formal NOC but requires intimation and application submission." }
+                        ]
+                    }}
 
+                    advantages={{
+                        title: "Why Consent is Essential",
+                        subtitle: "Advantages of getting CTE early",
+                        list: [
+                            { title: "Regulatory Compliance", desc: "Adheres to environmental laws (Water & Air Acts), helping avoid penalties and project closures." },
+                            { title: "Sustainable Development", desc: "Promotes sustainability by ensuring industry operates within ecological limits from day one." },
+                            { title: "Health and Safety", desc: "Ensures the facility doesn't pose health hazards to the local community and ecosystems." },
+                            { title: "Positive Reputation", desc: "Demonstrates environmental consciousness, boosting brand value with investors and customers." },
+                            { title: "Access to Financing", desc: "A prerequisite for securing loans and financial assistance from major banks and institutions." },
+                            { title: "Operational Continuity", desc: "Prevents future legal roadblocks when transitioning from setup to active operations (CTO)." }
+                        ]
+                    }}
 
-                {/* 2. Pricing Section */}
-                <ConsentToEstablishPricing />
+                    documents={{
+                        title: "Documents Checklist",
+                        subtitle: "What you need for a successful CTE application",
+                        list: [
+                            { title: "Site Plan", desc: "Location plan of the industry highlighting boundaries and nearby landmarks." },
+                            { title: "Project Report", desc: "Details on raw materials, products, and capital cost of land/machinery." },
+                            { title: "Water Balance", desc: "Source of water, intake quantity, and wastewater generation/treatment plan." },
+                            { title: "Land Documents", desc: "Registration, Rent, or Lease deed proving legal possession of the site." },
+                            { title: "Pollution Controls", desc: "Details of Water or Air Pollution Control Instruments and designs." },
+                            { title: "Constitutional Docs", desc: "MOA/AOA, Partnership Deed, or Proprietorship documents as applicable." }
+                        ]
+                    }}
 
-                {/* 3. Details Section */}
-                <ConsentToEstablishDetails />
+                    process={{
+                        title: "Registration Procedure",
+                        subtitle: "Securing your establishment efficiently",
+                        steps: [
+                            { step: "01", title: "Portal Submission", desc: "Submit CFE application online via the respective State Pollution Control Board's OCMMS portal with required fees." },
+                            { step: "02", title: "Document Scrutiny", desc: "Regional Office (R.O.) scrutinizes submitted documents for consistency with local pollution norms." },
+                            { step: "03", title: "Site Inspection", desc: "Officials may perform a site visit to verify location suitability and proposed discharge points." },
+                            { step: "04", title: "Report Forwarding", desc: "Inspection report is forwarded to the approving authority for final review of the project." },
+                            { step: "05", title: "Issuance of CTE", desc: "Provisional CTE is typically issued within 100-120 days, allowing construction to begin." }
+                        ]
+                    }}
 
-                {/* 4. Why Opt for VyomBiz / Stats Section */}
-                <section className="w-full py-20 lg:py-32 bg-white overflow-hidden border-y border-slate-50">
-                    <div className="max-w-7xl mx-auto px-6">
-                        <div className="text-center mb-20 px-4">
-                            <h2 className="text-3xl lg:text-5xl font-black text-[#072b47] mb-6 leading-tight">Timeline & Impact</h2>
-                            <p className="text-[#005a9c] font-black uppercase tracking-[0.2em] text-xs lg:text-sm">"Securing your establishment efficiently"</p>
-                        </div>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                            <div className="bg-slate-50 p-10 lg:p-14 rounded-[3rem] border border-slate-100 shadow-xl">
-                                <h3 className="text-2xl font-black text-[#072b47] mb-8">Approval Timeline</h3>
-                                <p className="text-slate-600 font-medium text-lg mb-8 leading-relaxed">
-                                    The timeline for getting CTE from the Pollution Control Board is <strong className="text-[#005a9c] text-xl">100 to 120 days</strong> after filing the application. However, regulatory requests may extend this. Consult our experts to save time.
-                                </p>
-                                <div className="p-6 bg-white rounded-2xl border border-slate-200 shadow-sm">
-                                    <h4 className="font-black text-sm text-[#072b47] mb-3 border-b border-slate-100 pb-2">Why VyomBiz?</h4>
-                                    <ul className="text-sm font-bold text-slate-500 space-y-2">
-                                        <li>✓ Secured Consent for 500+ Projects</li>
-                                        <li>✓ 99% Success Rate in CTE Acquirement</li>
-                                        <li>✓ Saved Millions of Rupees & 2.5m+ Hours</li>
-                                        <li>✓ Direct Liaisons with 20+ Nodal Authorities</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="space-y-6">
-                                {[
-                                    { step: "Capital < 1 Lakh", title: "Rs. 400/- per annum" },
-                                    { step: "1 Lakh - 5 Lakhs", title: "Rs. 1,000/- per annum" },
-                                    { step: "5 Lakhs - 10 Lakhs", title: "Rs. 3,000/- per annum" },
-                                    { step: "10 Crores - 25 Crores", title: "Rs. 60,000/- per annum" },
-                                    { step: "> 2500 Crores", title: "Rs. 12,50,000/- per annum" }
-                                ].map((step, i) => (
-                                    <div key={i} className="flex gap-6 items-center bg-white p-6 rounded-2xl shadow-sm border border-slate-100 hover:shadow-lg transition-shadow group">
-                                        <div className="w-48 bg-blue-50 text-[#005a9c] font-black rounded-lg py-2 text-center text-sm shrink-0 border border-blue-100">
-                                            {step.step}
-                                        </div>
-                                        <span className="font-bold text-slate-700">{step.title}</span>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                    postCompliance={{
+                        title: "Validity & Penalties",
+                        subtitle: "Critical compliance windows",
+                        list: [
+                            { title: "CTE Validity", desc: "Generally issued for 3 to 5 years. Micro/Small Green projects may get up to 15 years." },
+                            { title: "Non-Compliance Risks", desc: "Defaults on Water/Air Act can lead to revocation of consent and immediate bank guarantee forfeit." },
+                            { title: "Revocation Notice", desc: "SPCB reserves the right to revoke consent if units fail to implement promised pollution control measures." },
+                            { title: "Timeline Note", desc: "The timeline for getting CTE is 100 to 120 days after filing the application on the OCMMS portal." }
+                        ]
+                    }}
+                />
 
-                {/* 5. FAQ Section */}
-                <ConsentToEstablishFAQ />
+                <FAQLayout
+                    title="Frequently Asked Questions"
+                    faqs={[
+                        {
+                            question: "What is Consent to Establish from PCB?",
+                            answer: "It is a mandatory pollutions NOC required before setting up any industrial plant to regulate air emissions and wastewater discharge."
+                        },
+                        {
+                            question: "Is Consent to Establish from SPCB mandatory?",
+                            answer: "Yes, under the Water Act and Air Act, no person shall establish or operate any industrial plant without the previous consent of the State Board."
+                        },
+                        {
+                            question: "What is the difference between CTO and CTE?",
+                            answer: "CTE (Establish) is obtained before setting up the industry. CTO (Operate) is obtained once the plant is established, allowing them to start operations."
+                        },
+                        {
+                            question: "What is the validity of Consent to Establish?",
+                            answer: "The CTE is generally issued for 3 to 5 years. For micro and small-scale green category projects, the validity can be further extended."
+                        },
+                        {
+                            question: "Can CTE be revoked after issuance?",
+                            answer: "Yes, the SPCB can revoke the certificate if the unit fails to comply with the Air Act (1981) or Water Act (1974) during construction."
+                        }
+                    ]}
+                />
 
-                {/* 6. Author & Similar Services */}
-                <section className="w-full py-20 lg:py-32 bg-slate-50">
-                    <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-stretch">
-
-                        <div className="lg:col-span-7 bg-white p-10 lg:p-14 rounded-[3rem] border border-slate-100 shadow-xl flex flex-col md:flex-row items-center md:items-start gap-10">
-                            <div className="w-28 lg:w-36 h-28 lg:h-36 rounded-[2.5rem] bg-[#005a9c]/5 flex items-center justify-center text-[#005a9c] text-4xl lg:text-5xl font-black shrink-0 shadow-inner border border-[#005a9c]/10">
-                                ND
-                            </div>
-                            <div className="text-center md:text-left">
-                                <h3 className="text-2xl lg:text-4xl font-black text-[#072b47] mb-2 leading-none">Neha Dawra</h3>
-                                <p className="text-[#005a9c] font-black uppercase tracking-[0.2em] text-[10px] lg:text-xs mb-6 inline-block bg-blue-50 px-3 py-1 rounded-full">Legal Researcher</p>
-                                <p className="text-slate-500 font-bold text-sm lg:text-base leading-relaxed mb-8 text-justify md:text-left">
-                                    Neha Dawra simplifies complex NOC registrations to deliver quick insights on the State Pollution Control standards, classification of industries (Red/Orange/Green), and OCMMS portal procedures.
-                                </p>
-                                <div className="pt-6 border-t border-slate-100 flex flex-col sm:flex-row sm:items-center gap-4 text-[11px] lg:text-[12px] font-black text-slate-400 uppercase tracking-widest italic">
-                                    <span>Last updated: Feb 20 2026</span>
-                                    <span className="hidden sm:block opacity-30">•</span>
-                                    <span>Verified by VyomBiz Legal Team</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="lg:col-span-5 bg-white p-10 lg:p-14 rounded-[3rem] border border-slate-100 shadow-xl flex flex-col">
-                            <h3 className="text-2xl lg:text-3xl font-black text-[#072b47] mb-10 flex items-center gap-4">
-                                <div className="w-2 h-10 bg-[#005a9c] rounded-full" />
-                                Similar Services
-                            </h3>
-                            <div className="grid grid-cols-1 gap-4 flex-1">
-                                {similarServices.map((service, i) => (
-                                    <div key={i} className="flex items-center justify-between p-5 bg-slate-50 rounded-2xl hover:bg-white hover:shadow-xl transition-all duration-300 group cursor-pointer border border-transparent hover:border-[#005a9c]/10">
-                                        <span className="text-[13px] lg:text-[15px] font-black text-slate-600 group-hover:text-[#005a9c] transition-colors line-clamp-1">{service}</span>
-                                        <ArrowRight size={18} className="text-slate-300 group-hover:text-[#005a9c] group-hover:translate-x-1 transition-all" />
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-
+                <ReviewsSection
+                    title="Client Success"
+                    subtitle="Trusted by 500+ projects for SPCB clearances."
+                    reviews={[
+                        {
+                            name: "Suresh Menon",
+                            role: "Project Manager",
+                            company: "Metals India",
+                            rating: 5,
+                            initials: "SM",
+                            text: "VyomBiz expedited our CTE application through the OCMMS portal. Their understanding of the Red Category requirements was impeccable."
+                        },
+                        {
+                            name: "Anita Desai",
+                            role: "CEO",
+                            company: "EcoPack Solutions",
+                            rating: 5,
+                            initials: "AD",
+                            text: "Secured our Green Category CTE in record time. The team handled all the documentation, from site plans to water balance reports."
+                        },
+                        {
+                            name: "Rajesh V.",
+                            role: "Director",
+                            company: "V-Tech Industries",
+                            rating: 4.8,
+                            initials: "RV",
+                            text: "Professional handling of our site inspection. VyomBiz clarified all regulatory queries from the SPCB officials effectively."
+                        }
+                    ]}
+                />
             </div>
-            <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#f8f9fa] to-transparent pointer-events-none z-10" />
         </div>
     );
 };

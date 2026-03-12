@@ -1,134 +1,175 @@
-import React from "react";
-import NOCPCBHero from "../../../components/environmental/NOCPCB/NOCPCBHero";
-import NOCPCBPricing from "../../../components/environmental/NOCPCB/NOCPCBPricing";
-import NOCPCBDetails from "../../../components/environmental/NOCPCB/NOCPCBDetails";
-import NOCPCBFAQ from "../../../components/environmental/NOCPCB/NOCPCBFAQ";
-import { ArrowRight, Star, Quote } from "lucide-react";
+import React from 'react';
+import HeroLayout from '../../../components/common/HeroLayout';
+import DetailsLayout from '../../../components/common/DetailsLayout';
+import FAQLayout from '../../../components/common/FAQLayout';
+import ReviewsSection from '../../../components/common/ReviewsSection';
 
-/**
- * NOC Pollution Control Board Page
- */
 const NOCPollutionControlBoard = () => {
-    // Similar Services Data
-    const similarServices = [
-        "CGWA-Water Boring",
-        "License for charging station in UP",
-        "Consent for Establishment (CFE)",
-        "Uttar Pradesh Pollution Control Board",
-        "E-waste License for Dismantling",
-        "Phase II Soil and Groundwater Investigations",
-        "Fire Department NOC",
-        "Delhi Pollution Control Committee"
-    ];
-
     return (
         <div className="bg-[#f8f9fa] min-h-screen relative font-sans">
             <div className="relative z-10 space-y-2 lg:space-y-4">
-                {/* 1. Hero Section */}
-                <NOCPCBHero />
+                <HeroLayout
+                    heroTitleMain="NOC Pollution"
+                    heroTitleSuffix="Control Board"
+                    heroDescription="Have you implemented pollution prevention and control measures for your business? Secure your NOC Pollution Control Board with VyomBiz and stay legally compliant. Join 43,000+ businesses who secured their NOC with our expert-led advisory."
+                    stats={[
+                        { count: "100K+", label: "Happy Customers" },
+                        { count: "3500+", label: "Expert Advisors" },
+                        { count: "50+", label: "Branch Offices" },
+                        { count: "10k+", label: "Pin codes" }
+                    ]}
+                    formTitle="Get Free Expert Consultation"
+                />
 
-                {/* Temporary Placeholder Images */}
-                <div className="max-w-7xl mx-auto px-6 py-10 w-full overflow-hidden">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800" alt="Environmental 1" className="w-full h-64 object-cover rounded-[2rem] shadow-xl" />
-                        <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&q=80&w=800" alt="Environmental 2" className="w-full h-64 object-cover rounded-[2rem] shadow-xl" />
-                        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800" alt="Environmental 3" className="w-full h-64 object-cover rounded-[2rem] shadow-xl" />
-                    </div>
-                </div>
+                <DetailsLayout
+                    overview={{
+                        title: "SPCB NOC —",
+                        highlightTitle: "Industry Consent",
+                        description: [
+                            "Obtaining an NOC (No Objection Certificate) from the State Pollution Control Board (SPCB) is a mandatory legal requirement before starting any industrial or commercial activity. The board overseen the maintenance of environmental standards for air and water quality.",
+                            "Under the provisions of the Water Pollution Act (1974) and Air Pollution Act (1981), businesses must obtain 'Consent to Establish' (CTE) before construction and 'Consent to Operate' (CTO) before starting production. This ensures that industrial growth does not come at the cost of ecological balance.",
+                            "Are you facing technical roadblocks in securing your pollution board NOC? Speak to VyomBiz consultants today and get your certificate with zero stress and maximum compliance."
+                        ],
+                        whyIdealTitle: "Who Needs It?",
+                        whyIdealList: [
+                            { title: "Manufacturing & Traders", desc: "Factories across all sectors including chemicals, textiles, and engineering." },
+                            { title: "Waste Entities", desc: "E-Waste, Solid Waste, and Hazardous waste management and recycling units." },
+                            { title: "Healthcare Centers", desc: "Hospitals, Clinics, and Pathological labs generating bio-medical waste." },
+                            { title: "Mining & Infrastructure", desc: "Large scale mining operations and infrastructure projects affecting natural resources." }
+                        ]
+                    }}
 
+                    advantages={{
+                        title: "Advantages of SPCB NOC",
+                        subtitle: "Compliance Fuels Responsible Growth",
+                        list: [
+                            { title: "Sustainable Development", desc: "Ensures industrial progress happens without disturbing the delicate ecological balance." },
+                            { title: "Resource Protection", desc: "Helps in the conservation of natural resources and prevents critical water/air degradation." },
+                            { title: "Legal Eligibility", desc: "Mandatory for applying for other statutory permits like trade licenses or factory registrations." },
+                            { title: "Market Reputation", desc: "Positions your brand as an environmentally responsible player in the global market." },
+                            { title: "Avoid Stiff Penalties", desc: "Protects your unit from heavy legal fines, imprisonment, or forced industrial closure." },
+                            { title: "Operational Continuity", desc: "Guarantees smooth business orchestration without fear of environmental audits/shuts." }
+                        ]
+                    }}
 
-                {/* 2. Pricing Section */}
-                <NOCPCBPricing />
+                    eligibility={{
+                        title: "Industry Categorization",
+                        subtitle: "CPCB/SPCB Pollution Index",
+                        list: [
+                            { title: "Red Category", desc: "High pollution load. Requires the most stringent emission control and frequent monitoring audits." },
+                            { title: "Orange Category", desc: "Moderate pollution load. Mandatory emission control gear and regular compliance reporting." },
+                            { title: "Green Category", desc: "Least impactful industries with minimal emissions; require standard consent for operations." },
+                            { title: "White Category", desc: "Environmentally benign industries. Generally exempt from formal consent, only require an undertaking." }
+                        ]
+                    }}
 
-                {/* 3. Main Details Section (Includes Floating Navbar) */}
-                <NOCPCBDetails />
+                    documents={{
+                        title: "Required Checklist",
+                        subtitle: "Essential paperwork for your NOC",
+                        list: [
+                            { title: "Entity Proof", desc: "PAN Card of the unit and Aadhar/ID of the authorized signatory or partners." },
+                            { title: "Operating Proof", desc: "Valid Factory License, Trade License, or Udyog Aadhaar registration." },
+                            { title: "Site Layout", desc: "Detailed engineering drawings of the site and the proposed business design." },
+                            { title: "Financial Cert", desc: "CA-verified letter stating the total project cost and capital investment." },
+                            { title: "Utility Records", desc: "Latest electricity and utility bills proof to verify the operational scale." },
+                            { title: "Technical Plans", desc: "ETP/STP design layouts and air pollution control (APC) arrangement specifications." }
+                        ]
+                    }}
 
-                {/* 4. Testimonials Section */}
-                <section className="w-full py-20 lg:py-32 bg-white overflow-hidden border-y border-slate-50">
-                    <div className="max-w-7xl mx-auto px-6">
-                        <div className="text-center mb-20 lg:mb-24 px-4">
-                            <h2 className="text-3xl lg:text-5xl font-black text-[#072b47] mb-6 leading-tight">Client Experiences</h2>
-                            <p className="text-[#005a9c] font-black uppercase tracking-[0.2em] text-xs lg:text-sm">Trusted by 10,000+ businesses across India.</p>
-                        </div>
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-12">
-                            {[1, 2, 3].map(i => (
-                                <div key={i} className="p-10 rounded-[3rem] bg-slate-50 border border-slate-100 shadow-sm relative group hover:bg-white hover:shadow-2xl transition-all duration-500">
-                                    <div className="absolute top-8 right-10 text-[#005a9c]/10 group-hover:text-[#005a9c]/20 transition-colors">
-                                        <Quote size={60} fill="currentColor" />
-                                    </div>
-                                    <div className="flex text-yellow-400 mb-8 gap-1">
-                                        {[...Array(5)].map((_, star) => <Star key={star} size={18} fill="currentColor" />)}
-                                    </div>
-                                    <p className="text-slate-600 font-bold text-base lg:text-lg italic mb-10 leading-relaxed relative z-10">
-                                        "Getting the SPCB NOC for our manufacturing unit was daunting until we consulted VyomBiz. Their regional team handled the CTE filing and inspection flawlessly."
-                                    </p>
-                                    <div className="flex items-center gap-5 pt-6 border-t border-slate-200">
-                                        <div className="w-12 h-12 lg:w-14 lg:h-14 rounded-full bg-slate-200 flex items-center justify-center font-black text-[#072b47] text-lg lg:text-xl shadow-inner uppercase">
-                                            {i === 1 ? "RM" : i === 2 ? "DK" : "SN"}
-                                        </div>
-                                        <div>
-                                            <span className="block font-black text-base text-[#072b47] leading-none mb-1">
-                                                {i === 1 ? "Rakesh Mishra" : i === 2 ? "Dinesh Kumar" : "Sunita Narayan"}
-                                            </span>
-                                            <span className="text-[10px] lg:text-[11px] font-black text-slate-400 uppercase tracking-widest leading-none">
-                                                {i === 1 ? "Plant Head" : i === 2 ? "Factory Owner" : "Compliance Director"}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </section>
+                    process={{
+                        title: "Step-by-Step Procedure",
+                        subtitle: "Clear path to environmental compliance",
+                        steps: [
+                            { step: "01", title: "Application Filing", desc: "Submit the primary application on the respective SPCB portal with accurate unit data." },
+                            { step: "02", title: "Technical Uploads", desc: "Attach proposed pollution control plans and specific technical drawings of emission points." },
+                            { step: "03", title: "Regional Review", desc: "Officers from the regional SPCB office conduct a physical site inspection of the premises." },
+                            { step: "04", title: "Compliance Scrutiny", desc: "The board processes the inspection report and verifies technical adequacy within 90-120 days." },
+                            { step: "05", title: "NOC Issuance", desc: "Final CTE or CTO certificate is issued upon successful verification of environmental gear." }
+                        ]
+                    }}
 
-                {/* 5. FAQ Section */}
-                <NOCPCBFAQ />
+                    postCompliance={{
+                        title: "Penalties & Timelines",
+                        subtitle: "Rules of the environmental acts",
+                        list: [
+                            { title: "Environmental Act", desc: "Non-compliance can lead to imprisonment up to 5 years and fines up to ₹1 Lakh per default." },
+                            { title: "Daily Penalties", desc: "Continual default after initial warning can lead to extra fines of ₹5,000 per day." },
+                            { title: "Hazardous Rules", desc: "Occupiers are strictly liable for heavy financial damages as levied by the State PCB." },
+                            { title: "Renewal Windows", desc: "Apply for CTO renewal at least 60-90 days before the expiry of the existing certificate." }
+                        ]
+                    }}
 
-                {/* 6. Author & Similar Services Section */}
-                <section className="w-full py-20 lg:py-32 bg-slate-50">
-                    <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-stretch">
+                    features={{
+                        title: "Why Choose VyomBiz?",
+                        subtitle: "Dominating Environmental Consulting in India",
+                        list: [
+                            { title: "10+ Years", desc: "A decade of core expertise in acquiring thousands of SPCB/CPCB clearances nationwide." },
+                            { title: "500+ Projects", desc: "Proven track record of assisting diverse industrial units in complex licensing needs." },
+                            { title: "End-to-End", desc: "Complete documentation, technical drawing support, and liaison until final certification." },
+                            { title: "75% Market Hold", desc: "India's leading brand in environmental compliance with widespread regional network." },
+                            { title: "Expert Pre-Audit", desc: "We conduct virtual and physical pre-audits to ensure your site is inspection-ready." },
+                            { title: "Regional Liaison", desc: "Dedicated local teams for every state board ensuring faster processing of files." }
+                        ]
+                    }}
+                />
 
-                        {/* Author Card */}
-                        <div className="lg:col-span-7 bg-white p-10 lg:p-14 rounded-[3rem] border border-slate-100 shadow-xl flex flex-col md:flex-row items-center md:items-start gap-10">
-                            <div className="w-28 lg:w-36 h-28 lg:h-36 rounded-[2.5rem] bg-[#005a9c]/5 flex items-center justify-center text-[#005a9c] text-4xl lg:text-5xl font-black shrink-0 shadow-inner border border-[#005a9c]/10">
-                                ND
-                            </div>
-                            <div className="text-center md:text-left">
-                                <h3 className="text-2xl lg:text-4xl font-black text-[#072b47] mb-2 leading-none">Neha Dawra</h3>
-                                <p className="text-[#005a9c] font-black uppercase tracking-[0.2em] text-[10px] lg:text-xs mb-6 inline-block bg-blue-50 px-3 py-1 rounded-full">Legal Researcher</p>
-                                <p className="text-slate-500 font-bold text-sm lg:text-base leading-relaxed mb-8 text-justify md:text-left">
-                                    Neha Dawra has 4+ years of experience in legal research and environmental advisory. Her expertise lies in analyzing IP and environmental laws, drafting structured legal content, and simplifying complex registration procedures.
-                                </p>
-                                <div className="pt-6 border-t border-slate-100 flex flex-col sm:flex-row sm:items-center gap-4 text-[11px] lg:text-[12px] font-black text-slate-400 uppercase tracking-widest italic">
-                                    <span>Last updated: Feb 20 2026</span>
-                                    <span className="hidden sm:block opacity-30">•</span>
-                                    <span>Verified by VyomBiz Legal Team</span>
-                                </div>
-                            </div>
-                        </div>
+                <FAQLayout
+                    title="Frequently Asked Questions"
+                    faqs={[
+                        {
+                            question: "What is NOC Pollution Control Board?",
+                            answer: "It is a mandatory legal consent (CTE/CTO) issued by the State Board to ensure industries meet environmental safety standards."
+                        },
+                        {
+                            question: "What are the common industrial categories?",
+                            answer: "CPCB classifies industries into Red, Orange, Green, and White categories based on their pollution index."
+                        },
+                        {
+                            question: "When should I apply for certificate renewal?",
+                            answer: "Ideally, you should apply for renewal at least 60-90 days before the expiry of your existing 'Consent to Operate'."
+                        },
+                        {
+                            question: "Is there any provision for exemption?",
+                            answer: "Only 'White Category' industries (Pollution Index 0-20) are generally exempt, though they may need to file an undertaking."
+                        },
+                        {
+                            question: "What is the validity of the Pollution NOC?",
+                            answer: "Validity ranges from 3 years for 'Red' category to 10 years for 'Green' industries, depending on state-specific norms."
+                        }
+                    ]}
+                />
 
-                        {/* Similar Services Card */}
-                        <div className="lg:col-span-5 bg-white p-10 lg:p-14 rounded-[3rem] border border-slate-100 shadow-xl flex flex-col">
-                            <h3 className="text-2xl lg:text-3xl font-black text-[#072b47] mb-10 flex items-center gap-4">
-                                <div className="w-2 h-10 bg-[#005a9c] rounded-full" />
-                                Similar Services
-                            </h3>
-                            <div className="grid grid-cols-1 gap-4 flex-1">
-                                {similarServices.map((service, i) => (
-                                    <div key={i} className="flex items-center justify-between p-5 bg-slate-50 rounded-2xl hover:bg-white hover:shadow-xl transition-all duration-300 group cursor-pointer border border-transparent hover:border-[#005a9c]/10">
-                                        <span className="text-[13px] lg:text-[15px] font-black text-slate-600 group-hover:text-[#005a9c] transition-colors line-clamp-1">{service}</span>
-                                        <ArrowRight size={18} className="text-slate-300 group-hover:text-[#005a9c] group-hover:translate-x-1 transition-all" />
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-
+                <ReviewsSection
+                    title="Industrial Trust"
+                    subtitle="Trusted by factories across 10,000+ pin codes."
+                    reviews={[
+                        {
+                            name: "Rakesh Mishra",
+                            role: "Plant Head",
+                            company: "Apex Manufacturing",
+                            rating: 5,
+                            initials: "RM",
+                            text: "Getting the SPCB NOC for our manufacturing unit was daunting until we consulted VyomBiz. Their regional team handled the CTE filing perfectly."
+                        },
+                        {
+                            name: "Dinesh Kumar",
+                            role: "Factory Owner",
+                            company: "DK Textiles",
+                            rating: 5,
+                            initials: "DK",
+                            text: "Very knowledgeable about the technical drawings required for the ETP. Their pre-audit helped us pass the board inspection in one go."
+                        },
+                        {
+                            name: "Sunita Narayan",
+                            role: "Compliance Director",
+                            company: "Green Pharma",
+                            rating: 4.8,
+                            initials: "SN",
+                            text: "Excellent liaison support. They simplified the complex hazardous waste rules for us and got our CTO renewed without delays."
+                        }
+                    ]}
+                />
             </div>
-            {/* Gradient fade to footer */}
-            <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#f8f9fa] to-transparent pointer-events-none z-10" />
         </div>
     );
 };

@@ -1,131 +1,149 @@
-import React from "react";
-import EWasteDismantlingHero from "../../../components/environmental/EWasteDismantling/EWasteDismantlingHero";
-import EWasteDismantlingPricing from "../../../components/environmental/EWasteDismantling/EWasteDismantlingPricing";
-import EWasteDismantlingDetails from "../../../components/environmental/EWasteDismantling/EWasteDismantlingDetails";
-import EWasteDismantlingFAQ from "../../../components/environmental/EWasteDismantling/EWasteDismantlingFAQ";
-import { ArrowRight, Star, Quote } from "lucide-react";
+import React from 'react';
+import HeroLayout from '../../../components/common/HeroLayout';
+import DetailsLayout from '../../../components/common/DetailsLayout';
+import FAQLayout from '../../../components/common/FAQLayout';
+import ReviewsSection from '../../../components/common/ReviewsSection';
 
 const EWasteLicenseForDismantling = () => {
-    const similarServices = [
-        "Uttar Pradesh Pollution Control Board",
-        "Delhi Pollution Control Committee",
-        "NOC Pollution Control Board",
-        "Fire Department NOC",
-        "EV Charging Station License in UP",
-        "Consent for Establishment (CFE) from SPCB",
-        "Phase II Soil and Groundwater Investigations",
-        "CGWA-Water Boring"
-    ];
-
     return (
         <div className="bg-[#f8f9fa] min-h-screen relative font-sans">
             <div className="relative z-10 space-y-2 lg:space-y-4">
-                {/* 1. Hero Section */}
-                <EWasteDismantlingHero />
+                <HeroLayout
+                    heroTitleMain="E-waste License"
+                    heroTitleSuffix="for Dismantling"
+                    heroDescription="Do you wish to start Dismantling E-Waste but are not sure about the licensing requirements? Connect with VyomBiz to obtain an E-waste License for Dismantling. 199 out of 200 dismantlers are successfully running their businesses after securing the license with us."
+                    stats={[
+                        { count: "100K+", label: "Happy Customers" },
+                        { count: "3500+", label: "Expert Advisors" },
+                        { count: "50+", label: "Branch Offices" },
+                        { count: "99.5%", label: "Success Rate" }
+                    ]}
+                    formTitle="Get Free Expert Consultation"
+                />
 
-                {/* Temporary Placeholder Images */}
-                <div className="max-w-7xl mx-auto px-6 py-10 w-full overflow-hidden">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800" alt="Environmental 1" className="w-full h-64 object-cover rounded-[2rem] shadow-xl" />
-                        <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&q=80&w=800" alt="Environmental 2" className="w-full h-64 object-cover rounded-[2rem] shadow-xl" />
-                        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800" alt="Environmental 3" className="w-full h-64 object-cover rounded-[2rem] shadow-xl" />
-                    </div>
-                </div>
+                <DetailsLayout
+                    overview={{
+                        title: "E-waste License —",
+                        highlightTitle: "Dismantling Overview",
+                        description: [
+                            "If you are a dismantler with a desire to protect human health and the environment from the adverse effects of hazardous wastes, securing an e-waste license for dismantling is essential. Electronic waste releases harmful chemicals like lead, chromium, and PVC.",
+                            "Collecting, dismantling, and recycling such waste is critical for sustainable growth. The license ensures that hazardous components are separated legally and safely before being sent to authorized recyclers.",
+                            "Encountering challenges in obtaining your e-waste license? Let VyomBiz experts help you overcome regulatory hurdles in one go."
+                        ],
+                        whyIdealTitle: "Who is Eligible?",
+                        whyIdealList: [
+                            { title: "Individuals", desc: "Entrepreneurs starting a new solo dismantling unit." },
+                            { title: "Registered Societies", desc: "NGOs or community organizations involved in waste management." },
+                            { title: "Corporate Entities", desc: "Private limited or public companies establishing large-scale facilities." },
+                            { title: "Associations", desc: "Trade associations or designated agencies for waste collection." }
+                        ]
+                    }}
 
+                    advantages={{
+                        title: "Benefits of License",
+                        subtitle: "Promoting Sustainable Waste Management",
+                        list: [
+                            { title: "Preserves Resources", desc: "It helps to preserve natural resources by recovering valuable metals from discarded electronics." },
+                            { title: "Prevents Pollution", desc: "Prevents toxic spills and soil/water contamination caused by improper disposal of hazardous components." },
+                            { title: "Business Growth", desc: "Generates new growth and employment while ensuring full legal compliance with E-Waste rules." },
+                            { title: "Circular Economy", desc: "Contributes to the circular economy by re-introducing dismantled parts into the production cycle." }
+                        ]
+                    }}
 
-                {/* 2. Pricing Section */}
-                <EWasteDismantlingPricing />
+                    documents={{
+                        title: "Documents Required",
+                        subtitle: "Checklist for your dismantling authorization",
+                        list: [
+                            { title: "Authorized ID", desc: "Aadhar card and PAN copy of the authorized signatory of the unit." },
+                            { title: "Legal Residency", desc: "Electricity bill or utility proof of the unit's physical location." },
+                            { title: "Business License", desc: "Existing Factory License or Trade License of the facility." },
+                            { title: "Layout Plan", desc: "Detailed site plan highlighting dismantling and storage areas." },
+                            { title: "Company Docs", desc: "MOA/AOA or Partnership Deed if the entity is a company or firm." },
+                            { title: "Authorization", desc: "Board resolution authorizing the person for DPCC/SPCB communication." }
+                        ]
+                    }}
 
-                {/* 3. Details Section */}
-                <EWasteDismantlingDetails />
+                    process={{
+                        title: "Operational Requirements",
+                        subtitle: "Space & Process standards for dismantlers",
+                        steps: [
+                            { step: "01", title: "Site Selection", desc: "Ensure a minimum of 300 sq. meters for a 1T/day capacity unit with water-resistant roofing." },
+                            { step: "02", title: "De-dusting Setup", desc: "Install dismantling tables with suction hoods and bag filters to manage airborne particles." },
+                            { step: "03", title: "Manual Segregation", desc: "Conduct physical segregation of circuit boards, plastics, and batteries using wire cutters." },
+                            { step: "04", title: "Safe Storage", desc: "Establish separate containers for hazardous parts (lead batteries, mercury switches) as per rules." },
+                            { step: "05", title: "Reporting & Dispatch", desc: "Maintain logs of dismantled parts and ensure dispatch to only authorized e-waste recyclers." }
+                        ]
+                    }}
 
-                {/* 4. Timeline / Procedure Section */}
-                <section className="w-full py-20 lg:py-32 bg-white overflow-hidden border-y border-slate-50">
-                    <div className="max-w-7xl mx-auto px-6">
-                        <div className="text-center mb-20 px-4">
-                            <h2 className="text-3xl lg:text-5xl font-black text-[#072b47] mb-6 leading-tight">Timeline & Procedure</h2>
-                            <p className="text-[#005a9c] font-black uppercase tracking-[0.2em] text-xs lg:text-sm">"Securing your E-Waste License efficiently"</p>
-                        </div>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                            <div className="bg-slate-50 p-10 lg:p-14 rounded-[3rem] border border-slate-100 shadow-xl">
-                                <h3 className="text-2xl font-black text-[#072b47] mb-8">Timeline</h3>
-                                <p className="text-slate-600 font-medium text-lg mb-8 leading-relaxed">
-                                    It takes around <strong className="text-[#005a9c] text-xl">3 to 6 months</strong> to secure an E-waste License for Dismantling. The timeline may extend for regulatory reviews depending on your state limits.
-                                </p>
-                                <div className="p-6 bg-white rounded-2xl border border-slate-200 shadow-sm">
-                                    <h4 className="font-black text-sm text-[#072b47] mb-3 border-b border-slate-100 pb-2">Why VyomBiz?</h4>
-                                    <ul className="text-sm font-bold text-slate-500 space-y-2">
-                                        <li>✓ 10+ Years of Experience in Consulting</li>
-                                        <li>✓ Secured 150+ E-waste Licenses</li>
-                                        <li>✓ 99.5% Success Rate in Authorizations</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="space-y-6">
-                                {[
-                                    { step: 1, title: "File an Application with SPCB" },
-                                    { step: 2, title: "Obtain Prerequisites (CTE/CTO/GST)" },
-                                    { step: 3, title: "Submit Form IV Application" },
-                                    { step: 4, title: "Verification and Inspection" },
-                                    { step: 5, title: "Grant of License" }
-                                ].map((step) => (
-                                    <div key={step.step} className="flex gap-6 items-center bg-white p-6 rounded-2xl shadow-sm border border-slate-100 hover:shadow-lg transition-shadow group">
-                                        <div className="w-12 h-12 bg-blue-50 text-[#005a9c] font-black rounded-full flex items-center justify-center shrink-0 group-hover:bg-[#005a9c] group-hover:text-white transition-colors">
-                                            {step.step}
-                                        </div>
-                                        <span className="font-bold text-slate-700">{step.title}</span>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                    features={{
+                        title: "Why Choose VyomBiz?",
+                        subtitle: "Your partner in E-Waste sustainability",
+                        list: [
+                            { title: "SOP Guidance", desc: "We provide detailed Standard Operating Procedures for safe manual dismantling." },
+                            { title: "Compliance Liaison", desc: "Direct coordination with SPCB/DPCC for faster application processing." },
+                            { title: "Space Optimization", desc: "Expert advice on layout planning to meet the 300 sq. m. per ton requirement." },
+                            { title: "Documentation Support", desc: "End-to-end help with factory licenses and environmental undertakings." }
+                        ]
+                    }}
+                />
 
-                {/* 5. FAQ Section */}
-                <EWasteDismantlingFAQ />
+                <FAQLayout
+                    title="Frequently Asked Questions"
+                    faqs={[
+                        {
+                            question: "What is the dismantling of e-waste?",
+                            answer: "It is an authorization that allows a business to manually or mechanically dismantle electronic waste into parts like circuit boards, plastics, and batteries."
+                        },
+                        {
+                            question: "Why is a dismantling license crucial?",
+                            answer: "It authorizes you to legally separate hazardous components and ensures your activities protect the environment from toxic spills."
+                        },
+                        {
+                            question: "What is manual dismantling?",
+                            answer: "The process of opening electrical equipment with tools like screwdrivers for physical segregation of parts."
+                        },
+                        {
+                            question: "Is dismantling mandatory before recycling?",
+                            answer: "Yes, because mixed e-waste cannot go directly to a recycler without separating non-recyclable or toxic components first."
+                        },
+                        {
+                            question: "What are the space requirements?",
+                            answer: "A minimum of 300 square meters is required for a capacity of 1 ton per day to handle storage and processing."
+                        }
+                    ]}
+                />
 
-                {/* 6. Author & Similar Services Section */}
-                <section className="w-full py-20 lg:py-32 bg-slate-50">
-                    <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-stretch">
-
-                        <div className="lg:col-span-7 bg-white p-10 lg:p-14 rounded-[3rem] border border-slate-100 shadow-xl flex flex-col md:flex-row items-center md:items-start gap-10">
-                            <div className="w-28 lg:w-36 h-28 lg:h-36 rounded-[2.5rem] bg-[#005a9c]/5 flex items-center justify-center text-[#005a9c] text-4xl lg:text-5xl font-black shrink-0 shadow-inner border border-[#005a9c]/10">
-                                ND
-                            </div>
-                            <div className="text-center md:text-left">
-                                <h3 className="text-2xl lg:text-4xl font-black text-[#072b47] mb-2 leading-none">Neha Dawra</h3>
-                                <p className="text-[#005a9c] font-black uppercase tracking-[0.2em] text-[10px] lg:text-xs mb-6 inline-block bg-blue-50 px-3 py-1 rounded-full">Legal Researcher</p>
-                                <p className="text-slate-500 font-bold text-sm lg:text-base leading-relaxed mb-8 text-justify md:text-left">
-                                    Neha Dawra has 4+ years of experience in legal research and environmental compliance advisory. Her expertise lies in analyzing Waste Management Rules and simplifying e-waste handling procedures.
-                                </p>
-                                <div className="pt-6 border-t border-slate-100 flex flex-col sm:flex-row sm:items-center gap-4 text-[11px] lg:text-[12px] font-black text-slate-400 uppercase tracking-widest italic">
-                                    <span>Last updated: Feb 20 2026</span>
-                                    <span className="hidden sm:block opacity-30">•</span>
-                                    <span>Verified by VyomBiz Legal Team</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="lg:col-span-5 bg-white p-10 lg:p-14 rounded-[3rem] border border-slate-100 shadow-xl flex flex-col">
-                            <h3 className="text-2xl lg:text-3xl font-black text-[#072b47] mb-10 flex items-center gap-4">
-                                <div className="w-2 h-10 bg-[#005a9c] rounded-full" />
-                                Similar Services
-                            </h3>
-                            <div className="grid grid-cols-1 gap-4 flex-1">
-                                {similarServices.map((service, i) => (
-                                    <div key={i} className="flex items-center justify-between p-5 bg-slate-50 rounded-2xl hover:bg-white hover:shadow-xl transition-all duration-300 group cursor-pointer border border-transparent hover:border-[#005a9c]/10">
-                                        <span className="text-[13px] lg:text-[15px] font-black text-slate-600 group-hover:text-[#005a9c] transition-colors line-clamp-1">{service}</span>
-                                        <ArrowRight size={18} className="text-slate-300 group-hover:text-[#005a9c] group-hover:translate-x-1 transition-all" />
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-
+                <ReviewsSection
+                    title="Dismantler Success Stories"
+                    subtitle="Trusted by leading waste management partners."
+                    reviews={[
+                        {
+                            name: "Rahul Khanna",
+                            role: "Unit Manager",
+                            company: "Khanna E-Waste",
+                            rating: 5,
+                            initials: "RK",
+                            text: "VyomBiz helped us plan our de-dusting system and site layout to meet the DPCC standards. Secured our license within 45 days."
+                        },
+                        {
+                            name: "Sandeep V.",
+                            role: "Director",
+                            company: "Eco-Dismantlers",
+                            rating: 5,
+                            initials: "SV",
+                            text: "Highly professional in handling company MOA and factory license documentation. They made e-waste compliance look easy."
+                        },
+                        {
+                            name: "Jaspreet Kaur",
+                            role: "Operations Head",
+                            company: "SafeRecycle",
+                            rating: 4.9,
+                            initials: "JK",
+                            text: "Their team explained the hazardous component storage rules perfectly. We are now running a fully compliant facility."
+                        }
+                    ]}
+                />
             </div>
-            <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#f8f9fa] to-transparent pointer-events-none z-10" />
         </div>
     );
 };
