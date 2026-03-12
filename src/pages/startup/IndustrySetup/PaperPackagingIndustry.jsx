@@ -27,19 +27,24 @@ const PaperPackagingOverview = () => {
                             Sustainable Industry
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Paper Packaging Industry – <span className="text-[#005a9c]">Business Growth</span>
+                            Overview of the Paper & Paperboard Packaging Industry
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The paper and paperboard packaging industry is at the forefront of the global movement towards sustainability. With the e-commerce and retail sectors rapidly growing, the demand for high-quality, recyclable packaging is higher than ever.
+                            The paper and paperboard packaging sector is one of the fastest-growing segments in India’s packaging industry. Increasing environmental awareness, government restrictions on plastic, and the rise of online retail have significantly boosted demand for sustainable packaging solutions.
                         </p>
-                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Starting a unit in this industry involves specialized machinery for pulping, molding, and finishing, along with strict adherence to environmental regulations regarding water management and sustainable fiber sourcing.
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-4">
+                            Businesses operating in this industry manufacture products such as:
                         </p>
-                        <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Industry Scope:
-                        </h3>
+                        <ul className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6 space-y-2">
+                            <li className="flex"><span className="text-[#005a9c] mr-2">•</span> Corrugated boxes</li>
+                            <li className="flex"><span className="text-[#005a9c] mr-2">•</span> Folding cartons</li>
+                            <li className="flex"><span className="text-[#005a9c] mr-2">•</span> Paper bags and pouches</li>
+                            <li className="flex"><span className="text-[#005a9c] mr-2">•</span> Kraft paper packaging</li>
+                            <li className="flex"><span className="text-[#005a9c] mr-2">•</span> Paperboard containers</li>
+                            <li className="flex"><span className="text-[#005a9c] mr-2">•</span> Custom retail packaging</li>
+                        </ul>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            India is witnessing a massive shift towards paper packaging, driven by both consumer preference and strict government bans on single-use plastics.
+                            The sector offers strong growth opportunities for manufacturers, exporters, and packaging solution providers. However, before starting operations, businesses must comply with several legal, environmental, and operational requirements. Vyombiz managed by Clink Consultancy Services Private Limited supports businesses through every stage of setting up a paper and paperboard packaging unit — from business registration to regulatory approvals and operational compliance.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -65,10 +70,10 @@ const PaperPackagingIndustryAdvantages = () => {
                         Why It Is Vital
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Strategic Benefits
+                        Why Start a Paper & Paperboard Packaging Business?
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Why invest in paper packaging manufacturing?
+                        The market shifts are providing enormous opportunities for sustainable practices.
                     </p>
                     <div className="mt-10">
                         <img
@@ -82,12 +87,10 @@ const PaperPackagingIndustryAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Eco-Friendly Branding", desc: "Align with the global push for environmental sustainability." },
-                        { title: "High Scalability", desc: "Can start from small corrugated units to large-scale board mills." },
-                        { title: "Govt. Support", desc: "Access to various green industry incentives and MSME schemes." },
-                        { title: "Consistent Demand", desc: "Packaging is an essential component across all consumer segments." },
-                        { title: "Fiber Flexibility", desc: "Use of recycled fibers or sustainably sourced virgin pulp." },
-                        { title: "Market Versatility", desc: "Cater to food, pharmaceuticals, and consumer electronics sectors." }
+                        { title: "Growing Demand for Sustainable Packaging", desc: "Governments and consumers are actively shifting towards eco-friendly packaging solutions, increasing demand for paper-based packaging products." },
+                        { title: "Rapid Growth of E-commerce", desc: "Online retail requires large volumes of corrugated boxes and protective packaging materials." },
+                        { title: "Diverse Industry Applications", desc: "Paper packaging is used across multiple sectors including FMCG, food delivery, pharmaceuticals, electronics, cosmetics, and logistics." },
+                        { title: "Export Opportunities", desc: "Indian paper packaging manufacturers have increasing demand from international markets due to cost efficiency and sustainability standards." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -106,21 +109,21 @@ const PaperPackagingIndustryAdvantages = () => {
 
 const PaperPackagingIndustryEligibility = () => {
     const list = [
-        { title: "Business Incorporation", desc: "Registering as a Pvt Ltd Company or an LLP." },
-        { title: "Pollution Clearance", desc: "CTE/CTO for water and air management standards." },
-        { title: "Factory License", desc: "Certification for workshop and worker safety." },
-        { title: "Fire Safety", desc: "Mandatory NOC from the local Fire Department." },
-        { title: "Quality Standards", desc: "BIS or ISO certifications for packaging durability." },
-        { title: "Labor Registration", desc: "Compliance with health and safety norms for industrial staff." }
+        { title: "Business Registration", desc: "Before starting manufacturing activities, businesses must register a legal entity such as Private Limited Company, LLP (Limited Liability Partnership), Partnership Firm, or Sole Proprietorship. A proper business structure ensures legal recognition, financial credibility, and operational flexibility." },
+        { title: "Factory License", desc: "Manufacturing units operating with machinery and labor must obtain a Factory License under the Factories Act to ensure workplace safety and compliance." },
+        { title: "Pollution Control Board Clearance", desc: "Paper manufacturing and packaging units must obtain consent from the State Pollution Control Board. This includes Consent to Establish (CTE) and Consent to Operate (CTO)." },
+        { title: "GST Registration", desc: "Businesses engaged in manufacturing and selling packaging products must obtain GST registration to legally supply goods and claim input tax credits." },
+        { title: "MSME (Udyam) Registration", desc: "Registering the unit as an MSME provides access to government subsidies, lower interest rates, and priority lending." },
+        { title: "Trade License", desc: "A trade license from the local municipal authority may be required to operate the manufacturing facility within the specified jurisdiction." }
     ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    What are the Eligibility Criteria for Paper Packaging Setup?
+                    Legal Requirements for Starting a Paper Packaging Business
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Ensuring legal and environmental compliance.
+                    Starting a paper and paperboard packaging unit requires several registrations and approvals depending on the scale of operations.
                 </p>
                 <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
                     {list.map((item, i) => (
@@ -132,7 +135,7 @@ const PaperPackagingIndustryEligibility = () => {
                 </div>
                 <div className="mt-12 text-center">
                     <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Check Your Eligibility Now
+                                Let's Get Your Business Registered
                             </Link>
                 </div>
             </div>
@@ -142,29 +145,34 @@ const PaperPackagingIndustryEligibility = () => {
 
 const PaperPackagingIndustryDocumentsSection = () => {
     const list = [
-        "Detailed Project Report (DPR)",
-        "Plant Layout and Machinery Details",
-        "Water Source and Effluent Treatment Plan",
-        "Raw Material Sourcing Agreements",
-        "Business Registration Certificates (MOA/AOA)",
-        "Land Possession Documents",
-        "Pollution Control Application Data",
-        "Fire Safety and Safety Management Plan"
+        "Identity and address proof of promoters",
+        "PAN card of the business entity",
+        "Business address proof",
+        "Rental agreement or property documents",
+        "NOC from property owner (if rented)",
+        "Electricity bill or utility proof",
+        "Detailed project report (in some cases)",
+        "Machinery and manufacturing details"
     ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Documents Required for Paper Packaging Setup
+                    Documents Required for Industry Setup
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Documentation required for industrial plant approval.
+                    To establish a paper packaging unit, the following documents are typically required:
                 </p>
                 <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
                     {list.map((item, i) => (
-                        <li key={i}>{item}</li>
+                        <li key={i} className="flex">
+                            <span className="text-[#005a9c] mr-2">•</span> {item}
+                        </li>
                     ))}
                 </ul>
+                <p className="text-[17px] text-slate-600 leading-relaxed mt-6">
+                    The exact documentation requirements may vary depending on the scale of the business and state regulations.
+                </p>
             </div>
         </section>
     );
@@ -172,21 +180,22 @@ const PaperPackagingIndustryDocumentsSection = () => {
 
 const PaperPackagingIndustryProcessSection = () => {
     const steps = [
-        { title: "Market Analysis", desc: "Determining target sectors and product range (Boxes, Bags, etc.)." },
-        { title: "Site & Sourcing", desc: "Finalizing location and raw material (waste paper/pulp) supply." },
-        { title: "Regulatory Filing", desc: "Applying for Pollution and Factory licenses online." },
-        { title: "Installation", desc: "Setting up pulpers, corrugators, and printing machinery." },
-        { title: "Certification", desc: "Obtaining quality and eco-label certifications for the market." }
+        { title: "Business Structure Registration", desc: "The first step is registering the appropriate legal structure based on business goals, capital requirements, and scalability plans." },
+        { title: "Location and Factory Setup", desc: "A suitable industrial location must be selected with access to logistics, raw materials, and utilities such as electricity and water." },
+        { title: "Environmental Compliance", desc: "Applications for pollution control approvals must be submitted to the respective state authority." },
+        { title: "Licensing and Registrations", desc: "Relevant registrations such as GST, MSME, and trade licenses must be obtained before commencing operations." },
+        { title: "Machinery Installation", desc: "Machinery for corrugation, die-cutting, printing, and packaging must be installed and tested for manufacturing operations." },
+        { title: "Operational Compliance", desc: "Businesses must maintain compliance with labor laws, environmental regulations, and safety standards." }
     ];
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        How to Set Up a Paper Packaging Unit?
+                        Step-by-Step Process to Start a Paper & Paperboard Packaging Business
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        Guiding you through your packaging venture.
+                        A structured approach to establishing your unit successfully.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
@@ -196,7 +205,7 @@ const PaperPackagingIndustryProcessSection = () => {
                     <div className="lg:col-span-2">
                         {steps.map((step, index) => (
                             <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-200">
-                                <div className="text-[16px] font-semibold text-[#072b47]">{index + 1}.</div>
+                                <div className="text-[16px] font-semibold text-[#072b47]">Step {index + 1}</div>
                                 <div>
                                     <h3 className="text-[18px] font-semibold text-[#072b47]">{step.title}</h3>
                                     <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">{step.desc}</p>
@@ -204,9 +213,12 @@ const PaperPackagingIndustryProcessSection = () => {
                             </div>
                         ))}
                         <div className="border-t border-slate-200" />
-                        <div className="mt-12 text-center">
+                        <p className="text-[17px] text-slate-600 mt-6 leading-relaxed">
+                            Vyombiz managed by Clink Consultancy Services Private Limited streamlines this entire process so entrepreneurs can focus on building their business rather than navigating complex regulations.
+                        </p>
+                        <div className="mt-8 text-center">
                             <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Start Your Setup
+                                Start Your Setup Today
                             </Link>
                         </div>
                     </div>
@@ -217,29 +229,82 @@ const PaperPackagingIndustryProcessSection = () => {
 };
 
 const PaperPackagingIndustryFeaturesSection = () => {
-    const features = [
-        { title: "Packaging Specialists", desc: "Deep knowledge of the paper and pulp industry dynamics." },
-        { title: "Compliance Experts", desc: "Fast-tracking your Pollution and Industrial licenses." },
-        { title: "Resource Network", desc: "Connecting you with reliable machinery and raw material suppliers." },
-        { title: "End-to-End Guidance", desc: "Support from the first feasibility study to the final launch." },
-        { title: "MSME Scheme Support", desc: "Helping you leverage specialized government funding for packaging." },
-        { title: "Dedicated Support Team", desc: "Constant assistance for renewals and regulatory audits." }
+    const machinery = [
+        "Corrugation machine",
+        "Sheet cutting machine",
+        "Die cutting machine",
+        "Printing machine",
+        "Pasting and folding machine",
+        "Lamination machine"
     ];
+
+    const benefitsAssistance = [
+        "Avoid regulatory errors",
+        "Complete registrations faster",
+        "Ensure environmental compliance",
+        "Structure the business for long-term growth",
+        "Focus on operations and market expansion"
+    ];
+
+    const features = [
+        { title: "Complete business registration support", desc: "Setting up a proper legal entity for your operations." },
+        { title: "Factory and environmental licensing assistance", desc: "Handling complex manufacturing permits." },
+        { title: "Regulatory compliance guidance", desc: "Ensure your plant meets all government rules." },
+        { title: "Documentation and filing support", desc: "Thorough assistance in preparing required paperwork." },
+        { title: "Expert consultation for industry setup", desc: "Focus on your operations while we handle compliance." }
+    ];
+
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
+                
+                <div className="mb-14 grid grid-cols-1 lg:grid-cols-2 gap-12">
+                    <div>
+                        <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                            Key Machinery Used
+                        </h2>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                            A paper and paperboard packaging unit generally uses several types of machinery, including:
+                        </p>
+                        <ul className="space-y-3 mb-6">
+                            {machinery.map((item, index) => (
+                                <li key={index} className="flex items-center">
+                                    <ShieldCheck size={18} className="text-[#005a9c] mr-2" />
+                                    <span className="text-[17px] text-slate-600 leading-relaxed">{item}</span>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                            Benefits of Professional Assistance
+                        </h2>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                            Setting up a manufacturing business requires navigating multiple legal, regulatory, and operational procedures. Professional guidance helps reduce delays and compliance risks.
+                        </p>
+                        <ul className="space-y-3">
+                            {benefitsAssistance.map((item, index) => (
+                                <li key={index} className="flex items-start">
+                                    <div className="min-w-[8px] h-[8px] rounded-full bg-[#f59e0b] mt-2 mr-3" />
+                                    <span className="text-[17px] text-slate-600 leading-relaxed">{item}</span>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                </div>
+
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose VyomBiz
+                        Why Choose Vyombiz for Industry Setup?
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Your partner in sustainable manufacturing.
+                        Starting a manufacturing unit requires more than just registration — it requires proper planning, compliance, and operational readiness. Vyombiz managed by Clink Consultancy Services Private Limited offers:
                     </p>
                 </div>
                 <div>
                     {features.map((feature, index) => (
                         <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-300">
-                            <div className="text-[15px] font-semibold text-[#072b47]">{index + 1}.</div>
+                            <div className="text-[15px] font-semibold text-[#072b47]"><Package size={20} className="text-[#005a9c]" /></div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">{feature.title}</h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">{feature.desc}</p>
@@ -279,15 +344,15 @@ const PaperPackagingIndustry = () => {
             <HeroLayout
                 heroTitleMain="Paper & Paperboard"
                 heroTitleSuffix="Packaging Setup"
-                heroSubtitle="Sustainable Packaging for a Greener Future"
-                heroDescription="Tap into the booming eco-friendly packaging market. We provide complete setup solutions for paper and paperboard manufacturing units, from machinery sourcing to environmental clearances."
+                heroSubtitle="Build Your Paper & Paperboard Packaging Business the Right Way"
+                heroDescription="The demand for sustainable and eco-friendly packaging is growing rapidly across industries. From e-commerce and FMCG to food and pharmaceuticals, paper-based packaging is becoming the preferred alternative to plastic. Setting up a paper and paperboard packaging business involves regulatory approvals, company registration, factory compliance, pollution clearances, and industry licenses. With the right guidance, the process becomes faster and hassle-free."
                 whatsIncludedList={[
-                    "Plant Capacity & Design Analysis",
-                    "SPCB Pollution NOC Services",
-                    "Regulatory & Factory Licensing",
-                    "Machinery & Raw Material Sourcing",
-                    "Eco-Certification Advisory",
-                    "Customized Project Reporting"
+                    "Business Registration",
+                    "Factory License Assistance",
+                    "Pollution Control Clearance",
+                    "GST Registration",
+                    "MSME (Udyam) Registration",
+                    "Trade License Approvals"
                 ]}
                 stats={[
                     { count: "42K+", label: "Clients", icon: <FileText size={20} /> },

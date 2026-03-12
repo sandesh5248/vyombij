@@ -28,19 +28,16 @@ const CarbonBlackOverview = () => {
                             Industrial Setup
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Carbon Black Plant Setup – <span className="text-[#005a9c]">Business Overview</span>
+                            What is Carbon Black Manufacturing?
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Carbon black is a vital industrial component used globally in cell phones, PCs, and automotive products. With advancements in transportation and construction, the demand in India is surging, making it a highly rewarding sector for new manufacturing units.
+                            Carbon black is a fine black powder produced by the incomplete combustion of heavy petroleum products such as coal tar, ethylene cracking tar, or FCC tar. It is widely used as a reinforcing agent in tyres and rubber products and as a pigment in inks, plastics, and coatings.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Produced from hydrocarbons like natural gas or oil through partial combustion, carbon black comes in types like Furnace Black (most common), Acetylene Black (conductive), and Lampblack (specialty inks).
+                            Due to its industrial importance, carbon black production is considered a regulated manufacturing activity in India. Businesses must comply with environmental laws, factory regulations, and pollution control norms before starting operations.
                         </p>
-                        <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Market Potential:
-                        </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            India's carbon black market is valued at over $84 billion in 2024, driven by the massive automotive sector and infrastructure growth.
+                            When entrepreneurs set up such manufacturing facilities, they often rely on professional support to ensure all legal approvals and registrations are completed smoothly. Businesses choosing Vyombiz managed by Clink Consultancy Services Private Limited benefit from structured compliance assistance, documentation support, and regulatory guidance required for industrial setup.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -66,10 +63,10 @@ const CarbonBlackManufacturingAdvantages = () => {
                         Why It Is Vital
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of Setup
+                        Why Start a Carbon Black Manufacturing Business?
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Why invest in the carbon black manufacturing business?
+                        The demand for carbon black continues to grow globally due to increasing consumption in tyre manufacturing, automotive parts, plastics, and specialty chemicals.
                     </p>
                     <div className="mt-10">
                         <img
@@ -83,12 +80,12 @@ const CarbonBlackManufacturingAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Consistent High Demand", desc: "Steady needs across automotive, electronics, and packaging industries." },
-                        { title: "Customizable Production", desc: "Flexible processes tailored to specific specialty market requirements." },
-                        { title: "High-Profit Margins", desc: "Strong industrial demand ensures attractive returns on investment." },
-                        { title: "Scalable Infrastructure", desc: "Feasible for medium-scale operations with eco-friendly expansion potential." },
-                        { title: "Export Opportunities", desc: "India's cost-effective production is well-positioned for global markets." },
-                        { title: "Growth in Rubber Goods", desc: "Rising demand for conveyor belts, seals, and gaskets." }
+                        { title: "Rising demand", desc: "Rising demand from the rubber and tyre industry." },
+                        { title: "Growing usage", desc: "Growing usage in plastics, coatings, and printing inks." },
+                        { title: "Automobile expansion", desc: "Expansion of automobile manufacturing in India." },
+                        { title: "Export opportunities", desc: "Export opportunities in global industrial markets." },
+                        { title: "High scalability", desc: "High scalability for industrial manufacturing units." },
+                        { title: "Profitable venture", desc: "With the right setup, carbon black manufacturing can become a highly profitable and sustainable industrial venture." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -107,21 +104,22 @@ const CarbonBlackManufacturingAdvantages = () => {
 
 const CarbonBlackEligibility = () => {
     const list = [
-        { title: "Red Industry NOC", desc: "Compulsory Pollution NOC (CTE/CTO) from CPCB/SPCB." },
-        { title: "Business Registration", desc: "Incorporation as a Company or Partnership firm." },
-        { title: "Hazardous Waste License", desc: "Authorization for handling and storing hazardous materials." },
-        { title: "Industrial Licensing", desc: "Clearance from relevant authorities based on plant capacity." },
-        { title: "Safety Compliances", desc: "Building permits and mandatory fire safety approvals." },
-        { title: "Labor Compliance", desc: "Adherence to labor laws and employee health & safety regulations." }
+        { title: "Business Registration", desc: "A legal entity must be registered before starting the business. This may include: Private Limited Company, LLP Registration, Partnership Firm, Proprietorship." },
+        { title: "Factory License", desc: "Mandatory under the Factories Act for manufacturing units employing workers and operating machinery." },
+        { title: "Pollution Control Board Approval", desc: "Carbon black manufacturing requires strict environmental monitoring. Businesses must obtain: Consent to Establish (CTE), Consent to Operate (CTO)." },
+        { title: "GST Registration", desc: "Required for manufacturing companies involved in product supply and commercial transactions." },
+        { title: "Industrial License", desc: "Depending on the production capacity and nature of the manufacturing process." },
+        { title: "Fire & Safety NOC", desc: "Necessary due to high-temperature production processes and combustible materials." },
+        { title: "Local Municipal Trade License", desc: "Required to operate the facility at a specific location." }
     ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    What are the Eligibility Criteria for Carbon Black Plant Setup?
+                    Licenses & Registrations Required for Carbon Black Manufacturing
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Mandatory authorizations for legal operation.
+                    Since carbon black manufacturing involves chemical processing and emissions, multiple registrations and approvals are required before operations begin.
                 </p>
                 <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
                     {list.map((item, i) => (
@@ -131,9 +129,12 @@ const CarbonBlackEligibility = () => {
                         </p>
                     ))}
                 </div>
-                <div className="mt-12 text-center">
+                <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                    Handling these registrations requires proper documentation and coordination with authorities. Many businesses prefer structured assistance from Vyombiz managed by Clink Consultancy Services Private Limited to ensure the entire process remains legally compliant.
+                </p>
+                <div className="mt-8 text-center">
                     <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Check Your Eligibility Now
+                                Start Your Registration
                             </Link>
                 </div>
             </div>
@@ -143,29 +144,35 @@ const CarbonBlackEligibility = () => {
 
 const CarbonBlackDocumentsSection = () => {
     const list = [
-        "Business Layout Plan & Project Report",
-        "Detailed Manufacturing Process Flowchart",
-        "List of Machinery and Capital Investment Details",
-        "Land Ownership / Lease Proof",
-        "Water Source and Quantity Requirements",
-        "Waste Management and Pollution Control Plans",
-        "Certified Balance Sheet and CA Certificates",
-        "Consent Fees and Application Forms"
+        "PAN card and identity proof of directors/partners",
+        "Address proof of promoters",
+        "Business incorporation documents",
+        "Land ownership or lease agreement",
+        "Factory layout plan",
+        "Pollution control compliance documents",
+        "Machinery and equipment details",
+        "Fire safety compliance documents"
     ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Documents Required for Carbon Black Plant Setup
+                    Documents Required for Carbon Black Manufacturing Setup
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Documentation needed for environmental and industrial clearances.
+                    To complete registrations and approvals, businesses generally need the following documents:
                 </p>
                 <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
                     {list.map((item, i) => (
-                        <li key={i}>{item}</li>
+                        <li key={i} className="flex items-start">
+                             <div className="mr-3 mt-1 text-[#005a9c]"><ShieldCheck size={18} /></div>
+                             <span>{item}</span>
+                        </li>
                     ))}
                 </ul>
+                <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                    Preparing these documents accurately ensures faster approval from regulatory authorities.
+                </p>
             </div>
         </section>
     );
@@ -173,21 +180,22 @@ const CarbonBlackDocumentsSection = () => {
 
 const CarbonBlackProcessSection = () => {
     const steps = [
-        { title: "Technology Choice", desc: "Selecting the right process (Furnace, Acetylene, etc.) based on feedstock." },
-        { title: "Licensing", desc: "Obtaining mandatory environmental and industrial authorizations." },
-        { title: "Supply Chain", desc: "Establishing reliable sources for feedstock oils and natural gas." },
-        { title: "Installation", desc: "Setting up reactors, heaters, dryers, and pin mixers." },
-        { title: "Testing", desc: "Implementing a robust quality control lab for product standards." }
+        { title: "Business Structure Registration", desc: "Register the legal entity for operating the manufacturing business." },
+        { title: "Land & Location Selection", desc: "Choose an industrial zone or approved manufacturing area compliant with environmental regulations." },
+        { title: "Pollution Control Approval", desc: "Apply for environmental clearance and pollution control board permissions." },
+        { title: "Factory Setup & Equipment Installation", desc: "Install furnaces, reactors, cooling systems, and processing equipment required for production." },
+        { title: "Compliance Registrations", desc: "Obtain GST registration, factory license, fire safety approvals, and other mandatory permits." },
+        { title: "Production & Quality Compliance", desc: "Once approvals are secured, manufacturing operations can begin with proper quality control and safety protocols." }
     ];
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        How to Set Up a Carbon Black Plant?
+                        Step-by-Step Process to Start a Carbon Black Manufacturing Unit
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        Step-by-step guidance for plant establishment.
+                        Setting up a manufacturing plant involves technical planning, regulatory approvals, and infrastructure development.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
@@ -197,7 +205,7 @@ const CarbonBlackProcessSection = () => {
                     <div className="lg:col-span-2">
                         {steps.map((step, index) => (
                             <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-200">
-                                <div className="text-[16px] font-semibold text-[#072b47]">{index + 1}.</div>
+                                <div className="text-[16px] font-semibold text-[#072b47]">Step {index + 1}</div>
                                 <div>
                                     <h3 className="text-[18px] font-semibold text-[#072b47]">{step.title}</h3>
                                     <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">{step.desc}</p>
@@ -205,9 +213,12 @@ const CarbonBlackProcessSection = () => {
                             </div>
                         ))}
                         <div className="border-t border-slate-200" />
+                        <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                            Businesses seeking professional assistance for documentation, compliance filings, and regulatory approvals can rely on Vyombiz managed by Clink Consultancy Services Private Limited for structured support.
+                        </p>
                         <div className="mt-12 text-center">
                             <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Start Your Plant Setup
+                                Start Your Setup Now
                             </Link>
                         </div>
                     </div>
@@ -218,23 +229,82 @@ const CarbonBlackProcessSection = () => {
 };
 
 const CarbonBlackFeaturesSection = () => {
-    const features = [
-        { title: "Sector Expertise", desc: "Deep understanding of the carbon black industry with 10+ years experience." },
-        { title: "Environmental Gurus", desc: "Specialists in handling Red Category industry pollution clearances." },
-        { title: "End-to-End Support", desc: "From technology selection to post-incorporation compliance." },
-        { title: "High Success Rate", desc: "97% success in securing regulatory approvals for industrial plants." },
-        { title: "Resource Savings", desc: "Optimizing setup costs to save significant capital for entrepreneurs." },
-        { title: "Documentation Help", desc: "Hassle-free preparation of project reports and lab data." }
+    const compliance = [
+        "Air pollution control systems",
+        "Industrial waste management",
+        "Hazardous material handling protocols",
+        "Worker safety and factory compliance",
+        "Environmental monitoring and reporting"
     ];
+
+    const costs = [
+        "Land and industrial infrastructure",
+        "Manufacturing machinery and reactors",
+        "Pollution control equipment",
+        "Licensing and regulatory approvals",
+        "Labor and operational setup"
+    ];
+
+    const features = [
+        { title: "Business registration and legal setup", desc: "Setting up a proper legal entity for your operations." },
+        { title: "Industry-specific licensing support", desc: "Handling complex manufacturing permits." },
+        { title: "Pollution control board approvals", desc: "Ensuring environmental compliance for smooth operations." },
+        { title: "Factory license and compliance assistance", desc: "Managing documentation for factory setups." },
+        { title: "Regulatory documentation and filings", desc: "Thorough assistance in preparing required paperwork." },
+        { title: "End-to-end support for industrial business setup", desc: "Focus on your operations while we handle compliance." }
+    ];
+
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
+                
+                <div className="mb-14 grid grid-cols-1 lg:grid-cols-2 gap-12">
+                    <div>
+                        <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                            Compliance Requirements
+                        </h2>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                            Manufacturing units must follow strict environmental and safety standards to ensure sustainable operations. Important compliance areas include:
+                        </p>
+                        <ul className="space-y-3 mb-6">
+                            {compliance.map((item, index) => (
+                                <li key={index} className="flex items-start">
+                                    <div className="min-w-[8px] h-[8px] rounded-full bg-[#005a9c] mt-2 mr-3" />
+                                    <span className="text-[17px] text-slate-600 leading-relaxed">{item}</span>
+                                </li>
+                            ))}
+                        </ul>
+                        <p className="text-[17px] text-slate-600 leading-relaxed">
+                            Industrial manufacturers often require ongoing compliance support to manage regulatory filings and operational audits.
+                        </p>
+                    </div>
+                    <div>
+                        <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                            Cost of Setting Up
+                        </h2>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                            The investment required depends on several factors such as plant capacity, machinery, infrastructure, and regulatory approvals. Typical cost components include:
+                        </p>
+                        <ul className="space-y-3 mb-6">
+                            {costs.map((item, index) => (
+                                <li key={index} className="flex items-start">
+                                    <div className="min-w-[8px] h-[8px] rounded-full bg-[#f59e0b] mt-2 mr-3" />
+                                    <span className="text-[17px] text-slate-600 leading-relaxed">{item}</span>
+                                </li>
+                            ))}
+                        </ul>
+                        <p className="text-[17px] text-slate-600 leading-relaxed">
+                            A well-planned setup strategy helps businesses optimize investment and maintain regulatory compliance.
+                        </p>
+                    </div>
+                </div>
+
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose VyomBiz
+                        How Vyombiz Helps You Start a Carbon Black Manufacturing Business
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Expertise in high-impact industrial projects.
+                        Starting a chemical manufacturing unit involves legal, environmental, and regulatory complexities. Professional guidance helps reduce delays and ensures every compliance requirement is fulfilled correctly.
                     </p>
                 </div>
                 <div>
@@ -257,24 +327,24 @@ const CarbonBlackFeaturesSection = () => {
 const CarbonBlackManufacturing = () => {
     const faqs = [
         {
-            question: "Is carbon black manufacturing categorized under 'Red Industry'?",
-            answer: "Yes, carbon black production is classified as a 'Red Industry' by the CPCB due to its potential environmental impact, requiring strict pollution control (CTE/CTO) and hazardous waste clearances."
+            question: "Is carbon black manufacturing allowed in India?",
+            answer: "Yes, carbon black manufacturing is allowed, but businesses must obtain environmental clearances and regulatory approvals before starting operations."
         },
         {
-            question: "What is the primary technology used in manufacturing carbon black?",
-            answer: "The 'Furnace Black Process' is the most common method today due to its high yield and the ability to control particle size and shape. Other methods include the Lampblack and Acetylene Black processes."
+            question: "Is pollution control approval mandatory?",
+            answer: "Yes. Since the process involves emissions and industrial waste, approval from the Pollution Control Board is mandatory."
         },
         {
-            question: "Which industries drive the demand for carbon black in India?",
-            answer: "The automotive (tyre manufacturing) sector is the primary driver. It is also heavily used in plastics, printing inks, rubber products, and battery manufacturing."
+            question: "What industries use carbon black?",
+            answer: "Carbon black is widely used in tyre manufacturing, rubber products, plastics, coatings, inks, and electronics."
         },
         {
-            question: "What are the key licenses required for setup?",
-            answer: "Key licenses include Business Registration, Industrial License, Pollution NOC (CTE/CTO), Hazardous Waste Management Authorization, Factory License, and Fire Safety approvals."
+            question: "How long does it take to set up a carbon black manufacturing unit?",
+            answer: "The timeline depends on regulatory approvals, land availability, and factory setup. With proper compliance support, the process becomes significantly faster."
         },
         {
-            question: "Who can set up a carbon black manufacturing plant?",
-            answer: "Any individual, partnership firm, or corporate entity can set up a plant, provided they meet the regulatory standards, land ownership requirements, and environmental compliance norms."
+            question: "Can startups enter the carbon black manufacturing sector?",
+            answer: "Yes, entrepreneurs and industrial investors can start carbon black manufacturing businesses provided they meet regulatory and environmental requirements."
         }
     ];
 
@@ -284,16 +354,16 @@ const CarbonBlackManufacturing = () => {
             {/* ================= SECTION 1: HERO ================= */}
             <HeroLayout
                 heroTitleMain="Carbon Black"
-                heroTitleSuffix="Manufacturing Setup"
-                heroSubtitle="Driving Industrial & Automotive Innovation"
-                heroDescription="Tap into India's multi-billion dollar carbon black market. We offer end-to-end consulting for setting up high-yield manufacturing plants with full environmental and industrial compliance."
+                heroTitleSuffix="Manufacturing Setup in India"
+                heroSubtitle="Start Your Carbon Black Manufacturing Business"
+                heroDescription="Carbon black is a critical industrial material used in tyres, plastics, coatings, inks, and electronics. Setting up a carbon black manufacturing unit requires multiple approvals, environmental clearances, and regulatory registrations. With the right guidance, the process becomes faster, compliant, and scalable. Get end-to-end support for your carbon black manufacturing setup with expert guidance from industry professionals."
                 whatsIncludedList={[
-                    "Technology Selection Advisory",
-                    "Pollution Control (CTE/CTO) Liaison",
-                    "Hazardous Waste Authorization",
-                    "Reactor & Equipment Installation Support",
-                    "Business Integration & Licensing",
-                    "Project Report Preparation"
+                    "Business Registration",
+                    "Factory License Approval",
+                    "Pollution Control Board Clearance",
+                    "GST and Industrial Licensing",
+                    "Fire & Safety NOC",
+                    "Local Municipal Approvals"
                 ]}
                 stats={[
                     { count: "42K+", label: "Clients", icon: <Factory size={20} /> },
