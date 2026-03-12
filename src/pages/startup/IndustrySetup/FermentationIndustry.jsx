@@ -27,19 +27,16 @@ const FermentationIndustryOverview = () => {
                             Biotechnology
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Fermentation Industry – <span className="text-[#005a9c]">Technological Overview</span>
+                            What is the Fermentation Industry?
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Fermentation is one of the most versatile industrial processes, forming the backbone of the biotechnology and pharmaceutical sectors. It involves precisely controlled biological synthesis to create everything from life-saving medicines to organic food additives.
+                            The fermentation industry involves the controlled use of microorganisms such as bacteria, yeast, and fungi to produce valuable products. These processes are widely used in multiple sectors, including food production, pharmaceuticals, biofuels, and specialty chemicals.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Successful industry setup requires high-precision bioreactors (fermenters), specialized cooling systems, and rigorous downstream processing lines to ensure purity and high yield.
+                            Fermentation technology enables industries to produce high-value biological products at scale, making it a critical component of modern biotechnology and sustainable manufacturing.
                         </p>
-                        <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Industry Significance:
-                        </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The fermentation sector is crucial for India's self-reliance in 'Active Pharmaceutical Ingredients' (APIs) and high-value biotechnology products.
+                            Businesses in this sector often require strict regulatory approvals, environmental permissions, and specialized production infrastructure before operations can begin.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -62,13 +59,13 @@ const FermentationIndustryAdvantages = () => {
                 {/* LEFT SIDE (STICKY) */}
                 <div className="lg:sticky lg:top-28 h-fit self-start">
                     <span className="inline-block px-4 py-1.5 text-sm font-semibold bg-[#e6f0fa] text-[#005a9c] rounded-full mb-6">
-                        Why It Is Vital
+                        Growth Drivers
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Strategic Benefits
+                        Why the Fermentation Industry is Growing in India
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Why invest in bio-fermentation?
+                        India is emerging as a strong hub for fermentation-based manufacturing due to its expanding biotechnology ecosystem and rising demand for bio-based products.
                     </p>
                     <div className="mt-10">
                         <img
@@ -82,12 +79,11 @@ const FermentationIndustryAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "High Value Addition", desc: "Transforming low-cost raw materials into high-value bioactive products." },
-                        { title: "Sector Resilience", desc: "Critical role in healthcare and essential food industries." },
-                        { title: "Govt. Incentives", desc: "Access to 'PLI' schemes and specialized biotech parks." },
-                        { title: "Export Competitiveness", desc: "Major global demand for bio-pharmaceuticals from India." },
-                        { title: "Sustainable Tech", desc: "Using biological processes instead of harsh chemical synthesis." },
-                        { title: "Scalable Operations", desc: "Capability to start from pilot scales to massive industrial vats." }
+                        { title: "Rising Demand for Probiotics", desc: "Increasing demand for probiotics and fermented food products in the domestic and global market." },
+                        { title: "Biopharmaceutical Expansion", desc: "Expanding biopharmaceutical manufacturing sector to produce life-saving medicines." },
+                        { title: "Government Support", desc: "Government support for biotechnology and bio-economy initiatives through various schemes." },
+                        { title: "Sustainable Production", desc: "Increased focus on sustainable industrial production utilizing biological processes." },
+                        { title: "Industrial Growth", desc: "Significant growth in enzyme, biofuel, and organic chemical manufacturing sectors." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -98,6 +94,9 @@ const FermentationIndustryAdvantages = () => {
                             </p>
                         </div>
                     ))}
+                    <p className="text-[17px] text-slate-600 leading-relaxed mt-6 font-medium">
+                        With the right legal structure and compliance framework, entrepreneurs can tap into this rapidly expanding sector.
+                    </p>
                 </div>
             </div>
         </div>
@@ -106,33 +105,40 @@ const FermentationIndustryAdvantages = () => {
 
 const FermentationIndustryEligibility = () => {
     const list = [
-        { title: "GMP Certification", desc: "Good Manufacturing Practices mandatory for pharma and food units." },
-        { title: "Pollution NOC", desc: "Special emphasis on organic waste and water management." },
-        { title: "Drug / Food License", desc: "Permission from CDSCO or FSSAI based on the product type." },
-        { title: "Factory Registration", desc: "Ensuring workspace safety for technical and lab staff." },
-        { title: "Safety Approvals", desc: "Fire department NOC and industrial chemical safety certifications." },
-        { title: "R&D Approvals", desc: "Registration with the DSIR for potential tax benefits." }
+        "Company Registration or LLP Registration",
+        "MSME (Udyam) Registration",
+        "Factory License",
+        "FSSAI License (for food-based fermentation products)",
+        "Drug Manufacturing License (for pharmaceutical fermentation)",
+        "Pollution Control Board Clearance",
+        "Environmental Clearance",
+        "GST Registration",
+        "Import Export Code (IEC) (for international trade)",
+        "Boiler and Industrial Safety Approvals"
     ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    What are the Eligibility Criteria for Fermentation Industry Setup?
+                    Licenses Required to Start a Fermentation Industry in India
                 </h2>
-                <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Adhering to strict medical and industrial norms.
+                <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                    Setting up a fermentation unit requires multiple licenses depending on the type of product being manufactured. Common registrations and approvals include:
                 </p>
-                <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-[17px] text-slate-600 leading-relaxed mb-8">
                     {list.map((item, i) => (
-                        <p key={i}>
-                            <span className="font-semibold text-[#072b47]">{item.title} – </span>
-                            {item.desc}
-                        </p>
+                        <div key={i} className="flex items-start">
+                            <div className="mr-3 mt-1 text-[#005a9c]"><ShieldCheck size={18} /></div>
+                            <span>{item}</span>
+                        </div>
                     ))}
                 </div>
+                <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
+                    The exact licensing structure depends on the scale of operations and product category.
+                </p>
                 <div className="mt-12 text-center">
                     <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Check Your Eligibility Now
+                                Start Your Legal Setup
                             </Link>
                 </div>
             </div>
@@ -142,14 +148,14 @@ const FermentationIndustryEligibility = () => {
 
 const FermentationIndustryDocumentsSection = () => {
     const list = [
-        "Detailed Bioprocess Flowchart and Project Report",
-        "Fermenter and Equipment Technical Specifications",
-        "Blueprint and Plant Layout (Certified)",
-        "Pollution Monitoring and Control Plan",
-        "Business Incorporation and MOA/AOA",
-        "Land Possession Documents",
-        "GMP / Quality Manual Drafts",
-        "Staff Qualification Certificates (for technical roles)"
+        "Identity and address proof of promoters",
+        "Business registration documents",
+        "PAN and Aadhaar of directors/partners",
+        "Land or lease agreement for manufacturing facility",
+        "Factory layout and infrastructure plan",
+        "Environmental compliance documents",
+        "Pollution control consent applications",
+        "Product details and manufacturing process information"
     ];
     return (
         <section className="w-full py-12 bg-white">
@@ -158,13 +164,18 @@ const FermentationIndustryDocumentsSection = () => {
                     Documents Required for Fermentation Industry Setup
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Documentation for biotech and pharma plant setup.
+                    The documentation required for setting up a fermentation manufacturing unit typically includes:
                 </p>
                 <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
                     {list.map((item, i) => (
-                        <li key={i}>{item}</li>
+                        <li key={i} className="flex">
+                            <span className="text-[#005a9c] mr-2">•</span> {item}
+                        </li>
                     ))}
                 </ul>
+                <p className="text-[17px] text-slate-600 leading-relaxed mt-6">
+                    Preparing these documents correctly helps avoid delays during approval processes.
+                </p>
             </div>
         </section>
     );
@@ -172,21 +183,21 @@ const FermentationIndustryDocumentsSection = () => {
 
 const FermentationIndustryProcessSection = () => {
     const steps = [
-        { title: "Strain Selection", desc: "Finalizing the microbial host and raw material (substrate) strategy." },
-        { title: "Design", desc: "Engineering the fermentation hall and downstream processing suites." },
-        { title: "Compliance", desc: "Filing for Drug, Food, and Environmental licenses simultaneously." },
-        { title: "Installation", desc: "Setting up fermenters, centrifuges, and filtration systems." },
-        { title: "Scale-up", desc: "Pilot runs followed by full commercial scale production." }
+        { title: "Business Structure Registration", desc: "The first step is registering the legal entity—such as a Private Limited Company, LLP, or Partnership Firm—to operate the business." },
+        { title: "Location & Infrastructure Planning", desc: "Fermentation units require specialized facilities such as fermentation tanks, sterilization equipment, and controlled environments." },
+        { title: "Regulatory Approvals", desc: "Approvals from authorities such as pollution control boards, food safety regulators, and drug authorities may be required depending on the product category." },
+        { title: "License Applications", desc: "All industry-specific registrations and operational licenses must be obtained before production begins." },
+        { title: "Compliance & Documentation", desc: "Proper documentation related to safety standards, environmental compliance, and manufacturing processes must be maintained." }
     ];
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        How to Set Up a Fermentation Industry Unit?
+                        Step-by-Step Process to Set Up a Fermentation Industry
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        Our systematic approach to bio-manufacturing.
+                        Setting up a fermentation business involves several structured stages.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
@@ -196,7 +207,7 @@ const FermentationIndustryProcessSection = () => {
                     <div className="lg:col-span-2">
                         {steps.map((step, index) => (
                             <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-200">
-                                <div className="text-[16px] font-semibold text-[#072b47]">{index + 1}.</div>
+                                <div className="text-[16px] font-semibold text-[#072b47]">Step {index + 1}</div>
                                 <div>
                                     <h3 className="text-[18px] font-semibold text-[#072b47]">{step.title}</h3>
                                     <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">{step.desc}</p>
@@ -204,9 +215,12 @@ const FermentationIndustryProcessSection = () => {
                             </div>
                         ))}
                         <div className="border-t border-slate-200" />
-                        <div className="mt-12 text-center">
+                        <p className="text-[17px] text-slate-600 leading-relaxed mt-6">
+                            Vyombiz managed by Clink Consultancy Services Private Limited assists businesses throughout the entire process—from documentation to final approval.
+                        </p>
+                        <div className="mt-8 text-center">
                             <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Start Your Setup
+                                Start Your Setup Today
                             </Link>
                         </div>
                     </div>
@@ -217,29 +231,89 @@ const FermentationIndustryProcessSection = () => {
 };
 
 const FermentationIndustryFeaturesSection = () => {
-    const features = [
-        { title: "Biotech Specialists", desc: "Deep understanding of bioprocessing and medical manufacturing." },
-        { title: "Liaison with Authorities", desc: "Expertise in CDSCO, FSSAI, and SPCB regulatory processes." },
-        { title: "Project Design Support", desc: "Assisting in building compliant, high-yield plant structures." },
-        { title: "End-to-End Guidance", desc: "Support from lab-scale concept to industrial commissioning." },
-        { title: "Quality Guarantee", desc: "Focusing on standards that ensure you meet GMP benchmarks." },
-        { title: "Global Perspective", desc: "Preparing your unit for both local compliance and international exports." }
+    const typesOfBusinesses = [
+        { title: "Food & Beverage Fermentation", desc: "Includes production of yogurt, cheese, kombucha, vinegar, fermented beverages, and probiotics." },
+        { title: "Pharmaceutical Fermentation", desc: "Used in the manufacturing of antibiotics, vaccines, insulin, and other biopharmaceutical products." },
+        { title: "Industrial Fermentation", desc: "Produces enzymes, organic acids, amino acids, and specialty chemicals used in multiple industries." },
+        { title: "Biofuel Fermentation", desc: "Used for producing ethanol and other biofuels from agricultural feedstocks." },
+        { title: "Agricultural Fermentation", desc: "Used to create biofertilizers, biopesticides, and microbial agricultural products." }
     ];
+
+    const compliances = [
+        "Periodic pollution control reporting",
+        "Factory safety compliance",
+        "Food safety or pharmaceutical regulatory audits",
+        "GST filings and financial compliance",
+        "Labor law compliance",
+        "Product quality and safety standards"
+    ];
+
+    const features = [
+        { title: "Expert consultation for fermentation industry setup", desc: "Guided advisory for optimal setup structure." },
+        { title: "Assistance with all licenses and registrations", desc: "End-to-end support for business operational licensing." },
+        { title: "End-to-end documentation support", desc: "Complete handling of all necessary setup paperwork." },
+        { title: "Regulatory compliance management", desc: "Ensuring all legal and environmental requirements are met." },
+        { title: "Faster processing and approval guidance", desc: "Expedited application handling." },
+        { title: "Dedicated business setup experts", desc: "A robust team to guide you through the process." }
+    ];
+
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
+                
+                <div className="grid lg:grid-cols-2 gap-16 mb-16">
+                    <div>
+                        <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                            Types of Fermentation Businesses
+                        </h2>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                            The fermentation industry covers a wide range of business models and product categories.
+                        </p>
+                        <div className="space-y-4">
+                            {typesOfBusinesses.map((item, index) => (
+                                <div key={index}>
+                                    <h4 className="font-semibold text-[#072b47] text-[17px]">{item.title}</h4>
+                                    <p className="text-[16px] text-slate-600 leading-relaxed">{item.desc}</p>
+                                </div>
+                            ))}
+                        </div>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mt-6">
+                            Each type of fermentation setup has specific regulatory and compliance requirements, making professional assistance crucial during the setup phase.
+                        </p>
+                    </div>
+                    <div>
+                        <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                            Compliance Requirements
+                        </h2>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                            Once the business is operational, maintaining compliance is essential to avoid regulatory issues. Key compliance requirements include:
+                        </p>
+                        <ul className="space-y-3 mb-8">
+                            {compliances.map((item, index) => (
+                                <li key={index} className="flex">
+                                    <span className="text-[#005a9c] mr-3 mt-1"><ShieldCheck size={18} /></span>
+                                    <span className="text-[17px] text-slate-600 leading-relaxed">{item}</span>
+                                </li>
+                            ))}
+                        </ul>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-4">
+                            <strong>Challenges in Setting Up:</strong> Businesses may face challenges like complex regulatory approvals, environmental clearance requirements, technical infrastructure planning, and high capital investment. With expert guidance, these challenges can be navigated efficiently.
+                        </p>
+                    </div>
+                </div>
+
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose VyomBiz
+                        Why Choose Vyombiz for Fermentation Industry Setup?
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Experts in biotech and regulatory complexity.
+                        Starting a fermentation business involves multiple regulatory steps that require expertise and proper documentation. Vyombiz managed by Clink Consultancy Services Private Limited provides end-to-end support to simplify the process.
                     </p>
                 </div>
                 <div>
                     {features.map((feature, index) => (
                         <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-300">
-                            <div className="text-[15px] font-semibold text-[#072b47]">{index + 1}.</div>
+                            <div className="text-[15px] font-semibold text-[#072b47]"><Dna size={20} className="text-[#005a9c]" /></div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">{feature.title}</h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">{feature.desc}</p>
@@ -275,19 +349,17 @@ const FermentationIndustry = () => {
 
     return (
         <div className="w-full bg-white font-sans text-[#1a1a1a]">
-            {/* ================= SECTION 1: HERO ================= */}
             <HeroLayout
-                heroTitleMain="Fermentation"
-                heroTitleSuffix="Industry Setup"
-                heroSubtitle="Harnessing Biotechnology for Progress"
-                heroDescription="Pioneer the future of bio-manufacturing. We provide comprehensive setup and regulatory consulting for fermentation-based units in pharmaceuticals, food, and high-tech biotechnology."
+                heroTitleMain="Fermentation Industry"
+                heroTitleSuffix="Setup"
+                heroSubtitle="Build a compliant, scalable fermentation-based manufacturing business with expert guidance."
+                heroDescription="India’s fermentation industry is rapidly expanding across food processing, biotechnology, pharmaceuticals, enzymes, and sustainable chemicals. Setting up a fermentation unit requires careful planning, regulatory approvals, environmental compliance, and industry-specific licenses. Vyombiz managed by Clink Consultancy Services Private Limited helps entrepreneurs, manufacturers, and biotech innovators establish fermentation-based businesses smoothly."
                 whatsIncludedList={[
-                    "Bioprocess & Plant Design Advisory",
-                    "Drug & Food Licensing (FSSAI/Drug License)",
-                    "GMP & Quality Certification Support",
-                    "Environmental Compliance (Pollution NOC)",
-                    "Microbial Sourcing & Strain Strategy",
-                    "Project Feasibility Reports"
+                    "Company Registration",
+                    "Regulatory Approvals",
+                    "Environmental Compliance",
+                    "Industry Licensing",
+                    "Operational Setup Support"
                 ]}
                 stats={[
                     { count: "42K+", label: "Clients", icon: <FlaskConical size={20} /> },
