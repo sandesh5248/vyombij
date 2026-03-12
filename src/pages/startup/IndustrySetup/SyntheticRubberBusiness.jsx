@@ -27,19 +27,16 @@ const SyntheticRubberOverview = () => {
                             Industrial Growth
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Synthetic Rubber Plant – <span className="text-[#005a9c]">Strategic Setup</span>
+                            What is a Synthetic Rubber Business?
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Synthetic rubber is a critical material for the modern automotive, aerospace, and industrial sectors. With advancements in polymer science, the demand for specialty synthetic rubber variants is growing rapidly in India.
+                            Synthetic rubber is an artificially produced elastomer made from petrochemical feedstocks. It is widely used in automobile tires, footwear, industrial machinery, adhesives, medical products, and electrical insulation due to its durability and resistance to heat, chemicals, and abrasion.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Setting up a manufacturing plant involves navigating complex chemical processes and ensuring strict adherence to environmental safety protocols and industrial standards.
+                            The demand for synthetic rubber has grown significantly due to the expansion of industries like automotive manufacturing, infrastructure development, and industrial equipment production. Establishing a synthetic rubber manufacturing unit requires proper regulatory approvals, business registration, environmental clearances, and factory compliance.
                         </p>
-                        <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Strategic Goal:
-                        </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            To establish high-yield, sustainable production lines that meet the diverse needs of tire manufacturers and industrial goods producers.
+                            Vyombiz managed by Clink Consultancy Services Private Limited assists entrepreneurs in navigating the legal and regulatory framework required to establish and operate a synthetic rubber manufacturing business smoothly.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -65,10 +62,10 @@ const SyntheticRubberBusinessAdvantages = () => {
                         Business Benefits
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Why invest in synthetic rubber manufacturing?
+                        Why Start a Synthetic Rubber Manufacturing Business?
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Strong margins in the specialty elastomer segments.
+                        The synthetic rubber industry plays a critical role in modern manufacturing. With increasing demand from multiple sectors, this business offers strong long-term growth opportunities.
                     </p>
                     <div className="mt-10">
                         <img
@@ -82,12 +79,11 @@ const SyntheticRubberBusinessAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Growing Automotive Sector", desc: "Increased vehicle production directly drives tire and gasket demand." },
-                        { title: "Export Expansion", desc: "India is emerging as a global hub for chemical and polymer exports." },
-                        { title: "Technological Edge", desc: "Opportunity to implement advanced, efficient polymerization techniques." },
-                        { title: "Diverse Grade Sourcing", desc: "Flexibility to cater to specialized niche industrial markets." },
-                        { title: "Sustainable Practices", desc: "Adopting recycling and eco-friendly byproduct management." },
-                        { title: "Long-term ROI", desc: "Strong margins in the specialty elastomer segments." }
+                        { title: "High industrial demand", desc: "Synthetic rubber is widely used in automotive, construction, healthcare, and consumer goods industries." },
+                        { title: "Growing automobile sector", desc: "The tire manufacturing industry is one of the largest consumers of synthetic rubber." },
+                        { title: "Export opportunities", desc: "India exports various rubber products to global markets." },
+                        { title: "Technological advancements", desc: "Modern manufacturing technologies have improved production efficiency and product quality." },
+                        { title: "Government support for manufacturing", desc: "Government initiatives encouraging industrial production and domestic manufacturing provide favorable conditions for entrepreneurs." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -105,35 +101,36 @@ const SyntheticRubberBusinessAdvantages = () => {
 };
 
 const SyntheticRubberBusinessEligibility = () => {
-    const list = [
-        { title: "Pollution NOC", desc: "Mandatory CTE/CTO from the State Pollution Control Board." },
-        { title: "Factory License", desc: "Certification under the Factories Act for operational safety." },
-        { title: "Safety Audits", desc: "Regular industrial safety and chemical hazard assessments." },
-        { title: "Waste Management", desc: "Authorization for handling and disposal of chemical waste." },
-        { title: "DPIIT License", desc: "Industrial licensing based on the scale of production." },
-        { title: "Fire Safety", desc: "Comprehensive NOC from the Fire Department." }
-    ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    What are the Eligibility Criteria for Synthetic Rubber Business Setup?
+                    Types of Synthetic Rubber You Can Manufacture
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Regulatory framework for chemical manufacturing.
+                    There are several types of synthetic rubber products that manufacturers can produce depending on market demand and technical capability.
                 </p>
-                <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
-                    {list.map((item, i) => (
-                        <p key={i}>
-                            <span className="font-semibold text-[#072b47]">{item.title} – </span>
-                            {item.desc}
-                        </p>
-                    ))}
-                </div>
-                <div className="mt-12 text-center">
-                    <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Check Your Eligibility Now
-                            </Link>
+                <div className="space-y-6">
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-2">Styrene-Butadiene Rubber (SBR)</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed">One of the most widely used synthetic rubbers, commonly used in tire manufacturing and automotive components.</p>
+                    </div>
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-2">Nitrile Rubber (NBR)</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed">Known for its resistance to oils and chemicals, making it suitable for industrial seals, hoses, and gaskets.</p>
+                    </div>
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-2">Butyl Rubber (IIR)</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed">Highly resistant to air permeability and widely used in inner tubes and pharmaceutical closures.</p>
+                    </div>
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-2">Neoprene Rubber (CR)</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed">Popular for its resistance to heat, weather, and chemicals. Often used in industrial belts and protective equipment.</p>
+                    </div>
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-2">Ethylene Propylene Rubber (EPDM)</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed">Used extensively in roofing materials, electrical insulation, and automotive parts.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -142,27 +139,29 @@ const SyntheticRubberBusinessEligibility = () => {
 
 const SyntheticRubberBusinessDocumentsSection = () => {
     const list = [
-        "Detailed Project Report (DPR)",
-        "Manufacturing Process Flowchart",
-        "List of Raw Materials and Feedstock",
-        "Plant Layout and Site Map",
-        "Pollution Control Equipment Specifications",
-        "Business Incorporation Documents",
-        "Land Ownership / Lease Agreement",
-        "Safety and Hazard Management Plan"
+        "Identity proof of directors or partners",
+        "Address proof of promoters",
+        "Business address proof",
+        "Industrial land or lease agreement",
+        "Pollution control documentation",
+        "Factory layout and safety plan",
+        "Bank account details of the business entity"
     ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Documents Required for Synthetic Rubber Business Setup
+                    Documents Required for Synthetic Rubber Business Registration
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Essential documentation for project approval.
+                    To register and operate a synthetic rubber manufacturing business, certain documents are typically required. Proper documentation ensures faster processing of licenses and approvals.
                 </p>
                 <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
                     {list.map((item, i) => (
-                        <li key={i}>{item}</li>
+                        <li key={i} className="flex items-start">
+                             <div className="mr-3 mt-1 text-[#005a9c]"><ShieldCheck size={18} /></div>
+                             <span>{item}</span>
+                        </li>
                     ))}
                 </ul>
             </div>
@@ -172,21 +171,23 @@ const SyntheticRubberBusinessDocumentsSection = () => {
 
 const SyntheticRubberBusinessProcessSection = () => {
     const steps = [
-        { title: "Feasibility", desc: "Assessing feedstock availability and local market demand." },
-        { title: "Engineering", desc: "Finalizing plant design and machinery procurement." },
-        { title: "Licensing", desc: "Securing environmental and industrial authorizations." },
-        { title: "Commissioning", desc: "Installation of polymerization reactors and testing lines." },
-        { title: "Production", desc: "Launching commercial production with quality control." }
+        { title: "Market Research", desc: "Analyze demand, target industries, and competitor landscape." },
+        { title: "Business Entity Registration", desc: "Register a Private Limited Company, LLP, or other suitable legal structure." },
+        { title: "Location and Infrastructure Setup", desc: "Select an industrial zone and establish the manufacturing facility." },
+        { title: "Obtain Required Licenses", desc: "Apply for environmental approvals, factory license, and GST registration." },
+        { title: "Install Manufacturing Equipment", desc: "Set up machinery for rubber processing and polymer production." },
+        { title: "Compliance and Safety Setup", desc: "Ensure compliance with labor laws, safety standards, and industrial regulations." },
+        { title: "Begin Production and Distribution", desc: "Start manufacturing synthetic rubber products and supply them to industries." }
     ];
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        How to Set Up a Synthetic Rubber Business?
+                        Step-by-Step Process to Start a Synthetic Rubber Manufacturing Business
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        Our systematic approach to plant establishment.
+                        Starting a synthetic rubber business involves several structured steps.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
@@ -196,7 +197,7 @@ const SyntheticRubberBusinessProcessSection = () => {
                     <div className="lg:col-span-2">
                         {steps.map((step, index) => (
                             <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-200">
-                                <div className="text-[16px] font-semibold text-[#072b47]">{index + 1}.</div>
+                                <div className="text-[16px] font-semibold text-[#072b47]">Step {index + 1}</div>
                                 <div>
                                     <h3 className="text-[18px] font-semibold text-[#072b47]">{step.title}</h3>
                                     <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">{step.desc}</p>
@@ -204,9 +205,12 @@ const SyntheticRubberBusinessProcessSection = () => {
                             </div>
                         ))}
                         <div className="border-t border-slate-200" />
+                        <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                            Vyombiz managed by Clink Consultancy Services Private Limited supports businesses throughout each stage of this setup process.
+                        </p>
                         <div className="mt-12 text-center">
                             <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Start Your Setup
+                                Start Registration Process
                             </Link>
                         </div>
                     </div>
@@ -217,23 +221,76 @@ const SyntheticRubberBusinessProcessSection = () => {
 };
 
 const SyntheticRubberBusinessFeaturesSection = () => {
-    const features = [
-        { title: "Deep Industry Insight", desc: "Specialists in polymer and chemical business setups." },
-        { title: "Compliance Mastery", desc: "Handling complex environmental NOCs with a high success rate." },
-        { title: "Technology Partners", desc: "Connecting you with the best equipment providers." },
-        { title: "End-to-End Support", desc: "From project report to post-launch compliance assistance." },
-        { title: "Cost-Effective Solutions", desc: "Optimizing setup costs without compromising on quality." },
-        { title: "Dedicated Advisor", desc: "A single point of contact for all regulatory and technical queries." }
+    const registrations = [
+        { title: "Company or LLP Registration", desc: "Establishing a legal entity is the first step to starting a manufacturing business." },
+        { title: "GST Registration", desc: "Required for selling rubber products and conducting taxable business transactions." },
+        { title: "Factory License", desc: "Mandatory for operating a manufacturing unit under the Factories Act." },
+        { title: "Pollution Control Board Approval", desc: "Environmental clearance is necessary due to the chemical manufacturing process." },
+        { title: "Import Export Code (IEC)", desc: "Required if you plan to import raw materials or export finished rubber products." },
+        { title: "Trademark Registration", desc: "Protects your brand identity in the rubber manufacturing market." }
     ];
+
+    const challenges = [
+        { title: "High capital investment", desc: "Manufacturing facilities and machinery require substantial funding." },
+        { title: "Strict regulatory compliance", desc: "Environmental and safety regulations must be strictly followed." },
+        { title: "Raw material price fluctuations", desc: "Petrochemical-based inputs may experience price volatility." },
+        { title: "Technical expertise", desc: "Manufacturing synthetic rubber requires specialized knowledge and skilled workforce." }
+    ];
+
+    const features = [
+        { title: "Industry-focused expertise", desc: "Guidance tailored specifically for manufacturing businesses." },
+        { title: "End-to-end compliance management", desc: "From business registration to industrial licensing." },
+        { title: "Faster documentation processing", desc: "Efficient handling of approvals and registrations." },
+        { title: "Transparent and professional service", desc: "Clear communication and expert assistance throughout the process." }
+    ];
+
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
+                
+                <div className="mb-14">
+                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        Registrations Required for Synthetic Rubber Business in India
+                    </h2>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                        Starting a synthetic rubber manufacturing business requires several registrations and regulatory approvals to ensure compliance with Indian laws.
+                    </p>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                        {registrations.map((item, index) => (
+                            <div key={index} className="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+                                <h3 className="text-[18px] font-semibold text-[#072b47] mb-2">{item.title}</h3>
+                                <p className="text-[16px] text-slate-600 leading-relaxed">{item.desc}</p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+                <div className="mb-14">
+                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        Challenges in the Synthetic Rubber Industry
+                    </h2>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                        Although the industry offers high potential, entrepreneurs must consider certain challenges. With expert legal and regulatory guidance, these challenges can be managed effectively.
+                    </p>
+                    <div className="space-y-4">
+                        {challenges.map((item, index) => (
+                            <div key={index} className="flex items-start">
+                                <div className="min-w-[8px] h-[8px] rounded-full bg-[#005a9c] mt-2 mr-3" />
+                                <div>
+                                    <span className="font-semibold text-[#072b47]">{item.title}: </span>
+                                    <span className="text-slate-600">{item.desc}</span>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose VyomBiz
+                        Why Choose Vyombiz?
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Experts in chemical and industrial consulting.
+                        Entrepreneurs trust Vyombiz managed by Clink Consultancy Services Private Limited for reliable legal and compliance support.
                     </p>
                 </div>
                 <div>
@@ -256,20 +313,20 @@ const SyntheticRubberBusinessFeaturesSection = () => {
 const SyntheticRubberBusiness = () => {
     const faqs = [
         {
-            question: "What is Synthetic Rubber?",
-            answer: "Synthetic rubber is an artificial elastomer, usually synthesized from petroleum byproducts. It is designed to mimic or improve upon the properties of natural rubber, particularly in terms of heat resistance, chemical durability, and elasticity."
+            question: "Is synthetic rubber manufacturing profitable in India?",
+            answer: "Yes, the demand for synthetic rubber is increasing due to rapid growth in the automotive and industrial sectors."
         },
         {
-            question: "Is synthetic rubber manufacturing considered a 'Red Category' industry?",
-            answer: "Yes, similar to other chemical-heavy manufacturing processes, synthetic rubber production requires strict pollution control (CTE/CTO) and hazardous waste management authorizations from the SPCB/CPCB."
+            question: "Do I need environmental approval for this business?",
+            answer: "Yes. Synthetic rubber manufacturing involves chemical processes, so Pollution Control Board approval is required."
         },
         {
-            question: "What are the common applications of synthetic rubber?",
-            answer: "It is widely used in automotive tires, shoe soles, adhesives, sealants, gaskets, and various industrial hoses where high durability and chemical resistance are required."
+            question: "Which industries use synthetic rubber?",
+            answer: "Automotive, footwear, healthcare, construction, electronics, and industrial machinery industries rely heavily on synthetic rubber products."
         },
         {
-            question: "What are the key licenses required for setup?",
-            answer: "Key licenses include Business Incorporation, Factory License, Pollution NOC (CTE/CTO), Fire Department NOC, and Hazardous Waste Management Authorization."
+            question: "How long does it take to start a synthetic rubber manufacturing business?",
+            answer: "The timeline depends on business registration, land acquisition, and regulatory approvals, which may take several weeks to a few months."
         }
     ];
 
@@ -279,15 +336,15 @@ const SyntheticRubberBusiness = () => {
             <HeroLayout
                 heroTitleMain="Synthetic Rubber"
                 heroTitleSuffix="Business Setup"
-                heroSubtitle="Innovating the Elastomer Industry"
-                heroDescription="Enter the high-growth synthetic rubber market with our expert setup services. We manage everything from technology selection to complex environmental licensing for your manufacturing unit."
+                heroSubtitle="Start Your Synthetic Rubber Manufacturing Business in India"
+                heroDescription="Launch and legally establish your synthetic rubber manufacturing unit with complete regulatory support. From company registration to environmental approvals and factory compliance, get expert guidance at every step. Build a compliant and scalable rubber manufacturing business with confidence."
                 whatsIncludedList={[
-                    "Technology Licensing & Setup",
-                    "Environmental Clearance (Pollution NOC)",
-                    "Hazardous Waste Authorization",
-                    "Factory Act Compliance",
-                    "Supply Chain Integration",
-                    "BIS/ISO Certification Support"
+                    "Business Board Registration",
+                    "Environmental Clearance (Pollution Board)",
+                    "Factory Act Compliance & License",
+                    "GST and Import/Export Registration",
+                    "Trademark Registration",
+                    "Ongoing Regulatory Compliance"
                 ]}
                 stats={[
                     { count: "42K+", label: "Clients", icon: <Activity size={20} /> },

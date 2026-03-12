@@ -28,19 +28,19 @@ const ClinicalEstablishmentOverview = () => {
                             Regulatory Compliance
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Clinical Establishment Registration – <span className="text-[#005a9c]">An Overview</span>
+                            What is Clinical Establishment Registration?
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Clinical establishment registration is regulated under the Clinical Establishments (Registration & Regulation) Act, 2010. It is a mandatory process for all public and private healthcare facilities, including hospitals, clinics, dispensaries, and diagnostic centers.
+                            Clinical Establishment Registration is a mandatory legal requirement for healthcare facilities operating in many states in India under the Clinical Establishments (Registration and Regulation) Act, 2010. The purpose of this law is to regulate and standardize healthcare services across the country.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The goal is to create a digital registry at national, state, and district levels while ensuring that healthcare providers enhance their credibility and patient trust by operating within a standardized legal framework.
+                            The registration applies to establishments such as: Hospitals, Clinics, Diagnostic laboratories, Imaging centres, Nursing homes, Physiotherapy centres, and Daycare treatment centres.
                         </p>
-                        <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Key Objective:
-                        </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            To establish uniform standards for infrastructure, equipment, and human resources across India, ensuring quality care and transparency for every patient.
+                            This registration ensures that healthcare providers maintain minimum standards of infrastructure, facilities, patient care, and record management.
+                        </p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
+                            Vyombiz managed by Clink Consultancy Services Private Limited helps healthcare professionals and organizations complete the registration process efficiently while ensuring full legal compliance.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -66,10 +66,10 @@ const ClinicalEstablishmentAdvantages = () => {
                         Why It Is Vital
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Advantages of Registration
+                        Why Clinical Establishment Registration is Important
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Enhance your facility's reputation and ensure operational safety.
+                        Operating a healthcare facility without proper registration can lead to legal penalties and operational restrictions. Registration ensures transparency, patient safety, and standardized healthcare practices.
                     </p>
                     <div className="mt-10">
                         <img
@@ -78,17 +78,19 @@ const ClinicalEstablishmentAdvantages = () => {
                             className="w-full rounded-2xl shadow-xl"
                         />
                     </div>
+                    <p className="text-[17px] text-slate-600 leading-relaxed font-medium mt-8">
+                        Vyombiz managed by Clink Consultancy Services Private Limited simplifies this process by managing documentation, application filing, and regulatory compliance.
+                    </p>
                 </div>
 
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Legal Compliance", desc: "Ensures you operate within the legal framework, protecting against penalties." },
-                        { title: "Enhanced Credibility", desc: "Builds trust in the community, leading to increased patient volume." },
-                        { title: "Access to Resources", desc: "Facilitates access to government support and healthcare data resources." },
-                        { title: "Uniform Standards", desc: "Promotes consistency and quality in healthcare services across regions." },
-                        { title: "Better Management", desc: "Enables better allocation of resources through government-collected data." },
-                        { title: "Prevents Quackery", desc: "Protects patients from unqualified practitioners and harmful treatments." }
+                        { title: "Legal Compliance", desc: "Ensures your healthcare facility operates under government-approved regulations." },
+                        { title: "Improved Credibility", desc: "Registered establishments gain higher trust among patients and stakeholders." },
+                        { title: "Eligibility for Government Programs", desc: "Many government schemes and healthcare programs require registered establishments." },
+                        { title: "Standardized Healthcare Services", desc: "Helps maintain minimum standards for treatment, hygiene, and patient safety." },
+                        { title: "Professional Recognition", desc: "Adds legitimacy to your healthcare practice and improves institutional reputation." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -106,35 +108,37 @@ const ClinicalEstablishmentAdvantages = () => {
 };
 
 const ClinicalEstablishmentEligibility = () => {
-    const list = [
-        { title: "Facility Standards", desc: "Maintain the minimum prescribed facilities and service quality." },
-        { title: "Personnel Criteria", desc: "Ensure the presence of qualified staff as per medical guidelines." },
-        { title: "Record Keeping", desc: "Maintain and provide electronic medical records (EMR) for every patient." },
-        { title: "Treatment Guidelines", desc: "Compliance with Standard Treatment Guidelines issued by the government." },
-        { title: "Transparency", desc: "Display the registration certificate and service costs clearly." },
-        { title: "Resource Alignment", desc: "Maintain records and reporting requirements as per the Act." }
-    ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    What are the Eligibility Criteria for Clinical Establishment Registration?
+                    Who Needs Clinical Establishment Registration?
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Core standards to be maintained by the establishment.
+                    Clinical Establishment Registration is required for any entity providing medical diagnosis, treatment, or healthcare services. Even small healthcare setups must obtain registration before starting operations in states where the Act is applicable.
                 </p>
-                <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
-                    {list.map((item, i) => (
-                        <p key={i}>
-                            <span className="font-semibold text-[#072b47]">{item.title} – </span>
-                            {item.desc}
-                        </p>
-                    ))}
-                </div>
-                <div className="mt-12 text-center">
-                    <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Check Your Eligibility Now
-                            </Link>
+                <div className="space-y-6">
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm flex items-start">
+                        <div className="text-[#005a9c] mt-1 mr-4"><Building2 size={24} /></div>
+                        <div>
+                            <h3 className="text-xl font-semibold text-[#072b47] mb-2">Medical Services</h3>
+                            <p className="text-[17px] text-slate-600 leading-relaxed">Individual doctors running private clinics and multi-speciality hospitals.</p>
+                        </div>
+                    </div>
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm flex items-start">
+                        <div className="text-[#005a9c] mt-1 mr-4"><Stethoscope size={24} /></div>
+                        <div>
+                            <h3 className="text-xl font-semibold text-[#072b47] mb-2">Diagnostic Facilities</h3>
+                            <p className="text-[17px] text-slate-600 leading-relaxed">Diagnostic and pathology laboratories, and imaging centres (X-ray, MRI, CT scan).</p>
+                        </div>
+                    </div>
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm flex items-start">
+                        <div className="text-[#005a9c] mt-1 mr-4"><Briefcase size={24} /></div>
+                        <div>
+                            <h3 className="text-xl font-semibold text-[#072b47] mb-2">Specialized Care & In-patient Facilities</h3>
+                            <p className="text-[17px] text-slate-600 leading-relaxed">Dental clinics, physiotherapy and rehabilitation centres, nursing homes, maternity centres, and daycare surgical facilities.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -143,15 +147,15 @@ const ClinicalEstablishmentEligibility = () => {
 
 const ClinicalEstablishmentDocumentsSection = () => {
     const list = [
-        "Trade License Certificate",
-        "Pollution Clearance Certificate",
-        "Identity and Address Proof of the Owner",
-        "Qualification Certificate of the Person-in-Charge",
-        "Bio-medical Waste Disposal Agreement",
-        "Property Tax Receipt / Rent Agreement",
-        "Fire Department NOC",
-        "Partnership Deed / Society Registration (if applicable)",
-        "Proof of Registration Fee Payment"
+        "Identity and address proof of the applicant",
+        "Qualification certificates of doctors or medical professionals",
+        "Registration certificate of the medical practitioner",
+        "Address proof of the establishment",
+        "Layout plan of the clinic or hospital",
+        "Equipment and facility details",
+        "Staff details and qualifications",
+        "Fire safety certificate (if applicable)",
+        "Pollution control certificate (if required)"
     ];
     return (
         <section className="w-full py-12 bg-white">
@@ -160,13 +164,19 @@ const ClinicalEstablishmentDocumentsSection = () => {
                     Documents Required for Clinical Establishment Registration
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Essential paperwork for a successful application.
+                    To apply for registration, healthcare facilities must submit specific documents that verify their operational and professional credentials.
                 </p>
                 <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
                     {list.map((item, i) => (
-                        <li key={i}>{item}</li>
+                        <li key={i} className="flex items-start">
+                             <div className="mr-3 mt-1 text-[#005a9c]"><CheckCircle2 size={18} /></div>
+                             <span>{item}</span>
+                        </li>
                     ))}
                 </ul>
+                <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                    Vyombiz managed by Clink Consultancy Services Private Limited assists clients in preparing and organizing all documentation to ensure smooth approval.
+                </p>
             </div>
         </section>
     );
@@ -174,22 +184,21 @@ const ClinicalEstablishmentDocumentsSection = () => {
 
 const ClinicalEstablishmentProcessSection = () => {
     const steps = [
-        { title: "Eligibility Check", desc: "Verifying meeting all relevant state laws and criteria." },
-        { title: "Document Gathering", desc: "Collecting ID, property, and qualification documents." },
-        { title: "Online Submission", desc: "Filing the application on the State Health Department portal." },
-        { title: "Fee Payment", desc: "Paying the applicable fees based on establishment size." },
-        { title: "Verification", desc: "Facilitating document verification and physical inspection." },
-        { title: "Certification", desc: "Obtaining the final Clinical Establishment Certificate." }
+        { title: "Consultation and Eligibility Assessment", desc: "The process begins with reviewing the nature of the healthcare establishment and identifying applicable regulatory requirements." },
+        { title: "Document Preparation", desc: "All required documents related to the healthcare facility, professionals, and infrastructure are collected and verified." },
+        { title: "Application Filing", desc: "The registration application is submitted to the relevant state authority through the appropriate portal or department." },
+        { title: "Inspection (If Required)", desc: "Authorities may conduct an inspection of the facility to verify infrastructure, equipment, and service standards." },
+        { title: "Registration Approval", desc: "Once the verification process is complete, the Clinical Establishment Registration certificate is issued." }
     ];
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        How to Apply for Clinical Establishment Registration?
+                        Step-by-Step Process for Clinical Establishment Registration
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        Our simplified 6-step approach to compliance.
+                        The registration process involves verification of the healthcare facility, documentation review, and regulatory approval.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
@@ -207,9 +216,12 @@ const ClinicalEstablishmentProcessSection = () => {
                             </div>
                         ))}
                         <div className="border-t border-slate-200" />
+                        <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                            Vyombiz managed by Clink Consultancy Services Private Limited ensures that every step is handled professionally to minimize delays and compliance issues.
+                        </p>
                         <div className="mt-12 text-center">
                             <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Get Your Certificate
+                                Start Registration Process
                             </Link>
                         </div>
                     </div>
@@ -220,25 +232,51 @@ const ClinicalEstablishmentProcessSection = () => {
 };
 
 const ClinicalEstablishmentFeaturesSection = () => {
-    const features = [
-        { title: "Documentation Support", desc: "End-to-end help with complex documents like Pollution and Fire NOCs." },
-        { title: "Expert Assistance", desc: "Guidance from professionals with deep regulatory knowledge." },
-        { title: "Hassle-Free Filing", desc: "We handle the entire application process on your behalf." },
-        { title: "Ongoing Compliance", desc: "Support for renewals and post-registration statutory requirements." },
-        { title: "PAN India Service", desc: "Expertise in state-specific regulations across the country." },
-        { title: "Fast Response", desc: "Timely updates and quick resolution of queries." },
-        { title: "Proven Track Record", desc: "Successfully handled thousands of medical registration projects." },
-        { title: "Patient Safety Focus", desc: "Helping you align with standards that prioritize patient care." }
+    const complianceItems = [
+        "Maintaining proper patient records",
+        "Following hygiene and safety protocols",
+        "Displaying registration certificate at the facility",
+        "Adhering to standard treatment guidelines",
+        "Renewing registration as required by state regulations"
     ];
+
+    const features = [
+        { title: "Expert Legal Guidance", desc: "Experienced professionals ensure that your application meets regulatory requirements." },
+        { title: "Complete Documentation Support", desc: "Assistance with preparing and verifying required documents." },
+        { title: "Fast and Efficient Processing", desc: "Streamlined application filing to reduce delays." },
+        { title: "Compliance Assurance", desc: "Guidance on maintaining healthcare regulatory standards." },
+        { title: "End-to-End Support", desc: "From consultation to certificate issuance, the entire process is handled professionally." }
+    ];
+
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
+                <div className="mb-14">
+                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        Compliance Requirements After Registration
+                    </h2>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                        Once the registration certificate is obtained, healthcare establishments must maintain regulatory standards. Key compliance obligations include:
+                    </p>
+                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside mb-6">
+                        {complianceItems.map((item, index) => (
+                            <li key={index}>{item}</li>
+                        ))}
+                    </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed">
+                        Failure to maintain compliance may result in penalties or suspension of registration.
+                    </p>
+                </div>
+
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose VyomBiz
+                        Why Choose Vyombiz for Clinical Establishment Registration?
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Your partner in healthcare compliance.
+                        Healthcare professionals often face regulatory complexities when registering their facilities. Professional assistance helps avoid errors, delays, and compliance risks.
+                    </p>
+                    <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed mt-4">
+                        Vyombiz managed by Clink Consultancy Services Private Limited provides structured legal support for healthcare facility registration and compliance management.
                     </p>
                 </div>
                 <div>
@@ -261,24 +299,24 @@ const ClinicalEstablishmentFeaturesSection = () => {
 const ClinicalEstablishment = () => {
     const faqs = [
         {
-            question: "How to secure clinic establishment act registration online?",
-            answer: "The process involves checking eligibility, gathering documents (Trade license, Pollution clearance, ID proof, etc.), submitting an online application to the state health department, paying fees, and undergoing verification and inspection."
+            question: "Is Clinical Establishment Registration mandatory?",
+            answer: "Yes, in states where the Clinical Establishments Act is implemented, all healthcare facilities must obtain registration before operating."
         },
         {
-            question: "What is the objective of the Clinic Establishment Act Registration?",
-            answer: "The primary objectives are to ensure mandatory registration of healthcare facilities, establish uniform standards for infrastructure and human resources, provide transparent information on services and costs, and enhance the accountability of healthcare providers."
+            question: "How long does the registration process take?",
+            answer: "The timeline may vary depending on the state authority and document verification process, but typically ranges from a few weeks to a couple of months."
         },
         {
-            question: "Who needs a Clinical Establishment Certificate?",
-            answer: "It is required for government and private hospitals, multi-specialty clinics, nursing homes, imaging centers, blood testing labs, dental clinics, and alternative medicine centers (Ayurvedic/Homoeopathic)."
+            question: "Can a small clinic apply for this registration?",
+            answer: "Yes. Even single-doctor clinics and small healthcare facilities must register under the Clinical Establishments Act where applicable."
         },
         {
-            question: "What are the common legal liabilities in clinical establishments?",
-            answer: "Common liabilities include medical negligence, diagnostic errors, patient dissatisfaction due to service quality, operational challenges like resource shortages, and malpractice claims."
+            question: "Is inspection required before approval?",
+            answer: "In some cases, authorities may conduct an inspection to verify infrastructure, equipment, and service standards."
         },
         {
-            question: "Is clinical establishment registration mandatory for single-doctor clinics?",
-            answer: "Yes, the Clinical Establishments Act applies to all clinical establishments, including those owned and managed by a single doctor."
+            question: "Does the registration need renewal?",
+            answer: "Yes, depending on state regulations, clinical establishments may need to renew their registration periodically."
         }
     ];
 
@@ -289,15 +327,14 @@ const ClinicalEstablishment = () => {
             <HeroLayout
                 heroTitleMain="Clinical Establishment"
                 heroTitleSuffix="Registration"
-                heroSubtitle="Standardizing Healthcare Excellence"
-                heroDescription="Ensure your healthcare facility operates within the legal framework and meets national standards. We provide end-to-end assistance for Clinical Establishment Act registration across India."
+                heroSubtitle="Register Your Clinical Establishment the Right Way"
+                heroDescription="Starting or operating a healthcare facility requires more than medical expertise—it requires legal compliance. Clinical Establishment Registration ensures that hospitals, clinics, diagnostic centres, and other healthcare institutions meet the standards defined under the Clinical Establishments (Registration and Regulation) Act. Get your healthcare facility registered smoothly with expert guidance and documentation support. Stay compliant. Build trust. Operate legally."
                 whatsIncludedList={[
-                    "Eligibility Verification",
-                    "Document Preparation (Pollution, Trade, etc.)",
-                    "Online Application Filing",
-                    "Health Department Liaison",
-                    "Inspection Support",
-                    "Certificate Acquisition"
+                    "Expert Legal Guidance",
+                    "Complete Documentation Support",
+                    "Fast and Efficient Processing",
+                    "Compliance Assurance",
+                    "End-to-End Support"
                 ]}
                 stats={[
                     { count: "42K+", label: "Clients", icon: <Stethoscope size={20} /> },
