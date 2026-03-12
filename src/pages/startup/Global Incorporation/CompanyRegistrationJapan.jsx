@@ -24,22 +24,16 @@ const CompanyRegistrationJapanOverview = () => {
                             Asia Expansion
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Company Registration in Japan – <span className="text-[#005a9c]">An Overview</span>
+                            Company Registration in Japan – <span className="text-[#005a9c]">Overview</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Japan, home to global cities like Tokyo and Yokohama, is a major trading hub and the third-largest economy in the world.
+                            Japan is one of the most stable and innovation-driven markets in the world. With a strong legal system, advanced infrastructure, and global business reputation, it offers excellent opportunities for entrepreneurs and international companies.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            It offers a stable economy, advanced infrastructure, and a highly skilled workforce, making it an ideal destination for international business expansion.
-                        </p>
-                        <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Why Japan?
-                        </h3>
-                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Japan is renowned for its technological advancement and innovation, particularly in IT, healthcare, and automation.
+                            Setting up a company in Japan requires understanding local regulations, business structures, compliance requirements, and registration procedures. With expert assistance, the process becomes efficient, compliant, and strategically structured for long-term success.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            It maintains strong economic relationships with Asia, Latin America, and Europe, serving as a gateway to global markets.
+                            Vyombiz managed by Clink Consultancy Services Private Limited helps global entrepreneurs and businesses establish their presence in Japan through a simplified and legally compliant company incorporation process.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -65,10 +59,10 @@ const CompanyRegistrationJapanAdvantages = () => {
                         Why It Is Vital
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of Registration
+                        Why Start a Business in Japan?
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Why businesses choose Japan for expansion.
+                        Japan continues to be one of the most attractive destinations for foreign investors and entrepreneurs. The country offers a stable economy, high consumer purchasing power, and access to advanced technology and global trade networks.
                     </p>
                     <div className="mt-10">
                         <img
@@ -77,17 +71,19 @@ const CompanyRegistrationJapanAdvantages = () => {
                             className="w-full rounded-2xl shadow-xl"
                         />
                     </div>
+                    <p className="text-[17px] text-slate-600 leading-relaxed font-medium mt-8">
+                        With the right guidance, entrepreneurs can leverage Japan’s highly structured and business-friendly ecosystem.
+                    </p>
                 </div>
 
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "World-Class Infrastructure", desc: "Robust facilities supporting industries and global competitors." },
-                        { title: "Double Taxation Treaties", desc: "Access to treaties that minimize withholding tax on international income." },
-                        { title: "Free-Trade Zones", desc: "Zones in Tokyo, Nagasaki, and Niigata offering streamlined international trade." },
-                        { title: "Competitive Workforce", desc: "Highly disciplined and educated workforce focused on innovation." },
-                        { title: "Government Incentives", desc: "Grants, tax exemptions, and subsidies for R&D and startups." },
-                        { title: "IP Protection", desc: "Strong intellectual property laws protecting patents and trademarks." }
+                        { title: "Stable and Strong Economy", desc: "Japan is the third-largest economy in the world with strong financial stability." },
+                        { title: "Global Market Access", desc: "Strategic location in Asia makes it ideal for international trade." },
+                        { title: "Advanced Infrastructure", desc: "World-class transportation, logistics, and digital infrastructure." },
+                        { title: "Innovation Hub", desc: "A leader in technology, robotics, and research-driven industries." },
+                        { title: "Investor Friendly Environment", desc: "Policies encourage foreign investment and global business expansion." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -105,65 +101,119 @@ const CompanyRegistrationJapanAdvantages = () => {
 };
 
 const JapanIncorporationEligibility = () => {
-    const list = [
-        { title: "Share Capital", desc: "Minimum capital requirement of at least 1 Yen." },
-        { title: "Directors", desc: "Must appoint at least 1 director." },
-        { title: "Shareholders", desc: "Minimum 1 shareholder (individual or corporate entity)." },
-        { title: "Local Representative", desc: "Must appoint a local representative (physical presence not always required)." },
-        { title: "Registered Address", desc: "Must have a registered local office in Japan." },
-        { title: "Fiscal Year", desc: "Companies can freely decide their fiscal year." }
-    ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    What are the Eligibility Criteria for Company Registration in Japan?
+                    Types of Business Structures in Japan
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Key criteria for incorporating in Japan.
+                    Choosing the right business structure is the first step when incorporating a company in Japan. Each structure has different legal, financial, and operational implications.
                 </p>
-                <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
-                    {list.map((item, i) => (
-                        <p key={i}>
-                            <span className="font-semibold text-[#072b47]">{item.title} – </span>
-                            {item.desc}
-                        </p>
-                    ))}
+                <div className="space-y-6">
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Kabushiki Kaisha (KK) – Joint Stock Company</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-2">Kabushiki Kaisha is the most prestigious and widely recognized business structure in Japan. Many large corporations operate under this structure.</p>
+                        <ul className="list-disc pl-5 text-[17px] text-slate-600 leading-relaxed">
+                            <li>Suitable for medium to large businesses</li>
+                            <li>Higher credibility with investors and partners</li>
+                            <li>Ability to raise capital through shareholders</li>
+                        </ul>
+                    </div>
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Godo Kaisha (GK) – Limited Liability Company</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-2">Godo Kaisha is similar to an LLC and is often preferred by startups and small businesses.</p>
+                        <ul className="list-disc pl-5 text-[17px] text-slate-600 leading-relaxed">
+                            <li>Lower setup cost compared to KK</li>
+                            <li>Flexible management structure</li>
+                            <li>Limited liability for members</li>
+                        </ul>
+                    </div>
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Branch Office</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-2">Foreign companies can establish a branch office to operate directly in Japan without creating a separate legal entity.</p>
+                        <ul className="list-disc pl-5 text-[17px] text-slate-600 leading-relaxed">
+                            <li>Extension of the parent company</li>
+                            <li>Easier operational setup</li>
+                            <li>Limited independence compared to incorporated entities</li>
+                        </ul>
+                    </div>
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Representative Office</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed mb-2">A representative office allows foreign companies to conduct market research or promotional activities in Japan without commercial operations.</p>
+                        <ul className="list-disc pl-5 text-[17px] text-slate-600 leading-relaxed">
+                            <li>No direct revenue generation allowed</li>
+                            <li>Ideal for market exploration</li>
+                        </ul>
+                    </div>
                 </div>
-                <div className="mt-12 text-center">
-                    <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Check Your Eligibility Now
-                            </Link>
-                </div>
+                <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                    Vyombiz managed by Clink Consultancy Services Private Limited assists businesses in choosing the most suitable structure based on their expansion strategy and regulatory requirements.
+                </p>
             </div>
         </section>
     );
 };
 
 const JapanIncorporationDocumentsSection = () => {
-    const list = [
-        "Articles of Incorporation (AOA)",
-        "ID & Address Proof of Directors/Shareholders",
-        "Affidavit from Parent Company (if subsidiary)",
-        "Corporate Seal Certificate (Inkan Shomeisho)",
-        "Proof of Capital Contribution",
-        "Business Plan & Activity Details",
-        "Appointment Letter of Representative"
+    const requirementsList = [
+        "Company Name Reservation",
+        "Registered Office Address in Japan",
+        "Director or Representative Details",
+        "Preparation of Articles of Incorporation",
+        "Capital Investment",
+        "Notarization of Company Documents",
+        "Corporate Seal (Hanko)",
+        "Registration with the Legal Affairs Bureau"
+    ];
+    const documentsList = [
+        "Passport copies of directors and shareholders",
+        "Proof of residential address",
+        "Proposed company name and business activity details",
+        "Articles of Incorporation",
+        "Registered office details",
+        "Capital investment proof",
+        "Director consent forms"
     ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
+                
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Documents Required for Japan Company Registration
+                    Requirements for Company Registration in Japan
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Essential documents for Japan Company Incorporation.
+                    To incorporate a company in Japan, certain legal and administrative requirements must be fulfilled. Key requirements include:
                 </p>
-                <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
-                    {list.map((item, i) => (
-                        <li key={i}>{item}</li>
+                <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed mb-8">
+                    {requirementsList.map((item, i) => (
+                        <li key={i} className="flex items-start">
+                             <div className="mr-3 mt-1 text-[#005a9c]"><Users size={18} /></div>
+                             <span>{item}</span>
+                        </li>
                     ))}
                 </ul>
+                <p className="text-[17px] text-slate-600 leading-relaxed mb-12">
+                    Proper documentation and compliance with Japanese corporate laws are essential to ensure a smooth incorporation process.
+                </p>
+
+                <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                    Documents Required for Japan Company Incorporation
+                </h2>
+                <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
+                    Businesses and entrepreneurs must submit specific documents during the incorporation process. Typical documents include:
+                </p>
+                <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed mb-8">
+                    {documentsList.map((item, i) => (
+                        <li key={i} className="flex items-start">
+                             <div className="mr-3 mt-1 text-[#005a9c]"><Users size={18} /></div>
+                             <span>{item}</span>
+                        </li>
+                    ))}
+                </ul>
+                <p className="text-[17px] text-slate-600 leading-relaxed">
+                    Document requirements may vary depending on the business structure and shareholder nationality.
+                </p>
             </div>
         </section>
     );
@@ -171,23 +221,23 @@ const JapanIncorporationDocumentsSection = () => {
 
 const JapanIncorporationProcessSection = () => {
     const steps = [
-        { title: "Structure Check", desc: "Choose the appropriate business structure (KK, GK, etc.)." },
-        { title: "Name Reservation", desc: "Reserve a unique trade name and verify availability." },
-        { title: "Documentation", desc: "Prepare AOA, seal certificates, and affidavits." },
-        { title: "Representative", desc: "Appoint a local representative or legal proxy." },
-        { title: "Application", desc: "File for registration with the Japanese Trade Register." },
-        { title: "Incorporation", desc: "Receive Certificate of Incorporation from Legal Affairs Bureau." },
-        { title: "Post-Setup", desc: "Open bank account, obtain company seal, and register for taxes." }
+        { title: "Business Structure Selection", desc: "Identify the most suitable company structure such as KK or GK depending on the nature of the business and investment goals." },
+        { title: "Company Name Approval", desc: "Choose and verify the company name to ensure it is unique and compliant with Japanese regulations." },
+        { title: "Draft Articles of Incorporation", desc: "Prepare and notarize the Articles of Incorporation which define the company’s structure, objectives, and operational rules." },
+        { title: "Capital Deposit", desc: "Deposit the initial capital into the designated bank account as required for registration." },
+        { title: "Company Registration Filing", desc: "Submit the incorporation documents to the Legal Affairs Bureau for official company registration." },
+        { title: "Corporate Seal Registration", desc: "Register the official company seal which is required for legal agreements and documentation in Japan." },
+        { title: "Tax and Social Security Registration", desc: "Register the company with the tax authorities and social insurance agencies." }
     ];
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        How to Register a Company in Japan?
+                        Step-by-Step Process for Company Registration in Japan
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        Step-by-step guide to setting up your business.
+                        Setting up a company in Japan involves a structured legal procedure. Following the correct process ensures compliance and faster approval.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
@@ -205,6 +255,20 @@ const JapanIncorporationProcessSection = () => {
                             </div>
                         ))}
                         <div className="border-t border-slate-200" />
+                        <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                            With professional assistance, this process becomes faster and fully compliant with Japanese legal standards.
+                        </p>
+                        
+                        <div className="mt-12 bg-[#e6f0fa] rounded-2xl p-8">
+                            <h3 className="text-xl font-semibold text-[#072b47] mb-3">Estimated Timeline for Company Registration in Japan</h3>
+                            <p className="text-[17px] text-slate-600 leading-relaxed mb-4">
+                                The registration timeline may vary depending on the business structure and document readiness. Generally, the incorporation process takes 2 to 4 weeks including document preparation, notarization, and approval by the Legal Affairs Bureau.
+                            </p>
+                            <p className="text-[17px] text-slate-600 leading-relaxed font-semibold">
+                                Professional guidance helps avoid delays and ensures faster completion of the registration process.
+                            </p>
+                        </div>
+                        
                         <div className="mt-12 text-center">
                             <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
                                 Start Your Registration
@@ -219,25 +283,58 @@ const JapanIncorporationProcessSection = () => {
 
 const JapanIncorporationFeaturesSection = () => {
     const features = [
-        { title: "Experienced Team", desc: "Network of 10,000+ consultants with 10+ years of experience." },
-        { title: "Time Saver", desc: "Saved 50 Lakh+ hours for entrepreneurs with efficient processes." },
-        { title: "Visa Services", desc: "Fast-track Business Manager Visa assistance." },
-        { title: "Virtual Office", desc: "Addresses in Tokyo, Osaka, or Yokohama for non-residents." },
-        { title: "Payroll Solutions", desc: "End-to-end management of HR and compliance operations." },
-        { title: "24/7 Support", desc: "Lifetime support to ongoing business needs." }
+        { title: "Expert consultation", desc: "Expert consultation for international company formation." },
+        { title: "End-to-end incorporation", desc: "End-to-end incorporation assistance." },
+        { title: "Documentation support", desc: "Documentation and compliance support." },
+        { title: "Global business expansion", desc: "Global business expansion guidance." },
+        { title: "Transparent process", desc: "Transparent and streamlined process. Our goal is to make global company formation simple, efficient, and fully compliant." }
     ];
+    
+    const complianceItems = [
+        "Corporate tax registration",
+        "Consumption tax compliance",
+        "Social insurance registration",
+        "Employee payroll compliance",
+        "Annual financial reporting",
+        "Corporate governance requirements"
+    ];
+
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
+                
+                <div className="mb-14">
+                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        Post-Registration Compliance in Japan
+                    </h2>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                        After company registration, businesses must comply with ongoing legal and tax obligations. Key compliance requirements include:
+                    </p>
+                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside mb-6">
+                        {complianceItems.map((item, index) => (
+                            <li key={index}>{item}</li>
+                        ))}
+                    </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                        Maintaining proper compliance ensures smooth business operations and avoids legal complications.
+                    </p>
+                    <p className="text-[17px] text-slate-600 leading-relaxed">
+                        Vyombiz managed by Clink Consultancy Services Private Limited supports businesses not only in incorporation but also in maintaining regulatory compliance in Japan.
+                    </p>
+                </div>
+
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose VyomBiz?
+                        Why Choose Vyombiz for Japan Company Registration?
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Your trusted partner for Japanese market entry.
+                        Expanding into a new country requires deep understanding of legal procedures, documentation, and regulatory frameworks. Professional assistance helps businesses avoid delays, errors, and compliance issues.
                     </p>
                 </div>
                 <div>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                        With Vyombiz managed by Clink Consultancy Services Private Limited, businesses benefit from:
+                    </p>
                     {features.map((feature, index) => (
                         <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-300">
                             <div className="text-[15px] font-semibold text-[#072b47]">{index + 1}.</div>
@@ -248,6 +345,18 @@ const JapanIncorporationFeaturesSection = () => {
                         </div>
                     ))}
                     <div className="border-t border-slate-300" />
+                </div>
+                
+                <div className="mt-14 bg-white border border-slate-100 rounded-2xl p-8 shadow-sm text-center">
+                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        Start Your Company Registration in Japan Today
+                    </h2>
+                    <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
+                        Japan offers a powerful platform for innovation, technology, and global business expansion. Whether you are a startup founder, investor, or international corporation, establishing a company in Japan can open new opportunities in the Asian market.
+                    </p>
+                    <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
+                        Connect with Vyombiz managed by Clink Consultancy Services Private Limited to start your Japan company registration process with expert support and a simplified approach to global business incorporation.
+                    </p>
                 </div>
             </div>
         </section>
@@ -286,14 +395,13 @@ const CompanyRegistrationJapan = () => {
             <HeroLayout
                 heroTitleMain="Company Registration"
                 heroTitleSuffix="in Japan"
-                heroSubtitle="Start Your Business in the Land of the Rising Sun"
-                heroDescription="Expand your business to Japan, the world's 3rd largest economy and a global hub for innovation. We provide comprehensive support for a smooth entry into the Asian market."
+                heroSubtitle="Expand your business into one of Asia’s most advanced economies with expert guidance."
+                heroDescription="Japan is one of the most stable and innovation-driven markets in the world. With a strong legal system, advanced infrastructure, and global business reputation, it offers excellent opportunities for entrepreneurs and international companies."
                 whatsIncludedList={[
-                    "Document Review within 24 Hours",
-                    "Japanese Bank Account Assistance",
-                    "Digital Company Seal (Hanko) Creation",
-                    "Business Visa Services in 1 Week",
-                    "Unlimited Name Checks"
+                    "Simplified and legally compliant process",
+                    "Expert assistance with documentation",
+                    "Strategic business structure guidance",
+                    "Post-registration compliance support"
                 ]}
                 stats={[
                     { count: "3000+", label: "Companies Registered", icon: <Users size={20} /> },

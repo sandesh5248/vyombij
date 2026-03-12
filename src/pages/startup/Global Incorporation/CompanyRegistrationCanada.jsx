@@ -23,23 +23,27 @@ const CompanyRegistrationCanadaOverview = () => {
                             Global Expansion
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Company Registration in Canada – <span className="text-[#005a9c]">An Overview</span>
+                            Why Register a Company in Canada?
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Canada is recognized globally for its strong financial system, abundance of natural resources, and world-class infrastructure, making it a prime location for business investment.
+                            Canada has become one of the most attractive destinations for entrepreneurs and global businesses. With a stable economy, transparent legal system, and strong international reputation, registering a company here can open doors to global markets.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Entrepreneurs can register federally for nationwide protection or provincially for localized operations. The process is streamlined and investor-friendly.
+                            Entrepreneurs choose Canada because it offers a strong business environment supported by innovation, government incentives, and global trade access. The country consistently ranks among the top nations for ease of doing business and corporate governance.
+                        </p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
+                            When businesses register through Vyombiz managed by Clink Consultancy Services Private Limited, they gain structured legal support that simplifies international expansion and compliance.
                         </p>
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Why Canada?
+                            Key Advantages Include:
                         </h3>
-                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            It offers a stable economy, low corporate tax rates for small businesses, and access to the North American market through agreements like USMCA.
-                        </p>
-                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            With a highly skilled workforce and reputation for innovation, Canada supports diverse industries from technology to manufacturing.
-                        </p>
+                        <ul className="list-disc pl-5 text-[17px] text-slate-600 leading-relaxed font-medium">
+                            <li>Access to North American markets</li>
+                            <li>Strong legal protection for businesses</li>
+                            <li>Global credibility and investor confidence</li>
+                            <li>Transparent tax and compliance structure</li>
+                            <li>Supportive ecosystem for startups and tech companies</li>
+                        </ul>
                     </div>
                     <div className="flex justify-center lg:justify-end">
                         <img
@@ -60,11 +64,8 @@ const CompanyRegistrationCanadaAdvantages = () => {
             <div className="grid lg:grid-cols-2 gap-16 w-full">
                 {/* LEFT SIDE (STICKY) */}
                 <div className="lg:sticky lg:top-28 h-fit self-start">
-                    <span className="inline-block px-4 py-1.5 text-sm font-semibold bg-[#e6f0fa] text-[#005a9c] rounded-full mb-6">
-                        Why It Is Vital
-                    </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of Incorporation
+                        Benefits of Company Registration in Canada
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
                         Why businesses choose Canada for expansion.
@@ -81,12 +82,11 @@ const CompanyRegistrationCanadaAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Low Fees", desc: "Competitive incorporation and annual maintenance costs compared to other developed nations." },
-                        { title: "Strong Economy", desc: "A stable, growing economy with a strong banking sector ensures business security." },
-                        { title: "Tax Advantages", desc: "Lower corporate tax rates for small businesses and various R&D tax incentives." },
-                        { title: "Global Access", desc: "Trade agreements like USMCA provide duty-free access to the US and Mexican markets." },
-                        { title: "Skilled Workforce", desc: "Access to one of the most educated and diverse talent pools in the world." },
-                        { title: "Legal Framework", desc: "Transparent and robust legal system protecting property rights and business interests." }
+                        { title: "Global Market Access", desc: "Canada’s strong trade agreements provide access to markets across North America, Europe, and Asia." },
+                        { title: "Business-Friendly Environment", desc: "Government policies encourage innovation, entrepreneurship, and foreign investment." },
+                        { title: "Limited Liability Protection", desc: "Incorporation protects personal assets by separating business liabilities from owners." },
+                        { title: "Investor Confidence", desc: "Canadian registered companies often gain better credibility with investors and financial institutions." },
+                        { title: "Stable Economy", desc: "Canada offers political stability, strong infrastructure, and a well-regulated financial system." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -104,35 +104,40 @@ const CompanyRegistrationCanadaAdvantages = () => {
 };
 
 const CanadaIncorporationEligibility = () => {
-    const list = [
-        { title: "Share Capital", desc: "Minimum authorized share capital is CA$ 1." },
-        { title: "Directors", desc: "Minimum 1 director. 25% must be resident Canadians (Federally). Ontario/BC have no residency requirement." },
-        { title: "Shareholders", desc: "Minimum 1 shareholder required (can be an individual or corporate entity)." },
-        { title: "Registered Address", desc: "Must have a physical address in Canada for service of documents (cannot be a PO Box)." },
-        { title: "No Criminal Record", desc: "Directors must not have a criminal record involving fraud or bankruptcy." }
-    ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    What are the Eligibility Criteria for Canada Company Registration?
+                    Types of Company Structures in Canada
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Key criteria for registering a company in Canada.
+                    Choosing the right business structure is important before incorporation. Each structure has different legal, tax, and operational implications.
                 </p>
-                <div className="space-y-5 text-[17px] text-slate-600 leading-relaxed">
-                    {list.map((item, i) => (
-                        <p key={i}>
-                            <span className="font-semibold text-[#072b47]">{item.title} – </span>
-                            {item.desc}
-                        </p>
-                    ))}
+                <div className="space-y-6">
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Federal Corporation</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed">A federal corporation allows businesses to operate across all provinces in Canada under one registered entity. It provides wider name protection and national credibility.</p>
+                    </div>
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Provincial Corporation</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed">This type of incorporation allows a business to operate within a specific province. It is suitable for businesses focusing on regional markets.</p>
+                    </div>
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Sole Proprietorship</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed">A simple structure owned and operated by one individual. It has minimal compliance requirements but offers limited liability protection.</p>
+                    </div>
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Partnership</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed">A business structure where two or more individuals share ownership, responsibilities, and profits.</p>
+                    </div>
+                    <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Subsidiary Company</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed">Foreign businesses expanding into Canada often register a subsidiary to maintain a local presence while remaining connected to their parent company.</p>
+                    </div>
                 </div>
-                <div className="mt-12 text-center">
-                    <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
-                                Check Your Eligibility Now
-                            </Link>
-                </div>
+                <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                    Experts at Vyombiz managed by Clink Consultancy Services Private Limited help entrepreneurs choose the right structure based on business goals and expansion plans.
+                </p>
             </div>
         </section>
     );
@@ -140,28 +145,33 @@ const CanadaIncorporationEligibility = () => {
 
 const CanadaIncorporationDocumentsSection = () => {
     const list = [
-        "Articles of Incorporation",
-        "Form 2 (Initial Registered Office Address)",
-        "Form 4 (First Directors)",
-        "NUANS Name Search Report",
-        "Passport Copies of Directors/Shareholders",
-        "Proof of Address for Directors",
-        "Business Plan (optional but recommended)"
+        "Proposed company name",
+        "Passport copy of directors/shareholders",
+        "Proof of residential address",
+        "Business activity details",
+        "Shareholding structure",
+        "Registered office address in Canada"
     ];
     return (
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Documents Required for Canada Company Registration
+                    Documents Required for Company Registration in Canada
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Essential documents for Canada Company Incorporation.
+                    To incorporate a company, businesses typically need the following documents:
                 </p>
                 <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
                     {list.map((item, i) => (
-                        <li key={i}>{item}</li>
+                        <li key={i} className="flex items-start">
+                             <div className="mr-3 mt-1 text-[#005a9c]"><Users size={18} /></div>
+                             <span>{item}</span>
+                        </li>
                     ))}
                 </ul>
+                <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                    The compliance team at Vyombiz managed by Clink Consultancy Services Private Limited ensures all documentation meets Canadian regulatory requirements.
+                </p>
             </div>
         </section>
     );
@@ -169,24 +179,20 @@ const CanadaIncorporationDocumentsSection = () => {
 
 const CanadaIncorporationProcessSection = () => {
     const steps = [
-        { title: "Select Structure", desc: "Choose between detailed structures like Corporation or Partnership." },
-        { title: "Name Search", desc: "Perform a NUANS name search to ensure your business name is unique." },
-        { title: "Prepare Articles", desc: "Draft and file Articles of Incorporation with Corporations Canada." },
-        { title: "Federal Registration", desc: "Obtain your Certificate of Incorporation and Business Number (BN)." },
-        { title: "Tax Accounts", desc: "Register for GST/HST, Payroll deductions, and Import/Export accounts." },
-        { title: "Permits & Licenses", desc: "Apply for necessary municipal, provincial, or industry-specific licenses." },
-        { title: "Corporate Records", desc: "Set up a corporate minute book and issue share certificates." }
+        { title: "Business Consultation", desc: "Understanding your business model, expansion plans, and suitable company structure." },
+        { title: "Name Availability Check", desc: "Verifying and reserving the company name to ensure uniqueness." },
+        { title: "Document Preparation", desc: "Drafting incorporation documents, shareholder details, and corporate structure." },
+        { title: "Company Incorporation Filing", desc: "Submitting the required forms to Canadian authorities." },
+        { title: "Business Number Registration", desc: "Obtaining the official Business Number (BN) required for taxation and government filings." },
+        { title: "Compliance & Corporate Setup", desc: "Completing post-registration compliance and documentation for smooth business operations." }
     ];
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        How to Register a Company in Canada?
+                        Step-by-Step Process to Register a Company in Canada
                     </h2>
-                    <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        Step-by-step guide to setting up your business.
-                    </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
                     <div className="lg:col-span-1">
@@ -203,6 +209,9 @@ const CanadaIncorporationProcessSection = () => {
                             </div>
                         ))}
                         <div className="border-t border-slate-200" />
+                        <p className="text-[17px] text-slate-600 leading-relaxed mt-8">
+                            With Vyombiz managed by Clink Consultancy Services Private Limited, the entire incorporation journey is guided by experienced professionals to ensure accuracy and efficiency.
+                        </p>
                         <div className="mt-12 text-center">
                             <Link to="/general-info" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
                                 Start Your Registration
@@ -216,36 +225,101 @@ const CanadaIncorporationProcessSection = () => {
 };
 
 const CanadaIncorporationFeaturesSection = () => {
-    const features = [
-        { title: "Expert Guidance", desc: "10+ years of experience in international company formation." },
-        { title: "End-to-End Support", desc: "From name search to bank account opening and tax registration." },
-        { title: "Compliance Assurance", desc: "Ensuring your business meets all federal and provincial regulations." },
-        { title: "Document Drafting", desc: "Professional preparation of by-laws, resolutions, and shareholder agreements." },
-        { title: "Local Presence", desc: "Assistance with registered office services and local director requirements." },
-        { title: "24/7 Support", desc: "Round-the-clock assistance for all your business queries." }
+    const complianceItems = [
+        "Annual corporate filings",
+        "Tax registrations and filings",
+        "Accounting records maintenance",
+        "Shareholder documentation updates",
+        "Corporate governance compliance"
     ];
+
+    const services = [
+        "End-to-end company incorporation assistance",
+        "Experienced global business consultants",
+        "Structured documentation and compliance support",
+        "Transparent process and professional guidance",
+        "Support for international business expansion"
+    ];
+
+    const whoShould = [
+        "International entrepreneurs expanding globally",
+        "Startups targeting North American markets",
+        "Technology and SaaS companies",
+        "E-commerce businesses selling internationally",
+        "Investors building global business structures"
+    ];
+
     return (
         <section className="w-full py-14 bg-white">
             <div className="max-w-6xl mx-auto px-6">
-                <div className="text-center mb-8">
-                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose VyomBiz?
+                
+                <div className="mb-14">
+                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        Compliance Requirements After Incorporation
                     </h2>
-                    <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Your trusted partner for Canadian business expansion.
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                        Once your company is registered, businesses must maintain certain regulatory requirements.
+                    </p>
+                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside mb-6">
+                        {complianceItems.map((item, index) => (
+                            <li key={index}>{item}</li>
+                        ))}
+                    </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed">
+                        Professional support helps businesses stay compliant while focusing on growth.
                     </p>
                 </div>
-                <div>
-                    {features.map((feature, index) => (
-                        <div key={index} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-300">
-                            <div className="text-[15px] font-semibold text-[#072b47]">{index + 1}.</div>
-                            <div>
-                                <h3 className="text-[16px] font-semibold text-[#072b47]">{feature.title}</h3>
-                                <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">{feature.desc}</p>
-                            </div>
-                        </div>
-                    ))}
-                    <div className="border-t border-slate-300" />
+
+                <div className="mb-14">
+                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        Why Choose Vyombiz for Canada Company Registration?
+                    </h2>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                        Starting a company in a foreign country involves multiple legal and compliance steps. Working with experienced professionals simplifies the process.
+                    </p>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                        Businesses partnering with Vyombiz managed by Clink Consultancy Services Private Limited benefit from:
+                    </p>
+                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside mb-6">
+                        {services.map((item, index) => (
+                            <li key={index}>{item}</li>
+                        ))}
+                    </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed">
+                        Our goal is to make global company formation simple, efficient, and accessible for entrepreneurs worldwide.
+                    </p>
+                </div>
+
+                <div className="mb-14">
+                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        Who Should Register a Company in Canada?
+                    </h2>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                        Company incorporation in Canada is ideal for:
+                    </p>
+                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside mb-6">
+                        {whoShould.map((item, index) => (
+                            <li key={index}>{item}</li>
+                        ))}
+                    </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed">
+                        Canada offers the infrastructure, credibility, and stability required for sustainable international growth.
+                    </p>
+                </div>
+
+                <div className="mt-14 bg-[#e6f0fa] rounded-2xl p-8 lg:p-12 text-center">
+                    <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
+                        Start Your Canada Business Journey
+                    </h2>
+                    <p className="text-[17px] text-slate-700 leading-relaxed max-w-4xl mx-auto mb-6">
+                        Expanding your business globally begins with the right foundation. Canada provides a trusted and innovative environment for companies looking to scale internationally.
+                    </p>
+                    <p className="text-[17px] text-slate-700 leading-relaxed max-w-4xl mx-auto mb-6">
+                        With professional guidance from Vyombiz managed by Clink Consultancy Services Private Limited, registering your company in Canada becomes a smooth and structured process.
+                    </p>
+                    <p className="text-[17px] text-slate-700 leading-relaxed max-w-4xl mx-auto font-semibold">
+                        Launch your Canada company with confidence today.
+                    </p>
                 </div>
             </div>
         </section>
@@ -282,16 +356,15 @@ const CompanyRegistrationCanada = () => {
 
             {/* ================= SECTION 1: HERO ================= */}
             <HeroLayout
-                heroTitleMain="Company Registration"
-                heroTitleSuffix="in Canada"
-                heroSubtitle="Business Setup in CA with VyomBiz"
-                heroDescription="Expand your business to Canada, a top destination for investment. We provide end-to-end support for incorporation, compliance, and tax registration."
+                heroTitleMain="Start Your Company in Canada"
+                heroTitleSuffix="— The Smart Gateway to Global Business"
+                heroSubtitle="Register your company in one of the world’s most stable and business-friendly economies."
+                heroDescription="From incorporation to compliance, we simplify the entire process so you can focus on growing globally."
                 whatsIncludedList={[
-                    "Name Reservation & Approval",
-                    "Virtual Office Address (6 Months)",
-                    "GST/HST Registration",
-                    "Corporate Seal & Minute Book",
-                    "Bank Account Opening Support"
+                    "Fast Incorporation",
+                    "100% Online Process",
+                    "Expert Legal Support",
+                    "Global Business Credibility"
                 ]}
                 stats={[
                     { count: "500+", label: "Companies Registered", icon: <Users size={20} /> },
