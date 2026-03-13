@@ -1,4 +1,5 @@
 import React from 'react';
+import docImage from '../../../assets/environmental-doc.png';
 import HeroLayout from '../../../components/common/HeroLayout';
 import DetailsLayout from '../../../components/common/DetailsLayout';
 import FAQLayout from '../../../components/common/FAQLayout';
@@ -76,6 +77,7 @@ const PlasticWasteRecyclingPlantWM = () => {
                     }}
 
                     documents={{
+                        imageUrl: docImage,
                         title: "Documents Required for Plastic Waste Recycling Plant Setup",
                         description: "Complete list of documents to apply for plant authorization from SPCB and CPCB:",
                         list: [

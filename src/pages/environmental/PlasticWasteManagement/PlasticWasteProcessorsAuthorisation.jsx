@@ -1,4 +1,5 @@
 import React from 'react';
+import docImage from '../../../assets/environmental-doc.png';
 import HeroLayout from '../../../components/common/HeroLayout';
 import DetailsLayout from '../../../components/common/DetailsLayout';
 import FAQLayout from '../../../components/common/FAQLayout';
@@ -78,6 +79,7 @@ const PlasticWasteProcessorsAuthorisation = () => {
                     }}
 
                     documents={{
+                        imageUrl: docImage,
                         title: "Documents Required for Plastic Waste Processors Authorisation",
                         description: "Complete list of documents to be submitted to SPCB/PCC for PWP Authorisation:",
                         list: [

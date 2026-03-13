@@ -1,4 +1,5 @@
 import React from 'react';
+import docImage from '../../../assets/environmental-doc.png';
 import HeroLayout from '../../../components/common/HeroLayout';
 import DetailsLayout from '../../../components/common/DetailsLayout';
 import FAQLayout from '../../../components/common/FAQLayout';
@@ -67,6 +68,7 @@ const EWasteRecyclingLicense = () => {
                     }}
 
                     documents={{
+                        imageUrl: docImage,
                         title: "Documents Required for E-Waste Recycling / Dismantling License",
                         description: "Complete document list for obtaining e-waste recycling and dismantling authorization:",
                         list: [

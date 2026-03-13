@@ -1,4 +1,5 @@
 import React from 'react';
+import docImage from '../../../assets/environmental-doc.png';
 import HeroLayout from '../../../components/common/HeroLayout';
 import DetailsLayout from '../../../components/common/DetailsLayout';
 import FAQLayout from '../../../components/common/FAQLayout';
@@ -66,6 +67,7 @@ const EPRCreditsFromPlasticWasteRecyclers = () => {
                     }}
 
                     documents={{
+                        imageUrl: docImage,
                         title: "Documents Required for Credit Procurement",
                         description: "Documents needed to initiate the plastic EPR credit procurement process:",
                         list: [

@@ -1,4 +1,5 @@
 import React from 'react';
+import docImage from '../../../assets/environmental-doc.png';
 import HeroLayout from '../../../components/common/HeroLayout';
 import DetailsLayout from '../../../components/common/DetailsLayout';
 import FAQLayout from '../../../components/common/FAQLayout';
@@ -69,6 +70,7 @@ const RegistrationForLeadAcidBatteryRecycling = () => {
                     }}
 
                     documents={{
+                        imageUrl: docImage,
                         title: "Responsibilities & Documents Required",
                         description: "Every recycler shall ensure compliance and make available all records pertaining to receipt of used batteries to the SPCB:",
                         list: [

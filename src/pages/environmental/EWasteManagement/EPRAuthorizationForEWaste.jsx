@@ -1,4 +1,5 @@
 import React from 'react';
+import docImage from '../../../assets/environmental-doc.png';
 import HeroLayout from '../../../components/common/HeroLayout';
 import DetailsLayout from '../../../components/common/DetailsLayout';
 import FAQLayout from '../../../components/common/FAQLayout';
@@ -66,6 +67,7 @@ const EPRAuthorizationForEWaste = () => {
                     }}
 
                     documents={{
+                        imageUrl: docImage,
                         title: "Documents Required for EPR Authorization for E-waste",
                         description: "Key documents needed for submission with your EPR authorization application:",
                         list: [

@@ -1,4 +1,5 @@
 import React from 'react';
+import docImage from '../../../assets/environmental-doc.png';
 import HeroLayout from '../../../components/common/HeroLayout';
 import DetailsLayout from '../../../components/common/DetailsLayout';
 import FAQLayout from '../../../components/common/FAQLayout';
@@ -67,6 +68,7 @@ const EPRForImporters = () => {
                     }}
 
                     documents={{
+                        imageUrl: docImage,
                         title: "Documents Required for EPR Registration for Importers",
                         description: "Key documents required for EPR registration as an importer in India:",
                         list: [

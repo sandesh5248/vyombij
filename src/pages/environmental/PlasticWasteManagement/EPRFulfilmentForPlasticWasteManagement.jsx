@@ -1,4 +1,5 @@
 import React from 'react';
+import docImage from '../../../assets/environmental-doc.png';
 import HeroLayout from '../../../components/common/HeroLayout';
 import DetailsLayout from '../../../components/common/DetailsLayout';
 import FAQLayout from '../../../components/common/FAQLayout';
@@ -76,6 +77,7 @@ const EPRFulfilmentForPlasticWasteManagement = () => {
                     }}
 
                     documents={{
+                        imageUrl: docImage,
                         title: "Documents Required under EPR Fulfilment in Plastic Waste Management",
                         description: "Key information and documents needed for CPCB EPR portal registration and annual returns:",
                         list: [

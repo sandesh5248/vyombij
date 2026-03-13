@@ -1,4 +1,5 @@
 import React from 'react';
+import docImage from '../../../assets/environmental-doc.png';
 import HeroLayout from '../../../components/common/HeroLayout';
 import DetailsLayout from '../../../components/common/DetailsLayout';
 import FAQLayout from '../../../components/common/FAQLayout';
@@ -64,6 +65,7 @@ const NOCPollutionControlBoard = () => {
                     }}
 
                     documents={{
+                        imageUrl: docImage,
                         title: "Required Checklist",
                         subtitle: "Essential paperwork for your NOC",
                         list: [

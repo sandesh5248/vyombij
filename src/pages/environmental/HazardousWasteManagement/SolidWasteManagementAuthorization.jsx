@@ -1,4 +1,5 @@
 import React from 'react';
+import docImage from '../../../assets/environmental-doc.png';
 import HeroLayout from '../../../components/common/HeroLayout';
 import DetailsLayout from '../../../components/common/DetailsLayout';
 import FAQLayout from '../../../components/common/FAQLayout';
@@ -73,6 +74,7 @@ const SolidWasteManagementAuthorization = () => {
                     }}
 
                     documents={{
+                        imageUrl: docImage,
                         title: "Documents Required",
                         description: "Complete document list required for the application:",
                         list: [

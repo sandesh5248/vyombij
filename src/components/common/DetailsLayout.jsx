@@ -252,7 +252,7 @@ const DetailsLayout = ({
                                 <div className="lg:w-1/2 order-2 lg:order-1 relative w-full">
                                     <div className="absolute -inset-4 bg-orange-100/30 rounded-[3rem] blur-xl" />
                                     <div className="relative overflow-hidden rounded-[2.5rem] border-8 border-white shadow-2xl">
-                                        <img src={documents.imageUrl || "https://images.unsplash.com/photo-1554224155-1696413575b8?auto=format&fit=crop&w=800"} alt="Documents" className="w-full h-[500px] object-cover grayscale hover:grayscale-0 transition-all duration-1000" />
+                                        <img src={documents.imageUrl || "https://images.unsplash.com/photo-1554224155-1696413575b8?auto=format&fit=crop&w=800"} alt="Documents" className="w-full h-[500px] object-cover" />
                                     </div>
                                 </div>
                                 <div className="lg:w-1/2 order-1 lg:order-2">

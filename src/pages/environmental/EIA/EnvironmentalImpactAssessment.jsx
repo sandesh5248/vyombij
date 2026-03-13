@@ -1,4 +1,5 @@
 import React from 'react';
+import docImage from '../../../assets/environmental-doc.png';
 import HeroLayout from '../../../components/common/HeroLayout';
 import DetailsLayout from '../../../components/common/DetailsLayout';
 import FAQLayout from '../../../components/common/FAQLayout';
@@ -54,6 +55,7 @@ const EnvironmentalImpactAssessment = () => {
                         ]
                     }}
                     documents={{
+                        imageUrl: docImage,
                         title: "Documents Required",
                         subtitle: "For Environmental Impact Assessment",
                         list: [

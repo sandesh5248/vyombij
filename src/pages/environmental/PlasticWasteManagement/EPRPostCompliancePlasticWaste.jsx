@@ -1,4 +1,5 @@
 import React from 'react';
+import docImage from '../../../assets/environmental-doc.png';
 import HeroLayout from '../../../components/common/HeroLayout';
 import DetailsLayout from '../../../components/common/DetailsLayout';
 import FAQLayout from '../../../components/common/FAQLayout';
@@ -76,6 +77,7 @@ const EPRPostCompliancePlasticWaste = () => {
                     }}
 
                     documents={{
+                        imageUrl: docImage,
                         title: "Documents Required for EPR Post Compliance Filings",
                         description: "Key records and documents needed for half-yearly and annual EPR compliance filings:",
                         list: [

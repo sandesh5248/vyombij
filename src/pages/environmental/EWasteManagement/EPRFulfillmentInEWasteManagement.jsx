@@ -1,4 +1,5 @@
 import React from 'react';
+import docImage from '../../../assets/environmental-doc.png';
 import HeroLayout from '../../../components/common/HeroLayout';
 import DetailsLayout from '../../../components/common/DetailsLayout';
 import FAQLayout from '../../../components/common/FAQLayout';
@@ -66,6 +67,7 @@ const EPRFulfillmentInEWasteManagement = () => {
                     }}
 
                     documents={{
+                        imageUrl: docImage,
                         title: "Documents for EPR Fulfillment Setup",
                         description: "Documents required to set up your e-waste EPR fulfillment program:",
                         list: [

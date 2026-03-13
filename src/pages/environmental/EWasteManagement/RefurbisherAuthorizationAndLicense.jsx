@@ -1,4 +1,5 @@
 import React from 'react';
+import docImage from '../../../assets/environmental-doc.png';
 import HeroLayout from '../../../components/common/HeroLayout';
 import DetailsLayout from '../../../components/common/DetailsLayout';
 import FAQLayout from '../../../components/common/FAQLayout';
@@ -66,6 +67,7 @@ const RefurbisherAuthorizationAndLicense = () => {
                     }}
 
                     documents={{
+                        imageUrl: docImage,
                         title: "Documents Required for Refurbisher Authorization and License",
                         description: "The list of documents required for obtaining the refurbisher registration:",
                         list: [

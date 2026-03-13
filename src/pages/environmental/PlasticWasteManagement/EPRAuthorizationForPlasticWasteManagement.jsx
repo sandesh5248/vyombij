@@ -1,4 +1,5 @@
 import React from 'react';
+import docImage from '../../../assets/environmental-doc.png';
 import HeroLayout from '../../../components/common/HeroLayout';
 import DetailsLayout from '../../../components/common/DetailsLayout';
 import FAQLayout from '../../../components/common/FAQLayout';
@@ -78,6 +79,7 @@ const EPRAuthorizationForPlasticWasteManagement = () => {
                     }}
 
                     documents={{
+                        imageUrl: docImage,
                         title: "Documents to Register for EPR for Plastic Waste Online",
                         description: "Complete list of mandatory documents for CPCB EPR portal registration:",
                         list: [

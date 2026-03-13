@@ -1,4 +1,5 @@
 import React from 'react';
+import docImage from '../../../assets/environmental-doc.png';
 import HeroLayout from '../../../components/common/HeroLayout';
 import DetailsLayout from '../../../components/common/DetailsLayout';
 import FAQLayout from '../../../components/common/FAQLayout';
@@ -66,6 +67,7 @@ const EPRRegistration = () => {
                     }}
 
                     documents={{
+                        imageUrl: docImage,
                         title: "Documents Required for EPR Registration",
                         description: "In order to obtain an EPR registration certificate, some relevant documents need to be shared.",
                         list: [
