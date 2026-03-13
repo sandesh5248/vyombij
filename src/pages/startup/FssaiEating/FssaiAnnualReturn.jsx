@@ -23,16 +23,35 @@ const FssaiAnnualReturnOverview = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16 lg:gap-24">
                     <div>
                         <span className="inline-block px-4 py-1.5 text-sm font-semibold bg-[#e6f0fa] text-[#005a9c] rounded-full mb-4">
-                            Mandatory Filing
+                            Mandatory Compliance
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            FSSAI Yearly Returns – <span className="text-[#005a9c]">Compliance Management</span>
+                            What is an <span className="text-[#005a9c]">FSSAI Annual Return?</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            FSSAI annual return filing is a mandatory requirement for food business operators including manufacturers, importers, packers, and labellers. It involves submitting essential information regarding production, handling, and storage to the FSSAI authorities.
+                            The FSSAI Annual Return is a mandatory compliance requirement for food businesses holding an FSSAI license. It is a yearly report submitted to the Food Safety and Standards Authority of India (FSSAI) that provides details about the food products manufactured, handled, imported, or sold during the financial year.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The revised guidelines mandate online filing through the FoSCoS portal. This process ensures transparency in the food supply chain and helps the government monitor food safety across the nation.
+                            This return helps regulatory authorities track the movement, production, and distribution of food products to ensure food safety standards are maintained across the country.
+                        </p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
+                            Businesses that fail to submit their annual return within the prescribed timeline may face penalties and compliance issues. This is why many businesses prefer expert assistance from platforms like Vyombiz managed by Clink Consultancy Services Private Limited to ensure timely and accurate filing.
+                        </p>
+
+                        <h3 className="text-2xl font-semibold text-[#072b47] mb-4 mt-8">Types of FSSAI Returns</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-4">
+                            Food businesses may need to file different types of returns depending on their operations.
+                        </p>
+                        <ul className="space-y-4 text-[17px] text-slate-600 leading-relaxed mb-6">
+                            <li>
+                                <strong className="text-[#072b47]">Form D1 – Annual Return:</strong> This return must be filed annually by food manufacturers and importers before 31st May. It includes quantity of food products manufactured, category-wise product details, import information, and sales data.
+                            </li>
+                            <li>
+                                <strong className="text-[#072b47]">Form D2 – Half-Yearly Return:</strong> This return applies specifically to manufacturers and importers of milk and milk products. It must be submitted every six months.
+                            </li>
+                        </ul>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
+                            Understanding the correct return format is essential to avoid filing errors. Businesses often rely on Vyombiz managed by Clink Consultancy Services Private Limited for accurate compliance handling.
                         </p>
 
                     </div>
@@ -59,10 +78,10 @@ const FssaiAnnualReturnAdvantages = () => {
                         Why It Is Vital
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Advantages of Filing
+                        Benefits of Timely Filing
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Why staying up-to-date with FSSAI returns is crucial.
+                        Timely filing ensures that your business remains compliant with FSSAI regulations and avoids unnecessary penalties.
                     </p>
                     <div className="mt-10">
                         <img
@@ -76,12 +95,11 @@ const FssaiAnnualReturnAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Maintain Brand Trust", desc: "Showcase transparency in your food production and sale operations." },
-                        { title: "Government Support", desc: "Compliant entities are more likely to receive government subsidies." },
-                        { title: "Improved Efficiency", desc: "Regular filing helps in tracking production trends and business growth." },
-                        { title: "Consumer Safety", desc: "Ensures adherence to safety standards that protect the end consumer." },
-                        { title: "Smooth Licensing", desc: "A clean filing record makes the FSSAI license renewal process much easier." },
-                        { title: "Legal Defense", desc: "Acting as proof that your business follows all mandated safety regulations." }
+                        { title: "Avoid Late Penalties", desc: "Filing before the 31st May deadline helps you avoid the ₹100 per day penalty." },
+                        { title: "Legal Safety", desc: "Consistent filing prevents regulatory scrutiny and potential license suspension during inspections." },
+                        { title: "Smooth Operations", desc: "Remaining compliant means your food manufacturing and distribution operations run without disruption." },
+                        { title: "Brand Credibility", desc: "A flawless compliance record builds trust with consumers and business partners." },
+                        { title: "Easier Renewals", desc: "A strong filing history ensures a simple and smooth FSSAI license renewal process." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -103,35 +121,27 @@ const FssaiAnnualReturnEligibility = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Eligibility Criteria
+                    Who Needs to File an FSSAI Annual Return?
                 </h2>
-                <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Who is required to file FSSAI Annual Returns?
+                <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                    FSSAI annual return filing is mandatory for certain categories of food businesses operating under an FSSAI license. These typically include:
                 </p>
-                <div className="mb-10">
-                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
-                        <li>
-                            <span className="font-semibold text-[#072b47]">Licensed Manufacturers – </span>
-                            All food production units holding an FSSAI State or Central license.
-                        </li>
-                        <li>
-                            <span className="font-semibold text-[#072b47]">Food Importers – </span>
-                            Organizations bringing food products into the Indian territory.
-                        </li>
-                        <li>
-                            <span className="font-semibold text-[#072b47]">Packers & Labellers – </span>
-                            Entities involved in packaging and labelling of food articles.
-                        </li>
-                        <li>
-                            <span className="font-semibold text-[#072b47]">Milk Business Units – </span>
-                            Special half-yearly filing requirements for those in the dairy sector.
-                        </li>
-                        <li>
-                            <span className="font-semibold text-[#072b47]">Exporter FBOs – </span>
-                            Businesses involved in shipping food products to international markets.
-                        </li>
+                <div className="mb-6">
+                    <ul className="list-disc pl-6 space-y-3 text-[17px] text-slate-600 leading-relaxed grid sm:grid-cols-2 gap-x-6">
+                        <li>Food manufacturers</li>
+                        <li>Food importers and exporters</li>
+                        <li>Food processors</li>
+                        <li>Food packaging units</li>
+                        <li>Food re-labelers</li>
+                        <li>Storage units handling food products</li>
                     </ul>
                 </div>
+                <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                    However, certain businesses such as restaurants, retailers, distributors, and transporters are generally not required to file annual returns unless they are also involved in manufacturing or importing food products.
+                </p>
+                <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
+                    If your business is involved in food production or import activities, filing the annual return becomes a compulsory compliance requirement.
+                </p>
             </div>
         </section>
     );
@@ -142,22 +152,23 @@ const FssaiAnnualReturnDocuments = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Information Required
+                    Information Required for Filing FSSAI Annual Return
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Details you need to prepare for the Filing.
+                    To file the return accurately, businesses must gather essential operational details from the previous financial year. These include:
                 </p>
                 <div className="mb-8">
-                    <ul className="list-disc pl-6 space-y-2 text-[17px] text-slate-600 leading-relaxed">
-                        <li>FSSAI License Number and Portal Login Details</li>
-                        <li>List of Food Items manufactured or handled</li>
-                        <li>Quantity produced/handled in Metric Tons (MT)</li>
-                        <li>Detailed value of food products (Unit Price)</li>
-                        <li>Quantity of raw materials imported or exported</li>
-                        <li>List of countries to which food is exported</li>
-                        <li>Details of ports where import/export occurred</li>
-                        <li>Water analysis reports and safety audit records</li>
+                    <ul className="list-disc pl-6 space-y-2 text-[17px] text-slate-600 leading-relaxed grid sm:grid-cols-2 gap-x-6">
+                        <li>FSSAI license number</li>
+                        <li>Details of food products manufactured or handled</li>
+                        <li>Quantity of products produced or imported</li>
+                        <li>Purchase and sales data</li>
+                        <li>Details of exported products (if applicable)</li>
+                        <li>Business operational information</li>
                     </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mt-6 font-medium">
+                        Preparing this data in advance ensures smooth and accurate filing.
+                    </p>
                 </div>
             </div>
         </section>
@@ -166,11 +177,11 @@ const FssaiAnnualReturnDocuments = () => {
 
 const FssaiAnnualReturnProcess = () => {
     const steps = [
-        { step: "01", title: "Portal Login", desc: "Log in to the official FSSAI portal using your license credentials." },
-        { step: "02", title: "Verification", desc: "Complete the OTP verification to access the annual return sub-menu." },
-        { step: "03", title: "Form Selection", desc: "Choose Form D-1 (Annual) or Form D-2 (Half-Yearly for milk units)." },
-        { step: "04", title: "Data Entry", desc: "Accurately fill in the production, sales, and export/import details." },
-        { step: "05", title: "Electronic Submission", desc: "Revise all entries and submit the electronic form to the Food Safety Authority." }
+        { step: "01", title: "Data Collection", desc: "Gather all production, import, and sales details for the financial year." },
+        { step: "02", title: "Return Preparation", desc: "Prepare the required return form (Form D1 or D2) based on your business category." },
+        { step: "03", title: "Verification & Documentation", desc: "Verify all details to ensure accuracy and regulatory compliance." },
+        { step: "04", title: "Submission to Authority", desc: "Submit the completed return to the designated FSSAI authority before the deadline." },
+        { step: "05", title: "Compliance Confirmation", desc: "Once submitted, maintain records of the filing for future compliance and audits." }
     ];
 
     return (
@@ -178,10 +189,10 @@ const FssaiAnnualReturnProcess = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        Filing Procedure
+                        Step-by-Step Process to File FSSAI Annual Return
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        Step-by-step path to complete your annual return.
+                        Filing an FSSAI return involves several procedural steps that must be completed accurately. Many businesses prefer expert support from Vyombiz managed by Clink Consultancy Services Private Limited to avoid errors and ensure seamless compliance.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
@@ -212,10 +223,11 @@ const FssaiAnnualReturnProcess = () => {
 
 const FssaiAnnualReturnFeatures = () => {
     const features = [
-        { title: "Data Accuracy", desc: "We ensure your production and sales figures are accurately formatted for FSSAI." },
-        { title: "Penalty-Free Filing", desc: "Our team tracks deadlines for you to avoid the ₹100/day late penalty." },
-        { title: "Audit Ready", desc: "We organize your files so you are always ready for a sudden FSSAI inspection." },
-        { title: "Multi-Unit Support", desc: "Special specialized support for enterprises with multiple manufacturing plants." }
+        { title: "Expert Support", desc: "Professional assistance ensures returns are prepared accurately and filed on time." },
+        { title: "Regulatory Compliance", desc: "Compliance with the latest FSSAI regulations to avoid penalties." },
+        { title: "Risk Reduction", desc: "Reduced risk of errors and late fees through timely filing." },
+        { title: "Time-Saving", desc: "Efficient processes that save you time so you can focus on business growth." },
+        { title: "Expert Guidance", desc: "Continuous guidance on food business compliance and regulations." }
     ];
 
     return (
@@ -223,10 +235,10 @@ const FssaiAnnualReturnFeatures = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Service Features
+                        Why Choose Professional Help for FSSAI Return Filing?
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Why choose us for your return filing?
+                        FSSAI compliance can be complex, especially for businesses managing large volumes of production or imports. Vyombiz managed by Clink Consultancy Services Private Limited offers expert support to simplify compliance procedures.
                     </p>
                 </div>
                 <div>
@@ -248,12 +260,11 @@ const FssaiAnnualReturnFeatures = () => {
 
 const FssaiAnnualReturnCompliance = () => {
     const compliance = [
-        "Download and save the filing acknowledgment for records",
-        "Address any queries raised by the Food Safety Commissioner",
-        "Update your internal records with the submitted data",
-        "Conduct an internal mock audit to ensure data consistency",
-        "Plan for the next half-yearly or annual cycle in advance",
-        "Report any significant change in production capacity immediately"
+        "₹100 per day late filing fee until submission",
+        "License suspension or cancellation for continuous non-compliance",
+        "Increased regulatory scrutiny during future inspections",
+        "Loss of brand credibility and trust among partners",
+        "Potential legal actions and operational disruptions"
     ];
 
     return (
@@ -261,10 +272,10 @@ const FssaiAnnualReturnCompliance = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Post Filing Actions
+                        Penalty for Late Filing of FSSAI Annual Return
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        What to do after submitting your returns.
+                        Failure to submit the FSSAI annual return within the prescribed deadline can lead to financial penalties and legal risks. Maintaining timely compliance protects your food business from operational disruptions.
                     </p>
                 </div>
                 <div>
@@ -286,20 +297,24 @@ const FssaiAnnualReturnCompliance = () => {
 const FssaiAnnualReturn = () => {
     const faqs = [
         {
-            question: "Who is eligible for filing the FSSAI annual return?",
-            answer: "FBOs with a turnover exceeding ₹12 Lakhs engaged in manufacturing, importing, sorting, export, or distribution are eligible. This includes all licensed food manufacturers and importers."
+            question: "Is filing an FSSAI annual return mandatory?",
+            answer: "Yes. Food manufacturers and importers holding an FSSAI license must file an annual return to remain compliant with regulatory requirements."
         },
         {
-            question: "What is the due date for FSSAI Annual Return (Form D-1)?",
-            answer: "Every licensed FBO must file their annual return under Form D-1 on or before 31st May of every financial year."
+            question: "What is the due date for filing the FSSAI annual return?",
+            answer: "The return must be filed before 31st May for the previous financial year."
         },
         {
-            question: "What is the penalty for late filing of FSSAI returns?",
-            answer: "Any delay beyond May 31st attracts a penalty of ₹100 per day. The total penalty cannot exceed five times the annual licensing fee."
+            question: "What happens if the return is filed late?",
+            answer: "A penalty of ₹100 per day is charged until the return is submitted."
         },
         {
-            question: "What details are required for the filing?",
-            answer: "You need details of food items manufactured/sold, production quantity in Metric Tons, value of products, and details of any exports or imports including countries and ports."
+            question: "Do restaurants need to file an FSSAI annual return?",
+            answer: "Generally, restaurants and retailers are not required to file annual returns unless they are involved in food manufacturing or importing."
+        },
+        {
+            question: "Can professionals file the FSSAI return on behalf of my business?",
+            answer: "Yes. Many businesses choose compliance service providers like Vyombiz managed by Clink Consultancy Services Private Limited to handle return filing accurately and on time."
         }
     ];
 
@@ -309,15 +324,15 @@ const FssaiAnnualReturn = () => {
             <HeroLayout
                 heroTitleMain="FSSAI Annual"
                 heroTitleSuffix="Return Filing"
-                heroSubtitle="Stay Compliant with Mandatory Yearly Reporting"
-                heroDescription="All licensed food manufacturers, importers, and packers in India are required to file FSSAI annual returns. Ensure your business remains in good standing by submitting accurate production and sale data before the May 31st deadline."
+                heroSubtitle="Stay compliant with food safety regulations and avoid penalties"
+                heroDescription="If your food business holds an FSSAI license, filing your annual return is mandatory. Let experts handle the paperwork while you focus on running your business. Accurate Filing. Timely Compliance. Zero Hassle."
                 whatsIncludedList={[
                     "Form D-1 & D-2 Preparation",
-                    "FoSCoS Portal Submission",
-                    "Production & Sale Data Audit",
-                    "Half-Yearly Return (Milk Units)",
-                    "Penalty Avoidance Verification",
-                    "Expert Compliance Consulting"
+                    "Complete Document Support",
+                    "Due Date Tracking",
+                    "FSSAI Portal Submission",
+                    "Expert Compliance Assistance",
+                    "Penalty Avoidance"
                 ]}
                 stats={[
                     { count: "May 31st", label: "Due Date", icon: <Calendar size={20} /> },

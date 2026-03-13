@@ -23,16 +23,19 @@ const FoodRecyclingOverview = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16 lg:gap-24">
                     <div>
                         <span className="inline-block px-4 py-1.5 text-sm font-semibold bg-[#e6f0fa] text-[#005a9c] rounded-full mb-4">
-                            Circular Economy
+                            Environmental Compliance
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Food Waste Recovery – <span className="text-[#005a9c]">Environmental Impact</span>
+                            What is a <span className="text-[#005a9c]">Food Recycling License?</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Food waste is a significant global problem, and in India, it translates to a loss of approximately ₹92,000 Crores per annum. This waste ends up in landfills, generating methane—a potent greenhouse gas with severe environmental effects.
+                            A Food Recycling License allows businesses to legally collect, process, and recycle food waste into useful resources such as compost, biofuel, or animal feed while complying with food safety and environmental regulations.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Food recycling through composting and other treatments offers a sustainable solution. By converting organics into valuable fertilizer, businesses can reduce methane emissions, eliminate the need for chemical fertilizers, and improve soil health.
+                            With increasing focus on sustainability and waste management, the Indian government has introduced stricter norms for businesses dealing with food waste recycling and disposal. Obtaining this license ensures that your recycling operations meet food safety, environmental protection, and waste management standards.
+                        </p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
+                            Vyombiz managed by Clink Consultancy Services Private Limited assists businesses with complete documentation, application filing, and regulatory compliance, making the process smooth and efficient.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -58,15 +61,15 @@ const FoodRecyclingAdvantages = () => {
                         Why It Is Vital
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of Food Recycling
+                        Benefits of Food Recycling License
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Why businesses should invest in recycling infrastructure.
+                        Obtaining a Food Recycling License offers multiple benefits for businesses working in the sustainability and waste management sector.
                     </p>
                     <div className="mt-10">
                         <img
                             src={benefits}
-                            alt="Food Recycling Benefits"
+                            alt="Food Recycling License Benefits"
                             className="w-full rounded-2xl shadow-xl"
                         />
                     </div>
@@ -75,12 +78,11 @@ const FoodRecyclingAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Soil Health", desc: "Compost promotes higher agricultural yields and prevents soil erosion." },
-                        { title: "Cost Savings", desc: "Significantly reduces solid waste disposal fees for large food units." },
-                        { title: "Greenhouse Gas Reduction", desc: "Minimizes methane emissions that would otherwise occur in landfills." },
-                        { title: "Water Conservation", desc: "Compost improves soil quality, leading to better water retention." },
-                        { title: "Regulatory Compliance", desc: "Securing PCB NOC protects your business from environmental lawsuits." },
-                        { title: "Community Impact", desc: "Directly assists local farmers by providing organic fertilizers." }
+                        { title: "Legal Compliance", desc: "Ensures your business follows government regulations related to food safety and waste recycling." },
+                        { title: "Environmental Responsibility", desc: "Promotes sustainable practices by reducing food waste and converting it into useful resources." },
+                        { title: "Business Credibility", desc: "A licensed recycling operation builds trust among partners, regulators, and customers." },
+                        { title: "Access to Partnerships", desc: "Many corporate organizations prefer working with licensed recycling partners for waste management." },
+                        { title: "Expansion Opportunities", desc: "Licensed operations can scale operations and participate in government and corporate sustainability initiatives." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -91,6 +93,9 @@ const FoodRecyclingAdvantages = () => {
                             </p>
                         </div>
                     ))}
+                    <p className="text-[17px] text-slate-600 leading-relaxed font-medium mt-6">
+                        Vyombiz managed by Clink Consultancy Services Private Limited helps businesses obtain the required license with professional guidance and compliance expertise.
+                    </p>
                 </div>
             </div>
         </div>
@@ -102,35 +107,24 @@ const FoodRecyclingEligibility = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Eligibility Criteria
+                    Who Needs a Food Recycling License?
                 </h2>
-                <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Who needs a Food Recycling License?
+                <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                    A Food Recycling License is required for businesses involved in handling or processing food waste for recycling purposes. This includes:
                 </p>
-                <div className="mb-10">
-                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
-                        <li>
-                            <span className="font-semibold text-[#072b47]">Waste Management Firms – </span>
-                            Companies specialized in processing municipal or industrial food waste.
-                        </li>
-                        <li>
-                            <span className="font-semibold text-[#072b47]">Composting Units – </span>
-                            Facilities turning organic waste into fertilizers or soil conditioners.
-                        </li>
-                        <li>
-                            <span className="font-semibold text-[#072b47]">Bio-Gas Plants – </span>
-                            Units converting food waste into renewable methane or energy.
-                        </li>
-                        <li>
-                            <span className="font-semibold text-[#072b47]">Large Food Parks – </span>
-                            Industrial zones requiring an integrated waste management clearance.
-                        </li>
-                        <li>
-                            <span className="font-semibold text-[#072b47]">Hotel Chains – </span>
-                            Large hospitality groups managing their own on-site recovery systems.
-                        </li>
+                <div className="mb-6">
+                    <ul className="list-disc pl-6 space-y-3 text-[17px] text-slate-600 leading-relaxed grid sm:grid-cols-2 gap-x-6">
+                        <li>Food waste recycling companies</li>
+                        <li>Composting units processing food waste</li>
+                        <li>Businesses converting food waste into animal feed</li>
+                        <li>Bio-gas or biofuel plants using food waste</li>
+                        <li>Food processing industries managing waste recycling</li>
+                        <li>Restaurants or large kitchens with in-house recycling systems</li>
                     </ul>
                 </div>
+                <p className="text-[17px] text-slate-600 leading-relaxed mt-6 font-medium">
+                    If your business collects, transports, processes, or converts food waste into usable products, obtaining the proper license is essential to operate legally.
+                </p>
             </div>
         </section>
     );
@@ -141,22 +135,26 @@ const FoodRecyclingDocuments = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Documents Required
+                    Documents Required for Food Recycling License
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Mandatory papers for SPCB clearance.
+                    To apply for a Food Recycling License, businesses typically need to submit the following documents:
                 </p>
                 <div className="mb-8">
-                    <ul className="list-disc pl-6 space-y-2 text-[17px] text-slate-600 leading-relaxed">
-                        <li>Proof of Site Possession (Sale Deed/Lease)</li>
-                        <li>Detailed Site Layout Plan (Equipment/ETP location)</li>
-                        <li>Environmental Impact Assessment (EIA) Report</li>
-                        <li>Process Flowchart for waste treatment</li>
-                        <li>CA Certified Gross Fixed Asset Certificate</li>
-                        <li>Copy of Factory License/Business Incorporation</li>
-                        <li>Detailed Project Report (DPR) of the facility</li>
-                        <li>Water and Electricity availability certificate</li>
+                    <ul className="list-disc pl-6 space-y-2 text-[17px] text-slate-600 leading-relaxed grid sm:grid-cols-2 gap-x-6">
+                        <li>Business registration certificate (Company/LLP/Partnership/Proprietorship)</li>
+                        <li>PAN card of the business entity</li>
+                        <li>Identity and address proof of directors or partners</li>
+                        <li>Proof of business address</li>
+                        <li>Waste management plan or operational details</li>
+                        <li>Pollution control clearance (if applicable)</li>
+                        <li>Details of recycling process or equipment</li>
+                        <li>Layout or facility plan</li>
+                        <li>Photographs of the business premises</li>
                     </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mt-6 font-medium">
+                        Additional documents may be required depending on the nature and scale of recycling operations.
+                    </p>
                 </div>
             </div>
         </section>
@@ -165,12 +163,11 @@ const FoodRecyclingDocuments = () => {
 
 const FoodRecyclingProcess = () => {
     const steps = [
-        { step: "01", title: "Site Selection", desc: "Choosing a location compliant with industrial zone norms." },
-        { step: "02", title: "CTE Application", desc: "Submitting 'Consent to Establish' forms before construction starts." },
-        { step: "03", title: "Board Review", desc: "Technical scrutiny of environmental impact and process flow." },
-        { step: "04", title: "CTO Filing", desc: "Applying for 'Consent to Operate' once the unit is ready to run." },
-        { step: "05", title: "Final Inspection", desc: "SPCB officials visit to verify the installation of treatment plants." },
-        { step: "06", title: "NOC Grant", desc: "Issuance of the official pollution clearance certificate." }
+        { step: "01", title: "Business & Compliance Assessment", desc: "Experts evaluate your recycling operations and determine the applicable regulatory requirements." },
+        { step: "02", title: "Documentation Preparation", desc: "All required documents and operational details are compiled for submission." },
+        { step: "03", title: "Application Filing", desc: "The license application is submitted to the relevant authorities along with supporting documentation." },
+        { step: "04", title: "Verification & Inspection", desc: "Authorities may conduct inspections to ensure compliance with food safety and environmental standards." },
+        { step: "05", title: "License Approval", desc: "Once verified, the Food Recycling License is issued allowing the business to operate legally." }
     ];
 
     return (
@@ -178,10 +175,10 @@ const FoodRecyclingProcess = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        The Licensing Procedure
+                        Step-by-Step Process to Obtain Food Recycling License
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        Path to obtaining CTE and CTO from the board.
+                        The Food Recycling License process involves regulatory verification and documentation submission. Vyombiz managed by Clink Consultancy Services Private Limited ensures the entire process is smooth, compliant, and time-efficient.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
@@ -212,10 +209,11 @@ const FoodRecyclingProcess = () => {
 
 const FoodRecyclingFeatures = () => {
     const features = [
-        { title: "PCB Liaisoning", desc: "Direct interaction with Pollution Control Board for faster clearance." },
-        { title: "Design Support", desc: "Assistance in designing efficient waste treatment and ETP layouts." },
-        { title: "Quarterly Audits", desc: "Regular internal audits to ensure the unit stays within emission limits." },
-        { title: "Renewal Reminders", desc: "Alerts for CTO renewals which typically happen every 2-5 years." }
+        { title: "Expert Consultation", desc: "Regulatory consultation tailored to your specific recycling operations." },
+        { title: "End-to-End Documentation", desc: "Complete support for all documentation and application filing requirements." },
+        { title: "Quick Processing", desc: "Fast and compliant application filing to minimize approval timelines." },
+        { title: "Affordable Pricing", desc: "Transparent and affordable pricing with no hidden costs." },
+        { title: "Dedicated Specialists", desc: "Assigned specialists provide ongoing regulatory assistance." }
     ];
 
     return (
@@ -223,10 +221,10 @@ const FoodRecyclingFeatures = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Service Features
+                        Why Choose Vyombiz for Food Recycling License?
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Our environmental compliance support.
+                        Obtaining regulatory approvals can be complex without expert guidance. Vyombiz managed by Clink Consultancy Services Private Limited simplifies the process with professional support and industry experience, allowing businesses to focus on innovation and sustainability.
                     </p>
                 </div>
                 <div>
@@ -248,12 +246,12 @@ const FoodRecyclingFeatures = () => {
 
 const FoodRecyclingCompliance = () => {
     const compliance = [
-        "Submission of Annual Environmental Statements",
-        "Regular testing of effluent and flue gas emissions",
-        "Maintaining records of waste received and processed",
-        "Periodic maintenance of treatment machinery",
-        "Display of green metrics at the facility entrance",
-        "Informing the board about any process alterations"
+        "Safe handling and storage of food waste",
+        "Proper waste segregation and disposal methods",
+        "Maintaining hygienic recycling facilities",
+        "Pollution control and environmental safeguards",
+        "Regular documentation and operational reporting",
+        "Compliance with local municipal regulations"
     ];
 
     return (
@@ -261,10 +259,10 @@ const FoodRecyclingCompliance = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Post Compliance
+                        Compliance Requirements for Food Recycling Businesses
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Maintain your green status legally.
+                        Businesses dealing with food waste recycling must comply with several regulatory guidelines to ensure sustainable operations and avoid penalties.
                     </p>
                 </div>
                 <div>
@@ -277,6 +275,28 @@ const FoodRecyclingCompliance = () => {
                         </div>
                     ))}
                     <div className="border-t border-slate-300"></div>
+
+                    <div className="mt-12">
+                        <h2 className="text-3xl lg:text-4xl font-semibold text-center text-[#072b47] mb-6">
+                            Penalties for Operating Without a Food Recycling License
+                        </h2>
+                        <p className="text-[16px] text-center text-slate-600 max-w-3xl mx-auto leading-relaxed mb-6">
+                            Operating a food recycling business without the necessary approvals can lead to serious consequences. Obtaining the proper license ensures your business operates legally, responsibly, and sustainably.
+                        </p>
+                        <div className="grid sm:grid-cols-2 gap-4 max-w-4xl mx-auto">
+                            {[
+                                "Monetary fines imposed by regulatory authorities",
+                                "Suspension or closure of recycling operations",
+                                "Legal action for non-compliance",
+                                "Loss of business credibility"
+                            ].map((issue, idx) => (
+                                <div key={idx} className="bg-slate-50 p-4 rounded-lg flex items-center gap-3">
+                                    <div className="w-2 h-2 rounded-full bg-[#005a9c]"></div>
+                                    <span className="text-[16px] text-slate-700">{issue}</span>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -286,20 +306,24 @@ const FoodRecyclingCompliance = () => {
 const FoodRecyclingLicense = () => {
     const faqs = [
         {
-            question: "What is a Food Recycling License?",
-            answer: "A Food Recycling License refers to the No Objection Certificate (NOC) granted by the State Pollution Control Board (SPCB). It includes Consent to Establish (CTE) and Consent to Operate (CTO) for businesses engaged in food waste management or composting."
+            question: "Is a Food Recycling License mandatory in India?",
+            answer: "Yes, businesses involved in collecting or processing food waste for recycling must obtain the appropriate approvals from relevant authorities."
         },
         {
-            question: "Why is food recycling important for the food industry?",
-            answer: "It reduces solid waste disposal fees, prevents large quantities of recyclable ingredients from being wasted, and contributes to a circular economy by returning nutrients to agriculture through composting."
+            question: "Can restaurants apply for a Food Recycling License?",
+            answer: "Restaurants that operate their own recycling or composting units may require this license depending on the scale of operations."
         },
         {
-            question: "Who grants the Food Recycling License in India?",
-            answer: "The concerned State Pollution Control Board (SPCB) of each state is the authority responsible for granting this license."
+            question: "Is inspection required before approval?",
+            answer: "Yes, in many cases regulatory authorities may conduct facility inspections to verify compliance."
         },
         {
-            question: "Which legislation deals with food waste management?",
-            answer: "Food waste management in India is primarily dealt with under the Waste Management (Food Waste) Regulations, 2009."
+            question: "How Long Does It Take to Get a Food Recycling License?",
+            answer: "On average, the process may take 15 to 30 working days, depending on completeness of documentation, scale of recycling operations, and inspection requirements by authorities."
+        },
+        {
+            question: "Can Vyombiz assist with the entire registration process?",
+            answer: "Yes. Vyombiz managed by Clink Consultancy Services Private Limited provides complete support from documentation to license approval."
         }
     ];
 
@@ -308,16 +332,16 @@ const FoodRecyclingLicense = () => {
             {/* ================= SECTION 1: HERO ================= */}
             <HeroLayout
                 heroTitleMain="Food Recycling"
-                heroTitleSuffix="License"
-                heroSubtitle="Drive Sustainability in the Food Supply Chain"
-                heroDescription="India faces a massive challenge with food waste, with nearly 40% of production lost annually. A Food Recycling License (Pollution NOC) is mandatory for businesses scaling food recovery and composting operations. We help you secure CTE/CTO clearances from the SPCB."
+                heroTitleSuffix="License Registration"
+                heroSubtitle="Turn food waste into a responsible resource — legally."
+                heroDescription="Get expert assistance for Food Recycling License registration and stay compliant with food safety and environmental regulations in India. Start your Food Recycling License application today."
                 whatsIncludedList={[
-                    "SPCB Liaisoning & Coordination",
-                    "CTE & CTO Application Filing",
-                    "Site Location Schematic Mapping",
-                    "Process Flowchart Design",
-                    "Environmental Impact Audit",
-                    "Pollution Control Board Compliance"
+                    "End-to-End Documentation",
+                    "Expert Compliance Support",
+                    "Fast & Hassle-Free Process",
+                    "Operation Standard Verification",
+                    "Inspection Readiness",
+                    "Affordable & Transparent Pricing"
                 ]}
                 stats={[
                     { count: "40%", label: "Food Wasted", icon: <Recycle size={20} /> },

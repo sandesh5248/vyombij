@@ -14,25 +14,25 @@ const CopyrightRegistrationOverview = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16 lg:gap-24">
                     <div>
                         <span className="inline-block px-4 py-1.5 text-sm font-semibold bg-[#e6f0fa] text-[#005a9c] rounded-full mb-4">
-                            Intellectual Property
+                            Protection of Intellectual Property
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Copyright Registration: <span className="text-[#005a9c]">An Overview</span>
+                            Overview of <span className="text-[#005a9c]">Copyright Registration in India</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Copyright registration in India is required for artistic works, literary works, sound recordings, musical works, computer programs, dramatic works, cinematograph films, and computer softwares.
+                            Copyright registration in India applies to various types of creative works, including literary works, artistic works, musical compositions, sound recordings, computer programs, dramatic works, cinematograph films, and software.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Copyright registration is a legal mechanism that protects intellectual and artistic creations from unauthorized use under the Copyright Act, 1957. The Act empowers individuals to uphold their intellectual rights against fraudulent, deceitful, and unlawful usage of their original works and creations.
+                            Copyright registration is a legal mechanism that protects creative and intellectual works from unauthorized use under the Copyright Act, 1957. It grants creators the authority to safeguard their work against unlawful copying, misuse, or reproduction.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Copyright registration aims to foster innovation and creativity by encouraging monetary benefits and recognition for original creators. It, in turn, promotes the production of high-quality content across different fields.
+                            Copyright protection encourages creativity and innovation by giving authors recognition and economic benefits for their original work, which promotes the development of quality content across various industries.
                         </p>
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            What is Copyright?
+                            What is Copyright Protection?
                         </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            According to the Copyright Act, 1957, copyright is a legal right granted to the original owner of the intellectual property rights. It offers exclusive rights to work, including how it can be used, and forbids others from copying without permission.
+                            Copyright is a legal right granted to the creator of an original work under the Copyright Act, 1957. It gives the owner exclusive rights to reproduce, distribute, publish, or adapt the work and prevents others from using it without authorization.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -53,7 +53,7 @@ const CopyrightRegistrationEligibility = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Eligibility Criteria for Online Copyright Registration
+                    Who Can Apply for Copyright Registration?
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
                     To apply for online copyright registration, creators and owners must meet certain conditions and follow the required guidelines. These include the following, as discussed below:
@@ -61,10 +61,10 @@ const CopyrightRegistrationEligibility = () => {
 
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Original Creators
+                        Author or Creator
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Author or creator of the work.
+                        The individual who originally created the work.
                     </p>
                 </div>
                 <div className="mb-10">
@@ -72,37 +72,37 @@ const CopyrightRegistrationEligibility = () => {
                         Assignees
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Assignee or transferee (if exists).
+                        Individuals or entities who have been assigned copyright ownership.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Producers
+                        Producers or Publishers
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Publisher or producer of the work.
+                        Publishers or producers involved in distributing the work.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Co-authors
+                        Joint Authors
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Co-authors in case of joint authorship.
+                        Multiple creators involved in producing the same work.
                     </p>
                 </div>
 
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mt-16 mb-6">
-                    Types of Creative Works Eligible
+                    Types of Works Eligible for Copyright
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {[
-                        { title: "Literary Work", desc: "Books, essays, poems, manuals, articles, novels." },
-                        { title: "Artistic Work", desc: "Sculptures, drawings, paintings, performances." },
-                        { title: "Musical Work", desc: "Song lyrics, scores, compositions, melodies, tunes." },
-                        { title: "Software/ Application", desc: "Software, data tables, and compilations." },
-                        { title: "Sound Recording", desc: "Audio recordings, music, speeches, audiobooks." },
-                        { title: "Visual & Performing Arts", desc: "Movies, television shows, animations, video productions." }
+                        { title: "Literary Works", desc: "Books, articles, essays, manuals, poems, and novels." },
+                        { title: "Artistic Works", desc: "Paintings, drawings, sculptures, and illustrations." },
+                        { title: "Musical Works", desc: "Song lyrics, compositions, musical scores, and melodies." },
+                        { title: "Software and Applications", desc: "Computer programs, databases, and digital compilations." },
+                        { title: "Sound Recordings", desc: "Audio recordings, speeches, music tracks, and audiobooks." },
+                        { title: "Cinematograph and Performing Works", desc: "Films, television shows, animations, and video productions." }
                     ].map((item, idx) => (
                         <div key={idx} className="bg-slate-50 border border-slate-200 rounded-xl p-6">
                             <h3 className="text-[18px] font-semibold text-[#072b47] mb-2">{item.title}</h3>
@@ -120,28 +120,29 @@ const CopyrightRegistrationDocumentsSection = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Documents Needed to Register Copyright Online
+                    Documents Required for Copyright Registration
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
                     The applicants must submit the following documents while applying for copyright registration in India:
                 </p>
                 <div className="space-y-4">
                     {[
-                        "Applicant details, including name, address, and nationality (in the case of an author)",
-                        "Identity proof of the applicant, such as an Aadhar card, PAN card, etc.",
-                        "Copies/ information of published work/ publication details",
-                        "Proof of payment for copyright registration",
-                        "The language in which the work is published",
-                        "Class, title, & work description, referring to the guidelines for more clarity",
-                        "Date of publication, referring to the guidelines that describe published work",
-                        "No objection certificate from the author, copyright holders, and publisher",
-                        "Incorporation certificate, if the copyright concerns any business",
-                        "Demand draft, if the application is being submitted offline",
-                        "Power of Attorney or Vakalatnama (if any)"
+                        { title: "Applicant Information", desc: "Details such as name, address, and nationality of the author." },
+                        { title: "Identity Proof", desc: "Government ID such as Aadhaar card or PAN card." },
+                        { title: "Copy of the Work", desc: "Published or unpublished copy of the creative work." },
+                        { title: "Fee Payment Proof", desc: "Receipt confirming payment of the registration fee." },
+                        { title: "Language Details", desc: "Information about the language in which the work is published." },
+                        { title: "Work Title and Description", desc: "Details describing the nature and category of the work." },
+                        { title: "Publication Details", desc: "Date and place of publication, if applicable." },
+                        { title: "NOC from Author/Publisher", desc: "Required if someone other than the creator files the application." },
+                        { title: "Company Incorporation Certificate", desc: "Applicable if the copyright belongs to a business entity." },
+                        { title: "Power of Attorney", desc: "Required when the application is filed through an authorized representative." }
                     ].map((doc, idx) => (
                         <div key={idx} className="flex items-start gap-3">
                             <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                            <p className="text-[17px] text-slate-600 leading-relaxed font-medium">{doc}</p>
+                            <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
+                                <span className="font-bold text-[#072b47]">{doc.title}:</span> {doc.desc}
+                            </p>
                         </div>
                     ))}
                 </div>
@@ -156,7 +157,7 @@ const CopyrightRegistrationProcessSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        Process to Register Copyright in India
+                        Copyright Registration Process
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
                         Here’s a step-by-step guide to the copyright registration process in India:
@@ -172,12 +173,12 @@ const CopyrightRegistrationProcessSection = () => {
                     </div>
                     <div className="lg:col-span-2">
                         {[
-                            { title: "File the Application", desc: "The first step requires the applicant to file the copyright registration application in Form IV, including all required details, with the Registrar of Copyrights." },
-                            { title: "Pay the Application Fees", desc: "The applicants must further pay the requisite fees along with their application as mentioned in Schedule 2 of the Copyright Act, 1957." },
-                            { title: "Signature of the Applicant", desc: "The application must be signed by the applicant, and also bear the signatures of an advocate in whose favour a POA or Vakalatnama has been executed." },
-                            { title: "Issuance of Diary Number", desc: "The registrar issues a Diary No. The applicants must wait for 30 days, which allows people to raise objections to copyright claims." },
-                            { title: "Resolution of Objections Raised", desc: "If no objections are received, the application proceeds for further scrutiny by a scrutineer for any discrepancies." },
-                            { title: "Grant of Copyright Registration", desc: "In case no discrepancies are found, the application is accepted for registration. An extract is sent to the registrar to mark the entry in the Register of Copyright." }
+                            { title: "Application Submission", desc: "Submit the copyright application in Form IV to the Registrar of Copyrights." },
+                            { title: "Payment of Fees", desc: "Applicants must pay the prescribed fee under Schedule II of the Act." },
+                            { title: "Applicant Verification", desc: "The application must be signed by the applicant or authorized representative." },
+                            { title: "Diary Number Generation", desc: "The Registrar issues a diary number, initiating a mandatory 30-day waiting period." },
+                            { title: "Examination and Objection Handling", desc: "If objections arise, they must be addressed before proceeding further." },
+                            { title: "Issuance of Registration Certificate", desc: "If no discrepancies are found, the copyright is registered and entered in the official register." }
                         ].map((step, idx) => (
                             <div key={idx} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-200">
                                 <div className="text-[16px] font-semibold text-[#072b47]">
@@ -207,7 +208,7 @@ const CopyrightRegistrationFeaturesSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Trust VyomBiz for Copyright Registration in India?
+                        Why Choose VyomBiz for Copyright Registration?
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
                         Expert support.
@@ -215,16 +216,16 @@ const CopyrightRegistrationFeaturesSection = () => {
                 </div>
                 <div>
                     {[
-                        { title: "High Success Rate", desc: "99% success rate in securing approval for copyright registration." },
-                        { title: "Proven Track Record", desc: "Successfully registered over 10,000+ copyrighted works." },
-                        { title: "Extensive Reach", desc: "Provides copyright registration services across 100+ cities." },
-                        { title: "Industry Experience", desc: "Extensive experience across 20+ leading industries." },
-                        { title: "24/7 Expert Support", desc: "24/7 availability of dedicated IPR experts to handle your project." },
-                        { title: "Documentation Support", desc: "Complete documentation support for online copyright registration." },
-                        { title: "End-to-End Assistance", desc: "End-to-end expert assistance for online copyright registration in India." },
-                        { title: "Affordable Pricing", desc: "Offers services at very affordable prices, with no hidden charges." },
-                        { title: "International Expertise", desc: "Holds expertise with international treaties, protecting multiple countries." },
-                        { title: "Legal Complication Handling", desc: "Efficiently handles legal complications for the registration of copyright in India." }
+                        { title: "High Approval Rate", desc: "Strong track record of successful copyright registrations." },
+                        { title: "Extensive Experience", desc: "Over 10,000 works successfully registered." },
+                        { title: "PAN-India Services", desc: "Copyright registration assistance available across India." },
+                        { title: "Multi-Industry Expertise", desc: "Experience serving clients across various sectors." },
+                        { title: "Round-the-Clock Support", desc: "Dedicated professionals available anytime for assistance." },
+                        { title: "Documentation Assistance", desc: "Support in preparing and filing all required documents." },
+                        { title: "Complete Registration Support", desc: "Guidance throughout the entire copyright registration process." },
+                        { title: "Transparent Pricing", desc: "Cost-effective services with clear pricing structure." },
+                        { title: "Global Copyright Awareness", desc: "Knowledge of international copyright treaties and protection." },
+                        { title: "Legal Issue Handling", desc: "Assistance in addressing legal complications during registration." }
                     ].map((feature, idx) => (
                         <div key={idx} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-300">
                             <div className="text-[15px] font-semibold text-[#072b47]">
@@ -251,8 +252,8 @@ const CopyrightRegistration = () => {
 
     const faqs = [
         {
-            question: "What is the role of the Registrar of Copyrights?",
-            answer: "1. Registration of copyrighted works such as literary, musical, and artistic works. 2. Issuance of copyright certificates. 3. Provide copyright information services to the public. 4. Maintenance of copyright records."
+            question: "What are the responsibilities of the Registrar of Copyrights?",
+            answer: "The Registrar of Copyrights is responsible for registering copyright applications, issuing copyright certificates, maintaining official records of registered works, and providing copyright-related information to the public."
         },
         {
             question: "How do I register a copyright in India?",
@@ -278,7 +279,7 @@ const CopyrightRegistration = () => {
                     </span>
 
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Importance of Copyright Registration in India
+                        Benefits of Copyright Registration
                     </h2>
 
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
@@ -296,14 +297,14 @@ const CopyrightRegistration = () => {
 
                 <div className="space-y-6">
                     {[
-                        { title: "Legal Protection", desc: "Copyright registration helps creators establish legal ownership of their work by crediting their name to their work in official records. This authenticates legal recognition and proof of ownership." },
-                        { title: "Proof of Ownership", desc: "Copyright registration serves as proof of ownership, allowing creators to use it for marketing purposes and contribute to enhancing brand value." },
-                        { title: "Exclusive Reproduction Rights", desc: "The original creators have the right to decide about the reproduction of their work. It is illegal for anyone other than the original owner to copy or reproduce the work without seeking permission." },
-                        { title: "Security of Rights", desc: "Copyright registration provides security to the owner's work, encompassing reproduction, distribution, adaptation, dissemination, and translation." },
-                        { title: "Owner Visibility", desc: "Copyright registration raises the work's profile, making it worldwide accessible and searchable, which prevents any unauthorized usage of the work once it is registered." },
-                        { title: "Translation and Adaptations", desc: "Original owners are protected by copyright laws to authorize or prohibit others from translating their work into other languages or making adaptations based on the original content without permission." },
-                        { title: "Distribution and Dissemination", desc: "Once the original owners have copyrighted their work, they become the decision-making authority over its distribution and dissemination in the public domain." },
-                        { title: "Economic Stability", desc: "Copyright registration offers economic stability, enabling creators to reproduce and monetize their art in various forms." }
+                        { title: "Legal Protection", desc: "Copyright registration provides legal recognition of ownership and helps creators take action against infringement." },
+                        { title: "Evidence of Ownership", desc: "A registered copyright acts as official proof that the creator owns the original work." },
+                        { title: "Exclusive Reproduction Rights", desc: "Only the copyright owner has the authority to reproduce or copy the work." },
+                        { title: "Protection of Intellectual Rights", desc: "Copyright safeguards rights such as reproduction, distribution, adaptation, and public communication of the work." },
+                        { title: "Increased Creator Visibility", desc: "Registration helps establish public recognition of ownership and prevents unauthorized usage." },
+                        { title: "Rights for Translation and Adaptation", desc: "Copyright owners can authorize or restrict translations and derivative works based on their original content." },
+                        { title: "Control Over Distribution", desc: "Owners have complete authority to decide how their work is shared, published, or distributed." },
+                        { title: "Revenue Opportunities", desc: "Copyright enables creators to monetize their work through licensing, publishing, and distribution." }
                     ].map((item, index) => (
                         <div
                             key={index}
@@ -328,9 +329,9 @@ const CopyrightRegistration = () => {
 
             <HeroLayout
                 heroTitleMain="Copyright Registration"
-                heroTitleSuffix="in India"
+                heroTitleSuffix="Services in India"
                 heroSubtitle="Secure Your Creative Legacy"
-                heroDescription="Protect your artistic, literary, musical, and software creations."
+                heroDescription="Safeguard your literary, artistic, musical, and software creations with copyright protection."
                 whatsIncludedList={[
                     "Filing of Copyright Application",
                     "Reply to Discrepancy Letters",
@@ -338,9 +339,9 @@ const CopyrightRegistration = () => {
                     "Copyright Certificate Issuance"
                 ]}
                 stats={[
-                    { count: "60 Years", label: "Validity", icon: <Shield size={20} /> },
-                    { count: "10k+", label: "Works Protected", icon: <CheckCircle size={20} /> },
-                    { count: "Expert", label: "Assistance", icon: <UserCheck size={20} /> }
+                    { count: "60-Year", label: "Copyright Protection", icon: <Shield size={20} /> },
+                    { count: "10,000+", label: "Creative Works Protected", icon: <CheckCircle size={20} /> },
+                    { count: "Professional", label: "Copyright Assistance", icon: <UserCheck size={20} /> }
                 ]}
             />
 

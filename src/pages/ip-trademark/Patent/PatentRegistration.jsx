@@ -14,19 +14,19 @@ const PatentRegistrationOverview = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16 lg:gap-24">
                     <div>
                         <span className="inline-block px-4 py-1.5 text-sm font-semibold bg-[#e6f0fa] text-[#005a9c] rounded-full mb-4">
-                            Intellectual Property
+                            Protection of Intellectual Property
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Patent Registration in India– <span className="text-[#005a9c]">An Overview</span>
+                            Overview of <span className="text-[#005a9c]">Patent Registration in India</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Patent registration in India grants inventors' exclusive rights, preventing others from making, using, or selling their inventions without authorization or permission. The procedure for registration of a patent begins with a search to confirm whether the invention is unique and innovative. The next step involves filing an application with detailed specifications with the Indian Patent Office.
+                            Patent registration in India grants inventors' exclusive rights, preventing others from making, using, or selling their inventions without authorization or permission. The procedure for registration of a patent begins with a patent search to determine whether the invention is new and innovative. After this, an application containing detailed technical specifications is filed with the Indian Patent Office.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Once the review and publication are over, and if no objections or oppositions are raised, the patent and registration are granted. The validity of a patent in India is 20 years. Patent registration safeguards innovations, allowing inventors to benefit from their inventions commercially.
+                            After examination and publication, and if no objections or oppositions arise, the patent is granted by the authority. In India, a patent remains valid for 20 years from the date of filing. Patent registration protects innovative ideas and allows inventors to benefit commercially from their inventions.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Leverage our 10+ Years of expertise in intellectual property services and enjoy stress-free patent registration for your technical invention.
+                            With years of experience in intellectual property services, VyomBiz assists innovators in securing patent registration smoothly and efficiently.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -47,7 +47,7 @@ const PatentRegistrationEligibility = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Eligibility Criteria for Patent Registration in India
+                    Who Can Apply for Patent Registration?
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
                     To meet the eligibility criteria for patent registration in India, you must fulfil the below-mentioned conditions:
@@ -55,42 +55,42 @@ const PatentRegistrationEligibility = () => {
 
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Products
+                        Innovative Products
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Unique and visionary products such as gadgets, machinery, chemicals, and drugs.
+                        Unique and innovative products such as machines, gadgets, or chemical inventions may qualify for patent protection.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Processes or Methods
+                        Innovative Processes
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Creative manufacturing or task manufacturing techniques can be patented.
+                        New manufacturing or technical processes can also be patented.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Machines
+                        Mechanical Inventions
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Functional mechanical inventions with distinctive mechanisms or features are patentable.
+                        Machines with unique mechanisms or technological improvements can be protected under patent law.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Chemical Formulations
+                        Chemical Innovations
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        New chemical substances, including drugs, can be protected under patent registration.
+                        New chemical compounds, pharmaceutical products, and formulations can qualify for patent protection.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Biotech & Software Innovations
+                        Biotech and Software Innovations
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Biotechnological discoveries and some software inventions can be patented.
+                        Certain biotechnology inventions and software-based technologies may also qualify for patents.
                     </p>
                 </div>
             </div>
@@ -103,32 +103,28 @@ const PatentRegistrationDocumentsSection = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Documents Needed for Patent Registration Process
+                    Documents Required for Patent Registration
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
                     Here is a list of documents required for patent registration process, which an applicant must submit at the time of applying. These documents include:
                 </p>
                 <div className="space-y-4">
                     {[
-                        "Identity and address proof of inventor and assignee.",
-                        "Contact details, declaration, and information on prior patent applications.",
-                        "Patent specification (provisional or complete).",
-                        "Statement and Undertaking under Section 8 - Particulars of assignments and foreign filing details.",
-                        "Declaration of inventors for the patent application.",
-                        "Technical Information including background of the invention, disclosure of invention's need, invention summary, and work description.",
-                        "Request for examination and Request for early publication.",
-                        "Disclosure of Power of Authority (if assigned to Patent Agent).",
-                        "Disclosure of claims and abstracts and statutory fees (Cheque/DD).",
-                        "Proof of right to file the patent application and MSME or startup certificate.",
-                        "Provisional specifications, if complete ones are unavailable.",
-                        "Priority document for Convention Application or PCT National Phase Application.",
-                        "Permission from the National Biodiversity Authority (if biological material is from India).",
-                        "Source of geographical origin for biological materials.",
-                        "Signatures of the applicant or authorized person with name and date."
+                        { title: "Identity and Address Proof", desc: "Documents verifying the identity and address of the inventor and applicant." },
+                        { title: "Applicant Details and Declaration", desc: "Information about the applicant and declaration regarding prior patent filings." },
+                        { title: "Patent Specification", desc: "Detailed description of the invention in provisional or complete specification format." },
+                        { title: "Section 8 Statement and Undertaking", desc: "Details of foreign patent applications and related filings." },
+                        { title: "Inventor Declaration", desc: "Official declaration confirming the inventors involved in the invention." },
+                        { title: "Technical Details of the Invention", desc: "Includes background, invention summary, and working description." },
+                        { title: "Examination Request", desc: "Formal request for examination and publication of the patent application." },
+                        { title: "Power of Attorney", desc: "Required when the application is filed through a patent agent." },
+                        { title: "Priority Documents", desc: "Required for convention applications or PCT national phase filings." }
                     ].map((doc, idx) => (
                         <div key={idx} className="flex items-start gap-3">
                             <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                            <p className="text-[17px] text-slate-600 leading-relaxed font-medium">{doc}</p>
+                            <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
+                                <span className="font-bold text-[#072b47]">{doc.title}:</span> {doc.desc}
+                            </p>
                         </div>
                     ))}
                 </div>
@@ -143,7 +139,7 @@ const PatentRegistrationProcessSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        Procedure for Registration of Patent Online
+                        Patent Registration Process in India
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
                         The step-by-step procedure for registration of patent online involves different steps.
@@ -159,12 +155,12 @@ const PatentRegistrationProcessSection = () => {
                     </div>
                     <div className="lg:col-span-2">
                         {[
-                            { title: "Conduct a Patent Search", desc: "The first step in the patent registration process is conducting an in-depth search of existing patents to ensure the invention is innovative. The research helps identify similar patents that might impact your application's success." },
-                            { title: "Prepare the Application", desc: "The next step is to draft a comprehensive patent application and add details, including descriptions, claims, and other essential drawings. It is vital to ensure that the application fulfils all the patent office's requirements for transparency and completeness." },
-                            { title: "File the Application", desc: "The next step in the path to apply for patent registration process involves submitting the application to the relevant patent office and the required fees. To avoid delays or rejections, you must confirm that all your forms are correctly filled out." },
-                            { title: "Request Review", desc: "Once the application is filed, the next step is to request a review of the filed application within the prescribed timeframe. This step is essential to initiate the official review process by patent examiners." },
-                            { title: "Respond to Objections", desc: "Lastly, if the submitted application faces any objections, you must be prepared to address them and answer the patent examiner's queries promptly." },
-                            { title: "Grant of Patent", desc: "Effective communication and clarification can improve the chances of granting your patent. Usually, the final grant of the application is notified via a journal that is published." }
+                            { title: "Patent Search", desc: "A detailed search is conducted to ensure that the invention is new and not already patented." },
+                            { title: "Draft the Patent Application", desc: "A detailed patent application is prepared including claims, descriptions, and drawings." },
+                            { title: "File the Patent Application", desc: "The application is submitted to the patent office along with the prescribed fees." },
+                            { title: "Request Examination", desc: "A request is submitted to initiate the formal examination of the patent application." },
+                            { title: "Respond to Examination Report", desc: "Applicants must respond to any objections or queries raised by the patent examiner." },
+                            { title: "Patent Grant", desc: "If the application meets all requirements, the patent is granted and published in the official journal." }
                         ].map((step, idx) => (
                             <div key={idx} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-200">
                                 <div className="text-[16px] font-semibold text-[#072b47]">
@@ -194,7 +190,7 @@ const PatentRegistrationFeaturesSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        How VyomBiz Helps Simplify the Patent Registration Process?
+                        How VyomBiz Assists with Patent Registration
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
                         Expert support.
@@ -203,15 +199,15 @@ const PatentRegistrationFeaturesSection = () => {
                 <div>
 
                     {[
-                        { title: "Expert Consultation", desc: "We offer consultation support for patent registration in India as we have over 10+ years of experience in patent law." },
-                        { title: "Network of Lawyers", desc: "You can access our skilled network of lawyers for expert legal advice on possible issues." },
-                        { title: "Saved 20 Lakh+ Hours of Inventors", desc: "We drive monthly follow-ups with the patent office to ensure on-time application processing. Thus, we saved 20,000+ hours of creators." },
-                        { title: "98% Success Rate", desc: "We perform in-depth patent searches and boast a success rate of over 98% in recognizing suitable patents." },
-                        { title: "Affordable Packages", desc: "We offer budget-friendly and competitive packages for patent registration in India with zero hidden costs." },
-                        { title: "Detailed Paperwork", desc: "We assist you with the paperwork and help prepare your patent application documents to ensure accuracy and compliance." },
-                        { title: "Application Filing", desc: "We handle your patent application submission within 24 hours of obtaining the required details." },
-                        { title: "Response Preparation", desc: "We handle the responses within 30 days, reducing potential delays in the registration process." },
-                        { title: "Post-registration Support", desc: "We offer continued post-registration assistance to help you maintain your patent rights." }
+                        { title: "Expert Patent Consultation", desc: "Professional guidance from experienced intellectual property experts." },
+                        { title: "Network of Legal Experts", desc: "Access to skilled patent lawyers for legal support and advice." },
+                        { title: "Efficient Processing", desc: "Regular follow-ups with the patent office to ensure timely processing." },
+                        { title: "High Success Rate", desc: "Strong success rate in securing patent approvals." },
+                        { title: "Cost-Effective Packages", desc: "Budget-friendly services with transparent pricing." },
+                        { title: "Documentation Support", desc: "Assistance in preparing accurate patent documentation." },
+                        { title: "Fast Application Filing", desc: "Quick submission of patent applications after receiving required details." },
+                        { title: "Objection Handling", desc: "Expert assistance in responding to patent office objections." },
+                        { title: "Post-Grant Support", desc: "Continued support to maintain and enforce patent rights." }
                     ].map((feature, idx) => (
                         <div key={idx} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-300">
                             <div className="text-[15px] font-semibold text-[#072b47]">
@@ -238,8 +234,8 @@ const PatentRegistration = () => {
 
     const faqs = [
         {
-            question: "What is patent agent registration?",
-            answer: "1. Must be a citizen of India. 2. Must have attained the age of 21 years. 3. Must have completed an educational degree in either engineering, science, or technology from a recognized university in India. 4. Must pay the fee specified for the registration."
+            question: "Who can become a registered patent agent in India?",
+            answer: "To become a registered patent agent in India, an individual must be an Indian citizen, be at least 21 years old, hold a degree in science, engineering, or technology from a recognized university, and pay the prescribed registration fee."
         },
         {
             question: "What is the procedure for registration of patent?",
@@ -265,7 +261,7 @@ const PatentRegistration = () => {
                     </span>
 
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of Patent Registration Online
+                        Benefits of Patent Registration
                     </h2>
 
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
@@ -283,12 +279,12 @@ const PatentRegistration = () => {
 
                 <div className="space-y-6">
                     {[
-                        { title: "Exclusive Rights", desc: "Patent registration grants exclusive rights to inventors to use and sell their inventions. It also prevents others from using their invention without due permission, which secures the inventor's commercial interests." },
-                        { title: "Monetization Opportunities", desc: "Inventors can license or sell their registered patents, which creates an alternate revenue generation stream from their intellectual property, all he while maintaining the legal ownership of the innovation." },
-                        { title: "Increased Market Value", desc: "Patents boost the credibility and market value of the invention and the business, making it more appealing to investors and partners. Patent is a unique and protected asset." },
-                        { title: "Competitive Advantage", desc: "A registered patent gives the inventor a competitive edge as their product or process becomes protected by deterring competitors from duplicating or using their patented technology." },
-                        { title: "Legal Protection", desc: "A patent offers robust legal protection, safeguarding the investor against malicious use and infringement of their patent. Inventors can initiate legal action against defaulters, ensuring their invention remains guarded from unauthorized use or exploitation." },
-                        { title: "Global Protection", desc: "International treaties ensure that a patent registered in India can be extended globally, facilitating inventors to seek patent protection in different countries to penetrate into the global markets." }
+                        { title: "Exclusive Ownership Rights", desc: "Patent registration grants inventors exclusive rights to manufacture, use, or sell their invention while preventing unauthorized usage." },
+                        { title: "Monetization Opportunities", desc: "Inventors can license or sell their patents, generating additional revenue while retaining ownership of their innovation." },
+                        { title: "Higher Market Value", desc: "A patented invention enhances the credibility and business value of the product, making it more attractive to investors and partners." },
+                        { title: "Competitive Advantage", desc: "Patents protect innovative technology and prevent competitors from copying the invention." },
+                        { title: "Legal Protection", desc: "Patent holders can take legal action against individuals or organizations that infringe upon their patented invention." },
+                        { title: "International Protection Opportunities", desc: "Patent protection in India can be extended internationally through global treaties, enabling inventors to secure rights in other countries." }
                     ].map((item, index) => (
                         <div
                             key={index}
@@ -313,9 +309,9 @@ const PatentRegistration = () => {
 
             <HeroLayout
                 heroTitleMain="Patent Registration"
-                heroTitleSuffix="in India"
+                heroTitleSuffix="Services in India"
                 heroSubtitle="Protect Your Innovations"
-                heroDescription="Secure exclusive rights to your inventions for 20 years."
+                heroDescription="Protect your innovative inventions with exclusive patent rights for 20 years."
                 whatsIncludedList={[
                     "Comprehensive Patent Search",
                     "Drafting Provisional/Complete Specification",
@@ -323,9 +319,9 @@ const PatentRegistration = () => {
                     "Examination & Objection Handling"
                 ]}
                 stats={[
-                    { count: "20 Years", label: "Protection", icon: <Shield size={20} /> },
-                    { count: "98%", label: "Success Rate", icon: <CheckCircle size={20} /> },
-                    { count: "Expert", label: "Consultation", icon: <UserCheck size={20} /> }
+                    { count: "20-Year", label: "Patent Protection", icon: <Shield size={20} /> },
+                    { count: "98%", label: "Approval Success Rate", icon: <CheckCircle size={20} /> },
+                    { count: "Professional", label: "Patent Consultation", icon: <UserCheck size={20} /> }
                 ]}
             />
 

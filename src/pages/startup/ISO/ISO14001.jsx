@@ -19,19 +19,19 @@ const ISO14001Overview = () => {
                             Environmental Safety
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            ISO 14001 EMS – <span className="text-[#005a9c]">An Overview</span>
+                            ISO 14001 EMS – <span className="text-[#005a9c]">Overview</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Historically, environment protection in the corporate sector primarily focused on systematic monitoring of on-site impacts regarding strict statutory compliance. Environmental Management Systems (EMS) expands this by actively making all employees aware of core environmental protection.
+                            Environmental protection in modern organizations goes beyond regulatory compliance. An Environmental Management System (EMS) encourages businesses to integrate environmental responsibility into everyday operations and employee practices.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The ISO 14001 EMS is an internationally recognised standard providing a strict tested framework. It supports the corporate sector in transitioning towards absolute environmental sustainability, remaining applicable to any type of organization across all industries.
+                            ISO 14001 is an internationally recognized standard that provides a structured framework for managing environmental responsibilities. It is applicable to organizations of all sizes and industries.
                         </p>
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
                             Objective of Environmental Management Systems
                         </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The objective of ISO 14001 is to provide organizations with a concrete framework to protect the environment alongside fulfilling socio-economic obligations. It formally controls the procedure of designing, manufacturing, distribution, and consumption using a sustainable life cycle perspective.
+                            The objective of ISO 14001 is to help organizations manage environmental impacts effectively while meeting regulatory requirements. It encourages a lifecycle approach covering product design, production, distribution, and disposal.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -57,7 +57,7 @@ const ISO14001Advantages = () => {
                         Systematic Security
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of ISO 14001 EMS
+                        Benefits of ISO 14001 Certification
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
                         Obtaining the ISO 14001 EMS Certificates natively establishes strong environmental credentials while significantly cutting downstream operational costs through efficient process streamlining.
@@ -74,12 +74,12 @@ const ISO14001Advantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Circular Eco-Driven Approach", desc: "Actively implements the 'Reduce, Reuse, and Recycle' methodology deep within core business activities." },
-                        { title: "Statutory Compliance", desc: "Strictly aligns operational footprints with external environmental laws, proactively meeting formal legal compliance." },
-                        { title: "Corporate Social Responsibility", desc: "Solidifies organizational goodwill, providing transparent public proof of fulfillment toward Corporate Social Responsibility (CSR)." },
-                        { title: "Reduced Wastes & Risks", desc: "Dramatically curtails physical waste generation, effectively preventing environmental liabilities and localized pollution." },
-                        { title: "Boosts Employee Consciousness", desc: "Enhances direct environmental awareness at the workplace, driving sustainable habits throughout the employee base." },
-                        { title: "Increased Profitability", desc: "Reduces resource waste, thereby substantially lowering operational energy costs and increasing market sustainability." }
+                        { title: "Sustainable Resource Management", desc: "Promotes efficient use of resources by supporting the reduce, reuse, and recycle approach." },
+                        { title: "Regulatory Compliance", desc: "Ensures alignment with environmental laws and regulatory requirements." },
+                        { title: "Strong Corporate Responsibility", desc: "Enhances corporate reputation by demonstrating commitment to environmental protection." },
+                        { title: "Waste Reduction", desc: "Helps organizations minimize waste generation and environmental risks." },
+                        { title: "Environmental Awareness", desc: "Encourages employees to participate actively in environmental initiatives." },
+                        { title: "Cost Efficiency", desc: "Improves resource efficiency and reduces operational costs related to energy and waste." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -101,7 +101,7 @@ const ISO14001Eligibility = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Criteria & Prerequisites for ISO 14001
+                    Eligibility for ISO 14001 Certification
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
                     Applying the ISO 14001 standard requires the corporate entity to strictly develop an internal structure capable of managing sustainable improvement cycles smoothly:
@@ -110,26 +110,20 @@ const ISO14001Eligibility = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                     <div className="mb-10">
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Operational Baseline Criteria
+                            Organizational Requirements
                         </h3>
-                        <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside bg-[#f8fafc] p-6 rounded-xl border border-slate-100">
-                            <li>Commitment explicitly driving strict Environmental Sustainability policies.</li>
-                            <li>Formalized Planning stages indicating goal settings and systemic targets.</li>
-                            <li>Implementation tactics including staff training, regulatory paperwork, and communications.</li>
-                            <li>Evaluation frameworks effectively monitoring programs and structural EMS reviews.</li>
-                        </ul>
+                        <p className="text-[17px] text-slate-600 leading-relaxed bg-[#f8fafc] p-6 rounded-xl border border-slate-100 h-full">
+                            Organizations must establish environmental policies, define sustainability objectives, and implement monitoring mechanisms.
+                        </p>
                     </div>
 
                     <div className="mb-10">
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Assessment Prerequisites
+                            Environmental Assessment
                         </h3>
-                        <ul className="grid grid-cols-1 gap-4 text-[17px] text-slate-600 leading-relaxed list-disc list-inside bg-[#f8fafc] p-6 rounded-xl border border-slate-100">
-                            <li>Mapping comprehensive Legislative and Regulatory operational requirements safely.</li>
-                            <li>Precise identification of all significant localized Environmental Aspects.</li>
-                            <li>Detailed examination and rigorous tracking of existing environmental procedures.</li>
-                            <li>Close structural assessments of all previous historical environmental incidents.</li>
-                        </ul>
+                        <p className="text-[17px] text-slate-600 leading-relaxed bg-[#f8fafc] p-6 rounded-xl border border-slate-100 h-full">
+                            Businesses should identify environmental impacts, review regulatory obligations, and evaluate past environmental performance.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -145,12 +139,12 @@ const ISODocumentsSection = () => {
                     Documents Required for ISO 14001 EMS
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Implementing the standard effectively dictates securing comprehensive mandatory compliance schedules correctly addressing core policy metrics safely:
+                    The following documents are generally required when applying for ISO 14001 certification: 
                 </p>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     <div className="mb-8">
-                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Mandatory Structural Frameworks</h3>
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Environmental Management Documents</h3>
                         <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside bg-[#f8fafc] p-6 rounded-xl border border-slate-100 h-full">
                             <li>Scope parameters of the deployed EMS.</li>
                             <li>Environmental Policy declaration and related Objectives constraints.</li>
@@ -159,7 +153,7 @@ const ISODocumentsSection = () => {
                         </ul>
                     </div>
                     <div className="mb-8">
-                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Assessment & Operational Data</h3>
+                        <h3 className="text-xl font-semibold text-[#072b47] mb-3">Monitoring and Compliance Records</h3>
                         <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside bg-[#f8fafc] p-6 rounded-xl border border-slate-100 h-full">
                             <li>Criteria effectively outlining the Evaluation of Significant Environmental Aspects.</li>
                             <li>Documented Evidence regarding Communication logs and Compliance Evaluation Results.</li>
@@ -176,24 +170,24 @@ const ISODocumentsSection = () => {
 const ISO14001ProcessSection = () => {
     const steps = [
         {
-            title: "Internal EMS Audit",
-            desc: "The applicant organization initially checks internal EMS processes to firmly ensure compliance metrics actively understand physical structural weaknesses."
+            title: "Internal Environmental Audit",
+            desc: "Organizations review their existing environmental processes to identify gaps."
         },
         {
-            title: "Management Review",
-            desc: "A formal evaluation conducted by the management determining relevant system capabilities to correctly make appropriate operational loop decisions."
+            title: "Management Evaluation",
+            desc: "Leadership reviews environmental performance and system effectiveness."
         },
         {
-            title: "Develop Corrective Actions",
-            desc: "Applicants create specialized Project Plans accurately determining necessary task resources scaling the updated EMS timeline appropriately."
+            title: "Corrective Implementation",
+            desc: "Organizations develop plans to address gaps and improve EMS processes."
         },
         {
-            title: "Design & Standardize Operations",
-            desc: "Environmental Manuals and standard Procedures are formally built and redesigned to seamlessly align conforming to core ISO requirement expectations."
+            title: "System Documentation",
+            desc: "Environmental policies, manuals, and procedures are prepared in accordance with ISO standards."
         },
         {
-            title: "Third-Party Registration",
-            desc: "An isolated Registrar is selected to assess conformity and execute ongoing surveillance audits, formally granting the 3-year certification validity upon success."
+            title: "Certification Audit",
+            desc: "An independent certification body evaluates the system and grants certification after successful verification."
         }
     ];
 
@@ -202,7 +196,7 @@ const ISO14001ProcessSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        Procedure for Obtaining ISO 14001
+                        ISO 14001 Certification Process
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
                         A defined execution scope assures an absolute, risk-free assessment tracking deployment efficiency natively:
@@ -251,15 +245,15 @@ const ISO14001ProcessSection = () => {
 const ISO14001FeaturesSection = () => {
     const features = [
         {
-            title: "Extensive Lifecycle Perspective",
+            title: "Lifecycle Environmental Management",
             desc: "Instead of merely checking immediate disposal parameters, ISO 14001 covers the entire product lifecycle from manufacturing routing downstream to physical disposal."
         },
         {
-            title: "Integrated Leadership Alignment",
+            title: "Leadership Involvement",
             desc: "The structurally revised 2015 edition heavily shifts the core EMS mandate directly incorporating leadership into formal system operational planning."
         },
         {
-            title: "Versatile Implementation Scales",
+            title: "Flexible Implementation",
             desc: "From standalone isolated offices targeting pure paper waste up to massive manufacturing facilities containing heavy hazards, the logic accurately scales perfectly."
         }
     ];
@@ -269,7 +263,7 @@ const ISO14001FeaturesSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Key Structural Benefits Validating EMS
+                        Key EMS Implementation Advantages
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
                         ISO 14001 inherently solidifies sustainable environmental practices ensuring continuous functional growth natively securely:
@@ -302,8 +296,8 @@ const ISO14001FeaturesSection = () => {
 const ISO14001Registration = () => {
     const faqs = [
         {
-            question: "What exactly is an EMS?",
-            answer: "An Environmental Management System (EMS) is a strict set of procedures formally prepared by organizations targeting internal sustainability goals explicitly meeting tight external regulatory standards."
+            question: "What is an Environmental Management System (EMS)?",
+            answer: "An Environmental Management System (EMS) is a structured framework that helps organizations manage environmental responsibilities, reduce environmental impact, and comply with regulations."
         },
         {
             question: "Who should precisely get ISO 14001 EMS Certification?",
@@ -323,10 +317,10 @@ const ISO14001Registration = () => {
         <div className="w-full bg-white font-sans text-[#1a1a1a]">
             {/* ================= SECTION 1: HERO ================= */}
             <HeroLayout
-                heroTitleMain="ISO 14001 EMS"
-                heroTitleSuffix="Certification"
+                heroTitleMain="ISO 14001"
+                heroTitleSuffix="Environmental Management Certification"
                 heroSubtitle="Environmental Management System"
-                heroDescription="Ensure tight sustainable corporate operations actively. Execute ISO 14001 Environmental Management Systems (EMS) scaling your ecological tracking compliances securely eliminating external industrial hazards effectively natively."
+                heroDescription="Strengthen environmental responsibility with ISO 14001 Environmental Management System (EMS) certification. Improve sustainability practices, regulatory compliance, and environmental performance across your organization."
                 whatsIncludedList={[
                     "EMS GAP Check",
                     "Safety Metric Evaluation",
@@ -335,8 +329,8 @@ const ISO14001Registration = () => {
                 ]}
                 stats={[
                     { count: "Compliance", label: "Assured", icon: <CheckCircle2 size={20} /> },
-                    { count: "Eco-Friendly", label: "Footprint", icon: <Leaf size={20} /> },
-                    { count: "Sustainable", label: "Limits", icon: <Recycle size={20} /> }
+                    { count: "Eco-Friendly", label: "Operations", icon: <Leaf size={20} /> },
+                    { count: "Sustainable", label: "Standards", icon: <Recycle size={20} /> }
                 ]}
             />
 

@@ -19,19 +19,19 @@ const ISO22000Overview = () => {
                             Global Food Safety
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            ISO 22000 FSMS – <span className="text-[#005a9c]">An Overview</span>
+                            ISO 22000 FSMS – <span className="text-[#005a9c]">Overview</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Food safety is a global concern. Regardless of size or product, all food producers are responsible for managing their products' safety and ensuring the better health of their consumers. ISO 22000 is an international standard dealing precisely with Food Safety Management Systems (FSMS).
+                            Food safety is a global priority. Businesses involved in food production or supply must ensure that their products are safe for consumption. ISO 22000 is an internationally recognized standard for Food Safety Management Systems (FSMS).
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            It specifies requirements combining interactive communication, system management, pre-requisite programs, and Hazard Analysis and Critical Control Point (HACCP) principles. It is closely aligned with ISO 9001 to enhance structural compatibility.
+                            The standard integrates communication systems, management processes, prerequisite programs, and Hazard Analysis and Critical Control Point (HACCP) principles to maintain food safety across the supply chain.
                         </p>
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
                             GFSI & FSSC Approved
                         </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Food Safety 22000 is a Global Food Safety Initiative (GFSI) approved scheme. It is heavily utilized in the Food Safety Systems Certification (FSSC) Scheme FS22000, combining HACCP plans with stringent pre-requisite hygienic programs.
+                            ISO 22000 is widely used in the food industry and is recognized under various food safety frameworks. It combines HACCP-based risk control systems with strict hygiene and operational management programs.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -57,10 +57,10 @@ const ISO22000Advantages = () => {
                         Systematic Security
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of ISO 22000 FSMS
+                        Benefits of ISO 22000 Certification
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        The implementation of ISO 22000 FSMS effectively decreases costs from mass withdrawals while building absolute consumer trust across the global supply chain.
+                        Implementing ISO 22000 helps organizations reduce food safety risks, prevent product recalls, and build strong consumer trust across the supply chain.
                     </p>
                     <div className="mt-10">
                         <img
@@ -74,12 +74,12 @@ const ISO22000Advantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Reduces Risk of Contaminants", desc: "Helps organizations physically prevent and deeply reduce the risk of structural contaminants in food products." },
-                        { title: "Decreases Recalls & Withdrawals", desc: "Significantly minimizes sudden post-production costs stemming from widespread product withdrawals or unsafe recalls." },
-                        { title: "Control Focuses on Priorities", desc: "Systematic pre-requisite programmatic management ensures hygienic control measures prioritize active critical hazard points." },
-                        { title: "Establishes Traceability System", desc: "Helps organizations build comprehensive traceability systems spanning raw material pipelines straight down to consumption points." },
-                        { title: "Better Planning", desc: "Enhances operational production planning natively, generating less reliance on tedious post-process verification testing." },
-                        { title: "Global Competitive Edge", desc: "Gives massive organizations a fierce competitive advantage securely operating across regulated international food markets." }
+                        { title: "Prevents Food Contamination", desc: "Helps organizations identify and control potential contamination risks in food production processes." },
+                        { title: "Reduces Product Recalls", desc: "Minimizes the chances of product recalls by implementing strict food safety control measures." },
+                        { title: "Focus on Critical Control Points", desc: "Ensures effective monitoring of critical control points to maintain food safety standards." },
+                        { title: "Improved Traceability", desc: "Creates traceability systems that track food products from raw materials to final consumption." },
+                        { title: "Efficient Production Planning", desc: "Improves operational planning and reduces dependency on post-production testing." },
+                        { title: "Competitive Market Advantage", desc: "Helps businesses gain a competitive advantage in global food markets by demonstrating strong food safety practices." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -101,7 +101,7 @@ const ISO22000Eligibility = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Pre-Requisites for FSMS
+                    Pre-Requisites for ISO 22000 FSMS
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
                     A comprehensive set of pre-requisites for the ISO 22000 Food Safety Management System requires strict hygiene and housekeeping protocols:
@@ -110,25 +110,25 @@ const ISO22000Eligibility = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                     <div className="mb-10">
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Operational Hygiene Controls
+                            Hygiene and Operational Controls
                         </h3>
                         <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside bg-[#f8fafc] p-6 rounded-xl border border-slate-100">
-                            <li>Strict Hygiene, Despatch, Distribution, and Housekeeping Management.</li>
-                            <li>Formal Glass Policy & Brittle Material Breakage Procedures.</li>
-                            <li>Effective Management of active Pest Control metrics.</li>
-                            <li>Active Control of Contractors, outside visitors, and internal maintenance mapping.</li>
+                            <li>Strict hygiene, storage, distribution, and housekeeping procedures.</li>
+                            <li>Glass and brittle material handling procedures to prevent contamination.</li>
+                            <li>Proper pest control and sanitation management systems.</li>
+                            <li>Monitoring contractors, visitors, and maintenance activities to maintain hygiene standards.</li>
                         </ul>
                     </div>
 
                     <div className="mb-10">
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Critical Hazard Prevention
+                            Hazard Control Measures
                         </h3>
                         <ul className="grid grid-cols-1 gap-4 text-[17px] text-slate-600 leading-relaxed list-disc list-inside bg-[#f8fafc] p-6 rounded-xl border border-slate-100">
-                            <li>Thorough Nut handling procedures and formal Allergen Control Procedures.</li>
-                            <li>Mandatory Metal Detection and Ingredients Foreign Body Control Policies.</li>
-                            <li>Core HACCP Pre-requisites including safe Control of Knives and First Aid Dressings.</li>
-                            <li>Robust Food Defence Systems maintaining safety against malicious interference.</li>
+                            <li>Defined allergen handling and control procedures.</li>
+                            <li>Metal detection and foreign object prevention systems.</li>
+                            <li>HACCP-based safety measures including safe equipment and material control.</li>
+                            <li>Food defense systems to protect products from intentional contamination.</li>
                         </ul>
                     </div>
                 </div>
@@ -145,7 +145,7 @@ const ISODocumentsSection = () => {
                     Documents Required for ISO 22000
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Obtaining ISO 22000 FSMS Certification correctly relies heavily upon submitting verified business and operational document trails:
+                    The following documents are typically required for ISO 22000 Certification:
                 </p>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -174,20 +174,20 @@ const ISODocumentsSection = () => {
 const ISO22000ProcessSection = () => {
     const steps = [
         {
-            title: "Stage 1 Audit (Readiness Check)",
-            desc: "An audit assessing whether the Food Safety Management System physically conforms to ISO standards. It verifies design scope and readiness before granting stage 2 tracking."
+            title: "Stage 1 Audit – Documentation Review",
+            desc: "An audit to evaluate whether the Food Safety Management System is prepared for certification."
         },
         {
-            title: "Addressing Deficiencies",
-            desc: "Before the secondary tracking audit proceeds, the organization must actively perform all required clarifications. This gap typically cannot exceed six isolated months."
+            title: "Corrective Actions",
+            desc: "Organizations must address the gaps identified during the first audit."
         },
         {
-            title: "Stage 2 Audit (Certification Audit)",
-            desc: "Carried out onsite to confirm the functional implementation of the FSMS. Validates exact evidence of conformity fulfilling statutory and strict safety regulatory constraints."
+            title: "Stage 2 Audit – Certification Audit",
+            desc: "A detailed on-site audit verifying the implementation of the Food Safety Management System."
         },
         {
-            title: "Final Review & Certification",
-            desc: "Following audit completion, reports are closely reviewed. Based strictly upon evidence recommendations, the Chief Executive definitively grants the formal 3-year certification."
+            title: "Certification Issuance",
+            desc: "After successful audit verification, the certification body issues the ISO 22000 certificate, usually valid for three years."
         }
     ];
 
@@ -199,7 +199,7 @@ const ISO22000ProcessSection = () => {
                         Procedure for ISO 22000 Certification
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        A defined execution scope ensures HACCP plans securely merge completely with active facility regulations natively:
+                        The ISO 22000 certification process generally includes the following steps:
                     </p>
                 </div>
 
@@ -296,8 +296,8 @@ const ISO22000FeaturesSection = () => {
 const ISO22000Registration = () => {
     const faqs = [
         {
-            question: "What exactly is ISO 22000 FSMS?",
-            answer: "ISO 22000 FSMS is a heavy international standard providing structure requiring an approach mechanism to manage the total safety of food products and operations securely across producers."
+            question: "What is ISO 22000 Food Safety Management System (FSMS)?",
+            answer: "ISO 22000 FSMS is an international standard that helps organizations establish a structured system for managing food safety risks throughout the food supply chain."
         },
         {
             question: "What is Hazard Analysis Critical Control Points (HACCP)?",
@@ -318,9 +318,9 @@ const ISO22000Registration = () => {
             {/* ================= SECTION 1: HERO ================= */}
             <HeroLayout
                 heroTitleMain="ISO 22000 FSMS"
-                heroTitleSuffix="Certification"
+                heroTitleSuffix="Certification Online"
                 heroSubtitle="Food Safety Management System"
-                heroDescription="Elevate food safety integrity securely. ISO 22000 natively merges robust operational HACCP mechanisms with extensive procedural hygiene protocols actively protecting consumers globally."
+                heroDescription="Strengthen your food safety systems with ISO 22000 Certification. This international standard integrates HACCP principles with structured hygiene practices to ensure safe food production and protect consumers globally."
                 whatsIncludedList={[
                     "HACCP Integration",
                     "Hygiene Policy Setup",
@@ -329,8 +329,8 @@ const ISO22000Registration = () => {
                 ]}
                 stats={[
                     { count: "Compliance", label: "Assured", icon: <CheckCircle2 size={20} /> },
-                    { count: "Risk Free", label: "Production", icon: <Factory size={20} /> },
-                    { count: "Hygienic", label: "Procedures", icon: <Utensils size={20} /> }
+                    { count: "Safe Food", label: "Production", icon: <Factory size={20} /> },
+                    { count: "Hygiene", label: "Standards", icon: <Utensils size={20} /> }
                 ]}
             />
 

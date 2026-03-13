@@ -26,13 +26,16 @@ const FPOMarkOverview = () => {
                             Quality Mark
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            FPO Product Order – <span className="text-[#005a9c]">Hygiene Standard</span>
+                            What is <span className="text-[#005a9c]">FPO Mark Certification?</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The FPO (Fruit Products Order) Mark is a certification mark mandatory on all processed fruit products sold in India. Regulated by FSSAI, it guarantees that the product was manufactured in a hygienic and food-safe environment.
+                            FPO Mark Certification is a mandatory quality certification issued for processed fruit and vegetable products under Indian food safety regulations. It ensures that food items like jams, pickles, sauces, canned fruits, and fruit beverages meet specific hygiene, quality, and manufacturing standards.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Since its introduction in 1955, the FPO certification has protected consumer interests by ensuring that processed fruits and vegetables meet specific quality benchmarks. It is a symbol of compliance, trust, and fair trade practices.
+                            The certification helps manufacturers demonstrate that their products follow the required guidelines for processing, packaging, labeling, and quality control. Businesses that process or manufacture fruit and vegetable products must obtain this certification before selling their products in the market.
+                        </p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
+                            Vyombiz managed by Clink Consultancy Services Private Limited helps businesses obtain FPO Mark Certification quickly and efficiently by handling documentation, regulatory compliance, and application procedures.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -58,10 +61,10 @@ const FPOMarkAdvantages = () => {
                         Why It Is Vital
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Advantages of FPO Mark
+                        Why FPO Certification is Important for Food Businesses
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Why processed food units must prioritize FPO certification.
+                        Obtaining an FPO certification ensures compliance with food safety regulations while strengthening consumer confidence in your products. Key Benefits of FPO Certification:
                     </p>
                     <div className="mt-10">
                         <img
@@ -75,12 +78,11 @@ const FPOMarkAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Legal Safety", desc: "Fulfills FSSAI regulations, helping you avoid heavy penalties." },
-                        { title: "Competitive Edge", desc: "Recognized and trusted by consumers over uncertified products." },
-                        { title: "Hygienic Manufacturing", desc: "Encourages best industry practices for worker and plant hygiene." },
-                        { title: "Seamless Trade", desc: "Facilitates easier listing on e-commerce platforms and retail chains." },
-                        { title: "Improved Labelling", desc: "Ensures your product packaging meets official labelling and safety standards." },
-                        { title: "Long-Term Growth", desc: "Supports sustainable growth models by following universally accepted norms." }
+                        { title: "Regulatory Compliance", desc: "Ensures that your food products comply with government standards for processed fruit and vegetable products." },
+                        { title: "Improved Consumer Trust", desc: "The certification acts as proof of product quality and safety." },
+                        { title: "Better Market Acceptance", desc: "Retailers and distributors prefer certified products that meet regulatory standards." },
+                        { title: "Quality Assurance", desc: "Ensures proper manufacturing, storage, and packaging practices." },
+                        { title: "Brand Reputation", desc: "Helps build credibility and reliability in the competitive food market." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -91,6 +93,9 @@ const FPOMarkAdvantages = () => {
                             </p>
                         </div>
                     ))}
+                    <p className="text-[17px] text-slate-600 leading-relaxed font-medium mt-6">
+                        Vyombiz managed by Clink Consultancy Services Private Limited supports businesses in achieving smooth and hassle-free certification.
+                    </p>
                 </div>
             </div>
         </div>
@@ -102,34 +107,44 @@ const FPOMarkEligibility = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Eligibility Criteria
+                    Products That Require FPO Mark Certification
                 </h2>
-                <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Who must obtain the FPO Mark?
+                <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                    FPO certification is required for businesses manufacturing or processing a wide range of fruit and vegetable products. Common products covered under FPO certification include:
                 </p>
                 <div className="mb-10">
-                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
-                        <li>
-                            <span className="font-semibold text-[#072b47]">Fruit Processors – </span>
-                            Manufacturers of jams, squashes, ketchups, and fruit juices.
-                        </li>
-                        <li>
-                            <span className="font-semibold text-[#072b47]">Vegetable Processors – </span>
-                            Units involved in pickling, canning, or dehydrating vegetables.
-                        </li>
-                        <li>
-                            <span className="font-semibold text-[#072b47]">Beverage Makers – </span>
-                            Producers of fruit-based drinks and non-carbonated beverages.
-                        </li>
-                        <li>
-                            <span className="font-semibold text-[#072b47]">Honey Manufacturers – </span>
-                            Entities involved in the processing and packaging of honey and related items.
-                        </li>
-                        <li>
-                            <span className="font-semibold text-[#072b47]">Canned Food Units – </span>
-                            Facilities producing canned fruit pulps or vegetable purees.
-                        </li>
+                    <ul className="list-disc pl-6 space-y-3 text-[17px] text-slate-600 leading-relaxed grid sm:grid-cols-2 gap-x-6">
+                        <li>Fruit juices and beverages</li>
+                        <li>Fruit pulp and concentrates</li>
+                        <li>Jams and jellies</li>
+                        <li>Pickles and chutneys</li>
+                        <li>Tomato ketchup and sauces</li>
+                        <li>Canned fruits and vegetables</li>
+                        <li>Dehydrated fruits and vegetables</li>
+                        <li>Squashes and syrups</li>
                     </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mt-6 font-medium">
+                        If your business processes or packages any of these products, obtaining certification is necessary before distribution.
+                    </p>
+                </div>
+
+                <h2 className="text-2xl lg:text-3xl font-semibold text-[#072b47] mb-6 mt-12">
+                    Who Needs FPO Mark Certification?
+                </h2>
+                <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                    Businesses involved in processing, manufacturing, or packaging fruit and vegetable products are required to obtain this certification. It applies to:
+                </p>
+                <div className="mb-10">
+                    <ul className="list-disc pl-6 space-y-3 text-[17px] text-slate-600 leading-relaxed">
+                        <li>Food processing companies</li>
+                        <li>Fruit and vegetable product manufacturers</li>
+                        <li>Exporters of processed fruit products</li>
+                        <li>Packaging units dealing with processed food</li>
+                        <li>Small and medium food processing businesses</li>
+                    </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mt-6 font-medium">
+                        Vyombiz managed by Clink Consultancy Services Private Limited assists both new food startups and established manufacturers in securing their certification efficiently.
+                    </p>
                 </div>
             </div>
         </section>
@@ -141,22 +156,25 @@ const FPOMarkDocuments = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Documents Required
+                    Documents Required for FPO Mark Certification
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Key papers for FPO mark acquisition.
+                    The application requires submission of several important documents to verify business details and production standards. Commonly required documents include:
                 </p>
                 <div className="mb-8">
-                    <ul className="list-disc pl-6 space-y-2 text-[17px] text-slate-600 leading-relaxed">
-                        <li>Identity and Address Proof of the Applicant</li>
-                        <li>Valid FSSAI License Certificate</li>
-                        <li>Proof of Possession of the Manufacturing Site</li>
-                        <li>Partnership Deed or Certificate of Incorporation</li>
-                        <li>List of Products to be certified under FPO</li>
-                        <li>FSMS Plan or Safety Audit reports</li>
-                        <li>NABL-accredited Lab Analysis for product samples</li>
-                        <li>NOC from the local municipal authority</li>
+                    <ul className="list-disc pl-6 space-y-2 text-[17px] text-slate-600 leading-relaxed grid sm:grid-cols-2 gap-x-6">
+                        <li>Business registration certificate</li>
+                        <li>FSSAI license copy</li>
+                        <li>Identity proof of the applicant</li>
+                        <li>Address proof of the manufacturing unit</li>
+                        <li>Manufacturing process details</li>
+                        <li>Product list and formulation details</li>
+                        <li>Layout plan of the manufacturing facility</li>
+                        <li>Food safety and hygiene compliance documents</li>
                     </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mt-6 font-medium">
+                        Our experts review and prepare these documents to ensure a smooth application process.
+                    </p>
                 </div>
             </div>
         </section>
@@ -165,11 +183,11 @@ const FPOMarkDocuments = () => {
 
 const FPOMarkProcess = () => {
     const steps = [
-        { step: "01", title: "Compliance Audit", desc: "Reviewing existing FSSAI license and manufacturing hygiene." },
-        { step: "02", title: "Online Filing", desc: "Submitting the FPO registration forms on the FSSAI portal." },
-        { step: "03", title: "Site Inspection", desc: "Physical on-site audit by food safety officials to check plant layout." },
-        { step: "04", title: "Product Analysis", desc: "Random product samples are taken and tested in NABL labs." },
-        { step: "05", title: "Mark Grant", desc: "Upon successful testing and audit, the FPO mark is officially authorized." }
+        { step: "01", title: "Application Preparation", desc: "Business details and product information are collected for certification." },
+        { step: "02", title: "Document Submission", desc: "Required documents and compliance details are submitted to the relevant authority." },
+        { step: "03", title: "Inspection of Manufacturing Unit", desc: "Authorities may inspect the production facility to verify hygiene and safety standards." },
+        { step: "04", title: "Quality Verification", desc: "Products may undergo testing to ensure they meet prescribed quality parameters." },
+        { step: "05", title: "Certification Approval", desc: "Once all requirements are met, the certification is granted." }
     ];
 
     return (
@@ -177,10 +195,10 @@ const FPOMarkProcess = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        Certification Journey
+                        Step-by-Step Process to Obtain FPO Mark Certification
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        Step-by-step path to obtaining the FPO mark.
+                        The certification process involves several stages to ensure compliance with food safety guidelines. Vyombiz managed by Clink Consultancy Services Private Limited ensures accurate documentation and faster processing, reducing delays during approval.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
@@ -211,10 +229,12 @@ const FPOMarkProcess = () => {
 
 const FPOMarkFeatures = () => {
     const features = [
-        { title: "Audit Mock-ups", desc: "We conduct mock inspections to prepare your unit for the official audit." },
-        { title: "Lab Support", desc: "Coordination for complex chemical and microbial testing required for FPO." },
-        { title: "Packaging Guide", desc: "Expert guidance on placing the FPO logo and statutory text on labels." },
-        { title: "Post-Grant Support", desc: "Maintaining the quality standards for periodic surveillance audits." }
+        { title: "Eligibility Assessment", desc: "Eligibility assessment for certification." },
+        { title: "Documentation Prep", desc: "Documentation preparation and verification." },
+        { title: "Application Filing", desc: "Application filing with authorities." },
+        { title: "Compliance Support", desc: "Compliance support for food safety standards." },
+        { title: "Inspection Assistance", desc: "Assistance during inspection procedures." },
+        { title: "Continuous Support", desc: "Continuous support until certification approval." }
     ];
 
     return (
@@ -222,10 +242,10 @@ const FPOMarkFeatures = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Service Features
+                        How Vyombiz Helps with FPO Mark Certification
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Our quality assurance expertise.
+                        Obtaining food certifications can involve complex regulatory requirements and documentation. Our team simplifies the process with professional support at every step. Vyombiz managed by Clink Consultancy Services Private Limited provides complete end-to-end certification assistance for food businesses across India.
                     </p>
                 </div>
                 <div>
@@ -247,12 +267,11 @@ const FPOMarkFeatures = () => {
 
 const FPOMarkCompliance = () => {
     const compliance = [
-        "Displaying the FPO mark prominently on approved packaging",
-        "Keeping records of batch-wise product analysis reports",
-        "Maintenance of high hygiene standards in the production area",
-        "Updating the authority about any new variations in products",
-        "Annual renewal of the primary FSSAI license",
-        "Periodic health check-ups for employees in the facility"
+        "Experienced compliance professionals",
+        "Faster documentation processing",
+        "Transparent procedures",
+        "Dedicated support throughout the certification process",
+        "Cost-effective solutions for food businesses"
     ];
 
     return (
@@ -260,10 +279,10 @@ const FPOMarkCompliance = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Post Compliance
+                        Why Choose Vyombiz for FPO Certification
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Maintain your FPO certification quality.
+                        Businesses trust Vyombiz managed by Clink Consultancy Services Private Limited because of our expertise in legal and compliance services. Our goal is to help businesses focus on product growth while we handle regulatory compliance.
                     </p>
                 </div>
                 <div>
@@ -276,6 +295,31 @@ const FPOMarkCompliance = () => {
                         </div>
                     ))}
                     <div className="border-t border-slate-300"></div>
+
+                    <div className="mt-12">
+                        <h2 className="text-3xl lg:text-4xl font-semibold text-center text-[#072b47] mb-6">
+                            Common Challenges Businesses Face in FPO Certification
+                        </h2>
+                        <p className="text-[16px] text-center text-slate-600 max-w-3xl mx-auto leading-relaxed mb-6">
+                            Many businesses struggle with the certification process due to regulatory complexities. Common issues include:
+                        </p>
+                        <div className="grid sm:grid-cols-2 gap-4 max-w-4xl mx-auto">
+                            {[
+                                "Incorrect or incomplete documentation",
+                                "Lack of clarity on food safety requirements",
+                                "Delays in inspection approvals",
+                                "Compliance gaps in manufacturing processes"
+                            ].map((issue, idx) => (
+                                <div key={idx} className="bg-slate-50 p-4 rounded-lg flex items-center gap-3">
+                                    <div className="w-2 h-2 rounded-full bg-[#005a9c]"></div>
+                                    <span className="text-[16px] text-slate-700">{issue}</span>
+                                </div>
+                            ))}
+                        </div>
+                        <p className="text-[16px] text-center text-slate-600 max-w-3xl mx-auto leading-relaxed mt-6 font-medium">
+                            Working with experienced professionals helps businesses avoid these issues and obtain certification smoothly.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -285,20 +329,24 @@ const FPOMarkCompliance = () => {
 const FPOMarkCertification = () => {
     const faqs = [
         {
-            question: "What is FPO Mark Certification?",
-            answer: "FPO Mark Certification (Fruit Products Order) is a mandatory quality assurance mark for all processed fruit and vegetable products in India. It ensures that products are manufactured in a hygienic and safe environment."
+            question: "What does FPO stand for in food certification?",
+            answer: "FPO stands for Fruit Products Order, which regulates the quality and safety of processed fruit and vegetable products."
         },
         {
             question: "Is FPO certification mandatory?",
-            answer: "Yes, it is mandatory for businesses involved in the manufacturing of processed fruit items like jams, squashes, pickles, fruit juices, and even certain edible oils and honey-based products."
+            answer: "Yes, businesses manufacturing processed fruit and vegetable products must comply with regulatory standards and obtain the required certification."
         },
         {
-            question: "What is the timeline for obtaining an FPO certificate?",
-            answer: "It typically takes around 30 to 45 days to complete the FPO certification process, including document verification, facility inspection, and lab testing of product samples."
+            question: "How long does it take to obtain FPO certification?",
+            answer: "The timeline depends on document verification, inspection, and approval by the relevant authorities."
         },
         {
-            question: "Which authority issues the FPO certification?",
-            answer: "It is regulated by FSSAI and was originally introduced by the MoFPI (Ministry of Food Processing Industries), Government of India."
+            question: "Can small food businesses apply for FPO certification?",
+            answer: "Yes, small food manufacturers and food processing units can apply for certification if they produce fruit or vegetable-based processed products."
+        },
+        {
+            question: "Do I need FSSAI registration before applying for FPO certification?",
+            answer: "Yes, businesses must have an FSSAI license before applying for certification."
         }
     ];
 
@@ -308,8 +356,8 @@ const FPOMarkCertification = () => {
             <HeroLayout
                 heroTitleMain="FPO Mark"
                 heroTitleSuffix="Certification"
-                heroSubtitle="Benchmark of Quality for Processed Food Products"
-                heroDescription="Ensure your fruit and vegetable products meet the highest safety standards with FPO Mark Certification. A mandatory requirement for processed foods, this mark builds consumer trust and is your passport to international export markets."
+                heroSubtitle="Get FPO Mark Certification for Fruit & Vegetable Products"
+                heroDescription="Ensure your processed fruit and vegetable products meet government quality standards with FPO Mark Certification. From documentation to approval, our experts simplify the process so your food business stays compliant and trusted. Apply for FPO Certification with Expert Assistance Today."
                 whatsIncludedList={[
                     "FSSAI License Alignment",
                     "Hygiene & Safety Audit Prep",

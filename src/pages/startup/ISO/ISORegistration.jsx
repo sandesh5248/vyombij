@@ -18,19 +18,19 @@ const ISOOverview = () => {
                             Global Competence
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            ISO Certification – <span className="text-[#005a9c]">An Overview</span>
+                            ISO Certification – <span className="text-[#005a9c]">Overview</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            ISO certification is an internationally recognized certification that establishes globally accepted standards for organizations, thereby guiding them toward innovation, operational efficiency, and sustainable business growth securely tracking global market viability explicitly.
+                            ISO Certification is an internationally recognized standard that helps organizations maintain quality, efficiency, and consistency in their business operations while improving global market credibility.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The grant of an ISO certificate registration further helps organizations implement structured processes that inherently ensure quality, safety, efficiency, and absolute consistency across their products and services while easily meeting customer expectations and local administrative regulatory requirements perfectly.
+                            Obtaining ISO Certification enables organizations to implement structured management systems that ensure quality control, operational efficiency, and consistent delivery of products and services while meeting regulatory and customer requirements.
                         </p>
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
                             Goal of ISO Governance
                         </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Obtaining an ISO certification explicitly demonstrates that a company’s active management system perfectly complies with relevant ISO standard models, massively adding credibility and public trust among active clients, structural stakeholders, and rigorous state regulatory authorities driving expansion.
+                            ISO Certification demonstrates that a company follows internationally accepted management standards, improving credibility and strengthening trust among customers, business partners, and regulatory authorities.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -56,10 +56,10 @@ const ISOAdvantages = () => {
                         Quality Assurance
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of Obtaining ISO Certificate Registration
+                        Benefits of ISO Certification
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        The strict adherence to globally aligned structural metrics empowers massive international and domestic operational expansions seamlessly capturing high trust effectively.
+                        ISO Certification helps organizations improve operational efficiency, strengthen customer trust, and expand business opportunities in both domestic and international markets.
                     </p>
                     <div className="mt-10">
                         <img
@@ -73,12 +73,12 @@ const ISOAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Enhanced Business Efficiency", desc: "Helps streamline internal processes actively adopting standardized procedures and distinctly clear workflows improving core resource utilization." },
-                        { title: "Improves Marketability", desc: "Ensures the steady implementation of customer-centric frameworks and the subsequent delivery of high-quality products and services nationwide." },
-                        { title: "Global Credibility", desc: "Enables businesses to securely gain structural acceptance widely enhancing global credibility dealing natively with foreign clients/suppliers." },
-                        { title: "Improved Product Quality", desc: "Greatly minimizes manufacturing defects and sharply reduces rework safely ensuring consistent quality and continual improvement practices." },
-                        { title: "Government Contracts Access", desc: "Considerably improves exact tender eligibility dynamically increasing the active bidding success rate opening absolute doors to high-value government contracts." },
-                        { title: "Global Business Expansion", desc: "Makes it drastically easier for native businesses to practically enter international core markets effectively prioritizing certified secure supply chains." }
+                        { title: "Improved Operational Efficiency", desc: "Helps streamline internal processes by implementing standardized procedures and efficient workflow systems." },
+                        { title: "Better Market Reputation", desc: "Enhances brand reputation by ensuring consistent delivery of high-quality products and services." },
+                        { title: "International Recognition", desc: "Helps businesses gain recognition in global markets and build trust with international clients and partners." },
+                        { title: "Consistent Product Quality", desc: "Improves product and service quality while reducing defects through continuous improvement processes." },
+                        { title: "Eligibility for Government Tenders", desc: "Many government and large corporate tenders require ISO Certification as a qualification criterion." },
+                        { title: "Business Expansion Opportunities", desc: "Helps organizations expand into new markets by demonstrating compliance with international standards." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -100,7 +100,7 @@ const ISOEligibility = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Eligibility Criteria for ISO Certificate
+                    Eligibility for ISO Certification
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
                     Before opting actively for specific certification profiles, entities must rigorously address comprehensive eligibility boundaries effectively ensuring compliance tracking:
@@ -109,13 +109,13 @@ const ISOEligibility = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                     <div className="mb-10">
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Operational Baseline
+                            Basic Organizational Requirements
                         </h3>
                         <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside bg-[#f8fafc] p-6 rounded-xl border border-slate-100">
-                            <li>Must hold a clear operational structure fundamentally driving active implementations.</li>
-                            <li>Should precisely define processes securely linked to primary and secondary operations exactly.</li>
-                            <li>Demonstrate absolute commitment effectively maintaining safety and long-term compliance.</li>
-                            <li>Select recognized/accredited registrar bodies specifically executing tracking limits properly.</li>
+                            <li>The organization must have defined operational processes and management systems.</li>
+                            <li>All key business processes should be documented and clearly defined.</li>
+                            <li>Management should demonstrate commitment toward quality standards and compliance.</li>
+                            <li>Certification must be obtained through an accredited ISO certification body.</li>
                         </ul>
                     </div>
 
@@ -152,7 +152,7 @@ const ISODocumentsSection = () => {
                     Documents Required to Obtain ISO Certificate Online
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    To seamlessly process digital applications precisely addressing rigorous international standards, submit the following verified entity records securely:
+                    The following documents are typically required when applying for ISO Certification:
                 </p>
 
                 <div className="mb-8">
@@ -175,28 +175,28 @@ const ISODocumentsSection = () => {
 const ISOProcessSection = () => {
     const steps = [
         {
-            title: "File Online Application",
-            desc: "The process fundamentally begins explicitly by filing an online standard application strictly providing basic business layouts to an accredited state ISO certification body natively."
+            title: "Submit Application",
+            desc: "Organizations must first submit an application to an accredited ISO certification body."
         },
         {
-            title: "Submit Required Documentation",
-            desc: "The subsequent step actively requires organizations to effectively map and submit all formal documentation strictly governed under the precisely selected ISO structural standard inherently."
+            title: "Document Submission",
+            desc: "Provide the necessary business documents and operational process details."
         },
         {
-            title: "Conduct Deep GAP Analysis",
-            desc: "The certification body practically conducts a heavy initial review seamlessly executing detailed GAP analyses precisely assessing the existing structural domains lacking non-compliance limits inherently."
+            title: "GAP Analysis",
+            desc: "The certification body evaluates existing processes to identify compliance gaps."
         },
         {
-            title: "Prepare Corrective Action Plans",
-            desc: "Based rigorously on the exact GAP analysis, the central organization explicitly prepares and dynamically executes precise corrective systematic interventions ideally aligning internal processes."
+            title: "Implement Corrective Measures",
+            desc: "Organizations address the identified gaps and align processes with ISO standards."
         },
         {
-            title: "Execute On-Premises Audit",
-            desc: "The subsequent phase mandates the independent certification body critically executing stringent on-premises surveillance deeply verifying continuous implementation effectiveness and systemic compliance."
+            title: "Certification Audit",
+            desc: "Auditors conduct inspections to verify compliance with ISO standards."
         },
         {
-            title: "Obtain Certification Registration",
-            desc: "Upon successfully clearing rigorous audits precisely closing exact tracking non-conformities effectively, the organization is permanently granted ISO certifications natively subject to later renewals."
+            title: "Certification Issuance",
+            desc: "Once the audit is successfully completed, the ISO Certification is issued."
         }
     ];
 
@@ -208,7 +208,7 @@ const ISOProcessSection = () => {
                         Process for Obtaining ISO Certification Registration
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        There is a strict operational workflow maintaining compliance limits and deeply tracking exact organizational implementations seamlessly avoiding defaults securely:
+                        The ISO Certification process generally involves the following steps:
                     </p>
                 </div>
 
@@ -317,8 +317,8 @@ const ISOFeaturesSection = () => {
 const ISORegistration = () => {
     const faqs = [
         {
-            question: "Who globally governs ISO execution frameworks?",
-            answer: "Although independently framed globally securely, within India the structural execution involves rigorous tracking by The Bureau of Indian Standards (BIS) along exactly alongside the National Accreditation Board tracking active limits optimally."
+            question: "Who regulates ISO Certification in India?",
+            answer: "ISO standards are developed by the International Organization for Standardization, while in India certification bodies are accredited by organizations such as the Bureau of Indian Standards and the National Accreditation Board for Certification Bodies."
         },
         {
             question: "What exactly constitutes an 'Internal Audit'?",
@@ -343,9 +343,9 @@ const ISORegistration = () => {
             {/* ================= SECTION 1: HERO ================= */}
             <HeroLayout
                 heroTitleMain="ISO Certification"
-                heroTitleSuffix="Online"
+                heroTitleSuffix="Registration Online"
                 heroSubtitle="Achieve Global Structural Standards"
-                heroDescription="Register structurally for explicit ISO Certification securely capturing complete international credibility effectively backed intrinsically by rigorous quality assurance mapping globally tracking maximum competitive scale dynamically."
+                heroDescription="Get ISO Certification online and strengthen your organization’s global credibility. Implement internationally recognized quality standards that enhance operational efficiency, customer trust, and business competitiveness."
                 whatsIncludedList={[
                     "Deep GAP Analysis",
                     "Surveillance Audit Prep",
@@ -353,9 +353,9 @@ const ISORegistration = () => {
                     "Multi-standard Integration"
                 ]}
                 stats={[
-                    { count: "10,000+", label: "Professionals", icon: <CheckCircle2 size={20} /> },
-                    { count: "100%", label: "Compliant", icon: <ShieldCheck size={20} /> },
-                    { count: "Global", label: "Validity", icon: <Globe size={20} /> }
+                    { count: "10,000+", label: "Businesses Supported", icon: <CheckCircle2 size={20} /> },
+                    { count: "100%", label: "Standards Compliance", icon: <ShieldCheck size={20} /> },
+                    { count: "International", label: "Recognition", icon: <Globe size={20} /> }
                 ]}
             />
 

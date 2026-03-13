@@ -23,25 +23,23 @@ const FssaiLicenseOverview = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16 lg:gap-24">
                     <div>
                         <span className="inline-block px-4 py-1.5 text-sm font-semibold bg-[#e6f0fa] text-[#005a9c] rounded-full mb-4">
-                            Legal Mandate
+                            Compliance Support
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            FSSAI License and Registration in India – <span className="text-[#005a9c]">An Overview</span>
+                            What is an <span className="text-[#005a9c]">FSSAI License?</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            A Food Safety and Standards Authority of India (FSSAI) license is mandatory for operating a food business in India. Any person or entity engaged in this industry -manufacturing, processing, distribution and sale of food products - must obtain FSSAI license registration, enabling them to operate their business legally.
+                            An FSSAI License is a mandatory certification issued by the Food Safety and Standards Authority of India (FSSAI) under the Food Safety and Standards Act, 2006. It ensures that food businesses follow strict safety, hygiene, and quality standards before selling food to consumers.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The FSSAI food license ensures that business owners and operators follow safety and quality compliances, which helps keep public health under check and promotes consumer confidence in the products sold. FSSAI License registration establishes trustworthiness and boosts business credibility to meet legal regulations and standards.
+                            Every food business operator (FBO) in India must obtain an FSSAI registration or license depending on their business size and annual turnover.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            <strong className="text-[#072b47]">Who are Food Business Operators (FBOs)?</strong><br />
-                            Food Business Operators (FBOs) are individuals or organizations engaged in producing, processing, distributing, or selling food products in India. FBOs, including small grocery stores, wholesale distributors, restaurants, food processing plants, bakeries, and supermarkets, are mandated to get an FSSAI license.
+                            <strong className="text-[#072b47]">Businesses that typically require an FSSAI License include:</strong><br />
+                            Restaurants and cafes, Cloud kitchens, Food manufacturers, Food processing units, Food importers and exporters, Caterers and food vendors, Packaged food brands, Grocery and retail food stores.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            FBOs are categorized based on:<br />
-                            1. Type of food products<br />
-                            2. The scale of business operations
+                            Operating without an FSSAI License can lead to heavy penalties and legal complications. That is why businesses often rely on professional compliance support from Vyombiz managed by Clink Consultancy Services Private Limited to complete the registration process smoothly.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -67,10 +65,10 @@ const FssaiLicenseAdvantages = () => {
                         Why It Is Vital
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        FSSAI License Benefits
+                        Benefits of Getting an FSSAI License
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Food Business Operators (FBOs) that obtain FSSAI food licenses are exposed to multiple benefits. Some of the FSSAI license benefits include the following:
+                        An FSSAI License is more than just a legal requirement. It helps build credibility and trust among customers. Key benefits include:
                     </p>
                     <div className="mt-10">
                         <img
@@ -84,12 +82,11 @@ const FssaiLicenseAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Legal Compliance", desc: "Manufacturers, processors, distributors, and food product sellers who obtain the mandatory FSSAI licenses follow compulsory compliance to operate their business legally in India. An FSSAI food license assures that the company has fulfilled its obligations in line with all Indian food and safety laws. It helps them avoid legal penalties arising out of non-compliance." },
-                        { title: "Consumer Trust", desc: "Businesses with a valid FSSAI food license can display their certificate, which helps them build consumer trust. Displaying the certificate also reflects the business's confidence in following safety standards mandated by the Food Safety and Standards Authority of India. It boosts consumer loyalty and strengthens their trust in the business." },
-                        { title: "Market Expansion", desc: "Every business aims to expand its operations, and FSSAI is a gateway to many such opportunities. The FSSAI license plays a pivotal role in helping businesses in the food industry venture into new markets and capitalize on opportunities. Businesses with a valid FSSAI certification can explore sectors like retail and online platforms." },
-                        { title: "Business Credibility", desc: "A food business with a valid FSSAI license earns credibility from customers. Such businesses are trusted by consumers over companies with no license. Not just customers, but such firms also gain potential investors' and partners' trust and credibility by prioritizing safety and regulatory compliance." },
-                        { title: "Improved Hygiene Standards", desc: "Obtaining an FSSAI food license requires the applicant businesses to follow stringent safety standards and measures. The process allows companies to focus on maintaining high hygiene quality standards, which in turn reduces the risk of contamination and prevents foodborne diseases. Overall, the FSSAI license helps businesses improve their product quality." },
-                        { title: "Government Support", desc: "A business that has obtained an FSSAI food license becomes eligible for various central and state government schemes, subsidies, and other support initiatives. Government support plays an important role in improving the business and expanding operations, especially for companies seeking financial support." }
+                        { title: "Legal Compliance", desc: "Operate your food business without regulatory risks or penalties." },
+                        { title: "Consumer Trust", desc: "Customers feel more confident buying from businesses that follow food safety regulations." },
+                        { title: "Business Expansion", desc: "An FSSAI license is often required to sell on e-commerce platforms and partner with food delivery apps." },
+                        { title: "Brand Credibility", desc: "Displaying the FSSAI number improves brand reputation and transparency." },
+                        { title: "Market Opportunities", desc: "It becomes easier to expand into retail chains, exports, and large distribution networks." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -111,48 +108,51 @@ const FssaiLicenseEligibility = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Eligibility Criteria for FSSAI License in India
+                    Types of FSSAI Licenses in India
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
-                    According to the Ministry of Health and Family Welfare, Government of India, eligibility criteria to apply for an FSSAI license include the following:
+                    The type of license required depends on the scale of operations and annual turnover of the food business.
                 </p>
                 <div className="mb-10">
-                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc pl-6">
+                    <ul className="space-y-4 text-[17px] text-slate-600 leading-relaxed">
                         <li>
-                            <span className="font-semibold text-[#072b47]">Annual Turnover: </span>
-                            State License – INR 12 lakhs to INR 20 crore, Central License – Above INR 20 crore
+                            <h3 className="text-xl font-semibold text-[#072b47]">Basic FSSAI Registration</h3>
+                            <p>This is suitable for small food businesses or startups with annual turnover below ₹12 lakh. Examples include small food vendors, home kitchens, petty retailers, and small-scale food producers.</p>
                         </li>
                         <li>
-                            <span className="font-semibold text-[#072b47]">Production Capacity: </span>
-                            State License – Up to 2MT/day (food), 50,000 litres/day (dairy), Central License – Over 2MT/day (food), 50,000 litres/day (dairy)
+                            <h3 className="text-xl font-semibold text-[#072b47]">State FSSAI License</h3>
+                            <p>This license is required for medium-sized food businesses with annual turnover between ₹12 lakh and ₹20 crore. It is typically required by restaurants, mid-level manufacturers, storage units, distributors, and transporters operating within a single state.</p>
                         </li>
                         <li>
-                            <span className="font-semibold text-[#072b47]">Business Type: </span>
-                            State License – Single state operations, Central License – E-commerce, import-export, multi-state operations
-                        </li>
-                        <li>
-                            <span className="font-semibold text-[#072b47]">Area of Operation: </span>
-                            State License – Within a single state, Central License – For multiple states
-                        </li>
-                        <li>
-                            <span className="font-semibold text-[#072b47]">Storage Capacity: </span>
-                            State License – Up to 50,000 metric tons, Central License – Above 50,000 metric tons
+                            <h3 className="text-xl font-semibold text-[#072b47]">Central FSSAI License</h3>
+                            <p>Large-scale food businesses with annual turnover above ₹20 crore must obtain a Central FSSAI License. This license is also mandatory for importers, exporters, large manufacturers, and businesses operating across multiple states.</p>
                         </li>
                     </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mt-6 font-medium">
+                        Choosing the correct license category is important to avoid compliance issues. Many businesses seek guidance from Vyombiz managed by Clink Consultancy Services Private Limited to determine the appropriate license based on their operations.
+                    </p>
                 </div>
 
                 <h2 className="text-2xl lg:text-3xl font-semibold text-[#072b47] mb-6 mt-12">
-                    Checklist - Who all needs an FSSAI License?
+                    Who Needs an FSSAI License?
                 </h2>
+                <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                    If your business is involved in manufacturing, processing, packaging, storing, distributing, or selling food products, you are legally required to obtain an FSSAI license. Common businesses that require registration include:
+                </p>
                 <div className="mb-10">
                     <ul className="list-disc pl-6 space-y-2 text-[17px] text-slate-600 leading-relaxed">
-                        <li>Food manufacturers, processors, importers, exporters, distributors, wholesalers</li>
-                        <li>Food retailers, including grocery stores and supermarkets</li>
-                        <li>Food caterers, restaurants, clubs, dhabas, hawkers, marketers</li>
-                        <li>Food transporters & logistics providers</li>
-                        <li>Food packaging & labelling units</li>
-                        <li>Food storage facilities, service providers and online food businesses</li>
+                        <li>Restaurants and hotels</li>
+                        <li>Bakeries and sweet shops</li>
+                        <li>Online food sellers</li>
+                        <li>Home-based food businesses</li>
+                        <li>Dairy product manufacturers</li>
+                        <li>Food importers and exporters</li>
+                        <li>Catering services</li>
+                        <li>Cloud kitchens and food delivery brands</li>
                     </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mt-6 font-medium">
+                        Even online food sellers operating through platforms like delivery apps must ensure proper FSSAI registration before starting operations.
+                    </p>
                 </div>
             </div>
         </section>
@@ -164,24 +164,25 @@ const FssaiLicenseDocuments = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Documents Required for FSSAI License and Registration
+                    Documents Required for FSSAI License
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    It’s important for FBOs to understand FSSAI license requirements. The documents required to obtain an FSSAI license are:
+                    The documentation required depends on the license type, but the commonly required documents include:
                 </p>
                 <div className="mb-8">
                     <ul className="list-disc pl-6 space-y-2 text-[17px] text-slate-600 leading-relaxed">
-                        <li>Form IX is required for basic and state registration and nomination in state registration.</li>
-                        <li>Address Proof to verify the business address.</li>
-                        <li>Government-issued ID Card as Identity proof for the applicant.</li>
-                        <li>Form A for Declaration for basic registration declaration.</li>
-                        <li>NOC from Local Municipality as No Objection Certificate</li>
-                        <li>Detailed Layout Plan with premise details (state registration).</li>
-                        <li>Raw Material Source for information on the source of raw materials.</li>
-                        <li>Form B as the application/renewal form for state and central registrations.</li>
-                        <li>Food Safety Management Plan to outline the food safety procedures (central registration).</li>
-                        <li>Partnership Deed/Self-Declaration as proof of business structure (state registration).</li>
+                        <li>Identity proof of the business owner</li>
+                        <li>Address proof of the business location</li>
+                        <li>Passport size photograph</li>
+                        <li>Business registration certificate (if applicable)</li>
+                        <li>Food safety management plan</li>
+                        <li>List of food products to be handled or manufactured</li>
+                        <li>Kitchen layout or processing unit layout (for manufacturers)</li>
+                        <li>NOC from the municipality or local authority (in some cases)</li>
                     </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mt-6 font-medium">
+                        Experts at Vyombiz managed by Clink Consultancy Services Private Limited assist businesses in preparing and verifying documents to ensure a smooth approval process.
+                    </p>
                 </div>
             </div>
         </section>
@@ -190,11 +191,11 @@ const FssaiLicenseDocuments = () => {
 
 const FssaiLicenseProcess = () => {
     const steps = [
-        { step: "01", title: "Application Filing", desc: "Filing online FSSAI food license application through Form A or Form B via the FoSCoS portal or submitting Form A or Form B to the Food and Safety Department." },
-        { step: "02", title: "Application Submission", desc: "Ensure that the application submitted has the required documents attached." },
-        { step: "03", title: "Verification Process", desc: "Upon submission, the application undergoes a rigorous verification process, determining its approval or rejection. In case of rejection, applicants are duly informed by the authorities." },
-        { step: "04", title: "Inspection", desc: "As part of the verification process, a designated FSSAI official conducts a comprehensive inspection of the food premises to ensure compliance with food safety standards." },
-        { step: "05", title: "License Issuance", desc: "Post verification, issuance of the FSSAI registration certificate and registration number." }
+        { step: "01", title: "Business Evaluation", desc: "The process begins with understanding your business structure, food category, and turnover to determine the correct FSSAI license type." },
+        { step: "02", title: "Document Preparation", desc: "All necessary documents are collected and verified before submission to avoid rejection or delays." },
+        { step: "03", title: "Application Submission", desc: "The application is filed on the official FSSAI portal along with the required documents and fees." },
+        { step: "04", title: "Government Verification", desc: "Authorities may review the documents and in some cases conduct an inspection of the premises." },
+        { step: "05", title: "License Approval", desc: "Once the application is approved, the FSSAI license is issued along with a 14-digit FSSAI number that must be displayed on food packaging and business premises." }
     ];
 
     return (
@@ -202,10 +203,10 @@ const FssaiLicenseProcess = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        Step-by-Step FSSAI License Process
+                        Step-by-Step Process for FSSAI License Registration
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        FSSAI license process has to be followed by all Food Business Operators (FBOs) to get FSSAI certification. This is how to get FSSAI food license:
+                        Obtaining an FSSAI license involves multiple verification steps and government approvals.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
@@ -236,16 +237,11 @@ const FssaiLicenseProcess = () => {
 
 const FssaiLicenseFeatures = () => {
     const features = [
-        { title: "Mandatory Compliance", desc: "Mandatory for food-related businesses, the FSSAI food license ensures compliance with food safety regulations." },
-        { title: "Standard Validation", desc: "FSSAI certification validates the compliance of food products with safety and hygiene standards set by the FSSAI." },
-        { title: "Consumer Confidence", desc: "It helps boost consumer confidence by validating the adherence to quality standards and food safety guidelines." },
-        { title: "Credibility", desc: "It enhances the credibility of food businesses, helping them attract more customers and expand opportunities." },
-        { title: "Uniform Standards", desc: "It facilitates maintaining uniform food safety standards across all the states in India." },
-        { title: "Labelling Compliance", desc: "It requires businesses to label their food products correctly, including ingredients, nutritional information, and expiry dates." },
-        { title: "Safety Audits", desc: "It mandates food safety audits at regular intervals to comply with FSSAI guidelines." },
-        { title: "Penalty Avoidance", desc: "It helps businesses avoid penalties and fines for non-compliance with food safety compliances." },
-        { title: "Multiple Categories", desc: "It provides different license categories depending on the business size - Basic, State, and Central licenses." },
-        { title: "Timely Renewal", desc: "It mandates timely renewal to ensure businesses maintain compliance and avoid legal issues." }
+        { title: "Correct license category selection", desc: "Expert assessment to determine whether you need Basic, State, or Central license." },
+        { title: "Accurate document submission", desc: "Proper preparation and checking of documents to ensure compliance standards." },
+        { title: "Faster approval process", desc: "Streamlined processes that minimize the average time taken for license issuance." },
+        { title: "Reduced chances of rejection", desc: "Avoiding minor errors that could otherwise lead to delays or application rejection." },
+        { title: "Ongoing compliance support", desc: "Continued assistance for renewals, annual returns, and food safety audits." }
     ];
 
     return (
@@ -253,10 +249,10 @@ const FssaiLicenseFeatures = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Features of FSSAI License
+                        Why Choose Professional Assistance for FSSAI Registration?
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        FSSAI license ensures food businesses comply with safety standards, promoting public health and consumer trust.
+                        The application process can sometimes involve technical documentation, compliance verification, and regulatory procedures. Professional assistance ensures:
                     </p>
                 </div>
                 <div>
@@ -271,6 +267,11 @@ const FssaiLicenseFeatures = () => {
                     ))}
                     <div className="border-t border-slate-300"></div>
                 </div>
+                <div className="text-center mt-8">
+                    <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed font-medium">
+                        With experienced compliance experts, Vyombiz managed by Clink Consultancy Services Private Limited helps food entrepreneurs and businesses obtain their FSSAI license efficiently and focus on growing their brand.
+                    </p>
+                </div>
             </div>
         </section>
     );
@@ -278,13 +279,11 @@ const FssaiLicenseFeatures = () => {
 
 const FssaiLicenseCompliance = () => {
     const compliance = [
-        { title: "Annual Returns Submission", desc: "Compliance with submission of annual returns via Form D1 to FSSAI by the end of May 31st each year to ensure meeting regulatory requirements and avoid penalties." },
-        { title: "Record Keeping", desc: "To ensure traceability, comprehensive records of food procurement, production, and sales must be maintained. This is a mandatory post-registration requirement in accordance with regulations." },
-        { title: "Food Safety Audits", desc: "Conducting internal audits at regular intervals is a must to identify and address potential food safety risks and help maintain compliance." },
-        { title: "Hygiene Maintenance", desc: "Businesses must ensure they maintain high hygiene standards in all their food handling areas as a part of their mandatory post-registration compliance with FSSAI's safety and cleanliness requirements." },
-        { title: "Food Labelling Compliance", desc: "Businesses must ensure compliance with food labelling according to FSSAI guidelines. This includes labelling ingredients correctly, sharing nutritional details, and clearly displaying expiry dates." },
-        { title: "License Renewal", desc: "Businesses must remember to renew their FSSAI food license before it reaches its expiration date, which varies between 1 and 5 years, depending on the business category." },
-        { title: "Staff Training", desc: "Businesses must regularly train their staff on food safety protocols to meet FSSAI standards and best business practices as part of mandatory compliance requirements." }
+        { title: "License Validity Period", desc: "An FSSAI License can be obtained for 1 to 5 years, depending on the preference of the business owner." },
+        { title: "Timely Renewal Application", desc: "Businesses must apply for renewal before the license expiry date to avoid penalties or suspension of operations." },
+        { title: "Renewal Process Management", desc: "Many food businesses rely on compliance support from Vyombiz managed by Clink Consultancy Services Private Limited to track renewal deadlines and maintain uninterrupted compliance." },
+        { title: "Start Your Registration Today", desc: "If you are planning to launch or expand a food business in India, obtaining an FSSAI license is the first step toward legal and successful operations." },
+        { title: "Expert Guidance", desc: "Start your registration today and ensure your food business meets all regulatory standards with expert guidance from Vyombiz managed by Clink Consultancy Services Private Limited." }
     ];
 
     return (
@@ -292,10 +291,10 @@ const FssaiLicenseCompliance = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Post Registration Compliance for FSSAI License
+                        FSSAI License Validity and Renewal
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Once the FSSAI license is obtained, businesses must comply with different post-registration compliances listed below:
+                        An FSSAI License can be obtained for 1 to 5 years. Understand the renewal process below:
                     </p>
                 </div>
                 <div>
@@ -336,9 +335,9 @@ const FssaiLicense = () => {
             {/* ================= SECTION 1: HERO ================= */}
             <HeroLayout
                 heroTitleMain="FSSAI License"
-                heroTitleSuffix="& Registration"
-                heroSubtitle="Ensure Food Safety and Legal Compliance"
-                heroDescription="A Food Safety and Standards Authority of India (FSSAI) license is mandatory for all food business operators. We help you obtain your license quickly and efficiently, ensuring your business meets all regulatory standards."
+                heroTitleSuffix="Registration"
+                heroSubtitle="Sell Food Legally in India with an FSSAI License"
+                heroDescription="Start, run, and scale your food business with the right compliance. Whether you run a restaurant, cloud kitchen, food truck, or packaged food brand, obtaining an FSSAI License is mandatory to operate legally in India. Get your FSSAI License quickly with expert assistance and zero confusion."
                 whatsIncludedList={[
                     "Eligibility Criteria Assessment",
                     "FoSCoS Portal Application Filing",

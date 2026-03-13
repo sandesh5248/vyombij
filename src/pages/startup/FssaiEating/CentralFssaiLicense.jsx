@@ -26,17 +26,19 @@ const CentralFssaiOverview = () => {
                             National Level
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            FSSAI Central License – <span className="text-[#005a9c]">An Overview</span>
+                            What is a <span className="text-[#005a9c]">Central FSSAI License?</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            FSSAI is a leading government agency that works for the well-being of the masses by implementing relevant food safety norms. Its ultimate objective is to formulate various guidelines and norms to incentivise food safety awareness in India. FSSAI formulates food safety norms and guidelines in view of the Food Safety and Standard Act, 2006.
+                            A Central FSSAI License is the highest level of food business license issued by the Food Safety and Standards Authority of India (FSSAI) for large-scale food operators.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            FSSAI Central License is obtained by an FBO (Food Business Operator) with a turnover of more than Rs. 20 Crores or those involved in exporting and importing food products in India.
+                            Businesses that operate across multiple states, export or import food products, supply to government agencies, or generate high annual turnover are required to obtain this license.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            <strong className="text-[#072b47]">Fundamental Duties of FSSAI</strong><br />
-                            Formulating Guidelines for food safety, launching nationwide initiatives to create awareness, granting mandatory food licenses, facilitating recommendations to GOI in outlining new policies, and taking legal actions against food businesses involved in illicit practices like food adulteration.
+                            The license ensures that the food business follows strict hygiene standards, quality regulations, and food safety guidelines set by the government. Businesses that fail to obtain the required FSSAI license may face heavy penalties, suspension of operations, or legal action.
+                        </p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
+                            Through Vyombiz managed by Clink Consultancy Services Private Limited, businesses can streamline the application process and ensure compliance with all required regulations.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -62,10 +64,10 @@ const CentralFssaiAdvantages = () => {
                         Key Benefits
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of getting an FSSAI Central License
+                        Benefits of Central FSSAI License
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Following are the advantages of obtaining an FSSAI Central License:
+                        Obtaining a Central FSSAI License offers several advantages for food businesses operating at scale.
                     </p>
                     <div className="mt-10">
                         <img
@@ -79,10 +81,11 @@ const CentralFssaiAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Worldwide Identity", desc: "The FSSAI License helps to establish a reputation all over the world. It creates the brand name of the business at a global level." },
-                        { title: "Business Expansion", desc: "With an FSSAI Central License, extending the food business to any new location and opening new outlets is easy. It even makes it easier to get a loan or other funding." },
-                        { title: "Legal Advantage", desc: "FSSAI License gives a sense of security and legal right to all those who are involved in the food business. It acts as evidence that the food quality has not been compromised." },
-                        { title: "Consumer Awareness", desc: "Consumers are more alert about the quality of their food nowadays. The food with FSSAI License gives the businesses an advantage in a rapidly increasing consumer base." }
+                        { title: "Nationwide Business Operations", desc: "A Central License allows businesses to operate and distribute food products across multiple states without compliance issues." },
+                        { title: "Legal Protection", desc: "Operating with a valid license ensures your business is legally compliant with Indian food safety regulations." },
+                        { title: "Builds Consumer Trust", desc: "Displaying the FSSAI license number on products and packaging assures customers that the food meets government safety standards." },
+                        { title: "Expansion Opportunities", desc: "Businesses with a Central License can expand distribution networks, partner with large retailers, and export food products globally." },
+                        { title: "Avoid Penalties and Legal Issues", desc: "Operating without an FSSAI license can result in heavy fines, product recalls, and business suspension." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -93,6 +96,11 @@ const CentralFssaiAdvantages = () => {
                             </p>
                         </div>
                     ))}
+                    <div className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
+                            Businesses working with Vyombiz managed by Clink Consultancy Services Private Limited receive professional assistance that ensures their licensing process is smooth and fully compliant.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -104,22 +112,24 @@ const CentralFssaiEligibility = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Essential Criteria & Businesses that Require it
+                    Who Needs a Central FSSAI License?
                 </h2>
-                <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    FSSAI Central License is legal consent granted to the food businesses which have:
+                <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                    A Central FSSAI License is mandatory for specific types of large-scale food businesses. Businesses that require Central License include:
                 </p>
                 <div className="mb-10">
                     <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc pl-6">
-                        <li>Annual turnover of more than <span className="font-semibold text-[#072b47]">Rs 20 crores</span>.</li>
-                        <li>Various units running in <span className="font-semibold text-[#072b47]">multiple states</span>.</li>
-                        <li>Business of <span className="font-semibold text-[#072b47]">import/export</span> of food items.</li>
-                        <li>Selling food items on their own <span className="font-semibold text-[#072b47]">E-Commerce</span> website (like Amazon, Flipkart, Zomato, Swiggy).</li>
-                        <li>Establishing Business of <span className="font-semibold text-[#072b47]">Nutraceutical and Health Supplement</span>.</li>
-                        <li>Running hotels with <span className="font-semibold text-[#072b47]">5-star or 7-stars</span>.</li>
-                        <li>Transporting Business with <span className="font-semibold text-[#072b47]">more than 100 vehicles</span>.</li>
-                        <li>Other specific high-capacity productions like <span className="font-semibold text-[#072b47]">dairy (&gt;50k litres/day)</span> or <span className="font-semibold text-[#072b47]">meat processing</span>.</li>
+                        <li>Food businesses with annual turnover exceeding ₹20 crore</li>
+                        <li>Importers and exporters of food products</li>
+                        <li>Food businesses operating in multiple states</li>
+                        <li>Large manufacturers and food processing units</li>
+                        <li>Operators of large warehouses and cold storage units</li>
+                        <li>E-commerce food platforms and aggregators</li>
+                        <li>Food businesses supplying to government agencies</li>
                     </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mt-6 font-medium">
+                        Large food chains and brands often require a Central FSSAI License to legally expand their operations nationwide. With proper support from Vyombiz managed by Clink Consultancy Services Private Limited, businesses can determine whether they require a Central, State, or Basic FSSAI License and apply accordingly.
+                    </p>
                 </div>
             </div>
         </section>
@@ -131,27 +141,27 @@ const CentralFssaiDocuments = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Documents Required to Secure License
+                    Documents Required for Central FSSAI License
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Following is the listicle of fundamental Documents required to be submitted at the time of application:
+                    To apply for a Central FSSAI License, businesses must submit specific documentation to verify their operations. Key documents include:
                 </p>
                 <div className="mb-8">
                     <ul className="list-disc pl-6 space-y-2 text-[17px] text-slate-600 leading-relaxed grid sm:grid-cols-2 gap-x-6">
-                        <li>Form B (duly filled and signed by the applicant)</li>
-                        <li>Floor plan of the production or processing facility</li>
-                        <li>Complete list of key management personnel (for companies)</li>
-                        <li>Copy of MOA, AOA & COI (if applicable)</li>
-                        <li>List of partners & partnership deed (if partnership)</li>
-                        <li>Utility bills of the business place for address proof</li>
-                        <li>Food Safety Management Plan (FSMS) or identical protocol</li>
-                        <li>Name & the list of machines present at the plant</li>
-                        <li>List of active raw material suppliers</li>
-                        <li>Concerned local authorities no objection certificate</li>
-                        <li>Tourism certificate (if the license seeker is a hotel owner)</li>
-                        <li>IEC certificate accorded by DGFT (for exports)</li>
-                        <li>Import Export Code &amp; Declaration (turnover &gt; Rs. 20 crores)</li>
+                        <li>PAN card of the business entity</li>
+                        <li>Certificate of Incorporation / Partnership Deed / LLP Agreement</li>
+                        <li>Identity and address proof of business owners or directors</li>
+                        <li>Business address proof</li>
+                        <li>List of food products handled or manufactured</li>
+                        <li>Layout plan of the processing unit</li>
+                        <li>Food safety management system plan</li>
+                        <li>NOC from local authorities (if applicable)</li>
+                        <li>Import Export Code (for food import/export businesses)</li>
+                        <li>Water test report from approved laboratory</li>
                     </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mt-6 font-medium">
+                        Documentation requirements may vary depending on the type and scale of the food business. Experts at Vyombiz managed by Clink Consultancy Services Private Limited help businesses prepare and verify all documents to avoid delays or rejection.
+                    </p>
                 </div>
             </div>
         </section>
@@ -160,10 +170,11 @@ const CentralFssaiDocuments = () => {
 
 const CentralFssaiProcess = () => {
     const steps = [
-        { step: "01", title: "Application Filing Via Form B", desc: "First, the license seeker is required to file Form B with the licensing Authority. The applicant must keep basic turnover criteria in mind." },
-        { step: "02", title: "Applicant Scrutiny by FSSAI Officials", desc: "Once submitted, the Application accompanied by requested Documents will be sent to the concerned officials for in-depth scrutiny." },
-        { step: "03", title: "On-Site Inspection", desc: "The FSSAI will send designated officials to the business place to determine the level of compliance. Non-conformity could increase cancellation chances." },
-        { step: "04", title: "Approval & Grant", desc: "Once the licensing Authority approves the Application, the certificate will be issued. Displaying the Certificate at The Business Place Is a Legal Mandate." }
+        { step: "01", title: "Business Assessment", desc: "Experts review your food business operations to determine whether a Central License is required." },
+        { step: "02", title: "Document Preparation", desc: "All necessary documents are collected and verified to ensure compliance with FSSAI guidelines." },
+        { step: "03", title: "Online Application Submission", desc: "The license application is filed through the official FSSAI Food Safety Compliance System (FoSCoS) portal." },
+        { step: "04", title: "Authority Review and Inspection", desc: "FSSAI authorities review the application and may conduct an inspection of the business premises." },
+        { step: "05", title: "License Approval", desc: "Once approved, the Central FSSAI License is issued, allowing the business to legally operate under FSSAI regulations." }
     ];
 
     return (
@@ -171,10 +182,10 @@ const CentralFssaiProcess = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        Procedure to Obtain FSSAI Central License
+                        Central FSSAI License Registration Process
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        Step-by-Step processes for Securing Central FSSAI License:
+                        Obtaining a Central FSSAI License involves several steps that must be completed carefully. With the support of Vyombiz managed by Clink Consultancy Services Private Limited, businesses can complete this process efficiently while avoiding compliance errors.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
@@ -205,10 +216,11 @@ const CentralFssaiProcess = () => {
 
 const CentralFssaiFeatures = () => {
     const features = [
-        { title: "Class-Leading Licensing Platform", desc: "VyomBiz offers a comprehensive portfolio of services, including all types of food licenses." },
-        { title: "Simplified Process", desc: "Professionals at this platform simplify the licensing process via seamless paper handling." },
-        { title: "Unprecedented Professionalism", desc: "Rely on expert guidance to smoothly navigate complex regulatory compliances." },
-        { title: "Complete Transparency", desc: "VyomBiz allows its esteemed clients to keep a constant tab on the Application's progress." }
+        { title: "Eligibility Assessment", desc: "Eligibility assessment for the correct FSSAI license type for your operations." },
+        { title: "Complete Documentation", desc: "Complete documentation assistance ensuring requirements are met." },
+        { title: "Filing and Support", desc: "Application filing and ongoing compliance support." },
+        { title: "Expert Consultation", desc: "Expert consultation on complex food safety regulations." },
+        { title: "Quick Processing", desc: "Quick and hassle-free processing to get you up and running." }
     ];
 
     return (
@@ -216,10 +228,10 @@ const CentralFssaiFeatures = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Secure FSSAI Central License with VyomBiz
+                        Why Choose Vyombiz for Central FSSAI License?
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Secure your license in a Hassle-free way.
+                        Applying for an FSSAI license requires accurate documentation, compliance understanding, and proper application submission. Errors in the process can delay approvals. Vyombiz managed by Clink Consultancy Services Private Limited provides end-to-end support to simplify the licensing process for food businesses.
                     </p>
                 </div>
                 <div>
@@ -234,6 +246,11 @@ const CentralFssaiFeatures = () => {
                     ))}
                     <div className="border-t border-slate-300"></div>
                 </div>
+                <div className="text-center mt-8">
+                    <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed font-medium">
+                        Our experts ensure that your food business meets all legal requirements so you can focus on growing your brand and expanding operations.
+                    </p>
+                </div>
             </div>
         </section>
     );
@@ -241,9 +258,10 @@ const CentralFssaiFeatures = () => {
 
 const CentralFssaiCompliance = () => {
     const compliance = [
-        { title: "Validity Period", desc: "The Central FSSAI license comes with a flexible validity duration ranging from 1-5 years. The cost increases in accordance with the validity period." },
-        { title: "Renewal Timeline", desc: "The FSSAI Central License should be renewed before the 30 days of the expiration date, or else penalties would be levied." },
-        { title: "Renewal Process", desc: "The renewal process is as simple as applying for a new one. Provide Passport Photo, ID Proof, PAN, Address proof, and proof of ownership/rental agreement." }
+        { title: "Validity Timeline", desc: "The Central FSSAI License can be obtained for 1 to 5 years, depending on the applicant's preference during registration." },
+        { title: "Timely Renewal", desc: "Businesses must ensure that the license is renewed before expiry to avoid penalties or disruption of operations." },
+        { title: "Consequences of Delay", desc: "Failure to renew the license on time may lead to late fees or cancellation of the license." },
+        { title: "Expert Support", desc: "Professional support from Vyombiz managed by Clink Consultancy Services Private Limited ensures that businesses receive reminders and assistance for timely renewal." }
     ];
 
     return (
@@ -251,10 +269,10 @@ const CentralFssaiCompliance = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Validity and Renewal
+                        Central FSSAI License Validity
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Crucial information to maintain your Central FSSAI License.
+                        Stay compliant with FSSAI regulations avoiding any business disruptions.
                     </p>
                 </div>
                 <div>
@@ -296,8 +314,8 @@ const CentralFssaiLicense = () => {
             <HeroLayout
                 heroTitleMain="Central FSSAI"
                 heroTitleSuffix="License"
-                heroSubtitle="Regulatory Excellence for Large-Scale Food Enterprises"
-                heroDescription="Drive your global food business with a Central FSSAI License. Mandatory for large-scale manufacturers, importers, and e-commerce giants, this license is your gateway to nationwide operations and international trade."
+                heroSubtitle="Operate Food Businesses Across India with a Central FSSAI License"
+                heroDescription="If your food business operates on a large scale, across multiple states, or handles high turnover, a Central FSSAI License is mandatory. This license ensures that your business complies with Food Safety and Standards Authority of India (FSSAI) regulations and maintains high food safety standards. With expert assistance from Vyombiz managed by Clink Consultancy Services Private Limited, you can obtain your Central FSSAI License quickly, avoid compliance issues, and run your food business with complete legal confidence."
                 whatsIncludedList={[
                     "Central Authority Liaisoning",
                     "Import/Export Compliance (IEC)",

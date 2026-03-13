@@ -17,22 +17,22 @@ const InternationalTrademarkRegistrationOverview = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16 lg:gap-24">
                     <div>
                         <span className="inline-block px-4 py-1.5 text-sm font-semibold bg-[#e6f0fa] text-[#005a9c] rounded-full mb-4">
-                            Global Protection
+                            Global Brand Protection
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            International Trademark Registration – <span className="text-[#005a9c]">An Overview</span>
+                            Overview of <span className="text-[#005a9c]">International Trademark Registration</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            International trademark registration under the Madrid Protocol simplifies protection across multiple jurisdictions.
+                            International trademark registration through the Madrid Protocol allows businesses to seek trademark protection across multiple countries using a single application.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            It grants exclusive rights within member countries and strengthens global brand identity.
+                            It provides trademark owners with exclusive rights in designated member countries and helps build a strong global brand presence.
                         </p>
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            The Madrid Protocol
+                            Madrid Protocol System
                         </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Administered by WIPO, it enables protection in 120+ countries through a single application.
+                            Administered by the World Intellectual Property Organization, this system enables trademark protection in more than 120 countries through a centralized filing process.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -52,8 +52,8 @@ const InternationalTrademarkRegistration = () => {
 
     const faqs = [
         {
-            question: "How do you register trademarks internationally?",
-            answer: "Search → File Madrid Application → WIPO Examination → National Examination → Opposition → Grant."
+            question: "How can trademarks be registered internationally?",
+            answer: "The process generally includes conducting a trademark search, filing an international application under the Madrid Protocol, examination by the World Intellectual Property Organization, review by designated countries, opposition period, and final registration approval."
         },
         {
             question: "What are the benefits?",
@@ -86,7 +86,7 @@ const InternationalTrademarkRegistration = () => {
                     </span>
 
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Advantages of Global Registration
+                        Advantages of International Trademark Registration
                     </h2>
 
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
@@ -105,12 +105,12 @@ const InternationalTrademarkRegistration = () => {
                 {/* RIGHT SIDE (SCROLLABLE CARDS) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Legal Protection", desc: "Protection against infringement across multiple countries." },
-                        { title: "Business Opportunity", desc: "Expand into global markets and licensing agreements." },
-                        { title: "Unique Identity", desc: "Secure exclusive global brand rights." },
-                        { title: "E-commerce Growth", desc: "Cross-border online brand protection." },
-                        { title: "Export/Import Protection", desc: "Safeguards goods in international trade." },
-                        { title: "Increased Brand Value", desc: "Enhances investor appeal and revenue potential." }
+                        { title: "Global Legal Protection", desc: "Protects your brand against infringement across multiple international markets." },
+                        { title: "Global Business Opportunities", desc: "Supports expansion into new markets, partnerships, and licensing opportunities." },
+                        { title: "Exclusive Brand Identity", desc: "Ensures exclusive ownership and recognition of your brand internationally." },
+                        { title: "Cross-Border E-commerce Protection", desc: "Helps safeguard brands operating in international online marketplaces." },
+                        { title: "International Trade Protection", desc: "Protects trademarks used in export and import activities." },
+                        { title: "Enhanced Brand Value", desc: "Increases brand credibility, investor confidence, and overall business value." }
                     ].map((item, index) => (
                         <div
                             key={index}
@@ -135,9 +135,9 @@ const InternationalTrademarkRegistration = () => {
 
             <HeroLayout
                 heroTitleMain="International Trademark"
-                heroTitleSuffix="Registration"
+                heroTitleSuffix="Registration Services"
                 heroSubtitle="Secure Your Brand Globally"
-                heroDescription="Expand your business horizons and protect your brand identity across 120+ countries."
+                heroDescription="Expand your business globally and protect your brand identity across more than 120 countries with international trademark protection."
                 whatsIncludedList={[
                     "Madrid Protocol Application Filing",
                     "Global Trademark Search",
@@ -145,9 +145,9 @@ const InternationalTrademarkRegistration = () => {
                     "Response to International Objections"
                 ]}
                 stats={[
-                    { count: "120+", label: "Countries Covered", icon: <Globe size={20} /> },
-                    { count: "10 Years", label: "Validity", icon: <Clock size={20} /> },
-                    { count: "500+", label: "IP Experts", icon: <Users size={20} /> }
+                    { count: "120+", label: "Countries Supported", icon: <Globe size={20} /> },
+                    { count: "10-Year", label: "Registration Validity", icon: <Clock size={20} /> },
+                    { count: "500+", label: "Trademark Professionals", icon: <Users size={20} /> }
                 ]}
             />
 
@@ -155,54 +155,54 @@ const InternationalTrademarkRegistration = () => {
                 overview={<InternationalTrademarkRegistrationOverview />}
                 advantages={advantagesContent}
                 eligibility={{
-                    title: "Eligibility & Requirements",
+                    title: "Eligibility for International Trademark Registration",
                     subtitle: "Who can apply for International Trademark Registration?",
                     list: [
-                        { title: "Indian Applicants", desc: "Indian nationals or businesses domiciled in India." },
-                        { title: "Basic Mark Requirement", desc: "Must hold a national trademark application or registration." },
-                        { title: "Madrid Members", desc: "Trademark owners in Madrid Protocol countries." },
-                        { title: "Global Businesses", desc: "Ideal for exporters and global brands." }
+                        { title: "Indian Applicants", desc: "Individuals or businesses that are citizens, residents, or have establishments in India." },
+                        { title: "Base Trademark Requirement", desc: "Applicants must have an existing national trademark application or registration in their home country." },
+                        { title: "Madrid Protocol Members", desc: "Applicants must belong to a country that is a member of the Madrid Protocol system." },
+                        { title: "Businesses Expanding Internationally", desc: "Ideal for exporters, multinational companies, and brands targeting global markets." }
                     ]
                 }}
                 documents={{
-                    title: "Required Documents",
+                    title: "Documents Required for International Trademark Filing",
                     description: "Essential documents for filing your application.",
                     list: [
-                        "Identity & Address Proof",
-                        "Certificate of Incorporation",
-                        "National Trademark Registration Copy",
-                        "Goods & Services List",
-                        "Designated Countries List",
-                        "MM2 Form",
-                        "Power of Attorney",
-                        "Priority Documents"
+                        "Identity and Address Proof",
+                        "Business Registration Certificate",
+                        "Base Trademark Application or Registration",
+                        "Goods and Services Description",
+                        "Selected Countries for Protection",
+                        "Madrid Application Form (MM2)",
+                        "Authorization Document",
+                        "Priority Claim Documents"
                     ],
                     imageUrl: req
                 }}
                 process={{
-                    title: "Registration Process",
+                    title: "International Trademark Registration Process",
                     subtitle: "Step-by-step guide.",
                     steps: [
-                        { step: "01", title: "Trademark Search", desc: "Ensure uniqueness." },
-                        { step: "02", title: "File Application", desc: "Submit via office of origin." },
-                        { step: "03", title: "WIPO Examination", desc: "Formal review & publication." },
-                        { step: "04", title: "National Exam", desc: "Local country review." },
-                        { step: "05", title: "Opposition", desc: "Opposition period." },
-                        { step: "06", title: "Grant", desc: "Registration in designated countries." }
+                        { step: "01", title: "Trademark Availability Search", desc: "Conduct a search to ensure the trademark is unique." },
+                        { step: "02", title: "File International Application", desc: "Submit the application through the office of origin." },
+                        { step: "03", title: "Examination by WIPO", desc: "The World Intellectual Property Organization reviews the application for formal requirements." },
+                        { step: "04", title: "Examination by Designated Countries", desc: "Each selected country reviews the trademark under its national laws." },
+                        { step: "05", title: "Opposition Period", desc: "Third parties may oppose the trademark within the specified timeframe." },
+                        { step: "06", title: "Trademark Registration", desc: "Trademark protection is granted in approved countries." }
                     ]
                 }}
                 whyChooseUs={{
-                    title: "Why Choose VyomBiz?",
+                    title: "Why Choose Vyombiz for International Trademark Registration",
                     subtitle: "Trusted partner for global IP management.",
                     list: [
-                        { title: "500+ IP Experts", desc: "Dedicated trademark attorneys." },
-                        { title: "Timely Completion", desc: "Efficient processing." },
-                        { title: "Multilingual Support", desc: "10+ languages support." },
-                        { title: "24/7 Support", desc: "Round-the-clock assistance." },
-                        { title: "Customized Solutions", desc: "Tailored processes." },
-                        { title: "Cost-Effective", desc: "Transparent pricing." },
-                        { title: "Legal Representation", desc: "Defense against objections." },
-                        { title: "Post-Registration", desc: "Renewals & enforcement support." }
+                        { title: "Experienced Trademark Experts", desc: "Dedicated professionals specializing in international trademark law." },
+                        { title: "Efficient Processing", desc: "Applications handled efficiently to minimize delays." },
+                        { title: "Multilingual Assistance", desc: "Support available in multiple languages for global clients." },
+                        { title: "Dedicated Customer Support", desc: "Round-the-clock assistance for queries and application tracking." },
+                        { title: "Tailored Trademark Strategies", desc: "Solutions customized based on your business expansion plans." },
+                        { title: "Transparent Pricing", desc: "Affordable services with clear and transparent pricing." },
+                        { title: "Legal Support for Objections", desc: "Assistance in handling objections or refusals by national offices." },
+                        { title: "Post-Registration Assistance", desc: "Support for trademark renewals, monitoring, and enforcement." }
                     ]
                 }}
             />

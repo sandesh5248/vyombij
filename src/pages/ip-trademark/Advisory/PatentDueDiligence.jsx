@@ -14,19 +14,19 @@ const PatentDueDiligenceOverview = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16 lg:gap-24">
                     <div>
                         <span className="inline-block px-4 py-1.5 text-sm font-semibold bg-[#e6f0fa] text-[#005a9c] rounded-full mb-4">
-                            IP Advisory
+                            Intellectual Property Advisory
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Overview on <span className="text-[#005a9c]">Patent Due Diligence</span>
+                            Overview of <span className="text-[#005a9c]">Patent Due Diligence</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Examining a patent or group of patents to support your business or company goals is the process of conducting patent due diligence. Depending on the circumstances that lead to the need for diligence, there are numerous ways in which due diligence for patents can be performed.
+                            Patent due diligence refers to the systematic examination of one or more patents to evaluate their value, risks, and legal status in relation to business objectives. The scope and depth of the due diligence process can vary depending on the purpose of the evaluation.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Finding out whether your patents are being violated by others or whether they can be made profitable through licensing or divestiture might be offensive. As a first step to enforcing your patents, offensive diligence may entail investigating the products of other businesses to see if any of them infringe.
+                            Offensive due diligence focuses on identifying whether other companies are infringing your patents and whether the patents can generate revenue through licensing, commercialization, or transfer. This involves reviewing competitor products and analyzing potential infringement risks.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The defensive aspect of patent due diligence includes determining if you have the freedom to operate in your upcoming business venture and determining whether you are infringing on others' patents.
+                            Defensive due diligence helps determine whether your business has the freedom to operate without infringing on existing patents. It also helps identify potential risks before launching new products or technologies.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -47,7 +47,7 @@ const PatentDueDiligenceEligibility = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    What purposes does patent due diligence serve?
+                    Why is Patent Due Diligence Important?
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
                     Depending on the goal of the evaluation, due diligence may be performed at any moment during the patient's lifetime. The uses of patent due diligence are as follows:
@@ -55,41 +55,43 @@ const PatentDueDiligenceEligibility = () => {
 
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Getting a letter of notice or a cease-and-desist letter
+                        Responding to Legal Notices
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        The first thing you must do after receiving this letter on infringement is to gather information. You and your attorney would need to conduct their due diligence in order to determine the validity of the claim and to develop strategies.
+                        When a company receives a cease-and-desist notice or infringement claim, due diligence helps evaluate the validity of the claim and plan an appropriate response.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Prior to submitting a patent application
+                        Before Filing a Patent Application
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Prior to submitting an application for patent registration at this stage, Due Diligence Reviews are performed to review and seek prior art references, sometimes even before the invention's initial creation.
+                        Due diligence reviews are often conducted before filing a patent application to identify prior art and evaluate the novelty of the invention.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Transactions
+                        Business Transactions
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Due diligence is required for any transactions involving patents, whether they are for monetisation or otherwise (licensing, Acquisition, pledging, etc.). Merger and acquisition due diligence involves hiring experts from several fields, spending more time and money, and preparing for an IPO.
+                        Patent due diligence is essential during licensing deals, acquisitions, pledging, mergers, or preparing for an IPO.
                     </p>
                 </div>
 
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mt-16 mb-6">
-                    What is the difficulty in conducting due diligence?
+                    Challenges in Patent Due Diligence
                 </h2>
                 <div className="space-y-4">
                     {[
-                        "Hidden Issues: It's possible that there are relevant Patents or Prior Art that was not really discovered or provided and that could have underlying concerns or problems.",
-                        "A Short and Simple Evaluation of the Situation: The scope, the full strength of the portfolio, connected technologies, etc., must initially be swiftly understood.",
-                        "Main Points: You must rapidly identify the essential point by analysing the important Patents and looking into any potential issues, such as Patents with shared ownership."
+                        { title: "Undiscovered Risks", desc: "There may be unknown patents or prior art that could affect the enforceability of a patent." },
+                        { title: "Initial Portfolio Assessment", desc: "Evaluating the scope, strength, and technological relevance of a patent portfolio requires a quick yet accurate analysis." },
+                        { title: "Identifying Key Risks", desc: "Critical patents and potential problems such as shared ownership or maintenance issues must be carefully reviewed." }
                     ].map((item, idx) => (
                         <div key={idx} className="flex items-start gap-3">
                             <div className="w-2 h-2 rounded-full bg-[#e11d48] mt-2 shrink-0"></div>
-                            <p className="text-[17px] text-slate-600 leading-relaxed font-medium">{item}</p>
+                            <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
+                                <span className="font-bold text-[#072b47]">{item.title}:</span> {item.desc}
+                            </p>
                         </div>
                     ))}
                 </div>
@@ -103,21 +105,23 @@ const PatentDueDiligenceDocumentsSection = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    What is necessary for the patent due diligence process?
+                    Key Elements of Patent Due Diligence
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
                     Depending on your needs, the scope and depth of the patent due diligence analysis can change significantly. These are some of the elements needed:
                 </p>
                 <div className="space-y-4">
                     {[
-                        "Find out if the patent is enforceable or valid: Assesses aspects of validity including claims distinction from Prior Art and patentable subject matter.",
-                        "Determine whether a proposed product is covered by patent claims: Looking at specifications, claims, and applying wording to a target product to determine infringement risks.",
-                        "Check to see whether there are issues with capable ownership, chain title, or maintenance fees: Evaluating ownership, assignments, title chains, and tracking paid maintenance fees.",
-                        "Review of any Confidentiality agreements, licensing agreements, and employee assignments."
+                        { title: "Patent Validity Analysis", desc: "Evaluation of patent claims, prior art references, and patentable subject matter to determine enforceability." },
+                        { title: "Product Infringement Assessment", desc: "Comparison of product specifications with patent claims to evaluate infringement risks." },
+                        { title: "Ownership and Maintenance Verification", desc: "Reviewing title chains, assignments, and fee payments to ensure patent validity." },
+                        { title: "Agreement Review", desc: "Review confidentiality agreements, employee assignments, and licensing agreements." }
                     ].map((doc, idx) => (
                         <div key={idx} className="flex items-start gap-3">
                             <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                            <p className="text-[17px] text-slate-600 leading-relaxed font-medium">{doc}</p>
+                            <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
+                                <span className="font-bold text-[#072b47]">{doc.title}:</span> {doc.desc}
+                            </p>
                         </div>
                     ))}
                 </div>
@@ -132,7 +136,7 @@ const PatentDueDiligenceProcessSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        Due Diligence Evaluation Procedure for Patents
+                        Patent Due Diligence Process
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
                         The due diligence review procedure has four distinct stages. The steps in the patent due diligence process are as follows:
@@ -148,10 +152,10 @@ const PatentDueDiligenceProcessSection = () => {
                     </div>
                     <div className="lg:col-span-2">
                         {[
-                            { title: "Get ready", desc: "Before beginning, ascertain crucial factors including cost, scope, purpose, objectives, and professional group assigned." },
-                            { title: "Data Collection", desc: "Analyze patent ownership, history of litigation, protection status of subjects, confidentiality and licensing agreements." },
-                            { title: "Inspection", desc: "Analyse the Patents for standing, legality, range of claims. Perform FTO Searches, Draft Action Items for missing fees or revisions." },
-                            { title: "Report Writing", desc: "The last part includes a compiled outline involving data, graphs, Goals/Background, and a SWOT analysis." }
+                            { title: "Planning", desc: "Define the scope, objectives, timeline, and resources required for the due diligence review." },
+                            { title: "Data Collection", desc: "Gather relevant information such as patent ownership details, litigation records, and licensing agreements." },
+                            { title: "Patent Evaluation", desc: "Analyze patent claims, legal validity, technology scope, and perform freedom-to-operate (FTO) searches." },
+                            { title: "Due Diligence Report", desc: "Prepare a comprehensive report summarizing risks, strengths, and strategic recommendations." }
                         ].map((step, idx) => (
                             <div key={idx} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-200">
                                 <div className="text-[16px] font-semibold text-[#072b47]">
@@ -181,7 +185,7 @@ const PatentDueDiligenceFeaturesSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose VyomBiz for Your Advisory?
+                        Why Choose VyomBiz for Patent Due Diligence?
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
                         Expert due diligence support.
@@ -189,10 +193,10 @@ const PatentDueDiligenceFeaturesSection = () => {
                 </div>
                 <div>
                     {[
-                        { title: "10,000+ Regulatory & Compliance Experts", desc: "An extensive global network ensuring high precision and legal integrity throughout your evaluation." },
-                        { title: "Free 30-Min Advisory", desc: "Get a fast and robust initial understanding of your specific Intellectual Property conditions directly from certified consultants." },
-                        { title: "Seamless Certifications", desc: "We make technical compliance certifications effortless and convenient." },
-                        { title: "100,000+ Clients Worldwide", desc: "Our proven methodology scales anywhere from small startups looking for initial FTO analysis directly up to major firm Acquisitions." }
+                        { title: "10,000+ Legal & Compliance Experts", desc: "A strong network of professionals ensures accurate evaluation and reliable advice." },
+                        { title: "Free Initial Consultation", desc: "Get expert insights into your intellectual property position through a quick consultation." },
+                        { title: "Simplified Compliance Support", desc: "We help manage intellectual property compliance and documentation smoothly." },
+                        { title: "Trusted by Businesses Worldwide", desc: "Our due diligence services support startups, enterprises, and investors across industries." }
                     ].map((feature, idx) => (
                         <div key={idx} className="grid grid-cols-[40px_1fr] gap-4 py-5 border-t border-slate-300">
                             <div className="text-[15px] font-semibold text-[#072b47]">
@@ -219,8 +223,8 @@ const PatentDueDiligence = () => {
 
     const faqs = [
         {
-            question: "What does 'patent due diligence' entail?",
-            answer: "Examining a patent or group of patents to support your business or company goals is the process of conducting patent due diligence."
+            question: "What is patent due diligence?",
+            answer: "Patent due diligence is the process of analyzing patents to evaluate their legal status, value, ownership, and potential risks before business decisions such as acquisitions, licensing, or product launches."
         },
         {
             question: "What is the main goal of conducting due diligence?",
@@ -250,7 +254,7 @@ const PatentDueDiligence = () => {
                     </span>
 
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Data Needed for Diligence
+                        Key Information Required for Patent Due Diligence
                     </h2>
 
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
@@ -268,12 +272,12 @@ const PatentDueDiligence = () => {
 
                 <div className="space-y-6">
                     {[
-                        { title: "Patent Ownership", desc: "Essential since some patents may be jointly owned and cause issues if managed improperly during transfer." },
-                        { title: "History of Litigation", desc: "Any history of Patent Litigation needs to be dug out and examined in order to uncover unreported litigation issues." },
-                        { title: "Protection Status", desc: "Following targeting, you must determine the full legal extent of protection." },
-                        { title: "Employee Assignments", desc: "Documentation ensuring the original inventors properly yielded rights to the corporate entity." },
-                        { title: "Confidentiality Agreements", desc: "Important paperwork ensuring there are no breaches of private knowledge regarding the patents." },
-                        { title: "Licensing Agreements", desc: "Understanding how existing licenses impact the current valuation and freedom to operate." }
+                        { title: "Patent Ownership Details", desc: "It is essential to verify patent ownership since some patents may be jointly owned, which can create complications during transfers or licensing." },
+                        { title: "Litigation History", desc: "Any previous patent disputes or litigation must be reviewed to identify possible legal risks." },
+                        { title: "Patent Protection Status", desc: "This analysis determines the legal coverage, geographic scope, and remaining validity of the patent." },
+                        { title: "Inventor Assignment Records", desc: "Documentation confirming that inventors have legally transferred their rights to the organization." },
+                        { title: "Confidentiality Agreements", desc: "Legal agreements that ensure the invention and proprietary information remain protected." },
+                        { title: "Licensing Agreements", desc: "Existing licensing arrangements must be reviewed to understand restrictions, royalties, and ownership rights." }
                     ].map((item, index) => (
                         <div
                             key={index}
@@ -298,9 +302,9 @@ const PatentDueDiligence = () => {
 
             <HeroLayout
                 heroTitleMain="Patent Due Diligence"
-                heroTitleSuffix="Advisory"
+                heroTitleSuffix="Advisory Services"
                 heroSubtitle="Assess Value & Mitigate Risks"
-                heroDescription="In-depth analysis of patent portfolios to support mergers, acquisitions, and licensing."
+                heroDescription="Comprehensive analysis of patent portfolios to support business decisions such as mergers, acquisitions, and licensing."
                 whatsIncludedList={[
                     "Validity & Enforceability Analysis",
                     "Freedom to Operate (FTO) Search",
@@ -308,9 +312,9 @@ const PatentDueDiligence = () => {
                     "Infringement Risk Assessment"
                 ]}
                 stats={[
-                    { count: "10k+", label: "Experts", icon: <Users size={20} /> },
-                    { count: "99%", label: "Accuracy", icon: <CheckCircle size={20} /> },
-                    { count: "Global", label: "Reach", icon: <TrendingUp size={20} /> }
+                    { count: "10,000+", label: "Industry Experts", icon: <Users size={20} /> },
+                    { count: "99%", label: "Evaluation Accuracy", icon: <CheckCircle size={20} /> },
+                    { count: "International", label: "IP Coverage", icon: <TrendingUp size={20} /> }
                 ]}
             />
 

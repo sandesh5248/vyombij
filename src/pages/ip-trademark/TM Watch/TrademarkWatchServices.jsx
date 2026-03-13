@@ -21,7 +21,7 @@ const TrademarkWatchServicesAdvantages = () => {
                         Brand Protection
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of Monitoring
+                        Benefits of Trademark Monitoring
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
                         Stay one step ahead of potential infringers.
@@ -38,12 +38,12 @@ const TrademarkWatchServicesAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Early Detection", desc: "Identify conflicting marks before they are registered and fully enforced." },
-                        { title: "Cost Savings", desc: "Avoid expensive legal battles and litigation by stopping infringement at the application stage." },
-                        { title: "Brand Integrity", desc: "Maintain the exclusivity and strength of your brand name in the market." },
-                        { title: "Market Insight", desc: "Gain awareness of competitors' naming trends and business directions." },
-                        { title: "Asset Protection", desc: "Safeguard your most valuable intangible business assets continuously." },
-                        { title: "Timely Action", desc: "Ensures you never miss the deadline to file a formal opposition." }
+                        { title: "Early Conflict Detection", desc: "Identify similar or conflicting trademarks before they are officially registered." },
+                        { title: "Reduced Legal Costs", desc: "Prevent expensive litigation by addressing infringement during the application stage." },
+                        { title: "Protect Brand Reputation", desc: "Maintain the exclusivity and credibility of your brand identity in the market." },
+                        { title: "Competitor Awareness", desc: "Understand competitor branding strategies and emerging market trends." },
+                        { title: "Protection of Brand Assets", desc: "Safeguard valuable intellectual property assets from misuse." },
+                        { title: "Timely Legal Action", desc: "Ensure that opposition deadlines are not missed for conflicting trademarks." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -67,16 +67,16 @@ const TrademarkWatchServicesOverview = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16 lg:gap-24">
                     <div>
                         <span className="inline-block px-4 py-1.5 text-sm font-semibold bg-[#e6f0fa] text-[#005a9c] rounded-full mb-4">
-                            Continuous Surveillance
+                            Continuous Trademark Surveillance
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            Trademark Watch Services – <span className="text-[#005a9c]">An Overview</span>
+                            Overview of <span className="text-[#005a9c]">Trademark Watch Services</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Trademark watch is a monitoring service that helps businesses identify potential trademark infringements by third parties. It involves tracking new trademark applications that may conflict with your existing registered marks.
+                            Trademark watch is a monitoring service that helps businesses detect possible trademark conflicts by tracking newly filed trademark applications that may resemble or infringe existing marks.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Identifying these conflicts early is crucial because it allows you to file an opposition within the statutory period, which is typically much easier and cheaper than attempting to cancel a mark after it has already been registered.
+                            Detecting potential conflicts early enables brand owners to file a trademark opposition within the permitted time period, which is generally faster and more cost-effective than cancelling a trademark after registration.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -98,7 +98,7 @@ const TrademarkWatchServicesEligibility = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Who Needs This Service?
+                    Who Should Use Trademark Watch Services?
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
                     Essential for businesses with established brand value.
@@ -106,50 +106,50 @@ const TrademarkWatchServicesEligibility = () => {
                 
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Registered Owners
+                        Registered Trademark Owners
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Anyone with a registered trademark needs to actively protect it.
+                        Businesses that already hold registered trademarks and want to maintain their exclusivity.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Growing Startups
+                        Expanding Startups
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        To ensure no competitors mimic their rising brand identity.
+                        Startups building strong brand identities that need protection from imitation.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Global Corporations
+                        International Businesses
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Monitoring across multiple jurisdictions for cross-border protection.
+                        Companies operating across multiple jurisdictions requiring global brand monitoring.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Luxury Brands
+                        Premium Brands
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        High-value brands that are frequently targets for imitation.
+                        High-value brands that are often targeted by counterfeiters or imitators.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        E-commerce Sellers
+                        Online Sellers
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Protecting digital storefront identities from competitors.
+                        Businesses operating on digital platforms that need to protect their online brand identity.
                     </p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                        Manufacturers
+                        Product Manufacturers
                     </h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium">
-                        Securing industrial marks across global distribution chains.
+                        Companies that distribute products widely and require trademark protection across markets.
                     </p>
                 </div>
             </div>
@@ -162,7 +162,7 @@ const TrademarkWatchServicesDocumentsSection = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Getting Started
+                    Documents Required to Start Monitoring
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
                     What we need to set up your trademark watch.
@@ -171,27 +171,27 @@ const TrademarkWatchServicesDocumentsSection = () => {
                     
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Trademark Registration Certificate / Application Copy</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Trademark Registration Details (Copy of the trademark registration certificate or application)</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">List of Marks to be Monitored (Word/Logo)</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Marks to be Tracked (Word marks or logos that need monitoring)</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Designated Jurisdictions (India/Global)</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Monitoring Jurisdictions (Countries or regions where trademark monitoring is required)</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Relevant Trademark Classes (Nice Classification)</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Applicable Trademark Classes (Relevant classes under the NICE classification system)</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Authorized Contact Person for Alerts</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Contact Person for Alerts (Designated representative to receive monitoring notifications)</p>
                     </div>
                     <div className="flex items-start gap-3">
                          <div className="w-2 h-2 rounded-full bg-[#f1a134] mt-2 shrink-0"></div>
-                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Power of Attorney (for filing oppositions if needed)</p>
+                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium">Authorization Document (Power of attorney if legal action or opposition filing is required)</p>
                     </div>
                 </div>
             </div>
@@ -205,7 +205,7 @@ const TrademarkWatchServicesProcessSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        Our Watch Process
+                        Trademark Monitoring Process
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
                         A systematic approach to brand surveillance.
@@ -227,10 +227,10 @@ const TrademarkWatchServicesProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Setup Profile
+                                    Monitoring Setup
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Defining the marks, classes, and jurisdictions to be watched.
+                                    Define trademarks, classes, and jurisdictions for monitoring.
                                 </p>
                             </div>
                         </div>
@@ -240,10 +240,10 @@ const TrademarkWatchServicesProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Continuous Scan
+                                    Database Monitoring
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Scanning daily/weekly official trademark journals and databases.
+                                    Regular scanning of trademark journals and official databases.
                                 </p>
                             </div>
                         </div>
@@ -253,10 +253,10 @@ const TrademarkWatchServicesProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Conflict Analysis
+                                    Conflict Evaluation
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Our experts filter results to find truly conflicting marks.
+                                    Experts analyze potential matches to identify genuine threats.
                                 </p>
                             </div>
                         </div>
@@ -266,10 +266,10 @@ const TrademarkWatchServicesProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Detailed Reporting
+                                    Monitoring Reports
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Providing regular reports on all detected threats.
+                                    Regular reports highlighting detected conflicting trademarks.
                                 </p>
                             </div>
                         </div>
@@ -279,10 +279,10 @@ const TrademarkWatchServicesProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Legal Consultation
+                                    Legal Review
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Evaluating the risk and deciding whether to pursue legal action.
+                                    Assess the risk and determine whether legal action is necessary.
                                 </p>
                             </div>
                         </div>
@@ -292,10 +292,10 @@ const TrademarkWatchServicesProcessSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[18px] font-semibold text-[#072b47]">
-                                    Opposition Filing
+                                    Filing Trademark Opposition
                                 </h3>
                                 <p className="text-[16px] text-slate-600 mt-1 leading-relaxed">
-                                    Drafting and filing formal oppositions against infringing marks.
+                                    Initiate opposition proceedings against conflicting marks if required.
                                 </p>
                             </div>
                         </div>
@@ -313,7 +313,7 @@ const TrademarkWatchServicesFeaturesSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose VyomBiz?
+                        Why Choose Vyombiz for Trademark Monitoring
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
                         Advanced technology combined with legal expertise.
@@ -327,10 +327,10 @@ const TrademarkWatchServicesFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Expert Attorneys
+                                    Experienced IP Lawyers
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Manual review by IP lawyers to ensure zero false positives.
+                                    Manual verification of detected conflicts by intellectual property experts.
                                 </p>
                             </div>
                         </div>
@@ -340,10 +340,10 @@ const TrademarkWatchServicesFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Global Reach
+                                    Global Monitoring
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Monitoring capabilities in over 180 countries and WIPO journals.
+                                    Tracking trademarks across multiple countries and international databases including World Intellectual Property Organization records.
                                 </p>
                             </div>
                         </div>
@@ -353,10 +353,10 @@ const TrademarkWatchServicesFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Real-Time Alerts
+                                    Instant Notifications
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Immediate notification as soon as a conflict is detected.
+                                    Immediate alerts whenever a potentially conflicting trademark appears.
                                 </p>
                             </div>
                         </div>
@@ -366,10 +366,10 @@ const TrademarkWatchServicesFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Strategic Advice
+                                    Legal Strategy Guidance
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Actionable legal strategy for every conflicting mark identified.
+                                    Practical recommendations for addressing each identified risk.
                                 </p>
                             </div>
                         </div>
@@ -379,10 +379,10 @@ const TrademarkWatchServicesFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    High-Tech Tools
+                                    Advanced Monitoring Technology
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Using advanced algorithms for better detection of similar marks.
+                                    Technology-driven tools to detect similar or identical trademarks efficiently.
                                 </p>
                             </div>
                         </div>
@@ -392,10 +392,10 @@ const TrademarkWatchServicesFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    End-to-End Support
+                                    Complete Legal Support
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    From detection to filing oppositions and legal representation.
+                                    From conflict detection to opposition filing and legal representation.
                                 </p>
                             </div>
                         </div>
@@ -405,10 +405,10 @@ const TrademarkWatchServicesFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Transparent Pricing
+                                    Transparent Pricing Plans
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Simple fixed-fee packages for continuous protection.
+                                    Simple and affordable monitoring packages without hidden charges.
                                 </p>
                             </div>
                         </div>
@@ -418,10 +418,10 @@ const TrademarkWatchServicesFeaturesSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-[16px] font-semibold text-[#072b47]">
-                                    Proven Track Record
+                                    Trusted Protection
                                 </h3>
                                 <p className="text-[15px] text-slate-600 mt-1 leading-relaxed">
-                                    Protecting thousands of brands from infringement globally.
+                                    Extensive experience protecting brands from infringement worldwide.
                                 </p>
                             </div>
                         </div>
@@ -436,8 +436,8 @@ const TrademarkWatchServices = () => {
 
     const faqs = [
         {
-            question: "What is a Trademark Watch service?",
-            answer: "A Trademark Watch service is a proactive monitoring system that scans trademark applications to identify any new marks that might conflict with or infringe upon your existing trademarks."
+            question: "What does a Trademark Watch service do?",
+            answer: "A Trademark Watch service continuously monitors new trademark applications to identify marks that may be identical or similar to your registered trademarks, allowing you to take timely legal action if necessary."
         },
         {
             question: "Why is it important to watch my trademark?",
@@ -463,9 +463,9 @@ const TrademarkWatchServices = () => {
             {/* ================= SECTION 1: HERO ================= */}
             <HeroLayout
                 heroTitleMain="Trademark Watch"
-                heroTitleSuffix="& Monitoring"
+                heroTitleSuffix="& Monitoring Services"
                 heroSubtitle="Protect Your Brand Identity"
-                heroDescription="Trademark registration is just the first step. To truly protect your brand, you need continuous monitoring. Our Trademark Watch services identify potential infringements early, giving you the power to block conflicting marks before they are registered."
+                heroDescription="Trademark registration alone is not enough to protect your brand. Continuous monitoring is essential to detect potential infringements. Our Trademark Watch services track new trademark filings and help you identify conflicting marks early so you can take timely action."
                 whatsIncludedList={[
                     "Daily/Weekly Journal Monitoring",
                     "Global & Regional Watch Reports",
@@ -473,9 +473,9 @@ const TrademarkWatchServices = () => {
                     "Timely Opposition Alerts"
                 ]}
                 stats={[
-                    { count: "Daily", label: "Monitoring", icon: <Clock size={20} /> },
-                    { count: "Real-time", label: "Alerts", icon: <ShieldCheck size={20} /> },
-                    { count: "100%", label: "Brand Security", icon: <Award size={20} /> }
+                    { count: "Daily", label: "Trademark Monitoring", icon: <Clock size={20} /> },
+                    { count: "Instant", label: "Conflict Alerts", icon: <ShieldCheck size={20} /> },
+                    { count: "Enhanced", label: "Brand Protection", icon: <Award size={20} /> }
                 ]}
             />
 

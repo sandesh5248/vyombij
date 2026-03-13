@@ -19,19 +19,19 @@ const ISO50001Overview = () => {
                             Energy Management
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            ISO 50001 Energy Management – <span className="text-[#005a9c]">An Overview</span>
+                            ISO 50001 Energy Management – <span className="text-[#005a9c]">Overview</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            ISO 50001 Energy Management is a strategic tool that aids organisations to explicitly put in place an energy management system, efficiently using their energy more effectively. ISO 50001 2018 is the dynamically revised International Standard for Energy Management, providing the most robust framework for optimising energy efficiency.
+                            ISO 50001 Energy Management is an international standard that helps organizations establish an effective Energy Management System (EnMS) to improve energy performance and reduce energy consumption.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            An Energy Management System (EMS) strictly helps organisations properly manage their energy use securely improving massive operational productivity. It encompasses developing and explicitly implementing stringent energy policies tracking achievable targets precisely.
+                            An Energy Management System enables organizations to monitor, control, and optimize their energy usage by implementing structured policies, measurable objectives, and performance monitoring processes.
                         </p>
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Primary Objectives
+                            Primary Objective
                         </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The direct primary objective inherently is to definitively improve energy-related performance and active energy efficiency constantly natively identifying strong operational energy reduction opportunities seamlessly reducing heavy CO2 footprint limits successfully.
+                            The primary objective of ISO 50001 is to improve energy efficiency, reduce energy costs, and lower carbon emissions by identifying and managing energy consumption effectively.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -57,10 +57,10 @@ const ISO50001Advantages = () => {
                         Sustainability Benefits
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Benefits of ISO 50001 Energy Management
+                        Benefits of ISO 50001 Certification
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        The strict adherence to this standard safely empowers massive cost savings and strongly drives an active contribution definitively supporting broad environmental climate policies perfectly.
+                        Implementing ISO 50001 helps organizations reduce energy costs, improve operational efficiency, and support environmental sustainability initiatives.
                     </p>
                     <div className="mt-10">
                         <img
@@ -74,12 +74,12 @@ const ISO50001Advantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Measure & Monitor", desc: "Effectively monitor all continuous energy use inherently identifying exactly where to critically improve efficiency safely targeting losses." },
-                        { title: "Reduce Carbon Emissions", desc: "Aggressively reduce operational carbon emissions explicitly aligning properly meeting stringent global and central government reduction targets." },
-                        { title: "Risk Mitigation", desc: "Identify and smoothly manage all hidden operational risks specifically surrounding critical future energy structural supply pipelines exactly." },
-                        { title: "Increase Tender Opportunities", desc: "Demonstrate verified environmental core credentials specifically aiming to significantly multiply top-tier public/private tender selection chances globally." },
-                        { title: "Improve Overall Performance", desc: "Drive holistic systematic improvements practically deployed across all units comprehensively designed tracking strict cuts down energy consumption bills natively." },
-                        { title: "Image Boost & Competitiveness", desc: "Create an explicitly massive green environmental image actively revealing hidden financial savings naturally building stronger broad competitive commercial advantages." }
+                        { title: "Measure and Monitor Energy Use", desc: "Helps businesses continuously monitor energy consumption to identify areas for efficiency improvements." },
+                        { title: "Reduce Carbon Emissions", desc: "Supports environmental goals by reducing greenhouse gas emissions and overall carbon footprint." },
+                        { title: "Risk Management", desc: "Identifies and mitigates risks associated with energy supply, pricing fluctuations, and regulatory compliance." },
+                        { title: "Access to More Business Opportunities", desc: "Increases eligibility for government and corporate tenders that require proven environmental responsibility." },
+                        { title: "Improved Operational Performance", desc: "Optimizes energy usage across various departments, reducing waste and improving overall efficiency." },
+                        { title: "Better Brand Image", desc: "Demonstrates a commitment to sustainability, enhancing brand reputation among environmentally conscious customers." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -101,7 +101,7 @@ const ISO50001Requirements = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Core Requirements for ISO 50001
+                    Core Requirements for ISO 50001 Certification
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
                     Implementing ISO 50001 Energy Management fundamentally provides a rigorous set of active operational requirements safely enabling entities securely to govern energy matrices tightly:
@@ -113,21 +113,21 @@ const ISO50001Requirements = () => {
                             Operational Actions
                         </h3>
                         <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed list-disc list-inside bg-[#f8fafc] p-6 rounded-xl border border-slate-100">
-                            <li>Measure precisely the ongoing results obtained across consumption points.</li>
-                            <li>Develop an active policy effectively driving efficient use of resources globally.</li>
-                            <li>Continually inherently improve global energy management securely reducing wastes.</li>
-                            <li>Review explicitly the tracking policy's operational effectiveness securely routinely.</li>
+                            <li>Measure and track ongoing energy consumption across operations.</li>
+                            <li>Develop and implement an active policy to drive energy efficiency globally.</li>
+                            <li>Continually improve the energy management system to minimize waste.</li>
+                            <li>Regularly review energy policies to ensure operational effectiveness.</li>
                         </ul>
                     </div>
 
                     <div className="mb-10">
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            Data & Governance
+                            Data Governance
                         </h3>
                         <ul className="grid grid-cols-1 gap-4 text-[17px] text-slate-600 leading-relaxed list-disc list-inside bg-[#f8fafc] p-6 rounded-xl border border-slate-100">
-                            <li>Fix exact explicit objectives and strict active targets effectively meeting structural central policies seamlessly.</li>
-                            <li>Collect critical data specifically aimed to deeply understand active metrics seamlessly empowering structural decisions tracking proper energy utilization.</li>
-                            <li>Structure internal reviews perfectly matching high-level compliance limits explicitly avoiding structural defaults safely preventing losses globally.</li>
+                            <li>Set specific objectives and manageable targets aligned with central compliance policies.</li>
+                            <li>Collect comprehensive data to understand metrics and support informed decisions.</li>
+                            <li>Structure routine internal reviews to maintain compliance and avoid potential setbacks globally.</li>
                         </ul>
                     </div>
                 </div>
@@ -139,20 +139,20 @@ const ISO50001Requirements = () => {
 const ISO50001ProcessSection = () => {
     const steps = [
         {
-            title: "Phase 1: Plan",
-            desc: "The overall active responsibility for the installed energy management structurally must securely locate with top management. You inherently identify exactly Significant Energy Uses (SEUs) and smoothly prioritise active efficiency."
+            title: "Phase 1 – Plan",
+            desc: "Top management determines the current energy baseline and identifies areas for significant energy consumption improvement."
         },
         {
-            title: "Phase 2: Do",
-            desc: "Implement specifically the targeted energy mapping action plans effectively matching analysis of exact real-time energy structurally mapped driving explicit new high standards accurately tracking global metrics safely."
+            title: "Phase 2 – Implement",
+            desc: "The organization executes the planned energy policies and implements procedures to optimize energy efficiency."
         },
         {
-            title: "Phase 3: Check",
-            desc: "Measure precisely explicitly auditing active workflows monitoring natively execution parameters thoroughly analysing structural results explicitly matched against baseline target compliances natively securely."
+            title: "Phase 3 – Monitor",
+            desc: "Energy consumption data is collected, monitored, and analyzed against the established objectives and targets."
         },
         {
-            title: "Phase 4: Act",
-            desc: "Take tight, strict action directly led by a higher management tracking limit firmly aiming safely to thoroughly confirm continual improvements tracking the exact structural EnMS actively avoiding structural non-conformity natively."
+            title: "Phase 4 – Improve",
+            desc: "Management reviews the results and takes actions to continually improve the energy management system."
         }
     ];
 
@@ -164,7 +164,7 @@ const ISO50001ProcessSection = () => {
                         Plan-Do-Check-Act Approach (PDCA)
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        ISO 50001 relies inherently upon a rigid cyclical method securely identifying precise execution capabilities perfectly driving overall environmental metrics:
+                        ISO 50001 follows the Plan-Do-Check-Act (PDCA) model to continuously improve energy management performance.
                     </p>
                 </div>
 
@@ -269,8 +269,8 @@ const ISO50001FeaturesSection = () => {
 const ISO50001Registration = () => {
     const faqs = [
         {
-            question: "What is EMS?",
-            answer: "EMS formally stands natively specifically explicitly for Energy Management System and is intrinsically a tight set of operational processes that critically makes a company dynamically systematically use secure data efficiently driving structural improvement."
+            question: "What is an Energy Management System (EMS)?",
+            answer: "An Energy Management System (EMS) is a structured set of processes and procedures that helps organizations monitor, control, and optimize their energy consumption to improve operational efficiency and reduce costs."
         },
         {
             question: "Can I be certified to ISO 50001 without having ISO 14001?",
@@ -295,9 +295,9 @@ const ISO50001Registration = () => {
             {/* ================= SECTION 1: HERO ================= */}
             <HeroLayout
                 heroTitleMain="ISO 50001 Energy Management"
-                heroTitleSuffix="Certification"
-                heroSubtitle="Data-Driven Optimal Processes"
-                heroDescription="Elevate specifically with explicit absolute ISO 50001 Energy Management compliance. Improve precisely explicit energy performance limit effortlessly directly specifically driven natively flawlessly through inherently rigorous tightly data-driven tracking systematic securely compliant safe models exactly mapping strictly global standard metrics."
+                heroTitleSuffix="Certification Online"
+                heroSubtitle="Achieve Optimal Energy Efficiency"
+                heroDescription="Improve energy efficiency and sustainability with ISO 50001 Energy Management Certification. Implement a structured system that helps organizations monitor, control, and optimize energy usage while meeting internationally recognized energy performance standards."
                 whatsIncludedList={[
                     "EnMS Document Gap Check",
                     "Continual Metric Audit",
@@ -305,9 +305,9 @@ const ISO50001Registration = () => {
                     "CO2 Reduction Mapping"
                 ]}
                 stats={[
-                    { count: "100,000+", label: "Clients Globally", icon: <CheckCircle2 size={20} /> },
+                    { count: "100,000+", label: "Businesses Served", icon: <CheckCircle2 size={20} /> },
                     { count: "Efficient", label: "Operations", icon: <Factory size={20} /> },
-                    { count: "Optimized", label: "Energy Setup", icon: <Zap size={20} /> }
+                    { count: "Optimized", label: "Energy Management", icon: <Zap size={20} /> }
                 ]}
             />
 

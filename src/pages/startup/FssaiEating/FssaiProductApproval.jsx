@@ -23,16 +23,43 @@ const FssaiProductApprovalOverview = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16 lg:gap-24">
                     <div>
                         <span className="inline-block px-4 py-1.5 text-sm font-semibold bg-[#e6f0fa] text-[#005a9c] rounded-full mb-4">
-                            Novel Foods
+                            Innovation Guide
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            FSSAI Product Approval – <span className="text-[#005a9c]">Innovation Guide</span>
+                            What is <span className="text-[#005a9c]">FSSAI Product Approval?</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The FSSAI product approval process is mandatory for products not covered under the existing standards set by the FSS Act. It ensures that innovative products are safe for human consumption before they are introduced to the market.
+                            FSSAI Product Approval is the regulatory process required when a food product does not fall under existing food standards specified by the Food Safety and Standards Authority of India (FSSAI).
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            Many new ingredients and food products are introduced each year by Food Business Operators (FBOs). These products require a thorough safety evaluation by the FSSAI authorities through the Food Product Approval System (FPAS).
+                            If a product contains novel ingredients, unique formulations, or imported food categories, businesses must obtain approval before manufacturing, importing, or selling the product in India. The approval ensures that the product is safe for human consumption and compliant with Indian food safety laws.
+                        </p>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
+                            Businesses commonly requiring product approval include:
+                        </p>
+                        <ul className="space-y-2 text-[17px] text-slate-600 leading-relaxed list-disc pl-6 mb-6">
+                            <li>Food manufacturers launching new formulations</li>
+                            <li>Importers bringing international food products to India</li>
+                            <li>Companies introducing functional or nutraceutical foods</li>
+                            <li>Businesses using new additives or ingredients not listed in FSSAI standards</li>
+                        </ul>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
+                            Obtaining approval helps companies avoid legal complications, product recalls, and regulatory penalties.
+                        </p>
+                        
+                        <h3 className="text-2xl font-semibold text-[#072b47] mb-4 mt-8">When is FSSAI Product Approval Required?</h3>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
+                            Product approval becomes mandatory in specific scenarios where the food product does not align with predefined standards. You typically require FSSAI Product Approval if:
+                        </p>
+                        <ul className="space-y-2 text-[17px] text-slate-600 leading-relaxed list-disc pl-6 mb-6">
+                            <li>The product contains ingredients not listed in FSSAI regulations</li>
+                            <li>The food category is new or innovative</li>
+                            <li>Imported food products do not match existing Indian standards</li>
+                            <li>Nutraceutical, functional, or health supplements require validation</li>
+                            <li>Novel processing techniques are used</li>
+                        </ul>
+                        <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
+                            In such cases, the FSSAI evaluates the safety, composition, and intended use of the product before granting approval.
                         </p>
 
                     </div>
@@ -59,10 +86,10 @@ const FssaiProductApprovalAdvantages = () => {
                         Why It Is Vital
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Strategic Advantages
+                        Benefits of FSSAI Product Approval
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
-                        Why FSSAI product approval is a must for your brand.
+                        Obtaining proper approval offers multiple advantages for food businesses.
                     </p>
                     <div className="mt-10">
                         <img
@@ -76,12 +103,11 @@ const FssaiProductApprovalAdvantages = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Minimal Reputation Risk", desc: "Standardized inspection ensures your brand isn't tarnished by safety issues." },
-                        { title: "Meets Global Standards", desc: "Safety tests meet global norms, gaining confidence from international customers." },
-                        { title: "Network Growth", desc: "Better engagement with industry stakeholders and supply chain partners." },
-                        { title: "Avoid Severe Penalties", desc: "Stay safe from heavy fines (up to ₹5 Lakhs) for non-standardized sales." },
-                        { title: "Competitive Edge", desc: "Authorization to sell unique items that competitors might not have cleared yet." },
-                        { title: "Investor Readiness", desc: "Regulatory approval is a major plus for startups seeking food-tech funding." }
+                        { title: "Regulatory Compliance", desc: "Ensures that your product meets all FSSAI regulations and avoids legal issues." },
+                        { title: "Faster Market Entry", desc: "Approved products can be launched confidently without delays or regulatory risks." },
+                        { title: "Consumer Trust", desc: "Customers prefer food products that comply with safety standards and regulatory approvals." },
+                        { title: "Brand Credibility", desc: "Regulatory approval enhances the credibility and reliability of your food brand." },
+                        { title: "Smooth Import Process", desc: "For imported foods, approval simplifies customs clearance and regulatory checks." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -92,6 +118,9 @@ const FssaiProductApprovalAdvantages = () => {
                             </p>
                         </div>
                     ))}
+                    <p className="text-[17px] text-slate-600 leading-relaxed font-medium mt-6">
+                        With expert assistance from Vyombiz managed by Clink Consultancy Services Private Limited, businesses can navigate the regulatory framework more effectively.
+                    </p>
                 </div>
             </div>
         </div>
@@ -103,34 +132,23 @@ const FssaiProductApprovalEligibility = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Eligibility Criteria
+                    Who Should Apply for FSSAI Product Approval?
                 </h2>
-                <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    Who needs Product Approval?
+                <p className="text-[17px] text-slate-600 leading-relaxed mb-6">
+                    Several types of food businesses may require product approval before entering the market. This includes:
                 </p>
                 <div className="mb-10">
-                    <ul className="space-y-3 text-[17px] text-slate-600 leading-relaxed">
-                        <li>
-                            <span className="font-semibold text-[#072b47]">Novel Food Makers – </span>
-                            Creators of food items with no prior history of consumption in India.
-                        </li>
-                        <li>
-                            <span className="font-semibold text-[#072b47]">Supplement Brands – </span>
-                            Manufacturers of health supplements and nutraceuticals.
-                        </li>
-                        <li>
-                            <span className="font-semibold text-[#072b47]">Novel Technology Users – </span>
-                            Businesses using new processing methods that alter food composition.
-                        </li>
-                        <li>
-                            <span className="font-semibold text-[#072b47]">Proprietary Food Importers – </span>
-                            Entities bringing unique international food formulations to India.
-                        </li>
-                        <li>
-                            <span className="font-semibold text-[#072b47]">Special Medical Foods – </span>
-                            Products designed for specific dietary management of diseases.
-                        </li>
+                    <ul className="list-disc pl-6 space-y-3 text-[17px] text-slate-600 leading-relaxed">
+                        <li>Food manufacturing companies</li>
+                        <li>Nutraceutical brands</li>
+                        <li>Health supplement companies</li>
+                        <li>Food importers and distributors</li>
+                        <li>Beverage manufacturers</li>
+                        <li>Functional food producers</li>
                     </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mt-6 font-medium">
+                        Proper approval ensures businesses operate legally while maintaining food safety standards.
+                    </p>
                 </div>
             </div>
         </section>
@@ -142,22 +160,25 @@ const FssaiProductApprovalDocuments = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Documents Required
+                    Documents Required for FSSAI Product Approval
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
-                    Technical paperwork for Product Approval.
+                    To apply for product approval, businesses must submit specific documents and technical details to FSSAI. Typical documentation includes:
                 </p>
                 <div className="mb-8">
-                    <ul className="list-disc pl-6 space-y-2 text-[17px] text-slate-600 leading-relaxed">
-                        <li>Technical data sheet of the product</li>
-                        <li>Complete list of ingredients and additives</li>
-                        <li>NABL-accredited laboratory test reports</li>
-                        <li>Brief description of the manufacturing process</li>
-                        <li>Draft of the product label (FSSAI compliant)</li>
-                        <li>Safety and Efficacy data for novel ingredients</li>
-                        <li>Certificate of Analysis (COA) for raw materials</li>
-                        <li>Existing FSSAI License copy (if any)</li>
+                    <ul className="list-disc pl-6 space-y-2 text-[17px] text-slate-600 leading-relaxed grid sm:grid-cols-2 gap-x-6">
+                        <li>FSSAI License of the manufacturer or importer</li>
+                        <li>Detailed product formulation and ingredient list</li>
+                        <li>Manufacturing process description</li>
+                        <li>Product label and packaging artwork</li>
+                        <li>Certificate of Analysis from a recognized laboratory</li>
+                        <li>Nutritional information of the product</li>
+                        <li>Safety data and scientific justification for ingredients</li>
+                        <li>Import documents (for imported food products)</li>
                     </ul>
+                    <p className="text-[17px] text-slate-600 leading-relaxed mt-6 font-medium">
+                        Submitting accurate documentation helps prevent delays in the approval process.
+                    </p>
                 </div>
             </div>
         </section>
@@ -166,11 +187,12 @@ const FssaiProductApprovalDocuments = () => {
 
 const FssaiProductApprovalProcess = () => {
     const steps = [
-        { step: "01", title: "Assessment", desc: "Determining if the product is standardized or requires special approval." },
-        { step: "02", title: "Technical Drafting", desc: "Compiling a scientific dossier with safety and toxicology reports." },
-        { step: "03", title: "FPAS Submission", desc: "Online application through the Food Product Approval System." },
-        { step: "04", title: "Scientific Review", desc: "A panel of scientists at FSSAI reviews the product's safety data." },
-        { step: "05", title: "Final Approval", desc: "Grant of a-no objection certificate (NOC) or regular approval." }
+        { step: "01", title: "Product Assessment", desc: "The product formulation is evaluated to determine whether it falls outside existing FSSAI standards." },
+        { step: "02", title: "Document Preparation", desc: "Technical documentation, safety reports, and ingredient details are prepared for submission." },
+        { step: "03", title: "Application Submission", desc: "The approval request is submitted to FSSAI with all required documents and supporting evidence." },
+        { step: "04", title: "Technical Evaluation", desc: "FSSAI experts assess the safety, composition, and compliance of the product." },
+        { step: "05", title: "Clarification or Additional Information", desc: "Authorities may request additional details or scientific data if required." },
+        { step: "06", title: "Approval or Recommendation", desc: "Once the evaluation is completed, FSSAI grants product approval or recommends regulatory adjustments." }
     ];
 
     return (
@@ -178,10 +200,10 @@ const FssaiProductApprovalProcess = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        The Approval Process
+                        Step-by-Step Process for FSSAI Product Approval
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                        Step-by-step path to clearing your innovation.
+                        The product approval process involves multiple regulatory stages.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
@@ -212,10 +234,11 @@ const FssaiProductApprovalProcess = () => {
 
 const FssaiProductApprovalFeatures = () => {
     const features = [
-        { title: "Scientific Advisory", desc: "Liaison with food scientists to validate your product's safety claims." },
-        { title: "Label Rectification", desc: "Ensuring your packaging claims do not mislead and are legally sound." },
-        { title: "Lab Support", desc: "Coordination with NABL labs for necessary microbial and chemical testing." },
-        { title: "Dossier Management", desc: "Professional preparation of the complex technical dossier required by FPAS." }
+        { title: "Standard Confusion", desc: "Lack of clarity about applicable food standards." },
+        { title: "Paperwork Errors", desc: "Incomplete documentation or incorrect data." },
+        { title: "Scientific Validation", desc: "Scientific validation requirements for complex new ingredients." },
+        { title: "Evaluation Delays", desc: "Long evaluation timelines can push back market launch." },
+        { title: "FSSAI Communication", desc: "Regulatory communication with FSSAI authorities can be complex." }
     ];
 
     return (
@@ -223,10 +246,11 @@ const FssaiProductApprovalFeatures = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Service Features
+                        Common Challenges in the Product Approval Process
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Our specialized support for innovators.
+                        Many businesses face difficulties when applying for product approval due to technical and regulatory complexities. 
+                        Professional guidance helps businesses handle these challenges effectively.
                     </p>
                 </div>
                 <div>
@@ -248,12 +272,11 @@ const FssaiProductApprovalFeatures = () => {
 
 const FssaiProductApprovalCompliance = () => {
     const compliance = [
-        "Ensuring batch-wise testing of the approved product",
-        "Promptly reporting any adverse reactions to FSSAI",
-        "Updating labels if regulations for additives change",
-        "Maintaining records of the approval letter (NOC)",
-        "Periodic renewal of the primary FSSAI license",
-        "Informing the authority about any change in formulation"
+        "End-to-end FSSAI product approval support",
+        "Expert regulatory consultation",
+        "Accurate documentation and application filing",
+        "Communication with FSSAI authorities",
+        "Faster and compliant approval process"
     ];
 
     return (
@@ -261,10 +284,13 @@ const FssaiProductApprovalCompliance = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Post Compliance
+                        Why Choose Vyombiz for FSSAI Product Approval?
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        Maintaining your product's market status.
+                        Navigating the regulatory framework of food approvals requires expertise and precision. Vyombiz managed by Clink Consultancy Services Private Limited assists businesses in managing the entire approval process efficiently. 
+                    </p>
+                    <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed mt-4 font-semibold">
+                        Our services include:
                     </p>
                 </div>
                 <div>
@@ -277,6 +303,14 @@ const FssaiProductApprovalCompliance = () => {
                         </div>
                     ))}
                     <div className="border-t border-slate-300"></div>
+                    <div className="mt-8 text-center">
+                        <h3 className="text-2xl font-semibold text-[#072b47] mb-3">
+                            Start Your FSSAI Product Approval Today
+                        </h3>
+                        <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
+                            If your food product requires regulatory approval before launch, securing FSSAI clearance is essential. Vyombiz managed by Clink Consultancy Services Private Limited provides professional assistance to help food businesses complete the approval process smoothly and bring their products to market with confidence. Get started today and ensure your food products meet India’s highest safety standards.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -305,8 +339,8 @@ const FssaiProductApproval = () => {
             <HeroLayout
                 heroTitleMain="FSSAI Product"
                 heroTitleSuffix="Approval"
-                heroSubtitle="Regulatory Authorization for Innovative Food Products"
-                heroDescription="Launching a novel food product or dietary supplement? If your product doesn't fit into existing safety standards, you need official Product Approval from FSSAI. Our experts guide you through the complex technical assessment to ensure a successful market launch."
+                heroSubtitle="Ensure Your Food Products Meet FSSAI Standards Before Entering the Market"
+                heroDescription="Launching a new food product in India requires more than just a great recipe—it needs regulatory approval. FSSAI Product Approval ensures that new ingredients, formulations, or imported food items comply with the safety standards set by the Food Safety and Standards Authority of India. With expert guidance, the approval process becomes smoother, faster, and fully compliant."
                 whatsIncludedList={[
                     "Novel Ingredient Safety Assessment",
                     "FPAS Online System Filing",

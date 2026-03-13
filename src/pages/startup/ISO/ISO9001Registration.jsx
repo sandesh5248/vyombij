@@ -20,19 +20,19 @@ const ISO9001Overview = () => {
                             Quality Management
                         </span>
                         <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                            An Overview of <span className="text-[#005a9c]">ISO 9001 2015</span>
+                            ISO 9001:2015 – <span className="text-[#005a9c]">An Overview</span>
                         </h2>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            ISO 9001 2015 is an international standard for maintaining, creating and implementing a Quality Management System (QMS). It was first introduced in September 2015 and is already the most widely adopted standard in the history of standards.
+                            ISO 9001:2015 is an internationally recognized standard for establishing and maintaining a Quality Management System (QMS). Introduced in 2015, it has become one of the most widely adopted quality standards used by organizations worldwide.
                         </p>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            It outlines a framework for improving quality & a vocabulary of understanding for any company looking to provide goods & services that steadily meet the customers' expectations. The Quality Management System is the collective of all the resources, cultural values, processes & assets that support the goal of customer satisfaction & organizational efficiency.
+                            The standard provides a structured framework that helps organizations deliver consistent products and services while meeting customer expectations. A Quality Management System integrates processes, resources, and policies to improve efficiency and ensure customer satisfaction.
                         </p>
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            What is the Fundamental Mission of ISO?
+                            Mission of ISO Standards
                         </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-6">
-                            The fundamental mission of ISO is to provide common specifications, standards, terms, & units of measurement to organisations around the globe. ISO facilitates international trade & innovation to allow every organisation to have a common language & common expectations.
+                            The mission of ISO is to create internationally accepted standards that ensure quality, safety, and efficiency across industries worldwide. These standards support global trade and innovation by establishing a common framework for organizations operating across different markets.
                         </p>
                     </div>
                     <div className="flex justify-center lg:justify-end">
@@ -58,7 +58,7 @@ const ISO9001KeyClauses = () => {
                         Standard Structure
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] leading-[1.15] tracking-tight mb-6">
-                        Key Clauses of ISO 9001 2015
+                        Core Clauses of ISO 9001:2015
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed font-medium mb-8">
                         The strict adherence to these globally aligned clauses empowers seamless international operations and higher customer satisfaction.
@@ -75,13 +75,13 @@ const ISO9001KeyClauses = () => {
                 {/* RIGHT SIDE (SCROLLABLE CONTENT) */}
                 <div className="space-y-6">
                     {[
-                        { title: "Clause 4: Context of the Organisation", desc: "Align your business objectives & intent with the QMS. Know the external & internal issues, needs & expectations." },
-                        { title: "Clause 5: Leadership", desc: "Top management must demonstrate leadership & commitment, establish & communicate a quality policy." },
-                        { title: "Clause 6: Planning for the QMS", desc: "Covers organisational QMS planning to address organisational risks, changes, opportunities & quality objectives." },
-                        { title: "Clause 7: Support", desc: "Covers the resources required for the QMS, ensuring employees are capable & aware, providing Documented details." },
-                        { title: "Clause 8: Operation", desc: "Covers the control & plan processes required to meet the requirements for goods & services." },
-                        { title: "Clause 9: Performance Evaluation", desc: "Requires your organisation's QMS to measure, analyse, monitor, and evaluate your performance." },
-                        { title: "Clause 10: Improvement", desc: "Select opportunities for improvement, take action against non-conformities, implement corrective actions." }
+                        { title: "Clause 4: Organizational Context", desc: "Organizations must identify internal and external factors affecting the Quality Management System and understand stakeholder expectations." },
+                        { title: "Clause 5: Leadership & Commitment", desc: "Top management must actively support the QMS by establishing a quality policy and promoting a culture of continuous improvement." },
+                        { title: "Clause 6: Quality Planning", desc: "This clause focuses on planning actions to address risks, identify opportunities, and achieve defined quality objectives." },
+                        { title: "Clause 7: Resource Support", desc: "Organizations must provide adequate resources, training, and documented information required to operate the QMS effectively." },
+                        { title: "Clause 8: Operational Control", desc: "This clause ensures proper planning and control of operational processes to meet product and service requirements." },
+                        { title: "Clause 9: Performance Monitoring", desc: "Organizations must measure and evaluate QMS performance through monitoring, internal audits, and management reviews." },
+                        { title: "Clause 10: Continuous Improvement", desc: "Organizations should continuously improve processes and address non-conformities through corrective actions." }
                     ].map((item, index) => (
                         <div key={index} className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
                             <h3 className="text-[20px] font-semibold text-[#072b47] mb-3">
@@ -103,19 +103,19 @@ const ISO9001QMS = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    Why is ISO 9001 Certification Essential?
+                    Why ISO 9001 Certification Matters
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-10">
-                    This certification provides your customers reassurance that you have set up a QMS based on the 7 management principles of ISO 9001. It acts as the foundation when industry groups desire to create their own industry standards.
+                    ISO 9001 certification assures customers that your organization follows globally recognized quality management principles. It also acts as the foundation for many industry-specific quality standards and regulatory frameworks.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                     <div className="mb-10">
                         <h3 className="text-xl font-semibold text-[#072b47] mb-4">
-                            What is QMS?
+                            Understanding Quality Management Systems
                         </h3>
                         <p className="text-[17px] text-slate-600 leading-relaxed mb-4 bg-[#f8fafc] p-6 rounded-xl border border-slate-100">
-                            QMS or Quality Management System is defined as a set of interrelated or interacting elements to create policies, objectives & processes to achieve those objectives regarding quality. It is based on a business risk approach to operate, monitor, establish, review, and continually improve quality.
+                            A Quality Management System (QMS) is a structured framework of policies, procedures, and processes designed to consistently deliver quality products and services. It is based on a business risk approach to operate, monitor, establish, review, and continually improve quality.
                         </p>
                     </div>
 
@@ -141,22 +141,22 @@ const ISO9001DocumentsSection = () => {
         <section className="w-full py-12 bg-white">
             <div className="max-w-6xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-6">
-                    List of Vital Documents and Records
+                    Documents Required for ISO 9001 Certification
                 </h2>
                 <p className="text-[17px] text-slate-600 leading-relaxed mb-8">
                     To seamlessly process your application and be compliant with ISO 9001 2015, you need to produce the following vital Documents and Records:
                 </p>
 
                 <div className="mb-8">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-3">Vital Documents Required</h3>
+                    <h3 className="text-xl font-semibold text-[#072b47] mb-3">Essential Documents</h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed">Scope of the QMS, Quality objectives, Quality Policy, and Criteria for evaluation & selection of suppliers.</p>
                 </div>
                 <div className="mb-8">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-3">Mandatory Records</h3>
+                    <h3 className="text-xl font-semibold text-[#072b47] mb-3">Required Records</h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed">Records of skills, training, and qualifications. Records of non-conforming outputs, product/service requirements review, internal audit program, results of management review, and corrective actions.</p>
                 </div>
                 <div className="mb-10">
-                    <h3 className="text-xl font-semibold text-[#072b47] mb-3">Non-Mandatory Documents (Most Commonly Used)</h3>
+                    <h3 className="text-xl font-semibold text-[#072b47] mb-3">Supporting Documents (Recommended)</h3>
                     <p className="text-[17px] text-slate-600 leading-relaxed">Procedure for addressing risks & opportunities, Sales Procedure, Procedure for Internal Audit, Procedure for document & record control, and Procedure for management of non-conformities.</p>
                 </div>
             </div>
@@ -167,27 +167,27 @@ const ISO9001DocumentsSection = () => {
 const ISO9001ProcessSection = () => {
     const steps = [
         {
-            title: "Preparation & Internal Audit",
+            title: "Internal QMS Audit",
             desc: "This is in place for you to check your QMS processes. The goal is to confirm compliance and find problems and weaknesses that would otherwise stay hidden."
         },
         {
-            title: "Management Review",
+            title: "Management Evaluation",
             desc: "A review by your management to evaluate the facts regarding the management system processes in order to make appropriate decisions & assign resources."
         },
         {
-            title: "Corrective Actions",
+            title: "Corrective Implementation",
             desc: "After the internal audit & management review, you need to correct the root cause of any identified problems & Document how they were resolved."
         },
         {
-            title: "Documentation Review (Stage 1)",
+            title: "Stage 1 Certification Audit",
             desc: "The auditors from your chosen certification body will check to confirm your Documents meets the ISO 9001 2015 requirements."
         },
         {
-            title: "Main Audit (Stage 2)",
+            title: "Stage 2 Certification Audit",
             desc: "The certification body auditors will check whether your activities comply with both ISO 9001 & your paper works by checking Documents, company practices & records."
         },
         {
-            title: "Certification",
+            title: "ISO 9001 Certification Approval",
             desc: "Upon successfully clearing rigorous audits and closing any non-conformities, your company is granted the ISO 9001 2015 Certification."
         }
     ];
@@ -197,7 +197,7 @@ const ISO9001ProcessSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-4">
-                        Procedure to Get ISO 9001 2015 Certified
+                        ISO 9001 Certification Process
                     </h2>
                     <p className="text-[17px] text-slate-600 leading-relaxed max-w-3xl mx-auto">
                         For the company QMS to be certified, you need to finish the implementation first, then perform the following steps to ensure a successful certification:
@@ -246,19 +246,19 @@ const ISO9001ProcessSection = () => {
 const ISO9001FeaturesSection = () => {
     const features = [
         {
-            title: "Expert QMS Implementation",
+            title: "Professional QMS Implementation",
             desc: "Executing a rigorously detailed GAP evaluation and structurally scanning existing process limits to securely plot exact intervention points targeting absolute compliance."
         },
         {
-            title: "Comprehensive Auditing",
+            title: "Thorough Audit Support",
             desc: "Helping rigorously conduct tight internal tracking and dedicated management reviews to thoroughly identify any non-compliance prior to official audits."
         },
         {
-            title: "Seamless Certification Coordination",
+            title: "Smooth Certification Coordination",
             desc: "We coordinate massively with accredited certification bodies to guarantee smooth execution timelines and safely close explicit observation loops."
         },
         {
-            title: "Global Reliability & Trust",
+            title: "Trusted by Businesses Worldwide",
             desc: "Join thousands of clients worldwide who have effectively elevated their operational standards and market credibility through our tailored ISO 9001 guidance."
         }
     ];
@@ -268,7 +268,7 @@ const ISO9001FeaturesSection = () => {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl lg:text-4xl font-semibold text-[#072b47] mb-3">
-                        Why Choose Us For ISO 9001 2015
+                        Why Choose Our ISO 9001 Services
                     </h2>
                     <p className="text-[16px] text-slate-600 max-w-3xl mx-auto leading-relaxed">
                         Scale actively by integrating the absolute highest degree of international quality management principles locally and explicitly.
@@ -301,8 +301,8 @@ const ISO9001FeaturesSection = () => {
 const ISO9001Registration = () => {
     const faqs = [
         {
-            question: "What is ISO 9001?",
-            answer: "It's the world's most used standard for QMS and it gives organisations a set of management guidelines that help ensure consistently high-quality products & results."
+            question: "What is ISO 9001:2015 Certification?",
+            answer: "ISO 9001:2015 is the most widely used quality management standard that helps organizations maintain consistent product and service quality while improving operational efficiency."
         },
         {
             question: "Who should obtain ISO 9001 Certification?",
@@ -330,10 +330,10 @@ const ISO9001Registration = () => {
         <div className="w-full bg-white font-sans text-[#1a1a1a]">
             {/* ================= SECTION 1: HERO ================= */}
             <HeroLayout
-                heroTitleMain="ISO 9001 2015"
-                heroTitleSuffix="Certification"
+                heroTitleMain="ISO 9001:2015"
+                heroTitleSuffix="Quality Management Certification"
                 heroSubtitle="Quality Management Systems"
-                heroDescription="Unlock an effortless ISO 9001 2015 certification journey with minimal investment. Discover simplified processes as we guide you step-by-step to success."
+                heroDescription="Start your ISO 9001:2015 certification journey with expert guidance and a simplified process. We help businesses implement quality management systems efficiently and achieve certification smoothly."
                 whatsIncludedList={[
                     "QMS Implementation",
                     "Internal Audit Support",
@@ -341,9 +341,9 @@ const ISO9001Registration = () => {
                     "Certification Audit"
                 ]}
                 stats={[
-                    { count: "1 Lakh+", label: "Clients Globally", icon: <Globe size={20} /> },
-                    { count: "100%", label: "Compliant", icon: <ShieldCheck size={20} /> },
-                    { count: "Top Rated", label: "Service", icon: <CheckCircle2 size={20} /> }
+                    { count: "100,000+", label: "Businesses Served Globally", icon: <Globe size={20} /> },
+                    { count: "100%", label: "Compliance Support", icon: <ShieldCheck size={20} /> },
+                    { count: "Highly Rated", label: "Professional Service", icon: <CheckCircle2 size={20} /> }
                 ]}
             />
 
