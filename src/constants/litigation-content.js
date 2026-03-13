@@ -139,146 +139,202 @@ export const litigationContent = {
             }
         }
     },
-    "grievances-consumer-complaint": {
-        title: "Consumer Grievances",
-        hero: {
-            mainTitle: "Resolve Your Consumer Grievances with Expert Legal Help",
-            bulletPoints: [
-                "Action against misleading ads, hidden charges, and fraud",
-                "Compensation for defective products and poor service",
-                "Legal support for billing disputes and warranty claims"
-            ],
-            testimonial: {
-                text: "I was charged for a service I never subscribed to. VyomBiz helped me file a grievance and get a full refund along with compensation.",
-                author: "Amit Verma",
-                verified: true,
-                avatar: "https://i.pravatar.cc/150?u=amit"
-            }
-        },
-        tabs: [
-            { id: "overview", label: "Overview" },
-            { id: "types", label: "Types" },
-            { id: "when-to-file", label: "When To File" },
-            { id: "process", label: "Process" },
-            { id: "why-choose", label: "Why Choose VyomBiz" },
-            { id: "faqs", label: "FAQs" }
-        ],
-        sections: {
-            overview: {
-                title: "Consumer Grievances - An Overview",
-                image: "/lawyer-services-images/grievances-overview.png",
-                content: [
-                    "General consumer grievances cover a wide range of issues, from defective products and delayed deliveries to incorrect billing and poor customer service. These problems often stem from misleading advertisements, substandard quality, and unmet promises.",
-                    "Addressing these grievances is crucial for maintaining trust in the market. Filing a formal complaint holds businesses accountable, ensuring fair trade practices and protecting consumer rights.",
-                    "VyomBiz provides expert legal support to help you resolve your grievances effectively, whether it involves sending a legal notice or filing a case in the Consumer Court."
-                ]
-            },
-            types: {
-                title: "Types of Consumer Grievances",
-                introduction: "We assist with a variety of consumer issues:",
-                items: [
-                    {
-                        title: "Billing Discrepancies",
-                        description: "Errors in billing statements, overcharges, or double charges.",
-                        example: "Being charged twice for the same transaction."
-                    },
-                    {
-                        title: "Product Quality Issues",
-                        description: "Products that do not meet expected standards or are defective.",
-                        example: "Receiving a damaged smartphone from an online sale."
-                    },
-                    {
-                        title: "Delayed Delivery",
-                        description: "Products or services not delivered within the promised timeframe.",
-                        example: "Furniture delivery delayed by weeks without update."
-                    },
-                    {
-                        title: "Warranty Claims",
-                        description: "Refusal to honor warranty or guarantee benefits.",
-                        example: "Service center denying free repair under warranty."
-                    },
-                    {
-                        title: "Hidden Charges",
-                        description: "Fees not disclosed at the time of purchase.",
-                        example: "Unexpected service fees added to the final bill."
-                    },
-                    {
-                        title: "Misleading Ads",
-                        description: "False or deceptive claims made in advertisements.",
-                        example: "Product performance not matching TV commercial claims."
-                    }
-                ]
-            },
-            whenToFile: {
-                title: "Reasons to File a Grievance",
-                content: "You should file a complaint to:",
-                parameters: [
-                    {
-                        title: "Seek Justice",
-                        desc: "Address unfair treatment and ensure issues are resolved fairly."
-                    },
-                    {
-                        title: "Correct Misinformation",
-                        desc: "Prevent consumer deception by challenging false information."
-                    },
-                    {
-                        title: "Expose Hidden Fees",
-                        desc: "Promote transparency and fairness in pricing."
-                    },
-                    {
-                        title: "Enforce Warranty",
-                        desc: "Ensure companies honor their warranty obligations."
-                    }
-                ]
-            },
-            process: {
-                title: "Our Complaint Resolution Process",
-                introduction: "We follow a systematic approach to resolve your grievances:",
-                steps: [
-                    { title: "Document Collection", description: "Gathering proofs like receipts, invoices, and correspondence." },
-                    { title: "Notify the Brand", description: "Escalating the issue to the company's grievance officer." },
-                    { title: "Legal Notice", description: "Sending a formal legal notice demanding redressal." },
-                    { title: "Consumer Court", description: "Filing a case if the company fails to respond favorably." },
-                    { title: "Resolution", description: "Achieving a settlement or court order for compensation." }
-                ]
-            },
-            whyChoose: {
-                title: "Why Choose VyomBiz?",
-                reasons: [
-                    "Dedicated Experts: Our team specializes in consumer protection laws.",
-                    "Tailored Approach: We craft complaints specific to your unique situation.",
-                    "Proven Track Record: Successfully resolved numerous consumer grievances.",
-                    "End-to-End Support: From analysis to court representation.",
-                    "Fair Treatment: We ensure your rights are upheld throughout the process."
-                ]
-            },
-            faqs: {
-                title: "Consumer Grievance FAQs",
-                items: [
-                    {
-                        question: "What exactly constitutes a consumer grievance?",
-                        answer: "Any dissatisfaction related to a product or service, such as defects, deficiency in service, overcharging, or unfair trade practices."
-                    },
-                    {
-                        question: "Do I need a lawyer to file a consumer complaint?",
-                        answer: "While you can file it yourself, a lawyer helps navigate the legal technicalities and improves the chances of a successful outcome."
-                    },
-                    {
-                        question: "What happens if the company ignores my complaint?",
-                        answer: "If the company does not respond to your grievance or legal notice, you can approach the Consumer Forum (District, State, or National Commission)."
-                    },
-                    {
-                        question: "Can I claim compensation?",
-                        answer: "Yes, you can claim compensation for the loss suffered, as well as for mental agony and legal expenses."
-                    },
-                    {
-                        question: "How long does the process take?",
-                        answer: "It varies, but many grievances are resolved at the legal notice stage. Court cases may take longer depending on the backlog."
-                    }
-                ]
-            }
-        }
+   "grievances-consumer-complaint": {
+  title: "Resolve Consumer Disputes with Expert Legal Support",
+
+  hero: {
+    mainTitle: "Resolve Consumer Disputes with Expert Legal Support",
+    bulletPoints: [
+      "Action against misleading advertisements and hidden charges",
+      "Compensation for defective products and poor services",
+      "Legal assistance for billing disputes and warranty issues"
+    ],
+    testimonial: {
+      text: "I was charged for a service I never subscribed to. VyomBiz helped me raise a complaint and I received a full refund along with compensation.",
+      author: "Verified Client Review",
+      verified: true,
+      avatar: "https://i.pravatar.cc/150?u=amit"
+    }
+  },
+
+  formSection: {
+    offerTitle: "Limited Time Offer",
+    ctaButton: "Start Your Complaint Process",
+    whatsappText:
+      "Receive important updates about your complaint directly on WhatsApp."
+  },
+
+  tabs: [
+    { id: "overview", label: "Overview" },
+    { id: "types", label: "Types" },
+    { id: "when-to-file", label: "When To File" },
+    { id: "process", label: "Process" },
+    { id: "why-choose", label: "Why Choose VyomBiz" },
+    { id: "faqs", label: "FAQs" }
+  ],
+
+  sections: {
+    overview: {
+      title: "Consumer Grievances – Overview",
+      image: "/lawyer-services-images/grievances-overview.png",
+      content: [
+        "Consumer grievances can arise in many situations, including defective products, delayed deliveries, incorrect billing, or unsatisfactory services. These issues are often caused by misleading advertisements, hidden charges, or failure to meet promised standards.",
+        "Raising a formal complaint helps ensure accountability and encourages businesses to follow fair trade practices. It also helps consumers seek refunds, replacements, or compensation for losses.",
+        "VyomBiz offers legal assistance to help consumers resolve disputes effectively, whether through formal complaints, legal notices, or proceedings before consumer forums."
+      ]
     },
+
+    types: {
+      title: "Common Types of Consumer Grievances",
+      introduction:
+        "Consumers may face different types of issues when purchasing products or services.",
+      items: [
+        {
+          title: "Billing Disputes",
+          description:
+            "Errors in invoices, incorrect charges, or duplicate billing for the same transaction.",
+          example: "Being charged twice for the same service."
+        },
+        {
+          title: "Defective or Poor-Quality Products",
+          description:
+            "Products that are damaged, malfunctioning, or not as described.",
+          example: "Receiving a damaged smartphone from an online order."
+        },
+        {
+          title: "Delayed Delivery of Products or Services",
+          description:
+            "Failure to deliver goods or services within the committed time.",
+          example: "Furniture delivery delayed by several weeks."
+        },
+        {
+          title: "Warranty and Guarantee Disputes",
+          description:
+            "Companies refusing to provide repairs or replacements covered under warranty.",
+          example: "Service center denying repair despite warranty coverage."
+        },
+        {
+          title: "Undisclosed Charges",
+          description:
+            "Additional fees applied without proper disclosure during purchase.",
+          example: "Unexpected service charges added to final invoice."
+        },
+        {
+          title: "Misleading Advertisements",
+          description:
+            "Advertisements making false claims about product quality or performance.",
+          example: "Product performance not matching advertised claims."
+        }
+      ]
+    },
+
+    whenToFile: {
+      title: "Why You Should File a Consumer Complaint",
+      content:
+        "Filing a complaint helps protect your rights and ensures businesses follow fair practices.",
+      parameters: [
+        {
+          title: "Seek Fair Resolution",
+          desc: "Resolve disputes and ensure fair treatment for consumers."
+        },
+        {
+          title: "Challenge Misleading Information",
+          desc: "Raise concerns against false claims made by businesses."
+        },
+        {
+          title: "Promote Transparent Pricing",
+          desc: "Prevent companies from charging undisclosed fees."
+        },
+        {
+          title: "Enforce Warranty Rights",
+          desc: "Ensure that businesses fulfill their warranty commitments."
+        }
+      ]
+    },
+
+    process: {
+      title: "Our Consumer Complaint Resolution Process",
+      introduction:
+        "Our team follows a structured approach to handle consumer disputes effectively.",
+      steps: [
+        {
+          title: "Document Review",
+          description:
+            "Collecting supporting documents such as receipts, invoices, and communication records."
+        },
+        {
+          title: "Brand Notification",
+          description:
+            "Submitting a formal complaint to the company or service provider."
+        },
+        {
+          title: "Legal Notice",
+          description:
+            "Issuing a legal notice requesting resolution of the dispute."
+        },
+        {
+          title: "Consumer Commission Filing",
+          description:
+            "Escalating the matter to the consumer commission if needed."
+        },
+        {
+          title: "Dispute Resolution",
+          description:
+            "Securing a refund, replacement, or compensation through settlement or legal order."
+        }
+      ]
+    },
+
+    cta: {
+      title: "Facing a Consumer Dispute?",
+      description:
+        "Get expert legal assistance to resolve your complaint and claim the compensation you deserve.",
+      button: "Book Free Consultation"
+    },
+
+    whyChoose: {
+      title: "Why Choose VyomBiz for Consumer Complaints?",
+      reasons: [
+        "Consumer Law Experts – Our professionals understand consumer protection laws and dispute procedures.",
+        "Customized Complaint Strategy – Each case is handled based on the specific nature of the consumer issue.",
+        "Proven Case Experience – Experience in resolving various types of consumer disputes.",
+        "Complete Legal Support – From complaint drafting to legal representation when required.",
+        "Protection of Consumer Rights – We ensure your rights are protected throughout the complaint process."
+      ]
+    },
+
+    faqs: {
+      title: "Consumer Grievance FAQs",
+      items: [
+        {
+          question: "How can I file a consumer complaint?",
+          answer:
+            "You can file a complaint with the business directly and escalate the issue to the consumer commission if the matter is not resolved."
+        },
+        {
+          question: "What types of issues can be reported as consumer grievances?",
+          answer:
+            "Issues such as defective products, delayed delivery, hidden charges, poor services, and misleading advertisements can be reported."
+        },
+        {
+          question: "Can I claim compensation for defective products?",
+          answer:
+            "Yes. Consumers can claim refunds, replacements, or compensation if they receive defective or substandard products."
+        },
+        {
+          question: "Is there a time limit to file a consumer complaint?",
+          answer:
+            "Generally, consumer complaints should be filed within two years from the date the issue occurred."
+        },
+        {
+          question: "Do I need legal assistance for consumer disputes?",
+          answer:
+            "Legal assistance can help prepare proper complaints, send legal notices, and represent you in consumer forums if required."
+        }
+      ]
+    }
+  }
+},
     "home-appliances-consumer-complaint": {
         title: "Home Appliances Consumer Complaint",
         hero: {
@@ -419,286 +475,333 @@ export const litigationContent = {
             }
         }
     },
-    "hotels-consumer-complaint": {
-        title: "Hotels Consumer Complaint",
-        hero: {
-            mainTitle: "Disappointed with your hotel experience?",
-            bulletPoints: [
-                "Seek fair treatment and get refunds for poor service",
-                "Resolve issues like unclean rooms and hidden charges",
-                "Legal support for booking cancellations and fraud"
-            ],
-            testimonial: {
-                text: "The hotel refused to refund my booking despite cancelling it themselves. VyomBiz stepped in and I got my money back within a week.",
-                author: "Rajesh Kumar",
-                verified: true,
-                avatar: "https://i.pravatar.cc/150?u=rajesh"
-            }
-        },
-        tabs: [
-            { id: "overview", label: "Overview" },
-            { id: "types", label: "Types" },
-            { id: "when-to-file", label: "When To File" },
-            { id: "process", label: "Process" },
-            { id: "why-choose", label: "Why Choose VyomBiz" },
-            { id: "faqs", label: "FAQs" }
-        ],
-        sections: {
-            overview: {
-                title: "Hotels Consumer Complaint - An Overview",
-                image: "/lawyer-services-images/hotels-complaint-overview.png",
-                content: [
-                    "Staying at a hotel should be a comfortable and enjoyable experience, but sometimes things don't go as planned. Common issues guests face include poor customer service, unexpected charges, unclean rooms, and misleading information about hotel amenities.",
-                    "When these problems occur, filing a complaint is a crucial step to address the issues and seek resolution. Taking action not only helps resolve your individual concerns but also holds hotels accountable, encouraging them to maintain high standards.",
-                    "VyomBiz guides you through the process of filing a formal complaint against hotels for service deficiencies, ensuring your voice is heard and your rights as a consumer are protected."
-                ]
-            },
-            types: {
-                title: "Common Hotel Disputes",
-                introduction: "We assist with various issues faced by hotel guests:",
-                items: [
-                    {
-                        title: "Unfair Treatment",
-                        description: "Discriminatory behavior or rudeness by hotel staff.",
-                        example: "Being denied a room despite a valid booking due to overbooking."
-                    },
-                    {
-                        title: "Misleading Information",
-                        description: "The hotel amenities or room condition does not match what was advertised.",
-                        example: "Promised a sea-view suite but given a standard room."
-                    },
-                    {
-                        title: "Hidden Fees",
-                        description: "Unexpected charges added to your bill without prior disclosure.",
-                        example: "Being charged 'resort fees' or specific service charges not mentioned at booking."
-                    },
-                    {
-                        title: "Poor Customer Service",
-                        description: "Unresponsive staff, delayed services, or lack of basic hospitality.",
-                        example: "Housekeeping ignoring requests for room cleaning for days."
-                    },
-                    {
-                        title: "Room Conditions",
-                        description: "Unhygienic rooms, broken furniture, or lack of essential facilities.",
-                        example: "Bed bugs, mold in the bathroom, or non-functional AC."
-                    },
-                    {
-                        title: "Booking Scams",
-                        description: "Issues related to booking errors, cancellations without refund, or fraud.",
-                        example: "Hotel claiming no record of your pre-paid online booking."
-                    }
-                ]
-            },
-            whenToFile: {
-                title: "When Should You File a Complaint?",
-                content: "Consider legal action if:",
-                parameters: [
-                    {
-                        title: "Service Failure",
-                        desc: "The hotel failed to provide the services promised in the booking."
-                    },
-                    {
-                        title: "Health & Safety",
-                        desc: "You faced health risks due to poor hygiene or unsafe conditions."
-                    },
-                    {
-                        title: "Financial Loss",
-                        desc: "You were overcharged or denied a refund for a valid cancellation."
-                    },
-                    {
-                        title: "Negligence",
-                        desc: "The hotel's negligence caused you injury or loss of property."
-                    }
-                ]
-            },
-            process: {
-                title: "Our Complaint Resolution Process",
-                introduction: "We follow a structured approach to resolve your grievances:",
-                steps: [
-                    { title: "Document Collection", description: "Gathering proofs like booking receipts, photos of the room, and email correspondence." },
-                    { title: "Notify the Brand", description: "Formal escalation to the hotel management or corporate office." },
-                    { title: "Legal Notice", description: "Sending a legal notice demanding compensation or refund." },
-                    { title: "Consumer Court", description: "Filing a case in the Consumer Forum if the hotel fails to respond favorably." },
-                    { title: "Resolution", description: "Achieving a settlement through mediation or court order." }
-                ]
-            },
-            whyChoose: {
-                title: "Why Choose VyomBiz?",
-                reasons: [
-                    "Personalised Attention: We treat every complaint with unique care and strategy.",
-                    "Proven Track Record: Successfully resolved numerous hospitality disputes.",
-                    "Expert Analysis: Our legal team analyzes your case to identify the strongest grounds for complaint.",
-                    "Increased Resolution Success: Our professional approach compels hotels to take your complaint seriously.",
-                    "End-to-End Support: From drafting the legal notice to representing you in court."
-                ]
-            },
-            faqs: {
-                title: "Hotel Complaint FAQs",
-                items: [
-                    {
-                        question: "Can I get a refund if the room was dirty?",
-                        answer: "Yes, you can claim a refund or compensation for deficiency in service if the room was uninhabitable or significantly different from what was promised."
-                    },
-                    {
-                        question: "What if the hotel cancels my booking at the last minute?",
-                        answer: "The hotel is liable to provide an alternative accommodation of similar standard or a full refund along with compensation for the inconvenience."
-                    },
-                    {
-                        question: "Can I sue for hidden charges?",
-                        answer: "Yes, charging fees that were not disclosed at the time of booking is an unfair trade practice."
-                    },
-                    {
-                        question: "How long does a consumer court case take?",
-                        answer: "It can take anywhere from a few months to a year, depending on the complexity and the responsiveness of the opposite party."
-                    },
-                    {
-                        question: "Do I need a lawyer?",
-                        answer: "While you can file a complaint yourself, having a lawyer ensures your legal notice is drafted correctly and improves your chances of a favorable outcome."
-                    }
-                ]
-            }
-        }
+   "hotels-consumer-complaint": {
+  title: "Hotels Consumer Complaint",
+  hero: {
+    mainTitle: "Facing Issues with a Hotel Stay?",
+    bulletPoints: [
+      "Claim refunds for poor service and unfair charges",
+      "Resolve problems like unhygienic rooms and hidden fees",
+      "Legal assistance for booking cancellations and hotel disputes"
+    ],
+    testimonial: {
+      text: "The hotel cancelled my booking but refused to process the refund. VyomBiz helped me raise a complaint and I received my money back quickly.",
+      author: "Rajesh Kumar",
+      verified: true,
+      avatar: "https://i.pravatar.cc/150?u=rajesh"
+    }
+  },
+
+  tabs: [
+    { id: "overview", label: "Overview" },
+    { id: "types", label: "Types" },
+    { id: "when-to-file", label: "When To File" },
+    { id: "process", label: "Process" },
+    { id: "why-choose", label: "Why Choose VyomBiz" },
+    { id: "faqs", label: "FAQs" }
+  ],
+
+  sections: {
+
+    overview: {
+      title: "Hotel Consumer Complaints – Overview",
+      image: "/lawyer-services-images/hotels-complaint-overview.png",
+      content: [
+        "A hotel stay is expected to provide comfort and quality service. However, guests may sometimes face issues such as unclean rooms, poor customer service, unexpected charges, or misleading information about hotel facilities.",
+        "When such situations occur, filing a consumer complaint helps address the issue and seek proper resolution. It also ensures that hotels remain accountable for service deficiencies and unfair practices.",
+        "VyomBiz provides legal guidance to help guests raise formal complaints against hotels and pursue refunds, compensation, or other appropriate remedies."
+      ]
     },
-    "insurance-consumer-complaint": {
-        title: "Insurance Consumer Complaint",
-        hero: {
-            mainTitle: "Insurance Claim Rejected? We Can Help You Fight Back",
-            bulletPoints: [
-                "Expert legal help against unfair claim denials",
-                "Resolution for delayed claim processing",
-                "Disputes regarding hidden clauses and premium hikes"
-            ],
-            testimonial: {
-                text: "My health insurance claim was rejected citing 'pre-existing diseases' which was false. VyomBiz team fought for me and got the claim approved with interest.",
-                author: "Anjali Desai",
-                verified: true,
-                avatar: "https://i.pravatar.cc/150?u=anjali"
-            }
+
+    types: {
+      title: "Common Hotel Disputes",
+      introduction: "Guests may encounter different types of service issues during their stay.",
+      items: [
+        {
+          title: "Unfair Treatment by Staff",
+          description: "Rude behaviour, discrimination, or denial of services by hotel staff.",
+          example: "Being denied a room despite having a confirmed booking."
         },
-        tabs: [
-            { id: "overview", label: "Overview" },
-            { id: "types", label: "Types" },
-            { id: "when-to-file", label: "When To File" },
-            { id: "process", label: "Process" },
-            { id: "why-choose", label: "Why Choose VyomBiz" },
-            { id: "faqs", label: "FAQs" }
-        ],
-        sections: {
-            overview: {
-                title: "Insurance Disputes: An Overview",
-                image: "/lawyer-services-images/insurance-complaint-overview.png",
-                content: [
-                    "Insurance provides a safety net, but when valid claims are denied or delayed, it can cause immense financial stress. Insurance consumer complaints are vital for safeguarding policyholders' interests against unfair practices.",
-                    "Common issues include claim rejections based on technicalities, delayed settlements, inadequate coverage interpretation, and unresponsive customer service. Filing a formal complaint ensures that insurance companies are held accountable.",
-                    "VyomBiz helps you navigate the complex grievance redressal mechanisms, from the Insurance Ombudsman to Consumer Courts, to ensure you receive the compensation you're entitled to."
-                ]
-            },
-            types: {
-                title: "Common Insurance Grievances",
-                introduction: "We handle disputes across Life, Health, Motor, and General Insurance:",
-                items: [
-                    {
-                        title: "Denial of Claim",
-                        description: "Rejecting a valid claim based on ambiguous policy terms or incorrect facts.",
-                        example: "Health insurance rejecting a hospitalization claim citing it as 'unnecessary'."
-                    },
-                    {
-                        title: "Delayed Processing",
-                        description: "Unreasonable delays in settling the claim, causing financial hardship.",
-                        example: "Car insurance surveyor taking months to submit the report."
-                    },
-                    {
-                        title: "Unfair Premium Hike",
-                        description: "Sudden increase in policy premiums without valid justification or prior notice.",
-                        example: "Health insurance premium doubled during renewal despite no claims."
-                    },
-                    {
-                        title: "Partial Settlement",
-                        description: "Paying only a fraction of the claim amount by arbitrarily deducting expenses.",
-                        example: "Deducting 50% of the hospital bill as 'non-medical' expenses."
-                    },
-                    {
-                        title: "Policy Mis-selling",
-                        description: "Agents selling policies with false promises or hiding critical exclusions.",
-                        example: "Selling a ULIP as a fixed deposit scheme."
-                    },
-                    {
-                        title: "Billing/Payment Errors",
-                        description: "Issues with premium payments not being recorded or policy lapsing due to system errors.",
-                        example: "Policy cancelled for non-payment despite auto-debit success."
-                    }
-                ]
-            },
-            whenToFile: {
-                title: "When Should You File a Complaint?",
-                content: "Take legal steps if:",
-                parameters: [
-                    {
-                        title: "Unjust Rejection",
-                        desc: "Your genuine claim has been rejected without a valid reason."
-                    },
-                    {
-                        title: "Process Delay",
-                        desc: "There is an inordinate delay in the claim settlement process."
-                    },
-                    {
-                        title: "Misrepresentation",
-                        desc: "You were sold a policy based on false information."
-                    },
-                    {
-                        title: "Service Deficiency",
-                        desc: "The insurance company is unresponsive to your queries and grievances."
-                    }
-                ]
-            },
-            process: {
-                title: "Our Complaint Resolution Process",
-                introduction: "We guide you through the tiered grievance redressal mechanism.",
-                steps: [
-                    { title: "Internal Grievance", description: "Filing a formal complaint with the insurance company's Grievance Redressal Officer (GRO)." },
-                    { title: "IRDAI Complaint", description: "Escalating the matter to the Insurance Regulatory and Development Authority of India." },
-                    { title: "Ombudsman", description: "Approaching the Insurance Ombudsman for out-of-court settlement." },
-                    { title: "Legal Notice", description: "Sending a legal notice if administrative remedies fail." },
-                    { title: "Consumer Court", description: "Filing a case in the extensive Consumer Commission for deficiency in service." }
-                ]
-            },
-            whyChoose: {
-                title: "Why Choose VyomBiz?",
-                reasons: [
-                    "Insurance Experts: Professionals who understand policy fine print and exclusions.",
-                    "End-to-End Support: From drafting the complaint to representing you in court.",
-                    "Higher Success Rate: We know how to counter the standard rejection templates used by insurers.",
-                    "No-nonsense Advice: We tell you upfront if your case has merit.",
-                    "Stress-free Process: We handle the complex paperwork and legal arguments."
-                ]
-            },
-            faqs: {
-                title: "Insurance Complaint FAQs",
-                items: [
-                    {
-                        question: "What if my claim is rejected for 'non-disclosure'?",
-                        answer: "Insurers often use this. If the undisclosed fact was not material to the claim or was unknown to you, the rejection can be challenged."
-                    },
-                    {
-                        question: "Can I approach the Ombudsman directly?",
-                        answer: "No, you must impactful first file a complaint with the insurance company. If they reject it or don't respond for 30 days, then you can approach the Ombudsman."
-                    },
-                    {
-                        question: "Is there a fee for the Ombudsman?",
-                        answer: "No, filing a complaint with the Insurance Ombudsman is free of cost."
-                    },
-                    {
-                        question: "What is the time limit to file a case?",
-                        answer: "For consumer courts, it is generally 2 years from the date of cause of action (rejection of claim)."
-                    },
-                    {
-                        question: "Can I claim interest on delayed payments?",
-                        answer: "Yes, IRDAI regulations mandate insurers to pay interest (usually bank rate + 2%) for delays in settlement."
-                    }
-                ]
-            }
+        {
+          title: "Misleading Advertisements",
+          description: "Hotel facilities or room quality not matching the description provided during booking.",
+          example: "Promised a sea-view room but provided a standard room."
+        },
+        {
+          title: "Undisclosed Charges",
+          description: "Additional fees added to the final bill that were not mentioned during booking.",
+          example: "Unexpected resort or service charges added to the bill."
+        },
+        {
+          title: "Poor Customer Service",
+          description: "Delayed assistance, unresolved complaints, or lack of hospitality from hotel staff.",
+          example: "Housekeeping ignoring repeated requests for room cleaning."
+        },
+        {
+          title: "Poor Room Conditions",
+          description: "Unclean rooms, damaged furniture, or non-functional facilities.",
+          example: "Broken air conditioning, dirty bedding, or pest problems."
+        },
+        {
+          title: "Booking and Refund Issues",
+          description: "Problems such as cancelled bookings, denied refunds, or fraudulent reservations.",
+          example: "Hotel claiming no record of your prepaid booking."
         }
+      ]
     },
+
+    whenToFile: {
+      title: "When Should You File a Hotel Complaint?",
+      content: "You may consider filing a complaint in the following situations.",
+      parameters: [
+        {
+          title: "Service Not as Promised",
+          desc: "The hotel fails to provide the facilities or services mentioned during booking."
+        },
+        {
+          title: "Health and Hygiene Concerns",
+          desc: "Poor sanitation or unsafe room conditions that affect your health or safety."
+        },
+        {
+          title: "Financial Loss",
+          desc: "Unexpected charges or refusal to refund valid cancellations."
+        },
+        {
+          title: "Hotel Negligence",
+          desc: "Loss of belongings or injury caused due to the hotel's negligence."
+        }
+      ]
+    },
+
+    process: {
+      title: "Our Hotel Complaint Resolution Process",
+      introduction: "Our team follows a systematic approach to help resolve hotel disputes.",
+      steps: [
+        {
+          title: "Document Review",
+          description: "Collecting booking confirmations, photos, invoices, and communication records."
+        },
+        {
+          title: "Hotel Notification",
+          description: "Escalating the complaint to hotel management or corporate grievance teams."
+        },
+        {
+          title: "Legal Notice",
+          description: "Issuing a formal legal notice requesting refund, replacement, or compensation."
+        },
+        {
+          title: "Consumer Commission Filing",
+          description: "Escalating the dispute to the consumer commission if required."
+        },
+        {
+          title: "Dispute Resolution",
+          description: "Seeking refund, compensation, or settlement through mediation or court order."
+        }
+      ]
+    },
+
+    whyChoose: {
+      title: "Why Choose VyomBiz for Hotel Complaints?",
+      reasons: [
+        "Dedicated Case Support: Every complaint is handled with a tailored strategy based on the issue.",
+        "Experience in Hospitality Disputes: Handled multiple cases involving hotel service complaints.",
+        "Professional Case Review: Our legal team evaluates your complaint and supporting documents.",
+        "Stronger Complaint Impact: Formal complaints and legal notices often lead to quicker responses.",
+        "Complete Legal Assistance: From complaint drafting to representation before consumer forums."
+      ]
+    },
+
+    faqs: {
+      title: "Hotel Complaint FAQs",
+      items: [
+        {
+          question: "Can I request a refund if the hotel room was unhygienic?",
+          answer: "Yes. If the room conditions were significantly below acceptable standards, you may file a complaint and seek refund or compensation."
+        },
+        {
+          question: "What happens if the hotel cancels my booking without notice?",
+          answer: "You may request a refund or compensation if the cancellation caused financial loss or inconvenience."
+        },
+        {
+          question: "Can I complain about hidden hotel charges?",
+          answer: "Yes. If charges were added without proper disclosure during booking, you can raise a consumer complaint."
+        },
+        {
+          question: "How long does it take to resolve a consumer complaint?",
+          answer: "Resolution timelines vary depending on the complexity of the case and the consumer forum process."
+        },
+        {
+          question: "Do I need legal assistance for a hotel complaint?",
+          answer: "Legal assistance can help prepare proper complaints, send legal notices, and represent you before consumer forums if required."
+        }
+      ]
+    }
+  }
+},
+   "insurance-consumer-complaint": {
+  title: "Insurance Consumer Complaint",
+  hero: {
+    mainTitle: "Insurance Claim Rejected? Get Legal Support",
+    bulletPoints: [
+      "Assistance against unfair claim rejections",
+      "Help resolving delayed insurance claim settlements",
+      "Support for disputes involving hidden policy clauses"
+    ],
+    testimonial: {
+      text: "My health insurance claim was rejected citing a pre-existing condition that wasn’t true. VyomBiz helped escalate the complaint and my claim was approved.",
+      author: "Anjali Desai",
+      verified: true,
+      avatar: "https://i.pravatar.cc/150?u=anjali"
+    }
+  },
+
+  tabs: [
+    { id: "overview", label: "Overview" },
+    { id: "types", label: "Types" },
+    { id: "when-to-file", label: "When To File" },
+    { id: "process", label: "Process" },
+    { id: "why-choose", label: "Why Choose VyomBiz" },
+    { id: "faqs", label: "FAQs" }
+  ],
+
+  sections: {
+
+    overview: {
+      title: "Insurance Complaints – Overview",
+      image: "/lawyer-services-images/insurance-complaint-overview.png",
+      content: [
+        "Insurance policies are designed to provide financial protection during difficult times. However, claim rejections or delays can create serious financial challenges for policyholders.",
+        "Common issues include claim denial based on technical reasons, delayed settlements, incorrect policy interpretation, and poor customer support. Filing a formal complaint ensures insurers remain accountable for service deficiencies.",
+        "VyomBiz helps policyholders navigate the grievance redressal process, including complaints with insurers, regulatory authorities, and consumer forums."
+      ]
+    },
+
+    types: {
+      title: "Common Insurance Disputes",
+      introduction: "Policyholders may face several issues while dealing with insurance companies.",
+      items: [
+        {
+          title: "Claim Rejection",
+          description: "Insurance companies denying valid claims due to technical reasons or disputed policy interpretation.",
+          example: "A hospitalization claim rejected citing incorrect policy interpretation."
+        },
+        {
+          title: "Delayed Claim Settlement",
+          description: "Long delays in processing or approving insurance claims.",
+          example: "Motor insurance claim pending for months without approval."
+        },
+        {
+          title: "Unexpected Premium Increase",
+          description: "Premium amounts increased during renewal without adequate explanation.",
+          example: "Health insurance renewal premium doubled without prior notice."
+        },
+        {
+          title: "Partial Claim Payment",
+          description: "Insurance companies approving only a portion of the claim amount after deductions.",
+          example: "Hospital bill partially paid after multiple unexplained deductions."
+        },
+        {
+          title: "Policy Mis-selling",
+          description: "Policies sold with misleading promises or undisclosed exclusions.",
+          example: "An agent selling an investment-linked plan as a guaranteed return policy."
+        },
+        {
+          title: "Premium Payment Issues",
+          description: "Problems with payment records leading to policy lapses or disputes.",
+          example: "Policy marked lapsed despite successful auto-debit payment."
+        }
+      ]
+    },
+
+    whenToFile: {
+      title: "When Should You File an Insurance Complaint?",
+      content: "You may consider filing a complaint in the following situations.",
+      parameters: [
+        {
+          title: "Unfair Claim Rejection",
+          desc: "Your legitimate claim has been denied without proper justification."
+        },
+        {
+          title: "Settlement Delay",
+          desc: "Your claim processing is taking an unusually long time."
+        },
+        {
+          title: "Policy Misrepresentation",
+          desc: "The policy was sold with incorrect or misleading information."
+        },
+        {
+          title: "Poor Customer Support",
+          desc: "The insurer fails to respond to complaints or queries in a reasonable time."
+        }
+      ]
+    },
+
+    process: {
+      title: "Our Insurance Complaint Resolution Process",
+      introduction: "We follow a structured process to resolve insurance disputes effectively.",
+      steps: [
+        {
+          title: "Complaint to Insurer",
+          description: "Submitting a formal grievance to the insurance company."
+        },
+        {
+          title: "Regulatory Escalation",
+          description: "Escalating the complaint to the regulatory authority if unresolved."
+        },
+        {
+          title: "Insurance Ombudsman",
+          description: "Filing a complaint before the Insurance Ombudsman for dispute resolution."
+        },
+        {
+          title: "Legal Notice",
+          description: "Issuing a legal notice requesting settlement or compensation."
+        },
+        {
+          title: "Consumer Commission",
+          description: "Filing a case before the consumer commission if required."
+        }
+      ]
+    },
+
+    whyChoose: {
+      title: "Why Choose VyomBiz for Insurance Complaints?",
+      reasons: [
+        "Insurance Law Expertise: Our professionals understand policy conditions and dispute procedures.",
+        "Complete Legal Assistance: Support from complaint preparation to legal representation.",
+        "Strong Case Strategy: Experience in handling common claim rejection scenarios.",
+        "Transparent Guidance: Clear advice on the strength and options for your complaint.",
+        "Hassle-Free Process: Our team manages the documentation and complaint process."
+      ]
+    },
+
+    faqs: {
+      title: "Insurance Complaint FAQs",
+      items: [
+        {
+          question: "What should I do if my insurance claim is rejected?",
+          answer: "You can request clarification from the insurer and file a complaint if the rejection appears unfair."
+        },
+        {
+          question: "Can I file a complaint with the Insurance Ombudsman?",
+          answer: "Yes, if the insurer does not resolve your grievance within the specified time, you may approach the Insurance Ombudsman."
+        },
+        {
+          question: "Is there a fee for filing an insurance complaint?",
+          answer: "Generally, filing a complaint with the Insurance Ombudsman does not involve any fee."
+        },
+        {
+          question: "Is there a time limit for filing an insurance complaint?",
+          answer: "Yes, complaints should typically be filed within the prescribed time after the insurer’s final response."
+        },
+        {
+          question: "Can I seek compensation for delayed insurance claims?",
+          answer: "In certain cases, policyholders may seek compensation or interest for unreasonable delays in settlement."
+        }
+      ]
+    }
+
+  }
+},
     "it-companies-consumer-complaint": {
         title: "IT Companies Consumer Complaint",
         hero: {
@@ -840,145 +943,179 @@ export const litigationContent = {
         }
     },
     "medical-consumer-complaint": {
-        title: "Medical Consumer Complaint",
-        hero: {
-            mainTitle: "Medical Negligence & Malpractice - Legal Help for Patients",
-            bulletPoints: [
-                "Expert legal assistance for medical negligence and malpractice claims",
-                "Support for billing disputes and unfair hospital charges",
-                "Action against incorrect diagnosis and surgical errors"
-            ],
-            testimonial: {
-                text: "My father suffered due to a wrong diagnosis. VyomBiz helped us file a case against the hospital and we received compensation for the trauma.",
-                author: "Rajesh Kumar",
-                verified: true,
-                avatar: "https://i.pravatar.cc/150?u=rajesh"
-            }
-        },
-        tabs: [
-            { id: "overview", label: "Overview" },
-            { id: "types", label: "Types" },
-            { id: "when-to-file", label: "When To File" },
-            { id: "process", label: "Process" },
-            { id: "why-choose", label: "Why Choose VyomBiz" },
-            { id: "faqs", label: "FAQs" }
-        ],
-        sections: {
-            overview: {
-                title: "Medical Consumer Complaints: An Overview",
-                image: "/lawyer-services-images/medical-complaint-overview.png",
-                content: [
-                    "A medical consumer complaint addresses dissatisfaction with provided medical services, ranging from unprofessional conduct and excessive waiting times to critical issues like incorrect diagnosis, surgical errors, and billing discrepancies.",
-                    "Filing a complaint is a formal way to voice concerns and seek resolution. It plays a crucial role in holding healthcare providers accountable, identifying systemic deficiencies, and enforcing patient rights.",
-                    "VyomBiz empowers patients to challenge medical malpractice and negligence, ensuring that healthcare providers adhere to the highest standards of safety and care."
-                ]
-            },
-            types: {
-                title: "Common Medical Disputes We Handle",
-                introduction: "We assist with various issues related to medical negligence and deficiency in service:",
-                items: [
-                    {
-                        title: "Medical Negligence",
-                        description: "Failure to provide standard care resulting in harm or injury to the patient.",
-                        example: "Doctor prescribing wrong medication leading to severe allergic reaction."
-                    },
-                    {
-                        title: "Wrong Diagnosis",
-                        description: "Incorrect identification of a medical condition leading to wrong treatment.",
-                        example: "Treating a patient for TB when they actually had lung cancer."
-                    },
-                    {
-                        title: "Surgical Errors",
-                        description: "Mistakes made during surgery, such as operating on the wrong body part or leaving instruments inside.",
-                        example: "Surgeon leaving a sponge inside the patient's abdomen."
-                    },
-                    {
-                        title: "Unfair Billing",
-                        description: "Charging excessive fees, billing for services not rendered, or hidden charges.",
-                        example: "Hospital adding 'consumables' charges that were never used."
-                    },
-                    {
-                        title: "Lack of Informed Consent",
-                        description: "Performing procedures without fully explaining the risks and alternatives to the patient.",
-                        example: "Performing a hysterectomy without informing the patient of other options."
-                    },
-                    {
-                        title: "Unsanitary Conditions",
-                        description: "Exposure to infection due to poor hygiene and lack of cleanliness in the facility.",
-                        example: "Patient contracting an infection due to unsterilized equipment."
-                    }
-                ]
-            },
-            whenToFile: {
-                title: "When Should You File a Complaint?",
-                content: "Consider legal action if:",
-                parameters: [
-                    {
-                        title: "Injury/Harm",
-                        desc: "You have suffered physical or mental harm due to medical treatment."
-                    },
-                    {
-                        title: "Financial Loss",
-                        desc: "You have been overcharged or financially exploited by a healthcare provider."
-                    },
-                    {
-                        title: "Negligence",
-                        desc: "There is clear evidence of deviation from standard medical practice."
-                    },
-                    {
-                        title: "Rights Violation",
-                        desc: "Your rights as a patient (privacy, consent, information) have been violated."
-                    }
-                ]
-            },
-            process: {
-                title: "Our Complaint Resolution Process",
-                introduction: "We provide a compassionate and professional legal approach to medical complaints.",
-                steps: [
-                    { title: "Case Evaluation", description: " expert doctors and lawyers review medical records to establish negligence." },
-                    { title: "Legal Notice", description: "Sending a formal notice to the doctor or hospital seeking explanation and compensation." },
-                    { title: "complaint Filing", description: "Filing a case in the District, State, or National Consumer Commission." },
-                    { title: "Expert Testimony", description: "Arranging for medical experts to testify on the standard of care." },
-                    { title: "Justice & Compensation", description: "fighting for compensation for medical expenses, pain, and suffering." }
-                ]
-            },
-            whyChoose: {
-                title: "Why Choose VyomBiz?",
-                reasons: [
-                    "Medical-Legal Experts: Team including lawyers with medical background.",
-                    "Empathetic Approach: We understand the trauma involved and handle cases with sensitivity.",
-                    "Thorough Investigation: deeply analyze medical records to build a strong case.",
-                    "No Win No Fee Options: Flexible payment models for certain high-value cases.",
-                    "Proven Results: Success in securing significant compensation for victims."
-                ]
-            },
-            faqs: {
-                title: "Medical Complaint FAQs",
-                items: [
-                    {
-                        question: "Can I complain if the healthcare staff was rude?",
-                        answer: "Yes, rude or unprofessional behavior falls under deficiency of service. You can claim compensation for mental agony."
-                    },
-                    {
-                        question: "What is the time limit to file a medical negligence case?",
-                        answer: "The limitation period is generally 2 years from the date of cause of action (when the negligence occurred or was discovered)."
-                    },
-                    {
-                        question: "Do I need a doctor's opinion to file a case?",
-                        answer: "While not strictly mandatory legally, a medical expert opinion is highly recommended to prove negligence in court."
-                    },
-                    {
-                        question: "Can I sue a government hospital?",
-                        answer: "Yes, if the services were paid for (even partially), you can sue. Free services may have limited scope under Consumer Protection Act, but other remedies exist."
-                    },
-                    {
-                        question: "What compensation can I expect?",
-                        answer: "Compensation depends on the severity of injury, medical expenses incurred, loss of income, and mental suffering."
-                    }
-                ]
-            }
-        }
+  "title": "Medical Consumer Complaint",
+  "hero": {
+    "mainTitle": "Medical Negligence & Malpractice – Legal Support for Patients",
+    "bulletPoints": [
+      "Legal assistance for medical negligence and malpractice cases",
+      "Help resolving hospital billing disputes and unfair charges",
+      "Action against incorrect diagnosis and surgical mistakes"
+    ],
+    "testimonial": {
+      "text": "My father suffered complications due to a wrong diagnosis. VyomBiz helped us file a complaint and pursue compensation from the hospital.",
+      "author": "Rajesh Kumar",
+      "verified": true,
+      "avatar": "https://i.pravatar.cc/150?u=rajesh"
+    }
+  },
+
+  "tabs": [
+    { "id": "overview", "label": "Overview" },
+    { "id": "types", "label": "Types" },
+    { "id": "when-to-file", "label": "When To File" },
+    { "id": "process", "label": "Process" },
+    { "id": "why-choose", "label": "Why Choose VyomBiz" },
+    { "id": "faqs", "label": "FAQs" }
+  ],
+
+  "sections": {
+    "overview": {
+      "title": "Medical Consumer Complaints – Overview",
+      "image": "/lawyer-services-images/medical-complaint-overview.png",
+      "content": [
+        "Medical consumer complaints arise when patients face issues such as incorrect diagnosis, surgical errors, excessive hospital charges, or unsatisfactory medical care.",
+        "Raising a formal complaint allows patients to address these concerns and seek appropriate resolution. It also helps ensure accountability among healthcare providers and promotes better standards of patient care.",
+        "VyomBiz provides legal support to help patients pursue complaints related to medical negligence, malpractice, and service deficiencies."
+      ]
     },
+
+    "types": {
+      "title": "Common Medical Disputes",
+      "introduction": "Patients may encounter several issues while receiving medical treatment.",
+      "items": [
+        {
+          "title": "Medical Negligence",
+          "description": "Failure of healthcare professionals to provide the accepted standard of care, leading to patient harm.",
+          "example": "Doctor prescribing wrong medication leading to severe allergic reaction."
+        },
+        {
+          "title": "Incorrect Diagnosis",
+          "description": "Misidentification of a medical condition that results in improper treatment.",
+          "example": "Treating a patient for TB when they actually had lung cancer."
+        },
+        {
+          "title": "Surgical Mistakes",
+          "description": "Errors during medical procedures that may cause additional injury or complications.",
+          "example": "Surgeon leaving a sponge inside the patient's abdomen."
+        },
+        {
+          "title": "Hospital Billing Disputes",
+          "description": "Excessive charges, billing errors, or fees for services not provided.",
+          "example": "Hospital adding 'consumables' charges that were never used."
+        },
+        {
+          "title": "Lack of Informed Consent",
+          "description": "Medical procedures performed without properly informing the patient of risks or alternatives.",
+          "example": "Performing a hysterectomy without informing the patient of other options."
+        },
+        {
+          "title": "Poor Hygiene and Safety Standards",
+          "description": "Exposure to infections due to unsanitary hospital conditions or equipment.",
+          "example": "Patient contracting an infection due to unsterilized equipment."
+        }
+      ]
+    },
+
+    "whenToFile": {
+      "title": "When Should You File a Medical Complaint?",
+      "content": "You may consider filing a complaint in the following situations.",
+      "parameters": [
+        {
+          "title": "Medical Injury",
+          "desc": "You have suffered physical or emotional harm due to treatment."
+        },
+        {
+          "title": "Financial Exploitation",
+          "desc": "You were charged excessively or billed unfairly for medical services."
+        },
+        {
+          "title": "Medical Negligence",
+          "desc": "The treatment provided significantly deviated from accepted medical standards."
+        },
+        {
+          "title": "Violation of Patient Rights",
+          "desc": "Your rights regarding consent, information, or privacy were ignored."
+        }
+      ]
+    },
+
+    "process": {
+      "title": "Our Medical Complaint Resolution Process",
+      "introduction": "We follow a structured process to evaluate and pursue medical negligence complaints.",
+      "steps": [
+        {
+          "title": "Case Review",
+          "description": "Medical records and evidence are reviewed by legal professionals."
+        },
+        {
+          "title": "Legal Notice",
+          "description": "Issuing a formal notice to the hospital or doctor requesting clarification and compensation."
+        },
+        {
+          "title": "Complaint Filing",
+          "description": "Submitting a complaint before the appropriate consumer commission."
+        },
+        {
+          "title": "Expert Review",
+          "description": "Medical experts may provide opinions on the standard of care provided."
+        },
+        {
+          "title": "Resolution",
+          "description": "Seeking compensation for medical expenses, damages, and suffering."
+        }
+      ]
+    },
+
+    "whyChoose": {
+      "title": "Why Choose VyomBiz for Medical Complaints?",
+      "reasons": [
+        "Medical Law Expertise – Our team understands medical negligence laws and patient rights.",
+        "Sensitive Case Handling – Medical complaints are handled with care and professionalism.",
+        "Detailed Case Evaluation – Medical records and documentation are carefully reviewed.",
+        "Flexible Support Options – Different assistance options depending on case complexity.",
+        "Experience in Medical Disputes – Handled multiple cases involving medical service complaints."
+      ]
+    },
+
+    "faqs": {
+      "title": "Medical Complaint FAQs",
+      "items": [
+        {
+          "question": "Can I file a complaint for poor hospital service?",
+          "answer": "Yes, patients can raise complaints if hospitals provide poor service or fail to address concerns properly."
+        },
+        {
+          "question": "Is there a time limit to file a medical complaint?",
+          "answer": "Generally, consumer complaints related to medical services should be filed within the prescribed legal timeframe."
+        },
+        {
+          "question": "Do I need medical records to file a complaint?",
+          "answer": "Yes, medical records and related documents are important evidence when filing a complaint."
+        },
+        {
+          "question": "Can complaints be filed against government hospitals?",
+          "answer": "Yes, complaints can be filed against both private and government healthcare providers."
+        },
+        {
+          "question": "Can I claim compensation for medical negligence?",
+          "answer": "Compensation may include medical expenses, damages, and other losses depending on the case."
+        }
+      ]
+    }
+  },
+
+  "formSection": {
+    "offer": "Limited Time Offer",
+    "ctaButton": "Start Your Complaint Process",
+    "whatsappText": "Receive important updates about your complaint directly on WhatsApp."
+  },
+
+  "ctaSection": {
+    "title": "Facing a Medical Negligence Issue?",
+    "description": "Get professional legal support to evaluate your case and seek appropriate compensation.",
+    "button": "Book Free Consultation"
+  }
+},
     "real-estate-consumer-complaint": {
         title: "Real Estate Consumer Complaint",
         hero: {
@@ -1119,146 +1256,180 @@ export const litigationContent = {
             }
         }
     },
-    "retail-business-consumer-complaint": {
-        title: "Retail Business Consumer Complaint",
-        hero: {
-            mainTitle: "Resolve Retail Disputes - Legal Help for Shoppers",
-            bulletPoints: [
-                "Expert assistance for defective products and service issues",
-                "Legal action against unfair pricing and hidden fees",
-                "Support for warranty claims and refund refusals"
-            ],
-            testimonial: {
-                text: "The store refused to exchange a defective laptop I bought. VyomBiz helped me file a complaint, and I got a replacement within weeks.",
-                author: "Anjali Mehta",
-                verified: true,
-                avatar: "https://i.pravatar.cc/150?u=anjali"
-            }
-        },
-        tabs: [
-            { id: "overview", label: "Overview" },
-            { id: "types", label: "Types" },
-            { id: "when-to-file", label: "When To File" },
-            { id: "process", label: "Process" },
-            { id: "why-choose", label: "Why Choose VyomBiz" },
-            { id: "faqs", label: "FAQs" }
-        ],
-        sections: {
-            overview: {
-                title: "Retail Consumer Complaints: An Overview",
-                image: "/lawyer-services-images/retail-complaint-overview.png",
-                content: [
-                    "A consumer complaint in the retail sector addresses dissatisfaction with products, services, or shopping experiences. From defective items to misleading pricing, these grievances highlight gaps in service quality and ethical standards.",
-                    "Common issues include receiving damaged goods, unhelpful customer service, delivery delays, and difficulties with returns or exchanges. Misleading advertisements and discrepancies between advertised and charged prices are also frequent causes for concern.",
-                    "Filing a formal complaint helps unresolved issues get the attention they deserve. It is a vital step in upholding consumer rights, ensuring accountability, and fostering a fair and transparent retail marketplace."
-                ]
-            },
-            types: {
-                title: "Common Retail Disputes We Handle",
-                introduction: "We assist with a variety of issues faced by retail consumers:",
-                items: [
-                    {
-                        title: "Defective Products",
-                        description: "Selling damaged, expired, or non-functional goods and refusing to replace or refund them.",
-                        example: "Buying a new refrigerator that stops cooling within a week."
-                    },
-                    {
-                        title: "Misleading Advertisements",
-                        description: "The product or service delivered does not match the claims made in advertisements or packaging.",
-                        example: "A cream claiming 100% organic ingredients found to contain chemicals."
-                    },
-                    {
-                        title: "Hidden Fees & Pricing",
-                        description: "Charging more than the MRP or adding undisclosed fees at checkout.",
-                        example: "Restaurant forcing a service charge despite it being optional."
-                    },
-                    {
-                        title: "Warranty & Guarantee Issues",
-                        description: "Refusal to honor warranty terms or provide service during the guarantee period.",
-                        example: "Company refusing free repair for a mobile phone under warranty."
-                    },
-                    {
-                        title: "Refund & Exchange Problems",
-                        description: "Unfairly denying refunds or exchanges for valid reasons, citing arbitrary store policies.",
-                        example: "Store refusing return of a dress with a manufacturing defect."
-                    },
-                    {
-                        title: "Poor Customer Service",
-                        description: "Rude behavior, lack of assistance, or ignoring customer queries and complaints.",
-                        example: "Customer support hanging up repeatedly without resolving a billing issue."
-                    }
-                ]
-            },
-            whenToFile: {
-                title: "When Should You File a Complaint?",
-                content: "Consider legal action or a formal complaint if:",
-                parameters: [
-                    {
-                        title: "Product Failure",
-                        desc: "The item purchased is unsafe, defective, or unfit for its intended purpose."
-                    },
-                    {
-                        title: "Unresolved Issue",
-                        desc: "The retailer has failed to address your grievance despite multiple attempts."
-                    },
-                    {
-                        title: "Unfair Trade",
-                        desc: "You suspect the business is engaging in hoarding, black marketing, or deceptive practices."
-                    },
-                    {
-                        title: "Rights Violation",
-                        desc: "Your right to be informed, heard, or seek redressal has been violated."
-                    }
-                ]
-            },
-            process: {
-                title: "Our Complaint Resolution Process",
-                introduction: "We provide a structured approach to resolve retail disputes efficiently.",
-                steps: [
-                    { title: "Documentation", description: "Collate bills, warranty cards, photos of defects, and communication records." },
-                    { title: "Legal Notice", description: "Send a formal Legal Notice to the retailer or manufacturer demanding a resolution." },
-                    { title: "Consumer Forum", description: "If the notice is ignored, we help file a case in the District, State, or National Commission." },
-                    { title: "Representation", description: "Our lawyers represent your interests in court hearings." },
-                    { title: "Compensation", description: "Strive for replacement, refund, and compensation for harassment." }
-                ]
-            },
-            whyChoose: {
-                title: "Why Choose VyomBiz?",
-                reasons: [
-                    "Retail Experts: Lawyers with deep knowledge of the Consumer Protection Act.",
-                    "Proven Success: Track record of winning cases against major retail chains.",
-                    "End-to-End Support: From drafting notices to final court arguments.",
-                    "Client-Centric: We prioritize your peace of mind and handle all legal execution.",
-                    "Transparent Pricing: Clear and affordable legal fees."
-                ]
-            },
-            faqs: {
-                title: "Retail Complaint FAQs",
-                items: [
-                    {
-                        question: "Can I return a product if I just changed my mind?",
-                        answer: "Legally, stores are not obligated to refund for 'change of mind' unless their specific store policy allows it."
-                    },
-                    {
-                        question: "What if the shopkeeper charges more than MRP?",
-                        answer: "Charging above MRP is illegal. You can file a complaint against the retailer for unfair trade practice."
-                    },
-                    {
-                        question: "How long do I have to file a consumer complaint?",
-                        answer: "You generally have 2 years from the date the cause of action arose (e.g., date of defect discovery) to file a complaint."
-                    },
-                    {
-                        question: "Is the manufacturer or the seller responsible for defects?",
-                        answer: "Both can be held liable. The seller for selling a defective good and the manufacturer for the defect itself."
-                    },
-                    {
-                        question: "Can I get compensation for mental harassment?",
-                        answer: "Yes, consumer courts often award compensation for mental agony and harassment caused by the defective product or service."
-                    }
-                ]
-            }
-        }
+   "retail-business-consumer-complaint": {
+  "title": "Retail Business Consumer Complaint",
+  "hero": {
+    "mainTitle": "Resolve Retail Disputes with Legal Support",
+    "bulletPoints": [
+      "Assistance for defective products and service issues",
+      "Action against unfair pricing and hidden charges",
+      "Support for warranty claims and refund disputes"
+    ],
+    "testimonial": {
+      "text": "The store refused to replace a defective laptop I purchased. VyomBiz helped me raise a complaint and I received a replacement soon after.",
+      "author": "Anjali Mehta",
+      "verified": true,
+      "avatar": "https://i.pravatar.cc/150?u=anjali"
+    }
+  },
+
+  "tabs": [
+    { "id": "overview", "label": "Overview" },
+    { "id": "types", "label": "Types" },
+    { "id": "when-to-file", "label": "When To File" },
+    { "id": "process", "label": "Process" },
+    { "id": "why-choose", "label": "Why Choose VyomBiz" },
+    { "id": "faqs", "label": "FAQs" }
+  ],
+
+  "sections": {
+    "overview": {
+      "title": "Retail Consumer Complaints – Overview",
+      "image": "/lawyer-services-images/retail-complaint-overview.png",
+      "content": [
+        "Retail consumer complaints arise when shoppers face issues related to product quality, pricing, or customer service. These complaints often involve defective goods, misleading promotions, or problems with returns and exchanges.",
+        "Consumers may also experience billing discrepancies, delayed deliveries, or lack of support from retailers when raising concerns.",
+        "Filing a formal complaint helps ensure accountability and protects consumer rights by encouraging fair and transparent business practices."
+      ]
     },
+
+    "types": {
+      "title": "Common Retail Disputes",
+      "introduction": "Consumers may encounter several issues when purchasing products from retail stores.",
+      "items": [
+        {
+          "title": "Defective or Faulty Products",
+          "description": "Selling damaged, expired, or non-working products and refusing replacement or refund.",
+          "example": "Buying a new refrigerator that stops cooling within a week."
+        },
+        {
+          "title": "Misleading Advertising",
+          "description": "Products or services that do not match the description or promises made in advertisements.",
+          "example": "A cream claiming 100% organic ingredients found to contain chemicals."
+        },
+        {
+          "title": "Incorrect Pricing or Hidden Charges",
+          "description": "Charging more than the listed price or adding undisclosed fees during purchase.",
+          "example": "Restaurant forcing a service charge despite it being optional."
+        },
+        {
+          "title": "Warranty and Guarantee Disputes",
+          "description": "Failure to honor warranty terms or provide promised repair or replacement services.",
+          "example": "Company refusing free repair for a mobile phone under warranty."
+        },
+        {
+          "title": "Refund or Exchange Refusal",
+          "description": "Retailers denying valid refund or replacement requests despite product defects.",
+          "example": "Store refusing return of a dress with a manufacturing defect."
+        },
+        {
+          "title": "Poor Customer Support",
+          "description": "Retailers failing to respond properly to complaints or customer concerns.",
+          "example": "Customer support repeatedly ignoring complaints about a defective product."
+        }
+      ]
+    },
+
+    "whenToFile": {
+      "title": "When Should You File a Retail Complaint?",
+      "content": "You may consider filing a complaint in the following situations.",
+      "parameters": [
+        {
+          "title": "Defective Product",
+          "desc": "The product purchased is faulty, unsafe, or not suitable for its intended use."
+        },
+        {
+          "title": "Unresolved Complaint",
+          "desc": "The retailer fails to resolve your issue despite repeated requests."
+        },
+        {
+          "title": "Unfair Trade Practices",
+          "desc": "The retailer engages in deceptive pricing or misleading promotions."
+        },
+        {
+          "title": "Violation of Consumer Rights",
+          "desc": "Your rights as a consumer have been ignored or violated."
+        }
+      ]
+    },
+
+    "process": {
+      "title": "Our Retail Complaint Resolution Process",
+      "introduction": "We follow a structured approach to help resolve retail consumer disputes.",
+      "steps": [
+        {
+          "title": "Document Collection",
+          "description": "Gathering invoices, warranty details, photos, and communication records."
+        },
+        {
+          "title": "Legal Notice",
+          "description": "Issuing a formal notice requesting refund, replacement, or compensation."
+        },
+        {
+          "title": "Consumer Commission Filing",
+          "description": "Escalating the matter to the consumer commission if necessary."
+        },
+        {
+          "title": "Legal Representation",
+          "description": "Our legal professionals assist you during complaint hearings."
+        },
+        {
+          "title": "Dispute Resolution",
+          "description": "Seeking refund, replacement, or compensation for the consumer."
+        }
+      ]
+    },
+
+    "whyChoose": {
+      "title": "Why Choose VyomBiz for Retail Complaints?",
+      "reasons": [
+        "Consumer Law Expertise – Our team understands consumer protection laws and dispute procedures.",
+        "Experience in Retail Disputes – Handled multiple cases involving retail service complaints.",
+        "Complete Legal Assistance – Support from complaint drafting to representation before consumer forums.",
+        "Client-Focused Approach – Our team manages the legal process while keeping you informed.",
+        "Transparent Fee Structure – Clear and straightforward pricing for legal services."
+      ]
+    },
+
+    "faqs": {
+      "title": "Retail Complaint FAQs",
+      "items": [
+        {
+          "question": "Can I return a product after purchase?",
+          "answer": "Returns depend on the store policy, but defective products can usually be returned or replaced."
+        },
+        {
+          "question": "What if a retailer charges more than the listed price?",
+          "answer": "Charging more than the displayed or printed price may be considered an unfair trade practice."
+        },
+        {
+          "question": "Is there a time limit to file a retail complaint?",
+          "answer": "Consumer complaints should generally be filed within the legally prescribed time period."
+        },
+        {
+          "question": "Who is responsible for defective products?",
+          "answer": "Both the seller and manufacturer may be responsible depending on the nature of the defect."
+        },
+        {
+          "question": "Can I claim compensation for inconvenience or loss?",
+          "answer": "Consumers may seek compensation for financial loss or inconvenience depending on the circumstances."
+        }
+      ]
+    }
+  },
+
+  "formSection": {
+    "offer": "Limited Time Offer",
+    "ctaButton": "Start Your Complaint Process",
+    "whatsappText": "Receive updates and important notifications about your complaint directly on WhatsApp."
+  },
+
+  "ctaSection": {
+    "title": "Facing a Retail Purchase Issue?",
+    "description": "Get professional assistance to resolve your complaint and claim your rightful refund or replacement.",
+    "button": "Book Free Consultation"
+  }
+},
     "streaming-platforms-consumer-complaint": {
         title: "Streaming Platforms Consumer Complaint",
         hero: {
@@ -1399,146 +1570,180 @@ export const litigationContent = {
             }
         }
     },
-    "travel-consumer-complaint": {
-        title: "Travel Consumer Complaint",
-        hero: {
-            mainTitle: "Resolve Travel Disputes - Expert Consumer Complaint Services",
-            bulletPoints: [
-                "Legal recourse for flight cancellations, delays, and lost luggage",
-                "Compensation for misleading travel packages and booking fraud",
-                "Expert drafting of consumer complaints against airlines and travel agencies"
-            ],
-            testimonial: {
-                text: "The airline refused to refund my ticket after cancelling the flight. VyomBiz helped me file a strong consumer complaint and I got my full refund along with compensation.",
-                author: "Vikram Malhotra",
-                verified: true,
-                avatar: "https://i.pravatar.cc/150?u=vikram"
-            }
-        },
-        tabs: [
-            { id: "overview", label: "Overview" },
-            { id: "types", label: "Types" },
-            { id: "when-to-file", label: "When To File" },
-            { id: "process", label: "Process" },
-            { id: "why-choose", label: "Why Choose VyomBiz" },
-            { id: "faqs", label: "FAQs" }
-        ],
-        sections: {
-            overview: {
-                title: "Travel Consumer Complaints: An Overview",
-                image: "/lawyer-services-images/travel-complaint-overview.png",
-                content: [
-                    "Travel consumer complaints can be filed for various issues such as flight delays, lost luggage, poor accommodation, or subpar customer service. These complaints help make your grievances heard by the company and provide a chance to receive compensation for them.",
-                    "One can file a travel consumer complaint regarding issues with airlines, travel agencies, hotels, or booking platforms. Such complaints aim to address shortcomings in service quality, uphold consumer rights, and foster improvements in the travel industry.",
-                    "At VyomBiz, we assist you in formally expressing your dissatisfaction, seeking solutions like refunds or compensation, and holding travel providers accountable for negligence or unfair trade practices."
-                ]
-            },
-            types: {
-                title: "Common Reasons to File a Travel Complaint",
-                introduction: "Travel disputes can arise from various service failures. We handle complaints related to:",
-                items: [
-                    {
-                        title: "Flight Cancellations & Delays",
-                        description: "Airlines cancelling flights without refund or causing excessive delays without providing compensation or alternative arrangements.",
-                        example: "Flight cancelled last minute and the airline refuses to refund the ticket amount."
-                    },
-                    {
-                        title: "Lost or Damaged Luggage",
-                        description: "Negligence by airlines or transport services resulting in the loss or damage of baggage.",
-                        example: "Airline losing checked-in luggage containing valuables and refusing to compensate."
-                    },
-                    {
-                        title: "Booking Fraud",
-                        description: "Fraudulent booking agents or websites taking money but not confirming the booking or providing fake tickets.",
-                        example: "Travel agent disappearing after taking payment for a holiday package."
-                    },
-                    {
-                        title: "Misleading Travel Packages",
-                        description: "The actual facilities and services provided differ significantly from what was promised in the brochure or advertisement.",
-                        example: "Hotel provided was of a much lower category than the 5-star hotel promised in the package."
-                    },
-                    {
-                        title: "Refund Issues",
-                        description: "Difficulty in getting refunds for cancelled tickets or unutilized services despite policy entitlements.",
-                        example: "Travel portal refusing refund for a flexible ticket cancelled within the permissible window."
-                    },
-                    {
-                        title: "Poor Service Quality",
-                        description: "Subpar service by hotels, airlines, or guides that causes significant inconvenience or distress.",
-                        example: "Hotel room was unhygienic and lacked basic amenities promised at the time of booking."
-                    }
-                ]
-            },
-            whenToFile: {
-                title: "When Should You File a Complaint?",
-                content: "You should consider legal action or a formal complaint if:",
-                parameters: [
-                    {
-                        title: "Service Failure",
-                        desc: "The service provided was significantly deficient compared to what was promised or paid for."
-                    },
-                    {
-                        title: "No Response",
-                        desc: "The travel company or airline has ignored your direct complaints and emails for a reasonable period."
-                    },
-                    {
-                        title: "Unfair Policies",
-                        desc: "The company is citing unfair terms and conditions to deny a legitimate refund or compensation claim."
-                    },
-                    {
-                        title: "Financial Loss",
-                        desc: "You have suffered a financial loss due to the negligence or cancellation by the service provider."
-                    }
-                ]
-            },
-            process: {
-                title: "Our Process for Travel Complaints",
-                introduction: "We provide a structured approach to resolving your travel disputes effectively.",
-                steps: [
-                    { title: "Document Collection", description: "Gathering proofs like tickets, receipts, emails, and photos of the issue." },
-                    { title: "Legal Notice", description: "Sending a formal Legal Notice to the travel company or airline demanding redressal." },
-                    { title: "Consumer Forum", description: "If the notice is ignored, we help you file a complaint in the appropriate Consumer Dispute Redressal Commission." },
-                    { title: "Representation", description: "Our lawyers represent your case during hearings to ensure your side is presented strongly." },
-                    { title: "Resolution", description: "Aiming for a refund, compensation for mental agony, and legal costs." }
-                ]
-            },
-            whyChoose: {
-                title: "Why Choose VyomBiz?",
-                reasons: [
-                    "Experienced Lawyers: Specialists in Consumer Protection Act and travel laws.",
-                    "High Success Rate: Proven track record in recovering refunds from major airlines and travel portals.",
-                    "End-to-End Support: From drafting the legal notice to representing you in consumer court.",
-                    "Transparent Advisory: Honest assessment of your case strength and likely outcomes.",
-                    "Cost-Effective: Affordable legal services tailored for consumer complaints."
-                ]
-            },
-            faqs: {
-                title: "Travel Complaint FAQs",
-                items: [
-                    {
-                        question: "How do I complain about a travel agency?",
-                        answer: "Start by contacting them directly. If unresolved, send a legal notice. If that fails, file a case in the Consumer Court with our help."
-                    },
-                    {
-                        question: "Can I get a refund for a non-refundable ticket?",
-                        answer: "Generally no, unless the cancellation is due to the airline's fault or force majeure events where specific waivers apply."
-                    },
-                    {
-                        question: "What compensation can I claim for flight delay?",
-                        answer: "Compensation depends on the duration of delay and airline policies, often covering refreshments, accumulation, or a set monetary amount."
-                    },
-                    {
-                        question: "How long does a consumer court case take?",
-                        answer: "It varies, but typically consumer cases can take anywhere from 6 months to 2 years depending on the complexity and court load."
-                    },
-                    {
-                        question: "Do I need a lawyer for consumer court?",
-                        answer: "While you can represent yourself, having a lawyer ensures proper drafting and legal representation, increasing your chances of success."
-                    }
-                ]
-            }
-        }
+   "travel-consumer-complaint": {
+  "title": "Travel Consumer Complaint",
+  "hero": {
+    "mainTitle": "Resolve Travel Disputes with Legal Assistance",
+    "bulletPoints": [
+      "Support for flight cancellations, delays, and lost luggage claims",
+      "Help addressing misleading travel packages and booking issues",
+      "Professional assistance for complaints against airlines and travel agencies"
+    ],
+    "testimonial": {
+      "text": "The airline refused to refund my ticket after cancelling the flight. VyomBiz helped me file a complaint and I received my refund along with compensation.",
+      "author": "Vikram Malhotra",
+      "verified": true,
+      "avatar": "https://i.pravatar.cc/150?u=vikram"
+    }
+  },
+
+  "tabs": [
+    { "id": "overview", "label": "Overview" },
+    { "id": "types", "label": "Types" },
+    { "id": "when-to-file", "label": "When To File" },
+    { "id": "process", "label": "Process" },
+    { "id": "why-choose", "label": "Why Choose VyomBiz" },
+    { "id": "faqs", "label": "FAQs" }
+  ],
+
+  "sections": {
+    "overview": {
+      "title": "Travel Consumer Complaints – Overview",
+      "image": "/lawyer-services-images/travel-complaint-overview.png",
+      "content": [
+        "Travel consumer complaints arise when passengers face issues such as flight cancellations, baggage loss, misleading travel packages, or unsatisfactory services from travel providers.",
+        "These complaints may involve airlines, travel agencies, hotels, or online booking platforms that fail to deliver the services promised to customers.",
+        "Filing a formal complaint allows consumers to seek refunds, compensation, or resolution while encouraging better service standards within the travel industry."
+      ]
     },
+
+    "types": {
+      "title": "Common Travel Disputes",
+      "introduction": "Travelers may encounter several service issues while planning or completing a trip.",
+      "items": [
+        {
+          "title": "Flight Cancellations and Delays",
+          "description": "Airlines cancelling flights or causing long delays without providing proper refunds or alternatives.",
+          "example": "Flight cancelled last minute and the airline refuses to refund the ticket amount."
+        },
+        {
+          "title": "Lost or Damaged Baggage",
+          "description": "Airlines or transport providers losing or damaging checked baggage.",
+          "example": "Airline losing checked-in luggage containing valuables and refusing to compensate."
+        },
+        {
+          "title": "Booking Fraud or Fake Tickets",
+          "description": "Travel agents or platforms taking payment but failing to provide confirmed bookings.",
+          "example": "Travel agent disappearing after taking payment for a holiday package."
+        },
+        {
+          "title": "Misleading Travel Packages",
+          "description": "Travel packages that fail to deliver the facilities or services promised during booking.",
+          "example": "Hotel provided was of a much lower category than the 5-star hotel promised in the package."
+        },
+        {
+          "title": "Refund Disputes",
+          "description": "Travel companies refusing or delaying refunds for cancelled services.",
+          "example": "Travel portal refusing refund for a flexible ticket cancelled within the permissible window."
+        },
+        {
+          "title": "Poor Service Experience",
+          "description": "Hotels, airlines, or travel providers offering services far below expected standards.",
+          "example": "Hotel room was unhygienic and lacked basic amenities promised at the time of booking."
+        }
+      ]
+    },
+
+    "whenToFile": {
+      "title": "When Should You File a Travel Complaint?",
+      "content": "You may consider filing a complaint in the following situations.",
+      "parameters": [
+        {
+          "title": "Service Deficiency",
+          "desc": "The service delivered is significantly below what was promised or paid for."
+        },
+        {
+          "title": "No Response from Provider",
+          "desc": "The travel company or airline fails to respond to your complaints."
+        },
+        {
+          "title": "Unfair Terms or Conditions",
+          "desc": "The company refuses refund or compensation using unreasonable policies."
+        },
+        {
+          "title": "Financial Loss",
+          "desc": "You experienced monetary loss due to cancellation or negligence."
+        }
+      ]
+    },
+
+    "process": {
+      "title": "Our Travel Complaint Resolution Process",
+      "introduction": "We follow a structured process to address travel consumer complaints.",
+      "steps": [
+        {
+          "title": "Evidence Collection",
+          "description": "Gathering tickets, booking confirmations, invoices, and communication records."
+        },
+        {
+          "title": "Legal Notice",
+          "description": "Issuing a formal notice requesting refund or compensation."
+        },
+        {
+          "title": "Consumer Commission Filing",
+          "description": "Escalating the matter to the consumer commission if required."
+        },
+        {
+          "title": "Legal Representation",
+          "description": "Providing assistance during hearings and legal proceedings."
+        },
+        {
+          "title": "Dispute Resolution",
+          "description": "Seeking refund, compensation, or settlement for the complaint."
+        }
+      ]
+    },
+
+    "whyChoose": {
+      "title": "Why Choose VyomBiz for Travel Complaints?",
+      "reasons": [
+        "Consumer Law Knowledge – Our team understands travel disputes under consumer protection laws.",
+        "Experience with Travel Disputes – Handled complaints against airlines, travel agencies, and booking platforms.",
+        "Complete Legal Support – Assistance from complaint drafting to representation before consumer forums.",
+        "Clear Legal Guidance – Providing straightforward advice on possible outcomes.",
+        "Affordable Legal Services – Designed to support consumers seeking justice."
+      ]
+    },
+
+    "faqs": {
+      "title": "Travel Complaint FAQs",
+      "items": [
+        {
+          "question": "How can I file a complaint against a travel agency?",
+          "answer": "Consumers can raise complaints through consumer forums or other dispute resolution channels."
+        },
+        {
+          "question": "Can I claim a refund for cancelled travel bookings?",
+          "answer": "Refund eligibility depends on the circumstances and applicable policies."
+        },
+        {
+          "question": "Can I claim compensation for flight delays?",
+          "answer": "Passengers may be entitled to compensation depending on the situation and applicable rules."
+        },
+        {
+          "question": "How long does it take to resolve a travel complaint?",
+          "answer": "The timeline depends on the complexity of the case and legal process."
+        },
+        {
+          "question": "Do I need legal assistance to file a complaint?",
+          "answer": "Legal guidance can help prepare a stronger complaint and handle the process effectively."
+        }
+      ]
+    }
+  },
+
+  "formSection": {
+    "offer": "Limited Time Offer",
+    "ctaButton": "Start Your Complaint Process",
+    "whatsappText": "Receive updates and important notifications about your complaint directly on WhatsApp."
+  },
+
+  "ctaSection": {
+    "title": "Facing a Travel Booking Problem?",
+    "description": "Get professional assistance to resolve your complaint and recover your refund or compensation.",
+    "button": "Book Free Consultation"
+  }
+},
     "defamation-complaint": {
         title: "Defamation Complaint",
         hero: {
@@ -3684,167 +3889,212 @@ export const litigationContent = {
         }
     },
     "bank-consumer-complaint": {
-        title: "Bank Consumer Complaint",
-        hero: {
-            mainTitle: "Bank Consumer Complaint",
-            bulletPoints: [
-                "Unauthorized Transaction Refunds",
-                "Hidden Charges Disputes",
-                "Loan Harassment Relief",
-                "Credit Card Disputes"
-            ],
-            testimonial: {
-                text: "VyomBiz helped me recover my money from a banking fraud case where the bank was refusing to cooperate.",
-                author: "Anjali Desai",
-                verified: true,
-                avatar: "https://i.pravatar.cc/150?u=anjali"
-            }
-        },
-        tabs: [
-            { id: "overview", label: "Overview" },
-            { id: "types", label: "Types" },
-            { id: "when-to-file", label: "When To File" },
-            { id: "process", label: "Process" },
-            { id: "why-choose", label: "Why Choose VyomBiz" },
-            { id: "faqs", label: "FAQs" }
-        ],
-        sections: {
-            overview: {
-                title: "Banking Complaints – An Overview",
-                image: "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-                content: [
-                    "Banking disputes are increasingly common, ranging from hidden charges and unauthorized debits to harassment by recovery agents.",
-                    "The RBI has established the Banking Ombudsman scheme to address these grievances, but navigating it can be complex.",
-                    "Filing a formal consumer complaint holds banks accountable for service deficiencies and unfair trade practices."
-                ]
-            },
-            types: {
-                title: "Common Reasons to File",
-                introduction: "Valid grounds for a banking consumer complaint.",
-                items: [
-                    {
-                        title: "Unauthorized Debits",
-                        description: "Money deducted from account without consent or valid reason.",
-                        example: "Unknown transaction on credit card statement."
-                    },
-                    {
-                        title: "Hidden Charges",
-                        description: "Levying fees that were not disclosed or agreed upon.",
-                        example: "Annual charges on a 'lifetime free' card."
-                    },
-                    {
-                        title: "Loan Harassment",
-                        description: "Abusive calls or behavior by recovery agents.",
-                        example: "Recovery agents calling at odd hours or threatening violence."
-                    },
-                    {
-                        title: "Credit Card Issues",
-                        description: "Wrongful billing, refusal to close cards, or hidden interest.",
-                        example: "Continuing to bill after card closure request."
-                    },
-                    {
-                        title: "Cheque Bouncing",
-                        description: "Wrongful dishonor of cheques despite sufficient funds.",
-                        example: "Bank error leading to cheque bounce penalty."
-                    },
-                    {
-                        title: "Locker Theft",
-                        description: "Loss of valuables from bank lockers due to negligence.",
-                        example: "Bank locker found empty due to lack of security."
-                    },
-                    {
-                        title: "Digital Failure",
-                        description: "Transaction failures where money is debited but not credited.",
-                        example: "ATM cash withdrawal failed but amount debited."
-                    }
-                ]
-            },
-            whenToFile: {
-                title: "Required Documents",
-                content: "Key documents needed to build a strong case.",
-                parameters: [
-                    {
-                        title: "Bank Statements",
-                        desc: "Account Statement (Passbook)."
-                    },
-                    {
-                        title: "Proof of Transaction",
-                        desc: "Transaction Slips/Receipts."
-                    },
-                    {
-                        title: "Correspondence",
-                        desc: "Emails/Letters to Bank and Complaint Reference."
-                    },
-                    {
-                        title: "Agreements",
-                        desc: "Loan Agreement or Credit Card Statements."
-                    }
-                ],
-                image: "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-            },
-            process: {
-                title: "Our Resolution Process",
-                introduction: "How Vyombiz resolves your banking disputes.",
-                steps: [
-                    {
-                        title: "Review",
-                        description: "We analyze your account statements and complaint details."
-                    },
-                    {
-                        title: "Notice",
-                        description: "A formal legal notice is sent to the bank's nodal officer."
-                    },
-                    {
-                        title: "Ombudsman",
-                        description: "If unresolved, we escalate the matter to the RBI Banking Ombudsman."
-                    },
-                    {
-                        title: "Consumer Court",
-                        description: "For compensation claims, we file a case in the Consumer Commission."
-                    },
-                    {
-                        title: "Hearing",
-                        description: "Our lawyers represent your interests during hearings."
-                    }
-                ]
-            },
-            whyChoose: {
-                title: "Why Choose Vyombiz?",
-                reasons: [
-                    "Banking Experts: Lawyers specialized in RBI regulations and banking acts.",
-                    "Ombudsman Experience: Deep understanding of the Banking Ombudsman mechanism.",
-                    "End-to-End Support: From drafting letters to court representation.",
-                    "High Success Rate: Proven track record in recovering funds for clients.",
-                    "Financial Recovery: Retrieve money lost due to fraud, scams, or bank errors."
-                ]
-            },
-            faqs: {
-                title: "Frequently Asked Questions",
-                items: [
-                    {
-                        question: "How do I file a complaint against a bank?",
-                        answer: "You can start by filing a written complaint with the bank's branch manager. If unresolved, approach the Banking Ombudsman or a Consumer Court."
-                    },
-                    {
-                        question: "What is the Banking Ombudsman?",
-                        answer: "The Banking Ombudsman is a quasi-judicial authority created by the RBI to resolve complaints of customers of banks relating to certain services and deficiencies."
-                    },
-                    {
-                        question: "Can I file a complaint for unauthorized transactions?",
-                        answer: "Yes, you should immediately report unauthorized transactions to the bank. If they fail to refund the amount despite it not being your fault, you can file a case."
-                    },
-                    {
-                        question: "Is there a time limit to file a banking complaint?",
-                        answer: "Yes, generally you must approach the Ombudsman within one year of receiving a reply from the bank, or if the bank doesn't reply, within one year and one month of your complaint."
-                    },
-                    {
-                        question: "Can I claim compensation for harassment by recovery agents?",
-                        answer: "Absolutely. Banks are liable for the conduct of their recovery agents. Abusive behavior or harassment is valid ground for a consumer complaint and compensation."
-                    }
-                ]
-            }
-        }
+  title: "Banking Complaint Assistance",
+
+  hero: {
+    mainTitle: "Banking Complaint Assistance",
+    bulletPoints: [
+      "Unauthorized Transaction Recovery",
+      "Dispute Hidden Bank Charges",
+      "Stop Loan Recovery Harassment",
+      "Resolve Credit Card Billing Issues"
+    ],
+    testimonial: {
+      text: "VyomBiz guided me through the complaint process when my bank ignored my fraud complaint. Their legal team helped me escalate the issue and get my money refunded.",
+      author: "Verified Client Review",
+      verified: true,
+      avatar: "https://i.pravatar.cc/150?u=anjali"
+    }
+  },
+
+  formSection: {
+    offerTitle: "Limited Time Offer",
+    ctaButton: "Start Your Complaint Process",
+    whatsappText:
+      "Receive case updates and important notifications directly on WhatsApp."
+  },
+
+  tabs: [
+    { id: "overview", label: "Overview" },
+    { id: "types", label: "Types" },
+    { id: "when-to-file", label: "When To File" },
+    { id: "process", label: "Process" },
+    { id: "why-choose", label: "Why Choose VyomBiz" },
+    { id: "faqs", label: "FAQs" }
+  ],
+
+  sections: {
+    overview: {
+      title: "Banking Complaints – Overview",
+      image:
+        "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      content: [
+        "Banking issues such as unauthorized transactions, hidden charges, and aggressive recovery practices are becoming more common for consumers.",
+        "While the Reserve Bank of India provides a complaint redressal system through the Banking Ombudsman, many customers find the process confusing and time-consuming.",
+        "Filing a structured consumer complaint ensures your grievance is formally recorded and increases the chances of a fair resolution against banks for service failures or unfair practices."
+      ]
     },
+
+    types: {
+      title: "Common Reasons to File a Banking Complaint",
+      introduction:
+        "Consumers can raise complaints against banks for several types of service deficiencies and unfair charges.",
+      items: [
+        {
+          title: "Unauthorized Transactions",
+          description:
+            "Money debited from your account without approval or due authorization.",
+          example: "Unknown transaction appearing in bank statement."
+        },
+        {
+          title: "Undisclosed Bank Charges",
+          description:
+            "Fees or penalties applied by the bank without prior disclosure.",
+          example: "Unexpected annual fee on a credit card."
+        },
+        {
+          title: "Recovery Agent Harassment",
+          description:
+            "Harassment or threatening behaviour from loan recovery agents.",
+          example: "Recovery agents calling repeatedly and using abusive language."
+        },
+        {
+          title: "Credit Card Billing Disputes",
+          description:
+            "Incorrect billing, hidden interest charges, or delays in closing credit card accounts.",
+          example: "Bank continuing to charge interest after closure request."
+        },
+        {
+          title: "Wrongful Cheque Dishonour",
+          description:
+            "Cheque rejection even when sufficient funds are available in the account.",
+          example: "Cheque bounce penalty due to bank error."
+        },
+        {
+          title: "Bank Locker Safety Issues",
+          description:
+            "Loss or damage to valuables due to poor locker security or negligence.",
+          example: "Missing valuables from a bank locker."
+        },
+        {
+          title: "Failed Digital Transactions",
+          description:
+            "Online or ATM transactions where money is deducted but the transaction fails.",
+          example: "ATM withdrawal failed but amount debited."
+        }
+      ]
+    },
+
+    whenToFile: {
+      title: "Documents Required for Banking Complaints",
+      content:
+        "To support your complaint effectively, the following documents are typically required.",
+      parameters: [
+        {
+          title: "Bank Account Statement",
+          desc: "Recent bank statement or passbook showing the disputed transaction."
+        },
+        {
+          title: "Transaction Proof",
+          desc: "Receipts, SMS alerts, or payment confirmation records."
+        },
+        {
+          title: "Communication Records",
+          desc: "Emails, complaint numbers, or written communication with the bank."
+        },
+        {
+          title: "Bank Agreements",
+          desc:
+            "Loan documents, credit card statements, or account terms and conditions."
+        }
+      ],
+      image:
+        "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    },
+
+    process: {
+      title: "Our Complaint Resolution Process",
+      introduction:
+        "We follow a structured legal approach to resolve banking disputes efficiently.",
+      steps: [
+        {
+          title: "Case Review",
+          description:
+            "Our team reviews your complaint details and supporting documents."
+        },
+        {
+          title: "Legal Notice",
+          description:
+            "A formal notice is drafted and sent to the bank requesting resolution."
+        },
+        {
+          title: "RBI Ombudsman Filing",
+          description:
+            "If the bank fails to respond, we escalate the complaint to the RBI Ombudsman."
+        },
+        {
+          title: "Consumer Commission",
+          description:
+            "If compensation is required, a case can be filed before the Consumer Commission."
+        },
+        {
+          title: "Legal Representation",
+          description:
+            "Our legal professionals assist you during complaint hearings and proceedings."
+        }
+      ]
+    },
+
+    cta: {
+      title: "Facing a Banking Issue?",
+      description:
+        "Get professional assistance to resolve your complaint and recover your money.",
+      button: "Book Free Consultation"
+    },
+
+    whyChoose: {
+      title: "Why Choose VyomBiz for Banking Complaints?",
+      reasons: [
+        "Banking Law Experts – Our team understands RBI guidelines and banking regulations.",
+        "Ombudsman Filing Experience – Expert support in preparing and filing complaints with the RBI Ombudsman.",
+        "Complete Legal Support – From drafting complaints to representing your case.",
+        "Proven Resolution Track Record – Successfully assisted clients in recovering funds from banking disputes.",
+        "Fund Recovery Assistance – Support in recovering money lost due to fraud, bank errors, or transaction failures."
+      ]
+    },
+
+    faqs: {
+      title: "Frequently Asked Questions",
+      items: [
+        {
+          question: "How can I file a complaint against my bank?",
+          answer:
+            "You can first submit a written complaint to the bank. If the issue is not resolved within the specified time, you can escalate it to the RBI Banking Ombudsman or Consumer Commission."
+        },
+        {
+          question: "What is the RBI Banking Ombudsman?",
+          answer:
+            "The RBI Banking Ombudsman is a grievance redressal mechanism created by the Reserve Bank of India to resolve customer complaints against banks."
+        },
+        {
+          question: "Can I raise a complaint for unauthorized bank transactions?",
+          answer:
+            "Yes, if money is debited from your account without authorization, you can raise a formal complaint with the bank and escalate it if the issue remains unresolved."
+        },
+        {
+          question: "Is there a deadline for filing a banking complaint?",
+          answer:
+            "Yes, complaints should typically be filed within one year from the date of the issue or after receiving the bank’s final response."
+        },
+        {
+          question: "Can I seek compensation for recovery agent harassment?",
+          answer:
+            "Yes, customers can file complaints and claim compensation if recovery agents use abusive language, threats, or illegal collection practices."
+        }
+      ]
+    }
+  }
+},
     "education-consumer-complaint": {
         title: "Education Consumer Complaint",
         hero: {
@@ -4170,165 +4420,210 @@ export const litigationContent = {
         }
     },
     "ecommerce-consumer-complaint": {
-        title: "E-commerce Consumer Complaint",
-        hero: {
-            mainTitle: "E-commerce Consumer Complaint",
-            bulletPoints: [
-                "Refund & Return Disputes",
-                "Defective Product Claims",
-                "Delivery Delay Compensation",
-                "Legal Notice to Sellers"
-            ],
-            testimonial: {
-                text: "I received a fake product and the seller refused to refund. VyomBiz helped me report it and I got my money back along with compensation.",
-                author: "Rohan Das",
-                verified: true,
-                avatar: "https://i.pravatar.cc/150?u=rohan"
-            }
-        },
-        tabs: [
-            { id: "overview", label: "Overview" },
-            { id: "types", label: "Types" },
-            { id: "when-to-file", label: "When To File" },
-            { id: "process", label: "Process" },
-            { id: "why-choose", label: "Why Choose VyomBiz" },
-            { id: "faqs", label: "FAQs" }
-        ],
-        sections: {
-            overview: {
-                title: "E-commerce Complaints – An Overview",
-                image: "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-                content: [
-                    "E-commerce disputes are common, involving issues like defective products, late deliveries, and refund refusals.",
-                    "A formal consumer complaint can be lodged against platforms or sellers for unfair trade practices and service deficiencies.",
-                    "Legal intervention ensures that big e-commerce players are held accountable for their actions."
-                ]
-            },
-            types: {
-                title: "Common Reasons to File",
-                introduction: "Situations where you should file an e-commerce complaint.",
-                items: [
-                    {
-                        title: "Product Defects",
-                        description: "Receiving damaged, defective, or poor-quality products.",
-                        example: "Smartphone screen cracked upon delivery."
-                    },
-                    {
-                        title: "Non-Delivery",
-                        description: "Order not delivered within the promised timeframe or at all.",
-                        example: "Package marked as delivered but not received."
-                    },
-                    {
-                        title: "Billing Issues",
-                        description: "Overcharging, unauthorized transactions, or pricing errors.",
-                        example: "Double deduction for a single order."
-                    },
-                    {
-                        title: "Poor Service",
-                        description: "Unresponsive customer support or rude behavior.",
-                        example: "Customer care closing tickets without resolution."
-                    },
-                    {
-                        title: "Fraudulent Activities",
-                        description: "Scams, counterfeit products, or fake listings.",
-                        example: "Receiving a soap bar instead of a mobile phone."
-                    },
-                    {
-                        title: "Data Privacy",
-                        description: "Mishandling of personal data or security breaches.",
-                        example: "Personal details leaked to third-party telemarketers."
-                    },
-                    {
-                        title: "Refund Refusal",
-                        description: "Unjustified rejection of return requests or refunds.",
-                        example: "Seller rejecting return despite valid reason."
-                    }
-                ]
-            },
-            whenToFile: {
-                title: "Required Documents",
-                content: "Essential proofs for your e-commerce complaint.",
-                parameters: [
-                    {
-                        title: "Order Details",
-                        desc: "Order Confirmation Email/Invoice."
-                    },
-                    {
-                        title: "Payment Proof",
-                        desc: "Bank/Card Statement showing transaction."
-                    },
-                    {
-                        title: "Evidence",
-                        desc: "Photos/Videos of Defective Product and Screenshots."
-                    },
-                    {
-                        title: "Communication",
-                        desc: "Email Correspondence with Support/Seller."
-                    }
-                ],
-                image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-            },
-            process: {
-                title: "Our Resolution Process",
-                introduction: "How Vyombiz resolves your e-commerce disputes.",
-                steps: [
-                    {
-                        title: "Collect Documents",
-                        description: "We gather necessary proofs like invoices and screenshots."
-                    },
-                    {
-                        title: "Notify Platform",
-                        description: "We formally notify the e-commerce platform/seller."
-                    },
-                    {
-                        title: "Legal Notice",
-                        description: "A strong legal notice is sent demanding immediate redressal."
-                    },
-                    {
-                        title: "Escalation",
-                        description: "If needed, we escalate to consumer forums or courts."
-                    },
-                    {
-                        title: "Resolution",
-                        description: "We aim for a quick refund, replacement, or compensation."
-                    }
-                ]
-            },
-            whyChoose: {
-                title: "Why Choose Vyombiz?",
-                reasons: [
-                    "E-commerce Experts: Deep knowledge of online consumer protection laws.",
-                    "End-to-End Support: From drafting notices to handling court filings.",
-                    "Proven Success: Track record of resolving disputes with major platforms.",
-                    "Hassle-Free: We handle the legal complexities while you relax.",
-                    "Prompt Response: Legal notices often trigger a fast response protecting reputation."
-                ]
-            },
-            faqs: {
-                title: "Frequently Asked Questions",
-                items: [
-                    {
-                        question: "What should I do if I get charged twice for my order?",
-                        answer: "If you are charged twice, contact the e-commerce platform's customer support immediately with transaction details. If they fail to refund, you can raise a dispute with your bank or file a consumer complaint."
-                    },
-                    {
-                        question: "Can I file a complaint if the product delivered is fake?",
-                        answer: "Yes, selling counterfeit products is a serious offense. You can file a complaint for unfair trade practices and seek a refund along with compensation."
-                    },
-                    {
-                        question: "How long can I wait to file a complaint for a defective product?",
-                        answer: "It is advisable to report the defect immediately. Most platforms have a return window (e.g., 7-30 days). if they refuse to accept the return within this period, you can file a complaint."
-                    },
-                    {
-                        question: "Is it possible to take legal action against big e-commerce giants?",
-                        answer: "Yes, consumer laws apply to all sellers, regardless of their size. Consumer courts frequently rule in favor of consumers against major e-commerce platforms for service deficiencies."
-                    },
-                    {
-                        question: "What if the seller refuses to refund money after a return?",
-                        answer: "If the seller refuses a refund after a valid return, you can send a legal notice. If that doesn't work, filing a case in the Consumer Forum is the next step."
-                    }
-                ]
-            }
-        }
+  title: "E-commerce Consumer Complaint Assistance",
+  hero: {
+    mainTitle: "E-commerce Consumer Complaint Assistance",
+    bulletPoints: [
+      "Refund & Return Dispute Support",
+      "Defective Product Claims",
+      "Delivery Delay Compensation",
+      "Legal Action Against Sellers"
+    ],
+    testimonial: {
+      text: "After receiving a fake product, the seller refused to process my refund. VyomBiz helped me file a complaint and the issue was resolved quickly.",
+      author: "Verified Client Review",
+      verified: true,
+      avatar: "https://i.pravatar.cc/150?u=rohan"
+    }
+  },
+
+  formSection: {
+    offerTitle: "Limited Time Offer",
+    ctaButton: "Start Your Complaint Process",
+    whatsappText:
+      "Receive updates and important notifications about your complaint directly on WhatsApp."
+  },
+
+  tabs: [
+    { id: "overview", label: "Overview" },
+    { id: "types", label: "Types" },
+    { id: "when-to-file", label: "When To File" },
+    { id: "process", label: "Process" },
+    { id: "why-choose", label: "Why Choose VyomBiz" },
+    { id: "faqs", label: "FAQs" }
+  ],
+
+  sections: {
+    overview: {
+      title: "E-commerce Complaints – Overview",
+      image:
+        "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      content: [
+        "Online shopping disputes are increasingly common and may involve defective products, delayed deliveries, or refusal of refunds by sellers.",
+        "Consumers have the right to raise complaints against sellers or platforms for unfair trade practices and poor service.",
+        "Filing a formal consumer complaint helps ensure accountability and increases the chances of getting a refund, replacement, or compensation."
+      ]
     },
+
+    types: {
+      title: "Common Reasons to File an E-commerce Complaint",
+      introduction:
+        "Consumers may file complaints against sellers or online platforms for various service deficiencies and unfair practices.",
+      items: [
+        {
+          title: "Defective or Damaged Products",
+          description:
+            "Receiving products that are damaged, defective, or significantly different from the description.",
+          example: "Smartphone screen cracked upon delivery."
+        },
+        {
+          title: "Non-Delivery of Orders",
+          description:
+            "Orders that are marked delivered but never received, or shipments that never arrive.",
+          example: "Package marked as delivered but not received."
+        },
+        {
+          title: "Payment or Billing Issues",
+          description:
+            "Overcharging, duplicate payments, or incorrect transaction amounts.",
+          example: "Double deduction for a single order."
+        },
+        {
+          title: "Poor Customer Support",
+          description:
+            "Customer support failing to resolve complaints or closing requests without proper resolution.",
+          example: "Support closing complaint tickets without solving the issue."
+        },
+        {
+          title: "Online Shopping Fraud",
+          description:
+            "Fake listings, counterfeit goods, or scams involving online purchases.",
+          example: "Receiving a soap bar instead of a mobile phone."
+        },
+        {
+          title: "Data Privacy Violations",
+          description:
+            "Misuse or leakage of personal customer information by sellers or platforms.",
+          example: "Customer data shared with unauthorized third parties."
+        },
+        {
+          title: "Refund or Return Refusal",
+          description:
+            "Sellers refusing valid refund or replacement requests despite return policy eligibility.",
+          example: "Seller rejecting return despite valid complaint."
+        }
+      ]
+    },
+
+    whenToFile: {
+      title: "Documents Required for E-commerce Complaints",
+      content:
+        "The following documents help support your complaint and strengthen your case.",
+      parameters: [
+        {
+          title: "Order Confirmation",
+          desc: "Order invoice, confirmation email, or purchase receipt."
+        },
+        {
+          title: "Payment Proof",
+          desc: "Bank statement, UPI record, or credit/debit card transaction proof."
+        },
+        {
+          title: "Product Evidence",
+          desc:
+            "Photos or videos of damaged or incorrect products and screenshots of the listing."
+        },
+        {
+          title: "Communication Records",
+          desc:
+            "Emails, chat transcripts, or complaint tickets raised with the seller or platform."
+        }
+      ],
+      image:
+        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    },
+
+    process: {
+      title: "Our Complaint Resolution Process",
+      introduction:
+        "Our team follows a structured approach to resolve e-commerce disputes efficiently.",
+      steps: [
+        {
+          title: "Document Collection",
+          description:
+            "We review invoices, order details, and evidence related to your complaint."
+        },
+        {
+          title: "Seller or Platform Notification",
+          description:
+            "A formal complaint is sent to the seller or e-commerce platform requesting resolution."
+        },
+        {
+          title: "Legal Notice",
+          description:
+            "If required, a legal notice is issued demanding refund, replacement, or compensation."
+        },
+        {
+          title: "Escalation to Consumer Forum",
+          description:
+            "If the issue remains unresolved, the complaint can be escalated to the consumer commission."
+        },
+        {
+          title: "Dispute Resolution",
+          description:
+            "The goal is to secure a refund, replacement, or financial compensation for the consumer."
+        }
+      ]
+    },
+
+    cta: {
+      title: "Facing an E-commerce Dispute?",
+      description:
+        "Get professional assistance to resolve your complaint and claim your rightful refund or compensation.",
+      button: "Book Free Consultation"
+    },
+
+    whyChoose: {
+      title: "Why Choose VyomBiz for E-commerce Complaints?",
+      reasons: [
+        "Consumer Law Expertise – Our team understands online consumer protection laws and dispute procedures.",
+        "Complete Legal Support – From drafting complaints to handling legal notices and filings.",
+        "Proven Resolution Record – Experience in handling disputes involving major online marketplaces.",
+        "Hassle-Free Process – Our team manages the legal process while you focus on your daily routine.",
+        "Faster Complaint Resolution – Formal complaints and legal notices often result in quicker responses from sellers or platforms."
+      ]
+    },
+
+    faqs: {
+      title: "Frequently Asked Questions",
+      items: [
+        {
+          question: "How can I file a complaint against an online seller?",
+          answer:
+            "Consumers can first contact the seller or platform support. If the issue is unresolved, a formal complaint can be filed with the consumer forum."
+        },
+        {
+          question: "Can I file a complaint for a defective product?",
+          answer:
+            "Yes. If you receive a defective or damaged product and the seller refuses to replace or refund it, you can file a consumer complaint."
+        },
+        {
+          question: "What if the seller refuses to refund my order?",
+          answer:
+            "If the seller rejects a valid refund request, you can escalate the issue through legal notice or consumer commission proceedings."
+        },
+        {
+          question: "Is there a time limit to file an e-commerce complaint?",
+          answer:
+            "Yes. Generally, consumer complaints should be filed within two years from the date of the issue."
+        },
+        {
+          question: "Can I claim compensation for online shopping fraud?",
+          answer:
+            "Yes. If you suffer financial loss due to fraud or counterfeit products, you may claim compensation through consumer forums."
+        }
+      ]
+    }
+  }
+}
 };
